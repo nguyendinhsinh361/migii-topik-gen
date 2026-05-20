@@ -1,0 +1,18 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220003_a_1_20260515_174350_q0,220003_a_1,2,read,[5～6] 다음은 무엇에 대한 글인지 고르십시오.,1,,,,environment,,2,"환경 보호
+교통 안전
+화재 예방
+이웃 사랑",1,"1. Bảo vệ môi trường (Đáp án đúng - dựa trên '맑은 물, 푸른 산' và '자연을 보호합시다')
+2. An toàn giao thông
+3. Phòng chống hỏa hoạn
+4. Tình yêu hàng xóm
+--------------------
+Thông điệp '맑은 물, 푸른 산' (Nước trong, núi xanh) và '자연 보호' (Bảo vệ tự nhiên) chỉ ra chủ đề môi trường.","1. Environmental protection (Correct Answer - based on 'Clear water, blue mountains' and 'Let's protect nature')
+2. Traffic safety
+3. Fire prevention
+4. Neighborly love
+--------------------
+The messages 'Clear water, blue mountains' (맑은 물, 푸른 산) and 'Nature protection' (자연 보호) indicate the theme of environment.",,qf_topic_identify,1,"
+trap_similar_word
+trap_similar_word
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350

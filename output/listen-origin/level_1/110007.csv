@@ -1,0 +1,27 @@
+﻿id,kind,level,tag,title,count_question,g_text_audio,g_text_audio_vi,g_text_audio_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,created_at
+110007_20260515_170026_q0,110007,1,listen,다음을 듣고 <u>여자</u>의 중심 생각을 고르십시오.,1,"남자: 수미 씨, 또 샌드위치예요? 밖에서 사 먹는 게 더 편하지 않아요?
+여자: 편하기는 하지만 집에서 직접 만든 음식이 건강에 더 좋잖아요.
+남자: 그래도 매일 준비하려면 힘들 텐데요.
+여자: 조금 힘들어도 건강을 생각해서 직접 요리하는 게 좋다고 생각해요.","Nam: Sumi, lại là bánh sandwich à? Ăn ở ngoài không phải tiện hơn sao?
+Nữ: Tiện thì có tiện thật nhưng đồ ăn tự làm ở nhà tốt cho sức khỏe hơn mà.
+Nam: Nhưng mà ngày nào cũng chuẩn bị thì mệt lắm đấy.
+Nữ: Dù hơi mệt một chút nhưng vì sức khỏe nên tôi nghĩ việc tự nấu ăn là tốt nhất.","Man: Sumi, sandwiches again? Isn't it more convenient to eat out?
+Woman: It is convenient, but food made at home is better for your health.
+Man: But it must be hard to prepare every day.
+Woman: Even if it's a bit hard, I think it's better to cook yourself for the sake of your health.",food_restaurant,,3,"밖에서 음식을 사 먹는 게 편합니다.
+샌드위치를 매일 먹으면 안 좋습니다.
+건강을 위해 직접 요리하는 게 좋습니다.
+요리하는 것은 시간이 많이 걸립니다.",3,"1. Ăn ngoài thì tiện lợi. (trap_opinion_swap - ý kiến của nam)
+2. Ăn bánh sandwich mỗi ngày là không tốt. (trap_shared_noun)
+3. Nên tự nấu ăn vì sức khỏe. (Đáp án đúng)
+4. Nấu ăn tốn nhiều thời gian. (trap_shared_noun)
+--------------------
+Người phụ nữ nhấn mạnh việc tự nấu ăn tốt cho sức khỏe dù vất vả.","1. Eating out is convenient. (trap_opinion_swap - man's opinion)
+2. Eating sandwiches every day is not good. (trap_shared_noun)
+3. It's better to cook yourself for health. (Correct Answer)
+4. Cooking takes a lot of time. (trap_shared_noun)
+--------------------
+The woman emphasizes that cooking for oneself is better for health despite the effort.",,qf_main_opinion,8,"trap_opinion_swap
+trap_shared_noun
+
+trap_shared_noun",,,,,,,,,,,20260515_170026

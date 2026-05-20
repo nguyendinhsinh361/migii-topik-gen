@@ -1,0 +1,27 @@
+﻿id,kind,level,tag,title,count_question,g_text_audio,g_text_audio_vi,g_text_audio_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,created_at
+210001_1_20260515_170026_q0,210001_1,2,listen,[1～3]다음을 듣고 알맞은 그림을 고르십시오. (각 2점),1,"여자: 창문이 깨졌네요. 위험하니까 가까이 가지 마세요.
+남자: 네, 제가 금방 사람을 불러서 고칠게요. 잠시만 기다려 주세요.
+여자: 그럼 저는 유리 조각을 좀 치워야겠어요.","Nữ: Cửa sổ bị vỡ rồi kìa. Nguy hiểm lắm nên đừng lại gần nhé.
+Nam: Vâng, tôi sẽ gọi người đến sửa ngay. Xin hãy chờ một lát.
+Nữ: Vậy tôi phải dọn dẹp mấy mảnh kính vỡ thôi.","Woman: The window is broken. It's dangerous, so don't go near it.
+Man: Okay, I'll call someone to fix it right away. Please wait a moment.
+Woman: Then I should clean up the glass pieces.",home_housing,,2,"①
+②
+③
+④",1,"1. Người đàn ông đang gọi điện thoại và người phụ nữ đang quét các mảnh kính vỡ trên sàn. Có thể thấy cửa sổ bị vỡ ở phía sau. (Đáp án đúng)
+2. Người đàn ông và người phụ nữ đang nói chuyện trước cửa sổ bị vỡ.
+3. Người đàn ông đang sửa cửa sổ và người phụ nữ đang đứng cạnh quan sát.
+4. Người phụ nữ định chạm vào cửa sổ bị vỡ và người đàn ông đang ngăn lại.
+--------------------
+Nam nói sẽ gọi người (남자가 전화), nữ nói sẽ dọn kính (여자가 청소). Tranh 1 khớp nhất.","1. The man is making a phone call, and the woman is sweeping glass pieces on the floor. A broken window is visible in the background. (Correct Answer)
+2. A man and a woman are talking in front of a broken window.
+3. The man is fixing the window, and the woman is watching beside him.
+4. The woman is trying to touch the broken window, and the man is stopping her.
+--------------------
+The man says he'll call someone (man calling), and the woman says she'll clean up (woman cleaning). Picture 1 is the best match.","(1) 남자가 전화를 하고 있고 여자가 바닥의 유리 조각을 쓸고 있다. 배경에 깨진 창문이 보인다.
+(2) 남자와 여자가 깨진 창문 앞에서 이야기를 나누고 있다.
+(3) 남자가 창문을 고치고 있고 여자가 옆에서 보고 있다.
+(4) 여자가 깨진 창문을 만지려고 하자 남자가 말리고 있다.",qf_match_image,6,"
+
+
+",,,,,,,,,,,20260515_170026

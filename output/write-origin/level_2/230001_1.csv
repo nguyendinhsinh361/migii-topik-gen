@@ -1,0 +1,27 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,g_image,g_image_desc,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,q_text_4,q_point_4,q_answer_4,q_correct_4,explain_vi_4,explain_en_4,q_image_desc_4,question_feature_4,difficulty_4,distractor_trap_4,q_text_5,q_point_5,q_answer_5,q_correct_5,explain_vi_5,explain_en_5,q_image_desc_5,question_feature_5,difficulty_5,distractor_trap_5,q_text_6,q_point_6,q_answer_6,q_correct_6,explain_vi_6,explain_en_6,q_image_desc_6,question_feature_6,difficulty_6,distractor_trap_6,q_text_7,q_point_7,q_answer_7,q_correct_7,explain_vi_7,explain_en_7,q_image_desc_7,question_feature_7,difficulty_7,distractor_trap_7,q_text_8,q_point_8,q_answer_8,q_correct_8,explain_vi_8,explain_en_8,q_image_desc_8,question_feature_8,difficulty_8,distractor_trap_8,q_text_9,q_point_9,q_answer_9,q_correct_9,explain_vi_9,explain_en_9,q_image_desc_9,question_feature_9,difficulty_9,distractor_trap_9,q_text_10,q_point_10,q_answer_10,q_correct_10,explain_vi_10,explain_en_10,q_image_desc_10,question_feature_10,difficulty_10,distractor_trap_10,created_at
+230001_1_20260515_175559_q0,230001_1,2,write,[51] 다음을 읽고 (ㄱ)과 (ㄴ)에 들어갈 말을 각각 한 문장으로 쓰십시오.,1,,,,,,daily_life,"수미 씨, 안녕하세요? 
+지난주에 드디어 이사를 마쳤습니다. 그래서 이번 주 토요일 저녁에 우리 집에서 ( ㄱ ). 
+바쁘시겠지만 꼭 오셔서 자리를 빛내 주시면 좋겠습니다. 
+혹시 그날 ( ㄴ )? 연락 기다리겠습니다.",10,"(ㄱ) 집들이를 하려고 합니다 - (ㄴ) 시간이 괜찮으십니까
+(ㄱ) 집들이를 하세요 - (ㄴ) 시간이 없으십니까
+(ㄱ) 이사를 갑니다 - (ㄴ) 바쁘십니까
+(ㄱ) 집들이를 하려고 합니다 - (ㄴ) 오실 거예요",1,"Điền từ/cụm từ thích hợp vào chỗ trống.:
+1. (ㄱ) định tổ chức tiệc tân gia - (ㄴ) bạn có thời gian không
+2. (ㄱ) hãy tổ chức tiệc tân gia - (ㄴ) bạn không có thời gian à
+3. (ㄱ) sẽ chuyển nhà - (ㄴ) bạn có bận không
+4. (ㄱ) định tổ chức tiệc tân gia - (ㄴ) bạn sẽ đến chứ
+----------------------------
+Chào Sumi. Tuần trước tôi đã hoàn thành việc chuyển nhà. Vì vậy, tối thứ Bảy tuần này tôi (định tổ chức tiệc tân gia) tại nhà mình. Dù bận rộn nhưng tôi hy vọng bạn sẽ đến và làm cho buổi tiệc thêm ý nghĩa. Liệu ngày hôm đó (bạn có thời gian không)? Tôi sẽ đợi liên lạc của bạn.
+
+Ở (ㄱ), chủ ngữ là 'tôi' và đang thông báo kế hoạch nên dùng ngữ pháp -(으)려고 하다 là phù hợp nhất. Đáp án 2 sai đuôi câu -세요 (mệnh lệnh). Ở (ㄴ), đây là lời mời lịch sự nên '시간이 괜찮으십니까' (bạn có tiện/có thời gian không) là cách hỏi trang trọng và phù hợp nhất. Đáp án 4 dùng '오실 거예요' hơi thiếu trang trọng trong ngữ cảnh này. Đáp án 3 sai vế (ㄱ) vì đã chuyển nhà xong rồi.","Fill in the blanks with the appropriate words/phrases.
+1. <g>(ㄱ)</g> intend to have a housewarming party - <g>(ㄴ)</g> do you have time
+2. <g>(ㄱ)</g> please have a housewarming party - <g>(ㄴ)</g> do you not have time
+3. <g>(ㄱ)</g> am moving - <g>(ㄴ)</g> are you busy
+4. <g>(ㄱ)</g> intend to have a housewarming party - <g>(ㄴ)</g> will you come
+-----------------------------
+Hello Sumi. I finally finished moving last week. So, this Saturday evening, I (intend to have a housewarming party) at my house. I know you're busy, but I'd love for you to come. Do you (have time) that day? I'll be waiting for your call.
+
+In <g>(ㄱ)</g>, the speaker is announcing a plan, so <g>-(으)려고 하다</g> is the most appropriate. Answer 2 uses the wrong ending <g>-세요</g>. In <g>(ㄴ)</g>, <g>시간이 괜찮으십니까</g> is the most polite and natural way to ask for availability in this context. => Answer 1","친구에게 보내는 집들이 초대장 메시지. (ㄱ)은 집들이를 한다는 내용, (ㄴ)은 오겠는지 묻는 내용.",qf_fill_blank_pair,1,"
+trap_grammar_ending
+trap_partial_truth
+trap_grammar_ending",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20260515_175559

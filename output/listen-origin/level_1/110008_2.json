@@ -1,0 +1,73 @@
+[
+  {
+    "title": "[27～28] 다음을 듣고 물음에 답하십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 여보세요, 한국 호텔입니다. 무엇을 도와드릴까요?\n남자: 이번 주 토요일에 방 하나 예약할 수 있을까요?\n여자: 네, 잠시만요. 아, 그날은 이미 예약이 다 끝났습니다.\n남자: 그래요? 그럼 금요일은 어때요?\n여자: 금요일은 빈 방이 하나 있습니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: A lô, khách sạn Hankook xin nghe. Tôi có thể giúp gì cho ông?\nNam: Tôi có thể đặt một phòng vào thứ Bảy tuần này không?\nNữ: Vâng, xin chờ một lát. À, ngày đó đã hết phòng rồi ạ.\nNam: Thế sao? Vậy còn thứ Sáu thì sao?\nNữ: Thứ Sáu thì vẫn còn một phòng trống ạ.",
+        "en": "Woman: Hello, this is Hankook Hotel. How can I help you?\nMan: Can I book a room for this Saturday?\nWoman: Yes, one moment. Oh, all rooms are already booked for that day.\nMan: Really? How about Friday then?\nWoman: We have one empty room on Friday."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "어떤 이야기를 하고 있는지 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "약속",
+          "예약",
+          "소개",
+          "부탁"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Hẹn gặp\n2. Đặt trước (Đáp án đúng)\n3. Giới thiệu\n4. Nhờ vả\n--------------------\nHội thoại xoay quanh việc đặt phòng khách sạn (예약).",
+          "en": "1. Appointment\n2. Reservation (Correct Answer)\n3. Introduction\n4. Request\n--------------------\nThe conversation is about booking a hotel room (예약)."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": ""
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_point": 4,
+        "q_answer": [
+          "남자는 토요일에 방을 예약했습니다.",
+          "호텔에 토요일 빈 방이 있습니다.",
+          "여자는 호텔에서 일합니다.",
+          "남자는 금요일에 호텔에 갔습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. Người đàn ông đã đặt phòng vào thứ Bảy. (trap_neg_없안)\n2. Khách sạn có phòng trống vào thứ Bảy. (trap_opposite_meaning)\n3. Người phụ nữ làm việc ở khách sạn. (Đáp án đúng)\n4. Người đàn ông đã đến khách sạn vào thứ Sáu. (trap_partial_truth)\n--------------------\nNgười phụ nữ nghe điện thoại và trả lời thông tin phòng, chứng tỏ cô làm việc ở đó.",
+          "en": "1. The man booked a room for Saturday. (trap_neg_없안)\n2. The hotel has an empty room on Saturday. (trap_opposite_meaning)\n3. The woman works at the hotel. (Correct Answer)\n4. The man went to the hotel on Friday. (trap_partial_truth)\n--------------------\nThe woman answers the phone and provides room information, proving she works there."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "trap_opposite_meaning",
+          "3": "",
+          "4": "trap_partial_truth"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_2",
+    "count_question": 2,
+    "tag": "listen",
+    "topic": "travel"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "[1～3]다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 창문이 깨졌네요. 위험하니까 가까이 가지 마세요.\n남자: 네, 제가 금방 사람을 불러서 고칠게요. 잠시만 기다려 주세요.\n여자: 그럼 저는 유리 조각을 좀 치워야겠어요.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Cửa sổ bị vỡ rồi kìa. Nguy hiểm lắm nên đừng lại gần nhé.\nNam: Vâng, tôi sẽ gọi người đến sửa ngay. Xin hãy chờ một lát.\nNữ: Vậy tôi phải dọn dẹp mấy mảnh kính vỡ thôi.",
+        "en": "Woman: The window is broken. It's dangerous, so don't go near it.\nMan: Okay, I'll call someone to fix it right away. Please wait a moment.\nWoman: Then I should clean up the glass pieces."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "q_image_description": {
+          "1": "남자가 전화를 하고 있고 여자가 바닥의 유리 조각을 쓸고 있다. 배경에 깨진 창문이 보인다.",
+          "2": "남자와 여자가 깨진 창문 앞에서 이야기를 나누고 있다.",
+          "3": "남자가 창문을 고치고 있고 여자가 옆에서 보고 있다.",
+          "4": "여자가 깨진 창문을 만지려고 하자 남자가 말리고 있다."
+        },
+        "explain": {
+          "vi": "1. Người đàn ông đang gọi điện thoại và người phụ nữ đang quét các mảnh kính vỡ trên sàn. Có thể thấy cửa sổ bị vỡ ở phía sau. (Đáp án đúng)\n2. Người đàn ông và người phụ nữ đang nói chuyện trước cửa sổ bị vỡ.\n3. Người đàn ông đang sửa cửa sổ và người phụ nữ đang đứng cạnh quan sát.\n4. Người phụ nữ định chạm vào cửa sổ bị vỡ và người đàn ông đang ngăn lại.\n--------------------\nNam nói sẽ gọi người (남자가 전화), nữ nói sẽ dọn kính (여자가 청소). Tranh 1 khớp nhất.",
+          "en": "1. The man is making a phone call, and the woman is sweeping glass pieces on the floor. A broken window is visible in the background. (Correct Answer)\n2. A man and a woman are talking in front of a broken window.\n3. The man is fixing the window, and the woman is watching beside him.\n4. The woman is trying to touch the broken window, and the man is stopping her.\n--------------------\nThe man says he'll call someone (man calling), and the woman says she'll clean up (woman cleaning). Picture 1 is the best match."
+        },
+        "question_feature": "qf_match_image",
+        "difficulty": 6,
+        "distractor_traps": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": ""
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001_1",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "home_housing"
+  }
+]

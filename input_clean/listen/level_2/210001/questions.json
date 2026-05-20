@@ -1,0 +1,674 @@
+[
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 손님, 마음에 드는 넥타이 있으세요? \n남자: 제일 오른쪽에 있는 줄무늬 넥타이가 괜찮아 보이네요.\n여자: 그럼 이걸로 꺼내서 보여 드릴까요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Sir, do you like any tie?\nMan: The striped tie on the far right looks good.\nWoman: Then let me take that out for you to see.",
+        "vi": "Nữ: Thưa quý khách, quý khách có thích chiếc cà vạt nào không ạ?\nNam: Chiếc cà vạt sọc ở ngoài cùng bên phải trông rất đẹp.\nNữ: Vậy để tôi lấy cái đó ra cho quý khách xem ạ."
+      },
+      "g_audio": "/topiks/audios/9652c6632d1b617da9e66734aa981119_47_71.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/da54ba4a07d5aa346f6938d313483ceb.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "The man, a customer, wants to see the striped tie on the far right. The woman is the seller. 2 is the correct answer.",
+          "vi": "Nhân vật nam là khách hàng, muốn xem chiếc cà vạt sọc ở phía bên phải. Nhân vật nữ là người bán. 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 음, 이 사과 정말 달고 맛있네요.\n여자: 그러네요. 하나 더 깎을까요?\n남자: 네, 좋아요. 수미 씨는 먹고 있어요. 제가 할게요.",
+      "g_text_audio_translate": {
+        "en": "Man: Hmm, these apples are really sweet and delicious.\nWoman: That's right. Shall I cut another one?\nMan: Yes, okay. Soo Mi, you are eating so let me do it.",
+        "vi": "Nam: Ưm, quả táo này thực sự ngon và ngọt quá.\nNữ: Đúng vậy. Tôi cắt thêm 1 trái nữa nha?\nNam: Vâng, được rồi. Soo Mi đang ăn nên để tôi làm cho."
+      },
+      "g_audio": "/topiks/audios/4dd13b4afa97fc5739cb21fc71f381e1_2_26.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/58baf46ca8fd14f8dba013d21daac6d9.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Since the woman is eating an apple, the man will be the one who cuts the apple. 1 is the correct answer.",
+          "vi": "Vì nhân vật nữ đang ăn táo nên nhân vật nam sẽ là người cắt táo. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 최근 한 조사에 따르면 성인 독서율이 계속 감소하고 있는 것으로 나타났습니다. 독서를 하지 않는 이유로는 '일 때문에 시간이 없어서'라는 응답이 가장 많았고, '책 대신 다른 매체를 이용해서', '책 읽는 습관이 안 들어서'가 그 뒤를 이었습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: A recent survey found that adult reading rates continue to decline. The most common reason for not reading was 'I don't have time because of work,' followed by 'using other media instead of books,' and 'I don't have the habit of reading books.'",
+        "vi": "Nam: Một cuộc khảo sát gần đây cho thấy tỷ lệ đọc sách ở người trưởng thành tiếp tục giảm. Lý do không đọc sách được đưa ra nhiều nhất là \"vì công việc nên không có thời gian. Tiếp theo là \"sử dụng các phương tiện truyền thông khác thay vì sách\" và \"vì không có thói quen đọc sách\"."
+      },
+      "g_audio": "/topiks/audios/acd545c1b604c2e9c61d4dc14950eab8_3_37.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/9dad73460f9593fb8b7bf3402741a2de.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Answers 1 and 2 are eliminated because the man does not mention the rate of decrease and increase over the years. Answer 4 is eliminated because it does not show the correct order of reasons for not reading books. 3 is the correct answer.",
+          "vi": "Đáp án 1 và 2 bị loại vì nội dung không đề cập đến tỷ lệ giảm và tăng qua từng năm. Đáp án 4 bị loại vì không thể hiện đúng thứ tự lý do không đọc sách. 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 지금 전시장에 들어갈 수 있어요?\n남자: 잠시만 기다려 주세요. 곧 입장 시작합니다.\n여자: 네. 알겠습니다.",
+      "g_text_audio_translate": {
+        "en": "Woman: Can I enter the exhibition hall now?\nMan: Please wait a moment. Entry will begin soon.\nWoman: All right.",
+        "vi": "Nữ: Bây giờ tôi có thể vào phòng triển lãm được không?\nNam: Xin vui lòng đợi một chút. Sắp đến giờ được phép vào rồi.\nNữ: Vâng. Tôi biết rồi.",
+        "ar": "المرأة: هل أستطيع الدخول إلى قاعة المعرض الآن؟\nالرجل: من فضلك انتظر لحظة. سيبدأ الدخول قريبا.\nالمرأة: حسنًا.",
+        "ru": "Женщина: Могу ли я сейчас войти в выставочный зал?\nМужчина: Пожалуйста, подождите немного. Вступление скоро начнется.\nЖенщина: Хорошо.",
+        "de": "Frau: Kann ich jetzt die Ausstellungshalle betreten?\nMann: Bitte warten Sie einen Moment. Der Eintrag beginnt in Kürze.\nFrau: Alles klar.",
+        "fr": "Femme : Puis-je entrer dans la salle d'exposition maintenant ?\nHomme : S'il vous plaît, attendez un instant. L'entrée commencera bientôt.\nFemme : Très bien.",
+        "id": "Wanita: Bolehkah saya memasuki ruang pameran sekarang?\nPria: Mohon tunggu sebentar. Entri akan segera dimulai.\nWanita: Baiklah.",
+        "it": "Donna: Posso entrare nella sala espositiva adesso?\nUomo: Per favore aspetta un momento. L'inserimento inizierà presto.\nDonna: Va bene.",
+        "ja": "女性: 今から展示ホールに入ってもいいですか?\n男性: ちょっとお待ちください。もうすぐエントリーが始まります。\n女性: わかりました。",
+        "pt": "Mulher: Posso entrar na sala de exposições agora?\nHomem: Por favor, espere um momento. A entrada começará em breve.\nMulher: Tudo bem.",
+        "th": "ผู้หญิง: ฉันสามารถเข้าไปในห้องนิทรรศการตอนนี้ได้ไหม?\nผู้ชาย: กรุณารอสักครู่. รายการจะเริ่มเร็ว ๆ นี้\nผู้หญิง: เอาล่ะ.",
+        "tr": "Kadın: Artık sergi salonuna girebilir miyim?\nAdam: Lütfen biraz bekleyin. Giriş yakında başlayacak.\nKadın: Peki.",
+        "zh-CN": "女：现在可以进展厅吗？\n男：请稍等。报名即将开始。\n女：好吧。",
+        "zh-TW": "女：現在可以進展廳嗎？\n男：請稍等。報名即將開始。\n女：好吧。",
+        "hi": "महिला: क्या मैं अब प्रदर्शनी हॉल में प्रवेश कर सकती हूँ?\nआदमी: कृपया एक क्षण रुकें। प्रवेश जल्द ही शुरू होगा.\nमहिला: ठीक है.",
+        "es": "Mujer: ¿Puedo entrar a la sala de exposiciones ahora?\nHombre: Por favor espera un momento. La entrada comenzará pronto.\nMujer: Está bien."
+      },
+      "g_audio": "/topiks/audios/0318e1c01973424df5dfb31044644290_44_61.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/f53406b0bccb9b21b7b60e9e7352e836.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "The woman is a visitor wanting to enter the exhibition hall, and the man is an employee. 1 is the correct answer.",
+          "vi": "Nhân vật nữ là khách đang muốn vào trong triển lãm, nhân vật nam là nhân viên. 1 là đáp án đúng.",
+          "ar": "المرأة زائرة تريد الدخول إلى قاعة المعرض، والرجل موظف. 1 هو الجواب الصحيح.",
+          "ru": "Женщина – посетитель, желающий войти в выставочный зал, а мужчина – сотрудник. 1 – правильный ответ.",
+          "de": "Die Frau ist eine Besucherin, die die Ausstellungshalle betreten möchte, und der Mann ist ein Angestellter. 1 ist die richtige Antwort.",
+          "fr": "La femme est une visiteuse souhaitant entrer dans la salle d’exposition et l’homme est un employé. 1 est la bonne réponse.",
+          "id": "Perempuan adalah pengunjung yang ingin memasuki ruang pameran, dan laki-laki adalah pegawai. 1 adalah jawaban yang benar.",
+          "it": "La donna è una visitatrice che vuole entrare nella sala espositiva e l'uomo è un impiegato. 1 è la risposta corretta.",
+          "ja": "女性は展示会場への入場を希望する来場者、男性は従業員。 1 が正解です。",
+          "pt": "A mulher é uma visitante que deseja entrar no salão de exposições e o homem é um funcionário. 1 é a resposta correta.",
+          "th": "ผู้หญิงคือแขกที่ต้องการเข้าไปในห้องนิทรรศการ ส่วนผู้ชายเป็นลูกจ้าง 1 คือคำตอบที่ถูกต้อง",
+          "tr": "Kadın sergi salonuna girmek isteyen bir ziyaretçi, erkek ise bir çalışan. 1 doğru cevaptır.",
+          "zh-CN": "女子是想要进入展厅的参观者，男子是员工。 1 是正确答案。",
+          "zh-TW": "女子是想要進入展廳的參觀者，男子是員工。 1 是正確答案。",
+          "hi": "महिला एक आगंतुक है जो प्रदर्शनी हॉल में प्रवेश करना चाहती है, और पुरुष एक कर्मचारी है। 1 सही उत्तर है.",
+          "es": "La mujer es una visitante que quiere entrar a la sala de exposiciones y el hombre es un empleado. 1 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 아, 무거워. 이 화분은 어디에 놓을까?\n여자: 여기 창문 앞은 어때?\n남자: 그래. 거기가 좋겠다.",
+      "g_text_audio_translate": {
+        "en": "Man: Oh, it's so heavy. Where should I put this flower pot?\nWoman: How about here in front of this window?\nMan: Yeah. That would be nice.",
+        "vi": "Nam: Ôi, nặng quá. Đặt chậu hoa này ở đâu nhỉ?\r\nNữ: Ở trước cửa sổ này thì sao?\r\nNam: Ừ. Chỗ đó được đó.",
+        "ar": "الرجل: أوه، إنه ثقيل جداً. أين يجب أن أضع وعاء الزهور هذا؟\nالمرأة: ماذا عن هنا أمام هذه النافذة؟\nالرجل: نعم. سيكون ذلك جميلا.",
+        "ru": "Мужчина: Ой, он такой тяжелый. Куда мне поставить этот цветочный горшок?\nЖенщина: А как насчет здесь, перед этим окном?\nМужчина: Да. Это было бы здорово.",
+        "de": "Mann: Oh, es ist so schwer. Wo soll ich diesen Blumentopf hinstellen?\nFrau: Wie wäre es hier vor diesem Fenster?\nMann: Ja. Das wäre schön.",
+        "fr": "Homme : Oh, c'est tellement lourd. Où dois-je mettre ce pot de fleur ?\nFemme : Et ici, devant cette fenêtre ?\nHomme : Ouais. Ce serait bien.",
+        "id": "Pria: Oh, berat sekali. Di mana saya harus meletakkan pot bunga ini?\nWanita: Bagaimana kalau di sini, di depan jendela ini?\nPria: Ya. Itu akan menyenangkan.",
+        "it": "Uomo: Oh, è così pesante. Dove dovrei mettere questo vaso di fiori?\nDonna: Che ne dici di stare qui davanti a questa finestra?\nUomo: Sì. Sarebbe carino.",
+        "ja": "男性: ああ、とても重いですね。この植木鉢はどこに置けばいいですか?\n女：この窓の前はどうですか？\n男性: そうですね。それはいいですね。",
+        "pt": "Homem: Oh, é tão pesado. Onde devo colocar este vaso de flores?\nMulher: Que tal aqui na frente dessa janela?\nHomem: Sim. Isso seria bom.",
+        "th": "ผู้ชาย: โอ้มันหนักมาก ฉันควรวางกระถางดอกไม้นี้ไว้ที่ไหน?\nผู้หญิง: แล้วตรงหน้าต่างนี้ล่ะ?\nผู้ชาย: ใช่. นั่นคงจะดี",
+        "tr": "Adam: Ah, çok ağır. Bu saksıyı nereye koyayım?\nKadın: Şu pencerenin önüne ne dersin?\nAdam: Evet. Bu güzel olurdu.",
+        "zh-CN": "男：哦，好重啊。我应该把这个花盆放在哪里？\n女：就在这个窗前怎么样？\n男人：是的。那太好了。",
+        "zh-TW": "男：哦，好重啊。我該把這個花盆放在哪裡？\n女：就在這個窗前怎麼樣？\n男人：是的。那太好了。",
+        "hi": "आदमी: ओह, यह तो बहुत भारी है. मुझे यह फूलदान कहां रखना चाहिए?\nमहिला: यहाँ इस खिड़की के सामने कैसा रहेगा?\nआदमी: हाँ. वह अच्छा रहेगा।",
+        "es": "Hombre: Oh, es tan pesado. ¿Dónde debo poner esta maceta?\nMujer: ¿Qué tal aquí frente a esta ventana?\nHombre: Sí. Sería bueno."
+      },
+      "g_audio": "/topiks/audios/ed7aa39df9be93621cce137d485c426b_2_18.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/b4f9293583a8fd242c59a81e7eae15c0.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "The man is carrying a flower pot, and the woman is pointing to the place in front of the window. 1 is the correct answer.",
+          "vi": "Nhân vật nam đang đang bê chậu hoa, nhân vật nữ chỉ vào chỗ ở trước cửa sổ. 1 là đáp án đúng.",
+          "ar": "يحمل الرجل إناءً للزهور، والمرأة تشير إلى المكان أمام النافذة. 1 هو الجواب الصحيح.",
+          "ru": "Мужчина несет цветочный горшок, а женщина показывает на место перед окном. 1 – правильный ответ.",
+          "de": "Der Mann trägt einen Blumentopf und die Frau zeigt auf den Platz vor dem Fenster. 1 ist die richtige Antwort.",
+          "fr": "L'homme porte un pot de fleurs et la femme montre l'endroit devant la fenêtre. 1 est la bonne réponse.",
+          "id": "Laki-laki membawa pot bunga, dan perempuan menunjuk ke suatu tempat di depan jendela. 1 adalah jawaban yang benar.",
+          "it": "L'uomo porta un vaso di fiori e la donna indica il posto davanti alla finestra. 1 è la risposta corretta.",
+          "ja": "男性は植木鉢を抱えており、女性は窓の前の場所を指さしています。 1 が正解です。",
+          "pt": "O homem carrega um vaso de flores e a mulher aponta para o local em frente à janela. 1 é a resposta correta.",
+          "th": "ผู้ชายกำลังถือกระถางต้นไม้ ส่วนผู้หญิงชี้ไปที่บริเวณหน้าหน้าต่าง 1 คือคำตอบที่ถูกต้อง",
+          "tr": "Adam elinde bir saksı taşıyor, kadın ise pencerenin önündeki yeri işaret ediyor. 1 doğru cevaptır.",
+          "zh-CN": "男人提着一个花盆，女人指着窗前的地方。 1 是正确答案。",
+          "zh-TW": "男人提著一個花盆，女人指著窗前的地方。 1 是正確答案。",
+          "hi": "आदमी एक फूल का गमला ले जा रहा है, और महिला खिड़की के सामने जगह की ओर इशारा कर रही है। 1 सही उत्तर है.",
+          "es": "El hombre lleva una maceta y la mujer señala el lugar frente a la ventana. 1 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 외국인 관광객들이 한국을 방문하는 목적은 '휴가'가 가장 많았습니다. 다음으로 '사업'과 '친척 방문'이 뒤를 이었는데요. 그렇다면 외국인 관광객들은 누구와 함께 한국에 올까요? '가족이나 친구'가 54%로 가장 많았고, '혼자'가 33%, '동료'가 10%로 나타났습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: The most common reason foreign tourists visit Korea is ‘vacation'. Next was ‘business' and ‘visiting relatives'. So who do foreign tourists come to Korea with? ‘Family or friends' was the most common at 54%, followed by ‘alone' at 33% and ‘colleagues' at 10%.",
+        "vi": "Nam: Lý do phổ biến nhất mà du khách nước ngoài đến thăm Hàn Quốc là 'kỳ nghỉ'. Tiếp theo là ‘công việc' và ‘thăm họ hàng'. Vậy du khách nước ngoài đến Hàn Quốc với ai? ‘Gia đình hoặc bạn bè' là phổ biến nhất ở mức 54%, tiếp theo là ‘một mình' ở mức 33% và ‘đồng nghiệp' ở mức 10%.",
+        "ar": "الرجل: السبب الأكثر شيوعًا لزيارة السياح الأجانب لكوريا هو \"الإجازة\". التالي كان \"العمل\" و\"زيارة الأقارب\". إذن مع من يأتي السياح الأجانب إلى كوريا؟ وكان \"العائلة أو الأصدقاء\" هو الأكثر شيوعاً بنسبة 54%، يليه \"وحيداً\" بنسبة 33% و\"الزملاء\" بنسبة 10%.",
+        "ru": "Мужчина: Самая распространенная причина, по которой иностранные туристы посещают Корею, — это «отпуск». Дальше были «бизнес» и «посещение родственников». Так с кем же иностранные туристы приезжают в Корею? «Семья или друзья» были наиболее частыми — 54%, за ними следовали «один» — 33% и «коллеги» — 10%.",
+        "de": "Mann: Der häufigste Grund, warum ausländische Touristen Korea besuchen, ist „Urlaub“. Als nächstes folgten „Geschäfte“ und „Verwandte besuchen“. Mit wem kommen ausländische Touristen nach Korea? „Familie oder Freunde“ war mit 54 % am häufigsten, gefolgt von „allein“ mit 33 % und „Kollegen“ mit 10 %.",
+        "fr": "Homme : La raison la plus courante pour laquelle les touristes étrangers visitent la Corée sont les « vacances ». Viennent ensuite les « affaires » et les « visites à la famille ». Alors, avec qui les touristes étrangers viennent-ils en Corée ? « Famille ou amis » était le plus courant avec 54 %, suivi de « seul » avec 33 % et « collègues » avec 10 %.",
+        "id": "Pria: Alasan paling umum turis asing mengunjungi Korea adalah 'liburan'. Berikutnya adalah ‘bisnis’ dan ‘mengunjungi kerabat’. Lalu dengan siapa turis asing datang ke Korea? ‘Keluarga atau teman’ adalah yang paling umum yaitu sebesar 54%, diikuti oleh ‘sendiri’ sebesar 33% dan ‘rekan kerja’ sebesar 10%.",
+        "it": "Uomo: Il motivo più comune per cui i turisti stranieri visitano la Corea è la \"vacanza\". Poi c'erano \"affari\" e \"visite a parenti\". Allora con chi vengono i turisti stranieri in Corea? \"Famiglia o amici\" è stata la più comune con il 54%, seguita da \"solo\" al 33% e \"colleghi\" al 10%.",
+        "ja": "男性: 外国人観光客が韓国を訪れる最も一般的な理由は「休暇」です。次いで「仕事」「親戚訪問」となった。では、外国人観光客は誰と一緒に韓国に来るのでしょうか？ 「家族や友人」が54％で最も多く、次いで「一人」が33％、「同僚」が10％となった。",
+        "pt": "Homem: A razão mais comum pela qual os turistas estrangeiros visitam a Coreia são “férias”. Em seguida veio ‘negócios’ e ‘visitar parentes’. Então, com quem os turistas estrangeiros vêm para a Coreia? ‘Família ou amigos’ foi o mais comum com 54%, seguido de ‘sozinho’ com 33% e ‘colegas’ com 10%.",
+        "th": "ผู้ชาย: สาเหตุที่พบบ่อยที่สุดที่นักท่องเที่ยวต่างชาติเดินทางมาเกาหลีคือ 'วันหยุด' ต่อไปคือ 'ธุรกิจ' และ 'เยี่ยมญาติ' แล้วนักท่องเที่ยวต่างชาติมาเกาหลีกับใครบ้าง? \"ครอบครัวหรือเพื่อน\" พบมากที่สุดที่ 54% รองลงมาคือ \"คนเดียว\" ที่ 33% และ \"เพื่อนร่วมงาน\" ที่ 10%",
+        "tr": "Adam: Yabancı turistlerin Kore'yi ziyaret etmesinin en yaygın nedeni 'tatil'. Sırada 'iş' ve 'akraba ziyareti' vardı. Peki yabancı turistler Kore'ye kiminle geliyor? En yaygın olanı %54 ile 'aile veya arkadaşlar' olurken, bunu %33 ile 'yalnız' ve %10 ile 'meslektaşları' takip etti.",
+        "zh-CN": "男：外国游客来韩国最常见的原因是“度假”。接下来是‘公事’和‘探亲’。那么外国游客都和谁一起来韩国呢？ “家人或朋友”最常见，占 54%，其次是“单独”，占 33%，最后是“同事”，占 10%。",
+        "zh-TW": "男：外國遊客來韓國最常見的原因是「度假」。接下來是‘公事’和‘探親’。那麼外國遊客都和誰一起來韓國呢？ “家人或朋友”最常見，佔 54%，其次是“單獨”，佔 33%，最後是“同事”，佔 10%。",
+        "hi": "आदमी: विदेशी पर्यटकों के कोरिया आने का सबसे आम कारण 'छुट्टियाँ' हैं। अगला था 'व्यवसाय' और 'रिश्तेदारों से मुलाकात'। तो विदेशी पर्यटक किसके साथ कोरिया आते हैं? 54% में 'परिवार या दोस्त' सबसे आम थे, इसके बाद 33% में 'अकेले' और 10% में 'सहकर्मी' थे।",
+        "es": "Hombre: La razón más común por la que los turistas extranjeros visitan Corea son las \"vacaciones\". Lo siguiente fue \"negocios\" y \"familiares visitantes\". Entonces, ¿con quién vienen los turistas extranjeros a Corea? \"Familia o amigos\" fue el más común con un 54%, seguido de \"solo\" con un 33% y \"colegas\" con un 10%."
+      },
+      "g_audio": "/topiks/audios/7e62f7ed0cc8f89c3733709a4b22a5c3_3_44.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/3316d3642496fa163173b458e5aaf9f4.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1 and 2 are eliminated because they do not correctly indicate the sequence of reasons why foreign tourists come to visit Korea. 4 is also eliminated because it does not accurately represent the proportion of foreign tourists coming to Korea with whom. Therefore, 3 is the correct answer.",
+          "vi": "Đáp án 1 và 2 bị loại vì không thể hiện đúng thứ tự về lý do du khách nước ngoài đến thăm Hàn Quốc. Đáp án 4 cũng bị loại vì không thể hiện đúng tỷ lệ về việc du khách nước ngoài đến Hàn Quốc với ai. Như vậy 3 là đáp án đúng.",
+          "ar": "تم حذف الرقمين 1 و2 لأنهما لا يشيران بشكل صحيح إلى تسلسل الأسباب التي تدفع السائحين الأجانب لزيارة كوريا. تم حذف الرقم 4 أيضًا لأنه لا يمثل بدقة نسبة السياح الأجانب القادمين إلى كوريا ومعهم. ولذلك، 3 هو الجواب الصحيح.",
+          "ru": "1 и 2 исключены, поскольку в них неверно указана последовательность причин, по которым иностранные туристы приезжают в Корею. 4 также исключен, поскольку он неточно отражает долю иностранных туристов, приезжающих в Корею с кем. Следовательно, 3 – правильный ответ.",
+          "de": "1 und 2 werden gestrichen, da sie die Reihenfolge der Gründe, warum ausländische Touristen nach Korea kommen, nicht korrekt wiedergeben. 4 wird ebenfalls gestrichen, da es den Anteil der ausländischen Touristen, die mit wem nach Korea kommen, nicht genau wiedergibt. Daher ist 3 die richtige Antwort.",
+          "fr": "1 et 2 sont éliminés car ils n’indiquent pas correctement la séquence des raisons pour lesquelles les touristes étrangers viennent visiter la Corée. Le chiffre 4 est également éliminé car il ne représente pas avec précision la proportion de touristes étrangers venant en Corée avec qui. Donc 3 est la bonne réponse.",
+          "id": "Angka 1 dan 2 dihilangkan karena tidak menunjukkan dengan tepat urutan alasan wisatawan asing datang berkunjung ke Korea. 4 juga dihilangkan karena tidak mewakili secara akurat proporsi wisatawan asing yang datang ke Korea bersama siapa. Oleh karena itu, 3 adalah jawaban yang benar.",
+          "it": "1 e 2 vengono eliminati perché non indicano correttamente la sequenza dei motivi per cui i turisti stranieri vengono a visitare la Corea. Anche il 4 viene eliminato perché non rappresenta accuratamente la percentuale di turisti stranieri che arrivano in Corea con chi. Pertanto, 3 è la risposta corretta.",
+          "ja": "1と2は外国人観光客が韓国を訪れる一連の理由を正確に示していないため削除された。 4も、誰と一緒に韓国を訪れる外国人観光客の割合を正確に表していないため除外される。したがって、3 が正解です。",
+          "pt": "Os números 1 e 2 são eliminados porque não indicam corretamente a sequência de razões pelas quais os turistas estrangeiros vêm visitar a Coreia. 4 também foi eliminado porque não representa com precisão a proporção de turistas estrangeiros que vêm para a Coreia com quem. Portanto, 3 é a resposta correta.",
+          "th": "งดข้อ 1 และ 2 เนื่องจากระบุลำดับสาเหตุที่นักท่องเที่ยวต่างชาติเดินทางมาเกาหลีไม่ถูกต้อง หมายเลข 4 ก็ถูกตัดออกเช่นกัน เนื่องจากไม่ได้แสดงถึงสัดส่วนของนักท่องเที่ยวต่างชาติที่เดินทางมาเกาหลีด้วยอย่างถูกต้อง ดังนั้น 3 จึงเป็นคำตอบที่ถูกต้อง",
+          "tr": "1 ve 2, yabancı turistlerin Kore'yi ziyaret etme nedenlerinin sırasını doğru şekilde göstermedikleri için elenmiştir. 4, Kore'ye birlikte gelen yabancı turistlerin oranını doğru bir şekilde temsil etmediği için de elenmiştir. Bu nedenle doğru cevap 3'tür.",
+          "zh-CN": "1和2被删除，因为它们没有正确地表明外国游客来韩国旅游的原因顺序。 4也被删除，因为它不能准确代表与谁一起来韩国的外国游客的比例。因此，3 是正确答案。",
+          "zh-TW": "1和2被刪除，因為它們沒有正確地表明外國遊客來韓國旅遊的原因順序。 4也被刪除，因為它不能準確代表與誰一起來韓國的外國遊客的比例。因此，3 是正確答案。",
+          "hi": "1 और 2 को हटा दिया गया है क्योंकि वे विदेशी पर्यटकों के कोरिया घूमने आने के कारणों के क्रम को सही ढंग से इंगित नहीं करते हैं। 4 को इसलिए भी हटा दिया गया है क्योंकि यह कोरिया में किसके साथ आने वाले विदेशी पर्यटकों के अनुपात का सटीक प्रतिनिधित्व नहीं करता है। इसलिए, 3 सही उत्तर है।",
+          "es": "1 y 2 se eliminan porque no indican correctamente la secuencia de motivos por los cuales los turistas extranjeros vienen a visitar Corea. 4 también se elimina porque no representa con precisión la proporción de turistas extranjeros que vienen a Corea con quién. Por tanto, 3 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 지금 전시장에 들어갈 수 있어요?\n남자: 잠시만 기다려 주세요. 곧 입장 시작합니다.\n여자: 네. 알겠습니다.",
+      "g_text_audio_translate": {
+        "en": "Woman: Can I enter the exhibition hall now?\nMan: Please wait a moment. Entry will begin soon.\nWoman: All right.",
+        "vi": "Nữ: Bây giờ tôi có thể vào phòng triển lãm được không?\nNam: Xin vui lòng đợi một chút. Sắp đến giờ được phép vào rồi.\nNữ: Vâng. Tôi biết rồi."
+      },
+      "g_audio": "/topiks/audios/0318e1c01973424df5dfb31044644290_44_61.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/f53406b0bccb9b21b7b60e9e7352e836.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "The woman is a visitor wanting to enter the exhibition hall, and the man is an employee. 1 is the correct answer.",
+          "vi": "Nhân vật nữ là khách đang muốn vào trong triển lãm, nhân vật nam là nhân viên. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 아, 무거워. 이 화분은 어디에 놓을까?\n여자: 여기 창문 앞은 어때?\n남자: 그래. 거기가 좋겠다.",
+      "g_text_audio_translate": {
+        "en": "Man: Oh, it's so heavy. Where should I put this flower pot?\nWoman: How about here in front of this window?\nMan: Yeah. That would be nice.",
+        "vi": "Nam: Ôi, nặng quá. Đặt chậu hoa này ở đâu nhỉ?\r\nNữ: Ở trước cửa sổ này thì sao?\r\nNam: Ừ. Chỗ đó được đó."
+      },
+      "g_audio": "/topiks/audios/ed7aa39df9be93621cce137d485c426b_2_18.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/b4f9293583a8fd242c59a81e7eae15c0.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "The man is carrying a flower pot, and the woman is pointing to the place in front of the window. 1 is the correct answer.",
+          "vi": "Nhân vật nam đang đang bê chậu hoa, nhân vật nữ chỉ vào chỗ ở trước cửa sổ. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 외국인 관광객들이 한국을 방문하는 목적은 '휴가'가 가장 많았습니다. 다음으로 '사업'과 '친척 방문'이 뒤를 이었는데요. 그렇다면 외국인 관광객들은 누구와 함께 한국에 올까요? '가족이나 친구'가 54%로 가장 많았고, '혼자'가 33%, '동료'가 10%로 나타났습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: The most common reason foreign tourists visit Korea is ‘vacation'. Next was ‘business' and ‘visiting relatives'. So who do foreign tourists come to Korea with? ‘Family or friends' was the most common at 54%, followed by ‘alone' at 33% and ‘colleagues' at 10%.",
+        "vi": "Nam: Lý do phổ biến nhất mà du khách nước ngoài đến thăm Hàn Quốc là 'kỳ nghỉ'. Tiếp theo là ‘công việc' và ‘thăm họ hàng'. Vậy du khách nước ngoài đến Hàn Quốc với ai? ‘Gia đình hoặc bạn bè' là phổ biến nhất ở mức 54%, tiếp theo là ‘một mình' ở mức 33% và ‘đồng nghiệp' ở mức 10%."
+      },
+      "g_audio": "/topiks/audios/7e62f7ed0cc8f89c3733709a4b22a5c3_3_44.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/3316d3642496fa163173b458e5aaf9f4.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1 and 2 are eliminated because they do not correctly indicate the sequence of reasons why foreign tourists come to visit Korea. 4 is also eliminated because it does not accurately represent the proportion of foreign tourists coming to Korea with whom. Therefore, 3 is the correct answer.",
+          "vi": "Đáp án 1 và 2 bị loại vì không thể hiện đúng thứ tự về lý do du khách nước ngoài đến thăm Hàn Quốc. Đáp án 4 cũng bị loại vì không thể hiện đúng tỷ lệ về việc du khách nước ngoài đến Hàn Quốc với ai. Như vậy 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 손님, 수박 보고 가세요. 아주 맛있어요.\n남자: 여기 접시 위에 있는 거 한번 먹어 봐도 돼요?\n여자: 그럼요. 드셔 보세요.",
+      "g_text_audio_translate": {
+        "en": "Woman: Sir, please take a look at the watermelons. They're really tasty. \nMan: Can I try the one on the plate here? \nWoman: Of course. Please try it.",
+        "vi": "Nữ: Quý khách, mời anh xem thử dưa hấu. Rất ngon đấy ạ.\nNam: Tôi có thể ăn thử miếng trên đĩa này không?\nNữ: Dĩ nhiên rồi. Anh ăn thử xem nhé.",
+        "ar": "المرأة: سيدي، تفضل برؤية البطيخ. إنه لذيذ جدًا.\n\nالرجل: هل يمكنني تجربة البطيخ الموجود في الطبق هنا؟\n\nالمرأة: بالطبع. تفضل بتذوقه.",
+        "ru": "Женщина: Сэр, пожалуйста, посмотрите на арбузы. Они действительно вкусные. \nМужчина: Могу ли я попробовать тот, что на тарелке? \nЖенщина: Конечно. Пожалуйста, попробуйте.",
+        "de": "Frau: Sehen Sie sich doch bitte die Wassermelonen an. Die sind wirklich lecker.\n\nMann: Darf ich die hier auf dem Teller probieren?\n\nFrau: Natürlich. Probieren Sie sie doch bitte.",
+        "fr": "Femme : Monsieur, regardez les pastèques. Elles sont vraiment délicieuses.\nHomme : Puis-je goûter celle qui est dans l’assiette ?\nFemme : Bien sûr. Goûtez-la, s’il vous plaît.",
+        "id": "Wanita: Tuan, tolong coba lihat semangkanya. Enak sekali. Pria: Bolehkah saya mencoba yang di piring ini? Wanita: Tentu saja. Silakan dicoba.",
+        "it": "Donna: Signore, per favore dia un'occhiata alle angurie. Sono davvero deliziose.\nUomo: Posso provare quella qui sul piatto?\nDonna: Certo. La assaggi, per favore.",
+        "ja": "女性：スイカを見てください。とても美味しいですよ。\n男性：お皿の上のスイカを食べてもいいですか？\n女性：もちろんです。どうぞ召し上がってください。",
+        "pt": "Mulher: Senhor, por favor, dê uma olhada nas melancias. Elas são realmente saborosas.\nHomem: Posso experimentar a que está no prato aqui?\nMulher: Claro. Por favor, experimente.",
+        "th": "หญิง: ครับท่าน ช่วยดูแตงโมให้หน่อยได้ไหมครับ อร่อยมากเลยครับ \nชาย: ผมขอลองแตงโมที่อยู่ในจานนี้ได้ไหมครับ \nหญิง: ได้ครับผม ลองดูครับ",
+        "tr": "Kadın: Beyefendi, lütfen karpuzlara bir bakın. Gerçekten lezzetliler.\nErkek: Buradaki tabaktakini deneyebilir miyim?\nKadın: Elbette. Lütfen deneyin.",
+        "tw": "Ɔbaa: Owura, mesrɛ wo hwɛ nsuo a wɔde yɛ nsuo no. Wɔn ho yɛ dɛ ankasa. \nƆbarima: So metumi asɔ nea ɛwɔ prɛte so wɔ ha no ahwɛ? \nƆbea: Nokwarem no. Yɛsrɛ sɛ sɔ hwɛ.",
+        "hi": "महिला: सर, कृपया तरबूज़ों पर एक नज़र डालें। वे वाकई बहुत स्वादिष्ट हैं।\n\nपुरुष: क्या मैं यहाँ प्लेट में रखे तरबूज़ को आज़मा सकता हूँ?\n\nमहिला: ज़रूर। कृपया इसे आज़माएँ।",
+        "ne": "महिला: सर, कृपया तरबुजाहरू हेर्नुहोस्। तिनीहरू साँच्चै स्वादिष्ट छन्। \nपुरुष: के म यहाँ प्लेटमा भएको प्रयास गर्न सक्छु? \nमहिला: अवश्य पनि। कृपया प्रयास गर्नुहोस्।",
+        "km": "ស្ត្រី៖ លោកម្ចាស់ សូមក្រឡេកមើលផ្លែឪឡឹក។ ពួកគេពិតជាឆ្ងាញ់ណាស់។ \nបុរស៖ តើខ្ញុំអាចសាកល្បងចាននៅលើចាននេះបានទេ? \nស្ត្រី៖ ជាការពិតណាស់។ សូមសាកល្បង។",
+        "si": "කාන්තාව: සර්, කරුණාකරලා කොමඩු දිහා බලන්න. ඒවා ඇත්තටම රසයි. \nමිනිසා: මට මෙතන තියෙන තහඩුවේ තියෙන එක උත්සාහ කරන්න පුළුවන්ද? \nකාන්තාව: ඇත්තෙන්ම. කරුණාකරලා උත්සාහ කරන්න.",
+        "bn": "মহিলা: স্যার, দয়া করে তরমুজগুলো একবার দেখে নিন। এগুলো সত্যিই সুস্বাদু। \nপুরুষ: আমি কি এখানে প্লেটে থাকা তরমুজটা চেষ্টা করতে পারি? \nমহিলা: অবশ্যই। দয়া করে চেষ্টা করে দেখুন।",
+        "my": "အမျိုးသမီး : သခင်၊ ဖရဲသီးတွေကို ကြည့်ပါ။ သူတို့က တကယ်အရသာရှိတယ်။ \nMan : ဒီမှာ ပန်းကန်ပြားပေါ်မှာ စမ်းလို့ရလား။ \nအမျိုးသမီး : ဟုတ်ပါတယ်။ စမ်းကြည့်ပါ။",
+        "es": "Mujer: Señor, por favor, mire las sandías. Están riquísimas.\nHombre: ¿Puedo probar la del plato?\nMujer: Por supuesto. Pruébela, por favor.",
+        "zh-CN": "女：先生，请看一下这些西瓜，真的很好吃。\n男：我可以尝尝盘子里的这个吗？\n女：当然可以。请尝尝。",
+        "zh-TW": "女：先生，請看一下這些西瓜，真的很好吃。\n男：我可以嚐嚐盤子裡的這個嗎？\n女：當然可以。請嚐嚐。"
+      },
+      "g_audio": "/topiks/audios/eb3318128f6629f3c81cb4f8dd7bb83b_47_67.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/0031e28e99ac97aa6394f3c9a31e48a2.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "The woman is the fruit seller, the man is the customer. The man has not bought anything yet. So 1 is the correct answer.",
+          "vi": "Nhân vật nữ là người bán trái cây, nhân vật nam là khách hàng. Nhân vật nam vẫn chưa mua. Như vậy ta 1 là đáp án đúng.",
+          "ar": "المرأة بائعة الفاكهة، والرجل زبون. لم يشترِ الرجل شيئًا بعد. إذًا، الإجابة الصحيحة هي ١.",
+          "ru": "Женщина — продавец фруктов, мужчина — покупатель. Мужчина еще ничего не купил. Поэтому правильный ответ — 1.",
+          "de": "Die Frau ist die Obstverkäuferin, der Mann der Kunde. Der Mann hat noch nichts gekauft. Daher ist 1 die richtige Antwort.",
+          "fr": "La femme est la vendeuse de fruits, l'homme est le client. L'homme n'a encore rien acheté. Donc 1 est la bonne réponse.",
+          "id": "Wanita itu adalah penjual buah, sedangkan pria itu adalah pelanggan. Pria itu belum membeli apa pun. Jadi, 1 adalah jawaban yang benar.",
+          "it": "La donna è la fruttivendola, l'uomo è il cliente. L'uomo non ha ancora comprato nulla. Quindi 1 è la risposta corretta.",
+          "ja": "女性は果物売り、男性は客です。男性はまだ何も買っていません。したがって、1が正解です。",
+          "pt": "A mulher é a vendedora de frutas, o homem é o cliente. O homem ainda não comprou nada. Portanto, a resposta correta é 1.",
+          "th": "ผู้หญิงเป็นคนขายผลไม้ ผู้ชายเป็นลูกค้า ผู้ชายยังไม่ได้ซื้ออะไรเลย ดังนั้น 1 จึงเป็นคำตอบที่ถูกต้อง",
+          "tr": "Kadın meyve satıcısı, erkek müşteri. Erkek henüz hiçbir şey satın almadı. Bu yüzden doğru cevap 1'dir.",
+          "tw": "Ɔbea no ne nnuaba tɔnfo, ɔbarima ne adetɔfo. Ɔbarima no nnya ntɔɔ biribiara. Enti 1 ne mmuae a ɛteɛ.",
+          "hi": "महिला फल बेचने वाली है, पुरुष ग्राहक है। पुरुष ने अभी तक कुछ नहीं खरीदा है। इसलिए 1 सही उत्तर है।",
+          "ne": "महिला फलफूल बेच्ने व्यक्ति हुन्, पुरुष ग्राहक हुन्। पुरुषले अहिलेसम्म केही किनेको छैन। त्यसैले १ सही उत्तर हो।",
+          "km": "ស្ត្រីជាអ្នកលក់ផ្លែឈើ បុរសជាអតិថិជន។ បុរសនោះមិនទាន់បានទិញអ្វីនៅឡើយទេ។ ដូច្នេះ 1 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "කාන්තාව පලතුරු වෙළෙන්දා වන අතර පිරිමියා පාරිභෝගිකයා වේ. පිරිමියා තවමත් කිසිවක් මිල දී ගෙන නැත. එබැවින් නිවැරදි පිළිතුර 1 වේ.",
+          "bn": "মহিলাটি ফল বিক্রেতা, পুরুষটি গ্রাহক। পুরুষটি এখনও কিছু কিনেনি। তাহলে ১ হল সঠিক উত্তর।",
+          "my": "မိန်းမက သစ်သီးရောင်းသူ၊ ယောက်ျားက ဖောက်သည်တဲ့။ အဲဒီလူက ဘာမှ မဝယ်သေးဘူး။ ဒီတော့ 1 က အဖြေမှန်ပဲ။",
+          "es": "La mujer es la vendedora de frutas, el hombre es el cliente. El hombre aún no ha comprado nada. Por lo tanto, la respuesta correcta es 1.",
+          "zh-CN": "女士是水果摊主，男士是顾客。男士还没有买任何东西。所以1是正确答案。",
+          "zh-TW": "女士是水果攤主，男士是顧客。男士還沒有買任何東西。所以1是正確答案。"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 의자에 앉아 보니까 어때?\n여자: 오, 잘 만들었다. 그런데 나한텐 좀 높은 거 같아.\n남자: 그래? 그럼 이 부분을 조금 더 잘라야겠다.",
+      "g_text_audio_translate": {
+        "en": "Man: How does it feel sitting on the chair? \nWoman: Oh, it's well made. But I think it's a bit high for me. \nMan: Really? Then I should cut this part down a bit more.",
+        "vi": "Nam: Ngồi thử lên ghế thấy thế nào?\nNữ: Ồ, cậu làm nó tốt đấy. Nhưng với tớ thì có vẻ hơi cao.\nNam: Vậy à? Thế thì tớ sẽ phải cắt phần này thấp xuống một chút.",
+        "ar": "الرجل: كيف تشعر وأنت جالس على الكرسي؟\nالمرأة: أوه، إنه مصنوع جيدًا. لكنني أعتقد أنه مرتفع بعض الشيء بالنسبة لي.\nالرجل: حقًا؟ إذًا عليّ أن أقصر هذا الجزء قليلًا.",
+        "ru": "Мужчина: Каково это — сидеть на стуле? \nЖенщина: О, он хорошо сделан. Но мне кажется, он немного высок для меня. \nМужчина: Правда? Тогда мне стоит немного укоротить эту часть.",
+        "de": "Mann: Wie fühlt es sich an, auf dem Stuhl zu sitzen?\nFrau: Oh, er ist gut verarbeitet. Aber ich glaube, er ist mir etwas zu hoch.\nMann: Wirklich? Dann sollte ich diesen Teil noch etwas kürzen.",
+        "fr": "Homme : Comment se sent-on assis sur cette chaise ?\nFemme : Oh, elle est bien faite. Mais je la trouve un peu haute pour moi.\nHomme : Vraiment ? Alors je devrais raccourcir un peu plus cette partie.",
+        "id": "Pria: Bagaimana rasanya duduk di kursi itu?\nWanita: Oh, kursi itu dibuat dengan baik. Tapi menurutku kursi itu agak tinggi untukku.\nPria: Benarkah? Kalau begitu, aku harus memotong bagian ini sedikit lagi.",
+        "it": "Uomo: Come ti senti seduto sulla sedia?\nDonna: Oh, è ben fatta. Ma penso che sia un po' alta per i miei gusti.\nUomo: Davvero? Allora dovrei accorciare un po' di più questa parte.",
+        "ja": "男性：椅子の座り心地はどうですか？\n女性：ああ、しっかりした作りですね。でも、ちょっと高いような気がします。\n男性：本当ですか？じゃあ、この部分をもう少し短くした方がいいですね。",
+        "pt": "Homem: Como é a sensação sentado na cadeira?\nMulher: Ah, é bem feita. Mas acho que é um pouco alta para mim.\nHomem: Sério? Então eu deveria cortar um pouco mais essa parte.",
+        "th": "ชาย: รู้สึกยังไงบ้างเวลานั่งบนเก้าอี้ตัวนี้\n\nหญิง: โอ้ ทำได้ดีทีเดียว แต่ฉันว่ามันสูงไปนิดสำหรับฉัน\n\nชาย: จริงเหรอ งั้นฉันควรตัดส่วนนี้ให้สั้นลงอีกหน่อย",
+        "tr": "Adam: Sandalyede oturmak nasıl bir his? \nKadın: Ah, iyi yapılmış. Ama sanırım benim için biraz yüksek. \nAdam: Gerçekten mi? O zaman bu kısmı biraz daha kısaltmalıyım.",
+        "tw": "Ɔbarima: Sɛ wote akongua no so a, ɛte dɛn? \nƆbaa: Oh, wɔayɛ no yie. Nanso misusuw sɛ ɛkorɔn kakra ma me. \nƆbarima: Nokwarem no? Afei ɛsɛ sɛ mitwitwa ɔfã yi so kakra bio.",
+        "hi": "आदमी: कुर्सी पर बैठकर कैसा लग रहा है?\n\nमहिला: ओह, यह अच्छी तरह से बना है। लेकिन मुझे लगता है कि यह मेरे लिए थोड़ा ऊंचा है।\n\nआदमी: सच में? तो मुझे इस हिस्से को थोड़ा और छोटा कर देना चाहिए।",
+        "ne": "पुरुष: कुर्सीमा बस्दा कस्तो लाग्छ?\n\nमहिला: ओहो, यो राम्रोसँग बनेको छ। तर मलाई लाग्छ यो मेरो लागि अलि अग्लो छ।\n\nपुरुष: साँच्चै? त्यसो भए मैले यो भाग अलि बढी काट्नु पर्छ।",
+        "km": "បុរស៖ អង្គុយលើកៅអីមានអារម្មណ៍យ៉ាងណា? \nស្ត្រី៖ អូ! ប៉ុន្តែ​ខ្ញុំ​គិត​ថា​វា​ខ្ពស់​បន្តិច​សម្រាប់​ខ្ញុំ។ \nបុរស៖ ពិតទេ? បន្ទាប់មកខ្ញុំគួរតែកាត់ផ្នែកនេះបន្តិចទៀត។",
+        "si": "මිනිසා: පුටුවේ ඉඳගෙන ඉන්නකොට කොහොමද දැනෙන්නේ? \nකාන්තාව: ඔහ්, ඒක හොඳට හදලා තියෙනවා. නමුත් මට නම් ඒක ටිකක් උසයි කියලා මම හිතනවා. \nමිනිසා: ඇත්තටම? එහෙනම් මම මේ කොටස තව ටිකක් අඩු කරන්න ඕනේ.",
+        "bn": "পুরুষ: চেয়ারে বসে কেমন লাগছে?\n\nমহিলা: ওহ, এটা ভালোভাবে তৈরি। কিন্তু আমার মনে হয় এটা আমার জন্য একটু উঁচু।\n\nপুরুষ: সত্যিই? তাহলে আমার এই অংশটা আরও একটু কমিয়ে ফেলা উচিত।",
+        "my": "Man : ထိုင်ခုံပေါ်မှာထိုင်ရတာ ဘယ်လိုခံစားရလဲ။ \nအမျိုးသမီး : အိုး၊ အဲဒါက ကောင်းတယ်။ ဒါပေမယ့် ကျွန်တော့်အတွက်ကတော့ နည်းနည်းမြင့်တယ်လို့ ထင်ပါတယ်။ \nMan: တကယ်လား? ပြီးရင် ဒီအပိုင်းကို နည်းနည်းလျှော့သင့်တယ်။",
+        "es": "Hombre: ¿Qué se siente al sentarse en la silla?\nMujer: Ah, está bien hecha. Pero creo que es un poco alta para mí.\nHombre: ¿En serio? Entonces debería cortar esta parte un poco más.",
+        "zh-CN": "男：坐在椅子上感觉怎么样？\n女：哦，做工不错。不过我觉得对我来说有点高。\n男：真的吗？那我应该把这部分再剪短一点。",
+        "zh-TW": "男：坐在椅子上感覺怎麼樣？\n女：哦，做工不錯。不過我覺得對我來說有點高。\n男：真的嗎？那我應該把這部分再剪短一點。"
+      },
+      "g_audio": "/topiks/audios/bc1816c7ac5023e8530610f81e2c5de2_3_25.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/9d85b6c9fe6ed6c528ee2541b7b78d6d.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "The woman is sitting on the chair made by the man. So 2 is the correct answer.",
+          "vi": "Nhân vật nữ đang ngồi thử lên chiếc ghế do nhân vật nam làm. Như vậy 2 là đáp án đúng.",
+          "ar": "المرأة تجلس على الكرسي الذي صنعه الرجل. إذًا، الإجابة الصحيحة هي ٢.",
+          "ru": "Женщина сидит на стуле, сделанном мужчиной. Поэтому правильный ответ — 2.",
+          "de": "Die Frau sitzt auf dem Stuhl, den der Mann gemacht hat. Die richtige Antwort ist also 2.",
+          "fr": "La femme est assise sur la chaise fabriquée par l'homme. La bonne réponse est donc 2.",
+          "id": "Wanita itu duduk di kursi yang dibuat oleh pria. Jadi, 2 adalah jawaban yang benar.",
+          "it": "La donna è seduta sulla sedia costruita dall'uomo. Quindi la risposta corretta è 2.",
+          "ja": "女性は男性が作った椅子に座っています。したがって、正解は2です。",
+          "pt": "A mulher está sentada na cadeira feita pelo homem. Portanto, 2 é a resposta correta.",
+          "th": "ผู้หญิงกำลังนั่งอยู่บนเก้าอี้ที่ผู้ชายทำ ดังนั้น 2 จึงเป็นคำตอบที่ถูกต้อง",
+          "tr": "Kadın, erkeğin yaptığı sandalyede oturuyor. Bu yüzden doğru cevap 2'dir.",
+          "tw": "Ɔbea no te akongua a ɔbarima no yɛe no so. Enti 2 ne mmuae a ɛteɛ.",
+          "hi": "महिला पुरुष द्वारा बनाई गई कुर्सी पर बैठी है। इसलिए 2 सही उत्तर है।",
+          "ne": "महिला पुरुषले बनाएको कुर्सीमा बसिरहेकी छिन्। त्यसैले २ सही उत्तर हो।",
+          "km": "ស្ត្រីកំពុងអង្គុយលើកៅអីដែលបង្កើតឡើងដោយបុរស។ ដូច្នេះ 2 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "කාන්තාව පුරුෂයා විසින් සාදන ලද පුටුවේ වාඩි වී සිටී. එබැවින් නිවැරදි පිළිතුර 2 වේ.",
+          "bn": "মহিলাটি পুরুষটির তৈরি চেয়ারে বসে আছে। তাহলে 2 হল সঠিক উত্তর।",
+          "my": "အမျိုးသမီးက အမျိုးသားလုပ်ထားတဲ့ ကုလားထိုင်ပေါ်မှာ ထိုင်နေတယ်။ ဒီတော့ 2 က အဖြေမှန်ပဲ။",
+          "es": "La mujer está sentada en la silla que hizo el hombre. Entonces, la respuesta correcta es 2.",
+          "zh-CN": "女人坐在男人做的椅子上。所以2是正确答案。",
+          "zh-TW": "女人坐在男人做的椅子上。所以2是正確答案。"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 채소, 달걀 등의 식품을 정기적으로 배달 받는 서비스가 인기를 끌며 최근 4년간 이용자가 꾸준히 증가하고 있습니다. 이 서비스를 이용하는 이유로는 '신선하고 품질이 좋아서'가 가장 많았으며, '가격이 합리적이어서', '편리해서'가 그 뒤를 이었습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: Services that regularly deliver food such as vegetables and eggs are gaining popularity, and the number of users has been steadily increasing over the past four years. The main reason for using the service was \"because it's fresh and good quality,\" followed by \"reasonable price\" and \"convenience.\"",
+        "vi": "Nam: Dịch vụ giao thực phẩm định kỳ như rau củ, trứng đang ngày càng phổ biến, số lượng người dùng đã tăng đều đặn trong 4 năm gần đây. Lý do sử dụng dịch vụ này nhiều nhất là vì \"tươi và chất lượng tốt\", sau đó là \"giá cả hợp lý\" và \"tiện lợi\".",
+        "ar": "رجل: تزداد شعبية خدمات توصيل الأطعمة بانتظام، كالخضراوات والبيض، وقد شهد عدد المستخدمين تزايدًا مستمرًا خلال السنوات الأربع الماضية. السبب الرئيسي لاستخدام الخدمة هو \"طزاجة وجودة الطعام\"، يليه \"السعر المناسب\" و\"سهولة الاستخدام\".",
+        "ru": "Мужчина: Сервисы, которые регулярно доставляют еду, такую ​​как овощи и яйца, набирают популярность, и число пользователей неуклонно растет в течение последних четырех лет. Основной причиной использования сервиса было «потому что это свежее и хорошего качества», затем следовали «разумная цена» и «удобство».",
+        "de": "Mann: Dienste, die regelmäßig Lebensmittel wie Gemüse und Eier liefern, erfreuen sich zunehmender Beliebtheit, und die Zahl der Nutzer ist in den letzten vier Jahren stetig gestiegen. Der Hauptgrund für die Nutzung des Dienstes war „Frische und gute Qualität“, gefolgt von „angemessenem Preis“ und „Bequemlichkeit“.",
+        "fr": "Homme : Les services de livraison régulière de produits alimentaires, comme des légumes et des œufs, gagnent en popularité et leur nombre d'utilisateurs est en constante augmentation depuis quatre ans. La principale raison invoquée pour utiliser ce service est « la fraîcheur et la bonne qualité », suivie par « le prix raisonnable » et « la praticité ».",
+        "id": "Pria: Layanan yang secara rutin mengantarkan makanan seperti sayur dan telur semakin populer, dan jumlah penggunanya terus meningkat selama empat tahun terakhir. Alasan utama penggunaan layanan ini adalah \"karena segar dan berkualitas baik,\" diikuti oleh \"harga terjangkau\" dan \"kenyamanan.\"",
+        "it": "Uomo: I servizi che consegnano regolarmente cibo come verdura e uova stanno guadagnando popolarità e il numero di utenti è aumentato costantemente negli ultimi quattro anni. Il motivo principale per cui si utilizza il servizio è \"perché è fresco e di buona qualità\", seguito da \"prezzo ragionevole\" e \"comodità\".",
+        "ja": "男性：野菜や卵などの食品を定期的に届けてくれるサービスが人気を集めており、利用者数はここ4年ほどで着実に増加しています。利用理由としては、「新鮮で品質が良いから」が最も多く、次いで「価格が手頃」「便利だから」が上位に挙げられました。",
+        "pt": "Homem: Serviços que entregam regularmente alimentos como vegetais e ovos estão ganhando popularidade, e o número de usuários tem aumentado constantemente nos últimos quatro anos. O principal motivo para usar o serviço foi \"porque é fresco e de boa qualidade\", seguido por \"preço razoável\" e \"conveniência\".",
+        "th": "ชาย: บริการส่งอาหาร เช่น ผักและไข่ ได้รับความนิยมมากขึ้นเรื่อยๆ และจำนวนผู้ใช้บริการก็เพิ่มขึ้นอย่างต่อเนื่องในช่วง 4 ปีที่ผ่านมา เหตุผลหลักในการใช้บริการคือ \"เพราะสดและมีคุณภาพดี\" รองลงมาคือ \"ราคาสมเหตุสมผล\" และ \"สะดวก\"",
+        "tr": "Adam: Sebze ve yumurta gibi yiyecekleri düzenli olarak teslim eden hizmetler popülerlik kazanıyor ve kullanıcı sayısı son dört yıldır istikrarlı bir şekilde artıyor. Hizmeti kullanmanın temel nedeni \"taze ve kaliteli olması\", ardından \"makul fiyat\" ve \"kolaylık\" geliyor.",
+        "tw": "Onipa: Nnwuma a wɔtaa de nnuan te sɛ nhabannuru ne nkesua kɔma nkurɔfo no renya nkɔanim, na wɔn a wɔde di dwuma no akɔ soro bere nyinaa wɔ mfe anan a atwam no mu. Ade titiriw nti a wɔde ɔsom no dii dwuma ne \"efisɛ ɛyɛ foforo na ɛyɛ papa,\" na ɛno akyi no, \"ɛbo a ɛfata\" ne \"ɛyɛ mmerɛw.\"",
+        "hi": "आदमी: नियमित रूप से सब्ज़ियाँ और अंडे जैसे खाद्य पदार्थ पहुँचाने वाली सेवाएँ लोकप्रियता प्राप्त कर रही हैं, और पिछले चार वर्षों में उपयोगकर्ताओं की संख्या में लगातार वृद्धि हो रही है। सेवा का उपयोग करने का मुख्य कारण \"क्योंकि यह ताज़ा और अच्छी गुणवत्ता वाला है,\" उसके बाद \"उचित मूल्य\" और \"सुविधा\" है।",
+        "ne": "मानिस: नियमित रूपमा तरकारी र अण्डा जस्ता खाना पुर्‍याउने सेवाहरू लोकप्रिय हुँदै गइरहेका छन्, र विगत चार वर्षमा प्रयोगकर्ताहरूको संख्या निरन्तर बढ्दै गएको छ। सेवा प्रयोग गर्नुको मुख्य कारण \"किनकि यो ताजा र राम्रो गुणस्तरको छ,\" त्यसपछि \"उचित मूल्य\" र \"सुविधा\" थियो।",
+        "km": "បុរស៖ សេវាកម្មដែលផ្តល់អាហារជាប្រចាំដូចជាបន្លែ និងស៊ុតកំពុងទទួលបានប្រជាប្រិយភាព ហើយចំនួនអ្នកប្រើប្រាស់បានកើនឡើងជាលំដាប់ក្នុងរយៈពេល 4 ឆ្នាំកន្លងមកនេះ។ មូលហេតុចម្បងនៃការប្រើប្រាស់សេវាកម្មគឺ \"ដោយសារតែវាស្រស់ និងគុណភាពល្អ\" បន្ទាប់មក \"តម្លៃសមរម្យ\" និង \"ភាពងាយស្រួល\"។",
+        "si": "මිනිසා: එළවළු සහ බිත්තර වැනි ආහාර නිතිපතා ලබා දෙන සේවාවන් ජනප්‍රිය වෙමින් පවතින අතර, පසුගිය වසර හතර තුළ පරිශීලකයින් සංඛ්‍යාව ක්‍රමයෙන් වැඩි වෙමින් පවතී. සේවාව භාවිතා කිරීමට ප්‍රධාන හේතුව වූයේ \"එය නැවුම් සහ හොඳ තත්ත්වයේ නිසා\", පසුව \"සාධාරණ මිල\" සහ \"පහසුව\" ය.",
+        "bn": "পুরুষ: যেসব পরিষেবা নিয়মিতভাবে শাকসবজি এবং ডিমের মতো খাবার সরবরাহ করে, সেগুলো জনপ্রিয়তা পাচ্ছে এবং গত চার বছর ধরে ব্যবহারকারীর সংখ্যা ক্রমাগত বৃদ্ধি পাচ্ছে। পরিষেবাটি ব্যবহারের মূল কারণ ছিল \"কারণ এটি তাজা এবং ভালো মানের,\" তারপরে \"যুক্তিসঙ্গত মূল্য\" এবং \"সুবিধা\"।",
+        "my": "Man- ဟင်းသီးဟင်းရွက်နှင့် ဥများကဲ့သို့သော အစားအစာများကို ပုံမှန်ပို့ဆောင်ပေးသည့် ဝန်ဆောင်မှုများသည် ရေပန်းစားလာကာ သုံးစွဲသူအရေအတွက်သည် လွန်ခဲ့သည့် လေးနှစ်တာကာလအတွင်း တဖြည်းဖြည်း တိုးလာခဲ့သည်။ ဝန်ဆောင်မှုကို အသုံးပြုရခြင်း၏ အဓိကအကြောင်းရင်းမှာ \"လတ်ဆတ်ပြီး အရည်အသွေးကောင်းသောကြောင့်\" နှင့် \"သင့်လျော်သောစျေးနှုန်း\" နှင့် \"အဆင်ပြေမှု\" တို့ဖြစ်သည်။",
+        "es": "Hombre: Los servicios de entrega regular de alimentos, como verduras y huevos, están ganando popularidad, y el número de usuarios ha aumentado constantemente en los últimos cuatro años. La principal razón para usar el servicio fue \"porque es fresco y de buena calidad\", seguido de \"precio razonable\" y \"comodidad\".",
+        "zh-CN": "男：蔬菜、鸡蛋等食品的定期配送服务越来越受欢迎，过去四年来用户数量一直在稳步增长。使用这项服务的主要原因是“新鲜优质”，其次是“价格合理”和“方便”。",
+        "zh-TW": "男：蔬菜、雞蛋等食品的定期配送服務越來越受歡迎，過去四年來用戶數量一直在穩步增長。使用這項服務的主要原因是“新鮮優質”，其次是“價格合理”和“方便”。"
+      },
+      "g_audio": "/topiks/audios/226f04567a594a08c0255fea47ba341b_3_39.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/2e01051c3a616d89b04a81711f486e2b.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "The number of people using regular food delivery services has increased steadily over the past 4 years, so we do not choose answer 1. Answers 3 and 4 do not reasonably represent the proportion of reasons for using the service. Therefore, answer 2 is correct.",
+          "vi": "Số lượng người dùng dịch vụ giao thực phẩm định kỳ tăng đều đặn trong 4 năm gần đây nên ta không chọn đáp án 1. Đáp án 3 và 4 không thể hiện hợp lý tỷ lệ lý do sử dụng dịch vụ này. Như vậy 2 là đáp án đúng.",
+          "ar": "ازداد عدد مستخدمي خدمات توصيل الطعام بانتظام بشكل مطرد خلال السنوات الأربع الماضية، لذا لم نختر الإجابة ١. الإجابتان ٣ و٤ لا تُمثلان بشكل معقول نسبة أسباب استخدام الخدمة. لذا، الإجابة ٢ صحيحة.",
+          "ru": "Число людей, пользующихся услугами регулярной доставки еды, неуклонно росло за последние 4 года, поэтому мы не выбираем ответ 1. Ответы 3 и 4 не отражают разумно соотношение причин использования услуги. Поэтому правильным является ответ 2.",
+          "de": "Die Zahl der Nutzer regelmäßiger Essenslieferdienste ist in den letzten vier Jahren stetig gestiegen. Daher wählen wir Antwort 1 nicht. Die Antworten 3 und 4 stellen den Anteil der Gründe für die Nutzung des Dienstes nicht angemessen dar. Daher ist Antwort 2 richtig.",
+          "fr": "Le nombre de personnes utilisant les services de livraison de repas a augmenté régulièrement au cours des quatre dernières années ; nous ne retenons donc pas la réponse 1. Les réponses 3 et 4 ne représentent pas fidèlement la proportion des raisons d'utilisation de ce service. Par conséquent, la réponse 2 est correcte.",
+          "id": "Jumlah orang yang menggunakan layanan pesan-antar makanan reguler telah meningkat secara stabil selama 4 tahun terakhir, jadi kami tidak memilih jawaban 1. Jawaban 3 dan 4 tidak cukup mewakili proporsi alasan untuk menggunakan layanan tersebut. Oleh karena itu, jawaban 2 benar.",
+          "it": "Il numero di persone che utilizzano regolarmente i servizi di consegna a domicilio di cibo a domicilio è aumentato costantemente negli ultimi 4 anni, quindi non scegliamo la risposta 1. Le risposte 3 e 4 non rappresentano ragionevolmente la proporzione delle motivazioni per cui si utilizza il servizio. Pertanto, la risposta 2 è corretta.",
+          "ja": "定期的なフードデリバリーサービスを利用する人の数は過去4年間で着実に増加しているため、回答1は選択しません。回答3と4は、サービスを利用する理由の割合を適切に表していません。したがって、回答2が正解です。",
+          "pt": "O número de pessoas que utilizam serviços regulares de entrega de comida tem aumentado constantemente nos últimos 4 anos, por isso não escolhemos a resposta 1. As respostas 3 e 4 não representam razoavelmente a proporção de motivos para a utilização do serviço. Portanto, a resposta 2 está correta.",
+          "th": "จำนวนผู้ใช้บริการส่งอาหารแบบปกติเพิ่มขึ้นอย่างต่อเนื่องในช่วง 4 ปีที่ผ่านมา ดังนั้นเราจึงไม่เลือกคำตอบที่ 1 คำตอบที่ 3 และ 4 ไม่แสดงถึงสัดส่วนเหตุผลในการใช้บริการอย่างสมเหตุสมผล ดังนั้นคำตอบที่ 2 จึงถูกต้อง",
+          "tr": "Son 4 yılda düzenli yemek dağıtım hizmetlerini kullanan kişi sayısı istikrarlı bir şekilde arttığından, 1 numaralı cevabı seçmiyoruz. 3 ve 4 numaralı cevaplar, hizmeti kullanma nedenlerinin oranını makul bir şekilde temsil etmiyor. Bu nedenle, 2 numaralı cevap doğrudur.",
+          "tw": "Nnipa dodow a wɔde nnuan a wɔde kɔma nkurɔfo daa di dwuma no akɔ soro nkakrankakra wɔ mfe 4 a atwam no mu, enti yɛnpaw mmuae 1. Mmuae 3 ne 4 nkyerɛ ntease a ɛfata sɛ wogyina hɔ ma ntease ahorow a enti wɔde adwuma no di dwuma no fã. Enti, mmuae 2 no teɛ.",
+          "hi": "पिछले 4 वर्षों में नियमित खाद्य वितरण सेवाओं का उपयोग करने वाले लोगों की संख्या में लगातार वृद्धि हुई है, इसलिए हम उत्तर 1 नहीं चुनते हैं। उत्तर 3 और 4 सेवा का उपयोग करने के कारणों के अनुपात को उचित रूप से नहीं दर्शाते हैं। इसलिए, उत्तर 2 सही है।",
+          "ne": "विगत ४ वर्षमा नियमित खाद्य वितरण सेवाहरू प्रयोग गर्ने व्यक्तिहरूको संख्या निरन्तर बढेको छ, त्यसैले हामी उत्तर १ छनौट गर्दैनौं। उत्तर ३ र ४ ले सेवा प्रयोग गर्नुको कारणहरूको अनुपातलाई उचित रूपमा प्रतिनिधित्व गर्दैनन्। त्यसैले, उत्तर २ सही छ।",
+          "km": "ចំនួនមនុស្សដែលប្រើប្រាស់សេវាចែកចាយអាហារធម្មតាបានកើនឡើងជាលំដាប់ក្នុងរយៈពេល 4 ឆ្នាំកន្លងមកនេះ ដូច្នេះយើងមិនជ្រើសរើសចម្លើយទី 1 ទេ។ ចម្លើយទី 3 និងទី 4 មិនតំណាងឱ្យសមាមាត្រនៃហេតុផលនៃការប្រើប្រាស់សេវាកម្មនោះទេ។ ដូច្នេះ ចម្លើយ​ទី ២ គឺ​ត្រឹមត្រូវ។",
+          "si": "පසුගිය වසර 4 තුළ නිතිපතා ආහාර බෙදා හැරීමේ සේවා භාවිතා කරන පුද්ගලයින් සංඛ්‍යාව ක්‍රමයෙන් වැඩි වී ඇත, එබැවින් අපි පිළිතුර 1 තෝරා නොගනිමු. පිළිතුරු 3 සහ 4 සේවාව භාවිතා කිරීමට හේතු අනුපාතය සාධාරණ ලෙස නියෝජනය නොකරයි. එබැවින්, පිළිතුර 2 නිවැරදියි.",
+          "bn": "গত ৪ বছরে নিয়মিত খাদ্য সরবরাহ পরিষেবা ব্যবহারকারীর সংখ্যা ক্রমাগত বৃদ্ধি পেয়েছে, তাই আমরা উত্তর ১ বেছে নিই না। উত্তর ৩ এবং ৪ পরিষেবাটি ব্যবহারের কারণগুলির অনুপাতকে যুক্তিসঙ্গতভাবে উপস্থাপন করে না। অতএব, উত্তর ২ সঠিক।",
+          "my": "ပုံမှန်စားနပ်ရိက္ခာပို့ဆောင်ခြင်းဝန်ဆောင်မှုကို အသုံးပြုသူဦးရေသည် လွန်ခဲ့သော 4 နှစ်အတွင်း ဆက်တိုက်ဆိုသလို တိုးလာသောကြောင့် ကျွန်ုပ်တို့သည် အဖြေ 1 ကို မရွေးချယ်တော့ပါ။ အဖြေများ 3 နှင့် 4 တို့သည် ဝန်ဆောင်မှုကို အသုံးပြုရသည့် အကြောင်းရင်းအချိုးကို ကျိုးကြောင်းဆီလျော်စွာ ကိုယ်စားမပြုပါ။ ထို့ကြောင့် အဖြေ ၂ သည် မှန်ပါသည်။",
+          "es": "El número de personas que utilizan servicios regulares de entrega de comida a domicilio ha aumentado de forma constante en los últimos cuatro años, por lo que no elegimos la respuesta 1. Las respuestas 3 y 4 no representan razonablemente la proporción de razones para usar el servicio. Por lo tanto, la respuesta 2 es correcta.",
+          "zh-CN": "过去4年，使用常规送餐服务的人数稳步增长，因此我们不选择答案1。答案3和4不能合理地代表使用该服务的原因比例。因此，答案2是正确的。",
+          "zh-TW": "過去4年，使用常規送餐服務的人數穩定成長，因此我們不選擇答案1。答案3和4不能合理地代表使用該服務的原因比例。因此，答案2是正確的。"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210001",
+    "count_question": 1,
+    "tag": "listen"
+  }
+]

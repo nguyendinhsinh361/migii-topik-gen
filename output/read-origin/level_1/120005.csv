@@ -1,0 +1,34 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120005_20260515_174350_q0,120005,1,read,다음을 읽고 물음에 답하십시오.,2,저는 주말에 산에 가는 것을 좋아합니다. 지난주 토요일에도 산에 갔습니다. ㉠ 날씨가 좋았습니다. 산 위에서 시원한 바람이 불었습니다. 공기도 아주 맑아서 기분이 정말 좋았습니다.,Tôi thích đi leo núi vào cuối tuần. Thứ bảy tuần trước tôi cũng đã đi núi. ㉠ thời tiết rất đẹp. Gió mát thổi trên đỉnh núi. Không khí cũng rất trong lành nên tâm trạng thật sự rất tốt.,"I like going to the mountains on weekends. Last Saturday, I also went to the mountains. ㉠ the weather was good. A cool breeze blew from the top of the mountain. The air was also very clear, so I felt really good.",hobby_leisure,㉠에 들어갈 알맞은 말을 고르십시오.,2,"그리고
+하지만
+그래서
+그러면",1,"1. Và/Và rồi (Đáp án đúng - nối 2 câu cùng tính chất tích cực)
+2. Nhưng
+3. Vì vậy
+4. Nếu vậy
+--------------------
+'그리고' được dùng để nối hai sự việc diễn ra liên tiếp hoặc bổ sung thông tin.","1. And (Correct Answer - connects two positive statements)
+2. But
+3. So
+4. If so
+--------------------
+'그리고' is used to connect sequential events or add information.",,qf_fill_blank,7,"
+trap_synonym_swap
+trap_shared_noun
+trap_synonym_swap",이 글의 내용과 같은 것을 고르십시오.,3,"저는 지난주에 산에 안 갔습니다.
+산에는 바람이 불지 않았습니다.
+산의 공기는 맑지 않았습니다.
+저는 토요일에 산에 갔습니다.",4,"1. Tuần trước tôi không đi núi. (Sai)
+2. Trên núi gió không thổi. (Sai)
+3. Không khí trên núi không trong lành. (Sai)
+4. Tôi đã đi núi vào thứ bảy. (Đúng - khớp nội dung)
+--------------------
+Đáp án 4 khớp với câu '지난주 토요일에도 산에 갔습니다'.","1. I didn't go to the mountains last week. (Wrong)
+2. The breeze didn't blow in the mountains. (Wrong)
+3. The mountain air was not clear. (Wrong)
+4. I went to the mountains on Saturday. (Correct - matches content)
+--------------------
+Answer 4 matches the sentence 'Last Saturday, I also went to the mountains'.",,qf_content_match,7,"trap_neg_없안
+trap_neg_없안
+trap_neg_없안
+",,,,,,,,,,,20260515_174350

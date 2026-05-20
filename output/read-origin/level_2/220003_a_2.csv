@@ -1,0 +1,18 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220003_a_2_20260515_174350_q0,220003_a_2,2,read,[7～8] 다음은 무엇에 대한 글인지 고르십시오.,1,,,,shopping_price,,2,"침대
+에어컨
+텔레비전
+세탁기",1,"1. Giường (Đáp án đúng - dựa trên ảnh giường và '꿀잠', '편안한 침대')
+2. Điều hòa
+3. Ti vi
+4. Máy giặt
+--------------------
+Từ khóa '꿀잠' (giấc ngủ ngon) và '편안한 침대' (giường thoải mái) xác định sản phẩm là giường.","1. Bed (Correct Answer - based on bed image and 'Deep sleep', 'Comfortable bed')
+2. Air conditioner
+3. Television
+4. Washing machine
+--------------------
+The keywords 'Deep sleep' (꿀잠) and 'Comfortable bed' (편안한 침대) identify the product as a bed.",,qf_topic_identify,1,"
+trap_similar_word
+trap_shared_noun
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350

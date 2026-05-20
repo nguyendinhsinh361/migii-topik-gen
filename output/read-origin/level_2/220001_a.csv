@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220001_a_20260515_174350_q0,220001_a,2,read,[1～2] (    )에 들어갈 가장 알맞은 것을 고르십시오.,1,,,,shopping_price,비행기표를 미리 (  ) 더 싼 가격으로 여행을 갈 수 있다.,2,"예매하든지
+예매하거나
+예매해야
+예매하다 보면",3,"Nếu đặt trước vé máy bay thì có thể đi du lịch với giá rẻ hơn.
+1. Dù đặt (Lựa chọn - không hợp)
+2. Hoặc là đặt (Lựa chọn - không hợp)
+3. Phải đặt (Điều kiện bắt buộc - Đáp án đúng)
+4. Nếu cứ đặt (Quá trình dẫn đến kết quả - không hợp)
+--------------------
+Cấu trúc '-아/어야' thể hiện điều kiện cần thiết để thực hiện vế sau.","If you book flight tickets in advance, you can travel at a cheaper price.
+1. Whether booking (Choice - inappropriate)
+2. Or booking (Choice - inappropriate)
+3. Must book (Necessary condition - Correct Answer)
+4. While booking (Process leading to result - inappropriate)
+--------------------
+The structure '-아/어야' indicates a necessary condition to achieve the following clause.",,qf_fill_blank,6,"trap_synonym_swap
+trap_synonym_swap
+
+trap_same_ending",,,,,,,,,,,,,,,,,,,,,20260515_174350

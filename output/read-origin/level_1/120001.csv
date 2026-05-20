@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120001_20260515_174350_q0,120001,1,read,무엇에 대한 이야기입니까? <보기>와 같이 알맞은 것을 고르십시오.,1,,,,daily_life,오빠는 경찰입니다. 언니는 의사입니다.,2,"나이
+이름
+장소
+직업",4,"Anh trai là cảnh sát. Chị gái là bác sĩ.
+1. Tuổi tác
+2. Tên
+3. Địa điểm
+4. Nghề nghiệp (Đáp án đúng)
+--------------------
+경찰 (Cảnh sát), 의사 (Bác sĩ) là các danh từ chỉ nghề nghiệp.","Older brother is a police officer. Older sister is a doctor.
+1. Age
+2. Name
+3. Place
+4. Occupation (Correct Answer)
+--------------------
+경찰 (Police officer), 의사 (Doctor) are nouns indicating occupations.",,qf_topic_identify,2,"trap_similar_word
+trap_shared_noun
+trap_similar_word
+",,,,,,,,,,,,,,,,,,,,,20260515_174350

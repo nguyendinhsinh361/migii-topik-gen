@@ -1,0 +1,197 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,g_image,g_image_desc,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,q_text_4,q_point_4,q_answer_4,q_correct_4,explain_vi_4,explain_en_4,q_image_desc_4,question_feature_4,difficulty_4,distractor_trap_4,q_text_5,q_point_5,q_answer_5,q_correct_5,explain_vi_5,explain_en_5,q_image_desc_5,question_feature_5,difficulty_5,distractor_trap_5,q_text_6,q_point_6,q_answer_6,q_correct_6,explain_vi_6,explain_en_6,q_image_desc_6,question_feature_6,difficulty_6,distractor_trap_6,q_text_7,q_point_7,q_answer_7,q_correct_7,explain_vi_7,explain_en_7,q_image_desc_7,question_feature_7,difficulty_7,distractor_trap_7,q_text_8,q_point_8,q_answer_8,q_correct_8,explain_vi_8,explain_en_8,q_image_desc_8,question_feature_8,difficulty_8,distractor_trap_8,q_text_9,q_point_9,q_answer_9,q_correct_9,explain_vi_9,explain_en_9,q_image_desc_9,question_feature_9,difficulty_9,distractor_trap_9,q_text_10,q_point_10,q_answer_10,q_correct_10,explain_vi_10,explain_en_10,q_image_desc_10,question_feature_10,difficulty_10,distractor_trap_10,created_at
+230001_1_20260515_175559_q0,230001_1,2,write,[51] 다음을 읽고 (ㄱ)과 (ㄴ)에 들어갈 말을 각각 한 문장으로 쓰십시오.,1,,,,,,daily_life,"수미 씨, 안녕하세요? 
+지난주에 드디어 이사를 마쳤습니다. 그래서 이번 주 토요일 저녁에 우리 집에서 ( ㄱ ). 
+바쁘시겠지만 꼭 오셔서 자리를 빛내 주시면 좋겠습니다. 
+혹시 그날 ( ㄴ )? 연락 기다리겠습니다.",10,"(ㄱ) 집들이를 하려고 합니다 - (ㄴ) 시간이 괜찮으십니까
+(ㄱ) 집들이를 하세요 - (ㄴ) 시간이 없으십니까
+(ㄱ) 이사를 갑니다 - (ㄴ) 바쁘십니까
+(ㄱ) 집들이를 하려고 합니다 - (ㄴ) 오실 거예요",1,"Điền từ/cụm từ thích hợp vào chỗ trống.:
+1. (ㄱ) định tổ chức tiệc tân gia - (ㄴ) bạn có thời gian không
+2. (ㄱ) hãy tổ chức tiệc tân gia - (ㄴ) bạn không có thời gian à
+3. (ㄱ) sẽ chuyển nhà - (ㄴ) bạn có bận không
+4. (ㄱ) định tổ chức tiệc tân gia - (ㄴ) bạn sẽ đến chứ
+----------------------------
+Chào Sumi. Tuần trước tôi đã hoàn thành việc chuyển nhà. Vì vậy, tối thứ Bảy tuần này tôi (định tổ chức tiệc tân gia) tại nhà mình. Dù bận rộn nhưng tôi hy vọng bạn sẽ đến và làm cho buổi tiệc thêm ý nghĩa. Liệu ngày hôm đó (bạn có thời gian không)? Tôi sẽ đợi liên lạc của bạn.
+
+Ở (ㄱ), chủ ngữ là 'tôi' và đang thông báo kế hoạch nên dùng ngữ pháp -(으)려고 하다 là phù hợp nhất. Đáp án 2 sai đuôi câu -세요 (mệnh lệnh). Ở (ㄴ), đây là lời mời lịch sự nên '시간이 괜찮으십니까' (bạn có tiện/có thời gian không) là cách hỏi trang trọng và phù hợp nhất. Đáp án 4 dùng '오실 거예요' hơi thiếu trang trọng trong ngữ cảnh này. Đáp án 3 sai vế (ㄱ) vì đã chuyển nhà xong rồi.","Fill in the blanks with the appropriate words/phrases.
+1. <g>(ㄱ)</g> intend to have a housewarming party - <g>(ㄴ)</g> do you have time
+2. <g>(ㄱ)</g> please have a housewarming party - <g>(ㄴ)</g> do you not have time
+3. <g>(ㄱ)</g> am moving - <g>(ㄴ)</g> are you busy
+4. <g>(ㄱ)</g> intend to have a housewarming party - <g>(ㄴ)</g> will you come
+-----------------------------
+Hello Sumi. I finally finished moving last week. So, this Saturday evening, I (intend to have a housewarming party) at my house. I know you're busy, but I'd love for you to come. Do you (have time) that day? I'll be waiting for your call.
+
+In <g>(ㄱ)</g>, the speaker is announcing a plan, so <g>-(으)려고 하다</g> is the most appropriate. Answer 2 uses the wrong ending <g>-세요</g>. In <g>(ㄴ)</g>, <g>시간이 괜찮으십니까</g> is the most polite and natural way to ask for availability in this context. => Answer 1","친구에게 보내는 집들이 초대장 메시지. (ㄱ)은 집들이를 한다는 내용, (ㄴ)은 오겠는지 묻는 내용.",qf_fill_blank_pair,1,"
+trap_grammar_ending
+trap_partial_truth
+trap_grammar_ending",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20260515_175559
+230001_2_20260515_175559_q0,230001_2,2,write,[52] 다음을 읽고 (ㄱ)과 (ㄴ)에 들어갈 말을 각각 한 문장으로 쓰십시오.,1,,,,,,school_education,책을 읽는 것은 아이들의 상상력을 기르는 데 매우 효과적이다. 책 속의 글자를 읽으며 아이들은 머릿속으로 그 장면을 ( ㄱ ). 이러한 과정은 아이들의 창의성 발달에 큰 도움을 준다. 반면에 영상 매체는 이미 완성된 이미지를 보여주기 때문에 아이들이 스스로 ( ㄴ ). 따라서 아이들의 창의적 사고를 위해서는 영상보다는 책을 가까이 하는 것이 좋다.,10,"(ㄱ) 그리게 된다/그릴 수 있다 - (ㄴ) 생각할 기회가 적다/생각하기 어렵다
+(ㄱ) 그리는 것이다 - (ㄴ) 볼 수 없다
+(ㄱ) 보게 된다 - (ㄴ) 상상할 수 있다
+(ㄱ) 그리게 된다/그릴 수 있다 - (ㄴ) 창의적이지 않다",1,"Điền từ/cụm từ thích hợp vào chỗ trống.
+1. (ㄱ) vẽ ra/có thể vẽ ra - (ㄴ) ít cơ hội suy nghĩ/khó suy nghĩ
+2. (ㄱ) là việc vẽ ra - (ㄴ) không thể xem
+3. (ㄱ) được xem - (ㄴ) có thể tưởng tượng
+4. (ㄱ) vẽ ra/có thể vẽ ra - (ㄴ) không sáng tạo
+----------------------------
+Việc đọc sách rất hiệu quả trong việc nuôi dưỡng trí tưởng tượng của trẻ. Khi đọc chữ trong sách, trẻ em (vẽ ra) cảnh tượng đó trong đầu. Quá trình này giúp ích rất nhiều cho sự phát triển sáng tạo của trẻ. Ngược lại, vì các phương tiện nghe nhìn hiển thị hình ảnh đã hoàn thiện nên trẻ em (ít có cơ hội suy nghĩ) một cách tự chủ. Do đó, để phát triển tư duy sáng tạo, trẻ nên tiếp xúc với sách thay vì hình ảnh.
+
+Ở (ㄱ), dựa vào cụm '머릿속으로 그 장면을' (cảnh tượng đó trong đầu), động từ phù hợp là '그리다' (vẽ/hình dung). Ở (ㄴ), đoạn văn đang so sánh sách với video, video cho sẵn hình ảnh nên trẻ em không cần/không có cơ hội tự suy nghĩ, tưởng tượng. Cấu trúc '스스로 생각할 기회가 적다' là phù hợp nhất để phản ánh ý này. Đáp án 4 vế (ㄴ) quá trực diện và thiếu tính lập luận. => Đáp án 1","Fill in the blanks with the appropriate words/phrases.
+1. <g>(ㄱ)</g> draw/can draw - <g>(ㄴ)</g> have fewer opportunities to think/it is difficult to think
+2. <g>(ㄱ)</g> is drawing - <g>(ㄴ)</g> cannot see
+3. <g>(ㄱ)</g> see - <g>(ㄴ)</g> can imagine
+4. <g>(ㄱ)</g> draw/can draw - <g>(ㄴ)</g> are not creative
+----------------------------
+Reading books is very effective in cultivating children's imagination. While reading the letters in a book, children (draw/visualize) the scene in their heads. This process greatly helps children's creativity development. On the other hand, because visual media shows already completed images, children (have fewer opportunities to think) for themselves. Therefore, for children's creative thinking, it is better to stay close to books rather than videos.
+
+In <g>(ㄱ)</g>, following 'in the head', the verb <g>그리다</g> (to draw/visualize) is appropriate. In <g>(ㄴ)</g>, the passage compares books and videos; since videos provide ready-made images, children don't need to think for themselves. <g>생각할 기회가 적다</g> fits best. => Answer 1",,qf_fill_blank_pair,2,"
+trap_partial_truth
+trap_wrong_inference
+trap_overgeneralize",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20260515_175559
+230002_20260515_175559_q0,230002,2,write,"다음 그래프나 그림을 보고, 조사 결과를 비교하여 200~300자로 쓰기. 단, 글의 제목을 쓰지 않기.",3,"다음을 참고하여 ‘한국의 배달 서비스 시장 변화’에 대한 글을 200~300자로 쓰시오. 단, 글의 제목을 쓰지 마시오.","Tham khảo biểu đồ dưới đây và viết một đoạn văn 200~300 chữ về ""Sự thay đổi của thị trường dịch vụ giao hàng tại Hàn Quốc"". Lưu ý, không viết tiêu đề đoạn văn.","By referring to the following, write an article about 'Changes in the Delivery Service Market in Korea' from 200 to 300 characters. Do not write the title of the article.",/topiks/images/delivery_growth_2024.png,"배달 서비스 시장 규모 변화를 보여주는 그래프. 2018년 5조 원에서 2022년 25조 원으로 5배 급증. 증가 원인: 1인 가구 증가, 스마트폰 앱 이용 확산. 향후 전망: 2025년까지 35조 원 규모로 성장 예상.",economy_business,그래프에 대한 설명으로 가장 알맞은 것을 고르십시오.,10,"2018년에 비해 2022년의 시장 규모는 약 5배로 크게 증가하였다.
+2018년에 비해 2022년의 시장 규모는 약 2배로 완만하게 증가하였다.
+2018년부터 2022년까지 시장 규모는 꾸준히 감소하는 추세를 보였다.
+2022년의 시장 규모는 5조 원으로 조사되었다.",1,"Chọn mô tả đúng về biểu đồ.
+1. So với năm 2018, quy mô thị trường năm 2022 đã tăng mạnh khoảng 5 lần.
+2. So với năm 2018, quy mô thị trường năm 2022 đã tăng nhẹ khoảng 2 lần.
+3. Từ năm 2018 đến 2022, quy mô thị trường có xu hướng giảm đều.
+4. Quy mô thị trường năm 2022 được điều tra là 5 nghìn tỷ won.
+------------
+Dựa trên mô tả biểu đồ: 2018 năm (5 nghìn tỷ) -> 2022 năm (25 nghìn tỷ) là tăng gấp 5 lần. => Đáp án 1","Choose the most appropriate description of the graph.
+1. Compared to 2018, the market size in 2022 has increased significantly by about 5 times.
+2. Compared to 2018, the market size in 2022 has increased moderately by about 2 times.
+3. From 2018 to 2022, the market size showed a steady downward trend.
+4. The market size in 2022 was surveyed to be 5 trillion won.
+------------
+Based on the chart description: 2018 (5 trillion) -> 2022 (25 trillion) is a 5-fold increase. => Answer 1",,qf_chart_comprehension,3,"
+trap_number_shift
+trap_wrong_inference
+trap_number_shift",배달 서비스 시장이 성장한 원인으로 언급되지 않은 것은 무엇입니까?,10,"혼자 사는 가구의 증가
+스마트폰 애플리케이션 이용의 확산
+배달 음식의 가격 하락
+편리함을 추구하는 소비 습관",3,"Đâu là nguyên nhân KHÔNG được nhắc đến về sự tăng trưởng của thị trường dịch vụ giao hàng?
+1. Sự gia tăng của hộ gia đình 1 người.
+2. Sự lan rộng của việc sử dụng ứng dụng điện thoại thông minh.
+3. Sự giảm giá của đồ ăn giao tận nơi.
+4. Thói quen tiêu dùng theo đuổi sự tiện lợi.
+------------
+Trong mô tả nguyên nhân (증가 원인) chỉ có: 1인 가구 증가 (hộ gia đình 1 người tăng) và 스마트폰 앱 이용 확산 (ứng dụng smartphone lan rộng). Sự tiện lợi (4) có thể suy luận được nhưng giảm giá (3) không được nhắc đến. => Đáp án 3","What is NOT mentioned as a reason for the growth of the delivery service market?
+1. Increase in single-person households
+2. Spread of smartphone application use
+3. Decrease in delivery food prices
+4. Consumption habits pursuing convenience
+------------
+The reasons mentioned are: increase in single-person households and spread of smartphone app use. Price decrease (3) is not mentioned. => Answer 3",,qf_content_match,3,"trap_partial_truth
+trap_partial_truth
+
+trap_wrong_inference",향후 전망에 대한 설명으로 틀린 것을 고르십시오.,10,"2025년에는 시장 규모가 2022년보다 커질 것으로 보인다.
+앞으로도 배달 시장은 지속적으로 성장할 것으로 예상된다.
+2025년의 시장 규모는 35조 원에 이를 것으로 전망된다.
+2025년에는 시장 규모가 2022년보다 작아질 것이다.",4,"Chọn câu SAI về triển vọng tương lai.
+1. Năm 2025, quy mô thị trường có vẻ sẽ lớn hơn năm 2022.
+2. Dự kiến thị trường giao hàng sẽ tiếp tục tăng trưởng trong tương lai.
+3. Quy mô thị trường năm 2025 được dự báo sẽ đạt 35 nghìn tỷ won.
+4. Năm 2025, quy mô thị trường sẽ nhỏ hơn năm 2022.
+------------
+Dự báo (향후 전망) là tăng lên 35 nghìn tỷ won vào năm 2025, tức là lớn hơn mức 25 nghìn tỷ của năm 2022. Câu 4 nói sẽ nhỏ hơn là sai. => Đáp án 4","Choose the INCORRECT statement about the future outlook.
+1. In 2025, the market size is likely to be larger than in 2022.
+2. The delivery market is expected to continue growing in the future.
+3. The market size in 2025 is projected to reach 35 trillion won.
+4. In 2025, the market size will be smaller than in 2022.
+------------
+The outlook is growth to 35 trillion won by 2025, which is larger than 2022's 25 trillion won. Statement 4 is false. => Answer 4",,qf_chart_comprehension,3,"trap_partial_truth
+trap_partial_truth
+trap_partial_truth
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20260515_175559
+230003_20260515_175559_q0,230003,2,write,"다음을 주제로 하여 자신의 생각을 600~700자로 쓰기. 단, 문제를 그대로 옮겨 쓰지 않기.",10,"우리는 일상생활에서 편리함을 위해 플라스틱 제품을 많이 사용한다. 그러나 무분별한 플라스틱 사용은 심각한 환경 오염을 일으키고 있다. 아래의 내용을 중심으로 ‘플라스틱 사용 줄이기의 필요성’에 대한 자신의 생각을 쓰라.
+
+∙ 플라스틱 사용이 환경에 미치는 영향은 무엇인가?
+∙ 플라스틱 사용을 줄이기 위해 우리는 어떤 노력을 해야 하는가?
+∙ 플라스틱 줄이기가 미래 세대에게 중요한 이유는 무엇인가?","Chúng ta sử dụng nhiều sản phẩm nhựa để tiện lợi trong cuộc sống hàng ngày. Tuy nhiên, việc sử dụng nhựa bừa bãi đang gây ra ô nhiễm môi trường nghiêm trọng. Hãy viết suy nghĩ của bạn về 'Sự cần thiết của việc giảm sử dụng nhựa' tập trung vào những nội dung sau.
+
+∙ Việc sử dụng nhựa ảnh hưởng như thế nào đến môi trường?
+∙ Chúng ta cần nỗ lực như thế nào để giảm sử dụng nhựa?
+∙ Tại sao việc giảm nhựa lại quan trọng đối với thế hệ tương lai?","We use many plastic products for convenience in our daily lives. However, indiscriminate plastic use is causing serious environmental pollution. Write your thoughts on the 'Necessity of reducing plastic use' focusing on the following information.
+
+∙ How does plastic use affect the environment?
+∙ What efforts should we make to reduce plastic use?
+∙ Why is reducing plastic important for future generations?",,,environment_society,"(   )에 들어갈 알맞은 것을 고르십시오.
+
+플라스틱은 분해되는 데 수백 년이 걸리기 때문에 지구 환경에 (   ) 영향을 미친다.",5,"긍정적인
+부정적인
+좋은
+일시적인",2,Nhựa mất hàng trăm năm để phân hủy nên nó gây ảnh hưởng tiêu cực đến môi trường trái đất. => Đáp án 2 (부정적인: tiêu cực),"Plastic takes hundreds of years to decompose, so it has a negative impact on the global environment. => Answer 2 (부정적인: negative)",,qf_fill_word,4,"trap_synonym_swap
+
+trap_synonym_swap
+trap_wrong_inference","(   )에 들어갈 알맞은 것을 고르십시오.
+
+해양으로 흘러 들어간 미세 플라스틱은 해양 생태계를 파괴할 (   ) 인간의 건강도 위협한다.",5,"뿐만 아니라
+때문에
+기 위해서
+는 대신에",1,Vi nhựa chảy vào đại dương không những phá hủy hệ sinh thái biển mà còn đe dọa sức khỏe con người. => Đáp án 1 (뿐만 아니라: không những... mà còn),Microplastics that flow into the ocean not only destroy the marine ecosystem but also threaten human health. => Answer 1 (뿐만 아니라: not only... but also),,qf_fill_word,4,"
+trap_grammar_connector
+trap_grammar_connector
+trap_grammar_connector","(   )에 들어갈 알맞은 것을 고르십시오.
+
+따라서 우리는 일회용품 사용을 (   ) 장바구니나 텀블러를 사용하는 습관을 길러야 한다.",5,"늘리고
+줄이고
+사고
+버리고",2,Do đó chúng ta phải giảm sử dụng đồ dùng một lần và hình thành thói quen sử dụng túi mua hàng hoặc bình nước cá nhân. => Đáp án 2 (줄이고: giảm và...),"Therefore, we should reduce the use of disposable items and develop habits of using shopping bags or tumblers. => Answer 2 (줄이고: reduce and...)",,qf_fill_word,4,"trap_synonym_swap
+
+trap_wrong_inference
+trap_partial_truth","(   )에 들어갈 알맞은 것을 고르십시오.
+
+정부 차원에서도 플라스틱 생산을 규제하는 법적 장치를 (   ) 한다.",5,"마련해야
+없애야
+지켜야
+무시해야",1,"Ở cấp độ chính phủ, cần phải chuẩn bị các biện pháp pháp lý để kiểm soát sản xuất nhựa. => Đáp án 1 (마련해야: phải chuẩn bị/thiết lập)","At the government level, legal measures to regulate plastic production should be prepared. => Answer 1 (마련해야: must prepare/establish)",,qf_fill_word,4,"
+trap_wrong_inference
+trap_partial_truth
+trap_wrong_inference",주제와 가장 알맞은 것을 고르십시오.,5,"플라스틱은 편리하기 때문에 앞으로 더 많이 사용해야 한다.
+플라스틱 사용은 환경 오염의 주된 원인이므로 사용을 줄여야 한다.
+플라스틱 분해는 매우 빠르기 때문에 환경에 해롭지 않다.
+기업은 이익을 위해 플라스틱 제품 생산을 계속 늘려야 한다.",2,Sử dụng nhựa là nguyên nhân chính gây ô nhiễm môi trường nên phải giảm sử dụng. => Đáp án 2,"Plastic use is the main cause of environmental pollution, so we should reduce its use. => Answer 2",,qf_content_match,4,"trap_wrong_inference
+
+trap_number_shift
+trap_overgeneralize",주제와 가장 알맞은 것을 고르십시오.,5,"개인의 노력만으로는 플라스틱 문제를 결코 해결할 수 없다.
+플라스틱 문제는 정부와 기업, 개인이 함께 노력해야 해결 가능하다.
+플라스틱 줄이기는 미래 세대와는 상관없는 hiện tại의 문제일 뿐이다.
+장바구니 사용은 귀찮은 일이므로 굳이 할 필요가 없다.",2,"Vấn đề nhựa có thể giải quyết được nếu chính phủ, doanh nghiệp và cá nhân cùng nỗ lực. => Đáp án 2","The plastic problem can be solved if the government, businesses, and individuals work together. => Answer 2",,qf_content_match,4,"trap_overgeneralize
+
+trap_wrong_inference
+trap_wrong_inference",주제와 가장 알맞은 것을 고르십시오.,5,"깨끗한 환경을 물려주는 것은 미래 세대를 위한 가장 큰 선물이다.
+미래 세대는 새로운 기술로 플라스틱 문제를 알아서 해결할 것이다.
+우리는 현재의 편리함을 위해 환경 오염을 감수해야 한다.
+플라스틱 사용 규제는 경제 발전을 저해하므로 반대해야 한다.",1,Để lại một môi trường sạch đẹp là món quà lớn nhất cho thế hệ tương lai. => Đáp án 1,Passing down a clean environment is the biggest gift for future generations. => Answer 1,,qf_content_match,4,"
+trap_wrong_inference
+trap_overgeneralize
+trap_wrong_inference","(   )에 들어갈 알맞은 것을 고르십시오.
+
+플라스틱 사용을 줄이는 (   ) 환경 보호를 위한 가장 확실한 실천 방법이다.",5,"것이야말로
+것이라서
+거기만
+것보다",1,Việc giảm sử dụng nhựa chính là phương pháp thực hành chắc chắn nhất để bảo vệ môi trường. => Đáp án 1 (것이야말로: chính là cái...),Reducing plastic use is the most certain way to protect the environment. => Answer 1 (것이야말로: indeed/precisely the thing),,qf_fill_word,4,"
+trap_grammar_connector
+trap_wrong_inference
+trap_grammar_connector","다음을 순서대로 맞게 배열한 것을 고르십시오.
+
+(가) 또한 바다로 흘러간 플라스틱은 해양 생물을 죽게 하기도 한다. 
+(나) 우리가 무심코 사용하는 플라스틱은 자연 분해되는 데 매우 오랜 시간이 걸린다.
+(다) 이처럼 플라스틱은 지구 생태계 전반에 심각한 피해를 입히고 있다.
+(라) 이 과정에서 발생하는 유해 물질은 토양과 물을 오염시킨다.",5,"(나) - (라) - (가) - (다)
+(가) - (나) - (다) - (라)
+(나) - (가) - (라) - (다)
+(다) - (나) - (라) - (가)",1,Sắp xếp: (나) Nêu vấn đề nhựa mất thời gian phân hủy -> (라) Quá trình đó phát sinh chất độc hại -> (가) Ngoài ra còn làm chết sinh vật biển -> (다) Kết luận: Như vậy nhựa đang gây hại nghiêm trọng. => Đáp án 1,"Order: (나) Introduce problem of decomposition time -> (라) Toxic substances generated in the process -> (가) Also kills marine life -> (다) Conclusion: Thus, plastic causes serious damage. => Answer 1",,qf_content_match,4,"
+trap_wrong_inference
+trap_wrong_inference
+trap_wrong_inference","다음을 순서대로 맞게 배열한 것을 고르십시오.
+
+(가) 환경을 지키는 일은 이제 선택이 아닌 생존의 문제이다.
+(나) 따라서 개인은 장바구니 사용을 생활화하고 기업은 친환경 소재를 개발해야 한다.
+(다) 우리 모두의 작은 실천이 모일 때 건강한 지구를 미래 세대에게 물려줄 수 있을 것이다.",5,"(가) - (나) - (다)
+(나) - (가) - (다)
+(다) - (나) - (가)
+(다) - (가) - (나)",1,Sắp xếp: (가) Bảo vệ môi trường là vấn đề sinh tồn -> (나) Do đó cá nhân và doanh nghiệp phải hành động -> (다) Khi những hành động nhỏ được tập hợp lại sẽ để lại trái đất khỏe mạnh cho thế hệ tương lai. => Đáp án 1,Order: (가) Protecting environment is survival issue -> (나) Therefore individuals and companies must act -> (다) Small actions combined will pass down a healthy earth. => Answer 1,,qf_content_match,4,"
+trap_wrong_inference
+trap_wrong_inference
+trap_wrong_inference",20260515_175559

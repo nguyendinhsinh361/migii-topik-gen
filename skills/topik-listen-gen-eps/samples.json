@@ -1,0 +1,674 @@
+{
+  "310001": [
+    {
+      "title": "[1-4] 들은 것을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "소고기",
+        "g_text_audio_translate": {
+          "vi": "Thịt bò",
+          "en": "Beef"
+        },
+        "g_audio": "/topiks/audios_eps/b7776b6228aff60d650faf8d118cb0c4_0_47___0_56.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "소고기",
+            "어머니",
+            "바가지",
+            "주머니"
+          ],
+          "q_correct": 1,
+          "explain": {
+            "vi": "1. Thịt bò\n2. Mẹ\n3. Gáo\n4. Túi",
+            "en": "1. Beef\n2. Mother\n3. Large bowl\n4. Pocket"
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310001",
+      "count_question": 1,
+      "tag": "listen"
+    },
+    {
+      "title": "[1-4] 들은 것을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "전에는 무슨 일을 했습니까?",
+        "g_text_audio_translate": {
+          "vi": "Trước đây anh/chị làm công việc gì?",
+          "en": "What did you do before?"
+        },
+        "g_audio": "/topiks/audios_eps/301a3a2f46697f64e7fa07cf182951cb_1_52___2_05.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "용접 일은 처음입니다.",
+            "건설 현장에서 일했습니다.",
+            "앞으로 열심히 하겠습니다.",
+            "전에도 해 본 적이 있습니다."
+          ],
+          "q_correct": 2,
+          "explain": {
+            "vi": "1. Đây là lần đầu tiên tôi làm công việc hàn.2. Tôi đã làm việc ở công trường xây dựng.3. Từ giờ tôi sẽ làm việc thật chăm chỉ.4. Tôi chưa từng làm việc này.",
+            "en": "1. This is my first welding job.2. I worked at a construction site.3. I will work hard from now on.4. I've done it before."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310001",
+      "count_question": 1,
+      "tag": "listen"
+    }
+  ],
+  "310002": [
+    {
+      "title": "[5-9] 다음 그림을 보고 알맞은 대답을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "1. 사월 칠일입니다.\n2. 사월 십일입니다.\n3. 사월 십칠일입니다.\n4. 사월 이십일일입니다.",
+        "g_text_audio_translate": {
+          "vi": "1. Ngày mùng 7 tháng 4.\n2. Ngày mùng 10 tháng 4.\n3. Ngày 17 tháng 4.\n4. Ngày 20 tháng 4.",
+          "en": "1. It's April 7th.\n2. It's April 10th.\n3. It's April 17th.\n4. It's April 20th."
+        },
+        "g_audio": "/topiks/audios_eps/12e9b7be59e069f042b63a0a9600bb5e_6_20___7_23.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "몇 월 며칠입니까?",
+          "q_image": "/topiks/images/5f5927452ed993498ce02a6ab9855516.png",
+          "q_point": 4,
+          "q_answer": [
+            "(보기 1)",
+            "(보기 2)",
+            "(보기 3)",
+            "(보기 4)"
+          ],
+          "q_correct": 3,
+          "explain": {
+            "vi": "Ngày mấy tháng mấy?\n1. \n2. \n3. \n4. \n-------------------- \nNgày 17 tháng 4 nên đáp án đúng là 3.",
+            "en": "What date is it?\n1.\n2.\n3.\n4.\n--------------------\nIt's April 17th so the correct answer is 3."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310002",
+      "count_question": 1,
+      "tag": "listen"
+    },
+    {
+      "title": "[5-9] 다음 그림을 보고 알맞은 대답을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "1. 공항입니다. \n2. 기차역입니다.\n3. 지하철역입니다.\n4. 버스 정류장입니다.",
+        "g_text_audio_translate": {
+          "vi": "1. Là sân bay.\n2. Là ga tàu hỏa.\n3. Là ga tàu điện ngầm.\n4. Là bến xe bus.",
+          "en": "1. This is the airport.\n2. This is the train station.\n3. This is the subway station.\n4. This is the bus stop."
+        },
+        "g_audio": "/topiks/audios_eps/16a4e7b81499aea164da32bfdea3005d_4_43___5_37.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "여기는 어디입니까?",
+          "q_image": "/topiks/images/e22c59844e25eacac5586cbb9ca1658b.png",
+          "q_point": 4,
+          "q_answer": [
+            "(보기 1)",
+            "(보기 2)",
+            "(보기 3)",
+            "(보기 4)"
+          ],
+          "q_correct": 4,
+          "explain": {
+            "vi": "Đây là đâu?\n1. \n2. \n3. \n4. \n--------------------\n버스 정류장: Bến xe bus\n\nBức ảnh là bến xe bus vì ở trên mặt đường (có các tòa nhà), còn ga tàu điện ngầm sẽ ở dưới lòng đất.",
+            "en": "Where is this?\n1.\n2.\n3.\n4.\n--------------------\n<g>버스 정류장:</g> Bus stop\n\nThe is a bus in the picture, so 4 is the correct answer."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310002",
+      "count_question": 1,
+      "tag": "listen"
+    }
+  ],
+  "310003": [
+    {
+      "title": "[10-12] 잘 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "가: 점심을 몇 시에 먹어요?\n나: 한 시에 먹어요.",
+        "g_text_audio_translate": {
+          "vi": "A: Chị ăn trưa lúc mấy giờ?\nB: Tôi ăn lúc 1 giờ.",
+          "en": "A: What time do you have lunch?\nB: I eat at 1 o'clock."
+        },
+        "g_audio": "/topiks/audios_eps/817de00fa160db720e58ebfc2e3a4ab3_9_22___9_48.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "/topiks/images/8664b50d168109f5cfe9770e3edd683a.jpg",
+          "q_point": 4,
+          "q_answer": [
+            "①",
+            "②",
+            "③",
+            "④"
+          ],
+          "q_correct": 1,
+          "explain": {
+            "vi": "1.\n2.\n3.\n4.\n-------------------- \nSố thuần Hàn + 시.\n\nBức tranh đồng hồ chỉ 1 giờ là bức tranh số 1 nên đáp án đúng là 1.",
+            "en": "1.\n2.\n3.\n4.\n--------------------\nNative Korean numbers <g>+시</g>.\n\nThe picture of the clock showing 1 o'clock is picture number 1, so the correct answer is 1."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310003",
+      "count_question": 1,
+      "tag": "listen"
+    },
+    {
+      "title": "[10-12] 잘 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "지금은 두 시입니다.",
+        "g_text_audio_translate": {
+          "vi": "Bây giờ là 2 giờ.",
+          "en": "It's two o'clock now."
+        },
+        "g_audio": "/topiks/audios_eps/2db115fbc0aeac702cd40c70c6d5c448_7_30___7_42.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "/topiks/images/634b2447fc96c590c317337d3415572f.jpg",
+          "q_point": 4,
+          "q_answer": [
+            "①",
+            "②",
+            "③",
+            "④"
+          ],
+          "q_correct": 2,
+          "explain": {
+            "vi": "1. \n2. \n3. \n4. \n--------------------\nSố thuần Hàn + 시: Nói về giờ.\n\nBức tranh 2 đồng hồ chỉ 2h nên đáp án đúng là 2.",
+            "en": "1. \n2. \n3. \n4. \n--------------------\nNative Korean numbers + <g>시</g>.\n\nThe 2nd picture shows 2 o'clock, so the correct answer is 2."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310003",
+      "count_question": 1,
+      "tag": "listen"
+    }
+  ],
+  "310004": [
+    {
+      "title": "[13-17] 질문을 듣고 알맞은 대답을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "주스를 드릴까요? 우유를 드릴까요?",
+        "g_text_audio_translate": {
+          "vi": "Anh/chị uống nước ép không? Hay uống sữa?",
+          "en": "Do you drink juice? Or drink milk?"
+        },
+        "g_audio": "/topiks/audios_eps/b5e686e99375caa3bb272778df245965_13_28___13_53.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "우유를 드세요.",
+            "주스를 주세요.",
+            "물을 마시세요.",
+            "커피도 드리세요."
+          ],
+          "q_correct": 2,
+          "explain": {
+            "vi": "1. Hãy dùng sữa đi ạ.\n2. Cho tôi nước ép.\n3. Hãy uống nước.\n4. Hãy cho cả cafe.\n--------------------\n드리다: Cho",
+            "en": "1. Please drink milk.\n2. Please give me juice.\n3. Drink water.\n4. Please give them some coffee.\n--------------------\n<g>드리다:</g> To give (honorific form of <g>주다</g>)"
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310004",
+      "count_question": 1,
+      "tag": "listen"
+    },
+    {
+      "title": "[13-17] 질문을 듣고 알맞은 대답을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "여기서 사진을 찍어도 돼요?",
+        "g_text_audio_translate": {
+          "vi": "Có thể chụp ảnh ở đây được không ạ?",
+          "en": "Can I take pictures here?"
+        },
+        "g_audio": "/topiks/audios_eps/c3f8cf93611af0285fcb68a7724ad31c_16_00___16_35.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "아니요, 찍지 않아요.",
+            "아니요, 찍어도 돼요.",
+            "아니요, 잘못 걸었어요.",
+            "아니요, 찍으면 안 돼요."
+          ],
+          "q_correct": 4,
+          "explain": {
+            "vi": "1. Không, tôi không chụp ảnh.\n2. Không, bạn có thể chụp ảnh.\n3. Không, tôi đã gọi nhầm số.\n4. Không, bạn không được chụp ảnh.\n--------------------\nV + 아/어도 되다: Mẫu câu dùng để xin phép.\nV + (으)면 안 되다: Mẫu câu dùng để ngăn cấm.",
+            "en": "1. No, I don't take pictures.\n2. No, you can take pictures.\n3. No, I called the wrong number.\n4. No, you can't take pictures.\n--------------------\n<g>V + 아/어도 되다:</g> May, can I...?\n<g>V + (으)면 안 되다:</g> May not, not allowed."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310004",
+      "count_question": 1,
+      "tag": "listen"
+    }
+  ],
+  "310005": [
+    {
+      "title": "[18-23] 이야기를 듣고 질문에 알맞은 대답을 고르십시오.\n",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "가: 영수 씨, 이번 주 토요일에 바빠요?\n나: 아니요. 특별한 일은 없어요. 왜요?\n가: 이번 주 토요일에 이사를 하는데 좀 도와줄 수 있어요?\n나: 네. 그럴게요.\n가: 고마워요. 다음에 맛있는 점심을 살게요.",
+        "g_text_audio_translate": {
+          "vi": "A: Thứ bảy tuần này Youngsoo có bận không?\nB: Không. Tôi không có việc gì đặc biệt cả. Sao vậy?\nA: Thứ bảy tuần này tôi chuyển nhà, anh giúp tôi chuyển được không?\nB: Vâng. Được chứ.\nA: Cảm ơn anh. Lần tới tôi sẽ mua bữa trưa ngon (mời anh nhé).",
+          "en": "A: Youngsoo, are you busy this Saturday?\nB: No, there's nothing special. Why?\nA: I'm moving this Saturday, can you help me?\nB: Yes, I will.\nA: Thank you. I'll buy you a delicious lunch next time."
+        },
+        "g_audio": "/topiks/audios_eps/4b16c2dd3a3d8690047ce33be0d34e40_15_34___16_52.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "여자는 이번 주 토요일에 무엇을 하겠습니까?",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "이사를 하겠습니다.",
+            "요리를 배우겠습니다.",
+            "남자를 도와주겠습니다.",
+            "남자의 집에 가겠습니다."
+          ],
+          "q_correct": 1,
+          "explain": {
+            "vi": "Thứ bảy tuần này người phụ nữ sẽ làm gì?\n1. Sẽ chuyển nhà.\n2. Sẽ học nấu ăn.\n3. Sẽ giúp người đàn ông.\n4. Sẽ tới nhà người đàn ông.\n--------------------\n이사하다: Chuyển nhà\n도와주다: Giúp\n\nV + 는데: Nhưng, hoặc mang ý nghĩa vế trước là bối cảnh của vế sau.\nV + (으)ㄹ 수 있다/없다: Có thể/không thể.",
+            "en": "What will the woman do this Saturday?\n1. She will move house.\n2. She will learn to cook.\n3. She will help the man.\n4. She will go to the man's house.\n--------------------\n<g>이사하다:</g> To move house\n<g>도와주다:</g> To help\n\n<g>V + 는데:</g> Used to express that the 1st clause provides reason or background information for the 2nd clause.\n<g>V + (으)ㄹ 수 있다/없다:</g> Can/can't."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310005",
+      "count_question": 1,
+      "tag": "listen"
+    },
+    {
+      "title": "[18-23] 이야기를 듣고 질문에 알맞은 대답을 고르십시오.\n",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "여자: 어디 가세요?\n남자: 병원에 가요.\n여자: 어디가 아프세요?\n남자: 어제 공장에서 무거운 물건을 들어서 옮겼는데 그후부터 허리가 아파요.",
+        "g_text_audio_translate": {
+          "vi": "Nữ: Bạn đang đi đâu vậy?\nNam: Tôi đi đến bệnh viện.\nNữ: Bạn bị thế nào?\nNam: Hôm qua tôi nâng và di chuyển vật nặng ở nhà máy, sau đó lưng của tôi bị đau.",
+          "en": "Woman: Where are you going?\nMan: I'm going to the hospital.\nWoman: Where does it hurt?\nMan: I lifted and moved heavy objects at the factory yesterday, and my back hurts ever since."
+        },
+        "g_audio": "/topiks/audios_eps/dccc22cff93b02098f59aabbd4dd979c_14_59___15_39.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "남자는 어디에 갑니까?",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "병원",
+            "공장",
+            "식당",
+            "학교"
+          ],
+          "q_correct": 1,
+          "explain": {
+            "vi": "Nhân vật nam đi đâu?\n\n1. Bệnh viện\n2. Nhà máy\n3. Nhà hàng\n4. Trường học",
+            "en": "Where does the man go?\n\n1. Hospital\n2. Factory\n3. Restaurant\n4. School"
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310005",
+      "count_question": 1,
+      "tag": "listen"
+    }
+  ],
+  "310006": [
+    {
+      "title": "[24-25] 하나의 이야기를 듣고 두 개의 질문에 대답하십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "가: 어디 가세요?\n나: 은행에 가요. 고향에 송금하려고요.\n가: 은행이에요? 오늘은 일요일인데요. 일요일엔 은행 문을 안 열찮아요.\n나: 우리 동네는 일요일에도 은행 문을 열어요. 외국인 노동자들이 많이 살고 있거든요. 평일에는 일 때문에 은행에 갈수가 없으니까 은행에서 일요일에도 문을 열어 줬어요.\n가: 이용하는 사람들이 많아요?\n나: 사람이 얼마나 많은지 몰라요. 보통 한 시간쯤 기다려야 해요.",
+        "g_text_audio_translate": {
+          "vi": "A: Anh đi đâu vậy?\nB: Tôi đến ngân hàng. Tôi định gửi tiền về quê.\nA: Ngân hàng sao? Hôm nay là chủ nhật. Chủ nhật ngân hàng không mở cửa mà.\nB: Ở khu tôi ngân hàng mở cửa vào cả chủ nhật. Vì có nhiều người lao động nước ngoài đang sống ở đó. Ngày thường mọi người đi làm nên không tới ngân hàng được. Vì vậy ở đây ngân hàng mở cửa vào cả chủ nhật.\nA: Có nhiều người đến không?\nB: Lượng người đến nhiều biết bao nhiêu. Bình thường tôi phải đợi một tiếng.",
+          "en": "A: Where are you going?\nB: I'm going to the bank. I want to send money back home.\nA: Bank? Today is Sunday. There are no banks open on Sundays.\nB: In my neighborhood, banks are also open on Sundays. There are a lot of foreign workers living there. They couldn't go to the bank on weekdays because of work, so the bank was open on Sunday as well.\nA: Are there many people using it?\nB: I can't even describe how many people there are. I usually have to wait about an hour."
+        },
+        "g_audio": "/topiks/audios_eps/be2d6faeac9d47b56c770f00765197bf_22_05___23_59.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "오늘은 무슨 요일입니까?",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "월요일",
+            "수요일",
+            "토요일",
+            "일요일"
+          ],
+          "q_correct": 4,
+          "explain": {
+            "vi": "Hôm nay là thứ mấy?\n1. Thứ hai\n2. Thứ tư\n3. Thứ bảy\n4. Chủ nhật\n-------------------- \n노동자: Người lao động\n\nV/A + 거든(요): Vì, do.\nV/A + 잖아요: Mà, chẳng phải sao.",
+            "en": "What day is it today?\n1. Monday\n2. Wednesday\n3. Saturday\n4. Sunday\n--------------------\n<g>노동자:</g> Worker\n\n<g>V/A + 거든(요):</g> Because.\n<g>V/A + 잖아요:</g> As you know, didn't I told that."
+          }
+        },
+        {
+          "q_text": "남자는 왜 은행에 갑니까?",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "돈을 저금하려고",
+            "친구를 만나려고",
+            "고향에 돈을 보내려고",
+            "통장을 다시 만들려고"
+          ],
+          "q_correct": 3,
+          "explain": {
+            "vi": "Vì sao người đàn ông tới ngân hàng?\n1. Để tiết kiệm tiền\n2. Để gặp bạn\n3. Để gửi tiền về quê\n4. Để làm sổ ngân hàng lại\n-------------------- \n송금하다: Chuyển tiền, gửi tiền\n\nV + (으)려고 하다: Định, muốn làm gì.",
+            "en": "Why does the man go to the bank?\n1. To save money\n2. To see a friend\n3. To send money back home\n4. To make a new bank account\n--------------------\n<g>송금하다:<g> To remit\n\n<g>V + (으)려고 하다:<g> To plan to, to intend to."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310006",
+      "count_question": 2,
+      "tag": "listen"
+    },
+    {
+      "title": "[24-25] 하나의 이야기를 듣고 두 개의 질문에 대답하십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "여자: 혹시 이번 주 토요일에 나 좀 도와 줄 수 있어?\n남자: 음 무슨 일인데?\n여자: 이삿짐을 옮겨야 하는데 나 혼자는 힘들 것 같아.\n남자: 아, 너 이번 주말에 이사하지?\n여자: 응, 가까운데로 가는 거라 시간이 오래 걸리지는 않을 거야. 나 혼자 살아서 짐도 얼마 안 되고.\n남자: 그래, 도와줄게. 그런데 우리 둘이 다 할 수 있을까?\n여자: 음, 한명 더 있으면 더 빨리 할 수 있겠다. \n남자: 그럼 카넬한테도 연락해 봐. 지금 회사 일 끝나고 집에 있을 거야.\n여자: 아, 그래야겠다. 지금 전화해 봐야지.",
+        "g_text_audio_translate": {
+          "vi": "Nữ: Bạn có thể giúp tôi một chút vào thứ bảy này được không?\nNam: Ừm, có việc gì vậy?\nNữ: Tôi phải chuyển nhà, nhưng tôi nghĩ làm một mình sẽ khó lắm.\nNam: Ồ, bạn chuyển nhà vào cuối tuần này nhỉ?\nNữ: Vâng, vì chuyển đến nơi gần đó nên sẽ không mất nhiều thời gian đâu. Tôi sống một mình nên hành lý cũng không có nhiều.\nNam: Ừ, tôi sẽ giúp. Nhưng hai chúng ta có thể làm hết không?\nNữ: Ừm, nếu có thêm một người nữa thì chúng ta có thể làm nhanh hơn.\nNam: Vậy thì hãy gọi cho Canell thử xem. Bây giờ chắc cậu ấy đã kết thúc việc ở công ty và đang ở nhà.\nNữ: Ồ, chắc phải vậy rồi. Bây giờ phải gọi điện thôi.",
+          "en": "Woman: Can you help me this Saturday?\nMan: Well, what's the matter?\nWoman: I have to move, but I don't think I'll be able to do it alone.\nMan: Oh, you're moving this weekend, right?\nWoman: Yeah, it won't take long because it's close. I live alone, so I don't have much luggage.\nMan: Yeah, I'll help you. But can we do it all?\nWoman: Well, we could do it faster with one more person. \nMan: Then try contacting Canell, too. I think he is at home after work now.\nWoman: Oh, why don't I do that? I'll call him now."
+        },
+        "g_audio": "/topiks/audios_eps/b808ac34d88e8155dafb4a051cdfa43c_22_38___24_42.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "남자는 이번 주말에 무엇을 할 것입니까?",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "카넬을 만날 것입니다.",
+            "여자를 도와줄 것입니다.",
+            "회사에 갔다 올 것입니다.",
+            "친구 집에 놀러 갈 것입니다."
+          ],
+          "q_correct": 2,
+          "explain": {
+            "vi": "Nhân vật nam sẽ làm gì vào cuối tuần này?\n\n1. Gặp Canell.\n2. Giúp nhân vật nữ.\n3. Đi đến công ty.\n4. Đến nhà một người bạn chơi.\n--------------------\nV + (으)ㄹ게요: Thể hiện ý chí, lời hứa của người nói.\n\nNhân vật nam đã nói anh ấy sẽ giúp nhân vật nữ.",
+            "en": "What is the man going to do this weekend?\n\n1. He will meet Canell.\n2. He will help the woman.\n3. He will go to work.\n4. He will visit his friend's house.\n--------------------\n<g>V + (으)ㄹ게(요):</g> I will. Express intention or promise to do something.\n\nThe man said he would help the woman."
+          }
+        },
+        {
+          "q_text": "다음 중 들은 내용과 같은 것은 무엇입니까?",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "여자는 친구 한 명과 같이 산다.",
+            "남자의 집은 여자의 집에서 가깝다.",
+            "여자는 가까운 곳으로 이사를 간다.",
+            "남자는 카넬 씨에게 연락할 것이다."
+          ],
+          "q_correct": 3,
+          "explain": {
+            "vi": "Câu nào sau đây giống với nội dung đã nghe?\n\n1. Nhân vật nữ sống với một người bạn.\n2. Nhà nhân vật nam gần nhà nhân vật nữ.\n3. Nhân vật nữ di chuyển đến một nơi gần đó.\n4. Nhân vật nam sẽ liên lạc với Canell.\n--------------------\n가깝다: Gần\n\nN + (으)로: Chỉ hướng di chuyển.",
+            "en": "Which of the following is equivalent to what you have heard?\n\n1. The woman lives with a friend.\n2. The man's house is close to the woman's house.\n3. The woman is moving to a nearby place.\n4. The man will contact Carnell.\n--------------------\n<g>가깝다:</g> To be close\n\n<g>N + (으)로:</g> To, towards."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "310006",
+      "count_question": 2,
+      "tag": "listen"
+    }
+  ],
+  "3410002": [
+    {
+      "title": "들은 것을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "냄비",
+        "g_text_audio_translate": {
+          "vi": "Nồi",
+          "en": "Pot, saucepan"
+        },
+        "g_audio": "/topiks/audios/3bf41354f8182ee3c7517403cbd3b612.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "/topiks/new_eps/images_4/images/692e9956cf3ded391dd9a2267bf6129d.jpg",
+          "q_point": 4,
+          "q_answer": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "q_correct": 3,
+          "explain": {
+            "vi": "1.\n2.\n3.\n4.",
+            "en": "1.\n2.\n3.\n4."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "3410002",
+      "count_question": null,
+      "tag": "listen"
+    },
+    {
+      "title": "들은 것을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "가위",
+        "g_text_audio_translate": {
+          "vi": "Cây kéo",
+          "en": "Scissors "
+        },
+        "g_audio": "/topiks/audios/e6a9913447ca7c83355baa60941c82a2.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "/topiks/new_eps/images_4/images/78a4d928b2a3e68ef039cd61b6fccfc3.jpg",
+          "q_point": 4,
+          "q_answer": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "q_correct": 3,
+          "explain": {
+            "vi": "1.\n2.\n3.\n4.",
+            "en": "1.\r\n2.\r\n3.\r\n4."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "3410002",
+      "count_question": null,
+      "tag": "listen"
+    }
+  ],
+  "3410005": [
+    {
+      "title": "다음을 듣고 이어지는 말로 알맞은 것을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "전화 잘못 거셨습니다.",
+        "g_text_audio_translate": {
+          "vi": "Bạn gọi nhầm số rồi ạ.",
+          "en": "You dialed the wrong number."
+        },
+        "g_audio": "/topiks/audios/f1adfbedce9f9d8569ac36316555c0e8.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "1. 죄송합니다.",
+            "2. 안녕히 계세요.",
+            "3. 네, 바꿔 주세요.",
+            "4. 네, 805호입니다."
+          ],
+          "q_correct": 1,
+          "explain": {
+            "vi": "1. Tôi xin lỗi.\n2. Tạm biệt.\n3. Vâng, hãy thay đổi giúp tôi.\n4. Vâng, là phòng số 805.",
+            "en": "1. I'm sorry.\n2. Goodbye.\n3. Yes, please change it.\n4. Yes, room 805."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "3410005",
+      "count_question": null,
+      "tag": "listen"
+    },
+    {
+      "title": "다음을 듣고 이어지는 말로 알맞은 것을 고르십시오.",
+      "general": {
+        "g_text": "",
+        "g_text_translate": {
+          "vi": "",
+          "en": ""
+        },
+        "g_text_audio": "맛있게 드세요.",
+        "g_text_audio_translate": {
+          "vi": "Hãy ăn ngon miệng nhé.",
+          "en": "Enjoy the meal."
+        },
+        "g_audio": "/topiks/audios/faf76be9efdf32864837f3496c899104.mp3",
+        "g_image": ""
+      },
+      "content": [
+        {
+          "q_text": "",
+          "q_image": "",
+          "q_point": 4,
+          "q_answer": [
+            "1. 네, 만나서 반갑습니다.",
+            "2. 네, 좋아합니다.",
+            "3. 네, 잘 먹겠습니다.",
+            "4. 네, 잘 부탁드립니다."
+          ],
+          "q_correct": 3,
+          "explain": {
+            "vi": "1. Vâng, rất vui được gặp.\n2. Vâng, tôi thích.\n3. Vâng, tôi sẽ ăn ngon miệng.\n4. Vâng, nhờ bạn giúp đỡ.",
+            "en": "1. Yes, nice to meet you.\r\n2. Yes, I like it.\r\n3. Yes, I will eat well.\r\n4. Yes, I look forward to your kind cooperation."
+          }
+        }
+      ],
+      "level": 3,
+      "kind": "3410005",
+      "count_question": null,
+      "tag": "listen"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220002_b_1_20260515_174350_q0,220002_b_1,2,read,[9] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오.,1,,,,hobby_leisure,,2,"독서를 하는 사람이 가장 많다.
+운동보다 유튜브 시청을 더 많이 한다.
+게임을 취미로 하는 사람이 절반이 넘는다.
+이 조사는 30대를 대상으로 실시했다.",2,"Biểu đồ hình tròn: 'Đời sống sở thích của độ tuổi 20'. 1. Game 35%, 2. Xem Youtube 30%, 3. Tập thể dục 20%, 4. Đọc sách 10%, Khác 5%.
+1. Người đọc sách là nhiều nhất. (Sai - ít nhất)
+2. Xem Youtube nhiều hơn tập thể dục. (Đúng - 30% > 20%)
+3. Người lấy game làm sở thích chiếm hơn một nửa. (Sai - chỉ 35%)
+4. Khảo sát này thực hiện trên đối tượng tuổi 30. (Sai - tuổi 20)
+--------------------
+Đáp án 2 khớp với số liệu trên biểu đồ.","Pie chart: 'Hobby Life of People in their 20s'. 1. Gaming 35%, 2. Watching YouTube 30%, 3. Exercise 20%, 4. Reading 10%, Others 5%.
+1. People who read are the most. (Wrong - they are the least)
+2. People watch YouTube more than they exercise. (Correct - 30% > 20%)
+3. More than half the people take gaming as a hobby. (Wrong - only 35%)
+4. This survey was conducted on people in their 30s. (Wrong - people in their 20s)
+--------------------
+Answer 2 matches the data on the chart.",,qf_graph_match,1,"trap_detail_distort
+
+trap_number_shift
+trap_detail_distort",,,,,,,,,,,,,,,,,,,,,20260515_174350

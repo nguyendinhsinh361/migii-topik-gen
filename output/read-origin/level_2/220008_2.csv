@@ -1,0 +1,52 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220008_2_20260515_174350_q0,220008_2,2,read,[48～50] 다음을 읽고 물음에 답하십시오.,3,"최근 기업들 사이에서 'ESG 경영'이 화두다. 이는 환경(Environment), 사회(Social), 지배구조(Governance)를 중시하는 경영 방식으로, 단순한 이익 창출을 넘어 기업의 사회적 책임을 강조한다. <b>많은 소비자들은 이제 제품의 품질뿐만 아니라 기업이 환경 보호에 기여하는지, 윤리적인 경영을 하는지를 따져보고 구매를 결정한다.</b> 이러한 변화는 기업에게 위기이자 기회이다. ㉠ 사회적 가치를 실현하지 못하는 기업은 소비자들에게 외면받을 수밖에 없기 때문이다. 따라서 기업은 장기적인 성장을 위해 ( ㉡ ) 경영 전략을 세워야 한다.","Gần đây, 'Quản trị ESG' đang là chủ đề nóng giữa các doanh nghiệp. Đây là phương thức quản trị coi trọng Môi trường (Environment), Xã hội (Social) và Quản trị (Governance), nhấn mạnh trách nhiệm xã hội của doanh nghiệp thay vì chỉ tạo ra lợi nhuận đơn thuần. <b>Nhiều người tiêu dùng giờ đây không chỉ xem xét chất lượng sản phẩm mà còn cân nhắc xem doanh nghiệp có đóng góp vào việc bảo vệ môi trường hay quản trị đạo đức hay không rồi mới quyết định mua hàng.</b> Sự thay đổi này vừa là nguy cơ vừa là cơ hội đối với doanh nghiệp. ㉠ Bởi vì những doanh nghiệp không thể hiện thực hóa các giá trị xã hội sẽ không còn cách nào khác là bị người tiêu dùng quay lưng. Vì vậy, doanh nghiệp phải thiết lập chiến lược quản trị ( ㉡ ) để tăng trưởng dài hạn.","Recently, 'ESG Management' has been a hot topic among companies. This is a management method that values Environment, Social, and Governance, emphasizing corporate social responsibility beyond simple profit creation. <b>Many consumers now consider not only product quality but also whether the company contributes to environmental protection and practices ethical management before deciding to purchase.</b> This change is both a crisis and an opportunity for companies. ㉠ This is because companies that fail to realize social values have no choice but to be shunned by consumers. Therefore, companies must establish ( ㉡ ) management strategies for long-term growth.",economy,㉠에 나타난 글쓴이의 태도로 알맞은 것을 고르십시오.,2,"기업의 변화가 시급함을 강조하고 있다.
+소비자의 구매 능력을 높게 평가하고 있다.
+기존의 경영 방식이 효율적이라고 주장하고 있다.
+정부의 규제가 강화되어야 한다고 촉구하고 있다.",1,"Câu ㉠ nói về việc doanh nghiệp sẽ bị quay lưng nếu không thực hiện giá trị xã hội -> Nhấn mạnh sự cấp thiết phải thay đổi.
+1. Nhấn mạnh sự cấp bách của việc thay đổi doanh nghiệp. (Đáp án đúng)
+2. Đánh giá cao năng lực mua sắm của người tiêu dùng. (Sai - bài nói về tiêu chí chọn lọc chứ không phải khả năng tài chính)
+3. Chủ trương rằng phương thức quản trị cũ là hiệu quả. (Sai - ngược với bài)
+4. Thúc giục phải tăng cường quy định của chính phủ. (Sai - không nhắc tới chính phủ)
+--------------------
+Người viết đang cảnh báo về hậu quả nếu doanh nghiệp không thay đổi.","The sentence ㉠ says companies will be shunned if they don't realize social values -> emphasizing the urgency to change.
+1. Emphasizing the urgency of corporate change. (Correct Answer)
+2. Highly evaluating consumers' purchasing power. (Wrong - passage is about selection criteria, not financial ability)
+3. Claiming that existing management methods are efficient. (Wrong - opposite of passage)
+4. Urging that government regulations should be strengthened. (Wrong - government not mentioned)
+--------------------
+The writer is warning about the consequences if companies do not change.",,qf_multi_passage,3,"
+trap_wrong_inference
+trap_neg_없안
+trap_wrong_inference",( ㉡ )에 들어갈 내용으로 알맞은 것을 고르십시오.,2,"이익 극대화에만 집중하는
+사회적 책임을 다하는
+광고를 더 많이 하는
+인건비를 절감하는",2,"1. Chỉ tập trung vào tối đa hóa lợi nhuận (Sai - ESG vượt qua cái này)
+2. Hoàn thành trách nhiệm xã hội (Đáp án đúng - cốt lõi của ESG)
+3. Quảng cáo nhiều hơn (Sai)
+4. Tiết giảm chi phí nhân công (Sai)
+--------------------
+Chiến lược để tăng trưởng dài hạn trong bối cảnh này là thực hiện trách nhiệm xã hội.","1. Focusing only on profit maximization (Wrong - ESG goes beyond this)
+2. Fulfilling social responsibility (Correct Answer - core of ESG)
+3. Advertising more (Wrong)
+4. Reducing labor costs (Wrong)
+--------------------
+The strategy for long-term growth in this context is fulfilling social responsibility.",,qf_fill_blank,3,"trap_shared_noun
+
+trap_wrong_inference
+trap_detail_distort",이 글의 내용과 같은 것을 고르십시오.,2,"소비자들은 이제 제품의 품질만 중요하게 생각한다.
+ESG 경영은 오직 환경 보호만을 목적으로 한다.
+사회적 가치 실현은 기업 성장에 방해가 된다.
+소비자의 구매 기준에 윤리적 요소가 포함되기 시작했다.",4,"1. Giờ đây người tiêu dùng chỉ coi trọng chất lượng sản phẩm. (Sai - còn cả yếu tố môi trường, đạo đức)
+2. Quản trị ESG chỉ có mục đích duy nhất là bảo vệ môi trường. (Sai - cả xã hội và quản trị nữa)
+3. Thực hiện giá trị xã hội gây cản trở sự tăng trưởng của doanh nghiệp. (Sai - giúp tăng trưởng dài hạn)
+4. Yếu tố đạo đức đã bắt đầu được bao gồm trong tiêu chuẩn mua hàng của người tiêu dùng. (Đúng - khớp đoạn bold)
+--------------------
+Đáp án 4 khớp với thông tin về sự thay đổi trong tiêu chí mua sắm của khách hàng.","1. Consumers now only care about product quality. (Wrong - environmental and ethical factors too)
+2. ESG management aims solely for environmental protection. (Wrong - social and governance too)
+3. Realizing social values hinders corporate growth. (Wrong - helps long-term growth)
+4. Ethical elements have started to be included in consumers' purchasing criteria. (Correct - matches bold part)
+--------------------
+Answer 4 matches the information about changes in customers' shopping criteria.",,qf_content_match,3,"trap_partial_truth
+trap_partial_truth
+trap_neg_없안
+",20260515_174350

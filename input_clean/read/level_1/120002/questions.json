@@ -1,0 +1,1142 @@
+[
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "친구를 만납니다. (    )에서 야구를 합니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "약국",
+          "공항",
+          "도서관",
+          "운동장"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Pharmacy\n2. Airport\n3. Library\n4. Playground\n--------------------\nI meet my friend. I play baseball on the playground.\n\nBaseball must be played on the playground. 4 is the correct answer.",
+          "vi": "Tôi gặp gỡ bạn bè. Chúng tôi chơi bóng chày ở (    ).\n\n1. Hiệu thuốc\n2. Sân bay\n3. Thư viện\n4. Sân chơi\n--------------------\nViệc chơi bóng chày phải diễn ra ở sân chơi. 4 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "백화점에 갑니다. 바지(    ) 치마를 삽니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "도",
+          "는",
+          "하고",
+          "에게"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Also\n2. Topic particle\n3. And\n4. To\n--------------------\nI go to the department store. I buy pants and a skirt.\n\n<g>하고</g> is used to connect nouns. 3 is the correct answer.",
+          "vi": "Tôi đi đến trung tâm thương mại. Tôi mua váy (    ) quần.\n\n1. Cũng\n2. Tiểu từ bổ trợ\n3. Và\n4. Với, cho\n--------------------\n하고 được dùng để nối hai danh từ với nhau. 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "병원이 집에서 (    ). 걸어서 갑니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "큽니다",
+          "쌉니다",
+          "가깝습니다",
+          "조용합니다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Big\n2. Cheap\n3. Close to\n4. Quite\n--------------------\nThe hospital is close to my house. I walk there.\n\nThe second sentence mentions \"walk\" so 3 is the most suitable answer.",
+          "vi": "Bệnh viện (    ) nhà tôi. Tôi đi bộ.\n\n1. To\n2. Rẻ\n3. Gần\n4. Im lặng\n--------------------\nCâu sau nói đến \"đi bộ\" nên 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 케이크를 (    ) 좋아합니다. 매일 먹습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "아주",
+          "아까",
+          "먼저",
+          "어서"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Very much\n2. Earlier\n3. First\n4. Quickly\n--------------------\nI like cake very much. I eat it every day.\n\nEating cake every day means this person likes cake very much. 1 is the correct answer.",
+          "vi": "Tôi (    ) thích bánh. Tôi ngày nào cũng ăn.\n\n1. Rất, cực kì\n2. Khi nãy\n3. Đầu tiên\n4. Nhanh lên\n--------------------\nNgày nào cũng ăn nên suy ra rất thích bánh. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "비가 옵니다. 그래서 창문을 (    ).",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "삽니다",
+          "줍니다",
+          "닫습니다",
+          "읽습니다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Buy\n2. Give\n3. Close\n4. Read\n--------------------\nIt's raining. So I close the window.\n\nThe action to take when it rains is to close the window. 3 is the correct answer.",
+          "vi": "Trời mưa. Vậy nên tôi (    ) cửa sổ.\n\n1. Mua\n2. Đưa cho\n3. Đóng\n4. Đọc\n--------------------\nHành động cần làm khi trời mưa là đóng cửa sổ. 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "오늘 많이 피곤합니다. 집에서 (    ).",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "쉽니다",
+          "됩니다",
+          "자릅니다",
+          "찾습니다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Rest\n2. Become\n3. Cut\n4. Find\n--------------------\nI'm very tired today. I rest at home.\n\nWhen you are tired, you need to rest at home. 1 is the correct answer.",
+          "vi": "Hôm nay tôi rất mệt. (    ) ở nhà.\n\n1. Nghỉ ngơi\n2. Trở thành\n3. Cắt\n4. Tìm\n--------------------\nKhi mệt thì cần nghỉ ngơi ở nhà. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "영화를 (    ). 정말 재미있습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "봅니다",
+          "잡니다",
+          "보냅니다",
+          "마십니다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Watch\n2. Sleep\n3. Send\n4. Drink\n--------------------\nI watch a movie. It's really fun.\n\nWe have the phrase <g>영화를 보다</g> (to watch a movie). 1 is the most reasonable answer.",
+          "vi": "Tôi (    ) phim. Thật sự rất thú vị\n\n1. Xem\n2. Ngủ\n3. Gửi\n4. Uống\n--------------------\nTa có cụm 영화를 보다 (xem phim). 1 là đáp án hợp lý nhất.",
+          "ar": "1. شاهد\n2. النوم\n3. أرسل\n4. اشرب\n--------------------\nأشاهد فيلما. انها حقا ممتعة.\n\nلدينا العبارة <g>영화를 보다</g> (لمشاهدة فيلم). 1 هو الجواب الأكثر منطقية.",
+          "ru": "1. Смотреть\n2. Сон\n3. Отправить\n4. Пить\n--------------------\nЯ смотрю фильм. Это действительно весело.\n\nУ нас есть фраза <g>영화를 보다</g> (смотреть фильм). 1 – самый разумный ответ.",
+          "de": "1. Beobachten\n2. Schlafen\n3. Senden\n4. Trinken\n--------------------\nIch schaue mir einen Film an. Es macht wirklich Spaß.\n\nWir haben den Ausdruck <g>영화를 보다</g> (einen Film ansehen). 1 ist die vernünftigste Antwort.",
+          "fr": "1. Regardez\n2. Dormir\n3. Envoyer\n4. Boire\n--------------------\nJe regarde un film. C'est vraiment amusant.\n\nNous avons l'expression <g>영화를 보다</g> (regarder un film). 1 est la réponse la plus raisonnable.",
+          "id": "1. Tonton\n2. Tidur\n3. Kirim\n4. Minum\n--------------------\nSaya menonton film. Ini sangat menyenangkan.\n\nKita mempunyai ungkapan <g>영화를 보다</g> (menonton film). 1 adalah jawaban yang paling masuk akal.",
+          "it": "1. Guarda\n2. Dormire\n3. Invia\n4. Bevi\n--------------------\nGuardo un film. È davvero divertente.\n\nAbbiamo la frase <g>영화를 보다</g> (guardare un film). 1 è la risposta più ragionevole.",
+          "ja": "1. 見る\n2.睡眠\n3.送信\n4. ドリンク\n--------------------\n映画を見ます。本当に楽しいです。\n\n<g>영화를 보다</g> (映画を見る) というフレーズがあります。 1 が最も合理的な答えです。",
+          "pt": "1. Assista\n2. Dormir\n3. Enviar\n4. Beba\n--------------------\nEu assisto um filme. É muito divertido.\n\nTemos a frase <g>영화를 보다</g> (assistir a um filme). 1 é a resposta mais razoável.",
+          "th": "1. ดู\n2. นอนหลับ\n3. ส่ง\n4. ดื่ม\n-\nฉันดูหนัง. มันสนุกจริงๆ\n\nเรามีวลี <g>정화를 보다</g> (ดูหนัง) 1 คือคำตอบที่สมเหตุสมผลที่สุด",
+          "tr": "1. İzle\n2. Uyku\n3. Gönder\n4. İçki\n--------------------\nBir film izliyorum. Gerçekten eğlenceli.\n\n<g>영화를 보다</g> (film izlemek için) deyimine sahibiz. 1 en mantıklı cevaptır.",
+          "zh-CN": "1. 观看\n2. 睡眠\n3.发送\n4. 喝\n--------------------\n我看电影。真的很有趣。\n\n我们有短语 <g>영화를 보다</g>（看电影）。 1是最合理的答案。",
+          "zh-TW": "1. 觀看\n2. 睡眠\n3.發送\n4. 喝\n--------------------\n我看電影。真的很有趣。\n\n我們有片語 <g>영화를 보다</g>（看電影）。 1是最合理的答案。",
+          "hi": "1. देखो\n2. नींद\n3. भेजें\n4. पीना\n------------------------\nमैं एक फिल्म देखता हूं. यह वाकई मजेदार है.\n\nहमारे पास वाक्यांश है <g>영화를 보다</g> (फिल्म देखने के लिए)। 1 सबसे उचित उत्तर है.",
+          "es": "1. Mirar\n2. Dormir\n3. Enviar\n4. Beber\n--------------------\nVeo una película. Es realmente divertido.\n\nTenemos la frase <g>영화를 보다</g> (ver una película). 1 es la respuesta más razonable."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "한국 가수를 좋아합니다. 매일 한국 (    )를 듣습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "편지",
+          "노래",
+          "전화",
+          "시계"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Letter\n2. Song\n3. Phone\n4. Clock\n--------------------\nI like Korean singers. I listen to Korean songs every day.\n\nWe have the phrase <g>노래를 듣다</g> (to listen to music). 2 is the correct answer.",
+          "vi": "Tôi thích ca sĩ Hàn Quốc. Tôi (    ) Hàn Quốc mỗi ngày.\n\n1. Bức thư\n2. Bài hát, việc ca hát\n3. Điện thoại\n4. Đồng hồ\n--------------------\nTa có cụm 노래를 듣다 (nghe nhạc). 2 là đáp án đúng.",
+          "ar": "1. الرسالة\n2. أغنية\n3. الهاتف\n4. الساعة\n--------------------\nأحب المطربين الكوريين. أستمع إلى الأغاني الكورية كل يوم.\n\nلدينا العبارة <g>노래를 듣다</g> (للاستماع إلى الموسيقى). 2 هي الإجابة الصحيحة.",
+          "ru": "1. Письмо\n2. Песня\n3. Телефон\n4. Часы\n--------------------\nМне нравятся корейские певцы. Я слушаю корейские песни каждый день.\n\nУ нас есть фраза <g>노래를 듣다</g> (слушать музыку). 2 правильный ответ.",
+          "de": "1. Brief\n2. Lied\n3. Telefon\n4. Uhr\n--------------------\nIch mag koreanische Sänger. Ich höre jeden Tag koreanische Lieder.\n\nWir haben den Ausdruck <g>노래를 듣다</g> (Musik hören). 2 ist die richtige Antwort.",
+          "fr": "1. Lettre\n2. Chanson\n3. Téléphone\n4. Horloge\n--------------------\nJ'aime les chanteurs coréens. J'écoute des chansons coréennes tous les jours.\n\nNous avons l'expression <g>노래를 듣다</g> (écouter de la musique). 2 est la bonne réponse.",
+          "id": "1. Surat\n2. Lagu\n3. Telepon\n4. Jam\n--------------------\nSaya suka penyanyi Korea. Saya mendengarkan lagu Korea setiap hari.\n\nKita mempunyai ungkapan <g>노래를 듣다</g> (mendengarkan musik). 2 adalah jawaban yang benar.",
+          "it": "1. Lettera\n2. Canzone\n3. Telefono\n4. Orologio\n--------------------\nMi piacciono i cantanti coreani. Ascolto canzoni coreane ogni giorno.\n\nAbbiamo la frase <g>노래를 듣다</g> (ascoltare la musica). 2 è la risposta corretta.",
+          "ja": "1. 手紙\n2. 歌\n3. 電話\n4. 時計\n--------------------\n私は韓国の歌手が好きです。私は毎日韓国の歌を聞いています。\n\n<g>노래를 듣다</g> (音楽を聴く) というフレーズがあります。 2が正解です。",
+          "pt": "1. Carta\n2. Canção\n3. Telefone\n4. Relógio\n--------------------\nEu gosto de cantores coreanos. Eu ouço músicas coreanas todos os dias.\n\nTemos a frase <g>노래를 듣다</g> (para ouvir música). 2 é a resposta correta.",
+          "th": "1. จดหมาย\n2. เพลง\n3. โทรศัพท์\n4. นาฬิกา\n-\nฉันชอบนักร้องเกาหลี ฉันฟังเพลงเกาหลีทุกวัน\n\nเรามีวลี <g>노래를 듣다</g> (ฟังเพลง) 2 คือคำตอบที่ถูกต้อง",
+          "tr": "1. Mektup\n2. Şarkı\n3. Telefon\n4. Saat\n--------------------\nKoreli şarkıcıları seviyorum. Her gün Kore şarkıları dinliyorum.\n\n<g>노래를 듣다</g> (müzik dinlemek için) deyimine sahibiz. 2 doğru cevaptır.",
+          "zh-CN": "1. 信\n2. 歌曲\n3. 电话\n4. 时钟\n--------------------\n我喜欢韩国歌手。我每天都听韩国歌。\n\n我们有短语<g>노래를 듣다</g>（听音乐）。 2 是正确答案。",
+          "zh-TW": "1. 信\n2. 歌曲\n3. 電話\n4. 時鐘\n--------------------\n我喜歡韓國歌手。我每天都聽韓國歌。\n\n我們有片語<g>노래를 듣다</g>（聽音樂）。 2 是正確答案。",
+          "hi": "1. पत्र\n2. गाना\n3. फ़ोन\n4. घड़ी\n------------------------\nमुझे कोरियाई गायक पसंद हैं. मैं हर दिन कोरियाई गाने सुनता हूं।\n\nहमारे पास <g>노래를 듣다</g> (संगीत सुनने के लिए) वाक्यांश है। 2 सही उत्तर है.",
+          "es": "1. carta\n2. Canción\n3. Teléfono\n4. Reloj\n--------------------\nMe gustan los cantantes coreanos. Escucho canciones coreanas todos los días.\n\nTenemos la frase <g>노래를 듣다</g> (escuchar música). 2 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 선생님입니다. 학교에서 학생들을 (    ).",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "읽습니다",
+          "입습니다",
+          "가르칩니다",
+          "물어봅니다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Read\n2. Wear\n3. Teach\n4. Ask\n--------------------\nI am a teacher. I teach students at school.\n\nBecause the character \"I\" is a teacher, answer 3 is the most reasonable answer.",
+          "vi": "Tôi là giáo viên. Ở trường, tôi (    ) học sinh.\n\n1. Đọc\n2. Mặc \n3. Dạy\n4. Hỏi\n--------------------\nVì nhân vật \"tôi\" là giáo viên nên đáp 3 là đáp án hợp lý nhất",
+          "ar": "1. اقرأ\n2. ارتداء\n3. علم\n4. اسأل\n--------------------\nأنا مدرس. أقوم بتدريس الطلاب في المدرسة.\n\nنظرًا لأن الشخصية \"أنا\" هي معلم، فإن الإجابة رقم 3 هي الإجابة الأكثر منطقية.",
+          "ru": "1. Читать\n2. Износ\n3. Преподавать\n4. Спросите\n--------------------\nЯ преподаватель. Я преподаю ученикам в школе.\n\nПоскольку персонаж «Я» — учитель, ответ 3 — наиболее разумный.",
+          "de": "1. Lesen\n2. Tragen\n3. Lehren\n4. Fragen Sie\n--------------------\nIch bin Lehrer. Ich unterrichte Schüler in der Schule.\n\nDa die Figur „Ich“ ein Lehrer ist, ist Antwort 3 die vernünftigste Antwort.",
+          "fr": "1. Lire\n2. Porter\n3. Enseigner\n4. Demandez\n--------------------\nJe suis enseignant. J'enseigne aux élèves à l'école.\n\nParce que le personnage « je » est un enseignant, la réponse 3 est la réponse la plus raisonnable.",
+          "id": "1. Baca\n2. Pakai\n3. Mengajar\n4. Bertanya\n--------------------\nSaya guru. Saya mengajar siswa di sekolah.\n\nKarena tokoh “Saya” adalah seorang guru, maka jawaban 3 adalah jawaban yang paling masuk akal.",
+          "it": "1. Leggi\n2. Indossare\n3. Insegna\n4. Chiedi\n--------------------\nSono un insegnante. Insegno agli studenti a scuola.\n\nPoiché il carattere \"Io\" è un insegnante, la risposta 3 è la risposta più ragionevole.",
+          "ja": "1.読む\n2. 着用\n3. 教える\n4. 尋ねる\n--------------------\n私は教師です。私は学校で生徒に教えています。\n\n登場人物「私」は教師なので、答え 3 が最も妥当です。",
+          "pt": "1. Leia\n2. Desgaste\n3. Ensine\n4. Pergunte\n--------------------\nSou professor. Eu ensino alunos na escola.\n\nComo o personagem “I” é professor, a resposta 3 é a resposta mais razoável.",
+          "th": "1. อ่าน\n2. สวมใส่\n3. สอน\n4. ถาม\n-\nฉันเป็นครู ฉันสอนนักเรียนที่โรงเรียน\n\nเพราะตัวละคร \"ฉัน\" เป็นครู คำตอบที่ 3 จึงเป็นคำตอบที่สมเหตุสมผลที่สุด",
+          "tr": "1. Oku\n2. Aşınma\n3. Öğret\n4. Sor\n--------------------\nÖğretmenim. Okulda öğrencilere ders veriyorum.\n\n\"Ben\" karakteri öğretmen olduğu için cevap 3 en mantıklı cevaptır.",
+          "zh-CN": "1. 阅读\n2. 佩戴\n3. 教学\n4.询问\n--------------------\n我是老师。我在学校教学生。\n\n因为“我”这个人物是老师，所以答案3是最合理的答案。",
+          "zh-TW": "1. 閱讀\n2. 佩戴\n3. 教學\n4.詢問\n--------------------\n我是老師。我在學校教學生。\n\n因為「我」這個角色是老師，所以答案3是最合理的答案。",
+          "hi": "1. पढ़ें\n2. पहनना\n3. सिखाओ\n4. पूछो\n------------------------\nमैं एक शिक्षक हूं. मैं स्कूल में विद्यार्थियों को पढ़ाता हूँ।\n\nक्योंकि अक्षर \"I\" एक शिक्षक है, उत्तर 3 सबसे उचित उत्तर है।",
+          "es": "1. Leer\n2. usar\n3. Enseñar\n4. Pregunta\n--------------------\nYo soy un profesor. Doy clases a estudiantes en la escuela.\n\nDebido a que el personaje \"yo\" es un maestro, la respuesta 3 es la más razonable."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 요즘 (    ). 시간이 없습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "작습니다",
+          "바쁩니다",
+          "무겁습니다",
+          "조용합니다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Small\n2. Busy\n3. Heavy\n4. Quiet\n--------------------\nI'm busy these days. I don't have time.\n\nThe character \"I\" doesn't have time, so it can be inferred that the character \"I\" is busy. 2 is the correct answer.",
+          "vi": "Dạo này tôi (    ). Tôi không có thời gian.\n\n1. Nhỏ\n2. Bận\n3. Nặng \n4. Im lặng\n--------------------\nNhân vật \"tôi\" nói là \"không có thời gian\" nên suy ra nhân vật \"tôi\" đang bận. 2 là đáp án đúng.",
+          "ar": "1. صغير\n2. مشغول\n3. ثقيل\n4. هادئ\n--------------------\nأنا مشغول هذه الأيام. ليس لدي وقت.\n\nالشخصية \"أنا\" ليس لديها وقت، لذلك يمكن استنتاج أن الشخصية \"أنا\" مشغولة. 2 هي الإجابة الصحيحة.",
+          "ru": "1. Маленький\n2. Занят\n3. Тяжелый\n4. Тихий\n--------------------\nЯ занят в эти дни. У меня нет времени.\n\nУ персонажа «Я» нет времени, поэтому можно сделать вывод, что персонаж «Я» занят. 2 правильный ответ.",
+          "de": "1. Klein\n2. Beschäftigt\n3. Schwer\n4. Ruhig\n--------------------\nIch bin in diesen Tagen beschäftigt. Ich habe keine Zeit.\n\nDie Figur „I“ hat keine Zeit, daher kann gefolgert werden, dass die Figur „I“ beschäftigt ist. 2 ist die richtige Antwort.",
+          "fr": "1. Petit\n2. Occupé\n3. Lourd\n4. Calme\n--------------------\nJe suis occupé ces jours-ci. Je n'ai pas le temps.\n\nLe caractère « je » n'a pas le temps, on peut donc en déduire que le caractère « je » est occupé. 2 est la bonne réponse.",
+          "id": "1. Kecil\n2. Sibuk\n3. Berat\n4. Tenang\n--------------------\nSaya sibuk hari ini. Saya tidak punya waktu.\n\nTokoh “Aku” tidak mempunyai waktu, sehingga dapat disimpulkan bahwa tokoh “Aku” sedang sibuk. 2 adalah jawaban yang benar.",
+          "it": "1. Piccolo\n2. Occupato\n3. Pesante\n4. Silenzioso\n--------------------\nSono occupato in questi giorni. Non ho tempo\n\nIl carattere \"io\" non ha tempo, quindi si può dedurre che il carattere \"io\" è occupato. 2 è la risposta corretta.",
+          "ja": "1.小さい\n2. 忙しい\n3. 重い\n4. 静か\n--------------------\n最近は忙しいです。時間がないんです。\n\n登場人物「私」には時間がないので、登場人物「私」は忙しいと推測できます。 2が正解です。",
+          "pt": "1. Pequeno\n2. Ocupado\n3. Pesado\n4. Silêncio\n--------------------\nEstou ocupado esses dias. Eu não tenho tempo.\n\nO personagem “I” não tem tempo, então pode-se inferir que o personagem “I” está ocupado. 2 é a resposta correta.",
+          "th": "1. เล็ก\n2. งานยุ่ง\n3. หนัก\n4. เงียบ\n-\nช่วงนี้ฉันยุ่ง ฉันไม่มีเวลา.\n\nตัวละคร \"ฉัน\" ไม่มีเวลา จึงสรุปได้ว่าตัวละคร \"ฉัน\" กำลังยุ่งอยู่ 2 คือคำตอบที่ถูกต้อง",
+          "tr": "1. Küçük\n2. Meşgul\n3. Ağır\n4. Sessiz\n--------------------\nBu günlerde meşgulüm. Zamanım yok.\n\n\"Ben\" karakterinin zamanı olmadığından \"Ben\" karakterinin meşgul olduğu sonucuna varılabilir. 2 doğru cevaptır.",
+          "zh-CN": "1. 小\n2. 忙\n3. 重\n4. 安静\n--------------------\n我这几天很忙。我没有时间。\n\n角色“我”没有时间，因此可以推断角色“我”很忙。 2 是正确答案。",
+          "zh-TW": "1. 小\n2. 忙\n3. 重\n4. 安靜\n--------------------\n我這幾天很忙。我沒有時間。\n\n角色“我”沒有時間，因此可以推斷角色“我”很忙。 2 是正確答案。",
+          "hi": "1. छोटा\n2. व्यस्त\n3. भारी\n4. शांत\n------------------------\nमैं इन दिनों व्यस्त हूं. मेरे पास समय नहीं है.\n\n\"मैं\" पात्र के पास समय नहीं है, इसलिए यह अनुमान लगाया जा सकता है कि \"मैं\" पात्र व्यस्त है। 2 सही उत्तर है.",
+          "es": "1. pequeño\n2. Ocupado\n3. pesado\n4. Tranquilo\n--------------------\nEstoy ocupado estos días. No tengo tiempo.\n\nEl personaje \"yo\" no tiene tiempo, por lo que se puede inferir que el personaje \"yo\" está ocupado. 2 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 김민수 씨를 모릅니다. 내일 (    ) 만납니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "처음",
+          "보통",
+          "제일",
+          "항상"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. For the first time\n2. Usually\n3. Most\n4. Always\n--------------------\nI don't know Kim Min-soo. I'll meet him for the first time tomorrow.\n\nThe character \"I\" doesn't know Kim Minsu, so the character \"I\" will meet Minsu for the first time tomorrow. 1 is the correct answer.",
+          "vi": "Tôi không biết Kim Minsu. Ngày mai (    )  gặp nhau.\n\n1. Lần đầu tiên\n2. Bình thường\n3. Nhất\n4. Luôn luôn\n--------------------\nNhân vật \"tôi\" không biết Kim Minsu, như vậy nhân vật \"tôi\" sẽ gặp Minsu lần đầu tiên vào ngày mai. 1 là đáp án đúng.",
+          "ar": "1. لأول مرة\n2. عادة\n3. معظم\n4. دائما\n--------------------\nأنا لا أعرف كيم مين سو. سأقابله للمرة الأولى غدًا.\n\nالشخصية \"أنا\" لا تعرف كيم مينسو، لذا فإن الشخصية \"أنا\" ستقابل مينسو لأول مرة غدًا. 1 هو الجواب الصحيح.",
+          "ru": "1. Впервые\n2. Обычно\n3. Большинство\n4. Всегда\n--------------------\nЯ не знаю Ким Мин Су. Завтра я встречусь с ним в первый раз.\n\nПерсонаж «Я» не знает Ким Минсу, поэтому персонаж «Я» впервые встретится с Минсу завтра. 1 – правильный ответ.",
+          "de": "1. Zum ersten Mal\n2. Normalerweise\n3. Die meisten\n4. Immer\n--------------------\nIch kenne Kim Min-soo nicht. Ich werde ihn morgen zum ersten Mal treffen.\n\nDie Figur „I“ kennt Kim Minsu nicht, daher wird die Figur „I“ Minsu morgen zum ersten Mal treffen. 1 ist die richtige Antwort.",
+          "fr": "1. Pour la première fois\n2. Habituellement\n3. La plupart\n4. Toujours\n--------------------\nJe ne connais pas Kim Min-soo. Je le rencontrerai pour la première fois demain.\n\nLe personnage « I » ne connaît pas Kim Minsu, donc le personnage « I » rencontrera Minsu pour la première fois demain. 1 est la bonne réponse.",
+          "id": "1. Untuk pertama kalinya\n2. Biasanya\n3. Kebanyakan\n4. Selalu\n--------------------\nSaya tidak kenal Kim Min-soo. Aku akan bertemu dengannya untuk pertama kalinya besok.\n\nKarakter \"Aku\" tidak mengenal Kim Minsu, jadi karakter \"Aku\" akan bertemu Minsu untuk pertama kalinya besok. 1 adalah jawaban yang benar.",
+          "it": "1. Per la prima volta\n2. Di solito\n3. La maggior parte\n4. Sempre\n--------------------\nNon conosco Kim Min-soo. Lo incontrerò per la prima volta domani.\n\nIl personaggio \"Io\" non conosce Kim Minsu, quindi il personaggio \"Io\" incontrerà Minsu per la prima volta domani. 1 è la risposta corretta.",
+          "ja": "1.初めて\n2. 通常\n3. ほとんど\n4. いつも\n--------------------\nキム・ミンスさんは知りません。明日初めて彼に会います。\n\n登場人物「私」はキム・ミンスを知らないため、登場人物「私」は明日初めてミンスと会うことになる。 1 が正解です。",
+          "pt": "1. Pela primeira vez\n2. Geralmente\n3. A maioria\n4. Sempre\n--------------------\nEu não conheço Kim Min-soo. Vou encontrá-lo pela primeira vez amanhã.\n\nO personagem “I” não conhece Kim Minsu, então o personagem “I” encontrará Minsu pela primeira vez amanhã. 1 é a resposta correta.",
+          "th": "1. เป็นครั้งแรก\n2. โดยปกติ\n3. มากที่สุด\n4. เสมอ\n-\nฉันไม่รู้จักคิมมินซู ฉันจะพบเขาเป็นครั้งแรกพรุ่งนี้\n\nตัวละคร \"ฉัน\" ไม่รู้จักคิมมินซู ดังนั้นตัวละคร \"ฉัน\" จะพบกับมินซูเป็นครั้งแรกในวันพรุ่งนี้ 1 คือคำตอบที่ถูกต้อง",
+          "tr": "1. İlk defa\n2. Genellikle\n3. Çoğu\n4. Her zaman\n--------------------\nKim Min-soo'yu tanımıyorum. Onunla ilk kez yarın tanışacağım.\n\n\"Ben\" karakteri Kim Minsu'yu tanımıyor, bu yüzden \"Ben\" karakteri yarın ilk kez Minsu ile buluşacak. 1 doğru cevaptır.",
+          "zh-CN": "1. 第一次\n2.通常\n3. 大多数\n4. 永远\n--------------------\n我不认识金珉洙。明天我将第一次见到他。\n\n角色“我”不认识金珉秀，所以角色“我”明天将第一次见到金珉秀。 1 是正确答案。",
+          "zh-TW": "1. 第一次\n2.通常\n3. 大多數\n4. 永遠\n--------------------\n我不認識金珉洙。明天我將第一次見到他。\n\n角色「我」不認識金珉秀，所以角色「我」明天將第一次見到金珉秀。 1 是正確答案。",
+          "hi": "1. पहली बार\n2. आमतौर पर\n3. अधिकांश\n4. सदैव\n------------------------\nमैं किम मिन-सू को नहीं जानता। मैं कल उनसे पहली बार मिलूंगा.\n\nपात्र \"आई\" किम मिनसू को नहीं जानता है, इसलिए पात्र \"आई\" कल पहली बार मिनसु से मिलेगा। 1 सही उत्तर है.",
+          "es": "1. Por primera vez\n2. Generalmente\n3. La mayoría\n4. Siempre\n--------------------\nNo conozco a Kim Min Soo. Lo veré por primera vez mañana.\n\nEl personaje \"I\" no conoce a Kim Minsu, por lo que el personaje \"I\" conocerá a Minsu por primera vez mañana. 1 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 볼펜이 없습니다. 연필(    ) 있습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "을",
+          "만",
+          "도",
+          "로"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Object particle\n2. Only\n3. Also\n4. Indicating particle\n--------------------\nI don't have a pen. I only have a pencil.\n\nAnswer 1 is wrong because the particles <g>을/를</g> do not go with <g>있다/없다</g>. Answer 3 and answer 4 are wrong because the meaning of the sentence is not reasonable. This sentence wants to convey the meaning that there is no ballpoint pen but only a pencil, so 2 is the correct answer.",
+          "vi": "Tôi không có bút bi. Tôi có bút chì.\n\n1. Tiểu từ tân ngữ\n2. Chỉ\n3. Cũng\n4. Bằng, về hướng\n--------------------\n1 sai vì tiểu từ 을/를 không đi với 있다/없다. 3,4 sai vì nghĩa của câu không hợp lý. Ở đây muốn diễn tả ý nghĩa không có bút bi, chỉ có bút chì nên 2 là đáp án đúng.",
+          "ar": "1. جسيم الجسم\n2. فقط\n3. أيضا\n4. مشيرا إلى الجسيمات\n--------------------\nليس لدي قلم. ليس لدي سوى قلم رصاص.\n\nالإجابة 1 خاطئة لأن الجسيمات <g>을/를</g> لا تتوافق مع <g>있다/없다</g>. الإجابة 3 والإجابة 4 خاطئة لأن معنى الجملة غير معقول. تريد هذه الجملة إيصال معنى أنه لا يوجد قلم حبر جاف بل يوجد قلم رصاص فقط، لذا فإن الرقم 2 هو الإجابة الصحيحة.",
+          "ru": "1. Частица объекта\n2. Только\n3. Также\n4. Указательная частица\n--------------------\nУ меня нет ручки. У меня есть только карандаш.\n\nОтвет 1 неверен, поскольку частицы <g>을/를</g> не сочетаются с <g>있다/없다</g>. Ответ 3 и ответ 4 неверны, поскольку смысл предложения неразумен. Это предложение призвано передать смысл того, что шариковой ручки нет, а есть только карандаш, поэтому правильный ответ — 2.",
+          "de": "1. Objektpartikel\n2. Nur\n3. Auch\n4. Anzeigeteilchen\n--------------------\nIch habe keinen Stift. Ich habe nur einen Bleistift.\n\nAntwort 1 ist falsch, weil die Partikel <g>을/를</g> nicht zu <g>있다/없다</g> passen. Antwort 3 und Antwort 4 sind falsch, weil die Bedeutung des Satzes nicht sinnvoll ist. Dieser Satz soll die Bedeutung vermitteln, dass es keinen Kugelschreiber, sondern nur einen Bleistift gibt, also ist 2 die richtige Antwort.",
+          "fr": "1. Particule d'objet\n2. Seulement\n3. Aussi\n4. Particule indicatrice\n--------------------\nJe n'ai pas de stylo. Je n'ai qu'un crayon.\n\nLa réponse 1 est fausse car les particules <g>을/를</g> ne vont pas avec <g>있다/없다</g>. La réponse 3 et la réponse 4 sont fausses car le sens de la phrase n'est pas raisonnable. Cette phrase veut transmettre le sens qu’il n’y a pas de stylo à bille mais seulement un crayon, donc 2 est la bonne réponse.",
+          "id": "1. Partikel benda\n2. Hanya\n3. Juga\n4. Menunjukkan partikel\n--------------------\nSaya tidak punya pena. Saya hanya punya pensil.\n\nJawaban 1 salah karena partikel <g>을/를</g> tidak cocok dengan <g>있다/없다</g>. Jawaban 3 dan jawaban 4 salah karena maksud kalimatnya tidak masuk akal. Kalimat ini ingin menyampaikan arti bahwa tidak ada pulpen melainkan hanya pensil, jadi jawaban yang benar adalah 2.",
+          "it": "1. Particella oggetto\n2. Solo\n3. Inoltre\n4. Particella indicatrice\n--------------------\nNon ho una penna. Ho solo una matita.\n\nLa risposta 1 è sbagliata perché le particelle <g>을/를</g> non vanno con <g>있다/없다</g>. La risposta 3 e la risposta 4 sono sbagliate perché il significato della frase non è ragionevole. Questa frase vuole trasmettere il significato che non esiste una penna a sfera ma solo una matita, quindi 2 è la risposta corretta.",
+          "ja": "1. オブジェクト粒子\n2.のみ\n3. また\n4. 粒子の表示\n--------------------\nペンを持っていません。私は鉛筆しか持っていません。\n\n答え 1 は助詞 <g>을/를</g> が <g>있다/없다</g> と合わないので不正解です。回答 3 と回答 4 は、文の意味が合理的ではないため、不正解です。この文はボールペンがなく鉛筆しかないという意味を伝えたいので、2が正解です。",
+          "pt": "1. Partícula de objeto\n2. Apenas\n3. Também\n4. Partícula indicadora\n--------------------\nEu não tenho caneta. Eu só tenho um lápis.\n\nA resposta 1 está errada porque as partículas <g>을/를</g> não combinam com <g>있다/없다</g>. As respostas 3 e 4 estão erradas porque o significado da frase não é razoável. Esta frase quer transmitir o significado de que não existe caneta esferográfica, mas apenas um lápis, então 2 é a resposta correta.",
+          "th": "1. อนุภาคของวัตถุ\n2. เท่านั้น\n3. นอกจากนี้\n4. บ่งชี้อนุภาค\n-\nฉันไม่มีปากกา ฉันมีเพียงดินสอ\n\nคำตอบที่ 1 ผิดเพราะว่าอนุภาค <g>을/를</g> ไม่ไปกับ <g>있다/없다</g> ตอบ 3 และตอบ 4 ผิดเพราะความหมายของประโยคไม่สมเหตุสมผล ประโยคนี้ต้องการสื่อความหมายว่าไม่มีปากกาลูกลื่นมีแต่ดินสอ ดังนั้น 2 จึงเป็นคำตอบที่ถูกต้อง",
+          "tr": "1. Nesne parçacığı\n2. Yalnızca\n3. Ayrıca\n4. Parçacığı gösteren\n--------------------\nKalemim yok. Sadece bir kalemim var.\n\nCevap 1 yanlış çünkü <g>을/를</g> parçacıkları <g>있다/없다</g> ile uyumlu değil. Cümlenin anlamı makul olmadığından cevap 3 ve cevap 4 yanlıştır. Bu cümle, tükenmez kalemin olmadığını, sadece kurşun kalemin var olduğu anlamına gelmek istediğinden doğru cevap 2'dir.",
+          "zh-CN": "1. 物体粒子\n2.仅\n3.还有\n4.指示粒子\n--------------------\n我没有笔。我只有一支铅笔。\n\n答案1是错误的，因为助词<g>을/를</g>与<g>있다/없다</g>不相符。答案3和答案4都是错误的，因为句子的意思不合理。这句话想要传达的意思是没有圆珠笔只有铅笔，所以2是正确答案。",
+          "zh-TW": "1. 物體粒子\n2.僅\n3.還有\n4.指示粒子\n--------------------\n我沒有筆。我只有一支鉛筆。\n\n答案1是錯誤的，因為助詞<g>을/를</g>與<g>있다/없다</g>不符。答案3和答案4都是錯的，因為句子的意思不合理。這句話想要傳達的意思是沒有原子筆只有鉛筆，所以2是正確答案。",
+          "hi": "1. वस्तु कण\n2. केवल\n3. साथ ही\n4. सूचक कण\n------------------------\nमेरे पास कलम नहीं है. मेरे पास केवल एक पेंसिल है.\n\nउत्तर 1 गलत है क्योंकि कण <g>을/를</g> <g>있다/없다</g> के साथ नहीं जाते हैं। उत्तर 3 और उत्तर 4 गलत हैं क्योंकि वाक्य का अर्थ उचित नहीं है। यह वाक्य यह अर्थ बताना चाहता है कि कोई बॉलपॉइंट पेन नहीं है बल्कि केवल एक पेंसिल है, इसलिए 2 सही उत्तर है।",
+          "es": "1. Partícula objeto\n2. Sólo\n3. También\n4. Partícula indicadora\n--------------------\nNo tengo bolígrafo. Sólo tengo un lápiz.\n\nLa respuesta 1 es incorrecta porque las partículas <g>을/를</g> no van con <g>있다/없다</g>. Las respuestas 3 y 4 son incorrectas porque el significado de la oración no es razonable. Esta oración quiere transmitir el significado de que no hay bolígrafo sino solo lápiz, por lo que 2 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "영화를 (    ). 정말 재미있습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "봅니다",
+          "잡니다",
+          "보냅니다",
+          "마십니다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Watch\n2. Sleep\n3. Send\n4. Drink\n--------------------\nI watch a movie. It's really fun.\n\nWe have the phrase <g>영화를 보다</g> (to watch a movie). 1 is the most reasonable answer.",
+          "vi": "Tôi (    ) phim. Thật sự rất thú vị\n\n1. Xem\n2. Ngủ\n3. Gửi\n4. Uống\n--------------------\nTa có cụm 영화를 보다 (xem phim). 1 là đáp án hợp lý nhất."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "한국 가수를 좋아합니다. 매일 한국 (    )를 듣습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "편지",
+          "노래",
+          "전화",
+          "시계"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Letter\n2. Song\n3. Phone\n4. Clock\n--------------------\nI like Korean singers. I listen to Korean songs every day.\n\nWe have the phrase <g>노래를 듣다</g> (to listen to music). 2 is the correct answer.",
+          "vi": "Tôi thích ca sĩ Hàn Quốc. Tôi (    ) Hàn Quốc mỗi ngày.\n\n1. Bức thư\n2. Bài hát, việc ca hát\n3. Điện thoại\n4. Đồng hồ\n--------------------\nTa có cụm 노래를 듣다 (nghe nhạc). 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 선생님입니다. 학교에서 학생들을 (    ).",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "읽습니다",
+          "입습니다",
+          "가르칩니다",
+          "물어봅니다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Read\n2. Wear\n3. Teach\n4. Ask\n--------------------\nI am a teacher. I teach students at school.\n\nBecause the character \"I\" is a teacher, answer 3 is the most reasonable answer.",
+          "vi": "Tôi là giáo viên. Ở trường, tôi (    ) học sinh.\n\n1. Đọc\n2. Mặc \n3. Dạy\n4. Hỏi\n--------------------\nVì nhân vật \"tôi\" là giáo viên nên đáp 3 là đáp án hợp lý nhất"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 요즘 (    ). 시간이 없습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "작습니다",
+          "바쁩니다",
+          "무겁습니다",
+          "조용합니다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Small\n2. Busy\n3. Heavy\n4. Quiet\n--------------------\nI'm busy these days. I don't have time.\n\nThe character \"I\" doesn't have time, so it can be inferred that the character \"I\" is busy. 2 is the correct answer.",
+          "vi": "Dạo này tôi (    ). Tôi không có thời gian.\n\n1. Nhỏ\n2. Bận\n3. Nặng \n4. Im lặng\n--------------------\nNhân vật \"tôi\" nói là \"không có thời gian\" nên suy ra nhân vật \"tôi\" đang bận. 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 김민수 씨를 모릅니다. 내일 (    ) 만납니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "처음",
+          "보통",
+          "제일",
+          "항상"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. For the first time\n2. Usually\n3. Most\n4. Always\n--------------------\nI don't know Kim Min-soo. I'll meet him for the first time tomorrow.\n\nThe character \"I\" doesn't know Kim Minsu, so the character \"I\" will meet Minsu for the first time tomorrow. 1 is the correct answer.",
+          "vi": "Tôi không biết Kim Minsu. Ngày mai (    )  gặp nhau.\n\n1. Lần đầu tiên\n2. Bình thường\n3. Nhất\n4. Luôn luôn\n--------------------\nNhân vật \"tôi\" không biết Kim Minsu, như vậy nhân vật \"tôi\" sẽ gặp Minsu lần đầu tiên vào ngày mai. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 볼펜이 없습니다. 연필(    ) 있습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "을",
+          "만",
+          "도",
+          "로"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Object particle\n2. Only\n3. Also\n4. Indicating particle\n--------------------\nI don't have a pen. I only have a pencil.\n\nAnswer 1 is wrong because the particles <g>을/를</g> do not go with <g>있다/없다</g>. Answer 3 and answer 4 are wrong because the meaning of the sentence is not reasonable. This sentence wants to convey the meaning that there is no ballpoint pen but only a pencil, so 2 is the correct answer.",
+          "vi": "Tôi không có bút bi. Tôi có bút chì.\n\n1. Tiểu từ tân ngữ\n2. Chỉ\n3. Cũng\n4. Bằng, về hướng\n--------------------\n1 sai vì tiểu từ 을/를 không đi với 있다/없다. 3,4 sai vì nghĩa của câu không hợp lý. Ở đây muốn diễn tả ý nghĩa không có bút bi, chỉ có bút chì nên 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "(    )에 갑니다. 책을 삽니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "은행",
+          "극장",
+          "서점",
+          "식당"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Bank\n2. Theater\n3. Bookstore\n4. Restaurant\n--------------------\nI go to the bookstore. I buy a book.\n\nBooks are sold in bookstores. 3 is the correct answer.",
+          "vi": "Tôi đi tới (    ). Tôi mua sách.\n\n1. Ngân hàng\n2. Nhà hát\n3. Hiệu sách\n4. Nhà hàng\n--------------------\nSách được bán ở hiệu sách. 3 là đáp án đúng.",
+          "ar": "١. بنك\n٢. مسرح\n٣. مكتبة\n٤. مطعم\n--------------------\nأذهب إلى المكتبة. أشتري كتابًا.\n\nتُباع الكتب في المكتبات. ٣ هو الجواب الصحيح.",
+          "ru": "1. Банк\n2. Театр\n3. Книжный магазин\n4. Ресторан\n--------------------\nЯ иду в книжный магазин. Я покупаю книгу.\n\nКниги продаются в книжных магазинах. 3 — правильный ответ.",
+          "de": "1. Bank\n2. Theater\n3. Buchhandlung\n4. Restaurant\n--------------------\nIch gehe in die Buchhandlung. Ich kaufe ein Buch.\n\nBücher werden in Buchhandlungen verkauft. 3 ist die richtige Antwort.",
+          "fr": "1. Banque\n2. Théâtre\n3. Librairie\n4. Restaurant\n--------------------\nJe vais à la librairie. J'achète un livre.\n\nOn vend des livres en librairie. 3 est la bonne réponse.",
+          "id": "1. Bank\n2. Teater\n3. Toko buku\n4. Restoran\n--------------------\nSaya pergi ke toko buku. Saya membeli buku.\n\nBuku dijual di toko buku. Jawaban yang benar adalah 3.",
+          "it": "1. Banca\n2. Teatro\n3. Libreria\n4. Ristorante\n-------------------\nVado in libreria. Compro un libro.\n\nI libri vengono venduti nelle librerie. 3 è la risposta corretta.",
+          "ja": "1. 銀行\n2. 劇場\n3. 書店\n4. レストラン\n--------------------\n私は本屋に行きます。本を買います。\n\n本は書店で売られています。正解は3です。",
+          "pt": "1. Banco\n2. Teatro\n3. Livraria\n4. Restaurante\n--------------------\nVou à livraria. Compro um livro.\n\nLivros são vendidos em livrarias. A resposta correta é 3.",
+          "th": "1. ธนาคาร\n2. โรงละคร\n3. ร้านหนังสือ\n4. ร้านอาหาร\n--------------------\nฉันไปร้านหนังสือ ฉันซื้อหนังสือ\n\nหนังสือมีขายในร้านหนังสือ 3 คือคำตอบที่ถูกต้อง",
+          "tr": "1. Banka\n2. Tiyatro\n3. Kitapçı\n4. Restoran\n--------------------\nKitapçıya gidiyorum. Bir kitap alıyorum.\n\nKitaplar kitapçılarda satılıyor. Doğru cevap 3'tür.",
+          "tw": "1. Sikakorabea\n2. Agorudibea\n3. Nhomatɔnbea\n4. Adidibea\n--------------------\nMekɔ nhomatɔnbea. Metɔ nhoma bi.\n\nWɔtɔn nhoma wɔ nhomatɔnbea ahorow. 3 ne mmuae a ɛteɛ.",
+          "hi": "1. बैंक\n2. थिएटर\n3. किताबों की दुकान\n4. रेस्तरां\n--------------------\nमैं किताबों की दुकान पर जाता हूँ। मैं एक किताब खरीदता हूँ।\n\nकिताबें किताबों की दुकानों में बेची जाती हैं। 3 सही उत्तर है।",
+          "ne": "१. बैंक\n२. थिएटर\n३. पुस्तक पसल\n४. रेस्टुरेन्ट\n------------------\nम पुस्तक पसलमा जान्छु। म किताब किन्छु।\n\nपुस्तक पसलहरूमा किताबहरू बेचिन्छन्। ३ सही उत्तर हो।",
+          "km": "1. ធនាគារ\n2. មហោស្រព\n3. បណ្ណាគារ\n4. ភោជនីយដ្ឋាន\n--------------------\nខ្ញុំទៅបណ្ណាគារ។ ខ្ញុំទិញសៀវភៅមួយ។\n\nសៀវភៅត្រូវបានលក់នៅក្នុងបណ្ណាគារ។ 3 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "1. බැංකුව\n2. රඟහල\n3. පොත් සාප්පුව\n4. අවන්හල\n--------------------\nමම පොත් සාප්පුවට යනවා. මම පොතක් මිලදී ගන්නවා.\n\nපොත් පොත් සාප්පු වල විකුණනවා. 3 නිවැරදි පිළිතුරයි.",
+          "bn": "১. ব্যাংক\n২. থিয়েটার\n৩. বইয়ের দোকান\n৪. রেস্তোরাঁ\n------------------\nআমি বইয়ের দোকানে যাই। আমি একটি বই কিনি।\n\nবইয়ের দোকানে বই বিক্রি হয়। ৩টি সঠিক উত্তর।",
+          "my": "1. ဘဏ်\n2. ပြဇာတ်\n3. စာအုပ်ဆိုင်\n4. စားသောက်ဆိုင်\n--------------------\nကျွန်တော် စာအုပ်ဆိုင်ကို သွားတယ်။ စာအုပ်တစ်အုပ်ဝယ်တယ်။\n\nစာအုပ်များကို စာအုပ်ဆိုင်များတွင် ရောင်းချသည်။ 3 က အဖြေမှန်ပါ။",
+          "es": "1. Banco\n2. Teatro\n3. Librería\n4. Restaurante\n--------------------\nVoy a la librería. Compro un libro.\n\nLos libros se venden en las librerías. La respuesta correcta es 3.",
+          "zh-CN": "1. 银行\n2. 剧院\n3. 书店\n4. 餐厅\n--------------------\n我去书店。我买了一本书。\n\n书店里有卖书的。正确答案是3。",
+          "zh-TW": "1. 銀行\n2. 劇院\n3. 書店\n4. 餐廳\n--------------------\n我去書店。我買了一本書。\n\n書店裡有賣書的。正確答案是3。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "신발이 (    ). 발이 아픕니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "같습니다",
+          "좋습니다",
+          "작습니다",
+          "많습니다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Same\n2. Good\n3. Small\n4. Many\n--------------------\nThe shoes are small. My feet hurt.\n\nIf your shoes are small, your feet will hurt. 3 is the correct answer.",
+          "vi": "Đôi giày (    ). Chân tôi đau quá.\n\n1. Giống nhau\n2. Tốt\n3. Nhỏ\n4. Nhiều\n--------------------\nĐôi giày bị nhỏ sẽ làm chân đau. 3 là đáp án đúng.",
+          "ar": "١. نفس الشيء\n٢. جيد\n٣. صغير\n٤. كثير\n--------------------\nالحذاء صغير. قدمي تؤلمني.\n\nإذا كان حذاؤك صغيرًا، ستؤلمني قدميك. ٣ هي الإجابة الصحيحة.",
+          "ru": "1. Одинаковый\n2. Хороший\n3. Маленький\n4. Много\n--------------------\nОбувь мала. Мои ноги болят.\n\nЕсли твоя обувь мала, твои ноги будут болеть. 3 — правильный ответ.",
+          "de": "1. Gleich\n2. Gut\n3. Klein\n4. Viele\n--------------------\nDie Schuhe sind klein. Meine Füße tun weh.\n\nWenn deine Schuhe klein sind, werden deine Füße wehtun. 3 ist die richtige Antwort.",
+          "fr": "1. Identique\n2. Bien\n3. Petit\n4. Beaucoup\n--------------------\nLes chaussures sont petites. J'ai mal aux pieds.\n\nSi vos chaussures sont petites, vous aurez mal aux pieds. 3 est la bonne réponse.",
+          "id": "1. Sama\n2. Baik\n3. Kecil\n4. Banyak\n--------------------\nSepatunya kecil. Kakiku sakit.\n\nJika sepatumu kecil, kakimu akan sakit. 3 adalah jawaban yang benar.",
+          "it": "1. Uguali\n2. Buoni\n3. Piccoli\n4. Molti\n-------------------\nLe scarpe sono piccole. Mi fanno male i piedi.\n\nSe le tue scarpe sono piccole, ti faranno male i piedi. 3 è la risposta corretta.",
+          "ja": "1. 同じ\n2. 良い\n3. 小さい\n4. 多い\n--------------------\n靴が小さいので、足が痛くなります。\n\n靴が小さいと、足が痛くなります。正解は 3 です。",
+          "pt": "1. Igual\n2. Bom\n3. Pequeno\n4. Muitos\n--------------------\nOs sapatos são pequenos. Meus pés doem.\n\nSe seus sapatos forem pequenos, seus pés doerão. A resposta correta é 3.",
+          "th": "1. เหมือนกัน\n2. ดี\n3. เล็ก\n4. หลาย\n--------------------\nรองเท้าเล็ก เท้าฉันเจ็บ\n\nถ้ารองเท้าคุณเล็ก เท้าคุณจะเจ็บ 3 คือคำตอบที่ถูกต้อง",
+          "tr": "1. Aynı\n2. İyi\n3. Küçük\n4. Çok\n--------------------\nAyakkabılar küçük. Ayaklarım acıyor.\n\nAyakkabılarınız küçükse, ayaklarınız da ağrır. Doğru cevap 3'tür.",
+          "tw": "1. Saa ara na ɛte saa ara\n2. Eye\n3. Ketekete\n4. Nnipa pii\n--------------------\nMpaboa no yɛ nketewa. Me nan yɛɛ me yaw.\n\nSɛ wo mpaboa sua a, wo nan bɛyɛ wo yaw. 3 ne mmuae a ɛteɛ.",
+          "hi": "1. वही\n2. अच्छा\n3. छोटा\n4. बहुत\n--------------------\nजूते छोटे हैं। मेरे पैर दुखते हैं।\n\nअगर आपके जूते छोटे हैं, तो आपके पैर दुखेंगे। 3 सही उत्तर है।",
+          "ne": "१. उस्तै\n२. राम्रो\n३. सानो\n४. धेरै\n----------------\nजुत्ता साना छन्। मेरो खुट्टा दुख्छ।\n\nयदि तपाईंको जुत्ता सानो छ भने, तपाईंको खुट्टा दुख्नेछ। ३ सही उत्तर हो।",
+          "km": "1. ដូចគ្នា។\n2. ល្អ។\n3. តូច\n4. ច្រើន។\n--------------------\nស្បែកជើងគឺតូច។ ជើងរបស់ខ្ញុំឈឺ។\n\nប្រសិនបើស្បែកជើងរបស់អ្នកតូច ជើងរបស់អ្នកនឹងឈឺ។ 3 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "1. එකම\n2. හොඳයි\n3. කුඩා\n4. බොහෝ\n--------------------\nසපත්තු කුඩායි. මගේ පාද රිදෙනවා.\n\nඔබේ සපත්තු කුඩා නම්, ඔබේ පාද රිදෙනවා. 3 නිවැරදි පිළිතුරයි.",
+          "bn": "১. একই\n২. ভালো\n৩. ছোট\n৪. অনেক\n------------------\nজুতাগুলো ছোট। আমার পা ব্যথা করছে।\n\nজুতা ছোট হলে পা ব্যথা করবে। ৩ নম্বরটি সঠিক উত্তর।",
+          "my": "1. အတူတူပါပဲ။\n2. ကောင်းတယ်။\n3. အငယ်\n4. အများကြီး\n--------------------\nဖိနပ်က သေးသေးလေး။ ငါ့ခြေထောက်နာတယ်။\n\nဖိနပ်က သေးရင် ခြေထောက်နာမယ်။ 3 က အဖြေမှန်ပါ။",
+          "es": "1. Igual\n2. Bueno\n3. Pequeño\n4. Muchos\n--------------------\nLos zapatos son pequeños. Me duelen los pies.\n\nSi tus zapatos son pequeños, te dolerán los pies. 3 es la respuesta correcta.",
+          "zh-CN": "1. 一样\n2. 好\n3. 小\n4. 很多\n--------------------\n鞋子小了。我的脚疼。\n\n如果你的鞋子小了，你的脚就会疼。正确答案是3。",
+          "zh-TW": "1. 一樣\n2. 好\n3. 小\n4. 很多\n--------------------\n鞋子小了。我的腳痛。\n\n如果你的鞋子小了，你的腳就會痛。正確答案是3。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "오후에 약속이 있습니다. 민수 씨를 (    ).",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "찍습니다",
+          "배웁니다",
+          "모릅니다",
+          "만납니다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Take (a photo)\n2. Learn\n3. Don't know\n4. Meet\n--------------------\nI have an appointment in the afternoon. I will meet Minsu.\n\n<g>약속</g> (appointment) => <g>만나다</g> (to meet). 4 is the correct answer.",
+          "vi": "Tôi có cuộc hẹn vào buổi chiều. Tôi sẽ (    ) Minsu.\n\n1. Chụp ảnh\n2. Học\n3. Không biết\n4. Gặp\n--------------------\n약속 (cuộc hẹn) => 만나다 (gặp gỡ). 4 là đáp án đúng.",
+          "ar": "١. التقاط (صورة)\n٢. التعلم\n٣. لا أعرف\n٤. مقابلة\n--------------------\nلدي موعد بعد الظهر. سأقابل مينسو.\n\n<g>약속</g> (موعد) => <g>만나다</g> (لقاء). الإجابة الصحيحة هي ٤.",
+          "ru": "1. Сделать (фотографию)\n2. Узнать\n3. Не знаю\n4. Встретиться\n--------------------\nУ меня назначена встреча днем. Я встречусь с Минсу.\n\n<g>약속</g> (встреча) => <g>만나다</g> (встретиться). 4 — правильный ответ.",
+          "de": "1. (Ein Foto) machen\n2. Lernen\n3. Weiß nicht\n4. Treffen\n--------------------\nIch habe nachmittags einen Termin. Ich treffe mich mit Minsu.\n\n<g>약속</g> (Termin) => <g>만나다</g> (sich treffen). 4 ist die richtige Antwort.",
+          "fr": "1. Prendre (une photo)\n2. Apprendre\n3. Je ne sais pas\n4. Rencontrer\n--------------------\nJ'ai un rendez-vous cet après-midi. Je rencontrerai Minsu.\n\n<g>약속</g> (rendez-vous) => <g>만나다</g> (rencontrer). 4 est la bonne réponse.",
+          "id": "1. Mengambil (foto)\n2. Belajar\n3. Tidak tahu\n4. Bertemu\n--------------------\nSaya punya janji di sore hari. Saya akan bertemu Minsu.\n\n<g>약속</g> (janji temu) => <g>만나다</g> (bertemu). Jawaban yang benar adalah 4.",
+          "it": "1. Scattare (una foto)\n2. Imparare\n3. Non sapere\n4. Incontrare\n-------------------\nHo un appuntamento nel pomeriggio. Incontrerò Minsu.\n\n<g>약속</g> (appuntamento) => <g>만나다</g> (incontrare). 4 è la risposta corretta.",
+          "ja": "1. 写真を撮る\n2. 知る\n3. 分からない\n4. 会う\n--------------------\n午後に約束があります。ミンスと会う予定です。\n\n<g>약속</g> (約束) => <g>만나다</g> (会う)。正解は4です。",
+          "pt": "1. Tirar (uma foto)\n2. Aprender\n3. Não sei\n4. Encontrar\n--------------------\nTenho um compromisso à tarde. Vou encontrar Minsu.\n\n<g>약속</g> (compromisso) => <g>만나다</g> (encontrar-se). A resposta correta é 4.",
+          "th": "1. ถ่ายรูป\n2. เรียนรู้\n3. ไม่รู้\n4. พบกัน\n--------------------\nฉันมีนัดช่วงบ่าย ฉันจะพบกับมินซู\n\n<g>약속</g> (นัดหมาย) => <g>만나다</g> (พบกัน) คำตอบที่ถูกต้องคือ 4",
+          "tr": "1. (Fotoğraf) çek\n2. Öğren\n3. Bilmiyorum\n4. Buluş\n--------------------\nÖğleden sonra bir randevum var. Minsu ile buluşacağım.\n\n<g>약속</g> (randevu) => <g>만나다</g> (buluşmak). Doğru cevap 4'tür.",
+          "tw": "1. Twa (mfonini bi) .\n2. Sua ade\n3. Wonnim\n4. Munhyia\n--------------------\nMewɔ bere a ɛsɛ sɛ meyɛ awiabere. Me ne Minsu bɛhyia.\n\n<g>약속</g> (wɔahyɛdeɛ) => <g>만나다</g> (sɛ wɔbɛhyia). 4 ne mmuae a ɛteɛ.",
+          "hi": "1. (फोटो) लें\n2. सीखें\n3. नहीं पता\n4. मिलें\n--------------------\nदोपहर में मेरा अपॉइंटमेंट है। मैं मिंसू से मिलूँगा।\n\n<g>약속</g> (अपॉइंटमेंट) => <g>만나다</g> (मिलना)। 4 सही उत्तर है।",
+          "ne": "१. (फोटो खिच्नुहोस्)\n२. जान्नुहोस्\n३. थाहा छैन\n४. भेट्नुहोस्\n----------------\nमेरो दिउँसो भेटघाट छ। म मिन्सुलाई भेट्नेछु।\n\n<g>약속</g> (अपोइन्टमेन्ट) => <g>만나다</g> (भेट्न)। ४ सही उत्तर हो।",
+          "km": "1. ថតរូប (រូបថត)\n2. រៀន\n3. មិនដឹង\n4. ជួប\n--------------------\nខ្ញុំមានការណាត់ជួបនៅពេលរសៀល។ ខ្ញុំនឹងជួប Minsu ។\n\n<g>약속</g> (ណាត់ជួប) => <g>만나다</g> (ដើម្បីជួប)។ 4 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "1. (ඡායාරූපයක්) ගන්න\n2. ඉගෙන ගන්න\n3. දන්නේ නැහැ\n4. හමුවන්න\n----------------------\nමට දහවල් හමුවීමක් තිබේ. මම මින්සු හමුවෙන්නම්.\n\n<g>약속</g> (හමුවීම) => <g>만나다</g> (හමුවීමට). 4 නිවැරදි පිළිතුරයි.",
+          "bn": "১. (একটি ছবি তুলুন)\n২. জানুন\n৩. জানি না\n৪. দেখা\n----------------\nবিকালে আমার একটি অ্যাপয়েন্টমেন্ট আছে। আমি মিনসুর সাথে দেখা করব।\n\n<g>약속</g> (অ্যাপয়েন্টমেন্ট) => <g>만나다</g> (সাক্ষাতের জন্য)। ৪ হল সঠিক উত্তর।",
+          "my": "1. ဓာတ်ပုံရိုက်ပါ\n2. လေ့လာပါ။\n၃။မသိ\n4. တွေ့ဆုံပါ။\n--------------------\nနေ့ခင်းမှာ ချိန်းထားတာရှိတယ်။ Minsu နဲ့တွေ့မယ်။\n\n<g>약속</g> (ချိန်းဆိုမှု) => <g>만나다</g> (တွေ့ဆုံရန်)။ 4 သည် အဖြေမှန်ဖြစ်သည်။",
+          "es": "1. Tomar (una foto)\n2. Aprender\n3. No sé\n4. Quedar\n--------------------\nTengo una cita por la tarde. Quedaré con Minsu.\n\n<g>약속</g> (cita) => <g>만나다</g> (quedarse). La respuesta correcta es 4.",
+          "zh-CN": "1. 拍（照片）\n2. 了解\n3. 不知道\n4. 见面\n--------------------\n我下午有个约会。我会和敏秀见面。\n\n<g>약속</g>（约会）=> <g>만나다</g>（见面）。4 是正确答案。",
+          "zh-TW": "1. 拍（照片）\n2. 了解\n3. 不知道\n4. 見面\n--------------------\n我下午有個約會。我會和敏秀見面。\n\n<g>약속</g>（約會）=> <g>만나다</g>（見面）。 4 是正確答案。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "이것은 제 가방이 아닙니다. 동생(    ) 가방입니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "도",
+          "만",
+          "의",
+          "을"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Also\n2. Only\n3. Of\n4. Object particle\n--------------------\nThis is not my bag. It is my younger sibling's bag.\n\n<g>N1의 N2</g> => N2 of N1 / N1's N2. 3 is the correct answer.",
+          "vi": "Đây không phải là túi của tôi. Đây là túi của em tôi (    ).\n\n1. Cũng\n2. Chỉ\n3. Của\n4. Tiểu từ tân ngữ\n--------------------\nN1의 N2 => N2 của N1. 3 là đáp án đúng.",
+          "ar": "١. أيضًا\n٢. فقط\n٣. من\n٤. جسيم\n--------------------\nهذه ليست حقيبتي. إنها حقيبة أخي الأصغر.\n\n<g>N1의 N2</g> => N2 من N1 / N1's N2. ٣ هي الإجابة الصحيحة.",
+          "ru": "1. Также\n2. Только\n3. Из\n4. Частица объекта\n--------------------\nЭто не моя сумка. Это сумка моего младшего брата или сестры.\n\n<g>N1의 N2</g> => N2 из N1 / N1's N2. 3 — правильный ответ.",
+          "de": "1. Auch\n2. Nur\n3. Von\n4. Objektpartikel\n--------------------\nDas ist nicht meine Tasche. Es ist die Tasche meines jüngeren Geschwisters.\n\n<g>N1 und N2</g> => N2 von N1 / N1s N2. 3 ist die richtige Antwort.",
+          "fr": "1. Aussi\n2. Seulement\n3. De\n4. Particule d'objet\n--------------------\nCe n'est pas mon sac. C'est celui de mon petit frère.\n\n<g>N1 et N2</g> => N2 de N1 / N2 de N1. 3 est la bonne réponse.",
+          "id": "1. Juga\n2. Hanya\n3. Dari\n4. Partikel objek\n--------------------\nIni bukan tas saya. Ini tas adik saya.\n\n<g>N1의 N2</g> => N2 dari N1 / N2 milik N1. 3 adalah jawaban yang benar.",
+          "it": "1. Anche\n2. Solo\n3. Di\n4. Particella oggetto\n-------------------\nQuesta non è la mia borsa. È la borsa del mio fratellino.\n\n<g>N1의 N2</g> => N2 di N1 / N2 di N1. 3 è la risposta corretta.",
+          "ja": "1. また\n2. のみ\n3. の\n4. 目的語助詞\n--------------------\nこれは私のバッグではありません。弟のバッグです。\n\n<g>N1のN2</g> => N1のN2 / N1のN2。正解は3です。",
+          "pt": "1. Também\n2. Apenas\n3. De\n4. Partícula de objeto\n--------------------\nEsta não é minha bolsa. É a bolsa do meu irmão mais novo.\n\n<g>N1의 N2</g> => N2 de N1 / N2 de N1. 3 é a resposta correta.",
+          "th": "1. นอกจากนี้\n2. เฉพาะ\n3. ของ\n4. อนุภาควัตถุ\n--------------------\nนี่ไม่ใช่กระเป๋าของฉัน มันเป็นกระเป๋าของน้องฉัน\n\n<g>N1 ของ N2</g> => N2 ของ N1 / N2 ของ N1 คำตอบที่ถูกต้องคือ 3",
+          "tr": "1. Ayrıca\n2. Sadece\n3. Of\n4. Nesne parçacığı\n--------------------\nBu benim çantam değil. Küçük kardeşimin çantası.\n\n<g>N1의 N2</g> => N1'in N2'si / N1'in N2'si. 3 doğru cevaptır.",
+          "tw": "1. Afei nso\n2. Nkutoo\n3. Of\n4. Ade a ɛyɛ ade ketewaa bi\n--------------------\nEyi nyɛ me bag. Ɛyɛ me nua kumaa bag.\n\n<g>N1의 N2</g> => N2 a ɛwɔ N1 mu / N1 no N2. 3 ne mmuae a ɛteɛ.",
+          "hi": "1. भी\n2. केवल\n3. का\n4. वस्तु कण\n--------------------\nयह मेरा बैग नहीं है। यह मेरे छोटे भाई-बहन का बैग है।\n\n<g>N1의 N2</g> => N1 का N2 / N1 का N2। 3 सही उत्तर है।",
+          "ne": "१. साथै\n२. मात्र\n३. मध्ये\n४. वस्तु कण\n------------------\nयो मेरो झोला होइन। यो मेरो कान्छो भाइको झोला हो।\n\n<g>N1의 N2</g> => N1 को N2 / N1 को N2. ३ सही उत्तर हो।",
+          "km": "1. ផងដែរ។\n2. តែប៉ុណ្ណោះ\n3. នៃ\n4. ភាគល្អិតវត្ថុ\n--------------------\nនេះមិនមែនជាកាបូបរបស់ខ្ញុំទេ។ វាជាកាបូបរបស់ប្អូនស្រីខ្ញុំ។\n\n<g>N1의 N2</g> => N2 នៃ N1 / N1's N2 ។ 3 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "1. තවද\n2. පමණි\n3. න්\n4. වස්තු අංශුව\n--------------------\nමේ මගේ බෑගය නොවේ. එය මගේ බාල සහෝදරයාගේ බෑගයයි.\n\n<g>N1의 N2</g> => N1 හි N2 / N1 හි N2. 3 නිවැරදි පිළිතුරයි.",
+          "bn": "১. এছাড়াও\n২. শুধুমাত্র\n৩. এর\n৪. বস্তু কণা\n------------------\nএটি আমার ব্যাগ নয়। এটি আমার ছোট ভাইবোনের ব্যাগ।\n\n<g>N1의 N2</g> => N1 এর N2 / N1 এর N2. 3 হল সঠিক উত্তর।",
+          "my": "1. ထို့အတူ\n2. သာလျှင်\n၃\n4. အရာဝတ္ထုအမှုန်အမွှား\n--------------------\nဒါက ငါ့အိတ်မဟုတ်ဘူး။ အဲဒါ ငါ့ညီငယ်ရဲ့အိတ်။\n\n<g>N1의 N2</g> => N1 / N1 ၏ N2 ၏ N2။ 3 က အဖြေမှန်ပါ။",
+          "es": "1. También\n2. Solo\n3. De\n4. Partícula de objeto\n--------------------\nEste no es mi bolso. Es el bolso de mi hermano menor.\n\n<g>N1의 N2</g> => N2 de N1 / N2 de N1. 3 es la respuesta correcta.",
+          "zh-CN": "1. 也\n2. 只有\n3. 的\n4. 宾语助词\n--------------------\n这不是我的包。这是我弟弟的包。\n\n<g>N1의 N2</g> => N2 of N1 / N1's N2。3 是正确答案。",
+          "zh-TW": "1. 也\n2. 只有\n3. 的\n4. 賓語助詞\n--------------------\n這不是我的包。這是我弟弟的包包。\n\n<g>N1의 N2</g> => N2 of N1 / N1's N2。3 是正確答案。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "회사에 일이 많습니다. (    ) 바쁩니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "빨리",
+          "아까",
+          "먼저",
+          "아주"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Quickly\n2. Just now\n3. First\n4. Very\n--------------------\nThere's a lot of work at the company. I'm very busy.\n\n<g>일이 많다</g> (to have a lot of work) => <g>아주 바쁘다</g> (to be very busy). 4 is the correct answer.",
+          "vi": "Có rất nhiều việc phải làm ở công ty. Tôi (    ) bận.\n\n1. Nhanh chóng\n2. Vừa rồi\n3. Đầu tiên\n4. Rất\n--------------------\n일이 많다 (có nhiều việc) => 아주 바쁘다 (rất bận). 4 là đáp án đúng.",
+          "ar": "١. بسرعة\n٢. الآن\n٣. أولاً\n٤. جدًا\n--------------------\nهناك الكثير من العمل في الشركة. أنا مشغول جدًا.\n\n<g>일이 많다</g> (لدى الكثير من العمل) => <g>아주 바쁘다</g> (أن يكون مشغولًا جدًا). ​​الإجابة الصحيحة هي ٤.",
+          "ru": "1. Быстро\n2. Только что\n3. Сначала\n4. Очень\n---------------------\nВ компании много работы. Я очень занят.\n\n<g>일이 많다</g> (иметь много работы) => <g>아주 바쁘다</g> (быть очень занятым). Правильный ответ — 4.",
+          "de": "1. Schnell\n2. Gerade eben\n3. Zuerst\n4. Sehr\n--------------------\nEs gibt viel Arbeit in der Firma. Ich bin sehr beschäftigt.\n\n<g>일이 많다</g> (viel Arbeit haben) => <g>아주 바쁘다</g> (sehr beschäftigt sein). 4 ist die richtige Antwort.",
+          "fr": "1. Rapidement\n2. Tout à l'heure\n3. En premier\n4. Très\n--------------------\nIl y a beaucoup de travail dans l'entreprise. Je suis très occupé.\n\n<g>일이 많다</g> (avoir beaucoup de travail) => <g>아주 바쁘다</g> (être très occupé). 4 est la bonne réponse.",
+          "id": "1. Cepat\n2. Baru saja\n3. Pertama\n4. Sangat\n--------------------\nAda banyak pekerjaan di perusahaan. Saya sangat sibuk.\n\n<g>일이 많다</g> (memiliki banyak pekerjaan) => <g>아주 바쁘다</g> (sangat sibuk). Jawaban yang benar adalah 4.",
+          "it": "1. Velocemente\n2. Proprio ora\n3. Prima\n4. Molto\n-------------------\nC'è molto lavoro in azienda. Sono molto impegnato.\n\n<g>일이 많다</g> (avere molto lavoro) => <g>아주 바쁘다</g> (essere molto impegnato). 4 è la risposta corretta.",
+          "ja": "1. すぐに\n2. たった今\n3. 最初に\n4. とても\n--------------------\n会社には仕事がたくさんあります。とても忙しいです。\n\n<g>일이 많다</g> (仕事がたくさんある) => <g>아주 바쁘다</g> (とても忙しい)。正解は4です。",
+          "pt": "1. Rapidamente\n2. Agora mesmo\n3. Primeiro\n4. Muito\n--------------------\nHá muito trabalho na empresa. Estou muito ocupado.\n\n<g>일이 많다</g> (ter muito trabalho) => <g>아주 바쁘다</g> (estar muito ocupado). A resposta correta é 4.",
+          "th": "1. เร็วๆ นี้\n2. เมื่อกี้\n3. ครั้งแรก\n4. มาก\n--------------------\nที่บริษัทมีงานเยอะ ฉันยุ่งมาก\n\n<g>일이 많다</g> (มีงานเยอะ) => <g>아주 바쁘다</g> (ยุ่งมาก) คำตอบที่ถูกต้องคือข้อ 4",
+          "tr": "1. Hemen\n2. Hemen şimdi\n3. İlk\n4. Çok\n--------------------\nŞirkette çok fazla iş var. Çok meşgulüm.\n\n<g>일이 많다</g> (çok fazla işi olmak) => <g>아주 바쁘다</g> (çok meşgul olmak). Doğru cevap 4'tür.",
+          "tw": "1. Ntɛmntɛm\n2. Mprempren ara\n3. Nea edi kan\n4. Ɛyɛ kɛse\n--------------------\nAdwuma pii wɔ adwumakuw no mu. Mewɔ adagyew koraa.\n\n<g>일이 많다</g> (sɛ wobɛnya adwuma pii) => <g>아주 바쁘다</g> (sɛ wobɛnya adagyew paa). 4 ne mmuae a ɛteɛ.",
+          "hi": "1. जल्दी\n2. अभी\n3. सबसे पहले\n4. बहुत\n--------------------\nकंपनी में बहुत काम है। मैं बहुत व्यस्त हूँ।\n\n<g>일이 많다</g> (बहुत काम होना) => <g>아주 바쁘다</g> (बहुत व्यस्त होना)। 4 सही उत्तर है।",
+          "ne": "१. छिटो\n२. भर्खरै\n३. पहिलो\n४. धेरै\n------------------\nकम्पनीमा धेरै काम छ। म धेरै व्यस्त छु।\n\n<g>일이 많다</g> (धेरै काम गर्न) => <g>아주 바쁘다</g> (धेरै व्यस्त हुनु)। ४ सही उत्तर हो।",
+          "km": "1. យ៉ាងឆាប់រហ័ស\n2. គ្រាន់តែឥឡូវនេះ\n3. ទីមួយ\n4. ខ្លាំងណាស់\n--------------------\nមានការងារច្រើននៅក្រុមហ៊ុន។ ខ្ញុំរវល់ណាស់។\n\n<g>일이 많다</g> (ត្រូវមានការងារច្រើន) => <g>아주 바쁘다</g> (រវល់ខ្លាំង)។ 4 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "1. ඉක්මනින්\n2. දැන්ම\n3. පළමුව\n4. ඉතා\n-------------------\nසමාගමේ වැඩ ගොඩක් තියෙනවා. මම හරිම කාර්යබහුලයි.\n\n<g>일이 많다</g> (වැඩ ගොඩක් තියෙනවා) => <g>아주 바쁘다</g> (වැඩි කාර්යබහුල වීමට). 4 නිවැරදි පිළිතුරයි.",
+          "bn": "১. দ্রুত\n২. এখনই\n৩. প্রথম\n৪. খুব\n------------------\nকোম্পানিতে অনেক কাজ আছে। আমি খুব ব্যস্ত।\n\n<g>일이 많다</g> (অনেক কাজ করতে) => <g>아주 바쁘다</g> (অনেক ব্যস্ত থাকতে)। ৪ হল সঠিক উত্তর।",
+          "my": "1. မြန်မြန်\n2. အခုပဲ\n3. ပထမ\n4. အရမ်း\n--------------------\nကုမ္ပဏီမှာ အလုပ်များတယ်။ အရမ်းအလုပ်များနေတယ်။\n\n<g>일이 많다</g> (အလုပ်အများကြီးလုပ်ရန်) => <g>아주 바쁘다</g> (အလုပ်များလွန်းသည်)။ 4 သည် အဖြေမှန်ဖြစ်သည်။",
+          "es": "1. Rápidamente\n2. Justo ahora\n3. Primero\n4. Muy\n--------------------\nHay mucho trabajo en la empresa. Estoy muy ocupado.\n\n<g>일이 많다</g> (tener mucho trabajo) => <g>아주 바쁘다</g> (estar muy ocupado). La respuesta correcta es 4.",
+          "zh-CN": "1. 很快\n2. 刚才\n3. 刚好\n4. 非常\n--------------------\n公司工作很多。我很忙。\n\n<g>일이 많다</g> (有很多工作) => <g>아주 바쁘다</g> (非常忙)。正确答案是 4。",
+          "zh-TW": "1. 很快\n2. 剛才\n3. 剛好\n4. 非常\n--------------------\n公司工作很多。我很忙。\n\n<g>일이 많다</g> (有很多工作) => <g>아주 바쁘다</g> (非常忙)。正確答案是 4。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34 ~ 39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "오늘은 제 생일입니다. 집에 친구들을 (    ).",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "줍니다",
+          "말합니다",
+          "좋아합니다",
+          "초대합니다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Give\n2. Say\n3. Like\n4. Invite\n--------------------\nToday is my birthday. I invite my friends to my house.\n\n<g>생일</g> (birthday) => <g>친구를 초대하다</g> (to invite friends). 4 is the correct answer.",
+          "vi": "Hôm nay là sinh nhật của tôi. Tôi (    ) bạn bè đến nhà.\n\n1. Cho\n2. Nói\n3. Thích\n4. Mời\n--------------------\n생일 (sinh nhật) => 친구를 초대하다 (mời bạn bè). 4 là đáp án đúng.",
+          "ar": "١. أعطِ\n٢. قل\n٣. أعجبني\n٤. ادعُ\n--------------------\nاليوم عيد ميلادي. أدعو أصدقائي إلى منزلي.\n\n<g>생일</g> (عيد ميلاد) => <g>친구를 초대하다</g> (لدعوة الأصدقاء). الإجابة الصحيحة هي ٤.",
+          "ru": "1. Дать\n2. Сказать\n3. Лайк\n4. Пригласить\n--------------------\nСегодня у меня день рождения. Я приглашаю друзей к себе домой.\n\n<g>생일</g> (день рождения) => <g>친구를 초대하다</g> (пригласить друзей). 4 — правильный ответ.",
+          "de": "1. Geben\n2. Sagen\n3. Liken\n4. Einladen\n--------------------\nHeute ist mein Geburtstag. Ich lade meine Freunde zu mir ein.\n\n<g>생일</g> (Geburtstag) => <g>친구를 초대하다</g> (Freunde einladen). 4 ist die richtige Antwort.",
+          "fr": "1. Donner\n2. Dire\n3. Aimer\n4. Inviter\n--------------------\nAujourd'hui, c'est mon anniversaire. J'invite mes amis chez moi.\n\n<g>생일</g> (anniversaire) => <g>친구를 초대하다</g> (inviter des amis). 4 est la bonne réponse.",
+          "id": "1. Beri\n2. Ucapkan\n3. Sukai\n4. Undang\n--------------------\nHari ini adalah hari ulang tahunku. Aku mengundang teman-temanku ke rumahku.\n\n<g>생일</g> (ulang tahun) => <g>친구를 초대하다</g> (mengundang teman). Jawaban yang benar adalah 4.",
+          "it": "1. Dare\n2. Dire\n3. Mettere Mi piace\n4. Invitare\n-------------------\nOggi è il mio compleanno. Invito i miei amici a casa mia.\n\n<g>생일</g> (compleanno) => <g>친구를 초대하다</g> (invitare amici). 4 è la risposta corretta.",
+          "ja": "1. あげる\n2. 言う\n3. 好きになる\n4. 招待する\n--------------------\n今日は私の誕生日です。友達を家に招待します。\n\n<g>생일</g> (誕生日) => <g>친구를 초대하다</g> (友達を招待する)。正解は4です。",
+          "pt": "1. Dar\n2. Dizer\n3. Curtir\n4. Convidar\n--------------------\nHoje é meu aniversário. Convido meus amigos para minha casa.\n\n<g>생일</g> (aniversário) => <g>친구를 초대하다</g> (convidar amigos). A resposta correta é 4.",
+          "th": "1. ให้\n2. พูด\n3. กดไลค์\n4. เชิญ\n--------------------\nวันนี้เป็นวันเกิดของฉัน ฉันเชิญเพื่อนๆ มาที่บ้าน\n\n<g>생일</g> (วันเกิด) => <g>친구를 초대하다 (เชิญเพื่อนๆ) คำตอบที่ถูกต้องคือ 4",
+          "tr": "1. Ver\n2. Söyle\n3. Beğen\n4. Davet et\n-------------------\nBugün benim doğum günüm. Arkadaşlarımı evime davet ediyorum.\n\n<g>생일</g> (doğum günü) => <g>친구를 초대하다</g> (arkadaşları davet etmek). Doğru cevap 4'tür.",
+          "tw": "1. Fa ma\n2. Ka sɛ\n3. Te sɛ\n4. To nsa frɛ\n--------------------\nƐnnɛ yɛ m’awoda. Meto nsa frɛ me nnamfo ba me fie.\n\n<g>생일</g> (awoda) => <g>친구를 초대하다</g> (sɛ wobɛto nsa afrɛ nnamfo). 4 ne mmuae a ɛteɛ.",
+          "hi": "1. देना\n2. कहना\n3. पसंद करना\n4. आमंत्रित करना\n--------------------\nआज मेरा जन्मदिन है। मैं अपने दोस्तों को अपने घर आमंत्रित करता हूँ।\n\n<g>생일</g> (जन्मदिन) => <g>친구를 초대하다</g> (दोस्तों को आमंत्रित करना)। 4 सही उत्तर है।",
+          "ne": "१. दिनुहोस्\n२. भन्नुहोस्\n३. मन पराउनुहोस्\n४. आमन्त्रित गर्नुहोस्\n------------------\nआज मेरो जन्मदिन हो। म मेरा साथीहरूलाई मेरो घरमा आमन्त्रित गर्छु।\n\n<g>생일</g> (जन्मदिन) => <g>친구를 초대하다</g> (साथीहरूलाई आमन्त्रित गर्न)। ४ सही उत्तर हो।",
+          "km": "1. ផ្តល់ឱ្យ\n2. និយាយ\n3. ចូលចិត្ត\n4. អញ្ជើញ\n--------------------\nថ្ងៃនេះជាថ្ងៃកំណើតរបស់ខ្ញុំ។ ខ្ញុំ​អញ្ជើញ​មិត្តភ័ក្តិ​មក​ផ្ទះ​ខ្ញុំ។\n\n<g>생일</g> (ថ្ងៃកំណើត) => <g>친구를 초대하다</g> (ដើម្បីអញ្ជើញមិត្តភក្តិ)។ 4 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "1. දෙන්න\n2. කියන්න\n3. කැමති වන්න\n4. ආරාධනා කරන්න\n-----------------------\nඅද මගේ උපන්දිනයයි. මම මගේ මිතුරන්ට මගේ නිවසට ආරාධනා කරමි.\n\n<g>생일</g> (උපන්දිනය) => <g>친구를 초대하다</g> (මිතුරන්ට ආරාධනා කිරීමට). 4 නිවැරදි පිළිතුරයි.",
+          "bn": "১. দাও\n২. বলো\n৩. লাইক\n৪. আমন্ত্রণ\n------------------\nআজ আমার জন্মদিন। আমি আমার বন্ধুদের আমার বাড়িতে আমন্ত্রণ জানাই।\n\n<g>생일</g> (জন্মদিন) => <g>친구를 초대하다</g> (বন্ধুদের আমন্ত্রণ জানাতে)। ৪ হল সঠিক উত্তর।",
+          "my": "1. ပေးပါ။\n2. ပြောပါ။\n3. ကြိုက်တယ်။\n4. ဖိတ်ကြားပါ။\n--------------------\nဒီနေ့ ငါ့မွေးနေ့။ ငါ့သူငယ်ချင်းတွေကို ငါ့အိမ်ကို ဖိတ်တယ်။\n\n<g>생일</g> (မွေးနေ့) => <g>친구를 초대하다</g> (သူငယ်ချင်းများကို ဖိတ်ကြားရန်)။ 4 က အဖြေမှန်ပါ။",
+          "es": "1. Dar\n2. Decir\n3. Me gusta\n4. Invitar\n--------------------\nHoy es mi cumpleaños. Invito a mis amigos a mi casa.\n\n<g>생일</g> (cumpleaños) => <g>친구를 초대하다</g> (invitar a amigos). La respuesta correcta es 4.",
+          "zh-CN": "1. 给予\n2. 说\n3. 点赞\n4. 邀请\n--------------------\n今天是我的生日。我邀请朋友们来我家。\n\n<g>생일</g> (生日) => <g>친구를 초대하다</g> (邀请朋友)。正确答案是 4。",
+          "zh-TW": "1. 給予\n2. 說\n3. 讚\n4. 邀請\n--------------------\n今天是我的生日。我邀請朋友們來我家。\n\n<g>생일</g> (生日) => <g>친구를 초대하다</g> (邀請朋友)。正確答案是 4。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002",
+    "count_question": 1,
+    "tag": "read"
+  }
+]

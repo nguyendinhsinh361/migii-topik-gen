@@ -1,0 +1,50 @@
+[
+  {
+    "title": "[11～14] 다음은 무엇에 대해 말하고 있습니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 오늘 비가 올까요?\n남자: 아니요, 구름만 많고 안 와요.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Hôm nay trời có mưa không nhỉ?\nNam: Không, chỉ nhiều mây thôi chứ không mưa đâu.",
+        "en": "Woman: Do you think it will rain today?\nMan: No, it's just cloudy, it won't rain."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "날씨",
+          "시간",
+          "나이",
+          "고향"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Thời tiết (Đáp án đúng)\n2. Thời gian\n3. Tuổi tác\n4. Quê hương\n--------------------\nTừ khóa '비' (mưa) và '구름' (mây) liên quan đến thời tiết.",
+          "en": "1. Weather (Correct Answer)\n2. Time\n3. Age\n4. Hometown\n--------------------\nThe keywords '비' (rain) and '구름' (cloud) are related to the weather."
+        },
+        "question_feature": "qf_guess_topic",
+        "difficulty": 4,
+        "distractor_traps": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": ""
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110004",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "weather_season"
+  }
+]

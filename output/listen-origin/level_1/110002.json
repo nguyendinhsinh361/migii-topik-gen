@@ -1,0 +1,50 @@
+[
+  {
+    "title": "[5～6] 다음을 듣고 <보기>와 같이 이어지는 말을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "생일 축하해요!",
+      "g_text_audio_translate": {
+        "vi": "Chúc mừng sinh nhật!",
+        "en": "Happy birthday!"
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "고맙습니다.",
+          "반갑습니다.",
+          "축하합니다.",
+          "실례합니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Cảm ơn. (Đáp án đúng)\n2. Rất vui được gặp bạn.\n3. Chúc mừng. (trap_shared_noun)\n4. Xin lỗi/Thất lễ.\n--------------------\nKhi nhận được lời chúc mừng sinh nhật, phản hồi tự nhiên nhất là lời cảm ơn.",
+          "en": "1. Thank you. (Correct Answer)\n2. Nice to meet you.\n3. Congratulations. (trap_shared_noun)\n4. Excuse me.\n--------------------\nWhen receiving birthday wishes, the most natural response is a thank you."
+        },
+        "question_feature": "qf_next_utterance",
+        "difficulty": 3,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_same_ending",
+          "3": "trap_shared_noun",
+          "4": "trap_same_ending"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110002",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "culture_event"
+  }
+]

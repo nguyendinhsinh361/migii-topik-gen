@@ -1,0 +1,938 @@
+[
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "몇 시(   ) 옵니까?",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "가",
+          "는",
+          "를",
+          "에"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. 가 (Tiểu từ chủ ngữ)\n2. 는 (Tiểu từ chủ ngữ)\n3. 를 (Tiểu từ tân ngữ)\n4. 에 (Trợ từ ở đâu/vào lúc)\n--------------------\n몇 시(에) 옵니까? : Mấy giờ thì cậu tới? \n\n시: Giờ + 에: Vào lúc (mấy) giờ.",
+          "en": "1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "fr": "1. 가 (marqueur de sujet)\n2. 는 (marqueur de sujet)\n3. 를 (marqueur d'objet)\n4. 에 (particule de temps et de lieu)\n--------------------\n<g>몇 시(에) 옵니까? : </g>À quelle heure vous venez?\n\n<g>시 + 에: </g>À/à/à l'heure.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "es": "1. 가 (Marcador de asunto)\n2. 는 (Marcador de asunto)\n3. 를 (marcador de objeto)\n4. 에 (Partícula de tiempo y ubicación)\n--------------------\n<g>몇 시(에) 옵니까? : </g>¿A que hora vienes?\n\n<g>시 + 에: </g>A/en/a la hora.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "id": "1. (Penanda subjek)\n2. (Penanda subjek)\n3. (Penanda objek)\n4. (Partikel waktu dan lokasi)\n--------------------\n<g>몇 시(에) 옵니까? : </g>Jam berapa kamu datang?\n\n<g>시 + 에: </g>Pada/di/tepat waktu.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "ja": "1. 가 (件名マーカー)\n2.는（サブジェクトマーカー）\n3. 를 (オブジェクトマーカー)\n4.에（時間と場所の粒子）\n--------------------\n<g>몇 시(에) 옵니까? : </g>何時に来ますか？\n\n<g>시 + 에: </g>時間に/時間に/時間に。\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "de": "1. 가 (Betreffmarker)\n2. 는 (Betreffmarker)\n3. 를 (Objektmarker)\n4. 에 (Zeit- und Ortspartikel)\n--------------------\n<g>몇 시(에) 옵니까? : </g>Um wie viel Uhr kommst du?\n\n<g>시 + 에: </g>Zu/in/zu der Zeit.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "zh-CN": "1. 가（主题标记）\n2.는（主语标记）\n3.를（对象标记）\n4. 에（时间和位置助词）\n--------------------\n<g>몇 시(에) 옵니까? : </g>你什么时候来？\n\n<g>시 + 에: </g>在/在/在时间。\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "zh-TW": "1. 가（主題標記）\n2.는（主語標記）\n3.를（對象標記）\n4. 에（時間和位置助詞）\n--------------------\n<g>몇 시(에) 옵니까? : </g>你什麼時候來？\n\n<g>시 + 에: </g>在/在/在時間。\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "it": "1. 가 (Segnale del soggetto)\n2. 는 (indicatore del soggetto)\n3. 를 (marcatore oggetto)\n4. 에 (particella di tempo e luogo)\n--------------------\n<g>몇 시(에) 옵니까? : </g>A che ora vieni?\n\n<g>시 + 에: </g>A/in/in orario.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "ru": "1. 가 (указатель темы)\n2. 는 (указатель темы)\n3. 를 (маркер объекта)\n4. 에 (частица времени и местоположения)\n--------------------\n<g>몇 시(에) 옵니까? : </g>В какое время ты придешь?\n\n<g>시 + 에: </g>В/в/в то время.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "th": "1. คะ (หัวเรื่อง)\n2. 는 (หัวเรื่อง)\n3. 를 (เครื่องหมายวัตถุ)\n4. EV (อนุภาคเวลาและสถานที่)\n--------------------\n<g>몇 시(에) 옵니까? : </g>คุณจะมากี่โมง?\n\n<g>시 + 에: </g>เมื่อ/ใน/ตรงเวลา\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "pt": "1. 가 (marcador de assunto)\n2. 는 (marcador de assunto)\n3. 를 (marcador de objeto)\n4. 에 (partícula de tempo e localização)\n--------------------\n<g>몇 시(에) 옵니까? : </g>Que horas você vai vir?\n\n<g>시 + 에: </g>Na/na/na hora certa.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "hi": "1. 가 (विषय मार्कर)\n2. 는 (विषय मार्कर)\n3. 를 (ऑब्जेक्ट मार्कर)\n4. 에 (समय और स्थान कण)\n------------------------\n<g>몇 시(에) 옵니까? : </g>तुम किस समय आ रहे हों?\n\n<g>시 + 에: </g>समय पर/में/पर।\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. ",
+          "tr": "1. 가 (Konu işaretleyici)\n2. 는 (Konu işaretleyici)\n3. 를 (Nesne işaretçisi)\n4. 에 (Zaman ve konum parçacığı)\n--------------------\n<g>몇 시(에) 옵니까? : </g>Ne zaman geliyorsun?\n\n<g>시 + 에: </g>Tam zamanında/zamanında.\n\n#######\n\n1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39]<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "한국어가 어렵습니다. 친구(  ) 물어봅니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "의",
+          "를",
+          "에게",
+          "에서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. 의 (Trợ từ sở hữu)\n2. 를 (Tiểu từ tân ngữ)\n3. 에게 (Trợ từ chỉ đối tượng được tác động)\n4. 에서 (Trợ từ ở đâu/vào lúc)\n--------------------\n한국어가 어렵습니다. 친구 (에게) 물어봅니다: Tiếng Hàn thì khó. (Nên) tôi hỏi bạn. ",
+          "en": "1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "fr": "1. 의 (particule possessive)\n2. 를 (particule objet)\n3. 에게 (Adverbe indiquant l'objet affecté)\n4. 에서 (particule de temps et de lieu)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>Le coréen est difficile. Alors je demande à mon ami.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "es": "1. 의 (Partícula posesiva)\n2. 를 (partícula de objeto)\n3. 에게 (Adverbio que indica el objeto afectado)\n4. 에서 (Partícula de tiempo y ubicación)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>El coreano es difícil. Entonces le pregunto a mi amigo.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "id": "1. (Partikel posesif)\n2. (Partikel objek)\n3. (Kata keterangan yang menunjukkan objek yang terpengaruh)\n4. (Partikel waktu dan lokasi)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>bahasa korea itu sulit. Jadi saya bertanya kepada teman saya.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "ja": "1. 의 (所有助詞)\n2.를（対象粒子）\n3. 에게 (対象物を表す副詞)\n4. 에서 (時間と場所の粒子)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>韓国語は難しいです。そこで、友人に尋ねます。\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "de": "1. 의 (possessives Teilchen)\n2. 를 (Objektpartikel)\n3. 에게 (Adverb, das das betroffene Objekt angibt)\n4. 에서 (Zeit- und Ortspartikel)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>Koreanisch ist schwierig. Also frage ich meinen Freund.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "zh-CN": "1. 의（所有格）\n2.를（物体粒子）\n3. 에게（表示受影响对象的副词）\n4. 에서（时间和位置助词）\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>韩语难。所以我问我的朋友。\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "zh-TW": "1. 의（所有格）\n2.를（物體粒子）\n3. 에게（表示受影響對象的副詞）\n4. 에서（時間和位置助詞）\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>韓語難。所以我問我的朋友。\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "it": "1. 의 (particella possessiva)\n2. 를 (particella oggetto)\n3. 에게 (Avverbio che indica l'oggetto interessato)\n4. 에서 (particella di tempo e luogo)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>Il coreano è difficile. Quindi chiedo al mio amico.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "ru": "1. 의 (Притяжательная частица)\n2. 를 (частица объекта)\n3. 에게 (Наречие, обозначающее затронутый объект)\n4. 에서 (частица времени и места)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>Корейский – это сложно. Поэтому я спрашиваю своего друга.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "th": "1. 의 (อนุภาคครอบครอง)\n2. 를 (อนุภาควัตถุ)\n3. 에게 (คำวิเศษณ์ระบุวัตถุที่ได้รับผลกระทบ)\n4. EVYO (อนุภาคเวลาและสถานที่)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>ภาษาเกาหลีเป็นเรื่องยาก ฉันก็เลยถามเพื่อนของฉัน\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "pt": "1. 의 (Partícula possessiva)\n2. 를 (partícula de objeto)\n3. 에게 (Advérbio que indica o objeto afetado)\n4. 에서 (partícula de tempo e localização)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>Coreano é difícil. Então pergunto ao meu amigo.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "hi": "1. 의 (स्वामित्व कण)\n2. 를 (वस्तु कण)\n3. 에게 (क्रिया विशेषण प्रभावित वस्तु को इंगित करता है)\n4. 에서 (समय और स्थान कण)\n------------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>कोरियाई कठिन है. तो मैं अपने दोस्त से पूछता हूँ.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. ",
+          "tr": "1. 의 (İyelik parçacığı)\n2. 를 (Nesne parçacığı)\n3. 에게 (Etkilenen nesneyi belirten zarf)\n4. 에서 (Zaman ve konum parçacığı)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g>Korece zordur. O yüzden arkadaşıma soruyorum.\n\n#######\n\n1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39]<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "민수 씨는 대학생입니다. 수미 씨(  ) 대학생입니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "도",
+          "에",
+          "의",
+          "를"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Minsoo là sinh viên. Sumi (  ) là sinh viên. \n1. 도 (Tiểu từ chủ ngữ)\n2. 에 (Trợ từ ở đâu/vào lúc)\n3. 의 (Trợ từ sở hữu)\n4. 를 (Tiểu từ tân ngữ)\n--------------------\n도 có nghĩa là 'cũng', được dùng khi hai chủ ngữ có sự tương đồng. Cả hai đều là sinh viên nên sẽ dùng tiểu từ 도",
+          "en": "1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "fr": "1.<g>도</g>(particule sujet) - aussi\n2.<g>에</g>(adverbe de temps/lieu) - à/dans/sur\n3.<g>의</g>(particule possessive) - de, son\n4.<g>를</g>(particule objet)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo est étudiant. Sumi est également étudiante.\n\n<g>도</g>(également) présente une similitude. Tous deux sont étudiants.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "es": "1.<g>도</g>(partícula sujeto) - también\n2.<g>에</g>(adverbio sobre tiempo/lugar) - at/in/on\n3.<g>의</g>(partícula posesiva) - de, de uno\n4.<g>를</g>(partícula de objeto)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo es un estudiante. Sumi también es estudiante.\n\n<g>도</g>(también) muestra similitud. Ambos son estudiantes.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "id": "1.<g>도</g>(partikel subjek) - juga\n2.<g>에</g>(kata keterangan tentang waktu/tempat) - at/in/on\n3.<g>의</g>(partikel posesif) - dari, seseorang\n4.<g>를</g>(partikel benda)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo adalah seorang mahasiswa. Sumi juga seorang mahasiswa.\n\n<g>도</g>(juga) menunjukkan kesamaan. Keduanya adalah mahasiswa.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "ja": "1.<g>도</g>(対象助詞) - また\n2.<g>에</g>(時間/場所に関する副詞) - at/in/on\n3.<g>의</g>(所有助詞) - の、自分の\n4.<g>를</g>(対象粒子)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>ミンスは学生です。すみも学生です。\n\n<g>도</g>（また）類似性を示します。どちらも学生です。\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "de": "1.<g>도</g>(Subjektpartikel) - auch\n2.<g>에</g>(Adverb über Zeit/Ort) - at/in/on\n3.<g>의</g>(possessive Partikel) - von, jemandes\n4.<g>를</g>(Objektpartikel)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo ist Studentin. Sumi ist auch Student.\n\n<g>도</g>(auch) zeigt Ähnlichkeit. Beide sind Studenten.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "zh-CN": "1.<g>도</g>（主语助词）——也\n2.<g>에</g>（关于时间/地点的副词） - at/in/on\n3.<g>의</g>（物主助词）——of, one's\n4.<g>를</g>（物体粒子）\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo 是一名学生。苏美也是一名学生。\n\n<g>도</g>（也）显示相似性。两人都是学生。\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "zh-TW": "1.<g>도</g>（主語助詞）——也\n2.<g>에</g>（關於時間/地點的副詞） - at/in/on\n3.<g>의</g>（物主助詞）——of, one's\n4.<g>를</g>（物體粒子）\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo 是一名學生。蘇美也是一名學生。\n\n<g>도</g>（也）顯示相似性。兩人都是學生。\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "it": "1.<g>도</g>(particella soggetto) - anche\n2.<g>에</g>(avverbio su tempo/luogo) - at/in/on\n3.<g>의</g>(particella possessiva) - di, proprio\n4.<g>를</g>(particella oggetto)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo è uno studente. Sumi è anche uno studente.\n\n<g>도</g>(anche) mostra somiglianza. Entrambi sono studenti.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "ru": "1.<g>도</g>(предметная частица) - также\n2.<g>에</g>(наречие о времени/месте) - у/в/на\n3.<g>의</g>(притяжательная частица) – свой, свой\n4.<g>를</g>(частица объекта)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Минсу учится. Суми тоже студентка.\n\n<g>도</g>(также) показывает сходство. Оба студенты.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "th": "1.<g>도</g>(อนุภาคหัวเรื่อง) - ด้วย\n2.<g>에</g>(คำวิเศษณ์เกี่ยวกับเวลา/สถานที่) - at/in/on\n3.<g>의</g>(อนุภาคครอบครอง) - ของหนึ่ง\n4.<g>를</g>(อนุภาควัตถุ)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>มินซูเป็นนักเรียน ซูมิยังเป็นนักเรียนอยู่\n\n<g>도</g>(ยัง) แสดงความคล้ายคลึงกัน. เป็นนักเรียนทั้งคู่\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "pt": "1.<g>도</g>(partícula de assunto) - também\n2.<g>에</g>(advérbio sobre tempo/lugar) - às/em/em\n3.<g>의</g>(partícula possessiva) - de, de alguém\n4.<g>를</g>(partícula de objeto)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo é um estudante. Sumi também é estudante.\n\n<g>도</g>(também) mostra semelhança. Ambos são estudantes.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "hi": "1.<g>도</g>(विषय कण) - भी\n2.<g>에</g>(समय/स्थान के बारे में क्रियाविशेषण) - पर/में/पर\n3.<g>의</g>(अधिकार कण) - का, किसी का\n4.<g>를</g>(वस्तु कण)\n------------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>मिन्सू एक छात्र है. सुमी भी एक छात्रा है.\n\n<g>도</g>(भी) समानता दर्शाता है. दोनों छात्र हैं.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students.",
+          "tr": "1.<g>도</g>(konu parçacık) - ayrıca\n2.<g>에</g>(zaman/yer ile ilgili zarf) - at/in/on\n3.<g>의</g>(iyelik parçacığı) - birinin\n4.<g>를</g>(nesne parçacığı)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g>Minsoo bir öğrencidir. Sumi de bir öğrencidir.\n\n<g>도</g>(ayrıca) benzerlik gösterir. İkisi de öğrenci.\n\n#######\n\n1. <g>도</g> (subject particle) - also\n2. <g>에</g> (adverb about time/place) - at/in/on\n3. <g>의</g> (possessive particle) - of, one's\n4. <g>를</g> (object particle)\n--------------------\n<g>민수 씨는 대학생입니다. 수미 씨(도) 대학생입니다:</g> Minsoo is a student. Sumi is also a student. \n\n<g>도</g>(also) shows similarity. Both are students."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39]<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "이 사람은 회사원입니다. 학생(  )아닙니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이",
+          "의",
+          "을",
+          "과"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Người này là nhân viên. Không phải học sinh. \n1. 이 (Tiểu từ chủ ngữ)\n2. 의 (Tiểu từ thể hiện sự sở hữu)\n3. 을 (Tiểu từ tân ngữ)\n4. 과 (Tiểu từ liệt kê)\n--------------------\nN + 이/가 + 아니다: Không phải là N. ",
+          "en": "This person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "fr": "Cette personne est un employé. Pas un étudiant.\n1.<g>이</g>(particule sujet)\n2.<g>의</g>(particule possessive)\n3.<g>을</g>(particule objet)\n4.<g>과</g>: et avec\n--------------------\n<g>N + 이/가 + 아니다:</g>Ce n'est pas N\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "es": "Esta persona es un empleado. No un estudiante.\n1.<g>이</g>(partícula sujeto)\n2.<g>의</g>(partícula posesiva)\n3.<g>을</g>(partícula de objeto)\n4.<g>과</g>: y con\n--------------------\n<g>N + 이/가 + 아니다:</g>no es n\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "id": "Orang ini adalah seorang karyawan. Bukan mahasiswa.\n1.<g>이</g>(partikel subjek)\n2.<g>의</g>(partikel posesif)\n3.<g>을</g>(partikel benda)\n4.<g>과</g>: dan dengan\n--------------------\n<g>N + 이/가 + 아니다:</g>Itu bukan N\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "ja": "この人は社員です。学生ではありません。\n1.<g>이</g>(対象粒子)\n2.<g>의</g>(所有助詞)\n3.<g>을</g>(対象粒子)\n4.<g>과</g>: and/with\n--------------------\n<g>N + 이/가 + 아니다:</g>Nではないです。\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "de": "Diese Person ist ein Angestellter. Kein Student.\n1.<g>이</g>(Subjektpartikel)\n2.<g>의</g>(possessives Teilchen)\n3.<g>을</g>(Objektpartikel)\n4.<g>과</g>: und mit\n--------------------\n<g>N + 이/가 + 아니다:</g>Es ist nicht N.\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "zh-CN": "这个人是雇员。不是学生。\n1.<g>이</g>（主语助词）\n2.<g>의</g>（的）\n3.<g>을</g>（物体粒子）\n4.<g>과</g>： 与\n--------------------\n<g>N + 이/가 + 아니다:</g>不是N。\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "zh-TW": "這個人是僱員。不是學生。\n1.<g>이</g>（主語助詞）\n2.<g>의</g>（的）\n3.<g>을</g>（物體粒子）\n4.<g>과</g>： 與\n--------------------\n<g>N + 이/가 + 아니다:</g>不是N。\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "it": "Questa persona è un dipendente. Non uno studente.\n1.<g>이</g>(particella soggetto)\n2.<g>의</g>(particella possessiva)\n3.<g>을</g>(particella oggetto)\n4.<g>과</g>: e con\n--------------------\n<g>N + 이/가 + 아니다:</g>Non è n.\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "ru": "Этот человек является сотрудником. Не студент.\n1.<g>이</g>(предметная частица)\n2.<g>의</g>(притяжательная частица)\n3.<g>을</g>(частица объекта)\n4.<g>과</g>: и с\n--------------------\n<g>N + 이/가 + 아니다:</g>Это не Н.\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "th": "คนนี้เป็นลูกจ้าง ไม่ใช่นักเรียน\n1.<g>이</g>(อนุภาคหัวเรื่อง)\n2.<g>의</g>(อนุภาคครอบครอง)\n3.<g>을</g>(อนุภาควัตถุ)\n4.<g>과</g>: และ/กับ\n--------------------\n<g>N + 이/가 + 아니다:</g>มันไม่ใช่ N.\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "pt": "Essa pessoa é um funcionário. Não é um estudante.\n1.<g>이</g>(partícula de assunto)\n2.<g>의</g>(partícula possessiva)\n3.<g>을</g>(partícula de objeto)\n4.<g>과</g>: e com\n--------------------\n<g>N + 이/가 + 아니다:</g>Não é N.\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "hi": "यह व्यक्ति एक कर्मचारी है. विद्यार्थी नहीं.\n1.<g>이</g>(विषय कण)\n2.<g>의</g>(स्वामित्व कण)\n3.<g>을</g>(वस्तु कण)\n4.<g>과</g>: और साथ\n------------------------\n<g>N + 이/가 + 아니다:</g>यह एन नहीं है.\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N.",
+          "tr": "Bu kişi bir çalışandır. Öğrenci değil.\n1.<g>이</g>(konu parçacığı)\n2.<g>의</g>(iyelik parçacığı)\n3.<g>을</g>(nesne parçacığı)\n4.<g>과</g>: Ve birlikte\n--------------------\n<g>N + 이/가 + 아니다:</g>N değil.\n\n#######\n\nThis person is an employee. Not a student.\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>을</g> (object particle)\n4. <g>과</g> : and/with\n--------------------\n<g>N + 이/가 + 아니다:</g> It's not N."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39]<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "시장에 갑니다.  고기(  ) 채소를 삽니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "와",
+          "만",
+          "까지",
+          "에서"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Tôi đến chợ. Tôi mua rau (  ) thịt. \n1. Và\n2. Mỗi\n3. Đến\n4. Từ\n--------------------\nDùng \"와\" để nối hai danh từ.",
+          "en": "1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "fr": "1. Et\n2. Chaque\n3. Pour\n4. De\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>Je vais au marché. J'achète des légumes et de la viande.\n\nIci, nous avons besoin d'une conjonction reliant 2 noms : légumes et viande. Alors<g>와</g>(et) est correct.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "es": "1. Y\n2. cada uno\n3. A\n4. Desde\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>Voy al mercado. Compro verduras y carne.\n\nAquí necesitamos una conjunción que conecte 2 sustantivos: verduras y carne. Asi que<g>와</g>(y) es correcto.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "id": "1. Dan\n2. Masing-masing\n3. Untuk\n4. Dari\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>Saya pergi ke pasar. Saya membeli sayuran dan daging.\n\nDi sini kita membutuhkan konjungsi yang menghubungkan 2 kata benda: sayuran dan daging. Jadi<g>와</g>(dan) benar.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "ja": "1.そして\n2.それぞれ\n3. へ\n4. から\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>私は市場に行きます。野菜と肉を買います。\n\nここでは、野菜と肉という 2 つの名詞を接続する接続詞が必要です。そう<g>와</g>（と）は正しいです。\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "de": "1. Und\njeweils 2\n3. An\n4. Von\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>Ich gehe zum Markt. Ich kaufe Gemüse und Fleisch.\n\nHier brauchen wir eine Konjunktion, die 2 Substantive verbindet: Gemüse und Fleisch. So<g>와</g>(und) ist richtig.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "zh-CN": "1. 和\n2. 每个\n3. 到\n4. 从\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>我去市场。我买蔬菜和肉。\n\n这里我们需要一个连接两个名词的连词：蔬菜和肉类。所以<g>와</g>（和）是正确的。\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "zh-TW": "1. 和\n2. 每個\n3. 到\n4. 從\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>我去市場。我買蔬菜和肉。\n\n這裡我們需要一個連接兩個名詞的連詞：蔬菜和肉類。所以<g>와</g>（和）是正確的。\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "it": "1. E\n2. Ciascuno\n3. A\n4. Da\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>vado al mercato. Compro verdure e carne.\n\nQui abbiamo bisogno di una congiunzione che colleghi 2 sostantivi: verdure e carne. Così<g>와</g>(e) è corretto.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "ru": "1. И\n2. Каждый\n3. Чтобы\n4. От\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>Я иду на рынок. Я покупаю овощи и мясо.\n\nЗдесь нам нужен союз, соединяющий 2 существительных: овощи и мясо. Так<g>와</g>(и) правильно.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "th": "1. และ\n2. แต่ละ\n3. ถึง\n4. จาก\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>ฉันไปตลาด ฉันซื้อผักและเนื้อสัตว์\n\nในที่นี้เราต้องการคำเชื่อมที่เชื่อมระหว่างคำนาม 2 คำ ได้แก่ ผักและเนื้อสัตว์ ดังนั้น<g>와</g>(และ) ถูกต้อง\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "pt": "1. E\n2. Cada\n3. Para\n4. De\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>Eu vou ao mercado. Compro vegetais e carne.\n\nAqui precisamos de uma conjunção conectando 2 substantivos: vegetais e carne. Então<g>와</g>(e) está correto.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "hi": "1. और\n2. प्रत्येक\n3. को\n4. से\n------------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>मैं बाज़ार जाता हूँ। मैं सब्जियाँ और मांस खरीदता हूँ।\n\nयहां हमें 2 संज्ञाओं को जोड़ने वाले संयोजन की आवश्यकता है: सब्जियां और मांस। इसलिए<g>와</g>(और) सही है.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct.",
+          "tr": "1. Ve\nHer biri 2\n3. Kime\n4. Nereden\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g>Markete gidiyorum. Sebze ve et alıyorum.\n\nBurada 2 ismi birbirine bağlayan bir bağlaca ihtiyacımız var: sebze ve et. Bu yüzden<g>와</g>(ve) doğrudur.\n\n#######\n\n1. And\n2. Each\n3. To\n4. From\n--------------------\n<g>시장에 갑니다.  고기(와) 채소를 삽니다:</g> I go to the market. I buy vegetables and meat.\n\nHere we need a conjunction connecting 2 nouns: vegetables and meat. So <g>와</g> (and) is correct."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "저는 마이클입니다. 미국 (   ) 왔습니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이",
+          "의",
+          "에서",
+          "하고"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. 이 (Tiểu từ chủ ngữ)\n2. 의 (Trợ từ sở hữu)\n3. 에서 (Trợ từ ở đâu)\n4. 하고 (Trợ từ liên kết)\n--------------------\nTên quốc gia + 에서 왔다: Đến từ\n\nTôi là Michael. Tôi đến ( từ ) Mỹ. ",
+          "en": "1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "fr": "1.<g>이</g>(particule sujet)\n2.<g>의</g>(particule possessive)\n3.<g>에서</g>(placer la particule)\n4.<g>하고</g>(particule de liaison)\n--------------------\nNom du pays<g>+ 에서 왔다:</g>Venir de\n\nJe suis Michel. Je viens des États-Unis.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "es": "1.<g>이</g>(partícula sujeto)\n2.<g>의</g>(partícula posesiva)\n3.<g>에서</g>(colocar partícula)\n4.<g>하고</g>(partícula de enlace)\n--------------------\nNombre del país<g>+ 에서 왔다:</g>Venir de\n\nsoy miguel vengo de estados unidos\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "id": "1.<g>이</g>(partikel subjek)\n2.<g>의</g>(partikel posesif)\n3.<g>에서</g>(tempat partikel)\n4.<g>하고</g>(menghubungkan partikel)\n--------------------\nNama negara<g>+ 에서 왔다:</g>Untuk datang dari\n\nSaya Michael. Saya berasal dari AS.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "ja": "1.<g>이</g>(対象粒子)\n2.<g>의</g>(所有助詞)\n3.<g>에서</g>(パーティクルを配置)\n4.<g>하고</g>(連結粒子)\n--------------------\n国の名前<g>+ 에서 왔다:</g>から来て\n\n私はマイケルです。私はアメリカから来ました。\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "de": "1.<g>이</g>(Subjektpartikel)\n2.<g>의</g>(possessives Teilchen)\n3.<g>에서</g>(Partikel platzieren)\n4.<g>하고</g>(Verbindungspartikel)\n--------------------\nLändername<g>+ 에서 왔다:</g>Aus ... kommen\n\nIch bin Michael. Ich komme aus den USA.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "zh-CN": "1.<g>이</g>（主语助词）\n2.<g>의</g>（的）\n3.<g>에서</g>（放置粒子）\n4.<g>하고</g>（连接粒子）\n--------------------\n国家的名字<g>+ 에서 왔다:</g>从......来\n\n我是迈克尔。我来自美国。\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "zh-TW": "1.<g>이</g>（主語助詞）\n2.<g>의</g>（的）\n3.<g>에서</g>（放置粒子）\n4.<g>하고</g>（連接粒子）\n--------------------\n國家的名字<g>+ 에서 왔다:</g>從......來\n\n我是邁克爾。我來自美國。\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "it": "1.<g>이</g>(particella soggetto)\n2.<g>의</g>(particella possessiva)\n3.<g>에서</g>(posizionare particella)\n4.<g>하고</g>(particella di collegamento)\n--------------------\nNome del paese<g>+ 에서 왔다:</g>Venire da\n\nSono Michele. Vengo dagli Stati Uniti.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "ru": "1.<g>이</g>(предметная частица)\n2.<g>의</g>(притяжательная частица)\n3.<g>에서</g>(поместить частицу)\n4.<g>하고</g>(связывающая частица)\n--------------------\nИмя страны<g>+ 에서 왔다:</g>Приехать из\n\nЯ Майкл. Я родом из США.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "th": "1.<g>이</g>(อนุภาคหัวเรื่อง)\n2.<g>의</g>(อนุภาคครอบครอง)\n3.<g>에서</g>(วางอนุภาค)\n4.<g>하고</g>(การเชื่อมโยงอนุภาค)\n--------------------\nชื่อประเทศ<g>+ 에서 왔다:</g>มาจาก\n\nฉันชื่อไมเคิล ฉันมาจากสหรัฐอเมริกา\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "pt": "1.<g>이</g>(partícula de assunto)\n2.<g>의</g>(partícula possessiva)\n3.<g>에서</g>(colocar partícula)\n4.<g>하고</g>(partícula de ligação)\n--------------------\nNome do país<g>+ 에서 왔다:</g>Para vir de\n\nEu sou Michael. Eu venho dos EUA.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "hi": "1.<g>이</g>(विषय कण)\n2.<g>의</g>(स्वामित्व कण)\n3.<g>에서</g>(कण रखें)\n4.<g>하고</g>(लिंकिंग कण)\n------------------------\nदेश नाम<g>+ 에서 왔다:</g>से आना\n\nमैं माइकल हूँ. मैं यूएसए से आया हूं.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. ",
+          "tr": "1.<g>이</g>(konu parçacığı)\n2.<g>의</g>(iyelik parçacığı)\n3.<g>에서</g>(parçacığı yerleştirin)\n4.<g>하고</g>(bağlayıcı parçacık)\n--------------------\nÜlke adı<g>+ 에서 왔다:</g>Gelmek için\n\nBen Michael'ım. ABD'den geliyorum.\n\n#######\n\n1. <g>이</g> (subject particle)\n2. <g>의</g> (possessive particle)\n3. <g>에서</g> (place particle)\n4. <g>하고</g> (linking particle)\n--------------------\nCountry name <g>+ 에서 왔다:</g> To come from\n\nI'm Michael. I come from USA. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "저는 의사입니다. 수진 씨(      ) 의사입니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "만",
+          "에",
+          "를",
+          "도"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. 만 (Trợ từ - Chỉ, duy nhất)\n2. 에 (Trợ từ ở đâu/vào lúc)\n3. 를 (Tiểu từ tân ngữ)\n4. 도 (Tiểu từ chủ ngữ - Cũng)\n--------------------\nTôi là bác sĩ. Minsoo ( cũng ) là bác sĩ.",
+          "en": "1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "fr": "1.<g>만</g>(Particule spéciale - uniquement)\n2.<g>에</g>(Particule de temps et de lieu)\n3.<g>를</g>(particule objet)\n4.<g>도</g>(Particule spéciale - Aussi)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Je suis un médecin. Minsoo est également médecin.\n\n<g>도</g>(également) présente une similitude. Tous deux sont médecins.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "es": "1.<g>만</g>(Partícula especial - Solo)\n2.<g>에</g>(Partícula de tiempo y ubicación)\n3.<g>를</g>(partícula de objeto)\n4.<g>도</g>(Partícula especial - También)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Soy doctor. Minsoo también es médico.\n\n<g>도</g>(también) muestra similitud. Ambos son médicos.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "id": "1.<g>만</g>(Partikel khusus - Saja)\n2.<g>에</g>(Partikel waktu dan lokasi)\n3.<g>를</g>(Partikel objek)\n4.<g>도</g>(Partikel khusus - Juga)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Saya seorang dokter. Minsoo juga seorang dokter.\n\n<g>도</g>(juga) menunjukkan kesamaan. Keduanya adalah dokter.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "ja": "1.<g>만</g>(特殊粒子のみ)\n2.<g>에</g>(時間と場所の粒子)\n3.<g>를</g>(対象粒子)\n4.<g>도</g>(特殊粒子 - また)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>私は医者です。ミンスも医者です。\n\n<g>도</g>（また）類似性を示します。どちらも医者です。\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "de": "1.<g>만</g>(Spezialpartikel - Nur)\n2.<g>에</g>(Zeit- und Ortspartikel)\n3.<g>를</g>(Objektpartikel)\n4.<g>도</g>(Spezialpartikel - Auch)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Ich bin Arzt. Minsoo ist auch Arzt.\n\n<g>도</g>(auch) zeigt Ähnlichkeit. Beide sind Ärzte.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "zh-CN": "1.<g>만</g>（特殊粒子 - 仅限）\n2.<g>에</g>（时间和位置粒子）\n3.<g>를</g>（物体粒子）\n4.<g>도</g>（特殊粒子 - 也）\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>我是个医生。 Minsoo也是一名医生。\n\n<g>도</g>（也）显示相似性。两人都是医生。\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "zh-TW": "1.<g>만</g>（特殊粒子 - 僅限）\n2.<g>에</g>（時間和位置粒子）\n3.<g>를</g>（物體粒子）\n4.<g>도</g>（特殊粒子 - 也）\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>我是個醫生。 Minsoo也是一名醫生。\n\n<g>도</g>（也）顯示相似性。兩人都是醫生。\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "it": "1.<g>만</g>(Particella speciale - Solo)\n2.<g>에</g>(Particella di tempo e posizione)\n3.<g>를</g>(Particella oggetto)\n4.<g>도</g>(Particella speciale - Anche)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Sono un medico. Minsoo è anche un medico.\n\n<g>도</g>(anche) mostra somiglianza. Entrambi sono medici.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "ru": "1.<g>만</g>(Специальная частица - Только)\n2.<g>에</g>(частица времени и местоположения)\n3.<g>를</g>(частица объекта)\n4.<g>도</g>(Особая частица – Также)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Я доктор. Минсу тоже врач.\n\n<g>도</g>(также) показывает сходство. Оба врачи.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "th": "1.<g>만</g>(อนุภาคพิเศษ-เท่านั้น)\n2.<g>에</g>(อนุภาคเวลาและสถานที่)\n3.<g>를</g>(อนุภาควัตถุ)\n4.<g>도</g>(อนุภาคพิเศษ - นอกจากนี้)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>ฉันเป็นหมอ. มินซูก็เป็นหมอเหมือนกัน\n\n<g>도</g>(ยัง) แสดงความคล้ายคลึงกัน. เป็นหมอทั้งคู่\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "pt": "1.<g>만</g>(Partícula especial - apenas)\n2.<g>에</g>(Partícula de tempo e localização)\n3.<g>를</g>(Partícula de objeto)\n4.<g>도</g>(Partícula especial - também)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Eu sou médico. Minsoo também é médico.\n\n<g>도</g>(também) mostra semelhança. Ambos são médicos.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "hi": "1.<g>만</g>(विशेष कण - केवल)\n2.<g>에</g>(समय और स्थान कण)\n3.<g>를</g>(वस्तु कण)\n4.<g>도</g>(विशेष कण-साथ ही)\n------------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>मैं एक डॉक्टर हुँ। मिन्सू एक डॉक्टर भी हैं.\n\n<g>도</g>(भी) समानता दर्शाता है. दोनों डॉक्टर हैं.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors.",
+          "tr": "1.<g>만</g>(Özel parçacık - Yalnızca)\n2.<g>에</g>(Zaman ve konum parçacığı)\n3.<g>를</g>(Nesne parçacığı)\n4.<g>도</g>(Özel parçacık - Ayrıca)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g>Ben bir doktorum. Minsoo aynı zamanda bir doktor.\n\n<g>도</g>(ayrıca) benzerlik gösterir. İkisi de doktor.\n\n#######\n\n1. <g>만</g> (Special particle - Only)\n2. <g>에</g> (Time and location particle)\n3. <g>를</g> (Object particle)\n4. <g>도</g> (Special particle - Also)\n--------------------\n<g>저는 의사입니다. 수진 씨(도) 의사입니다:</g> I'm a doctor. Minsoo is also a doctor.\n\n<g>도</g> (also) shows similarity. Both are doctors."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "오늘은 수미의 생일입니다. 저는 수미(      ） 선물을 했습니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "도",
+          "를",
+          "에서",
+          "에게"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Hôm nay là sinh nhật của Sumi. Tôi đã tặng quà ( ) Sumi rồi.\n1. 도 (Tiểu từ chủ ngữ - Cũng)\n2. 를 (Tiểu từ tân ngữ)\n3. 에서 ( (Trợ từ nơi chốn)\n4. 에게 (Trợ từ chỉ đối tượng được tác động)\n--------------------\nAi đó + 에게: Đối với, cho, từ ai đó",
+          "en": "1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "fr": "1.<g>도:</g>Particule spéciale - Aussi\n2.<g>를:</g>Particule d'objet\n3.<g>에서:</g>Placer la particule\n4.<g>에게:</g>Adverbe indiquant l'objet affecté\n--------------------\n<g>N + 에게:</g>À, à, pour, par quelqu'un\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Aujourd'hui, c'est l'anniversaire de Sumi. J'ai donné un cadeau à Sumi.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "es": "1.<g>도:</g>Partícula especial - También\n2.<g>를:</g>partícula de objeto\n3.<g>에서:</g>Colocar partícula\n4.<g>에게:</g>Adverbio que indica el objeto afectado\n--------------------\n<g>N + 에게:</g>a, en, para, por alguien\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Hoy es el cumpleaños de Sumi. Le di un regalo a Sumi.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "id": "1.<g>도:</g>Partikel khusus - Juga\n2.<g>를:</g>Partikel objek\n3.<g>에서:</g>Tempatkan partikel\n4.<g>에게:</g>Kata keterangan yang menunjukkan objek yang terpengaruh\n--------------------\n<g>N + 에게:</g>Untuk, di, untuk, oleh seseorang\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Hari ini adalah hari ulang tahun Sumi. Saya memberikan hadiah kepada Sumi.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "ja": "1.<g>도:</g>特殊粒子 - また\n2.<g>를:</g>オブジェクト粒子\n3.<g>에서:</g>パーティクルを配置\n4.<g>에게:</g>影響を受ける対象を示す副詞\n--------------------\n<g>N + 에게:</g>誰かに、誰かのために、誰かに\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>今日はスミちゃんの誕生日。私はスミにプレゼントをあげました。\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "de": "1.<g>도:</g>Spezialpartikel - Auch\n2.<g>를:</g>Objektpartikel\n3.<g>에서:</g>Partikel platzieren\n4.<g>에게:</g>Adverb, das das betroffene Objekt angibt\n--------------------\n<g>N + 에게:</g>An, an, für, von jemandem\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Heute ist Sumis Geburtstag. Ich habe Sumi ein Geschenk gemacht.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "zh-CN": "1.<g>도:</g>特殊粒子 - 也\n2.<g>를:</g>物体粒子\n3.<g>에서:</g>放置粒子\n4.<g>에게:</g>表示受影响对象的副词\n--------------------\n<g>N + 에게:</g>到，在，为了，被某人\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>今天是苏美的生日。我给了苏米一份礼物。\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "zh-TW": "1.<g>도:</g>特殊粒子 - 也\n2.<g>를:</g>物體粒子\n3.<g>에서:</g>放置粒子\n4.<g>에게:</g>表示受影響對象的副詞\n--------------------\n<g>N + 에게:</g>到，在，為了，被某人\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>今天是蘇美的生日。我給了蘇米一份禮物。\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "it": "1.<g>도:</g>Particella speciale - Anche\n2.<g>를:</g>Particella oggetto\n3.<g>에서:</g>Posizionare la particella\n4.<g>에게:</g>Avverbio che indica l'oggetto interessato\n--------------------\n<g>N + 에게:</g>A, a, per, da qualcuno\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Oggi è il compleanno di Sumi. Ho fatto un regalo a Sumi.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "ru": "1.<g>도:</g>Особая частица – Также\n2.<g>를:</g>Частица объекта\n3.<g>에서:</g>Поместите частицу\n4.<g>에게:</g>Наречие, обозначающее затронутый объект\n--------------------\n<g>N + 에게:</g>Чтобы, у, для, кем-то\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Сегодня день рождения Суми. Я подарил Суми подарок.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "th": "1.<g>도:</g>อนุภาคพิเศษ - นอกจากนี้\n2.<g>를:</g>อนุภาคของวัตถุ\n3.<g>에서:</g>วางอนุภาค\n4.<g>에게:</g>คำวิเศษณ์บ่งบอกถึงวัตถุที่ได้รับผลกระทบ\n--------------------\n<g>N + 에게:</g>ถึง, ที่, เพื่อ, โดยใครบางคน\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>วันนี้เป็นวันเกิดของซูมิ ฉันให้ของขวัญกับซูมิ\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "pt": "1.<g>도:</g>Partícula especial - também\n2.<g>를:</g>Partícula de objeto\n3.<g>에서:</g>Colocar partícula\n4.<g>에게:</g>Advérbio indicando o objeto afetado\n--------------------\n<g>N + 에게:</g>Para, em, para, por alguém\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Hoje é aniversário da Sumi. Dei um presente para Sumi.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "hi": "1.<g>도:</g>विशेष कण - भी\n2.<g>를:</g>वस्तु कण\n3.<g>에서:</g>कण रखें\n4.<g>에게:</g>प्रभावित वस्तु को सूचित करने वाला क्रियाविशेषण\n------------------------\n<g>N + 에게:</g>किसी के द्वारा, पर, के लिए\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>आज सुमी का जन्मदिन है. मैंने सुमि को एक उपहार दिया।\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi.",
+          "tr": "1.<g>도:</g>Özel parçacık - Ayrıca\n2.<g>를:</g>Nesne parçacığı\n3.<g>에서:</g>Parçacık yerleştir\n4.<g>에게:</g>Etkilenen nesneyi belirten zarf\n--------------------\n<g>N + 에게:</g>Birisi tarafından, için, için\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g>Bugün Sumi'nin doğum günü. Sumi'ye bir hediye verdim.\n\n#######\n\n1. <g>도:</g> Special particle - Also\n2. <g>를:</g> Object particle\n3. <g>에서:</g> Place particle\n4. <g>에게:</g> Adverb indicating the affected object\n--------------------\n<g>N + 에게:</g> To, at, for, by someone\n\n<g>오늘은 수미의 생일입니다. 저는 수미(에게) 선물을 했습니다:</g> Today is Sumi's birthday. I gave a present to Sumi."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "저는 시장에 갑니다. 옷(     ) 신발을 삽니다.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "과",
+          "의",
+          "와",
+          "을"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Tôi đi chợ. Tôi mua quần áo (     ) giày dép.\n\n1. 과 - Và (Trợ từ liên kết)\n2. 의 - Của (Trợ từ sở hữu)\n3. 와 - Và (Trợ từ liên kết)\n4. 을 (Tiểu từ tân ngữ)\n--------------------\nĐáp án 1 là đáp án đúng vì 옷 là danh từ có patchim (phụ âm cuối) nên sẽ đi với 과.",
+          "en": "1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "it": "1. 과 (Collegamento delle particelle)\n2. 의 (marcatore possessivo)\n3. 와 (Collegamento delle particelle)\n4. 을 (particella oggetto)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Vado al mercato. Compro vestiti e scarpe.\n\n1 è la risposta corretta perché<g>옷</g>è un sostantivo con patchim (consonante finale), andrà bene<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "fr": "1. 과 (Particule de liaison)\n2. 의 (Marqueur possessif)\n3. 와 (particule de liaison)\n4. 을 (particule d'objet)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Je vais au marché. J'achète des vêtements et des chaussures.\n\n1 est la bonne réponse car<g>옷</g>est un nom avec patchim (consonne finale), il ira avec<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "es": "1. 과 (Partícula de enlace)\n2. 의 (marcador posesivo)\n3. 와 (Partícula de enlace)\n4. 을 (Partícula objeto)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Voy al mercado. Compro ropa y zapatos.\n\n1 es la respuesta correcta porque<g>옷</g>es un sustantivo con patchim (consonante final), irá con<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "id": "1. 과 (Partikel penghubung)\n2. 의 (Penanda posesif)\n3. 와 (Partikel penghubung)\n4. 을 (Partikel benda)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Saya pergi ke pasar. Saya membeli pakaian dan sepatu.\n\n1 adalah jawaban yang benar karena<g>옷</g>adalah kata benda dengan patchim (konsonan akhir), ia akan menyertai<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "ja": "1. 과 (連結助詞)\n2. 의 (所有マーカー)\n3. 와 (連結助詞)\n4. 을 (オブジェクト粒子)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>市場に行きます。服や靴を買います。\n\n1 が正解です。<g>옷</g>パッチム（最後の子音）を持つ名詞の場合は、<g>과</g>。\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "de": "1. 과 (Verbindungsteilchen)\n2. 의 (Possessivmarker)\n3. 와 (Verbindungsteilchen)\n4. 을 (Objektteilchen)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Ich gehe zum Markt. Ich kaufe Kleidung und Schuhe.\n\n1 ist die richtige Antwort, weil<g>옷</g>ist ein Substantiv mit patchim (Endkonsonant), es wird dazu passen<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "zh-CN": "1. 과（连接助词）\n2. 의（所有格标记）\n3. 와（连接助词）\n4. 을（物体助词）\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>我去市场。我买衣服和鞋子。\n\n1 是正确答案，因为<g>옷</g>是一个带有 patchim（最后辅音）的名词，它将与<g>과</g>。\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "zh-TW": "1. 과（連接助詞）\n2. 의（所有格標記）\n3. 와（連接助詞）\n4. 을（物體助詞）\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>我去市場。我買衣服和鞋子。\n\n1 是正確答案，因為<g>옷</g>是一個帶有 patchim（最後輔音）的名詞，它將與<g>과</g>。\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "ru": "1. 과 (Связывающая частица)\n2. 의 (притяжательный маркер)\n3. 와 (связывающая частица)\n4. 을 (частица объекта)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Я иду на рынок. Я покупаю одежду и обувь.\n\n1 правильный ответ, потому что<g>옷</g>это существительное с патчимом (конечная согласная), оно будет сочетаться с<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "th": "1. 과 (อนุภาคเชื่อมโยง)\n2. 의 (เครื่องหมายแสดงความเป็นเจ้าของ)\n3. 와 (การเชื่อมโยงอนุภาค)\n4. 을 (อนุภาคของวัตถุ)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>ฉันไปตลาด ฉันซื้อเสื้อผ้าและรองเท้า\n\n1 คือคำตอบที่ถูกต้องเพราะว่า<g>옷</g>เป็นคำนามที่มีคำว่า patchim (พยัญชนะตัวท้าย) จะอยู่ด้วย<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "pt": "1. 과 (Partícula de ligação)\n2. 의 (marcador possessivo)\n3. 와 (Partícula de ligação)\n4. 을 (partícula de objeto)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Eu vou ao mercado. Compro roupas e sapatos.\n\n1 é a resposta correta porque<g>옷</g>é um substantivo com patchim (consoante final), irá com<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "hi": "1. 과 (लिंकिंग कण)\n2. 의 (अधिकार चिह्न)\n3. 와 (लिंकिंग कण)\n4. 을 (वस्तु कण)\n------------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>मैं बाज़ार जाता हूँ। मैं कपड़े और जूते खरीदता हूं।\n\n1 सही उत्तर है क्योंकि<g>옷</g>पैचिम (अंतिम व्यंजन) वाली संज्ञा है, यह साथ जाएगी<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>.",
+          "tr": "1. 과 (Bağlayıcı parçacık)\n2. 의 (İyelik işareti)\n3. 와 (Bağlayıcı parçacık)\n4. 을 (Nesne parçacığı)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g>Markete gidiyorum. Kıyafet ve ayakkabı alıyorum.\n\n1 doğru cevap çünkü<g>옷</g>patchim (son ünsüz) içeren bir isimdir, onunla birlikte gider<g>과</g>.\n\n#######\n\n1. 과 (Linking particle)\n2. 의 (Possessive marker)\n3. 와 (Linking particle)\n4. 을 (Object particle)\n--------------------\n<g>저는 시장에 갑니다. 옷(과) 신발을 삽니다:</g> I go to the market. I buy clothes and shoes.\n\n1 is the correct answer because <g>옷</g> is a noun with patchim (final consonant), it will go with <g>과</g>."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "오늘은 수미 씨(     ) 생일입니다. 선물을 많이 받습니다.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "를",
+          "가",
+          "는",
+          "의"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Hôm nay là sinh nhật (     ) Sumi. Sumi nhận được nhiều quà.\n\n1. 를 (Tiểu từ tân ngữ)\n2. 가 (Tiểu từ chủ ngữ)\n3. 는 (Tiểu từ bổ trợ)\n4. 의 - Của (Trợ từ sở hữu)\n--------------------\n선물: Quà",
+          "en": "1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "it": "1. 를 (particella oggetto)\n2. 가 (marcatore del soggetto)\n3. 는 (Marcatore argomento)\n4. 의 (marcatore possessivo)\n--------------------\n<g>선물:</g>Regalo\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Oggi è il compleanno di Sumi. Riceve molti regali.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "fr": "1. 를 (particule objet)\n2. 가 (Marqueur de sujet)\n3. 는 (Marqueur de sujet)\n4. 의 (Marqueur possessif)\n--------------------\n<g>선물:</g>Cadeau\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Aujourd'hui, c'est l'anniversaire de Sumi. Elle reçoit beaucoup de cadeaux.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "es": "1. 를 (Partícula objeto)\n2. 가 (Marcador de tema)\n3. 는 (Marcador de tema)\n4. 의 (marcador posesivo)\n--------------------\n<g>선물:</g>Regalo\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Hoy es el cumpleaños de Sumi. Recibe muchos regalos.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "id": "1. 를 (Partikel benda)\n2. 가 (Penanda subjek)\n3. 는 (Penanda topik)\n4. 의 (Penanda posesif)\n--------------------\n<g>선물:</g>Hadiah\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Hari ini adalah hari ulang tahun Sumi. Dia menerima banyak hadiah.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "ja": "1. 를 (オブジェクト粒子)\n2. 가 (件名マーカー)\n3. 는 (トピックマーカー)\n4. 의 (所有マーカー)\n--------------------\n<g>선물:</g>贈り物\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>今日はスミさんの誕生日です。彼女はたくさんの贈り物を受け取ります。\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "de": "1. 를 (Objektteilchen)\n2. 가 (Betreffmarkierung)\n3. 는 (Themenmarkierung)\n4. 의 (Possessivmarker)\n--------------------\n<g>선물:</g>Geschenk\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Heute ist Sumis Geburtstag. Sie bekommt viele Geschenke.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "zh-CN": "1. 를（物体粒子）\n2. Р（主题标记）\n3.는（主题标记）\n4. 의（所有格标记）\n--------------------\n<g>선물:</g>礼物\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>今天是苏美的生日。她收到很多礼物。\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "zh-TW": "1. 를（物體粒子）\n2. Р（主題標記）\n3.는（主題標記）\n4. 의（所有格標記）\n--------------------\n<g>선물:</g>禮物\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>今天是蘇美的生日。她收到很多禮物。\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "ru": "1. 를 (частица объекта)\n2. 가 (указатель темы)\n3. 는 (маркер темы)\n4. 의 (притяжательный признак)\n--------------------\n<g>선물:</g>Подарок\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Сегодня день рождения Суми. Она получает много подарков.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "th": "1. 를 (อนุภาคของวัตถุ)\n2. คะ (หัวเรื่อง)\n3. 는 (เครื่องหมายหัวข้อ)\n4. 의 (เครื่องหมายแสดงความเป็นเจ้าของ)\n--------------------\n<g>선물:</g>ของขวัญ\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>วันนี้เป็นวันเกิดของซูมิ เธอได้รับของขวัญมากมาย\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "pt": "1. 를 (partícula de objeto)\n2. 가 (marcador de assunto)\n3. 는 (marcador de tópico)\n4. 의 (marcador possessivo)\n--------------------\n<g>선물:</g>Presente\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Hoje é aniversário da Sumi. Ela recebe muitos presentes.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "hi": "1. 를 (वस्तु कण)\n2. 가 (विषय मार्कर)\n3. 는 (विषय मार्कर)\n4. 의 (अधिकार चिह्न)\n------------------------\n<g>선물:</g>उपहार\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>आज सुमी का जन्मदिन है. उसे ढेर सारे उपहार मिलते हैं.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts.",
+          "tr": "1. 를 (Nesne parçacığı)\n2. 가 (Konu işaretleyici)\n3. 는 (Konu işaretleyici)\n4. 의 (İyelik işareti)\n--------------------\n<g>선물:</g>Hediye\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g>Bugün Sumi'nin doğum günü. Pek çok hediye alıyor.\n\n#######\n\n1. 를 (Object particle)\n2. 가 (Subject marker)\n3. 는 (Topic marker)\n4. 의 (Possessive marker)\n--------------------\n<g>선물:</g> Gift\n\n<g>오늘은 수미 씨(의) 생일입니다. 선물을 많이 받습니다:</g> Today is Sumi's birthday. She receives a lot of gifts."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "어느 나라(     ) 왔습니까?",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "에",
+          "에서",
+          "부터",
+          "는"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Bạn đến (     ) đất nước nào?\n\n1. 에 (Trợ từ ở đâu/vào lúc)\n2. 에서 - Từ, ở (Tiểu từ chỉ điểm xuất phát, nơi xảy ra hành động)\n3. 부터 - Từ (Tiểu từ đi với danh từ chỉ thời gian, địa điểm)\n4. 는 (Tiểu từ chủ ngữ)\n--------------------\n어느 나라에서 왔습니까? Là câu hỏi về quê hương, đất nước của người khác nên đáp án đúng là 2.",
+          "en": "1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "it": "1. 에 (Particella di tempo e posizione)\n2. 에서 (Indicatore di posizione)\n3. 부터 (Particella usata per mostrare quando o dove è iniziata un'azione o una situazione)\n4. 는 (Marcatore argomento)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>Da che paese vieni? - Questa è una domanda che si usa per chiedere informazioni sulla propria città natale, quindi la risposta corretta è 2.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "fr": "1. 에 (particule de temps et de lieu)\n2. 에서 (marqueur de localisation)\n3. 부터 (Particule utilisée pour montrer quand et où une action ou une situation a commencé)\n4. 는 (Marqueur de sujet)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>De quel pays êtes vous? - Il s'agit d'une question que l'on pose généralement sur sa ville natale, la bonne réponse est donc 2.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "es": "1. 에 (Partícula de tiempo y ubicación)\n2. 에서 (Marcador de ubicación)\n3. 부터 (Partícula usada para mostrar cuándo o dónde comenzó una acción o situación)\n4. 는 (Marcador de tema)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>¿De qué país eres? - Esta es una pregunta que se utiliza para preguntar sobre la ciudad natal de uno, por lo que la respuesta correcta es 2.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "id": "1. 에 (Partikel waktu dan lokasi)\n2. 에서 (Penanda lokasi)\n3. 부터 (Partikel digunakan untuk menunjukkan kapan atau di mana suatu tindakan atau situasi dimulai)\n4. 는 (Penanda topik)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>Dari negara mana kamu berasal? - Ini adalah pertanyaan yang digunakan untuk menanyakan tentang kampung halaman seseorang, jadi jawaban yang benar adalah 2.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "ja": "1. 에 (時間と場所の助詞)\n2. 에서 (ロケーションマーカー)\n3. 부터 (行為や状況がいつ、どこで始まったかを示すために使用される助詞)\n4. 는 (トピックマーカー)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>どこの国の人ですか?・出身地について尋ねる質問ですので、正解は２です。\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "de": "1. 에 (Zeit- und Ortsteilchen)\n2. 에서 (Standortmarkierung)\n3. 부터 (Partikel, der anzeigt, wann und wo eine Aktion oder Situation begann)\n4. 는 (Themenmarkierung)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>Aus welchem ​​Land kommst du? – Hierbei handelt es sich um eine Frage nach der Heimatstadt. Die richtige Antwort lautet also 2.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "zh-CN": "1. 에（时间和地点助词）\n2. 에서（位置标记）\n3. 부터（助词用于表示动作或情况开始的时间或地点）\n4.는（主题标记）\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>你来自哪个国家？ - 这是一个询问家乡的问题，所以正确答案是2。\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "zh-TW": "1. 에（時間和地點助詞）\n2. 에서（位置標記）\n3. 부터（助詞用於表示動作或情況開始的時間或地點）\n4.는（主題標記）\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>你來自哪個國家？ - 這是一個詢問家鄉的問題，所以正確答案是2。\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "ru": "1. 에 (частица времени и местоположения)\n2. 에서 (маркер местоположения)\n3. 부터 (частица, используемая для обозначения того, когда и где началось действие или ситуация)\n4. 는 (маркер темы)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>Из какой ты страны? - Этот вопрос обычно задают о своем родном городе, поэтому правильный ответ - 2.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "th": "1. EV (อนุภาคเวลาและสถานที่)\n2. 서서 (เครื่องหมายระบุตำแหน่ง)\n3. 부터 (คำช่วยบอกเวลาหรือจุดที่การกระทำหรือสถานการณ์เริ่มขึ้น)\n4. 는 (เครื่องหมายหัวข้อ)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>คุณมาจากประเทศอะไร? - นี่เป็นคำถามที่ใช้ถามเกี่ยวกับบ้านเกิด ดังนั้นคำตอบที่ถูกต้องคือ 2\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "pt": "1. 에 (partícula de tempo e localização)\n2. 에서 (Marcador de localização)\n3. 부터 (Partícula usada para mostrar quando ou onde uma ação ou situação começou)\n4. 는 (marcador de tópico)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>você é de que país? - Esta é uma pergunta usada para perguntar sobre a cidade natal de alguém, então a resposta correta é 2.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "hi": "1. 에 (समय और स्थान कण)\n2. 에서 (स्थान मार्कर)\n3. 부터 (कण यह बताने के लिए प्रयोग किया जाता है कि कोई कार्रवाई या स्थिति कब और कहां शुरू हुई)\n4. 는 (विषय मार्कर)\n------------------------\n<g>어느 나라(에서) 왔습니까?</g>आप किस देश से हैं? - यह एक प्रश्न है जिसका उपयोग किसी के गृहनगर के बारे में पूछने के लिए किया जाता है, इसलिए सही उत्तर 2 है।\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2.",
+          "tr": "1. 에 (Zaman ve konum parçacığı)\n2. 에서 (Konum işaretçisi)\n3. 부터 (Bir eylemin veya durumun ne zaman veya nerede başladığını göstermek için kullanılan parçacık)\n4. 는 (Konu işaretleyici)\n--------------------\n<g>어느 나라(에서) 왔습니까?</g>Hangi ülkedensin? - Bu, kişinin memleketi hakkında soru sormak için kullanılan bir sorudur, dolayısıyla doğru cevap 2'dir.\n\n#######\n\n1. 에 (Time and location particle)\n2. 에서 (Location marker)\n3. 부터 (Particle used to show when or where an action or situation started)\n4. 는 (Topic marker)\n-------------------- \n<g>어느 나라(에서) 왔습니까?</g> What country are you from? - This is a question used to ask about one's hometown, so the correct answer is 2."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "취미(     ) 무엇입니까?",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "은",
+          "의",
+          "가",
+          "이"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Sở thích của bạn (     ) là gì?\n\n1. 은 (Tiểu từ bổ trợ)\n2. 의 - Của (Trợ từ sở hữu)\n3. 가 (Tiểu từ chủ ngữ)\n4. 이 (Tiểu từ chủ ngữ)\n--------------------\n취미가 무엇입니까? Là câu hỏi về sở thích nên chọn đáp án 3.",
+          "en": "1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "it": "1. 은 (Segnaletica dell'argomento)\n2. 의 (marcatore possessivo)\n3. 가 (marcatore del soggetto)\n4. 이 (marcatore del soggetto)\n--------------------\n<g>취미(가) 무엇입니까?</g>Qual è il tuo hobby? - Una domanda usata per porre domande sugli hobby, quindi 3 è la risposta corretta.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "fr": "1. 은 (Marqueur de sujet)\n2. 의 (Marqueur possessif)\n3. 가 (Marqueur de sujet)\n4. 이 (Marqueur de sujet)\n--------------------\n<g>취미(가) 무엇입니까?</g>Quel est votre passe-temps ? - Une question posée sur les loisirs, donc 3 est la bonne réponse.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "es": "1. 은 (Marcador de tema)\n2. 의 (marcador posesivo)\n3. 가 (Marcador de tema)\n4. 이 (Marcador de tema)\n--------------------\n<g>취미(가) 무엇입니까?</g>¿Cuál es tu pasatiempo? - Una pregunta solía preguntar sobre aficiones, por lo que 3 es la respuesta correcta.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "id": "1. 은 (Penanda topik)\n2. 의 (Penanda posesif)\n3. 가 (Penanda subjek)\n4. 이 (Penanda subjek)\n--------------------\n<g>취미(가) 무엇입니까?</g>Apa hobimu? - Pertanyaan yang digunakan untuk menanyakan tentang hobi, jadi jawaban yang benar adalah 3.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "ja": "1. 은 (トピックマーカー)\n2. 의 (所有マーカー)\n3. 가 (件名マーカー)\n4. 이 (被写体マーカー)\n--------------------\n<g>취미(가) 무엇입니까?</g>趣味は何？ - 趣味について尋ねるための質問なので、3 が正解です。\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "de": "1. 은 (Themenmarkierung)\n2. 의 (Possessivmarker)\n3. 가 (Betreffmarkierung)\n4. 이 (Betreffmarkierung)\n--------------------\n<g>취미(가) 무엇입니까?</g>Was ist dein Hobby? - Eine Frage, die früher nach Hobbys gestellt wurde, daher ist 3 die richtige Antwort.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "zh-CN": "1. 은（主题标记）\n2. 의（所有格标记）\n3. Р（主题标记）\n4. æ（主题标记）\n--------------------\n<g>취미(가) 무엇입니까?</g>你有什么爱好？ - 用于询问兴趣爱好的问题，因此 3 是正确答案。\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "zh-TW": "1. 은（主題標記）\n2. 의（所有格標記）\n3. Р（主題標記）\n4. æ（主題標記）\n--------------------\n<g>취미(가) 무엇입니까?</g>你有什麼愛好？ - 用於詢問興趣愛好的問題，因此 3 是正確答案。\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "ru": "1. 은 (маркер темы)\n2. 의 (притяжательный маркер)\n3. 가 (указатель темы)\n4. 이 (указатель темы)\n--------------------\n<g>취미(가) 무엇입니까?</g>Какое твое хобби? – Раньше задавали вопрос об увлечениях, поэтому правильный ответ – 3.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "th": "1. eb (เครื่องหมายหัวข้อ)\n2. 의 (เครื่องหมายแสดงความเป็นเจ้าของ)\n3. คะ (หัวเรื่อง)\n4. 이 (หัวเรื่อง)\n--------------------\n<g>취미(가) 무엇입니까?</g>งานอดิเรกของคุณคืออะไร? - คำถามที่ใช้ถามเกี่ยวกับงานอดิเรก ดังนั้น 3 จึงเป็นคำตอบที่ถูกต้อง\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "pt": "1. 은 (marcador de tópico)\n2. 의 (marcador possessivo)\n3. 가 (marcador de assunto)\n4. 이 (Marcador de assunto)\n--------------------\n<g>취미(가) 무엇입니까?</g>Qual é o seu hobby? - Uma pergunta usada para fazer sobre hobbies, então 3 é a resposta correta.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "hi": "1. 은 (विषय मार्कर)\n2. 의 (अधिकार चिह्न)\n3. 가 (विषय मार्कर)\n4. 이 (विषय मार्कर)\n------------------------\n<g>취미(가) 무엇입니까?</g>आपका शौक क्या है? - एक प्रश्न शौक के बारे में पूछा जाता था, इसलिए 3 सही उत्तर है।\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer.",
+          "tr": "1. 은 (Konu işaretleyici)\n2. 의 (İyelik işareti)\n3. 가 (Konu işaretleyici)\n4. 이 (Konu işaretleyici)\n--------------------\n<g>취미(가) 무엇입니까?</g>Senin hobin ne? - Hobiler hakkında sorulmak için kullanılan bir soru, dolayısıyla doğru cevap 3'tür.\n\n#######\n\n1. 은 (Topic marker) \n2. 의 (Possessive marker)\n3. 가 (Subject marker)\n4. 이 (Subject marker)\n--------------------\n<g>취미(가) 무엇입니까?</g> What is your hobby? - A question used to ask about hobbies, so 3 is the correct answer."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "저는 사과를 좋아합니다. 포도(     ) 좋아합니다.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "을",
+          "의",
+          "도",
+          "가"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Tôi thích táo. Tôi (     ) thích nho.\n\n1. 을 (Tiểu từ tân ngữ)\n2. 의 (Trợ từ sở hữu)\n3. 도 - Cũng (Trợ từ bổ sung)\n4. 가 (Tiểu từ chủ ngữ)\n--------------------\nChọn đáp án 3 vì người này vừa thích táo vừa thích nho.",
+          "en": "1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "it": "1. 을 (particella oggetto)\n2. 의 (marcatore possessivo)\n3. 도 (particella additiva)\n4. 가 (marcatore del soggetto)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>Mi piacciono le mele. Anche a me piace l'uva.\n\n3 è la risposta corretta perché a questa persona piacciono sia le mele che l'uva.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "fr": "1. 을 (particule objet)\n2. 의 (Marqueur possessif)\n3. 도 (particule additive)\n4. 가 (Marqueur de sujet)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>J'aime les pommes. J'aime aussi les raisins.\n\n3 est la bonne réponse car cette personne aime à la fois les pommes et les raisins.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "es": "1. 을 (Partícula objeto)\n2. 의 (marcador posesivo)\n3. 도 (Partícula aditiva)\n4. 가 (Marcador de tema)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>Me gustan las manzanas. A mí también me gustan las uvas.\n\n3 es la respuesta correcta porque a esta persona le gustan tanto las manzanas como las uvas.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "id": "1. 을 (Partikel benda)\n2. 의 (Penanda posesif)\n3. 도 (Partikel aditif)\n4. 가 (Penanda subjek)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>Saya menyukai apel. Saya juga suka anggur.\n\n3 adalah jawaban yang benar karena orang ini menyukai apel dan anggur.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "ja": "1. 을 (オブジェクト粒子)\n2. 의 (所有マーカー)\n3. 도 (加法助詞)\n4. 가 (件名マーカー)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>私はリンゴが好きです。私もブドウが好きです。\n\nこの人はリンゴもブドウも好きなので、3 が正解です。\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "de": "1. 을 (Objektteilchen)\n2. 의 (Possessivmarker)\n3. 도 (additives Teilchen)\n4. 가 (Betreffmarkierung)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>Ich mag Äpfel. Ich mag auch Trauben.\n\n3 ist die richtige Antwort, da diese Person sowohl Äpfel als auch Weintrauben mag.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "zh-CN": "1. 을（物体助词）\n2. 의（所有格标记）\n3.도（附加粒子）\n4. Р（主题标记）\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>我喜欢苹果。我也喜欢葡萄。\n\n3 是正确答案，因为这个人既喜欢苹果又喜欢葡萄。\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "zh-TW": "1. 을（物體助詞）\n2. 의（所有格標記）\n3.도（附加粒子）\n4. Р（主題標記）\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>我喜歡蘋果。我也喜歡葡萄。\n\n3 是正確答案，因為這個人既喜歡蘋果又喜歡葡萄。\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "ru": "1. 을 (частица объекта)\n2. 의 (притяжательный маркер)\n3. 도 (аддитивная частица)\n4. 가 (указатель темы)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>Я люблю яблоки. Я тоже люблю виноград.\n\nПравильный ответ — 3, потому что этот человек любит и яблоки, и виноград.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "th": "1. 을 (อนุภาคของวัตถุ)\n2. 의 (เครื่องหมายแสดงความเป็นเจ้าของ)\n3. โด (อนุภาคเติมแต่ง)\n4. คะ (หัวเรื่อง)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>ฉันชอบแอปเปิ้ล. ฉันก็ชอบองุ่นเหมือนกัน\n\n3 คือคำตอบที่ถูกต้อง เพราะคนนี้ชอบทั้งแอปเปิ้ลและองุ่น\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "pt": "1. 을 (partícula de objeto)\n2. 의 (marcador possessivo)\n3. 도 (partícula aditiva)\n4. 가 (marcador de assunto)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>Eu gosto de maçãs. Eu também gosto de uvas.\n\n3 é a resposta correta porque essa pessoa gosta tanto de maçãs quanto de uvas.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "hi": "1. 을 (वस्तु कण)\n2. 의 (अधिकार चिह्न)\n3. 도 (योगात्मक कण)\n4. 가 (विषय मार्कर)\n------------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>मुझे सेब पसन्द है। मुझे भी अंगूर पसंद हैं.\n\n3 सही उत्तर है क्योंकि इस व्यक्ति को सेब और अंगूर दोनों पसंद हैं।\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. ",
+          "tr": "1. 을 (Nesne parçacığı)\n2. 의 (İyelik işareti)\n3. 도 (Ek parçacık)\n4. 가 (Konu işaretleyici)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g>Elmaları severim. Ben de üzümleri severim.\n\nDoğru cevap 3'tür çünkü bu kişi hem elmayı hem de üzümü sever.\n\n#######\n\n1. 을 (Object particle)\n2. 의 (Possessive marker)\n3. 도 (Additive particle)\n4. 가 (Subject marker)\n--------------------\n<g>저는 사과를 좋아합니다. 포도(도) 좋아합니다:</g> I like apples. I like grapes, too.\n\n3 is the correct answer because this person likes both apples and grapes. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "주말에 동생(     ) 저는 공원에 갔습니다.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "과",
+          "은",
+          "이",
+          "에게"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Cuối tuần tôi (     ) em đi công viên.\n\n1. 과 - Và, cùng (Trợ từ liên kết)\n2. 은 (Tiểu từ bổ trợ)\n3. 이 (Tiểu từ chủ ngữ)\n4. 에게 - Tới, cho (Trợ từ chỉ đối tượng được tác động)",
+          "en": "1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "it": "1. 과 (Collegamento delle particelle)\n2. 은 (Segnaletica dell'argomento)\n3. 이 (marcatore del soggetto)\n4. 에게 (particella dativa)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Mio fratello/sorella minore ed io siamo andati al parco nel fine settimana.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "fr": "1. 과 (Particule de liaison)\n2. 은 (Marqueur de sujet)\n3. 이 (Marqueur de sujet)\n4. 에게 (particule dative)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Mon jeune frère/sœur et moi sommes allés au parc le week-end.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "es": "1. 과 (Partícula de enlace)\n2. 은 (Marcador de tema)\n3. 이 (Marcador de tema)\n4. 에게 (partícula dativa)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Mi hermano/hermana menor y yo fuimos al parque el fin de semana.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "id": "1. 과 (Partikel penghubung)\n2. 은 (Penanda topik)\n3. 이 (Penanda subjek)\n4. 에게 (Partikel datif)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Aku dan adik laki-lakiku pergi ke taman pada akhir pekan.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "ja": "1. 과 (連結助詞)\n2. 은 (トピックマーカー)\n3. 이 (被写体マーカー)\n4. 에게（与格助詞）\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>弟/妹と私は週末に公園に行きました。\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "de": "1. 과 (Verbindungsteilchen)\n2. 은 (Themenmarkierung)\n3. 이 (Betreffmarkierung)\n4. 에게 (Dativpartikel)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Mein jüngerer Bruder/meine jüngere Schwester und ich gingen am Wochenende in den Park.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "zh-CN": "1. 과（连接助词）\n2. 은（主题标记）\n3. æ（主题标记）\n4. 에게（与格助词）\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>周末我和弟弟/妹妹去了公园。\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "zh-TW": "1. 과（連接助詞）\n2. 은（主題標記）\n3. æ（主題標記）\n4. 에게（與格助詞）\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>週末我和弟弟/妹妹去了公園。\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "ru": "1. 과 (Связывающая частица)\n2. 은 (маркер темы)\n3. 이 (указатель темы)\n4. 에게 (частица дательного падежа)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Мой младший брат/сестра и я пошли в парк на выходных.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "th": "1. 과 (อนุภาคเชื่อมโยง)\n2. eb (เครื่องหมายหัวข้อ)\n3. 이 (หัวเรื่อง)\n4. 에게 (อนุภาคมูลฐาน)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>น้องชาย/น้องสาวของฉันและฉันไปสวนสาธารณะในช่วงสุดสัปดาห์\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "pt": "1. 과 (Partícula de ligação)\n2. 은 (marcador de tópico)\n3. 이 (Marcador de assunto)\n4. 에게 (partícula dativa)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Meu irmão/irmã mais novo e eu fomos ao parque no fim de semana.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "hi": "1. 과 (लिंकिंग कण)\n2. 은 (विषय मार्कर)\n3. 이 (विषय मार्कर)\n4. 에게 (मूल कण)\n------------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>मैं और मेरा छोटा भाई/बहन सप्ताहांत में पार्क गए।\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend.",
+          "tr": "1. 과 (Bağlayıcı parçacık)\n2. 은 (Konu işaretleyici)\n3. 이 (Konu işaretleyici)\n4. 에게 (Güncelleme parçacığı)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g>Küçük erkek kardeşim/kız kardeşim ve ben hafta sonu parka gittik.\n\n#######\n\n1. 과 (Linking particle)\n2. 은 (Topic marker)\n3. 이 (Subject marker)\n4. 에게 (Dative particle)\n--------------------\n<g>주말에 동생(과) 저는 공원에 갔습니다:</g> My younger brother/sister and I went to the park on the weekend."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "신발이 조금 큽니다. 다른 것(     ) 바꿔 주세요.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "을",
+          "은",
+          "으로",
+          "에게"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Giày hơi to. Hãy đổi (     ) đôi khác cho tôi.\n\n1. 을 (Tiểu từ tân ngữ)\n2. 은 (Tiểu từ bổ trợ)\n3. 으로 - Sang (Thể hiện sự biến đổi sang vật khác)\n4. 에게 - Tới, cho (Trợ từ chỉ đối tượng được tác động)\n--------------------\n바꾸다: Đổi, thay đổi",
+          "en": "1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "it": "1. 을 (particella oggetto)\n2. 은 (Segnaletica dell'argomento)\n3. 으로 (Direzione di un cambiamento)\n4. 에게 (particella dativa)\n--------------------\n<g>바꾸다:</g>Cambiare\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Le scarpe sono un po' grandi. Per favore cambialo con qualcos'altro.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "fr": "1. 을 (particule objet)\n2. 은 (Marqueur de sujet)\n3. 으로 (Direction d'un changement)\n4. 에게 (particule dative)\n--------------------\n<g>바꾸다:</g>Changer\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Les chaussures sont un peu grandes. Veuillez le remplacer par autre chose.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "es": "1. 을 (Partícula objeto)\n2. 은 (Marcador de tema)\n3. 으로 (Dirección de un cambio)\n4. 에게 (partícula dativa)\n--------------------\n<g>바꾸다:</g>Cambiar\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Los zapatos son un poco grandes. Por favor, cámbielo por otra cosa.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "id": "1. 을 (Partikel benda)\n2. 은 (Penanda topik)\n3. 으로 (Arah perubahan)\n4. 에게 (Partikel datif)\n--------------------\n<g>바꾸다:</g>Untuk mengganti\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Sepatunya agak besar. Silakan ubah ke yang lain.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "ja": "1. 을 (オブジェクト粒子)\n2. 은 (トピックマーカー)\n3. 으로 (変化の方向)\n4. 에게（与格助詞）\n--------------------\n<g>바꾸다:</g>変更するには\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>靴は少し大きいです。別のものに変更してください。\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "de": "1. 을 (Objektteilchen)\n2. 은 (Themenmarkierung)\n3. 으로 (Richtung einer Veränderung)\n4. 에게 (Dativpartikel)\n--------------------\n<g>바꾸다:</g>Wechseln\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Die Schuhe fallen etwas groß aus. Bitte ändern Sie es in etwas anderes.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "zh-CN": "1. 을（物体助词）\n2. 은（主题标记）\n3. 으로（变化方向）\n4. 에게（与格助词）\n--------------------\n<g>바꾸다:</g>改变\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>鞋子有点大。请更改为其他内容。\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "zh-TW": "1. 을（物體助詞）\n2. 은（主題標記）\n3. 으로（變化方向）\n4. 에게（與格助詞）\n--------------------\n<g>바꾸다:</g>改變\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>鞋子有點大。請更改為其他內容。\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "ru": "1. 을 (частица объекта)\n2. 은 (маркер темы)\n3. 으로 (Направление изменения)\n4. 에게 (частица дательного падежа)\n--------------------\n<g>바꾸다:</g>Изменить\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Обувь немного великовата. Пожалуйста, измените его на что-нибудь другое.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "th": "1. 을 (อนุภาคของวัตถุ)\n2. eb (เครื่องหมายหัวข้อ)\n3. 으ロ (ทิศทางของการเปลี่ยนแปลง)\n4. 에게 (อนุภาคมูลฐาน)\n--------------------\n<g>바꾸다:</g>เพื่อเปลี่ยน\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>รองเท้าจะใหญ่ไปหน่อย กรุณาเปลี่ยนเป็นอย่างอื่น.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "pt": "1. 을 (partícula de objeto)\n2. 은 (marcador de tópico)\n3. 으로 (Direção de uma mudança)\n4. 에게 (partícula dativa)\n--------------------\n<g>바꾸다:</g>Mudar\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Os sapatos são um pouco grandes. Por favor, mude para outra coisa.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "hi": "1. 을 (वस्तु कण)\n2. 은 (विषय मार्कर)\n3. 으로 (परिवर्तन की दिशा)\n4. 에게 (मूल कण)\n------------------------\n<g>바꾸다:</g>को बदलने\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>जूते थोड़े बड़े हैं. कृपया इसे किसी और चीज़ में बदलें.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else.",
+          "tr": "1. 을 (Nesne parçacığı)\n2. 은 (Konu işaretleyici)\n3. 으로 (Değişikliğin yönü)\n4. 에게 (Güncelleme parçacığı)\n--------------------\n<g>바꾸다:</g>Değişmek\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g>Ayakkabı biraz büyük. Lütfen bunu başka bir şeyle değiştirin.\n\n#######\n\n1. 을 (Object particle)\n2. 은 (Topic marker)\n3. 으로 (Direction of a change)\n4. 에게 (Dative particle)\n--------------------\n<g>바꾸다:</g> To change\n\n<g>신발이 조금 큽니다. 다른 것(으로) 바꿔 주세요:</g> The shoes are a bit big. Please change it to something else."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "영수 씨는 키(     ) 아주 큽니다.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "가",
+          "의",
+          "은",
+          "에서"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Youngsoo rất cao.\n\n1. 가 (Tiểu từ chủ ngữ)\n2. 의 - Của (Trợ từ sở hữu)\n3. 은 (Tiểu từ bổ trợ)\n4. 에서 (Tiểu từ chỉ điểm xuất phát, nơi xảy ra hành động)\n--------------------\n키가 크다: Cao",
+          "en": "1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "it": "1. 가 (marcatore del soggetto)\n2. 의 (marcatore possessivo)\n3. 은 (Segnaletica dell'argomento)\n4. 에서 (Indicatore di posizione)\n--------------------\n<g>키가 크다:</g>Essere alto\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Youngsoo è molto alto.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "fr": "1. 가 (Marqueur de sujet)\n2. 의 (Marqueur possessif)\n3. 은 (Marqueur de sujet)\n4. 에서 (marqueur de localisation)\n--------------------\n<g>키가 크다:</g>Être grand\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Youngsoo est très grand.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "es": "1. 가 (Marcador de tema)\n2. 의 (marcador posesivo)\n3. 은 (Marcador de tema)\n4. 에서 (Marcador de ubicación)\n--------------------\n<g>키가 크다:</g>ser alto\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Youngsoo es muy alto.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "id": "1. 가 (Penanda subjek)\n2. 의 (Penanda posesif)\n3. 은 (Penanda topik)\n4. 에서 (Penanda lokasi)\n--------------------\n<g>키가 크다:</g>Menjadi tinggi\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Youngsoo sangat tinggi.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "ja": "1. 가 (件名マーカー)\n2. 의 (所有マーカー)\n3. 은 (トピックマーカー)\n4. 에서 (ロケーションマーカー)\n--------------------\n<g>키가 크다:</g>背が高いこと\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>ヨンスさんはとても背が高いです。\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "de": "1. 가 (Betreffmarkierung)\n2. 의 (Possessivmarker)\n3. 은 (Themenmarkierung)\n4. 에서 (Standortmarkierung)\n--------------------\n<g>키가 크다:</g>Groß sein\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Youngsoo ist sehr groß.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "zh-CN": "1. Р（主题标记）\n2. 의（所有格标记）\n3. 은（主题标记）\n4. 에서（位置标记）\n--------------------\n<g>키가 크다:</g>要长高\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>英洙很高。\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "zh-TW": "1. Р（主題標記）\n2. 의（所有格標記）\n3. 은（主題標記）\n4. 에서（位置標記）\n--------------------\n<g>키가 크다:</g>要長高\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>英洙很高。\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "ru": "1. 가 (указатель темы)\n2. 의 (притяжательный маркер)\n3. 은 (маркер темы)\n4. 에서 (маркер местоположения)\n--------------------\n<g>키가 크다:</g>Быть высоким\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Ёнсу очень высокий.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "th": "1. คะ (หัวเรื่อง)\n2. 의 (เครื่องหมายแสดงความเป็นเจ้าของ)\n3. eb (เครื่องหมายหัวข้อ)\n4. 서서 (เครื่องหมายระบุตำแหน่ง)\n--------------------\n<g>키가 크다:</g>ที่จะสูง\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>ยองซูสูงมาก\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "pt": "1. 가 (marcador de assunto)\n2. 의 (marcador possessivo)\n3. 은 (marcador de tópico)\n4. 에서 (Marcador de localização)\n--------------------\n<g>키가 크다:</g>Para ser alto\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Youngsoo é muito alto.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "hi": "1. 가 (विषय मार्कर)\n2. 의 (अधिकार चिह्न)\n3. 은 (विषय मार्कर)\n4. 에서 (स्थान मार्कर)\n------------------------\n<g>키가 크다:</g>लम्बा होना\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>यंगसू बहुत लंबा है.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall.",
+          "tr": "1. 가 (Konu işaretleyici)\n2. 의 (İyelik işareti)\n3. 은 (Konu işaretleyici)\n4. 에서 (Konum işaretçisi)\n--------------------\n<g>키가 크다:</g>Uzun boylu olmak\n\n<g>영수 씨는 키(가) 아주 큽니다:</g>Youngsoo çok uzun.\n\n#######\n\n1. 가 (Subject marker)\n2. 의 (Possessive marker)\n3. 은 (Topic marker)\n4. 에서 (Location marker)\n--------------------\n<g>키가 크다:</g> To be tall\n\n<g>영수 씨는 키(가) 아주 큽니다:</g> Youngsoo is very tall."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "여기(     ) 동대문 시장입니다.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "이",
+          "의",
+          "는",
+          "을"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Đây là chợ Dongdaemun.\n\n1. 이 (Tiểu từ chủ ngữ)\n2. 의 - Của (Trợ từ sở hữu)\n3. 는 (Tiểu từ bổ trợ)\n4. 을 (Tiểu từ tân ngữ)\n--------------------\n여기 là chủ ngữ và là danh từ không có patchim nên đáp án 3 là đáp án đúng.",
+          "en": "1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "it": "1. 이 (marcatore del soggetto)\n2. 의 (marcatore possessivo)\n3. 는 (Marcatore argomento)\n4. 을 (particella oggetto)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>Questo è il mercato di Dongdaemun.\n\n<g>여기</g>è un sostantivo senza consonante finale, quindi la risposta corretta è 3.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "fr": "1. 이 (Marqueur de sujet)\n2. 의 (Marqueur possessif)\n3. 는 (Marqueur de sujet)\n4. 을 (particule d'objet)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>C'est le marché de Dongdaemun.\n\n<g>여기</g>est un nom sans consonne finale, donc la bonne réponse est 3.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "es": "1. 이 (Marcador de tema)\n2. 의 (marcador posesivo)\n3. 는 (Marcador de tema)\n4. 을 (Partícula objeto)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>Este es el mercado de Dongdaemun.\n\n<g>여기</g>es un sustantivo sin consonante final, por lo que la respuesta correcta es 3.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "id": "1. 이 (Penanda subjek)\n2. 의 (Penanda posesif)\n3. 는 (Penanda topik)\n4. 을 (Partikel benda)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>Ini adalah pasar Dongdaemun.\n\n<g>여기</g>adalah kata benda tanpa konsonan akhir, jadi jawaban yang benar adalah 3.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "ja": "1. 이 (被写体マーカー)\n2. 의 (所有マーカー)\n3. 는 (トピックマーカー)\n4. 을 (オブジェクト粒子)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>ここは東大門市場です。\n\n<g>여기</g>は終子音のない名詞なので、正解は 3 です。\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "de": "1. 이 (Betreffmarkierung)\n2. 의 (Possessivmarker)\n3. 는 (Themenmarkierung)\n4. 을 (Objektteilchen)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>Das ist der Dongdaemun-Markt.\n\n<g>여기</g>ist ein Substantiv ohne Endkonsonanten, daher ist die richtige Antwort 3.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "zh-CN": "1. æ（主题标记）\n2. 의（所有格标记）\n3.는（主题标记）\n4. 을（物体助词）\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>这是东大门市场。\n\n<g>여기</g>是一个没有尾辅音的名词，所以正确答案是3。\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "zh-TW": "1. æ（主題標記）\n2. 의（所有格標記）\n3.는（主題標記）\n4. 을（物體助詞）\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>這是東大門市場。\n\n<g>여기</g>是一個沒有尾輔音的名詞，所以正確答案是3。\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "ru": "1. 이 (указатель темы)\n2. 의 (притяжательный маркер)\n3. 는 (маркер темы)\n4. 을 (частица объекта)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>Это рынок Тондэмун.\n\n<g>여기</g>— существительное без конечной согласной, поэтому правильный ответ — 3.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "th": "1. 이 (หัวเรื่อง)\n2. 의 (เครื่องหมายแสดงความเป็นเจ้าของ)\n3. 는 (เครื่องหมายหัวข้อ)\n4. 을 (อนุภาคของวัตถุ)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>นี่คือตลาดทงแดมุน\n\n<g>여기</g>เป็นคำนามที่ไม่มีพยัญชนะท้าย ดังนั้นคำตอบที่ถูกต้องคือ 3\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "pt": "1. 이 (marcador de assunto)\n2. 의 (marcador possessivo)\n3. 는 (marcador de tópico)\n4. 을 (partícula de objeto)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>Este é o mercado de Dongdaemun.\n\n<g>여기</g>é um substantivo sem consoante final, então a resposta correta é 3.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "hi": "1. 이 (विषय मार्कर)\n2. 의 (अधिकार चिह्न)\n3. 는 (विषय मार्कर)\n4. 을 (वस्तु कण)\n------------------------\n<g>여기(는) 동대문 시장입니다:</g>यह डोंगडेमुन बाज़ार है।\n\n<g>여기</g>अंतिम व्यंजन के बिना एक संज्ञा है, इसलिए सही उत्तर 3 है।\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3.",
+          "tr": "1. 이 (Konu işaretleyici)\n2. 의 (İyelik işareti)\n3. 는 (Konu işaretleyici)\n4. 을 (Nesne parçacığı)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g>Burası Dongdaemun pazarı.\n\n<g>여기</g>son ünsüz harfi olmayan bir isim olduğundan doğru cevap 3'tür.\n\n#######\n\n1. 이 (Subject marker)\n2. 의 (Possessive marker)\n3. 는 (Topic marker)\n4. 을 (Object particle)\n--------------------\n<g>여기(는) 동대문 시장입니다:</g> This is Dongdaemun market.\n\n<g>여기</g> is a noun without a final consonant, so the correct answer is 3."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "<보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "오랜만에 집에 안 갑니다. 가족(     ) 아주 보고 싶습니다.",
+        "q_image": "",
+        "q_point": null,
+        "q_answer": [
+          "이",
+          "은",
+          "에게",
+          "를"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Lâu rồi tôi không về nhà. Vì vậy tôi rất nhớ bố mẹ  (     ).\n\n1. 이 (Tiểu từ chủ ngữ)\n2. 은 (Tiểu từ bổ trợ)\n3. 에게 - Tới, cho (Trợ từ chỉ đối tượng được tác động)\n4. 를 (Tiểu từ tân ngữ)\n--------------------\n오랜만: Lâu rồi\n\nN + 이/가 보고 싶다: Nhớ ai đó.",
+          "en": "1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "it": "1. 이 (marcatore del soggetto)\n2. 은 (Segnaletica dell'argomento)\n3. 에게 (particella dativa)\n4. 를 (Particella oggetto)\n--------------------\n<g>오랜만:</g>Per molto tempo\n\n<g>N + 이/가 보고 싶다:</g>Sentire la mancanza di qualcuno\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>Non tornerò a casa per molto tempo. Mi manca moltissimo la mia famiglia.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "fr": "1. 이 (Marqueur de sujet)\n2. 은 (Marqueur de sujet)\n3. 에게 (particule dative)\n4. 를 (particule d'objet)\n--------------------\n<g>오랜만:</g>Pendant longtemps\n\n<g>N + 이/가 보고 싶다:</g>Manquer à quelqu'un\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>Je ne rentrerai pas chez moi pendant longtemps. Ma famille me manque beaucoup.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "es": "1. 이 (Marcador de tema)\n2. 은 (Marcador de tema)\n3. 에게 (partícula dativa)\n4. 를 (Partícula objeto)\n--------------------\n<g>오랜만:</g>Por mucho tiempo\n\n<g>N + 이/가 보고 싶다:</g>Echar de menos a alguien\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>No volveré a casa en mucho tiempo. Extraño mucho a mi familia.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "id": "1. 이 (Penanda subjek)\n2. 은 (Penanda topik)\n3. 에게 (Partikel datif)\n4. 를 (Partikel benda)\n--------------------\n<g>오랜만:</g>Untuk waktu yang lama\n\n<g>N + 이/가 보고 싶다:</g>Untuk merindukan seseorang\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>Aku tidak akan pulang untuk waktu yang lama. Aku sangat merindukan keluargaku.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "ja": "1. 이 (被写体マーカー)\n2. 은 (トピックマーカー)\n3. 에게（与格助詞）\n4. 를 (オブジェクト粒子)\n--------------------\n<g>오랜만:</g>長い間\n\n<g>N + 이/가 보고 싶다:</g>誰かを恋しく思うために\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>長い間家に帰りません。家族がとても恋しいです。\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "de": "1. 이 (Betreffmarkierung)\n2. 은 (Themenmarkierung)\n3. 에게 (Dativpartikel)\n4. 를 (Objektteilchen)\n--------------------\n<g>오랜만:</g>Für eine lange Zeit\n\n<g>N + 이/가 보고 싶다:</g>Jemanden vermissen\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>Ich werde noch lange nicht nach Hause gehen. Ich vermisse meine Familie sehr.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "zh-CN": "1. æ（主题标记）\n2. 은（主题标记）\n3. 에게（与格助词）\n4.를（物体粒子）\n--------------------\n<g>오랜만:</g>许久\n\n<g>N + 이/가 보고 싶다:</g>想念一个人\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>我很长一段时间不会回家。我非常想念我的家人。\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "zh-TW": "1. æ（主題標記）\n2. 은（主題標記）\n3. 에게（與格助詞）\n4.를（物體粒子）\n--------------------\n<g>오랜만:</g>許久\n\n<g>N + 이/가 보고 싶다:</g>想念一個人\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>我很長一段時間不會回家。我非常想念我的家人。\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "ru": "1. 이 (указатель темы)\n2. 은 (маркер темы)\n3. 에게 (частица дательного падежа)\n4. 를 (частица объекта)\n--------------------\n<g>오랜만:</g>Надолго\n\n<g>N + 이/가 보고 싶다:</g>Потерять кого то\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>Я давно не пойду домой. Я очень скучаю по своей семье.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "th": "1. 이 (หัวเรื่อง)\n2. eb (เครื่องหมายหัวข้อ)\n3. 에게 (อนุภาคมูลฐาน)\n4. 를 (อนุภาคของวัตถุ)\n--------------------\n<g>오랜만:</g>เป็นเวลานาน\n\n<g>N + 이/가 보고 싶다:</g>คิดถึงบางคน\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>ฉันจะไม่กลับบ้านเป็นเวลานาน ฉันคิดถึงครอบครัวของฉันมาก\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "pt": "1. 이 (marcador de assunto)\n2. 은 (marcador de tópico)\n3. 에게 (partícula dativa)\n4. 를 (Partícula de objeto)\n--------------------\n<g>오랜만:</g>Por muito tempo\n\n<g>N + 이/가 보고 싶다:</g>Sentir falta de alguém\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>Faz muito tempo que não vou para casa. Sinto muita falta da minha família.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "hi": "1. 이 (विषय मार्कर)\n2. 은 (विषय मार्कर)\n3. 에게 (मूल कण)\n4. 를 (वस्तु कण)\n------------------------\n<g>오랜만:</g>कब का\n\n<g>N + 이/가 보고 싶다:</g>किसी को याद करने के लिए\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>मैं काफी समय तक घर नहीं जा रहा हूं. मुझे अपने परिवार की बहुत याद आती है.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much.",
+          "tr": "1. 이 (Konu işaretleyici)\n2. 은 (Konu işaretleyici)\n3. 에게 (Datif parçacık)\n4. 를 (Nesne parçacığı)\n--------------------\n<g>오랜만:</g>Uzun zamandır\n\n<g>N + 이/가 보고 싶다:</g>Birini özlemek\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g>Uzun bir süre eve gitmiyorum. Ailemi çok özlüyorum.\n\n#######\n\n1. 이 (Subject marker)\n2. 은 (Topic marker)\n3. 에게 (Dative particle)\n4. 를 (Object particle)\n--------------------\n<g>오랜만:</g> For a long time\n\n<g>N + 이/가 보고 싶다:</g> To miss someone\n\n<g>오랜만에 집에 안 갑니다. 가족(이) 아주 보고 싶습니다:</g> I'm not going home for a long time. I miss my family very much."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  }
+]

@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220002_b_3_20260515_174350_q0,220002_b_3,2,read,[11～12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오.,1,,,,travel,,2,"2023년에 여행객 수가 가장 적었다.
+해외여행객 수는 매년 줄어들고 있다.
+2022년 여행객은 200만 명을 넘었다.
+올해 여행객은 작년보다 많을 것이다.",4,"Biểu đồ cột: 'Thay đổi số lượng khách du lịch nước ngoài theo năm'. 2021: 500k, 2022: 1.2M, 2023: 2.5M, 2024 (dự kiến): 3M.
+1. Số khách ít nhất vào năm 2023. (Sai - 2021 ít nhất)
+2. Số lượng khách du lịch nước ngoài đang giảm dần hàng năm. (Sai - đang tăng)
+3. Lượng khách năm 2022 đã vượt quá 2 triệu người. (Sai - chỉ 1.2M)
+4. Lượng khách năm nay (2024) sẽ nhiều hơn năm ngoái. (Đúng - 3M > 2.5M)
+--------------------
+Đáp án 4 khớp với xu hướng tăng và số liệu dự kiến của năm 2024 so với 2023.","Bar chart: 'Change in Number of Overseas Travelers by Year'. 2021: 500k, 2022: 1.2M, 2023: 2.5M, 2024 (expected): 3M.
+1. The number of travelers was the lowest in 2023. (Wrong - 2021 was lowest)
+2. The number of overseas travelers is decreasing every year. (Wrong - it's increasing)
+3. Travelers in 2022 exceeded 2 million. (Wrong - only 1.2M)
+4. Travelers this year (2024) will be more than last year. (Correct - 3M > 2.5M)
+--------------------
+Answer 4 matches the increasing trend and the expected 2024 data compared to 2023.",,qf_graph_match,2,"trap_detail_distort
+trap_detail_distort
+trap_number_shift
+",,,,,,,,,,,,,,,,,,,,,20260515_174350

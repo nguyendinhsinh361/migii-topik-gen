@@ -1,0 +1,34 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120007_3_20260515_174350_q0,120007_3,1,read,[69~70] 다음을 읽고 물음에 답하십시오.,2,"한국 사람들은 이사한 후에 친구들을 집으로 초대합니다. 이것을 '집들이'라고 합니다. 집들이에 갈 때 사람들은 보통 세제나 휴지를 선물로 준비합니다. ㉠ 세제 거품처럼 좋은 일이 많이 생기고, 휴지처럼 모든 일이 술술 잘 풀리기를 바라는 마음이 담겨 있습니다. 요즘은 이런 선물 대신에 집 주인에게 필요한 물건을 물어보고 사 가기도 합니다.","Người Hàn Quốc sau khi chuyển nhà thường mời bạn bè đến nhà. Việc này gọi là 'Jipdeuri' (tiệc tân gia). Khi đi tân gia, mọi người thường chuẩn bị bột giặt hoặc khăn giấy làm quà tặng. ㉠ Chứa đựng mong muốn có nhiều việc tốt lành nảy nở như bọt xà phòng, và mọi việc đều hanh thông trơn tru như cách rút khăn giấy. Dạo này, thay vì những món quà như vậy, người ta cũng thường hỏi chủ nhà món đồ cần thiết rồi mua đến.","Korean people invite friends to their house after moving. This is called 'Jipdeuri' (housewarming party). When going to a housewarming party, people usually prepare detergent or tissue as gifts. ㉠ It contains the wish that many good things will arise like detergent bubbles, and everything will go smoothly like pulling out tissues. These days, instead of such gifts, people also ask the homeowner what they need and buy that.",culture_traditional,㉠에 들어갈 알맞은 말을 고르십시오.,2,"여기에는
+저기에는
+어디에는
+거기에는",1,"1. Ở đây/Trong việc này (Đáp án đúng - chỉ hành động tặng quà vừa nhắc tới)
+2. Ở kia
+3. Ở đâu
+4. Ở đó
+--------------------
+'여기에는' dùng để chỉ hành động hoặc tình huống vừa được đề cập ngay trước đó.","1. Here/In this (Correct Answer - refers to the gifting action mentioned)
+2. Over there
+3. Where
+4. There
+--------------------
+'여기에는' is used to refer back to the action or situation mentioned immediately before.",,qf_fill_blank,3,"
+trap_synonym_swap
+trap_shared_noun
+trap_synonym_swap",이 글의 내용과 같은 것을 고르십시오.,3,"이사하기 전에 친구들을 초대합니다.
+요즘은 필요한 선물을 사 가기도 합니다.
+세제 선물은 나쁜 일이 생기라는 뜻입니다.
+집들이 선물은 항상 휴지만 준비합니다.",2,"1. Mời bạn bè trước khi chuyển nhà. (Sai - mời sau khi chuyển)
+2. Dạo này người ta cũng mua những món quà cần thiết. (Đúng - khớp nội dung)
+3. Tặng bột giặt nghĩa là mong chuyện xấu xảy ra. (Sai - mong chuyện tốt)
+4. Quà tân gia luôn luôn chỉ chuẩn bị khăn giấy. (Sai - có cả bột giặt hoặc đồ cần thiết)
+--------------------
+Đáp án 2 khớp với câu '집 주인에게 필요한 물건을 물어보고 사 가기도 합니다'.","1. Friends are invited before moving. (Wrong - after moving)
+2. These days, people also buy necessary gifts. (Correct - matches content)
+3. Gifting detergent means wishing for bad things. (Wrong - wishing for good things)
+4. Housewarming gifts are always just tissues. (Wrong - detergent or necessary items too)
+--------------------
+Answer 2 matches the sentence 'ask the homeowner what they need and buy that'.",,qf_content_match,3,"trap_detail_distort
+
+trap_neg_없안
+trap_overgeneralize",,,,,,,,,,,20260515_174350

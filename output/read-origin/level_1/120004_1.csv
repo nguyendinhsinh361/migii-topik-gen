@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120004_1_20260515_174350_q0,120004_1,1,read,[43～45] 다음의 내용과 같은 것을 고르십시오.,1,,,,hobby_leisure,저는 사진 찍는 것을 좋아합니다. 어제는 공원에서 예쁜 꽃 사진을 많이 찍었습니다. 그 사진들을 동생에게 보여 주었습니다.,2,"저는 사진 찍는 것을 싫어합니다.
+저는 어제 꽃을 샀습니다.
+저는 공원에서 사진을 찍었습니다.
+동생이 사진을 찍어 주었습니다.",3,"Tôi thích chụp ảnh. Hôm qua tôi đã chụp nhiều ảnh hoa đẹp ở công viên. Tôi đã cho em xem những bức ảnh đó.
+1. Tôi ghét chụp ảnh. (Sai - ngược với bài)
+2. Hôm qua tôi đã mua hoa. (Sai - chỉ chụp ảnh hoa)
+3. Tôi đã chụp ảnh ở công viên. (Đúng - khớp nội dung)
+4. Em đã chụp ảnh cho tôi. (Sai - tôi chụp và cho em xem)
+--------------------
+Đáp án 3 khớp với thông tin '공원에서... 사진을 많이 찍었습니다'.","I like taking pictures. Yesterday, I took many pictures of pretty flowers at the park. I showed those pictures to my younger sibling.
+1. I hate taking pictures. (Wrong - opposite of passage)
+2. I bought flowers yesterday. (Wrong - only took pictures)
+3. I took pictures at the park. (Correct - matches content)
+4. My younger sibling took pictures for me. (Wrong - I took them and showed them)
+--------------------
+Answer 3 matches the information 'took many pictures at the park'.",,qf_content_match,5,"trap_neg_없안
+trap_detail_distort
+
+trap_subject_swap",,,,,,,,,,,,,,,,,,,,,20260515_174350

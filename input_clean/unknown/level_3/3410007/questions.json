@@ -1,0 +1,1202 @@
+[
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 어서 오세요. 뭘 찾으세요?\n여자: 바지가 좀 커서 바꾸려고요.",
+      "g_text_audio_translate": {
+        "en": "Man: Welcome. What are you looking for?\nWoman: My pants are a bit too big, so I’d like to exchange them.",
+        "vi": "Nam: Chào mừng quý khách. Quý khách tìm gì ạ?\nNữ: Quần hơi rộng nên tôi muốn đổi."
+      },
+      "g_audio": "/topiks/audios/60ad60c1bce81fc8bdf38d7401a3f249_127_142.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자는 여기에 왜 왔습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "바지를 교환하려고",
+          "바지를 환불하려고",
+          "신발을 교환하려고",
+          "신발을 환불하려고"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Why did the woman come here?\n\n1. To exchange pants\n2. To get a refund for pants\n3. To exchange shoes\n4. To get a refund for shoes\n--------------------\n<g>여자: 바지가 좀 커서 바꾸려고요.</g> (Woman: My pants are a bit too big, so I’d like to exchange them.)",
+          "vi": "Vì sao người phụ nữ đến đây?\n\n1. Để đổi quần\n2. Để trả lại quần\n3. Để đổi giày\n4. Để trả lại giày\n--------------------\n여자: 바지가 좀 커서 바꾸려고요. (Nữ: Quần hơi rộng nên tôi muốn đổi.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 우리 열차는 6시 57분에 서울역을 출발해 대전역까지 가는 KTX 233호 열차입니다. 가지고 계신 승차권을 확인해 주시기 바랍니다.",
+      "g_text_audio_translate": {
+        "en": "Man: Our train is KTX No. 233, departing from Seoul Station at 6:57 and heading to Daejeon Station. Please check your ticket.",
+        "vi": "Nam: Tàu của chúng ta là tàu KTX số 233, khởi hành từ Ga Seoul lúc 6:57 và đi đến Ga Daejeon. Hành khách vui lòng kiểm tra vé mình đang giữ."
+      },
+      "g_audio": "/topiks/audios/d97ec9fa2a31da7ce6b872d377dd501a_2_29.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "이 기차는 어디에서 출발합니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "광주역",
+          "대구역",
+          "대전역",
+          "서울역"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Where does this train depart from?\n\n1. Gwangju Station\n2. Daegu Station\n3. Daejeon Station\n4. Seoul Station\n--------------------\n<g>서울역을 출발해 대전역까지 가는 KTX 233호 열차입니다.</g> (KTX No. 233, departing from Seoul Station at 6:57 and heading to Daejeon Station.)",
+          "vi": "Chuyến tàu này khởi hành từ đâu?\n\n1. Ga Gwangju\n2. Ga Daegu\n3. Ga Daejeon\n4. Ga Seoul\n--------------------\n서울역을 출발해 대전역까지 가는 KTX 233호 열차입니다. (Là tàu KTX số 233, khởi hành từ Ga Seoul và đi đến Ga Daejeon.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 비행기는 하노이에서 인천까지 가는 한국항공 754편입니다. 목적지인 인천공항까지 약 4시간 20분 걸릴 것으로 예상됩니다.",
+      "g_text_audio_translate": {
+        "en": "Woman: This is Korean Air flight 754 from Hanoi to Incheon. It is expected to take about 4 hours and 20 minutes to reach our destination, Incheon Airport.",
+        "vi": "Nữ: Đây là chuyến bay số 754 của Hãng hàng không Hàn Quốc từ Hà Nội đến Incheon. Dự kiến sẽ mất khoảng 4 giờ 20 phút để đến điểm đến là sân bay Incheon."
+      },
+      "g_audio": "/topiks/audios/d97ec9fa2a31da7ce6b872d377dd501a_40_66.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "목적지까지 비행 시간은 얼마나 됩니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "3시간 10분",
+          "3시간 20분",
+          "4시간 10분",
+          "4시간 20분"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "How long is the flight to the destination?\n\n1. 3 hours 10 minutes\n2. 3 hours 20 minutes\n3. 4 hours 10 minutes\n4. 4 hours 20 minutes\n--------------------\n<g>목적지인 인천공항까지 약 4시간 20분 걸릴 것으로 예상됩니다.</g> (It is expected to take about 4 hours and 20 minutes to reach our destination, Incheon Airport.)",
+          "vi": "Thời gian bay đến điểm đến là bao lâu?\n\n1. 3 giờ 10 phút\n2. 3 giờ 20 phút\n3. 4 giờ 10 phút\n4. 4 giờ 20 phút\n--------------------\n목적지인 인천공항까지 약 4시간 20분 걸릴 것으로 예상됩니다. (Dự kiến sẽ mất khoảng 4 giờ 20 phút để đến điểm đến là sân bay Incheon.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 오늘부터 아파트 지하 주차장 공사를 시작합니다. 주민 여러분께서는 차를 지상 주차장으로 옮겨 주시기 바랍니다.",
+      "g_text_audio_translate": {
+        "en": "Man: Starting today, we will begin construction on the underground parking lot of the apartment complex. Residents are requested to move their cars to the ground-level parking lot.",
+        "vi": "Nam: Từ hôm nay, chúng tôi sẽ bắt đầu thi công bãi đỗ xe dưới tầng hầm của khu chung cư. Quý cư dân vui lòng di chuyển xe lên bãi đỗ trên mặt đất."
+      },
+      "g_audio": "/topiks/audios/01e912ee9655b0473a8327bd2c728ca9_2_25.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "공사하는 곳은 어디입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "옥상 주차장",
+          "지하 주차장",
+          "지상 주차장",
+          "전기차 주차장"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Where is the construction site?\n\n1. Rooftop parking lot\n2. Underground parking lot\n3. Ground-level parking lot\n4. Electric vehicle parking lot\n--------------------\n<g>오늘부터 아파트 지하 주차장 공사를 시작합니다.</g> (Starting today, we will begin construction on the underground parking lot of the apartment complex.)",
+          "vi": "Địa điểm đang thi công là ở đâu?\n\n1. Bãi đỗ xe trên tầng thượng\n2. Bãi đỗ xe dưới tầng hầm\n3. Bãi đỗ xe trên mặt đất\n4. Bãi đỗ xe dành cho ô tô điện\n--------------------\n오늘부터 아파트 지하 주차장 공사를 시작합니다. (Từ hôm nay, chúng tôi sẽ bắt đầu thi công bãi đỗ xe dưới tầng hầm của khu chung cư.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 저기요. 여기 와이파이 비밀번호가 뭐예요?\n여자: 잠시만요. 가르쳐 드릴게요.",
+      "g_text_audio_translate": {
+        "en": "Man: Excuse me, what is the Wi-Fi password here?\nWoman: Just a moment, I’ll let you know.",
+        "vi": "Nam: Này cô ơi. Mật khẩu Wi-Fi ở đây là gì vậy?\nNữ: Chờ một chút. Tôi sẽ nói cho anh."
+      },
+      "g_audio": "/topiks/audios/f2912b8b22e0760e3bceee2508755a8d_31_50.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자는 왜 여자를 불렀습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "비밀번호를 물어보려고",
+          "와이파이를 신청하려고",
+          "비밀번호를 알려 주려고",
+          "와이파이를 취소하려고"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Why did the man call the woman?\n\n1. To ask for the password\n2. To apply for Wi-Fi\n3. To provide the password\n4. To cancel Wi-Fi\n--------------------\n<g>남자: 여기 와이파이 비밀번호가 뭐예요?</g> (Man: What is the Wi-Fi password here?)",
+          "vi": "Vì sao người đàn ông gọi người phụ nữ?\n\n1. Để hỏi mật khẩu\n2. Để đăng ký Wi-Fi\n3. Để cung cấp mật khẩu\n4. Để hủy Wi-Fi\n--------------------\n남자: 여기 와이파이 비밀번호가 뭐예요? (Nam: Mật khẩu Wi-Fi ở đây là gì vậy?)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 네, 우리 병원입니다.\n여자: 저, 토요일로 예약을 하고 싶은데 주말에도 진료하나요?",
+      "g_text_audio_translate": {
+        "en": "Man: Yes, this is Woori hospital.\nWoman: I’d like to make an appointment for Saturday. Do you provide treatment on weekends?",
+        "vi": "Nam: Vâng, đây là bệnh viện Woori.\nNữ: Tôi muốn đặt lịch vào thứ Bảy, bệnh viện có khám vào cuối tuần không?"
+      },
+      "g_audio": "/topiks/audios/d37a9de4137ee490055f203ed7a40184_34_52.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자는 왜 전화를 했습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "진료 예약을 하려고",
+          "예약 시간을 바꾸려고",
+          "병원 위치를 물어보려고",
+          "의사 선생님과 통화하려고"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Why did the woman make the phone call?\n\n1. To make a medical appointment\n2. To change the appointment time\n3. To ask for the hospital's location\n4. To talk to the doctor\n--------------------\n<g>여자: 저, 토요일로 예약을 하고 싶은데 주말에도 진료하나요?</g> (Woman: I’d like to make an appointment for Saturday. Do you provide treatment on weekends?)",
+          "vi": "Vì sao người phụ nữ gọi điện thoại?\n\n1. Để đặt lịch khám bệnh\n2. Để thay đổi giờ hẹn\n3. Để hỏi vị trí bệnh viện\n4. Để nói chuyện với bác sĩ\n--------------------\n여자: 저, 토요일로 예약을 하고 싶은데 주말에도 진료하나요? (Nữ: Tôi muốn đặt lịch vào thứ Bảy, bệnh viện có khám vào cuối tuần không?)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어서 오세요. 뭘 드릴까요? \n남자: 소화가 안 되어서요. 소화제 좀 주세요.",
+      "g_text_audio_translate": {
+        "en": "Woman: Welcome. What can I get you?\nMan: I have indigestion. Please give me some digestive medicine.",
+        "vi": "Nữ: Xin mời vào. Anh cần gì ạ?\nNam: Tôi bị khó tiêu, hãy cho tôi thuốc tiêu hóa."
+      },
+      "g_audio": "/topiks/audios/4310512c4b2a9a6eb55650d65664aa9f_33_49.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자는 왜 여기에 왔습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "약을 사려고",
+          "운동을 하려고",
+          "진료를 받으려고",
+          "음식을 먹으려고"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Why did the man come here?\n\n1. To buy medicine\n2. To exercise\n3. To receive a medical checkup\n4. To eat food\n--------------------\n<g>남자: 소화제 좀 주세요.</g> (Man: Please give me some digestive medicine.",
+          "vi": "Vì sao người đàn ông đến đây?\n\n1. Để mua thuốc\n2. Để tập thể dục\n3. Để khám bệnh\n4. Để ăn uống\n--------------------\n남자: 소화제 좀 주세요. (Nam: Hãy cho tôi thuốc tiêu hóa.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 이걸 울산에 보내고 싶은데요.\n여자: 봉투에 이름과 주소를 쓰셨지요?",
+      "g_text_audio_translate": {
+        "en": "Man: I’d like to send this to Ulsan.\nWoman: Have you written your name and address on the envelope?",
+        "vi": "Nam: Tôi muốn gửi cái này đến Ulsan.\nNữ: Anh đã viết tên và địa chỉ lên phong bì chưa?"
+      },
+      "g_audio": "/topiks/audios/97ed5671a599e096cf843e2f08a210dc_2_18.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자는 왜 여기에 왔습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "편지를 쓰려고",
+          "상자를 포장하려고",
+          "편지를 보내려고",
+          "상자 무게를 재려고"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Why did the man come here?\n\n1. To write a letter\n2. To pack a box\n3. To send a letter\n4. To weigh a box\n--------------------\n<g>남자: 이걸 울산에 보내고 싶은데요.</g> (Man: I’d like to send this to Ulsan.)",
+          "vi": "Vì sao người đàn ông đến đây?\n\n1. Để viết thư\n2. Để đóng gói hộp\n3. Để gửi thư\n4. Để cân hộp\n--------------------\n남자: 이걸 울산에 보내고 싶은데요. (Nam: Tôi muốn gửi cái này đến Ulsan.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 마두 씨, 서류를 보냈지요?\n남자: 네, 등기 우편으로 보냈습니다.",
+      "g_text_audio_translate": {
+        "en": "Woman: Madu, you sent the documents, right?\nMan: Yes, I sent them by registered mail.",
+        "vi": "Nữ: Madu, anh đã gửi tài liệu rồi đúng không?\nNam: Vâng, tôi đã gửi bằng thư bảo đảm."
+      },
+      "g_audio": "/topiks/audios/97ed5671a599e096cf843e2f08a210dc_28_44.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자는 왜 남자를 불렀습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "서류 작성을 잘못해서",
+          "서류 작성을 확인하려고",
+          "우편물 발송을 잘못해서",
+          "우편물 발송을 확인하려고"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Why did the woman call the man?\n\n1. Because she made a mistake in writing the document\r\n2. To check the writing of the document\r\n3. Because she made a mistake in sending the mail\r\n4. To check the sending of the mail\n--------------------\n<g>여자: 마두 씨, 서류를 보냈지요?</g> (Woman: Madu, you sent the documents, right?)",
+          "vi": "Vì sao người phụ nữ gọi người đàn ông?\n\n1. Vì viết sai hồ sơ\n2. Để xác nhận việc viết hồ sơ\n3. Vì gửi sai bưu phẩm\n4. Để xác nhận việc gửi bưu phẩm\n--------------------\n여자: 마두 씨, 서류를 보냈지요? (Nữ: Madu, anh đã gửi tài liệu rồi đúng không?)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 현금 인출기에서 출금을 하고 싶은데 어떻게 하면 돼요?\n여자: 통장을 넣고 이 버튼을 누르시면 됩니다.",
+      "g_text_audio_translate": {
+        "en": "Man: I want to withdraw cash from the ATM. How do I do it?\nWoman: Insert your bankbook and press this button.",
+        "vi": "Nam: Tôi muốn rút tiền từ máy ATM, làm thế nào vậy?\nNữ: Anh cho sổ ngân hàng vào rồi nhấn nút này là được."
+      },
+      "g_audio": "/topiks/audios/ededf6524842e8aae7e9a2c70ab432bc_32_52.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자는 왜 여기에 왔습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "돈을 보내려고",
+          "돈을 찾으려고",
+          "통장을 만들려고",
+          "통장을 정리하려고"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Why did the man come here?\n\n1. To send money\n2. To withdraw money\n3. To open a bank account\n4. To update a bank account\n--------------------\n<g>남자: 현금 인출기에서 출금을 하고 싶은데 어떻게 하면 돼요?</g> (Man: I want to withdraw cash from the ATM. How do I do it?)\n\n<g>출금을 하다 = 돈을 찾다</g>: To withdraw money.",
+          "vi": "Vì sao người đàn ông đến đây?\n\n1. Để gửi tiền\n2. Để rút tiền\n3. Để mở tài khoản ngân hàng\n4. Để cập nhật sổ tài khoản\n--------------------\n남자: 현금 인출기에서 출금을 하고 싶은데 어떻게 하면 돼요? (Nam: Tôi muốn rút tiền từ máy ATM, làm thế nào vậy?)\n\n출금을 하다 = 돈을 찾다: Rút tiền."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 네, 외국인근로자지원센터입니다. \n여자: 오늘 토픽 수업은 몇 시에 시작해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Yes, this is the Foreign Workers Support Center.\nWoman: What time does the TOPIK class start today?",
+        "vi": "Nam: Vâng, đây là Trung tâm Hỗ trợ Lao động Nước ngoài.\nNữ: Hôm nay lớp học TOPIK bắt đầu lúc mấy giờ vậy ạ?"
+      },
+      "g_audio": "/topiks/audios/a7135eebe4aae6fbcf4e1cb508c2c8f4_30_46.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자는 왜 전화를 했습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "수업 내용을 알고 싶어서",
+          "수업 장소를 알고 싶어서",
+          "수업 시간을 알고 싶어서",
+          "수업 기간을 알고 싶어서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Why did the woman make the phone call?\n\n1. Because I want to know the lesson content\n2. Because I want to know the class location\n3. Because I want to know the class time\n4. Because I want to know the course duration\n--------------------\n<g>여자: 오늘 토픽 수업은 몇 시에 시작해요?</g> (Woman: What time does the TOPIK class start today?)\n\n<g>수업 시간</g>: Time of each class.\n<g>수업 기간</g>: Duration of the entire course.",
+          "vi": "Vì sao người phụ nữ gọi điện thoại?\n\n1. Vì muốn biết nội dung bài học\n2. Vì muốn biết địa điểm lớp học\n3. Vì muốn biết thời gian lớp học\n4. Vì muốn biết thời gian khóa học\n--------------------\n여자: 오늘 토픽 수업은 몇 시에 시작해요? (Nữ: Hôm nay lớp học TOPIK bắt đầu lúc mấy giờ vậy ạ?)\n\n수업 시간: Thời gian diễn ra mỗi buổi học.\n수업 기간: Thời gian diễn ra của cả khóa học."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 안녕하세요? 어떻게 오셨어요?\n남자: 법률 교육을 들으러 왔습니다.",
+      "g_text_audio_translate": {
+        "en": "Woman: Hello. How can I help you?\nMan: I'm here to attend the legal education class.",
+        "vi": "Nữ: Xin chào. Anh đến đây có việc gì vậy?\nNam: Tôi đến để tham gia lớp học pháp luật."
+      },
+      "g_audio": "/topiks/audios/a7135eebe4aae6fbcf4e1cb508c2c8f4_57_71.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자는 왜 여기에 왔습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "교육을 하려고",
+          "교육 날짜를 바꾸려고",
+          "교육을 받으려고",
+          "교육 신청을 취소하려고"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Why did the man come here?\n\n1. To conduct training\n2. To change the training date\n3. To receive training\n4. To cancel the training application\n--------------------\n<g>남자: 법률 교육을 들으러 왔습니다.</g> (Man: I'm here to attend the legal education class.)",
+          "vi": "Vì sao người đàn ông đến đây?\n\n1. Để đào tạo\n2. Để thay đổi ngày đào tạo\n3. Để tham gia đào tạo\n4. Để hủy đăng ký đào tạo\n--------------------\n남자: 법률 교육을 들으러 왔습니다. (Nam: Tôi đến để tham gia lớp học pháp luật.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 사장님, 안녕하세요? 새해 복 많이 받으세요.\n여자: 고마워요. 다린두 씨는 설날에 뭐 했어요?\n남자: 기숙사에서 친구들하고 윷놀이도 하고 떡국도 만들어 먹었어요.",
+      "g_text_audio_translate": {
+        "en": "Man: Boss, hello. Happy New Year.\nWoman: Thank you. Tharindu, what did you do for the Lunar New Year?\nMan: I played Yutnori with my friends and made and ate rice cake soup at the dorm.",
+        "vi": "Nam: Chào giám đốc. Chúc mừng năm mới.\nNữ: Cảm ơn anh. Tharindu, anh đã làm gì vào dịp Tết?\nNam: Tôi chơi trò Yut với bạn bè và làm canh bánh gạo để ăn ở ký túc xá."
+      },
+      "g_audio": "/topiks/audios/56a245d5896a1f2665ba4ff8dda62f3b_149_178.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자는 왜 여자를 찾아갔습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "친구를 소개하려고",
+          "윷놀이를 같이 하려고",
+          "새해 인사를 드리려고",
+          "떡국 만드는 법을 물어보려고"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Why did the man go to see the woman?\n\n1. To introduce a friend\n2. To play Yutnori together\n3. To give New Year's greetings\n4. To ask how to make Tteokguk (rice cake soup)\n--------------------\n<g>남자: 사장님, 안녕하세요? 새해 복 많이 받으세요.</g> (Man: Boss, hello. Happy New Year.)",
+          "vi": "Vì sao người đàn ông tìm gặp người phụ nữ?\n\n1. Để giới thiệu bạn\n2. Để chơi trò Yut cùng nhau\n3. Để chúc mừng năm mới\n4. Để hỏi cách làm canh bánh gạo\n--------------------\n남자: 사장님, 안녕하세요? 새해 복 많이 받으세요. (Nam: Chào giám đốc. Chúc mừng năm mới.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남자: 작업장이 너무 더워서 조금 풀었어요.\n여자: 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남자: 알겠어요. 지금 잠글게요.",
+      "g_text_audio_translate": {
+        "en": "Woman: Agung, why didn’t you button up your work uniform?\nMan: It’s too hot in the workplace, so I loosened it a bit.\nWoman: Even if it’s hot, you shouldn’t work with your uniform unbuttoned. It’s dangerous.\nMan: I understand. I’ll button it up now.",
+        "vi": "Nữ: Agung, sao anh không cài cúc áo bảo hộ lao động?\nNam: Xưởng làm việc quá nóng nên tôi mở ra một chút.\nNữ: Dù nóng cũng không được mở cúc áo khi làm việc, rất nguy hiểm.\nNam: Tôi hiểu rồi. Tôi sẽ cài lại ngay."
+      },
+      "g_audio": "/topiks/audios/bea3aa83713d12042678f8e0c1d635de_160_193.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "단추를 잠급니다.",
+          "작업복을 벗습니다.",
+          "작업장 창문을 엽니다.",
+          "작업복을 가지러 갑니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "What will the man do next?\n\n1. Fasten the button\n2. Take off the work uniform\n3. Open the workplace window\n4. Go get the work uniform\n--------------------\n<g>남자: 알겠어요. 지금 잠글게요.</g> (Man: I understand. I’ll button it up now.)",
+          "vi": "Hành động tiếp theo của người đàn ông là gì?\n\n1. Cài cúc áo\n2. Cởi đồ bảo hộ lao động\n3. Mở cửa sổ nơi làm việc\n4. Đi lấy đồ bảo hộ lao động\n--------------------\n남자: 알겠어요. 지금 잠글게요. (Nam: Tôi hiểu rồi. Tôi sẽ cài lại ngay.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어제 회의 중에 김 대리님이 제 옷차림에 대해 농담을 했어요. \n남자: 그랬어요? 불쾌하다고 말했어요? \n여자: 네, 김 대리님은 농담이라고 말했지만 기분이 안 좋았어요.\n남자: 다음에 그런 농담을 또 하면 회사에 바로 이야기하세요.",
+      "g_text_audio_translate": {
+        "en": "Woman: During yesterday’s meeting, assistant manager Kim made a joke about my outfit.\nMan: Really? Did you tell him you felt uncomfortable?\nWoman: Yes, assistant manager Kim said it was just a joke, but I didn’t feel good about it.\nMan: If he makes that kind of joke again, report it to the company immediately.",
+        "vi": "Nữ: Hôm qua trong cuộc họp, trợ lý giám đốc Kim đã đùa cợt về cách ăn mặc của tôi.\nNam: Vậy sao? Cô có nói là mình cảm thấy khó chịu không?\nNữ: Có, trợ lý giám đốc Kim nói chỉ là đùa thôi, nhưng tôi không thấy vui.\nNam: Nếu lần sau anh ấy còn đùa như vậy, cô hãy báo ngay cho công ty."
+      },
+      "g_audio": "/topiks/audios/68971e7f5cd195b3b3609a36c744826f_195_232.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자가 불쾌감을 느낀 이유는 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "옷차림이 불편해서",
+          "어제 회의를 많이 해서",
+          "옷차림에 대한 농담을 들어서",
+          "김 대리님이 기분이 안 좋아서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Why did the woman feel uncomfortable?\n\n1. Because the outfit is uncomfortable\n2. Because there were too many meetings yesterday\n3. Because of a joke about the outfit\n4. Because assistant manager Kim is in a bad mood\n--------------------\n<g>여자: 김 대리님은 농담이라고 말했지만 기분이 안 좋았어요.</g> (Assistant manager Kim said it was just a joke, but I didn’t feel good about it.)",
+          "vi": "Lý do khiến người phụ nữ cảm thấy khó chịu là gì?\n\n1. Vì trang phục không thoải mái\n2. Vì hôm qua có quá nhiều cuộc họp\n3. Vì nghe lời trêu đùa về trang phục\n4. Vì trợ lý giám đốc Kim đang không vui\n--------------------\n여자: 김 대리님은 농담이라고 말했지만 기분이 안 좋았어요. (Nữ: Trợ lý giám đốc Kim nói chỉ là đùa thôi, nhưng tôi không thấy vui.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 아까 부탁한 방청지 갖다 놓았지요?\n여자: 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남자: 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여자: 네, 바로 가서 준비하겠습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: Did you bring the rust-proof paper I asked for earlier?\nWoman: Sorry, I haven’t prepared it yet because I was sorting the products.\nMan: We need to start the packaging process soon, so bring it quickly.\nWoman: Yes, I’ll get it ready right away.",
+        "vi": "Nam: Cô đã mang giấy đóng gói chống gỉ mà tôi nhờ lúc nãy đến chưa?\nNữ: Xin lỗi, tôi vẫn chưa chuẩn bị được vì đang phân loại sản phẩm.\nNam: Chúng ta sắp phải bắt đầu đóng gói rồi, mau mang tới đi.\nNữ: Vâng, tôi sẽ đi chuẩn bị ngay."
+      },
+      "g_audio": "/topiks/audios/19eb3c0e1363417a54094758ec0b7739_155_185.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "제품을 분류합니다.",
+          "물건을 운반합니다.",
+          "방청지를 가지러 갑니다.",
+          "동료에게 포장 작업을 부탁합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "What will the woman do next?\n\n1. Classify the products\n2. Transport the goods\n3. Go get rust-proof paper\n4. Ask a colleague to do the packaging work\n--------------------\n<g>여자: 네, 바로 가서 준비하겠습니다.</g> (Woman: Yes, I’ll get it ready right away.)",
+          "vi": "Hành động tiếp theo của người phụ nữ là gì?\n\n1. Phân loại sản phẩm\n2. Vận chuyển hàng hóa\n3. Đi lấy giấy đóng gói chống gỉ\n4. Nhờ đồng nghiệp đóng gói hàng\n--------------------\n여자: 네, 바로 가서 준비하겠습니다. (Nữ: Vâng, tôi sẽ đi chuẩn bị ngay.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 지금 무슨 작업을 하고 있어요? \n여자: 이 부품을 조여야 되는데 잘 안 되네요.\n남자: 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여자: 알겠어요. 작은 스패너로 해 볼게요.",
+      "g_text_audio_translate": {
+        "en": "Man: What are you working on right now?\nWoman: I need to tighten this part, but it’s not working well.\nMan: I think the spanner size doesn’t match. Try using a very small spanner.\nWoman: Got it. I’ll try with a smaller spanner.",
+        "vi": "Nam: Bây giờ cô đang làm gì vậy?\nNữ: Tôi cần siết chặt linh kiện này, nhưng làm không được.\nNam: Hình như cỡ của cờ lê không đúng. Cô thử dùng cờ lê có kích thước rất nhỏ xem sao.\nNữ: Tôi biết rồi. Tôi sẽ thử với cái cờ lê nhỏ."
+      },
+      "g_audio": "/topiks/audios/c58cf4e93c15ca8b5113f7f2667bd496_149_185.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자가 다른 공구로 작업해야 하는 이유는 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "스패너가 부러져서",
+          "스패너가 무거워서",
+          "스패너가 너무 커서",
+          "스패너를 잃어버려서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Why does the woman need to use a different tool?\n\n1. Because the spanner is broken\n2. Because the spanner is too heavy\n3. Because the spanner is too big\n4. Because the spanner is lost\n--------------------\n<g>남자: 아주 작은 치수의 스패너로 해 보세요.</g> (Man: Try using a very small spanner.)\n\n=> The spanner the woman used was too big.",
+          "vi": "Vì sao người phụ nữ phải làm việc bằng dụng cụ khác?\n\n1. Vì cờ lê bị gãy\n2. Vì cờ lê quá nặng\n3. Vì cờ lê quá to\n4. Vì bị mất cờ lê\n--------------------\n남자: 아주 작은 치수의 스패너로 해 보세요. (Nam: Cô thử dùng cờ lê có kích thước rất nhỏ xem sao.)\n\n=> Cờ lê người phụ nữ dùng bị to."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 혼합기에 첨가제를 넣었어요?\n남자: 아직 안 넣었어요. 지금 비율을 계산하는 중이에요.\n여자: 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요.\n남자: 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.",
+      "g_text_audio_translate": {
+        "en": "Woman: Have you added the additives to the mixer?\nMan: Not yet, I’m still calculating the ratio.\nWoman: The ratio is important, but the mixer must be clean for the color to come out accurately.\nMan: Then I’ll measure the additive weight first and clean the mixer afterward.",
+        "vi": "Nữ: Anh đã cho phụ gia vào máy trộn chưa?\nNam: Tôi chưa cho vào. Tôi đang tính toán tỷ lệ.\nNữ: Tỷ lệ quan trọng, nhưng máy trộn cũng phải sạch thì màu sắc mới chính xác.\nNam: Vậy tôi sẽ cân phụ gia trước rồi vệ sinh máy trộn."
+      },
+      "g_audio": "/topiks/audios/b50916585af3cc12391fd5977e59e572_163_197.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "첨가제를 가지러 갑니다.",
+          "혼합기에 첨가제를 넣습니다.",
+          "첨가제의 무게를 측정합니다.",
+          "혼합기를 깨끗하게 청소합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "What will the man do next?\n\n1. Go get the additive\n2. Add the additive to the mixer\n3. Measure the weight of the additive\n4. Clean the mixer thoroughly\n--------------------\n<g>남자: 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.</g> (Man: Then I’ll measure the additive weight first and clean the mixer afterward.)",
+          "vi": "Hành động tiếp theo của người đàn ông là gì?\n\n1. Đi lấy chất phụ gia\n2. Thêm chất phụ gia vào máy trộn\n3. Đo trọng lượng chất phụ gia\n4. Vệ sinh sạch sẽ máy trộn\n--------------------\n남자: 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요. (Nam: Vậy tôi sẽ cân phụ gia trước rồi vệ sinh máy trộn.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 작업한 후에 뚜껑을 안 닫아 둬서 페인트가 좀 굳었어요. \n남자: 한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요.\n여자: 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠? \n남자: 네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요.",
+      "g_text_audio_translate": {
+        "en": "Woman: The paint has hardened a bit because the lid wasn’t closed after use.\nMan: Let me see. Ah, it’s too hard now, so we’ll need to get new paint.\nWoman: I’ll go to the warehouse and get it. A can of red and a can of white, right?\nMan: Yes, that should be fine. I’ll prepare the work tools.",
+        "vi": "Nữ: Sau khi làm việc xong không đậy nắp lại nên sơn đã bị đông lại một chút.\nNam: Để tôi xem nào. A, cứng quá rồi, chắc phải lấy sơn mới.\nNữ: Tôi sẽ ra kho lấy. Tôi lấy một thùng sơn đỏ và một thùng sơn trắng, đúng không?\nNam: Đúng rồi, vậy là được. Tôi thì sẽ chuẩn bị dụng cụ làm việc."
+      },
+      "g_audio": "/topiks/audios/364eebffbc88116ec1df81388aafe2d4_170_210.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자는 왜 창고에 갑니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "페인트를 갖다 놓으려고",
+          "페인트를 가져오려고",
+          "작업 도구를 갖다 놓으려고",
+          "작업 도구를 가져오려고"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Why is the woman going to the warehouse?\n\n1. To bring the paint there\n2. To get the paint\n3. To bring the work tools there\n4. To get the work tools\n--------------------\n<g>여자: 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?</g> (Woman: I’ll go to the warehouse and get it. A can of red and a can of white, right?)",
+          "vi": "Người phụ nữ đến kho vì sao?\n\n1. Để mang sơn đến đó\n2. Để lấy sơn\n3. Để mang dụng cụ làm việc đến đó\n4. Để lấy dụng cụ làm việc\n--------------------\n여자: 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠? (Nữ: Tôi sẽ ra kho lấy. Tôi lấy một thùng sơn đỏ và một thùng sơn trắng, đúng không?)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여자: 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n남자: 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n여자: 네, 바로 갔다 오겠습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: There’s a lot of sediment piled up in the stream. Let’s start working right away.\nWoman: There are a lot of bushes. How about clearing them first before removing the soil?\nMan: Good idea. Please inform the excavator operator to start the work.\nWoman: Yes, I’ll go right away.",
+        "vi": "Nam: Bùn đất tích tụ nhiều ở con suối rồi. Chúng ta bắt đầu công việc ngay thôi.\nNữ: Cỏ dại mọc nhiều quá, hay là dọn cỏ trước rồi mới xúc đất?\nNam: Ý hay đấy. Cô hãy báo cho tài xế máy xúc bắt đầu làm việc đi.\nNữ: Vâng, tôi sẽ đi ngay."
+      },
+      "g_audio": "/topiks/audios/3b702dfb485c27709770cb0d7ddad077_156_191.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "토사를 쌓아 놓습니다.",
+          "굴착기로 흙을 퍼냅니다.",
+          "수풀을 제거하러 갑니다.",
+          "기사에게 말을 전하러 갑니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "What will the woman do next?\n\n1. Stack the soil\n2. Scoop soil with an excavator\n3. Go remove the bushes\n4. Go deliver a message to the driver\n--------------------\n<g>남자: 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.</g> (Please inform the excavator operator to start the work.)",
+          "vi": "Hành động tiếp theo của người phụ nữ là gì?\n\n1. Chất đống đất\n2. Múc đất bằng máy xúc\n3. Đi dọn sạch bụi rậm\n4. Đi chuyển lời đến tài xế\n--------------------\n남자: 굴착기 기사님한테 작업을 시작하시라고 전해 주세요. (Nam: Cô hãy báo cho tài xế máy xúc bắt đầu làm việc đi.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 사료 정리하느라 고생했어요. 내일은 축사 청소한 후에 소독도 할 거니까 준비해 주세요.\n여자: 소독이요? 지난주에 했는데 또 소독을 해야 돼요? \n남자: 일주일에 한 번씩 해야 소들이 병에 걸리지 않거든요.\n여자: 네, 알겠어요. 이따가 창고에 가서 소독약을 준비해 놓을게요.",
+      "g_text_audio_translate": {
+        "en": "Man: You worked hard organizing the feed. Tomorrow, after cleaning the barn, we will also do disinfection, so please prepare for it.\nWoman: Disinfection? We did it last week. Do we have to do it again?\nMan: We need to do it once a week to prevent the cows from getting sick.\nWoman: Okay, I got it. I will go to the warehouse later and prepare the disinfectant.",
+        "vi": "Nam: Anh đã vất vả khi sắp xếp thức ăn chăn nuôi. Ngày mai sau khi dọn dẹp chuồng trại, chúng ta cũng sẽ tiến hành khử trùng, nên hãy chuẩn bị nhé.\nNữ: Khử trùng ạ? Tuần trước đã làm rồi, sao lại phải khử trùng nữa?\nNam: Chúng ta phải làm mỗi tuần một lần để tránh cho bò bị bệnh.\nNữ: Vâng, tôi hiểu rồi. Tí nữa tôi sẽ đến kho chuẩn bị sẵn thuốc khử trùng."
+      },
+      "g_audio": "/topiks/audios/b263ac43eeace8dc6670ff1228d4f520_155_195.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "사료를 정리합니다.",
+          "축사 청소를 합니다.",
+          "축사 소독을 합니다.",
+          "소독약을 준비합니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "What will the woman do next?\n\n1. Organizing the animal feed.\n2. Cleaning the livestock barn.\n3. Disinfecting the livestock barn.\n4. Preparing the disinfectant.\n--------------------\n<g>여자: 이따가 창고에 가서 소독약을 준비해 놓을게요.</g> (Woman: I will go to the warehouse later and prepare the disinfectant.)",
+          "vi": "Hành động tiếp theo của người phụ nữ là gì?\n\n1. Sắp xếp thức ăn chăn nuôi.\n2. Dọn dẹp chuồng trại.\n3. Khử trùng chuồng trại.\n4. Chuẩn bị thuốc khử trùng.\n--------------------\n여자: 이따가 창고에 가서 소독약을 준비해 놓을게요. (Nữ: Tí nữa tôi sẽ đến kho chuẩn bị sẵn thuốc khử trùng.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다.\n여자: 아, 오늘은 실내 작업부터 먼저 합시다.\n남자: 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요. \n여자: 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요.",
+      "g_text_audio_translate": {
+        "en": "Man: The work site for today is the deck, right? I will go quickly and finish the painting.\nWoman: Oh, let’s start with the indoor work first today.\nMan: According to the work schedule, today I'm supposed to paint the deck.\nWoman: It's too windy today, so it might be difficult to work outdoors.",
+        "vi": "Nam: Hôm nay chỗ cần làm việc là boong tàu đúng không? Tôi sẽ đi ngay để hoàn thành công việc sơn.\nNữ: À, hôm nay hãy làm việc trong nhà trước.\nNam: Theo kế hoạch làm việc thì hôm nay phải sơn boong tàu mà?\nNữ: Hôm nay gió thổi mạnh quá, nên làm việc ngoài trời sẽ rất khó."
+      },
+      "g_audio": "/topiks/audios/2806bd3a19246edae7565c4ffd3d3a83_161_198.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "오늘 작업할 장소가 바뀐 이유는 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "바람이 너무 강해서",
+          "작업할 사람이 없어서",
+          "작업 계획이 잘못돼서",
+          "도장 작업을 빨리 마쳐서"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Why was the work location changed today?\n\n1. Because the wind is too strong.\n2. Because there are no workers available.\n3. Because the work plan was incorrect.\n4. Because the painting work was finished early.\n--------------------\n<g>여자: 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요.</g> (Woman: It's too windy today, so it might be difficult to work outdoors.)",
+          "vi": "Vì sao địa điểm làm việc hôm nay bị thay đổi?\n\n1. Vì gió quá mạnh.\n2. Vì không có người làm việc.\n3. Vì kế hoạch công việc sai sót.\n4. Vì đã hoàn thành công việc sơn sớm.\n--------------------\n여자: 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요. (Nữ: Hôm nay gió thổi mạnh quá, nên làm việc ngoài trời sẽ rất khó.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 민민아웅 씨, 안 바쁘면 영호 씨한테 체인톱 좀 가져다줄 수 있어요?\n남자: 네. 어디로 가면 돼요?\n여자: 벌채지로 가면 돼요. 지금 벌목 작업을 하고 있는데 체인톱이 고장났대요. \n남자: 네. 체인톱을 찾아서 얼른 가 볼게요.",
+      "g_text_audio_translate": {
+        "en": "Woman: Min Min Aung, if you're not busy, could you take the chainsaw to Youngho?\nMan: Sure. Where should I go?\nWoman: Go to the logging site. They are cutting trees, but their chainsaw broke.\nMan: Okay. I'll find the chainsaw and take it there quickly.",
+        "vi": "Nữ: Min Min Aung, nếu anh không bận, có thể mang cưa xích cho Youngho được không?\nNam: Được ạ. Tôi phải đi đâu?\nNữ: Hãy đến khu khai thác gỗ. Họ đang đốn cây nhưng cưa xích bị hỏng.\nNam: Vâng, tôi sẽ tìm cưa xích rồi nhanh chóng mang đến đó."
+      },
+      "g_audio": "/topiks/audios/22124d180d19687cde6fb1d2622dd630_153_189.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "벌채지에 갑니다.",
+          "체인톱을 고칩니다.",
+          "체인톱을 찾습니다.",
+          "벌목 작업을 합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "What will the man do next?\n\n1. Going to the logging site.\n2. Repairing the chainsaw.\n3. Looking for the chainsaw.\n4. Carrying out logging work.\n--------------------\n<g>남자: 체인톱을 찾아서 얼른 가 볼게요.</g> (Man: I'll find the chainsaw and take it there quickly.)",
+          "vi": "Hành động tiếp theo của người đàn ông là gì?\n\n1. Đi đến khu khai thác gỗ.\n2. Sửa cưa xích.\n3. Tìm cưa xích.\n4. Tiến hành công việc khai thác gỗ.\n--------------------\n남자: 체인톱을 찾아서 얼른 가 볼게요. (Nam: Tôi sẽ tìm cưa xích rồi nhanh chóng mang đến đó.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 오전에 배달된 상추는 어디에 있어요?\n여자: 씻어서 바구니에 담아 냉장고에 넣어 두었습니다. \n남자: 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여자: 몰랐습니다. 다음부터 주의하겠습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: Where is the lettuce that was delivered this morning?\nWoman: I washed it, put it in a basket, and stored it in the fridge.\nMan: Washed lettuce should be stored in an airtight container.\nWoman: I didn’t know that. I’ll be careful next time.",
+        "vi": "Nam: Rau xà lách giao vào buổi sáng đâu rồi?\nNữ: Tôi đã rửa sạch, để vào giỏ rồi cho vào tủ lạnh.\nNam: Rau xà lách sau khi rửa phải được bảo quản trong hộp kín.\nNữ: Tôi không biết điều đó. Tôi sẽ chú ý từ lần sau."
+      },
+      "g_audio": "/topiks/audios/74fb3cd8497666b419730d8e07abc75e_155_187.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자가 지적한 여자의 잘못된 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "상추를 씻지 않았습니다.",
+          "상추를 잘못 보관했습니다.",
+          "상추를 배송하지 않았습니다.",
+          "상추를 냉장고에 넣지 않았습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "What mistake did the man point out about the woman’s action?\n\n1. Did not wash the lettuce.\n2. Stored the lettuce improperly.\n3. Did not deliver the lettuce.\n4. Did not put the lettuce in the refrigerator.\n--------------------\n<g>남자: 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.</g> (Man: Washed lettuce should be stored in an airtight container.)",
+          "vi": "Sai lầm mà người phụ nữ mắc phải mà người đàn ông chỉ ra là gì?\n\n1. Không rửa rau xà lách.\n2. Bảo quản rau xà lách không đúng cách.\n3. Không giao rau xà lách.\n4. Không đặt rau xà lách vào tủ lạnh.\n--------------------\n남자: 씻은 상추는 밀폐용기에 담아서 보관해야 돼요. (Nam: Rau xà lách sau khi rửa phải được bảo quản trong hộp kín.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요?\n남자: 네, 그런데 작업장에서 커피를 마셔도 돼요?\n여자: 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.\n남자: 알겠습니다.",
+      "g_text_audio_translate": {
+        "en": "Woman: Today, we will be mixing chemicals. You have changed into your protective clothing, right?\nMan: Yes, but can I drink coffee in the workshop?\nWoman: No, food and drinks are not allowed. And before starting work, please turn on the ventilation system.\nMan: I got it.",
+        "vi": "Nữ: Hôm nay chúng ta sẽ trộn hóa chất. Anh đã thay đồ bảo hộ chưa?\nNam: Rồi ạ, nhưng tôi có thể uống cà phê trong xưởng không?\nNữ: Không, không được mang đồ ăn thức uống vào. Và trước khi bắt đầu làm việc, hãy bật hệ thống thông gió trước nhé.\nNam: Tôi hiểu rồi."
+      },
+      "g_audio": "/topiks/audios/51255dcee60e56f531d6cbe0b4016aab_175_211.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "커피를 마십니다.",
+          "환기 장치를 켭니다.",
+          "혼합 작업을 시작합니다.",
+          "작업복으로 갈아입습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "What will the man do next?\n\n1. Drinking coffee.\n2. Turning on the ventilation system.\n3. Starting the mixing process.\n4. Changing into work clothes.\n--------------------\n<g>여자: 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.</g> (Woman: And before starting work, please turn on the ventilation system.)",
+          "vi": "Hành động tiếp theo của người đàn ông là gì?\n\n1. Uống cà phê.\n2. Bật hệ thống thông gió.\n3. Bắt đầu quá trình trộn.\n4. Thay đồ bảo hộ lao động.\n--------------------\n여자: 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요. (Nữ: Và trước khi bắt đầu làm việc, hãy bật hệ thống thông gió trước nhé.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 자하라 씨, 큰일 났어요. 용접하다가 불꽃이 상자에 튀었어요.\n여자: 용접기부터 끄세요. 어, 저기 불이 붙은 것 같아요. 소화기 가져와서 얼른 불을 끄세요.\n남자: 네, 빨리 가져올게요.\n여자: 저는 반장님을 불러올게요.",
+      "g_text_audio_translate": {
+        "en": "Man: Zahara, we have a problem. A spark from welding landed on a box.\nWoman: Turn off the welding machine first. Oh no, I think it's catching fire. Get the fire extinguisher and put out the fire quickly.\nMan: Yes, I'll get it right away.\nWoman: I’ll go call the team leader.",
+        "vi": "Nam: Zahara, có chuyện lớn rồi! Khi tôi hàn, tia lửa bắn vào thùng carton.\nNữ: Trước tiên, hãy tắt máy hàn đi. Ôi, hình như chỗ kia bị bắt lửa rồi. Hãy lấy bình chữa cháy và dập lửa ngay.\nNam: Vâng, tôi sẽ lấy ngay.\nNữ: Tôi sẽ đi gọi tổ trưởng."
+      },
+      "g_audio": "/topiks/audios/8a7f6fb93472ba4a4f75cf9d10b9503b_163_197.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "불을 끄러 갑니다.",
+          "용접기를 끄러 갑니다.",
+          "반장님을 만나러 갑니다.",
+          "소화기를 가지러 갑니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "What will the woman do next?\n\n1. Going to put out the fire.\n2. Turning off the welding machine.\n3. Going to meet the team leader.\n4. Going to get the fire extinguisher.\n--------------------\n<g>여자: 저는 반장님을 불러올게요.</g> (Woman: I’ll go call the team leader.)",
+          "vi": "Hành động tiếp theo của người phụ nữ là gì?\n\n1. Đi dập lửa.\n2. Tắt máy hàn.\n3. Đi gặp tổ trưởng.\n4. Đi lấy bình chữa cháy.\n--------------------\n여자: 저는 반장님을 불러올게요. (Nữ: Tôi sẽ đi gọi tổ trưởng.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까?\n남자: 안녕하세요? 무슨 일이시죠?\n여자: 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다.\n남자: 정말요? 지금 바로 센터로 가겠습니다.",
+      "g_text_audio_translate": {
+        "en": "Woman: Hello. Are you Carlo, the person who passed the Employment Permit System exam this time?\nMan: Hello. What’s going on?\nWoman: A company is interested in signing an employment contract with you, so I’m contacting you.\nMan: Really? I’ll head to the center right away.",
+        "vi": "Nữ: Xin chào. Anh có phải là Carlo, người đã đỗ kỳ thi chương trình cấp phép lao động lần này không?\nNam: Xin chào. Có chuyện gì vậy?\nNữ: Có một công ty muốn ký hợp đồng lao động với anh Carlo nên tôi liên hệ với anh.\nNam: Thật sao? Tôi sẽ đến trung tâm ngay bây giờ."
+      },
+      "g_audio": "/topiks/audios/221d0b40447d01d8b754b5f3554cd7cc_168_202.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자가 이어서 할 행동은 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "센터로 갑니다.",
+          "계약서에 서명을 합니다.",
+          "여자에게 전화를 겁니다.",
+          "고용허가제를 신청합니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "What will the man do next?\n\n1. Going to the center.\n2. Signing the contract.\n3. Calling the woman.\n4. Applying for a work permit.\n--------------------\n<g>남자: 지금 바로 센터로 가겠습니다.</g> (Man: Really? I’ll head to the center right away.)",
+          "vi": "Hành động tiếp theo của người đàn ông là gì?\n\n1. Đi đến trung tâm.\n2. Ký vào hợp đồng.\n3. Gọi điện thoại cho người phụ nữ.\n4. Đăng ký chương trình cấp phép lao động.\n--------------------\n남자: 지금 바로 센터로 가겠습니다. (Nam: Tôi sẽ đến trung tâm ngay bây giờ.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 이번 달 월급 들어왔지요?\n여자: 네. 그런데 지난달보다 많이 들어왔어요.\n남자: 곧 추석이라 상여금이 나와서 그럴 거예요.\n여자: 그래요? 저는 수당하고 기본급이 오른 줄 알았어요.",
+      "g_text_audio_translate": {
+        "en": "Man: This month's salary has been deposited, right?\nWoman: Yes, but it's more than last month.\nMan: It's probably because Chuseok is coming up, so you received a holiday bonus.\nWoman: Really? I thought my allowance and base salary had increased.",
+        "vi": "Nam: Tháng này lương đã được chuyển vào rồi đúng không?\nNữ: Vâng. Nhưng số tiền nhận được nhiều hơn tháng trước.\nNam: Chắc là do sắp đến Tết Trung Thu nên có thêm tiền thưởng.\nNữ: Vậy sao? Tôi cứ nghĩ là tiền phụ cấp và lương cơ bản đã tăng."
+      },
+      "g_audio": "/topiks/audios/db74bad4d64937cd2f7707547e00b7d2_163_194.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자는 왜 월급을 많이 받았습니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "세금이 줄어서",
+          "상여금을 받아서",
+          "수당이 들어와서",
+          "기본급이 올라서"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Why did the woman receive a higher salary?\n\n1. Because taxes were reduced.\n2. Because she received a bonus.\n3. Because she received an allowance.\n4. Because her base salary increased.\n--------------------\n<g>남자: 곧 추석이라 상여금이 나와서 그럴 거예요.</g> (Man: It's probably because Chuseok is coming up, so you received a holiday bonus.)",
+          "vi": "Vì sao người phụ nữ nhận được nhiều lương hơn?\n\n1. Vì thuế giảm.\n2. Vì nhận được tiền thưởng.\n3. Vì nhận được trợ cấp.\n4. Vì lương cơ bản tăng.\n--------------------\n남자: 곧 추석이라 상여금이 나와서 그럴 거예요. (Nam: Chắc là do sắp đến Tết Trung Thu nên có thêm tiền thưởng.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 체류 기간 연장은 신청했어요?\n여자: 아니요, 아직 신청하지 못했어요.\n남자: 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여자: 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.",
+      "g_text_audio_translate": {
+        "en": "Man: Have you applied for the extension of your stay?\nWoman: No, I haven’t applied yet.\nMan: You said two weeks ago that you would apply for an extension.\nWoman: The company gave me the documents late, so I'm just about to apply now.",
+        "vi": "Nam: Cô đã nộp đơn xin gia hạn thời gian lưu trú chưa?\nNữ: Chưa, tôi vẫn chưa nộp.\nNam: Nhưng hai tuần trước cô nói là sẽ nộp đơn gia hạn mà?\nNữ: Công ty đưa hồ sơ muộn nên bây giờ tôi mới chuẩn bị nộp."
+      },
+      "g_audio": "/topiks/audios/6de6f7a87a838a64801b8641c79c3eb9_172_203.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "여자의 체류 기간 연장 신청이 늦어지는 이유는 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "2주 전에 신청을 해서",
+          "신청 기간이 아니어서",
+          "필요한 서류를 몰라서",
+          "필요한 서류를 빨리 받지 못해서"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Why is there a delay in a woman's application for an extension of stay?\n\n1. Because she applied two weeks ago\n2. Because it is not the application period\n3. Because she doesn’t know the required documents\n4. Because she hasn’t received the required documents quickly\n--------------------\n<g>여자: 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.</g> (Woman: The company gave me the documents late, so I'm just about to apply now.)",
+          "vi": "Lý do khiến việc nộp đơn gia hạn thời gian lưu trú của người phụ nữ bị chậm trễ là gì?\n\n1. Vì đã nộp đơn từ 2 tuần trước\n2. Vì không phải thời gian nộp đơn\n3. Vì không biết hồ sơ cần thiết\n4. Vì không sớm nhận được hồ sơ cần thiết\n--------------------\n여자: 회사에서 서류를 늦게 받아서 이제 신청하려고 해요. (Nữ: Công ty đưa hồ sơ muộn nên bây giờ tôi mới chuẩn bị nộp.)"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 이야기를 듣고 질문에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요? \n여자: 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남자: 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?  \n여자: 일하던 회사에 가서 직접 요청하셔야 돼요.",
+      "g_text_audio_translate": {
+        "en": "Man: Can foreign workers receive severance pay if they work at a company for more than a year?\nWoman: Of course. Even foreign workers are entitled to severance pay.\nMan: I changed jobs last month. How do I apply for it?\nWoman: You have to go to your previous company and request it directly.",
+        "vi": "Nam: Lao động nước ngoài làm việc hơn một năm tại một công ty có được nhận tiền trợ cấp thôi việc không?\nNữ: Có chứ. Dù là lao động nước ngoài, anh vẫn được nhận tiền trợ cấp thôi việc.\nNam: Tháng trước tôi đã chuyển sang công ty khác, vậy tôi phải làm sao để đăng ký nhận trợ cấp?\nNữ: Anh phải đến công ty cũ để trực tiếp yêu cầu."
+      },
+      "g_audio": "/topiks/audios/f76f0febf168319bffd37b3dae05fce9_166_204.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "남자가 여자를 찾아온 이유는 무엇입니까?",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "회사를 옮기고 싶어서",
+          "보험에 가입하고 싶어서",
+          "퇴직금을 신청하고 싶어서",
+          "보험금 납입 방법을 알고 싶어서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Why did the man come to see the woman?\n\n1. Because he wants to change companies\n2. Because he wants to enroll in insurance\n3. Because he wants to apply for severance pay\n4. Because he wants to know how to pay insurance premiums\n--------------------\nThe man asked the woman if he could receive severance pay, and how to apply for it.",
+          "vi": "Lý do người đàn ông tìm gặp người phụ nữ là gì?\n\n1. Vì muốn chuyển công ty\n2. Vì muốn tham gia bảo hiểm\n3. Vì muốn yêu cầu tiền trợ cấp thôi việc\n4. Vì muốn biết cách đóng phí bảo hiểm\n--------------------\nNgười đàn ông hỏi người phụ nữ rằng mình có thể nhận được tiền trợ cấp thôi việc không, và làm sao để đăng ký nhận tiền trợ cấp thôi việc."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410007",
+    "count_question": 1,
+    "tag": null
+  }
+]

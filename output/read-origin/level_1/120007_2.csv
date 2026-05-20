@@ -1,0 +1,34 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120007_2_20260515_174350_q0,120007_2,1,read,[61～68] 다음을 읽고 물음에 답하십시오.,2,요즘 사람들은 건강을 위해 주말에 숲에 자주 갑니다. 숲에서 나무를 보면서 걸으면 스트레스가 풀리고 기분이 좋아집니다. ㉠ 숲에는 맑은 공기와 예쁜 꽃들도 많습니다. 사람들은 숲에서 사진을 찍거나 가족과 이야기를 나눕니다. 숲은 사람들에게 아주 소중한 장소입니다. 그래서 우리는 숲을 잘 보호해야 합니다.,"Dạo này, mọi người thường xuyên đi vào rừng vào cuối tuần vì sức khỏe. Đi bộ trong rừng và ngắm nhìn cây cối giúp giảm bớt căng thẳng và tâm trạng trở nên tốt hơn. ㉠ Trong rừng cũng có nhiều không khí trong lành và những bông hoa đẹp. Mọi người chụp ảnh trong rừng hoặc trò chuyện cùng gia đình. Rừng là một nơi rất quý giá đối với con người. Vì vậy chúng ta phải bảo vệ rừng thật tốt.","These days, people often go to the forest on weekends for their health. Walking in the forest while looking at the trees relieves stress and makes you feel better. ㉠ There is also plenty of fresh air and pretty flowers in the forest. People take pictures in the forest or talk with their families. The forest is a very precious place for people. Therefore, we must protect the forest well.",health_medical,㉠에 들어갈 알맞은 말을 고르십시오.,2,"그리고
+하지만
+그래서
+그러면",1,"1. Và/Hơn nữa (Đáp án đúng - bổ sung thêm ưu điểm của rừng)
+2. Nhưng
+3. Vì vậy
+4. Nếu vậy
+--------------------
+'그리고' dùng để bổ sung thông tin tích cực về rừng sau khi đã nói về việc đi bộ.","1. And/Furthermore (Correct Answer - adds more benefits of the forest)
+2. But
+3. So
+4. If so
+--------------------
+'그리고' is used to add more positive information about the forest after mentioning walking.",,qf_fill_blank,3,"
+trap_synonym_swap
+trap_shared_noun
+trap_synonym_swap",이 글의 내용과 같은 것을 고르십시오.,2,"숲에 가면 스트레스가 생깁니다.
+사람들은 평일에 숲에 많이 갑니다.
+숲은 우리에게 소중한 곳입니다.
+숲에서는 사진을 찍을 수 없습니다.",3,"1. Đi rừng thì bị căng thẳng. (Sai - giúp giảm căng thẳng)
+2. Mọi người đi rừng nhiều vào ngày thường. (Sai - bài ghi cuối tuần)
+3. Rừng là nơi quý giá đối với chúng ta. (Đúng - khớp nội dung)
+4. Không thể chụp ảnh trong rừng. (Sai - có thể chụp ảnh)
+--------------------
+Đáp án 3 khớp với câu '숲은 사람들에게 아주 소중한 장소입니다'.","1. Going to the forest causes stress. (Wrong - it relieves stress)
+2. People go to the forest a lot on weekdays. (Wrong - passage says weekends)
+3. The forest is a precious place for us. (Correct - matches content)
+4. You cannot take pictures in the forest. (Wrong - people do take pictures)
+--------------------
+Answer 3 matches the sentence 'The forest is a very precious place for people'.",,qf_content_match,3,"trap_neg_없안
+trap_detail_distort
+
+trap_neg_없안",,,,,,,,,,,20260515_174350

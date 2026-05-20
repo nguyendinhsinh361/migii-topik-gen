@@ -1,0 +1,715 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220001_a_20260515_174350_q0,220001_a,2,read,[1～2] (    )에 들어갈 가장 알맞은 것을 고르십시오.,1,,,,shopping_price,비행기표를 미리 (  ) 더 싼 가격으로 여행을 갈 수 있다.,2,"예매하든지
+예매하거나
+예매해야
+예매하다 보면",3,"Nếu đặt trước vé máy bay thì có thể đi du lịch với giá rẻ hơn.
+1. Dù đặt (Lựa chọn - không hợp)
+2. Hoặc là đặt (Lựa chọn - không hợp)
+3. Phải đặt (Điều kiện bắt buộc - Đáp án đúng)
+4. Nếu cứ đặt (Quá trình dẫn đến kết quả - không hợp)
+--------------------
+Cấu trúc '-아/어야' thể hiện điều kiện cần thiết để thực hiện vế sau.","If you book flight tickets in advance, you can travel at a cheaper price.
+1. Whether booking (Choice - inappropriate)
+2. Or booking (Choice - inappropriate)
+3. Must book (Necessary condition - Correct Answer)
+4. While booking (Process leading to result - inappropriate)
+--------------------
+The structure '-아/어야' indicates a necessary condition to achieve the following clause.",,qf_fill_blank,6,"trap_synonym_swap
+trap_synonym_swap
+
+trap_same_ending",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220001_b_20260515_174350_q0,220001_b,2,read,[16～18] 다음을 읽고 (    )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.,1,,,,science_tech,식물도 동물처럼 소리에 반응한다. 연구에 따르면 식물은 해충이 잎을 갉아먹는 소리를 들으면 스스로 (   ) 성분을 만들어 낸다고 한다. 평소에는 이러한 성분을 내뿜지 않다가 위험을 감지했을 때만 반응하는 것이다.,2,"성장을 돕는
+자신을 보호하는
+곤충을 유인하는
+영양분을 흡수하는",2,"Thực vật cũng phản ứng với âm thanh giống như động vật. Theo nghiên cứu, khi thực vật nghe thấy tiếng sâu bệnh gặm nhấm lá, chúng sẽ tự tạo ra thành phần (   ). Bình thường chúng không tiết ra thành phần này mà chỉ phản ứng khi cảm nhận được nguy hiểm.
+1. Giúp tăng trưởng (Sai)
+2. Bảo vệ bản thân (Đáp án đúng - vì phản ứng với nguy hiểm từ sâu bệnh)
+3. Thu hút côn trùng (Mâu thuẫn - bài nói về đuổi sâu bệnh)
+4. Hấp thụ chất dinh dưỡng (Không liên quan)
+--------------------
+Cụm từ '위험을 감지했을 때' (khi cảm nhận nguy hiểm) là gợi ý cho việc '보호' (bảo vệ).","Plants also react to sound like animals. According to research, when plants hear the sound of pests gnawing on leaves, they produce a (   ) component. Normally, they do not release this component, but react only when they sense danger.
+1. Helping growth (Wrong)
+2. Protecting themselves (Correct Answer - reacting to danger from pests)
+3. Attracting insects (Contradictory - passage is about repelling pests)
+4. Absorbing nutrients (Irrelevant)
+--------------------
+The phrase 'when they sense danger' (위험을 감지했을 때) suggests 'protection' (보호).",,qf_fill_blank,7,"trap_wrong_inference
+
+trap_partial_truth
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220001_c_20260515_174350_q0,220001_c,2,read,[28～31] 다음을 읽고 (    )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.,1,,,,society,전통 시장은 대형 마트보다 가격이 저렴하고 정이 넘친다. 하지만 주차 시설이 부족하여 이용하기 불편하다는 단점이 있다. 이러한 불편함을 해결하기 위해 최근 지자체들은 (   ) 노력을 기울이고 있다.,2,"물건 값을 더 낮추려는
+주차 공간을 확보하려는
+마트 이용을 제한하려는
+전통 음식을 홍보하려는",2,"Chợ truyền thống giá rẻ và tràn đầy tình cảm hơn siêu thị lớn. Tuy nhiên, nó có nhược điểm là bất tiện khi sử dụng do thiếu cơ sở hạ tầng bãi đỗ xe. Để giải quyết sự bất tiện này, gần đây các chính quyền địa phương đang nỗ lực (   ).
+1. Hạ giá đồ hơn nữa (Sai - nhược điểm nêu ra là bãi đỗ xe)
+2. Đảm bảo không gian đỗ xe (Đáp án đúng - giải quyết trực tiếp nhược điểm)
+3. Hạn chế sử dụng siêu thị (Sai - cực đoan, không được nhắc tới)
+4. Quảng bá món ăn truyền thống (Sai - không liên quan đến bãi đỗ xe)
+--------------------
+Nỗ lực phải tập trung vào việc giải quyết '주차 시설 부족' (thiếu cơ sở hạ tầng đỗ xe).","Traditional markets are cheaper and more warm-hearted than large supermarkets. However, they have the disadvantage of being inconvenient to use due to a lack of parking facilities. To solve this inconvenience, local governments have recently been making efforts to (   ).
+1. Lower the price of goods further (Wrong - the mentioned disadvantage is parking)
+2. Secure parking spaces (Correct Answer - directly solves the disadvantage)
+3. Limit the use of supermarkets (Wrong - extreme, not mentioned)
+4. Promote traditional foods (Wrong - irrelevant to parking)
+--------------------
+The effort must focus on solving the 'lack of parking facilities' (주차 시설 부족).",,qf_fill_blank,7,"trap_shared_noun
+
+trap_overgeneralize
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220002_a_20260515_174350_q0,220002_a,2,read,[3～4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.,1,,,,health_medical,아무리 바빠도 건강을 위해서 아침 식사는 <u>먹는 대신에</u> 우유라도 마셔야 한다.,2,"먹는 대로
+먹는 만큼
+먹지 말고
+먹지 못해서",3,"Dù bận thế nào đi nữa, vì sức khỏe, thay vì ăn sáng (không ăn) thì ít nhất cũng phải uống sữa.
+1. Ngay khi ăn (Nghĩa khác)
+2. Bằng với việc ăn (Mức độ - không hợp)
+3. Đừng ăn (mà hãy...) (Đáp án tương đương nhất trong ngữ cảnh thay thế)
+4. Vì không thể ăn (Nguyên nhân - không hợp)
+--------------------
+'-는 대신에' thể hiện sự thay thế. Trong ngữ cảnh khuyên bảo, '-지 말고' (đừng làm A mà làm B) mang ý nghĩa tương đồng nhất.","No matter how busy you are, for your health, instead of eating breakfast, you should at least drink milk.
+1. As soon as you eat (Different meaning)
+2. As much as you eat (Degree - inappropriate)
+3. Don't eat (but...) (Most similar meaning in substitution context)
+4. Because you couldn't eat (Cause - inappropriate)
+--------------------
+'-는 대신에' expresses substitution. In an advising context, '-지 말고' (don't do A but do B) carries the most similar meaning.",,qf_similar_meaning,5,"trap_same_ending
+trap_synonym_swap
+
+trap_synonym_swap",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220002_b_1_20260515_174350_q0,220002_b_1,2,read,[9] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오.,1,,,,hobby_leisure,,2,"독서를 하는 사람이 가장 많다.
+운동보다 유튜브 시청을 더 많이 한다.
+게임을 취미로 하는 사람이 절반이 넘는다.
+이 조사는 30대를 대상으로 실시했다.",2,"Biểu đồ hình tròn: 'Đời sống sở thích của độ tuổi 20'. 1. Game 35%, 2. Xem Youtube 30%, 3. Tập thể dục 20%, 4. Đọc sách 10%, Khác 5%.
+1. Người đọc sách là nhiều nhất. (Sai - ít nhất)
+2. Xem Youtube nhiều hơn tập thể dục. (Đúng - 30% > 20%)
+3. Người lấy game làm sở thích chiếm hơn một nửa. (Sai - chỉ 35%)
+4. Khảo sát này thực hiện trên đối tượng tuổi 30. (Sai - tuổi 20)
+--------------------
+Đáp án 2 khớp với số liệu trên biểu đồ.","Pie chart: 'Hobby Life of People in their 20s'. 1. Gaming 35%, 2. Watching YouTube 30%, 3. Exercise 20%, 4. Reading 10%, Others 5%.
+1. People who read are the most. (Wrong - they are the least)
+2. People watch YouTube more than they exercise. (Correct - 30% > 20%)
+3. More than half the people take gaming as a hobby. (Wrong - only 35%)
+4. This survey was conducted on people in their 30s. (Wrong - people in their 20s)
+--------------------
+Answer 2 matches the data on the chart.",,qf_graph_match,1,"trap_detail_distort
+
+trap_number_shift
+trap_detail_distort",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220002_b_2_20260515_174350_q0,220002_b_2,2,read,[10] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오.,1,,,,culture_traditional,,2,"축제는 오전부터 시작된다.
+지하철을 이용하는 것이 좋다.
+돗자리는 축제장에서 빌려 준다.
+행사는 매년 5월에 열린다.",2,"Thông báo: 'Lễ hội pháo hoa Seoul lần thứ 5'. Thời gian: 5/10/2024, 7h-9h tối. Địa điểm: Công viên Hangang Yeouido. Lưu ý: Mang theo chiếu, mang rác về. Giao thông: Khuyên dùng ga Yeouinaru tuyến số 5.
+1. Lễ hội bắt đầu từ buổi sáng. (Sai - bắt đầu lúc 7h tối)
+2. Nên sử dụng tàu điện ngầm. (Đúng - khuyên dùng ga Yeouinaru)
+3. Chiếu sẽ được cho mượn tại nơi lễ hội. (Sai - phải mang theo/지참)
+4. Sự kiện được tổ chức vào tháng 5 hàng năm. (Sai - tổ chức vào tháng 10)
+--------------------
+Đáp án 2 khớp với phần '교통 안내' (Hướng dẫn giao thông).","Notice: 'The 5th Seoul Fireworks Festival'. Date: October 5, 2024, 7 PM - 9 PM. Place: Yeouido Hangang Park. Notes: Bring a mat, take back your trash. Transportation: Recommended to use Yeouinaru Station, Line 5.
+1. The festival starts from the morning. (Wrong - starts at 7 PM)
+2. It is good to use the subway. (Correct - recommended to use Yeouinaru Station)
+3. Mats are lent at the festival site. (Wrong - must be brought/지참)
+4. The event is held every May. (Wrong - held in October)
+--------------------
+Answer 2 matches the 'Transportation' section.",,qf_graph_match,1,"trap_detail_distort
+
+trap_detail_distort
+trap_number_shift",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220002_b_3_20260515_174350_q0,220002_b_3,2,read,[11～12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오.,1,,,,travel,,2,"2023년에 여행객 수가 가장 적었다.
+해외여행객 수는 매년 줄어들고 있다.
+2022년 여행객은 200만 명을 넘었다.
+올해 여행객은 작년보다 많을 것이다.",4,"Biểu đồ cột: 'Thay đổi số lượng khách du lịch nước ngoài theo năm'. 2021: 500k, 2022: 1.2M, 2023: 2.5M, 2024 (dự kiến): 3M.
+1. Số khách ít nhất vào năm 2023. (Sai - 2021 ít nhất)
+2. Số lượng khách du lịch nước ngoài đang giảm dần hàng năm. (Sai - đang tăng)
+3. Lượng khách năm 2022 đã vượt quá 2 triệu người. (Sai - chỉ 1.2M)
+4. Lượng khách năm nay (2024) sẽ nhiều hơn năm ngoái. (Đúng - 3M > 2.5M)
+--------------------
+Đáp án 4 khớp với xu hướng tăng và số liệu dự kiến của năm 2024 so với 2023.","Bar chart: 'Change in Number of Overseas Travelers by Year'. 2021: 500k, 2022: 1.2M, 2023: 2.5M, 2024 (expected): 3M.
+1. The number of travelers was the lowest in 2023. (Wrong - 2021 was lowest)
+2. The number of overseas travelers is decreasing every year. (Wrong - it's increasing)
+3. Travelers in 2022 exceeded 2 million. (Wrong - only 1.2M)
+4. Travelers this year (2024) will be more than last year. (Correct - 3M > 2.5M)
+--------------------
+Answer 4 matches the increasing trend and the expected 2024 data compared to 2023.",,qf_graph_match,2,"trap_detail_distort
+trap_detail_distort
+trap_number_shift
+",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220002_c_20260515_174350_q0,220002_c,2,read,[32～34] 다음을 읽고 내용이 같은 것을 고르십시오.,1,최근 스마트폰 사용 시간이 늘어나면서 눈의 피로를 호소하는 사람들이 많아졌다. 특히 잠자기 전 어두운 곳에서 스마트폰을 보는 것은 시력 저하의 주요 원인이 된다. 전문가들은 눈 건강을 위해 화면 밝기를 조절하고 정기적으로 눈을 쉬게 해 주는 것이 중요하다고 조언한다. 또한 눈에 좋은 성분이 포함된 음식을 섭취하는 것도 도움이 된다.,"Gần đây, khi thời gian sử dụng điện thoại thông minh tăng lên, nhiều người than phiền về tình trạng mỏi mắt. Đặc biệt, việc xem điện thoại ở nơi tối trước khi đi ngủ là nguyên nhân chính gây suy giảm thị lực. Các chuyên gia khuyên rằng để bảo vệ sức khỏe đôi mắt, việc điều chỉnh độ sáng màn hình và cho mắt nghỉ ngơi định kỳ là rất quan trọng. Ngoài ra, việc hấp thụ thực phẩm chứa thành phần tốt cho mắt cũng rất hữu ích.","Recently, as smartphone usage time has increased, many people have complained of eye fatigue. Especially, looking at a smartphone in a dark place before going to sleep is a major cause of vision deterioration. Experts advise that to protect eye health, it is important to adjust screen brightness and rest the eyes regularly. In addition, consuming foods containing ingredients good for the eyes is also helpful.",health_medical,,2,"어두운 곳에서 스마트폰을 보면 눈에 좋다.
+스마트폰은 눈 건강과 아무런 상관이 없다.
+눈 건강을 위해 정기적으로 휴식을 취해야 한다.
+화면 밝기는 눈 건강에 영향을 주지 않는다.",3,"1. Xem điện thoại ở nơi tối tốt cho mắt. (Sai - gây hại)
+2. Điện thoại thông minh không có bất kỳ liên quan nào đến sức khỏe mắt. (Sai - có liên quan mật thiết)
+3. Phải nghỉ ngơi định kỳ để bảo vệ sức khỏe mắt. (Đúng - khớp nội dung)
+4. Độ sáng màn hình không ảnh hưởng đến sức khỏe mắt. (Sai - có ảnh hưởng)
+--------------------
+Đáp án 3 khớp với lời khuyên '정기적으로 눈을 쉬게 해 주는 것이 중요하다'.","1. Looking at a smartphone in a dark place is good for the eyes. (Wrong - it's harmful)
+2. Smartphones have nothing to do with eye health. (Wrong - they are closely related)
+3. You must take periodic rests for eye health. (Correct - matches content)
+4. Screen brightness does not affect eye health. (Wrong - it does affect it)
+--------------------
+Answer 3 matches the advice 'it is important to rest the eyes regularly'.",,qf_content_match,7,"trap_neg_없안
+trap_shared_noun
+
+trap_partial_truth",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220003_a_1_20260515_174350_q0,220003_a_1,2,read,[5～6] 다음은 무엇에 대한 글인지 고르십시오.,1,,,,environment,,2,"환경 보호
+교통 안전
+화재 예방
+이웃 사랑",1,"1. Bảo vệ môi trường (Đáp án đúng - dựa trên '맑은 물, 푸른 산' và '자연을 보호합시다')
+2. An toàn giao thông
+3. Phòng chống hỏa hoạn
+4. Tình yêu hàng xóm
+--------------------
+Thông điệp '맑은 물, 푸른 산' (Nước trong, núi xanh) và '자연 보호' (Bảo vệ tự nhiên) chỉ ra chủ đề môi trường.","1. Environmental protection (Correct Answer - based on 'Clear water, blue mountains' and 'Let's protect nature')
+2. Traffic safety
+3. Fire prevention
+4. Neighborly love
+--------------------
+The messages 'Clear water, blue mountains' (맑은 물, 푸른 산) and 'Nature protection' (자연 보호) indicate the theme of environment.",,qf_topic_identify,1,"
+trap_similar_word
+trap_similar_word
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220003_a_2_20260515_174350_q0,220003_a_2,2,read,[7～8] 다음은 무엇에 대한 글인지 고르십시오.,1,,,,shopping_price,,2,"침대
+에어컨
+텔레비전
+세탁기",1,"1. Giường (Đáp án đúng - dựa trên ảnh giường và '꿀잠', '편안한 침대')
+2. Điều hòa
+3. Ti vi
+4. Máy giặt
+--------------------
+Từ khóa '꿀잠' (giấc ngủ ngon) và '편안한 침대' (giường thoải mái) xác định sản phẩm là giường.","1. Bed (Correct Answer - based on bed image and 'Deep sleep', 'Comfortable bed')
+2. Air conditioner
+3. Television
+4. Washing machine
+--------------------
+The keywords 'Deep sleep' (꿀잠) and 'Comfortable bed' (편안한 침대) identify the product as a bed.",,qf_topic_identify,1,"
+trap_similar_word
+trap_shared_noun
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220003_b_20260515_174350_q0,220003_b,2,read,[35～38] 다음 글의 주제로 가장 알맞은 것을 고르십시오.,1,"최근 칭찬의 중요성이 강조되고 있지만, 구체적이지 않은 칭찬은 오히려 독이 될 수 있다. 막연하게 '잘했다'고 말하는 것보다 아이가 어떤 노력을 했는지 과정을 칭찬하는 것이 더 효과적이다. 결과만 칭찬받은 아이는 실패했을 때 더 큰 좌절감을 느끼기 때문이다. 따라서 아이의 자존감을 높이려면 결과보다 과정에 집중하여 칭찬해야 한다.","Gần đây, tầm quan trọng của lời khen đang được nhấn mạnh, nhưng những lời khen không cụ thể đôi khi lại trở thành thuốc độc. Thay vì nói một cách mơ hồ là 'con làm tốt lắm', việc khen ngợi quá trình con đã nỗ lực như thế nào sẽ hiệu quả hơn. Bởi vì những đứa trẻ chỉ được khen về kết quả sẽ cảm thấy thất vọng lớn hơn khi thất bại. Vì vậy, để nâng cao lòng tự trọng của trẻ, cần tập trung vào quá trình hơn là kết quả khi khen ngợi.","Recently, the importance of praise has been emphasized, but non-specific praise can sometimes be poisonous. Rather than vaguely saying 'good job,' it is more effective to praise the process of how the child made an effort. This is because children who are praised only for results feel greater frustration when they fail. Therefore, to increase a child's self-esteem, one should focus on the process rather than the result when praising.",psychology,,2,"아이의 자존감을 높여야 한다.
+결과 중심의 칭찬이 중요하다.
+아이를 자주 칭찬하는 것이 좋다.
+결과보다 과정에 집중해 칭찬해야 한다.",4,"1. Phải nâng cao lòng tự trọng của trẻ. (Ý phụ/Mục đích gián tiếp)
+2. Khen ngợi tập trung vào kết quả là quan trọng. (Sai - ngược với bài)
+3. Nên thường xuyên khen trẻ. (Khái quát hóa quá mức)
+4. Phải tập trung vào quá trình hơn là kết quả khi khen ngợi. (Đáp án đúng - luận điểm trung tâm)
+--------------------
+Câu cuối '결과보다 과정에 집중하여 칭찬해야 한다' tóm tắt chính xác chủ đề bài viết.","1. We should increase children's self-esteem. (Supporting point/Indirect goal)
+2. Result-oriented praise is important. (Wrong - opposite of passage)
+3. It is good to praise children often. (Overgeneralization)
+4. One should focus on the process rather than the result when praising. (Correct Answer - central thesis)
+--------------------
+The last sentence 'should focus on the process rather than the result when praising' accurately summarizes the main topic.",,qf_central_thought,8,"trap_partial_truth
+trap_detail_distort
+trap_overgeneralize
+",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220004_20260515_174350_q0,220004,2,read,[13～15] 다음을 순서대로 맞게 배열한 것을 고르십시오.,1,,,,economy,"(가) 그 결과 이 회사는 고객들로부터 큰 신뢰를 얻게 되었다.
+(나) 제품의 결함을 발견하자마자 전 제품을 자발적으로 회수했다.
+(다) 한 전자 기기 회사가 품질에 문제가 있다는 뉴스를 접했다.
+(라) 당장 손해를 보더라도 안전이 가장 중요하다고 판단한 것이다.",2,"(다)-(나)-(라)-(가)
+(다)-(라)-(나)-(가)
+(나)-(다)-(라)-(가)
+(다)-(나)-(가)-(라)",1,"Thứ tự đúng: (다) Một công ty điện tử nghe tin sản phẩm có vấn đề -> (나) Ngay khi phát hiện lỗi, họ tự nguyện thu hồi toàn bộ sản phẩm -> (라) Họ phán đoán rằng an toàn quan trọng nhất dù chịu lỗ -> (가) Kết quả là họ nhận được sự tin tưởng lớn từ khách hàng.
+--------------------
+Logic: Sự kiện (다) -> Hành động phản ứng (나) -> Lý do/Phán đoán (라) -> Kết quả (가).","Correct order: (다) An electronics company heard news about product problems -> (나) As soon as defects were found, they voluntarily recalled all products -> (라) They judged that safety was most important even if they took a loss -> (가) As a result, they gained great trust from customers.
+--------------------
+Logic: Event (다) -> Response action (나) -> Reason/Judgment (라) -> Result (가).",,qf_sentence_order,6,"
+trap_order_swap
+trap_order_swap
+trap_order_swap",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220005_1_20260515_174350_q0,220005_1,2,read,[19～20] 다음을 읽고 물음에 답하십시오.,2,우리는 보통 실수를 하면 당황하고 숨기고 싶어 한다. 하지만 전문가들은 실수를 (   ) 생각하라고 조언한다. 실수를 통해 무엇이 잘못되었는지 분석하면 더 나은 해결책을 찾을 수 있기 때문이다. 실제로 많은 발명품은 우연한 실수에서 시작되었다. 실수를 두려워하지 않는 태도가 새로운 성장을 이끄는 힘이 된다.,"Chúng ta thường hoảng hốt và muốn che giấu khi mắc lỗi. Tuy nhiên, các chuyên gia khuyên rằng hãy coi lỗi lầm là (   ). Đó là vì nếu phân tích xem điều gì đã sai thông qua lỗi lầm, chúng ta có thể tìm thấy giải pháp tốt hơn. Thực tế, nhiều phát minh đã bắt đầu từ những sai sót tình cờ. Thái độ không sợ hãi lỗi lầm chính là sức mạnh dẫn đến sự phát triển mới.","We usually get flustered and want to hide it when we make a mistake. However, experts advise to think of mistakes as (   ). This is because if you analyze what went wrong through mistakes, you can find a better solution. In fact, many inventions started from accidental mistakes. An attitude of not fearing mistakes becomes the power that leads to new growth.",psychology,(   )에 들어갈 내용으로 알맞은 것을 고르십시오.,2,"창피한 일로
+부끄러운 것으로
+배움의 기회로
+피해야 할 일로",3,"1. Việc xấu hổ (Sai)
+2. Thứ đáng thẹn (Sai)
+3. Cơ hội để học hỏi (Đáp án đúng - phù hợp với việc phân tích lỗi để tìm giải pháp)
+4. Việc nên tránh (Sai)
+--------------------
+Cụm từ '실수를 통해 무엇이 잘못되었는지 분석' (phân tích lỗi để xem sai ở đâu) chỉ ra đây là một 'cơ hội học hỏi'.","1. Embarrassing matter (Wrong)
+2. Shameful thing (Wrong)
+3. Opportunity for learning (Correct Answer - fits with analyzing mistakes to find solutions)
+4. Something to avoid (Wrong)
+--------------------
+The phrase 'analyze what went wrong through mistakes' points to this being a 'learning opportunity'.",,qf_fill_blank,1,"trap_synonym_swap
+trap_synonym_swap
+
+trap_wrong_inference",이 글의 내용과 같은 것을 고르십시오.,2,"실수는 성장에 전혀 도움이 되지 않는다.
+사람들은 보통 실수를 자랑스럽게 생각한다.
+실수를 분석하면 더 좋은 방법을 찾을 수 있다.
+발명품은 완벽한 계획 하에서만 만들어진다.",3,"1. Lỗi lầm hoàn toàn không giúp ích cho sự phát triển. (Sai)
+2. Mọi người thường coi lỗi lầm là điều tự hào. (Sai - thường muốn che giấu)
+3. Nếu phân tích lỗi lầm có thể tìm thấy phương pháp tốt hơn. (Đúng - khớp nội dung)
+4. Phát minh chỉ được tạo ra dưới một kế hoạch hoàn hảo. (Sai - nhiều cái từ sai sót tình cờ)
+--------------------
+Đáp án 3 khớp với câu '실수를 통해... 분석하면 더 나은 해결책을 찾을 수 있다'.","1. Mistakes do not help growth at all. (Wrong)
+2. People usually think of mistakes proudly. (Wrong - usually want to hide them)
+3. If you analyze mistakes, you can find a better way. (Correct - matches content)
+4. Inventions are made only under perfect planning. (Wrong - many from accidental mistakes)
+--------------------
+Answer 3 matches the sentence 'if you analyze what went wrong... you can find a better solution'.",,qf_content_match,1,"trap_neg_없안
+trap_detail_distort
+
+trap_wrong_inference",,,,,,,,,,,20260515_174350
+220005_2_20260515_174350_q0,220005_2,2,read,[23～24] 다음 글을 읽고 물음에 답하십시오.,2,과거에는 종이 책만 읽었지만 요즘은 전자책을 이용하는 사람들이 많아졌다. 전자책은 가볍고 많은 책을 한꺼번에 담을 수 있어 편리하다. 또한 언제 어디서든 스마트 기기만 있으면 책을 읽을 수 있다는 장점이 있다. 하지만 종이 책 특유의 질감과 넘기는 소리를 그리워하는 독자들도 여전히 많다. 종이 책은 전자책이 줄 수 없는 아날로그적인 감성을 (   ).,"Trước đây người ta chỉ đọc sách giấy nhưng dạo này số người sử dụng sách điện tử đã tăng lên. Sách điện tử nhẹ và tiện lợi vì có thể chứa nhiều cuốn sách cùng một lúc. Ngoài ra, nó có ưu điểm là có thể đọc sách ở bất cứ đâu, bất cứ khi nào chỉ cần có thiết bị thông minh. Tuy nhiên, vẫn còn nhiều độc giả nhớ kết cấu đặc trưng và tiếng lật trang của sách giấy. Sách giấy (   ) cảm xúc analog mà sách điện tử không thể mang lại.","In the past, people only read paper books, but these days the number of people using e-books has increased. E-books are lightweight and convenient because they can hold many books at once. Additionally, they have the advantage of allowing one to read books anywhere, anytime as long as they have a smart device. However, there are still many readers who miss the unique texture and sound of flipping pages of paper books. Paper books (   ) analog emotions that e-books cannot provide.",society,(   )에 들어갈 내용으로 알맞은 것을 고르십시오.,2,"무시하기 때문이다
+제공해 주기 때문이다
+필요 없기 때문이다
+가져다주기 힘들기 때문이다",2,"1. Vì phớt lờ (Sai)
+2. Vì cung cấp cho (Đáp án đúng - giải thích lý do vì sao người ta vẫn thích sách giấy)
+3. Vì không cần thiết (Sai)
+4. Vì khó mang lại (Sai)
+--------------------
+Sách giấy mang lại (제공하다) những cảm xúc đặc biệt mà người đọc yêu thích.","1. Because they ignore (Wrong)
+2. Because they provide (Correct Answer - explains why people still like paper books)
+3. Because they are unnecessary (Wrong)
+4. Because it is hard to bring (Wrong)
+--------------------
+Paper books provide (제공하다) special emotions that readers love.",,qf_fill_blank,2,"trap_wrong_inference
+
+trap_neg_없안
+trap_partial_truth",이 글의 내용과 같은 것을 고르십시오.,2,"전자책은 휴대하기가 불편하다.
+종이 책을 읽는 사람은 이제 없다.
+전자책은 장소에 상관없이 읽을 수 있다.
+독자들은 종이 책의 소리를 싫어한다.",3,"1. Sách điện tử bất tiện khi mang theo. (Sai - bài ghi nhẹ và tiện lợi)
+2. Giờ đây không còn ai đọc sách giấy nữa. (Sai - vẫn còn nhiều người)
+3. Sách điện tử có thể đọc bất kể địa điểm nào. (Đúng - khớp nội dung '언제 어디서든')
+4. Độc giả ghét tiếng lật trang của sách giấy. (Sai - họ nhớ nó/그리워하다)
+--------------------
+Đáp án 3 khớp với ưu điểm '언제 어디서든... 책을 읽을 수 있다'.","1. E-books are inconvenient to carry. (Wrong - passage says lightweight and convenient)
+2. No one reads paper books anymore. (Wrong - there are still many people)
+3. E-books can be read regardless of the location. (Correct - matches 'anywhere, anytime')
+4. Readers hate the sound of flipping paper books. (Wrong - they miss it/그리워하다)
+--------------------
+Answer 3 matches the advantage 'can read books anywhere, anytime'.",,qf_content_match,2,"trap_neg_없안
+trap_overgeneralize
+
+trap_detail_distort",,,,,,,,,,,20260515_174350
+220006_20260515_174350_q0,220006,2,read,[25～27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.,1,"'고공 행진' 배춧값, 식탁 물가 '비상'","Giá bắp cải 'diễu hành trên cao', giá cả bàn ăn 'báo động đỏ'","Cabbage prices 'marching high', dining table inflation 'emergency'",economy,,2,"배춧값이 많이 올라서 가계 부담이 커졌다.
+배추를 높게 쌓아 두고 파는 시장이 많아졌다.
+비상용 배추를 식탁 위에 준비해 두어야 한다.
+식탁 물가를 낮추기 위해 배추를 많이 사야 한다.",1,"1. Giá bắp cải tăng mạnh khiến gánh nặng gia đình tăng lên. (Đáp án đúng - giải thích nghĩa bóng của '고공 행진' và '비상')
+2. Có nhiều chợ xếp bắp cải cao để bán. (Hiểu theo nghĩa đen của '고공 행진')
+3. Phải chuẩn bị sẵn bắp cải dự phòng khẩn cấp trên bàn ăn. (Hiểu theo nghĩa đen của '비상')
+4. Phải mua nhiều bắp cải để hạ giá cả bàn ăn. (Suy luận sai)
+--------------------
+'고공 행진' (diễu hành trên cao) nghĩa là giá tăng liên tục ở mức cao, '비상' (khẩn cấp/báo động) nghĩa là tình hình đang trở nên nghiêm trọng.","1. Cabbage prices have risen significantly, increasing the household burden. (Correct Answer - explains metaphor of 'marching high' and 'emergency')
+2. Many markets are stacking cabbages high to sell. (Literal interpretation of 'marching high')
+3. Emergency cabbages should be prepared on the dining table. (Literal interpretation of 'emergency/비상')
+4. One must buy a lot of cabbages to lower dining table prices. (Wrong inference)
+--------------------
+'고공 행진' (high altitude march) means prices are continuously rising at high levels, and '비상' (emergency/alert) means the situation is becoming serious.",,qf_headline_explain,8,"
+trap_wrong_inference
+trap_wrong_inference
+trap_overgeneralize",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220007_20260515_174350_q0,220007,2,read,[39～41] 다음 글에서 <보기>의 문장이 들어가기에 가장 알맞은 곳을 고르십시오.,1,"<보기> 하지만 너무 잦은 세척은 가죽을 상하게 할 수 있으므로 주의해야 한다.
+
+가죽 제품은 시간이 지날수록 멋스러워지지만 관리가 까다롭다. ( ㉠ ) 가죽 전용 클리너를 사용하면 먼지를 깨끗하게 제거할 수 있다. ( ㉡ ) 또한 직사광선을 피하고 통풍이 잘되는 곳에 보관하는 것이 좋다. ( ㉢ ) 이렇게 관리하면 가죽의 질감을 오랫동안 유지할 수 있다. ( ㉣ )","<보기> Tuy nhiên, cần chú ý vì việc tẩy rửa quá thường xuyên có thể làm hỏng da.
+
+Đồ da càng để lâu càng đẹp nhưng việc bảo quản lại rất khắt khe. ( ㉠ ) Nếu sử dụng dụng cụ làm sạch chuyên dụng cho da, bạn có thể loại bỏ bụi bẩn một cách sạch sẽ. ( ㉡ ) Ngoài ra, nên tránh ánh nắng trực tiếp và bảo quản ở nơi thoáng khí. ( ㉢ ) Nếu quản lý như vậy, bạn có thể duy trì kết cấu của da trong thời gian dài. ( ㉣ )","<보기> However, one must be careful because too frequent cleaning can damage the leather.
+
+Leather products become more stylish over time, but management is tricky. ( ㉠ ) If you use a leather-specific cleaner, you can remove dust cleanly. ( ㉡ ) In addition, it is good to avoid direct sunlight and store in a well-ventilated place. ( ㉢ ) If managed like this, you can maintain the texture of the leather for a long time. ( ㉣ )",daily_life,,2,"㉠
+㉡
+㉢
+㉣",2,Đáp án đúng là ㉡. Câu <보기> bắt đầu bằng '하지만' (Tuy nhiên) và nói về việc '세척' (tẩy rửa). Nó phản bác/bổ sung lưu ý ngay sau câu ㉠ nói về việc dùng '전용 클리너' để làm sạch. Đưa vào vị trí ㉡ giúp mạch văn logic: Làm sạch được -> Nhưng đừng làm quá nhiều -> Ngoài ra hãy bảo quản nơi thoáng mát.,"The correct answer is ㉡. The <보기> sentence starts with 'But' (하지만) and talks about 'cleaning' (세척). It counters/adds a caution immediately after the sentence before ㉡ which talks about using a 'special cleaner' to clean. Placing it at ㉡ creates logical flow: Cleaning is possible -> But don't do it too much -> Additionally, store in a cool place.",,qf_sentence_insert,8,"trap_wrong_inference
+
+trap_wrong_inference
+trap_wrong_inference",,,,,,,,,,,,,,,,,,,,,20260515_174350
+220008_1_20260515_174350_q0,220008_1,2,read,[42～43] 다음을 읽고 물음에 답하십시오.,2,"인류의 역사는 도구의 발전과 함께해 왔다. 초기에는 돌이나 나무와 같은 자연물을 그대로 사용했지만, 점차 금속을 다루는 기술이 발달하면서 문명은 비약적으로 성장했다. <b>금속 도구의 등장은 농업 생산성을 높였고 이는 인구의 증가로 이어졌다.</b> 하지만 도구의 발전이 항상 긍정적인 결과만을 가져온 것은 아니다. 전쟁 무기의 고도화는 인류에게 커다란 비극을 안겨주기도 했다. 따라서 우리는 기술의 발전보다 그 기술을 ( ㉠ ) 더 많은 고민을 해야 한다. 기술은 결국 인간의 선택에 의해 그 가치가 결정되기 때문이다.","Lịch sử nhân loại đã đồng hành cùng sự phát triển của công cụ. Ở giai đoạn đầu, con người sử dụng nguyên các vật thể tự nhiên như đá hay gỗ, nhưng khi kỹ thuật xử lý kim loại dần phát triển, nền văn minh đã tăng trưởng nhảy vọt. <b>Sự xuất hiện của công cụ kim loại đã nâng cao năng suất nông nghiệp và điều này dẫn đến sự gia tăng dân số.</b> Tuy nhiên, sự phát triển của công cụ không phải lúc nào cũng chỉ mang lại kết quả tích cực. Sự tinh vi hóa của vũ khí chiến tranh cũng đã mang lại bi kịch lớn cho nhân loại. Vì vậy, chúng ta phải suy nghĩ nhiều hơn về việc ( ㉠ ) kỹ thuật đó hơn là sự phát triển của nó. Bởi lẽ, giá trị của kỹ thuật cuối cùng sẽ được quyết định bởi sự lựa chọn của con người.","Human history has been accompanied by the development of tools. Initially, natural objects such as stones or wood were used as they were, but as techniques for handling metals gradually developed, civilization grew leaps and bounds. <b>The appearance of metal tools increased agricultural productivity, which led to an increase in population.</b> However, the development of tools has not always brought positive results. The sophistication of war weapons also brought great tragedy to mankind. Therefore, we must think more about ( ㉠ ) that technology than its development. This is because the value of technology is ultimately determined by human choice.",history,( ㉠ )에 들어갈 내용으로 알맞은 것을 고르십시오.,2,"어떻게 사용할지에 대해
+얼마나 빨리 개발할지에 대해
+누가 먼저 발견할지에 대해
+어디에서 가르칠지에 대해",1,"1. Về việc sử dụng như thế nào (Đáp án đúng - vì bài nhấn mạnh giá trị phụ thuộc vào lựa chọn/cách dùng của con người)
+2. Về việc phát triển nhanh bao nhiêu (Mâu thuẫn với ý 'hơn là sự phát triển')
+3. Về việc ai sẽ phát hiện trước (Không liên quan)
+4. Về việc sẽ dạy ở đâu (Không liên quan)
+--------------------
+Câu cuối '인간의 선택에 의해 그 가치가 결정' (giá trị quyết định bởi lựa chọn con người) là gợi ý cho 'cách sử dụng'.","1. About how to use (Correct Answer - because the passage emphasizes value depends on human choice/usage)
+2. About how fast to develop (Contradicts 'rather than development')
+3. About who will discover first (Irrelevant)
+4. About where to teach (Irrelevant)
+--------------------
+The last sentence 'value determined by human choice' suggests 'how to use'.",,qf_fill_blank,3,"
+trap_wrong_inference
+trap_shared_noun
+trap_wrong_inference",이 글에서 <b>밑줄 친 부분</b>에 나타난 태도로 알맞은 것을 고르십시오.,2,"금속의 성질을 분석하고 있다.
+도구의 긍정적 측면을 설명하고 있다.
+농업 기술의 한계를 지적하고 있다.
+인구 증가의 원인을 부정하고 있다.",2,"Phần gạch chân (bold) nói về việc công cụ kim loại giúp tăng năng suất và tăng dân số -> đây là các tác động tích cực.
+1. Đang phân tích tính chất kim loại. (Sai)
+2. Đang giải thích mặt tích cực của công cụ. (Đáp án đúng)
+3. Đang chỉ ra hạn chế của kỹ thuật nông nghiệp. (Sai)
+4. Đang phủ nhận nguyên nhân tăng dân số. (Sai)
+--------------------
+Đoạn này mô tả lợi ích (긍정적 측면) của sự phát triển công cụ.","The underlined (bold) part mentions that metal tools helped increase productivity and population -> these are positive impacts.
+1. Analyzing properties of metal. (Wrong)
+2. Explaining positive aspects of tools. (Correct Answer)
+3. Pointing out limits of agricultural technology. (Wrong)
+4. Denying causes of population increase. (Wrong)
+--------------------
+This part describes the benefits (positive aspects) of tool development.",,qf_multi_passage,3,"trap_shared_noun
+
+trap_detail_distort
+trap_neg_없안",,,,,,,,,,,20260515_174350
+220008_2_20260515_174350_q0,220008_2,2,read,[48～50] 다음을 읽고 물음에 답하십시오.,3,"최근 기업들 사이에서 'ESG 경영'이 화두다. 이는 환경(Environment), 사회(Social), 지배구조(Governance)를 중시하는 경영 방식으로, 단순한 이익 창출을 넘어 기업의 사회적 책임을 강조한다. <b>많은 소비자들은 이제 제품의 품질뿐만 아니라 기업이 환경 보호에 기여하는지, 윤리적인 경영을 하는지를 따져보고 구매를 결정한다.</b> 이러한 변화는 기업에게 위기이자 기회이다. ㉠ 사회적 가치를 실현하지 못하는 기업은 소비자들에게 외면받을 수밖에 없기 때문이다. 따라서 기업은 장기적인 성장을 위해 ( ㉡ ) 경영 전략을 세워야 한다.","Gần đây, 'Quản trị ESG' đang là chủ đề nóng giữa các doanh nghiệp. Đây là phương thức quản trị coi trọng Môi trường (Environment), Xã hội (Social) và Quản trị (Governance), nhấn mạnh trách nhiệm xã hội của doanh nghiệp thay vì chỉ tạo ra lợi nhuận đơn thuần. <b>Nhiều người tiêu dùng giờ đây không chỉ xem xét chất lượng sản phẩm mà còn cân nhắc xem doanh nghiệp có đóng góp vào việc bảo vệ môi trường hay quản trị đạo đức hay không rồi mới quyết định mua hàng.</b> Sự thay đổi này vừa là nguy cơ vừa là cơ hội đối với doanh nghiệp. ㉠ Bởi vì những doanh nghiệp không thể hiện thực hóa các giá trị xã hội sẽ không còn cách nào khác là bị người tiêu dùng quay lưng. Vì vậy, doanh nghiệp phải thiết lập chiến lược quản trị ( ㉡ ) để tăng trưởng dài hạn.","Recently, 'ESG Management' has been a hot topic among companies. This is a management method that values Environment, Social, and Governance, emphasizing corporate social responsibility beyond simple profit creation. <b>Many consumers now consider not only product quality but also whether the company contributes to environmental protection and practices ethical management before deciding to purchase.</b> This change is both a crisis and an opportunity for companies. ㉠ This is because companies that fail to realize social values have no choice but to be shunned by consumers. Therefore, companies must establish ( ㉡ ) management strategies for long-term growth.",economy,㉠에 나타난 글쓴이의 태도로 알맞은 것을 고르십시오.,2,"기업의 변화가 시급함을 강조하고 있다.
+소비자의 구매 능력을 높게 평가하고 있다.
+기존의 경영 방식이 효율적이라고 주장하고 있다.
+정부의 규제가 강화되어야 한다고 촉구하고 있다.",1,"Câu ㉠ nói về việc doanh nghiệp sẽ bị quay lưng nếu không thực hiện giá trị xã hội -> Nhấn mạnh sự cấp thiết phải thay đổi.
+1. Nhấn mạnh sự cấp bách của việc thay đổi doanh nghiệp. (Đáp án đúng)
+2. Đánh giá cao năng lực mua sắm của người tiêu dùng. (Sai - bài nói về tiêu chí chọn lọc chứ không phải khả năng tài chính)
+3. Chủ trương rằng phương thức quản trị cũ là hiệu quả. (Sai - ngược với bài)
+4. Thúc giục phải tăng cường quy định của chính phủ. (Sai - không nhắc tới chính phủ)
+--------------------
+Người viết đang cảnh báo về hậu quả nếu doanh nghiệp không thay đổi.","The sentence ㉠ says companies will be shunned if they don't realize social values -> emphasizing the urgency to change.
+1. Emphasizing the urgency of corporate change. (Correct Answer)
+2. Highly evaluating consumers' purchasing power. (Wrong - passage is about selection criteria, not financial ability)
+3. Claiming that existing management methods are efficient. (Wrong - opposite of passage)
+4. Urging that government regulations should be strengthened. (Wrong - government not mentioned)
+--------------------
+The writer is warning about the consequences if companies do not change.",,qf_multi_passage,3,"
+trap_wrong_inference
+trap_neg_없안
+trap_wrong_inference",( ㉡ )에 들어갈 내용으로 알맞은 것을 고르십시오.,2,"이익 극대화에만 집중하는
+사회적 책임을 다하는
+광고를 더 많이 하는
+인건비를 절감하는",2,"1. Chỉ tập trung vào tối đa hóa lợi nhuận (Sai - ESG vượt qua cái này)
+2. Hoàn thành trách nhiệm xã hội (Đáp án đúng - cốt lõi của ESG)
+3. Quảng cáo nhiều hơn (Sai)
+4. Tiết giảm chi phí nhân công (Sai)
+--------------------
+Chiến lược để tăng trưởng dài hạn trong bối cảnh này là thực hiện trách nhiệm xã hội.","1. Focusing only on profit maximization (Wrong - ESG goes beyond this)
+2. Fulfilling social responsibility (Correct Answer - core of ESG)
+3. Advertising more (Wrong)
+4. Reducing labor costs (Wrong)
+--------------------
+The strategy for long-term growth in this context is fulfilling social responsibility.",,qf_fill_blank,3,"trap_shared_noun
+
+trap_wrong_inference
+trap_detail_distort",이 글의 내용과 같은 것을 고르십시오.,2,"소비자들은 이제 제품의 품질만 중요하게 생각한다.
+ESG 경영은 오직 환경 보호만을 목적으로 한다.
+사회적 가치 실현은 기업 성장에 방해가 된다.
+소비자의 구매 기준에 윤리적 요소가 포함되기 시작했다.",4,"1. Giờ đây người tiêu dùng chỉ coi trọng chất lượng sản phẩm. (Sai - còn cả yếu tố môi trường, đạo đức)
+2. Quản trị ESG chỉ có mục đích duy nhất là bảo vệ môi trường. (Sai - cả xã hội và quản trị nữa)
+3. Thực hiện giá trị xã hội gây cản trở sự tăng trưởng của doanh nghiệp. (Sai - giúp tăng trưởng dài hạn)
+4. Yếu tố đạo đức đã bắt đầu được bao gồm trong tiêu chuẩn mua hàng của người tiêu dùng. (Đúng - khớp đoạn bold)
+--------------------
+Đáp án 4 khớp với thông tin về sự thay đổi trong tiêu chí mua sắm của khách hàng.","1. Consumers now only care about product quality. (Wrong - environmental and ethical factors too)
+2. ESG management aims solely for environmental protection. (Wrong - social and governance too)
+3. Realizing social values hinders corporate growth. (Wrong - helps long-term growth)
+4. Ethical elements have started to be included in consumers' purchasing criteria. (Correct - matches bold part)
+--------------------
+Answer 4 matches the information about changes in customers' shopping criteria.",,qf_content_match,3,"trap_partial_truth
+trap_partial_truth
+trap_neg_없안
+",20260515_174350
+120001_20260515_174350_q0,120001,1,read,무엇에 대한 이야기입니까? <보기>와 같이 알맞은 것을 고르십시오.,1,,,,daily_life,오빠는 경찰입니다. 언니는 의사입니다.,2,"나이
+이름
+장소
+직업",4,"Anh trai là cảnh sát. Chị gái là bác sĩ.
+1. Tuổi tác
+2. Tên
+3. Địa điểm
+4. Nghề nghiệp (Đáp án đúng)
+--------------------
+경찰 (Cảnh sát), 의사 (Bác sĩ) là các danh từ chỉ nghề nghiệp.","Older brother is a police officer. Older sister is a doctor.
+1. Age
+2. Name
+3. Place
+4. Occupation (Correct Answer)
+--------------------
+경찰 (Police officer), 의사 (Doctor) are nouns indicating occupations.",,qf_topic_identify,2,"trap_similar_word
+trap_shared_noun
+trap_similar_word
+",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120002_1_20260515_174350_q0,120002_1,1,read,[34] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.,1,,,,shopping_price,저는 (   )에 갑니다. 우표를 삽니다.,2,"우체국
+은행
+서점
+약국",1,"Tôi đi đến (   ). Tôi mua tem.
+1. Bưu điện (Đáp án đúng)
+2. Ngân hàng
+3. Hiệu sách
+4. Hiệu thuốc
+--------------------
+우표 (Tem) thường được bán ở bưu điện (우체국).","I go to the (   ). I buy stamps.
+1. Post office (Correct Answer)
+2. Bank
+3. Bookstore
+4. Pharmacy
+--------------------
+Stamps (우표) are typically sold at the post office (우체국).",,qf_fill_blank,3,"
+trap_shared_noun
+trap_synonym_swap
+trap_same_ending",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120002_2_20260515_174350_q0,120002_2,1,read,[35～37] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.,1,,,,daily_life,아침에 일어납니다. 물을 (   ).,2,"봅니다
+먹습니다
+마십니다
+합니다",3,"Thức dậy vào buổi sáng. (Tôi) (   ) nước.
+1. Xem
+2. Ăn (thường dùng cho thức ăn rắn)
+3. Uống (Đáp án đúng - dùng cho chất lỏng)
+4. Làm
+--------------------
+Với '물' (nước), động từ phù hợp nhất là '마시다' (uống).","Waking up in the morning. (I) (   ) water.
+1. See
+2. Eat (usually for solid food)
+3. Drink (Correct Answer - for liquids)
+4. Do
+--------------------
+With '물' (water), the most appropriate verb is '마시다' (to drink).",,qf_fill_blank,3,"trap_same_ending
+trap_synonym_swap
+
+trap_same_ending",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120002_3_20260515_174350_q0,120002_3,1,read,[38] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.,1,,,,weather_season,밖이 춥습니다. (   )을 입습니다.,3,"모자
+구두
+장갑
+코트",4,"Bên ngoài trời lạnh. (Tôi) mặc (   ).
+1. Mũ
+2. Giày da
+3. Găng tay
+4. Áo khoác (Đáp án đúng)
+--------------------
+Khi trời lạnh (춥다), chúng ta cần mặc áo khoác (코트). Động từ '입다' thường dùng cho quần áo.","It is cold outside. (I) put on (   ).
+1. Hat
+2. Shoes
+3. Gloves
+4. Coat (Correct Answer)
+--------------------
+When it's cold (춥다), we need to wear a coat (코트). The verb '입다' is used for clothing.",,qf_fill_blank,3,"trap_shared_noun
+trap_similar_word
+trap_shared_noun
+",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120002_4_20260515_174350_q0,120002_4,1,read,[39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.,1,,,,daily_life,동생이 선물을 줍니다. 기분이 (   ) 좋습니다.,3,"아주
+가끔
+벌써
+아직",1,"Em tặng quà. Tâm trạng (   ) tốt.
+1. Rất (Đáp án đúng)
+2. Thỉnh thoảng
+3. Đã/rồi
+4. Vẫn chưa
+--------------------
+'아주' dùng để nhấn mạnh mức độ của tính từ '좋다'.","Younger sibling gives a gift. I feel (   ) good.
+1. Very (Correct Answer)
+2. Sometimes
+3. Already
+4. Yet
+--------------------
+'아주' is used to emphasize the degree of the adjective '좋다'.",,qf_fill_blank,3,"
+trap_synonym_swap
+trap_similar_word
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120003_1_20260515_174350_q0,120003_1,1,read,[40～41] 다음을 읽고 맞지 않는 것을 고르십시오.,1,,,,food_restaurant,,3,"요리 교실은 금요일에 합니다.
+비빔밥을 만듭니다.
+참가비는 5,000원입니다.
+오전에 요리를 합니다.",4,"Thông báo lớp học nấu ăn. Thời gian: 10/5 (Thứ 6) 2h-4h chiều. Địa điểm: Bếp tầng 2 Trung tâm tiếng Hàn. Thực đơn: Làm Bibimbap. Phí tham gia: 5,000 won. Đồ chuẩn bị: Tạp chề.
+1. Lớp học nấu ăn diễn ra vào thứ 6. (Đúng theo ảnh)
+2. Làm Bibimbap. (Đúng theo ảnh)
+3. Phí tham gia là 5,000 won. (Đúng theo ảnh)
+4. Nấu ăn vào buổi sáng. (SAI - ảnh ghi chiều/오후)
+--------------------
+Đáp án đúng là 4 vì nó KHÔNG KHỚP với thông tin '오후 2시' trên ảnh.","Cooking class notice. Date: May 10th (Friday) 2 PM - 4 PM. Place: Kitchen, 2nd floor, Korean Center. Menu: Making Bibimbap. Fee: 5,000 won. Preparation: Apron.
+1. The cooking class is on Friday. (Correct per image)
+2. Bibimbap is made. (Correct per image)
+3. The fee is 5,000 won. (Correct per image)
+4. Cooking is done in the morning. (WRONG - image says afternoon/오후)
+--------------------
+The correct answer is 4 because it DOES NOT MATCH the '2 PM' information on the image.",,qf_not_match,4,"trap_neg_reverse
+trap_neg_reverse
+trap_neg_reverse
+",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120003_2_20260515_174350_q0,120003_2,1,read,[42] 다음을 읽고 맞지 않는 것을 고르십시오.,1,,,,school_education,,3,"민수 씨는 도서관에 있습니다.
+민수 씨는 6시까지 공부합니다.
+민수 씨는 숙제가 많습니다.
+수진 씨가 전화해야 합니다.",2,"Lời nhắn. Gửi Sujin, tớ đang ở thư viện. Vì nhiều bài tập nên tớ sẽ học đến 7h tối. Nếu gặp ở thư viện thì tốt quá. Hãy gọi cho tớ lúc 6h nhé. -Minsu-
+1. Minsu đang ở thư viện. (Đúng theo memo)
+2. Minsu học đến 6h. (SAI - memo ghi 7h)
+3. Minsu có nhiều bài tập. (Đúng theo memo)
+4. Sujin phải gọi điện. (Đúng theo memo)
+--------------------
+Đáp án đúng là 2 vì nó KHÔNG KHỚP với thông tin '7시까지' trong lời nhắn.","Note. To Sujin, I am at the library. I have a lot of homework so I will study until 7 PM. It would be good to meet at the library. Please call me at 6 PM. -Minsu-
+1. Minsu is at the library. (Correct per memo)
+2. Minsu studies until 6 PM. (WRONG - memo says 7 PM)
+3. Minsu has a lot of homework. (Correct per memo)
+4. Sujin has to call. (Correct per memo)
+--------------------
+The correct answer is 2 because it DOES NOT MATCH the 'until 7 PM' information in the note.",,qf_not_match,4,"trap_neg_reverse
+
+trap_neg_reverse
+trap_neg_reverse",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120004_1_20260515_174350_q0,120004_1,1,read,[43～45] 다음의 내용과 같은 것을 고르십시오.,1,,,,hobby_leisure,저는 사진 찍는 것을 좋아합니다. 어제는 공원에서 예쁜 꽃 사진을 많이 찍었습니다. 그 사진들을 동생에게 보여 주었습니다.,2,"저는 사진 찍는 것을 싫어합니다.
+저는 어제 꽃을 샀습니다.
+저는 공원에서 사진을 찍었습니다.
+동생이 사진을 찍어 주었습니다.",3,"Tôi thích chụp ảnh. Hôm qua tôi đã chụp nhiều ảnh hoa đẹp ở công viên. Tôi đã cho em xem những bức ảnh đó.
+1. Tôi ghét chụp ảnh. (Sai - ngược với bài)
+2. Hôm qua tôi đã mua hoa. (Sai - chỉ chụp ảnh hoa)
+3. Tôi đã chụp ảnh ở công viên. (Đúng - khớp nội dung)
+4. Em đã chụp ảnh cho tôi. (Sai - tôi chụp và cho em xem)
+--------------------
+Đáp án 3 khớp với thông tin '공원에서... 사진을 많이 찍었습니다'.","I like taking pictures. Yesterday, I took many pictures of pretty flowers at the park. I showed those pictures to my younger sibling.
+1. I hate taking pictures. (Wrong - opposite of passage)
+2. I bought flowers yesterday. (Wrong - only took pictures)
+3. I took pictures at the park. (Correct - matches content)
+4. My younger sibling took pictures for me. (Wrong - I took them and showed them)
+--------------------
+Answer 3 matches the information 'took many pictures at the park'.",,qf_content_match,5,"trap_neg_없안
+trap_detail_distort
+
+trap_subject_swap",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120004_2_20260515_174350_q0,120004_2,1,read,[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.,1,,,,food_restaurant,제 친구는 요리를 아주 잘합니다. 그 친구가 만들어 주는 음식은 모두 맛있습니다. 저도 그 친구에게 요리를 배우고 싶습니다.,3,"저는 친구와 같이 밥을 먹습니다.
+저는 요리하는 것이 즐겁습니다.
+친구는 음식을 많이 만듭니다.
+저는 친구에게 요리를 배우고 싶습니다.",4,"Bạn tôi nấu ăn rất giỏi. Những món bạn ấy làm đều ngon. Tôi cũng muốn học nấu ăn từ bạn ấy.
+1. Tôi ăn cơm cùng bạn. (Chi tiết phụ)
+2. Tôi thấy nấu ăn rất vui. (Không có trong bài)
+3. Bạn làm nhiều đồ ăn. (Không phải ý chính)
+4. Tôi muốn học nấu ăn từ bạn. (Ý chính - mong muốn cốt lõi sau khi khen bạn)
+--------------------
+Câu cuối '요리를 배우고 싶습니다' thể hiện ý định trung tâm của người viết.","My friend is very good at cooking. All the food that friend makes is delicious. I also want to learn cooking from that friend.
+1. I eat with my friend. (Minor detail)
+2. I find cooking fun. (Not in passage)
+3. Friend makes a lot of food. (Not the main idea)
+4. I want to learn cooking from my friend. (Main idea - core desire after praising the friend)
+--------------------
+The last sentence 'want to learn cooking' represents the writer's central intention.",,qf_central_thought,5,"trap_detail_distort
+trap_wrong_inference
+trap_partial_truth
+",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120005_20260515_174350_q0,120005,1,read,다음을 읽고 물음에 답하십시오.,2,저는 주말에 산에 가는 것을 좋아합니다. 지난주 토요일에도 산에 갔습니다. ㉠ 날씨가 좋았습니다. 산 위에서 시원한 바람이 불었습니다. 공기도 아주 맑아서 기분이 정말 좋았습니다.,Tôi thích đi leo núi vào cuối tuần. Thứ bảy tuần trước tôi cũng đã đi núi. ㉠ thời tiết rất đẹp. Gió mát thổi trên đỉnh núi. Không khí cũng rất trong lành nên tâm trạng thật sự rất tốt.,"I like going to the mountains on weekends. Last Saturday, I also went to the mountains. ㉠ the weather was good. A cool breeze blew from the top of the mountain. The air was also very clear, so I felt really good.",hobby_leisure,㉠에 들어갈 알맞은 말을 고르십시오.,2,"그리고
+하지만
+그래서
+그러면",1,"1. Và/Và rồi (Đáp án đúng - nối 2 câu cùng tính chất tích cực)
+2. Nhưng
+3. Vì vậy
+4. Nếu vậy
+--------------------
+'그리고' được dùng để nối hai sự việc diễn ra liên tiếp hoặc bổ sung thông tin.","1. And (Correct Answer - connects two positive statements)
+2. But
+3. So
+4. If so
+--------------------
+'그리고' is used to connect sequential events or add information.",,qf_fill_blank,7,"
+trap_synonym_swap
+trap_shared_noun
+trap_synonym_swap",이 글의 내용과 같은 것을 고르십시오.,3,"저는 지난주에 산에 안 갔습니다.
+산에는 바람이 불지 않았습니다.
+산의 공기는 맑지 않았습니다.
+저는 토요일에 산에 갔습니다.",4,"1. Tuần trước tôi không đi núi. (Sai)
+2. Trên núi gió không thổi. (Sai)
+3. Không khí trên núi không trong lành. (Sai)
+4. Tôi đã đi núi vào thứ bảy. (Đúng - khớp nội dung)
+--------------------
+Đáp án 4 khớp với câu '지난주 토요일에도 산에 갔습니다'.","1. I didn't go to the mountains last week. (Wrong)
+2. The breeze didn't blow in the mountains. (Wrong)
+3. The mountain air was not clear. (Wrong)
+4. I went to the mountains on Saturday. (Correct - matches content)
+--------------------
+Answer 4 matches the sentence 'Last Saturday, I also went to the mountains'.",,qf_content_match,7,"trap_neg_없안
+trap_neg_없안
+trap_neg_없안
+",,,,,,,,,,,20260515_174350
+120006_20260515_174350_q0,120006,1,read,다음을 순서대로 맞게 나열한 것을 고르십시오.,1,,,,food_restaurant,"(가) 저는 요리하는 것을 아주 좋아합니다.
+(나) 어제는 집에서 한국 음식을 만들었습니다.
+(다) 그 음식을 친구들과 같이 맛있게 먹었습니다.
+(라) 요리가 조금 어려웠지만 재미있었습니다.",2,"(가)-(나)-(라)-(다)
+(가)-(나)-(다)-(라)
+(가)-(라)-(나)-(다)
+(가)-(다)-(나)-(라)",1,"Thứ tự đúng: (가) Giới thiệu sở thích nấu ăn -> (나) Sự việc hôm qua làm món Hàn -> (라) Cảm nhận khi nấu (khó nhưng vui) -> (다) Ăn ngon lành cùng bạn bè.
+--------------------
+Logic: Giới thiệu -> Hành động -> Quá trình/Cảm nhận -> Kết quả.","Correct order: (가) Intro about cooking hobby -> (나) Action yesterday making Korean food -> (라) Feeling during cooking (hard but fun) -> (다) Result: eating with friends.
+--------------------
+Logic: Introduction -> Action -> Process/Feeling -> Result.",,qf_sentence_order,6,"
+trap_order_swap
+trap_order_swap
+trap_order_swap",,,,,,,,,,,,,,,,,,,,,20260515_174350
+120007_1_20260515_174350_q0,120007_1,1,read,[59 ~ 60] 다음을 읽고 물음에 답하십시오.,2,저는 어제 백화점에 갔습니다. 동생의 생일 선물을 사러 갔습니다. ㉠ 백화점에는 예쁜 옷과 신발이 많았습니다. 저는 동생이 좋아하는 파란색 티셔츠를 샀습니다. 선물을 받고 기뻐할 동생을 생각하니 저도 행복했습니다. 집으로 돌아오는 길에 케이크도 하나 샀습니다.,"Hôm qua tôi đã đi đến trung tâm thương mại. Tôi đi để mua quà sinh nhật cho em. ㉠ Ở trung tâm thương mại có nhiều quần áo và giày dép đẹp. Tôi đã mua một chiếc áo phông màu xanh da trời mà em thích. Nghĩ đến việc em sẽ vui khi nhận quà, tôi cũng thấy hạnh phúc. Trên đường về nhà, tôi cũng đã mua một cái bánh kem.","I went to the department store yesterday. I went to buy a birthday present for my younger sibling. ㉠ There were many pretty clothes and shoes in the department store. I bought a blue T-shirt that my sibling likes. Thinking about how happy my sibling would be to receive the gift made me happy too. On the way back home, I also bought a cake.",shopping_price,㉠에 들어갈 알맞은 말을 고르십시오.,2,"그래서
+하지만
+그러면
+그런데",4,"1. Vì vậy
+2. Nhưng
+3. Nếu vậy
+4. Thế rồi/Và rồi (Đáp án đúng - chuyển sang mô tả bối cảnh ở bưu điện)
+--------------------
+'그런데' được dùng để chuyển tiếp sang một bối cảnh hoặc nội dung mới liên quan.","1. So
+2. But
+3. If so
+4. And/By the way (Correct Answer - transitions to describing the scene at the store)
+--------------------
+'그런데' is used to transition to a new related context or content.",,qf_fill_blank,3,"trap_shared_noun
+trap_synonym_swap
+trap_synonym_swap
+",이 글의 내용과 같은 것을 고르십시오.,3,"저는 동생의 신발을 샀습니다.
+저는 동생과 같이 백화점에 갔습니다.
+저는 집 근처에서 케이크를 샀습니다.
+저는 파란색 티셔츠를 샀습니다.",4,"1. Tôi đã mua giày cho em. (Sai - mua áo phông)
+2. Tôi đã đi trung tâm thương mại cùng em. (Sai - đi mua quà cho em nên thường đi một mình)
+3. Tôi đã mua bánh kem gần nhà. (Sai - mua trên đường về)
+4. Tôi đã mua áo phông màu xanh da trời. (Đúng - khớp nội dung)
+--------------------
+Đáp án 4 khớp với câu '파란색 티셔츠를 샀습니다'.","1. I bought shoes for my sibling. (Wrong - bought T-shirt)
+2. I went to the department store with my sibling. (Wrong - went alone to buy a surprise present)
+3. I bought a cake near my house. (Wrong - bought it on the way home)
+4. I bought a blue T-shirt. (Correct - matches content)
+--------------------
+Answer 4 matches the sentence 'bought a blue T-shirt'.",,qf_content_match,3,"trap_shared_noun
+trap_subject_swap
+trap_detail_distort
+",,,,,,,,,,,20260515_174350
+120007_2_20260515_174350_q0,120007_2,1,read,[61～68] 다음을 읽고 물음에 답하십시오.,2,요즘 사람들은 건강을 위해 주말에 숲에 자주 갑니다. 숲에서 나무를 보면서 걸으면 스트레스가 풀리고 기분이 좋아집니다. ㉠ 숲에는 맑은 공기와 예쁜 꽃들도 많습니다. 사람들은 숲에서 사진을 찍거나 가족과 이야기를 나눕니다. 숲은 사람들에게 아주 소중한 장소입니다. 그래서 우리는 숲을 잘 보호해야 합니다.,"Dạo này, mọi người thường xuyên đi vào rừng vào cuối tuần vì sức khỏe. Đi bộ trong rừng và ngắm nhìn cây cối giúp giảm bớt căng thẳng và tâm trạng trở nên tốt hơn. ㉠ Trong rừng cũng có nhiều không khí trong lành và những bông hoa đẹp. Mọi người chụp ảnh trong rừng hoặc trò chuyện cùng gia đình. Rừng là một nơi rất quý giá đối với con người. Vì vậy chúng ta phải bảo vệ rừng thật tốt.","These days, people often go to the forest on weekends for their health. Walking in the forest while looking at the trees relieves stress and makes you feel better. ㉠ There is also plenty of fresh air and pretty flowers in the forest. People take pictures in the forest or talk with their families. The forest is a very precious place for people. Therefore, we must protect the forest well.",health_medical,㉠에 들어갈 알맞은 말을 고르십시오.,2,"그리고
+하지만
+그래서
+그러면",1,"1. Và/Hơn nữa (Đáp án đúng - bổ sung thêm ưu điểm của rừng)
+2. Nhưng
+3. Vì vậy
+4. Nếu vậy
+--------------------
+'그리고' dùng để bổ sung thông tin tích cực về rừng sau khi đã nói về việc đi bộ.","1. And/Furthermore (Correct Answer - adds more benefits of the forest)
+2. But
+3. So
+4. If so
+--------------------
+'그리고' is used to add more positive information about the forest after mentioning walking.",,qf_fill_blank,3,"
+trap_synonym_swap
+trap_shared_noun
+trap_synonym_swap",이 글의 내용과 같은 것을 고르십시오.,2,"숲에 가면 스트레스가 생깁니다.
+사람들은 평일에 숲에 많이 갑니다.
+숲은 우리에게 소중한 곳입니다.
+숲에서는 사진을 찍을 수 없습니다.",3,"1. Đi rừng thì bị căng thẳng. (Sai - giúp giảm căng thẳng)
+2. Mọi người đi rừng nhiều vào ngày thường. (Sai - bài ghi cuối tuần)
+3. Rừng là nơi quý giá đối với chúng ta. (Đúng - khớp nội dung)
+4. Không thể chụp ảnh trong rừng. (Sai - có thể chụp ảnh)
+--------------------
+Đáp án 3 khớp với câu '숲은 사람들에게 아주 소중한 장소입니다'.","1. Going to the forest causes stress. (Wrong - it relieves stress)
+2. People go to the forest a lot on weekdays. (Wrong - passage says weekends)
+3. The forest is a precious place for us. (Correct - matches content)
+4. You cannot take pictures in the forest. (Wrong - people do take pictures)
+--------------------
+Answer 3 matches the sentence 'The forest is a very precious place for people'.",,qf_content_match,3,"trap_neg_없안
+trap_detail_distort
+
+trap_neg_없안",,,,,,,,,,,20260515_174350
+120007_3_20260515_174350_q0,120007_3,1,read,[69~70] 다음을 읽고 물음에 답하십시오.,2,"한국 사람들은 이사한 후에 친구들을 집으로 초대합니다. 이것을 '집들이'라고 합니다. 집들이에 갈 때 사람들은 보통 세제나 휴지를 선물로 준비합니다. ㉠ 세제 거품처럼 좋은 일이 많이 생기고, 휴지처럼 모든 일이 술술 잘 풀리기를 바라는 마음이 담겨 있습니다. 요즘은 이런 선물 대신에 집 주인에게 필요한 물건을 물어보고 사 가기도 합니다.","Người Hàn Quốc sau khi chuyển nhà thường mời bạn bè đến nhà. Việc này gọi là 'Jipdeuri' (tiệc tân gia). Khi đi tân gia, mọi người thường chuẩn bị bột giặt hoặc khăn giấy làm quà tặng. ㉠ Chứa đựng mong muốn có nhiều việc tốt lành nảy nở như bọt xà phòng, và mọi việc đều hanh thông trơn tru như cách rút khăn giấy. Dạo này, thay vì những món quà như vậy, người ta cũng thường hỏi chủ nhà món đồ cần thiết rồi mua đến.","Korean people invite friends to their house after moving. This is called 'Jipdeuri' (housewarming party). When going to a housewarming party, people usually prepare detergent or tissue as gifts. ㉠ It contains the wish that many good things will arise like detergent bubbles, and everything will go smoothly like pulling out tissues. These days, instead of such gifts, people also ask the homeowner what they need and buy that.",culture_traditional,㉠에 들어갈 알맞은 말을 고르십시오.,2,"여기에는
+저기에는
+어디에는
+거기에는",1,"1. Ở đây/Trong việc này (Đáp án đúng - chỉ hành động tặng quà vừa nhắc tới)
+2. Ở kia
+3. Ở đâu
+4. Ở đó
+--------------------
+'여기에는' dùng để chỉ hành động hoặc tình huống vừa được đề cập ngay trước đó.","1. Here/In this (Correct Answer - refers to the gifting action mentioned)
+2. Over there
+3. Where
+4. There
+--------------------
+'여기에는' is used to refer back to the action or situation mentioned immediately before.",,qf_fill_blank,3,"
+trap_synonym_swap
+trap_shared_noun
+trap_synonym_swap",이 글의 내용과 같은 것을 고르십시오.,3,"이사하기 전에 친구들을 초대합니다.
+요즘은 필요한 선물을 사 가기도 합니다.
+세제 선물은 나쁜 일이 생기라는 뜻입니다.
+집들이 선물은 항상 휴지만 준비합니다.",2,"1. Mời bạn bè trước khi chuyển nhà. (Sai - mời sau khi chuyển)
+2. Dạo này người ta cũng mua những món quà cần thiết. (Đúng - khớp nội dung)
+3. Tặng bột giặt nghĩa là mong chuyện xấu xảy ra. (Sai - mong chuyện tốt)
+4. Quà tân gia luôn luôn chỉ chuẩn bị khăn giấy. (Sai - có cả bột giặt hoặc đồ cần thiết)
+--------------------
+Đáp án 2 khớp với câu '집 주인에게 필요한 물건을 물어보고 사 가기도 합니다'.","1. Friends are invited before moving. (Wrong - after moving)
+2. These days, people also buy necessary gifts. (Correct - matches content)
+3. Gifting detergent means wishing for bad things. (Wrong - wishing for good things)
+4. Housewarming gifts are always just tissues. (Wrong - detergent or necessary items too)
+--------------------
+Answer 2 matches the sentence 'ask the homeowner what they need and buy that'.",,qf_content_match,3,"trap_detail_distort
+
+trap_neg_없안
+trap_overgeneralize",,,,,,,,,,,20260515_174350

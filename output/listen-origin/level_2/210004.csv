@@ -1,0 +1,27 @@
+﻿id,kind,level,tag,title,count_question,g_text_audio,g_text_audio_vi,g_text_audio_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,created_at
+210004_20260515_170026_q0,210004,2,listen,[13～16]다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점),1,"여자: 어제 동네에 새로 생긴 전통 시장에 다녀왔어요. 생각보다 깨끗하더라고요.
+남자: 그래요? 전통 시장은 주차하기가 불편해서 잘 안 가게 되던데.
+여자: 거기는 이번에 주차장도 넓게 만들어서 이용하기 편했어요.
+남자: 아, 그래요? 저도 이번 주말에 한번 가 봐야겠네요.","Nữ: Hôm qua tôi đã đi chợ truyền thống mới mở trong khu phố. Nó sạch sẽ hơn tôi nghĩ đấy.
+Nam: Thế à? Chợ truyền thống thường bất tiện việc đỗ xe nên tôi ít khi đi.
+Nữ: Chỗ đó lần này người ta xây bãi đỗ xe rộng rãi nên sử dụng rất tiện.
+Nam: Ồ, vậy sao? Cuối tuần này tôi cũng phải thử đi một chuyến xem sao.","Woman: I went to the newly opened traditional market in the neighborhood yesterday. It was cleaner than I thought.
+Man: Really? I don't usually go to traditional markets because parking is inconvenient.
+Woman: They built a spacious parking lot this time, so it was convenient to use.
+Man: Oh, really? I should try going there this weekend too.",culture_event,,2,"여자는 시장이 깨끗하지 않다고 생각합니다.
+남자는 어제 전통 시장에 다녀왔습니다.
+시장의 주차 시설이 예전보다 좋아졌습니다.
+남자는 주말에 시장에 가지 않을 겁니다.",3,"1. Người phụ nữ nghĩ rằng chợ không sạch sẽ. (trap_neg_없안)
+2. Người đàn ông đã đi chợ truyền thống hôm qua. (trap_subject_swap)
+3. Cơ sở hạ tầng đỗ xe của chợ đã tốt hơn trước. (Đáp án đúng)
+4. Người đàn ông sẽ không đi chợ vào cuối tuần. (trap_neg_없안)
+--------------------
+Nữ nói bãi đỗ xe rộng rãi, nam nói sẽ đi vào cuối tuần.","1. The woman thinks the market is not clean. (trap_neg_없안)
+2. The man went to the traditional market yesterday. (trap_subject_swap)
+3. The market's parking facilities have improved. (Correct Answer)
+4. The man will not go to the market on the weekend. (trap_neg_없안)
+--------------------
+The woman says the parking lot is spacious, and the man says he'll go on the weekend.",,qf_match_content,7,"trap_neg_없안
+trap_subject_swap
+
+trap_neg_없안",,,,,,,,,,,20260515_170026

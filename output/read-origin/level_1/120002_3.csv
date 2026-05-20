@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120002_3_20260515_174350_q0,120002_3,1,read,[38] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오.,1,,,,weather_season,밖이 춥습니다. (   )을 입습니다.,3,"모자
+구두
+장갑
+코트",4,"Bên ngoài trời lạnh. (Tôi) mặc (   ).
+1. Mũ
+2. Giày da
+3. Găng tay
+4. Áo khoác (Đáp án đúng)
+--------------------
+Khi trời lạnh (춥다), chúng ta cần mặc áo khoác (코트). Động từ '입다' thường dùng cho quần áo.","It is cold outside. (I) put on (   ).
+1. Hat
+2. Shoes
+3. Gloves
+4. Coat (Correct Answer)
+--------------------
+When it's cold (춥다), we need to wear a coat (코트). The verb '입다' is used for clothing.",,qf_fill_blank,3,"trap_shared_noun
+trap_similar_word
+trap_shared_noun
+",,,,,,,,,,,,,,,,,,,,,20260515_174350

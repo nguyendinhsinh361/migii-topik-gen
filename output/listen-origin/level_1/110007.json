@@ -1,0 +1,50 @@
+[
+  {
+    "title": "다음을 듣고 <u>여자</u>의 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 수미 씨, 또 샌드위치예요? 밖에서 사 먹는 게 더 편하지 않아요?\n여자: 편하기는 하지만 집에서 직접 만든 음식이 건강에 더 좋잖아요.\n남자: 그래도 매일 준비하려면 힘들 텐데요.\n여자: 조금 힘들어도 건강을 생각해서 직접 요리하는 게 좋다고 생각해요.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Sumi, lại là bánh sandwich à? Ăn ở ngoài không phải tiện hơn sao?\nNữ: Tiện thì có tiện thật nhưng đồ ăn tự làm ở nhà tốt cho sức khỏe hơn mà.\nNam: Nhưng mà ngày nào cũng chuẩn bị thì mệt lắm đấy.\nNữ: Dù hơi mệt một chút nhưng vì sức khỏe nên tôi nghĩ việc tự nấu ăn là tốt nhất.",
+        "en": "Man: Sumi, sandwiches again? Isn't it more convenient to eat out?\nWoman: It is convenient, but food made at home is better for your health.\nMan: But it must be hard to prepare every day.\nWoman: Even if it's a bit hard, I think it's better to cook yourself for the sake of your health."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "밖에서 음식을 사 먹는 게 편합니다.",
+          "샌드위치를 매일 먹으면 안 좋습니다.",
+          "건강을 위해 직접 요리하는 게 좋습니다.",
+          "요리하는 것은 시간이 많이 걸립니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. Ăn ngoài thì tiện lợi. (trap_opinion_swap - ý kiến của nam)\n2. Ăn bánh sandwich mỗi ngày là không tốt. (trap_shared_noun)\n3. Nên tự nấu ăn vì sức khỏe. (Đáp án đúng)\n4. Nấu ăn tốn nhiều thời gian. (trap_shared_noun)\n--------------------\nNgười phụ nữ nhấn mạnh việc tự nấu ăn tốt cho sức khỏe dù vất vả.",
+          "en": "1. Eating out is convenient. (trap_opinion_swap - man's opinion)\n2. Eating sandwiches every day is not good. (trap_shared_noun)\n3. It's better to cook yourself for health. (Correct Answer)\n4. Cooking takes a lot of time. (trap_shared_noun)\n--------------------\nThe woman emphasizes that cooking for oneself is better for health despite the effort."
+        },
+        "question_feature": "qf_main_opinion",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_opinion_swap",
+          "2": "trap_shared_noun",
+          "3": "",
+          "4": "trap_shared_noun"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110007",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "food_restaurant"
+  }
+]

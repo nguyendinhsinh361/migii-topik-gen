@@ -1,0 +1,1142 @@
+[
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 친구와 함께 삽니다. 우리는 집에서 한국 가수의 노래를 매일 듣습니다. 금요일에는 수업이 끝나고 같이 노래방에 갑니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "친구는 저와 같이 삽니다.",
+          "저는 금요일에 수업이 없습니다.",
+          "우리는 한국 노래를 가끔 듣습니다.",
+          "친구는 금요일에 혼자 노래방에 갑니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "I live with my friend. We listen to Korean singers every day at home. On Fridays, after class, we go to karaoke together.\n\n1. My friend lives with me.\n2. I don’t have classes on Friday.\n3. We listen to Korean songs sometimes.\n4. My friend goes to karaoke alone on Friday.\n--------------------\nThe paragraph contains the sentence \"I live with my friend\". 1 is the correct answer.",
+          "vi": "Tôi sống cùng với bạn của tôi. Hằng ngày ở nhà, chúng tôi nghe nhạc của ca sĩ Hàn Quốc. Vào thứ 6 sau khi kết thúc tiết học chúng tôi đi hát karaoke cùng nhau.\n\n1. Bạn tôi sống cùng tôi.\n2. Tôi không có tiết học vào thứ 6.\n3. Chúng tôi thỉnh thoảng nghe nhạc Hàn Quốc.\n4. Bạn tôi đi hát karaoke một mình vào thứ sáu.\n--------------------\nĐoạn văn có câu \"Tôi sống cùng với bạn của tôi\". 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "매년 여름에 한강에서 축제를 합니다. 저는 올해 한강 축제에 처음 갔습니다. 축제에서 춤 공연도 구경하고 맛있는 치킨도 먹었습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "이 축제는 가을에 합니다.",
+          "이 축제에서 춤 공연을 봤습니다.",
+          "저는 작년에 이 축제에 갔습니다.",
+          "저는 이 축제에서 치킨을 못 먹었습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "A festival is held at the Han River every summer. I went to the Han River Festival for the first time this year. At the festival, I watched a dance performance and ate delicious chicken.\n\n1. This festival is held in the fall.\n2. I saw a dance performance at this festival.\n3. I went to this festival last year.\n4. I couldn’t eat chicken at this festival.\n--------------------\nThis person watched a dance performance and ate delicious chicken. 2 is the correct answer.",
+          "vi": "Mỗi năm vào mùa hè, có một lễ hội tổ chức tại sông Hàn. Năm nay là lần đầu tiên tôi đến lễ hội sông Hàn. Tại lễ hội, tôi được xem biểu diễn múa và ăn món gà rất ngon.\n\n1. Lễ hội này được tổ chức vào mùa thu.\n2. Tôi đã xem các màn trình diễn nhảy múa ở lễ hội này.\n3. Năm ngoái tôi đã đến lễ hội này.\n4. Tôi đã không thể ăn gà trong lễ hội này.\n--------------------\nNgười này được xem biểu diễn múa và ăn món gà rất ngon. 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 자전거가 있지만 잘 못 탑니다. 그래서 저는 주말마다 민수 씨를 만나서 자전거를 배웁니다. 나중에 민수 씨와 자전거 여행을 하고 싶습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 자전거가 없습니다.",
+          "저는 지금 자전거를 잘 탑니다.",
+          "저는 주말에 민수 씨를 만납니다.",
+          "저는 요즘 민수 씨와 자전거 여행을 합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "I have a bicycle, but I'm not good at riding it. So, I meet Minsu every weekend and learn how to ride a bike. I would like to go on a bicycle trip with Minsu later.\n\n1. I don’t have a bicycle.\n2. I am good at riding a bicycle now.\n3. I meet Minsu on the weekend.\n4. These days, I am going on a bicycle trip with Minsu.\n--------------------\nEvery weekend, the character \"I\" meets Minsu to learn to ride a bicycle. 3 is the correct answer.",
+          "vi": "Tôi có xe đạp nhưng tôi không biết đi. Vì vậy cuối tuần nào tôi cũng gặp Minsu để học lái xe đạp. Sau này tôi muốn đi du lịch bằng xe đạp với Minsu.\n\n1. Tôi không có xe đạp.\n2. Bây giờ tôi đi xe đạp rất giỏi.\n3. Tôi gặp Minsu vào cuối tuần.\n4. Dạo này tôi đang đi du lịch bằng xe đạp với Minsu.\n--------------------\nVào cuối tuần nhân vật \"tôi\" gặp Minsu để học đi xe đạp. 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 등산을 하러 제주도에 왔습니다. 그런데 오늘 비가 와서 등산을 못 했습니다. 내일은 꼭 산에 가고 싶습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 제주도에서 등산할 겁니다.",
+          "저는 등산을 하는 것이 힘듭니다.",
+          "저는 비가 오는 날을 좋아합니다.",
+          "저는 제주도에 가서 살려고 합니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "I came to Jeju Island to go hiking. But it rained today so I couldn't hike. I really want to go to the mountains tomorrow.\n\n1. I am going to hike in Jeju Island.\n2. Hiking is difficult for me.\n3. I like rainy days.\n4. I'm going to live in Jeju Island.\n--------------------\nThe purpose of the character \"I\" when going to Jeju Island is to go hiking. 1 is the correct answer.",
+          "vi": "Tôi đã đến đảo Jeju để leo núi. Nhưng hôm nay trời mưa nên tôi đã không thể leo núi. Tôi thực sự muốn leo núi vào ngày mai.\n\n1. Tôi sẽ đi leo núi ở đảo Jeju.\n2. Tôi cảm thấy khó khăn khi đi leo núi.\n3. Tôi thích những ngày mưa.\n4. Tôi định đến sống ở đảo Jeju.\n--------------------\nMục đích của nhân vật \"tôi\" khi đến đảo Jeju là để đi leo núi. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 백화점에서 모자를 하나 샀습니다. 그 모자는 가볍고 예쁩니다. 저는 요즘 밖에 나갈 때 그 모자를 자주 씁니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 모자가 마음에 듭니다.",
+          "저는 예쁜 모자가 필요합니다.",
+          "저는 친구에게 모자를 줄 겁니다.",
+          "저는 백화점에서 일하면 좋겠습니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "I bought a hat at the department store. The hat is light and pretty. These days, I often wear that hat when I go out.\n\n1. I like the hat.\n2. I need a pretty hat.\n3. I will give the hat to my friend.\n4. I would like to work at a department store.\n--------------------\nThe character \"I\" feels that the hat is light and beautiful, so he/she often wears it when going out. This shows that the character \"I\" really likes the hat. 1 is the correct answer.",
+          "vi": "Tôi đã mua một chiếc mũ ở trung tâm thương mại. Chiếc mũ đó nhẹ và đẹp. Dạo này khi đi ra ngoài tôi thường đội cái mũ đó.\n\n1. Tôi hài lòng với chiếc mũ.\n2. Tôi cần một chiếc mũ đẹp.\n3. Tôi sẽ đưa mũ cho bạn.\n4. Tôi muốn làm việc ở trung tâm thương mại.\n--------------------\nNhân vật \"tôi\" cảm thấy chiếc mũ nhẹ và đẹp nên thường xuyên đội khi đi ra ngoài. Điều này cho thấy nhân vật tôi rất thích chiếc mũ. 1 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 고등학교 졸업 후에 김 선생님을 못 만났습니다. 저는 이번 주말에 김 선생님을 만나러 갈 겁니다. 빨리 주말이 오면 좋겠습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "저는 선생님이 될 겁니다.",
+          "저는 김 선생님이 보고 싶습니다.",
+          "저는 고등학교를 졸업해야 합니다.",
+          "저는 학교에 다니는 것이 즐겁습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "I didn't meet teacher Kim after graduating from high school. I am going to see teacher Kim this weekend. I hope the weekend comes quickly.\n\n1. I will become a teacher.\n2. I miss teacher Kim.\n3. I must graduate from high school.\n4. I enjoy going to school.\n--------------------\nThe character \"I\" wants time to pass quickly so he/she can meet teacher Kim soon. 2 is the correct answer.",
+          "vi": "Sau khi tốt nghiệp cấp 3 tôi đã không thể gặp giáo viên Kim. Cuối tuần này tôi sẽ đi gặp giáo viên Kim. Ước gì cuối tuần đến thật nhanh.\n\n1. Tôi sẽ trở thành giáo viên.\n2. Tôi nhớ giáo viên Kim.\n3. Tôi phải tốt nghiệp trung học phổ thông.\n4. Tôi thích đi học.\n--------------------\nNhân vật \"tôi\" muốn thời gian trôi nhanh đến cuối tuần để gặp giáo viên Kim. Suy ra 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 요리를 잘 못합니다. 그래서 음식을 보통 사 먹습니다. 오늘 저녁은 집 근처 식당에서 불고기를 먹을 겁니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 요리를 자주 합니다.",
+          "집 근처에 식당이 없습니다.",
+          "저는 오늘 불고기를 먹을 겁니다.",
+          "저는 오늘 집에서 저녁을 먹습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "I'm not good at cooking, so I usually buy food. Tonight, I'm going to have bulgogi at a restaurant near my house.\n\n1. I cook often.\n2. There is no restaurant near my house.\n3. I will eat bulgogi today.\n4. I will eat dinner at home today.\n--------------------\nTonight, the character \"I\" will eat bulgogi at a restaurant near his/her house. 3 is the correct answer.",
+          "vi": "Tôi không giỏi nấu ăn. Vì vậy, tôi thường mua thức ăn để ăn. Tối nay tôi sẽ ăn Bulgogi ở nhà hàng gần nhà.\n\n1. Tôi thường xuyên nấu ăn.\n2. Không có nhà hàng ở gần nhà.\n3. Hôm nay tôi sẽ ăn Bulgogi.\n4. Hôm nay tôi ăn tối ở nhà.\n--------------------\nTheo như thông tin trong đoạn văn, tối nay, nhân vật \"tôi\" sẽ ăn Bulgogi ở nhà hàng gần nhà. 3 là đáp án đúng.",
+          "ar": "أنا لا أجيد الطبخ، لذلك عادةً ما أشتري الطعام. الليلة، سأتناول بولجوجي في مطعم قريب من منزلي.\n\n1. أطبخ كثيرًا.\n2. لا يوجد مطعم بالقرب من منزلي.\n3. سوف آكل بولجوجي اليوم.\n4. سأتناول العشاء في المنزل اليوم.\n--------------------\nالليلة، ستأكل الشخصية \"أنا\" بولجوجي في مطعم قريب من منزله. 3 هو الجواب الصحيح.",
+          "ru": "Я не умею готовить, поэтому обычно покупаю еду. Сегодня вечером я собираюсь попробовать бульгоги в ресторане рядом с моим домом.\n\n1. Я часто готовлю.\n2. Рядом с моим домом нет ресторана.\n3. Сегодня я буду есть бульгоги.\n4. Сегодня я буду ужинать дома.\n--------------------\nСегодня вечером персонаж «Я» будет есть бульгоги в ресторане недалеко от своего дома. 3 правильный ответ.",
+          "de": "Ich kann nicht gut kochen, deshalb kaufe ich normalerweise Lebensmittel. Heute Abend werde ich Bulgogi in einem Restaurant in der Nähe meines Hauses essen.\n\n1. Ich koche oft.\n2. In der Nähe meines Hauses gibt es kein Restaurant.\n3. Ich werde heute Bulgogi essen.\n4. Ich werde heute zu Hause zu Abend essen.\n--------------------\nHeute Abend wird die Figur „I“ Bulgogi in einem Restaurant in der Nähe seines/ihres Hauses essen. 3 ist die richtige Antwort.",
+          "fr": "Je ne suis pas doué en cuisine, alors j'achète habituellement de la nourriture. Ce soir, je vais manger du bulgogi dans un restaurant près de chez moi.\n\n1. Je cuisine souvent.\n2. Il n’y a pas de restaurant près de chez moi.\n3. Je vais manger du bulgogi aujourd'hui.\n4. Je vais dîner à la maison aujourd’hui.\n--------------------\nCe soir, le personnage \"Je\" mangera du bulgogi dans un restaurant près de chez lui. 3 est la bonne réponse.",
+          "id": "Saya tidak pandai memasak, jadi saya biasanya membeli makanan. Malam ini, saya akan makan bulgogi di restoran dekat rumah saya.\n\n1. Saya sering memasak.\n2. Tidak ada restoran di dekat rumah saya.\n3. Saya akan makan bulgogi hari ini.\n4. Saya akan makan malam di rumah hari ini.\n--------------------\nMalam ini, karakter \"Aku\" akan makan bulgogi di restoran dekat rumahnya. 3 adalah jawaban yang benar.",
+          "it": "Non sono bravo a cucinare, quindi di solito compro il cibo. Stasera mangerò bulgogi in un ristorante vicino a casa mia.\n\n1. Cucino spesso.\n2. Non c'è nessun ristorante vicino a casa mia.\n3. Oggi mangerò bulgogi.\n4. Oggi cenerò a casa.\n--------------------\nStasera, il personaggio \"Io\" mangerà bulgogi in un ristorante vicino a casa sua. 3 è la risposta corretta.",
+          "ja": "私は料理が苦手なので食べ物を買うことが多いです。今夜は家の近くのレストランでプルコギを食べる予定です。\n\n1. 私はよく料理します。\n2. 私の家の近くにはレストランがありません。\n3. 今日はプルコギを食べます。\n4. 今日は家で夕食を食べます。\n--------------------\n今夜、登場人物「私」は家の近くのレストランでプルコギを食べます。 3が正解です。",
+          "pt": "Não sou bom em cozinhar, então costumo comprar comida. Esta noite vou comer bulgogi em um restaurante perto da minha casa.\n\n1. Eu cozinho com frequência.\n2. Não há restaurante perto da minha casa.\n3. Vou comer bulgogi hoje.\n4. Hoje vou jantar em casa.\n--------------------\nEsta noite o personagem “I” comerá bulgogi em um restaurante perto de sua casa. 3 é a resposta correta.",
+          "th": "ฉันทำอาหารไม่เก่งจึงมักจะซื้ออาหาร คืนนี้ฉันจะไปกินบูลโกกิที่ร้านอาหารใกล้บ้าน\n\n1. ฉันทำอาหารบ่อยๆ\n2. ไม่มีร้านอาหารใกล้บ้านของฉัน\n3. วันนี้ฉันจะกินบูลโกกิ\n4. วันนี้ฉันจะกินข้าวเย็นที่บ้าน\n-\nคืนนี้ตัวละคร \"ฉัน\" จะกินบูลโกกิที่ร้านอาหารใกล้บ้านของเขา/เธอ 3 คือคำตอบที่ถูกต้อง",
+          "tr": "Yemek yapmada iyi değilim, bu yüzden genellikle yiyecek satın alıyorum. Bu gece evimin yakınındaki bir restoranda bulgogi yiyeceğim.\n\n1. Sık sık yemek pişiririm.\n2. Evimin yakınında restoran yok.\n3. Bugün bulgogi yiyeceğim.\n4. Bugün akşam yemeğini evde yiyeceğim.\n--------------------\nBu akşam \"Ben\" karakteri evinin yakınındaki bir restoranda bulgogi yiyecek. 3 doğru cevaptır.",
+          "zh-CN": "我不擅长做饭，所以我通常买菜。今晚，我要去我家附近的一家餐馆吃烤肉。\n\n1.我经常做饭。\n2. 我家附近没有餐馆。\n3.今天我要吃烤肉。\n4. 今天我在家吃晚饭。\n--------------------\n今晚，角色“我”将在他/她家附近的一家餐馆吃烤肉。 3 是正确答案。",
+          "zh-TW": "我不擅長做飯，所以我通常買菜。今晚，我要去我家附近的餐廳吃烤肉。\n\n1.我經常做飯。\n2. 我家附近沒有餐廳。\n3.今天我要吃烤肉。\n4. 今天我在家吃晚餐。\n--------------------\n今晚，角色“我”將在他/她家附近的一家餐廳吃烤肉。 3 是正確答案。",
+          "hi": "मैं खाना पकाने में अच्छा नहीं हूं, इसलिए मैं आमतौर पर खाना खरीदता हूं। आज रात, मैं अपने घर के पास एक रेस्तरां में बुल्गोगी खाने जा रहा हूँ।\n\n1. मैं अक्सर खाना बनाती हूं.\n2. मेरे घर के पास कोई रेस्टोरेंट नहीं है.\n3. मैं आज बुल्गोगी खाऊंगा.\n4. मैं आज रात का खाना घर पर ही खाऊंगा.\n------------------------\nआज रात, पात्र \"आई\" अपने घर के पास एक रेस्तरां में बुल्गोगी खाएगा। 3 सही उत्तर है.",
+          "es": "No soy bueno cocinando, así que normalmente compro comida. Esta noche voy a comer bulgogi en un restaurante cerca de mi casa.\n\n1. Cocino a menudo.\n2. No hay ningún restaurante cerca de mi casa.\n3. Hoy comeré bulgogi.\n4. Hoy cenaré en casa.\n--------------------\nEsta noche, el personaje \"Yo\" comerá bulgogi en un restaurante cercano a su casa. 3 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "어제 친구가 한국에 왔습니다. 오늘 우리 집에 놀러 올 겁니다. 저는 집을 깨끗하게 청소했습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "저는 친구 집에 갈 겁니다.",
+          "저는 오늘 친구를 만납니다.",
+          "친구가 오늘 한국에 왔습니다.",
+          "친구하고 집을 청소할 겁니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "My friend came to Korea yesterday. He will come to my house today. I cleaned the house very well.\n\n1. I will go to my friend's house.\n2. I will meet my friend today.\n3. My friend came to Korea today.\n4. I will clean the house with my friend.\n--------------------\nThe friend who came to Korea yesterday will come to \"my\" house today. 2 is the correct answer.",
+          "vi": "Hôm qua, bạn của tôi đã đến Hàn Quốc. Hôm nay sẽ đến nhà tôi chơi. Tôi đã dọn dẹp nhà cửa sạch sẽ.\n\n1. Tôi sẽ đến nhà một người bạn.\n2. Hôm nay tôi gặp bạn.\n3. Hôm nay bạn của tôi đã đến Hàn Quốc.\n4. Tôi sẽ dọn dẹp nhà cửa cùng với bạn.\n--------------------\nNgười bạn đã đến Hàn Quốc vào hôm qua và hôm nay sẽ đến nhà nhân vật \"tôi\" chơi. 2 là đáp án đúng.",
+          "ar": "صديقي جاء إلى كوريا أمس. سيأتي إلى منزلي اليوم. لقد قمت بتنظيف المنزل بشكل جيد للغاية.\n\n1. سأذهب إلى منزل صديقي.\n2. سأقابل صديقي اليوم.\n3. جاء صديقي إلى كوريا اليوم.\n4. سأقوم بتنظيف المنزل مع صديقي.\n--------------------\nالصديق الذي جاء إلى كوريا بالأمس سيأتي إلى منزلي اليوم. 2 هي الإجابة الصحيحة.",
+          "ru": "Мой друг приехал в Корею вчера. Сегодня он придет ко мне домой. Я очень хорошо убрала дом.\n\n1. Я пойду в дом моего друга.\n2. Сегодня я встречусь со своим другом.\n3. Мой друг приехал сегодня в Корею.\n4. Я буду убирать дом вместе со своим другом.\n--------------------\nДруг, который вчера приехал в Корею, сегодня придет в «мой» дом. 2 правильный ответ.",
+          "de": "Mein Freund ist gestern nach Korea gekommen. Er wird heute zu mir nach Hause kommen. Ich habe das Haus sehr gut gereinigt.\n\n1. Ich gehe zum Haus meines Freundes.\n2. Ich werde heute meinen Freund treffen.\n3. Mein Freund ist heute nach Korea gekommen.\n4. Ich werde mit meinem Freund das Haus putzen.\n--------------------\nDer Freund, der gestern nach Korea kam, wird heute zu „meinem“ Haus kommen. 2 ist die richtige Antwort.",
+          "fr": "Mon ami est venu en Corée hier. Il viendra chez moi aujourd'hui. J'ai très bien nettoyé la maison.\n\n1. J'irai chez mon ami.\n2. Je rencontrerai mon ami aujourd'hui.\n3. Mon ami est venu en Corée aujourd'hui.\n4. Je vais nettoyer la maison avec mon ami.\n--------------------\nL'ami qui est venu en Corée hier viendra chez \"ma\" maison aujourd'hui. 2 est la bonne réponse.",
+          "id": "Teman saya datang ke Korea kemarin. Dia akan datang ke rumahku hari ini. Saya membersihkan rumah dengan sangat baik.\n\n1. Saya akan pergi ke rumah teman saya.\n2. Saya akan bertemu teman saya hari ini.\n3. Temanku datang ke Korea hari ini.\n4. Saya akan membersihkan rumah bersama teman saya.\n--------------------\nTeman yang datang ke Korea kemarin akan datang ke rumah \"saya\" hari ini. 2 adalah jawaban yang benar.",
+          "it": "Il mio amico è venuto in Corea ieri. Verrà a casa mia oggi. Ho pulito molto bene la casa.\n\n1. Andrò a casa del mio amico.\n2. Oggi incontrerò il mio amico.\n3. Il mio amico è venuto in Corea oggi.\n4. Pulirò la casa con il mio amico.\n--------------------\nL'amico che è venuto in Corea ieri verrà a casa \"mia\" oggi. 2 è la risposta corretta.",
+          "ja": "昨日私の友達が韓国に来ました。彼は今日私の家に来ます。私は家をとてもよく掃除しました。\n\n1. 友達の家に行きます。\n2. 今日は友達に会いに行きます。\n3. 私の友達は今日韓国に来ました。\n4. 私は友達と一緒に家を掃除します。\n--------------------\n昨日韓国に来た友達が今日「私の」家に来ます。 2が正解です。",
+          "pt": "Meu amigo veio para a Coréia ontem. Ele virá à minha casa hoje. Limpei a casa muito bem.\n\n1. Irei para a casa do meu amigo.\n2. Encontrarei meu amigo hoje.\n3. Meu amigo veio para a Coreia hoje.\n4. Vou limpar a casa com meu amigo.\n--------------------\nO amigo que veio para a Coreia ontem irá à “minha” casa hoje. 2 é a resposta correta.",
+          "th": "เพื่อนของฉันมาเกาหลีเมื่อวาน วันนี้เขาจะมาที่บ้านของฉัน ฉันทำความสะอาดบ้านได้ดีมาก\n\n1. ฉันจะไปบ้านเพื่อน\n2. วันนี้ฉันจะไปพบเพื่อน\n3. วันนี้เพื่อนของฉันมาเกาหลี\n4. ฉันจะทำความสะอาดบ้านกับเพื่อน\n-\nเพื่อนที่มาเกาหลีเมื่อวานจะมาที่บ้าน \"ของฉัน\" วันนี้ 2 คือคำตอบที่ถูกต้อง",
+          "tr": "Arkadaşım dün Kore'ye geldi. Bugün evime gelecek. Evi çok güzel temizledim.\n\n1. Arkadaşımın evine gideceğim.\n2. Bugün arkadaşımla buluşacağım.\n3. Arkadaşım bugün Kore'ye geldi.\n4. Evi arkadaşımla temizleyeceğim.\n--------------------\nDün Kore'ye gelen arkadaş bugün \"benim\" evime gelecek. 2 doğru cevaptır.",
+          "zh-CN": "我朋友昨天来韩国了。今天他会来我家。我把房子打扫得很干净。\n\n1. 我要去朋友家。\n2. 今天我要见我的朋友。\n3. 我的朋友今天来韩国了。\n4. 我会和我的朋友一起打扫房子。\n--------------------\n昨天来韩国的朋友今天会来“我”家。 2 是正确答案。",
+          "zh-TW": "我朋友昨天來韓國了。今天他會來我家。我把房子打掃得很乾淨。\n\n1. 我要去朋友家。\n2. 今天我要見我的朋友。\n3. 我的朋友今天來韓國了。\n4. 我會和我的朋友一起打掃房子。\n--------------------\n昨天來韓國的朋友今天會來「我」家。 2 是正確答案。",
+          "hi": "मेरा मित्र कल कोरिया आया। वह आज मेरे घर आएगा. मैंने घर को बहुत अच्छे से साफ किया.\n\n1. मैं अपने दोस्त के घर जाऊंगा.\n2. मैं आज अपने दोस्त से मिलूंगा.\n3. मेरा मित्र आज कोरिया आया।\n4. मैं अपने दोस्त के साथ घर की सफाई करूंगा.\n------------------------\nजो मित्र कल कोरिया आया था, वह आज \"मेरे\" घर आयेगा। 2 सही उत्तर है.",
+          "es": "Mi amigo vino ayer a Corea. Él vendrá a mi casa hoy. Limpié muy bien la casa.\n\n1. Iré a la casa de mi amigo.\n2. Hoy me encontraré con mi amigo.\n3. Mi amigo vino hoy a Corea.\n4. Limpiaré la casa con mi amigo.\n--------------------\nEl amigo que vino ayer a Corea vendrá hoy a \"mi\" casa. 2 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "명동에서 약속이 있었습니다. 저는 집에서 일찍 나왔지만 차가 많아서 길이 막혔습니다. 그래서 약속 장소에 늦게 도착했습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 명동에 못 갔습니다.",
+          "길에 차가 많지 않았습니다.",
+          "저는 약속 시간에 늦었습니다.",
+          "저는 집에서 늦게 출발했습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "I had an appointment in Myeongdong. I left home early, but there was a lot of traffic and the roads were blocked. So I arrived at the meeting place late.\n\n1. I couldn't go to Myeongdong.\n2. There weren't many cars on the road.\n3. I was late for the appointment.\n4. I left home late.\n--------------------\nAccording to the information in the last sentence, 3 is the correct answer.",
+          "vi": "Tôi đã có một cuộc hẹn ở Myeongdong. Tôi ra khỏi nhà sớm nhưng vì xe cộ đông đúc nên đường bị tắc. Vì thế tôi đã đến điểm hẹn muộn.\n\n1. Tôi đã không thể đến Myeongdong.\n2. Trên đường không có nhiều xe.\n3. Tôi đã muộn giờ hẹn.\n4. Tôi đã xuất phát từ nhà muộn.\n--------------------\nTheo như thông tin ở câu cuối cùng, 3 là đáp án đúng.",
+          "ar": "كان لدي موعد في ميونج دونج. غادرت المنزل مبكرًا، لكن حركة المرور كانت كثيفة والطرق مغلقة. لذلك وصلت إلى مكان الاجتماع متأخرا.\n\n1. لم أستطع الذهاب إلى ميونغ دونغ.\n2. لم يكن هناك الكثير من السيارات على الطريق.\n3. لقد تأخرت عن الموعد.\n4. غادرت المنزل في وقت متأخر.\n--------------------\nوفقًا للمعلومات الواردة في الجملة الأخيرة، الرقم 3 هو الإجابة الصحيحة.",
+          "ru": "У меня была назначена встреча в Мёндоне. Я вышел из дома рано, но было много машин и дороги были перекрыты. Поэтому я прибыл на место встречи поздно.\n\n1. Я не смог поехать в Мёндон.\n2. На дороге было не так много машин.\n3. Я опоздал на встречу.\n4. Я ушел из дома поздно.\n--------------------\nСогласно информации в последнем предложении, правильный ответ — 3.",
+          "de": "Ich hatte einen Termin in Myeongdong. Ich verließ mein Zuhause früh, aber es herrschte viel Verkehr und die Straßen waren blockiert. Deshalb kam ich spät am Treffpunkt an.\n\n1. Ich konnte nicht nach Myeongdong gehen.\n2. Es waren nicht viele Autos auf der Straße.\n3. Ich kam zu spät zum Termin.\n4. Ich bin spät von zu Hause weggegangen.\n--------------------\nNach den Angaben im letzten Satz ist 3 die richtige Antwort.",
+          "fr": "J'avais rendez-vous à Myeongdong. J'ai quitté la maison tôt, mais il y avait beaucoup de circulation et les routes étaient bloquées. Je suis donc arrivé tard au lieu de rendez-vous.\n\n1. Je ne pouvais pas aller à Myeongdong.\n2. Il n'y avait pas beaucoup de voitures sur la route.\n3. J'étais en retard au rendez-vous.\n4. J'ai quitté la maison tard.\n--------------------\nD’après les informations contenues dans la dernière phrase, 3 est la bonne réponse.",
+          "id": "Saya punya janji di Myeongdong. Saya berangkat dari rumah lebih awal, tetapi lalu lintas padat dan jalanan diblokir. Jadi saya terlambat tiba di tempat pertemuan.\n\n1. Saya tidak bisa pergi ke Myeongdong.\n2. Tidak banyak mobil di jalan.\n3. Saya terlambat menghadiri janji temu.\n4. Saya pulang terlambat.\n--------------------\nMenurut informasi pada kalimat terakhir, 3 adalah jawaban yang benar.",
+          "it": "Avevo un appuntamento a Myeongdong. Sono uscito di casa presto, ma c’era molto traffico e le strade erano bloccate. Quindi sono arrivato tardi al luogo dell'incontro.\n\n1. Non potevo andare a Myeongdong.\n2. Non c'erano molte macchine sulla strada.\n3. Ero in ritardo all'appuntamento.\n4. Sono uscito di casa tardi.\n--------------------\nSecondo le informazioni contenute nell'ultima frase, 3 è la risposta corretta.",
+          "ja": "明洞で約束がありました。早めに家を出ましたが、大渋滞で道路が通行止めでした。それで集合場所に到着するのが遅くなりました。\n\n1. 明洞に行けなかった。\n2. 道路には車があまりありませんでした。\n3. 私は約束に遅れました。\n4. 私は遅く家を出ました。\n--------------------\n最後の文の情報によれば、3 が正解です。",
+          "pt": "Eu tinha um compromisso em Myeongdong. Saí de casa cedo, mas havia muito trânsito e as estradas estavam bloqueadas. Então cheguei tarde ao local da reunião.\n\n1. Não pude ir para Myeongdong.\n2. Não havia muitos carros na estrada.\n3. Cheguei atrasado ao compromisso.\n4. Saí tarde de casa.\n--------------------\nDe acordo com as informações da última frase, 3 é a resposta correta.",
+          "th": "ฉันมีนัดที่เมียงดง ฉันออกจากบ้านเร็วแต่การจราจรติดขัดและถนนถูกปิดกั้น ฉันจึงมาถึงสถานที่นัดพบช้า\n\n1. ฉันไม่สามารถไปเมียงดงได้\n2. บนถนนมีรถไม่มากนัก\n3. ฉันมาสายเพื่อนัดหมาย\n4. ฉันออกจากบ้านสาย\n-\nตามข้อมูลในประโยคสุดท้าย 3 คือคำตอบที่ถูกต้อง",
+          "tr": "Myeongdong'da bir randevum vardı. Evden erken ayrıldım ama çok fazla trafik vardı ve yollar kapalıydı. Bu yüzden buluşma yerine geç geldim.\n\n1. Myeongdong'a gidemedim.\n2. Yolda çok fazla araba yoktu.\n3. Randevuma geç kaldım.\n4. Evden geç ayrıldım.\n--------------------\nSon cümledeki bilgilere göre doğru cevap 3'tür.",
+          "zh-CN": "我和明洞有个约会。我很早就出门了，但是交通很拥挤，道路被堵住了。所以我很晚才到达集合地点。\n\n1.我没能去明洞。\n2. 路上的车不多。\n3. 我赴约迟到了。\n4. 我很晚才出门。\n--------------------\n根据最后一句的信息，3是正确答案。",
+          "zh-TW": "我和明洞有個約會。我很早就出門了，但是交通很擁擠，道路被堵住了。所以我很晚才到達集合地點。\n\n1.我沒能去明洞。\n2. 路上的車不多。\n3. 我赴約遲到了。\n4. 我很晚才出門。\n--------------------\n根據最後一句的信息，3是正確答案。",
+          "hi": "मेरी माययोंगडोंग में अपॉइंटमेंट थी। मैं घर से जल्दी निकला, लेकिन वहाँ बहुत ट्रैफ़िक था और सड़कें अवरुद्ध थीं। इसलिए मैं सभा स्थल पर देर से पहुंचा.\n\n1. मैं माययोंगडोंग नहीं जा सका।\n2. सड़क पर ज्यादा गाड़ियाँ नहीं थीं।\n3. मुझे अपॉइंटमेंट के लिए देर हो गई।\n4. मैं देर से घर से निकला।\n------------------------\nअंतिम वाक्य में दी गई जानकारी के अनुसार 3 सही उत्तर है।",
+          "es": "Tenía una cita en Myeongdong. Salí temprano de casa, pero había mucho tráfico y las carreteras estaban bloqueadas. Así que llegué tarde al lugar de la reunión.\n\n1. No pude ir a Myeongdong.\n2. No había muchos autos en la carretera.\n3. Llegué tarde a la cita.\n4. Salí tarde de casa.\n--------------------\nSegún la información de la última frase, 3 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "제 동생은 빵을 잘 만듭니다. 동생이 만든 빵은 아주 맛있습니다. 저도 빵 만드는 방법을 배우고 싶습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 빵집에서 일하고 싶습니다.",
+          "저는 맛있는 빵을 사고 싶습니다.",
+          "저는 동생에게 빵을 주고 싶습니다.",
+          "저는 맛있는 빵을 만들고 싶습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "My younger sibling is good at making bread. The bread he/she makes is very delicious. I want to learn how to make bread, too.\n\n1. I want to work in a bakery.\n2. I want to buy delicious bread.\n3. I want to give bread to my younger sibling.\n4. I want to make delicious bread.\n--------------------\nAccording to the information in the last sentence, the character \"I\" wants to learn how to make bread. 4 is the correct answer.",
+          "vi": "Em tôi làm bánh mì rất giỏi. Bánh do em tôi làm rất ngon. Tôi cũng muốn học cách làm bánh mì.\n\n1. Tôi muốn làm việc ở tiệm bánh.\n2. Tôi muốn mua bánh mì ngon.\n3. Tôi muốn cho em tôi bánh mì.\n4. Tôi muốn làm ra những chiếc bánh mì ngon.\n--------------------\nTheo như thông tin ở câu cuối cùng, nhân vật \"tôi\" muốn học cách làm bánh. 4 là đáp án đúng.",
+          "ar": "أخي الأصغر يجيد صنع الخبز. الخبز الذي يصنعه لذيذ جدًا. أريد أن أتعلم كيفية صنع الخبز أيضاً.\n\n1. أريد العمل في مخبز.\n2. أريد شراء خبز لذيذ.\n3. أريد أن أعطي الخبز لأخي الأصغر.\n4. أريد أن أصنع خبزاً لذيذاً.\n--------------------\nوفقا للمعلومات الواردة في الجملة الأخيرة، فإن الشخصية \"أنا\" تريد أن تتعلم كيفية صنع الخبز. 4 هو الجواب الصحيح.",
+          "ru": "Мой младший брат хорошо печет хлеб. Хлеб, который он/она печет, очень вкусный. Я тоже хочу научиться печь хлеб.\n\n1. Я хочу работать в пекарне.\n2. Я хочу купить вкусный хлеб.\n3. Я хочу дать хлеба своему младшему брату или сестре.\n4. Я хочу испечь вкусный хлеб.\n--------------------\nСогласно информации в последнем предложении, персонаж «Я» хочет научиться печь хлеб. 4 – правильный ответ.",
+          "de": "Mein jüngerer Bruder kann gut Brot backen. Das Brot, das er/sie backt, ist sehr lecker. Ich möchte auch lernen, wie man Brot backt.\n\n1. Ich möchte in einer Bäckerei arbeiten.\n2. Ich möchte leckeres Brot kaufen.\n3. Ich möchte meinem jüngeren Geschwister Brot geben.\n4. Ich möchte leckeres Brot backen.\n--------------------\nDen Angaben im letzten Satz zufolge möchte die Figur „Ich“ lernen, wie man Brot backt. 4 ist die richtige Antwort.",
+          "fr": "Mon jeune frère est doué pour faire du pain. Le pain qu'il prépare est très délicieux. Moi aussi, je veux apprendre à faire du pain.\n\n1. Je veux travailler dans une boulangerie.\n2. Je veux acheter du pain délicieux.\n3. Je veux donner du pain à mon jeune frère.\n4. Je veux faire du pain délicieux.\n--------------------\nD'après les informations contenues dans la dernière phrase, le personnage « je » veut apprendre à faire du pain. 4 est la bonne réponse.",
+          "id": "Adikku pandai membuat roti. Roti yang dia buat sangat enak. Saya ingin belajar cara membuat roti juga.\n\n1. Saya ingin bekerja di toko roti.\n2. Saya ingin membeli roti yang enak.\n3. Saya ingin memberikan roti kepada adik saya.\n4. Saya ingin membuat roti yang enak.\n--------------------\nMenurut informasi pada kalimat terakhir, karakter \"Aku\" ingin belajar membuat roti. 4 adalah jawaban yang benar.",
+          "it": "Mio fratello minore è bravo a fare il pane. Il pane che fa è davvero delizioso. Anch'io voglio imparare a fare il pane.\n\n1. Voglio lavorare in una panetteria.\n2. Voglio comprare del pane delizioso.\n3. Voglio dare il pane al mio fratello più piccolo.\n4. Voglio fare un pane delizioso.\n--------------------\nSecondo le informazioni contenute nell'ultima frase, il personaggio \"Io\" vuole imparare a fare il pane. 4 è la risposta corretta.",
+          "ja": "私の弟はパン作りが得意です。彼/彼女が作るパンはとてもおいしいです。私もパン作りを習いたいです。\n\n1. パン屋で働きたいです。\n2. おいしいパンを買いたいです。\n3. 弟にパンをあげたいです。\n4. おいしいパンを作りたい。\n--------------------\n最後の文の情報によると、登場人物「私」はパンの作り方を学びたいと考えています。 4が正解です。",
+          "pt": "Meu irmão mais novo é bom em fazer pão. O pão que ele faz é muito gostoso. Também quero aprender a fazer pão.\n\n1. Quero trabalhar numa padaria.\n2. Quero comprar um pão delicioso.\n3. Quero dar pão ao meu irmão mais novo.\n4. Quero fazer um pão delicioso.\n--------------------\nDe acordo com as informações da última frase, o personagem “Eu” quer aprender a fazer pão. 4 é a resposta correta.",
+          "th": "น้องชายของฉันเก่งในการทำขนมปัง ขนมปังที่เขา/เธอทำอร่อยมาก ฉันอยากเรียนทำขนมปังเหมือนกัน\n\n1. ฉันอยากทำงานร้านเบเกอรี่\n2.อยากซื้อขนมปังอร่อยๆ\n3. ฉันอยากมอบขนมปังให้น้องชาย\n4.อยากทำขนมปังอร่อยๆ\n-\nตามข้อมูลในประโยคสุดท้าย อักขระ \"ฉัน\" ต้องการเรียนทำขนมปัง 4 คือคำตอบที่ถูกต้อง",
+          "tr": "Küçük kardeşim ekmek yapmada iyidir. Yaptığı ekmekler çok lezzetlidir. Ben de ekmek yapmayı öğrenmek istiyorum.\n\n1. Bir fırında çalışmak istiyorum.\n2. Lezzetli ekmek almak istiyorum.\n3. Küçük kardeşime ekmek vermek istiyorum.\n4. Lezzetli ekmek yapmak istiyorum.\n--------------------\nSon cümledeki bilgiye göre \"Ben\" karakteri ekmek yapmayı öğrenmek istiyor. 4 doğru cevaptır.",
+          "zh-CN": "我的弟弟擅长做面包。他/她做的面包非常好吃。我也想学做面包\n\n1. 我想在面包店工作。\n2.我想买好吃的面包。\n3. 我想给弟弟妹妹面包。\n4.我想做美味的面包。\n--------------------\n根据最后一句的信息，人物“我”想学习如何制作面包。 4 是正确答案。",
+          "zh-TW": "我的弟弟擅長做麵包。他/她做的麵包非常好吃。我也想學做麵包\n\n1. 我想在麵包店工作。\n2.我想買好吃的麵包。\n3. 我想給弟弟妹妹麵包。\n4.我想做美味的麵包。\n--------------------\n根據最後一句的信息，人物「我」想學習如何製作麵包。 4 是正確答案。",
+          "hi": "मेरा छोटा भाई रोटी बनाने में अच्छा है। वह जो रोटी बनाता है वह बहुत स्वादिष्ट होती है। मैं भी रोटी बनाना सीखना चाहता हूं।\n\n1. मैं बेकरी में काम करना चाहता हूं।\n2. मैं स्वादिष्ट रोटी खरीदना चाहता हूँ।\n3. मैं अपने छोटे भाई-बहन को रोटी देना चाहता हूँ।\n4. मैं स्वादिष्ट रोटी बनाना चाहता हूं.\n------------------------\nअंतिम वाक्य में दी गई जानकारी के अनुसार, पात्र \"I\" रोटी बनाना सीखना चाहता है। 4 सही उत्तर है.",
+          "es": "Mi hermano menor es bueno haciendo pan. El pan que hace es muy rico. Yo también quiero aprender a hacer pan.\n\n1. Quiero trabajar en una panadería.\n2. Quiero comprar pan delicioso.\n3. Quiero darle pan a mi hermano menor.\n4. Quiero hacer un pan delicioso.\n--------------------\nSegún la información de la última frase, el personaje \"yo\" quiere aprender a hacer pan. 4 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 바다에서 수영하는 것을 좋아합니다. 여름에는 수영을 하러 바다에 자주 갑니다. 빨리 여름이 오면 좋겠습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 여름을 제일 좋아합니다.",
+          "저는 수영을 잘하면 좋겠습니다.",
+          "저는 여름 바다에 가 보고 싶습니다.",
+          "저는 빨리 바다에서 수영하고 싶습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "I like swimming in the sea. In the summer, I often go to the sea to swim. I wish summer would come soon.\n\n1. I like summer the most.\n2. I wish I could swim well.\n3.I want to try going to the sea in the summer.\n4. I want to swim in the sea soon.\n--------------------\nIt can be seen that the character \"I\" really likes swimming in the sea, so the character \"I\" wishes summer would come quickly so he could go swimming. 4 is the correct answer.",
+          "vi": "Tôi thích bơi ở biển. Vào mùa hè tôi thường ra biển để bơi. Ước gì mùa hè đến nhanh.\n\n1. Tôi thích mùa hè nhất.\n2. Tôi ước mình bơi giỏi.\n3. Tôi muốn thử đi biển vào mùa hè.\n4. Tôi muốn nhanh chóng bơi ở biển.\n--------------------\nCó thể thấy nhân vật \"tôi\" rất thích bơi ở biển vậy nên nhân vật \"tôi\" ước mùa hè đến thật nhanh để được đi bơi. 4 là đáp án đúng.",
+          "ar": "أحب السباحة في البحر. في الصيف، كثيرا ما أذهب إلى البحر للسباحة. أتمنى أن يأتي الصيف قريبا.\n\n1. أحب الصيف أكثر.\n2. أتمنى أن أجيد السباحة.\n3.أريد أن أحاول الذهاب إلى البحر في الصيف.\n4. أريد السباحة في البحر قريبًا.\n--------------------\nويمكن ملاحظة أن الشخصية \"أنا\" تحب السباحة في البحر حقًا، لذا فإن الشخصية \"أنا\" تتمنى أن يأتي الصيف سريعًا حتى يتمكن من السباحة. 4 هو الجواب الصحيح.",
+          "ru": "Мне нравится купаться в море. Летом я часто езжу на море купаться. Желаю, чтобы лето наступило скорее.\n\n1. Я больше всего люблю лето.\n2. Мне бы хотелось хорошо плавать.\n3.Я хочу попробовать поехать на море летом.\n4. Я хочу в ближайшее время искупаться в море.\n--------------------\nВидно, что персонаж «Я» очень любит купаться в море, поэтому персонаж «Я» желает, чтобы лето наступило быстрее, чтобы он мог пойти купаться. 4 – правильный ответ.",
+          "de": "Ich schwimme gern im Meer. Im Sommer gehe ich oft zum Schwimmen ans Meer. Ich wünschte, der Sommer würde bald kommen.\n\n1. Der Sommer gefällt mir am besten.\n2. Ich wünschte, ich könnte gut schwimmen.\n3.Ich möchte versuchen, im Sommer ans Meer zu gehen.\n4. Ich möchte bald im Meer schwimmen.\n--------------------\nEs ist zu sehen, dass die Figur „Ich“ wirklich gerne im Meer schwimmt, daher wünscht sich die Figur „Ich“, dass der Sommer bald kommt, damit sie schwimmen gehen kann. 4 ist die richtige Antwort.",
+          "fr": "J'aime nager dans la mer. L'été, je vais souvent à la mer pour nager. J'aimerais que l'été arrive bientôt.\n\n1. J’aime le plus l’été.\n2. J’aimerais pouvoir bien nager.\n3.Je veux essayer d'aller à la mer en été.\n4. Je veux bientôt nager dans la mer.\n--------------------\nOn voit que le personnage « I » aime beaucoup nager dans la mer, donc le personnage « I » souhaite que l'été arrive rapidement pour pouvoir aller nager. 4 est la bonne réponse.",
+          "id": "Saya suka berenang di laut. Di musim panas, saya sering pergi ke laut untuk berenang. Saya berharap musim panas akan segera tiba.\n\n1. Saya paling menyukai musim panas.\n2. Saya berharap saya bisa berenang dengan baik.\n3.Saya ingin mencoba pergi ke laut di musim panas.\n4. Saya ingin segera berenang di laut.\n--------------------\nTerlihat bahwa karakter \"Aku\" sangat suka berenang di laut, sehingga karakter \"Aku\" berharap musim panas segera datang agar dia bisa berenang. 4 adalah jawaban yang benar.",
+          "it": "Mi piace nuotare nel mare. In estate vado spesso al mare a nuotare. Vorrei che l'estate arrivasse presto.\n\n1. Mi piace di più l'estate.\n2. Vorrei saper nuotare bene.\n3.Voglio provare ad andare al mare d'estate.\n4. Voglio nuotare presto nel mare.\n--------------------\nSi può vedere che al personaggio \"Io\" piace davvero nuotare nel mare, quindi il personaggio \"Io\" desidera che l'estate arrivi presto per poter andare a nuotare. 4 è la risposta corretta.",
+          "ja": "私は海で泳ぐのが好きです。夏にはよく海へ泳ぎに行きます。早く夏が来ればいいのに。\n\n1. 私は夏が一番好きです。\n2. 上手に泳げたらいいのに。\n3.夏には海に行ってみたいです。\n4. すぐに海で泳ぎたいです。\n--------------------\n登場人物「私」は海で泳ぐのが大好きであることがわかり、登場人物「私」は早く夏が来て泳ぎに行けることを願っています。 4が正解です。",
+          "pt": "Gosto de nadar no mar. No verão, costumo ir ao mar nadar. Eu gostaria que o verão chegasse logo.\n\n1. Gosto mais do verão.\n2. Eu gostaria de saber nadar bem.\n3.Quero tentar ir ao mar no verão.\n4. Quero nadar no mar em breve.\n--------------------\nPercebe-se que o personagem “I” gosta muito de nadar no mar, então o personagem “I” gostaria que o verão chegasse rápido para que ele pudesse nadar. 4 é a resposta correta.",
+          "th": "ฉันชอบว่ายน้ำในทะเล ในฤดูร้อน ฉันมักจะไปเล่นน้ำทะเล ฉันหวังว่าฤดูร้อนจะมาถึงเร็ว ๆ นี้\n\n1. ฉันชอบฤดูร้อนมากที่สุด\n2. ฉันหวังว่าฉันจะว่ายน้ำได้ดี\n3.ฉันอยากลองไปทะเลในฤดูร้อน\n4. ฉันอยากลงเล่นน้ำทะเลเร็วๆ\n-\nจะเห็นได้ว่าตัวละคร \"ฉัน\" ชอบว่ายน้ำในทะเลมาก ดังนั้น ตัวละคร \"ฉัน\" จึงอยากให้ฤดูร้อนมาเร็วๆ จะได้ไปว่ายน้ำได้ 4 คือคำตอบที่ถูกต้อง",
+          "tr": "Denizde yüzmeyi seviyorum. Yaz aylarında yüzmek için sık sık denize giderim. Keşke yaz bir an önce gelse.\n\n1. En çok yazı seviyorum.\n2. Keşke iyi yüzebilseydim.\n3. Yazın denize gitmeyi denemek istiyorum.\n4. Yakında denizde yüzmek istiyorum.\n--------------------\n\"Ben\" karakterinin denizde yüzmeyi çok sevdiği görülüyor, dolayısıyla \"Ben\" karakteri yazın bir an önce gelmesini ve yüzmeye gidebilmeyi diliyor. 4 doğru cevaptır.",
+          "zh-CN": "我喜欢在海里游泳。夏天，我经常去海边游泳。我希望夏天快点到来。\n\n1.我最喜欢夏天。\n2.我希望我能游得很好。\n3.夏天我想尝试一下去海边。\n4.我想很快去海里游泳。\n--------------------\n可以看出，“我”这个角色非常喜欢在海里游泳，所以“我”角色希望夏天快点到来，这样他就可以去游泳了。 4 是正确答案。",
+          "zh-TW": "我喜歡在海裡游泳。夏天，我常去海邊游泳。我希望夏天快點到來。\n\n1.我最喜歡夏天。\n2.我希望我能游得很好。\n3.夏天我想嘗試去海邊。\n4.我想很快去海裡游泳。\n--------------------\n可以看出，「我」這個角色非常喜歡在海裡游泳，所以「我」角色希望夏天快點到來，這樣他就可以去游泳了。 4 是正確答案。",
+          "hi": "मुझे समुद्र में तैरना पसंद है. गर्मियों में मैं अक्सर तैरने के लिए समुद्र में जाता हूं। मेरी इच्छा है कि गर्मियां जल्द आएं।\n\n1. मुझे गर्मी सबसे ज्यादा पसंद है.\n2. काश मैं अच्छी तरह तैर पाता।\n3.मैं गर्मियों में समुद्र में जाने की कोशिश करना चाहता हूं।\n4. मैं जल्द ही समुद्र में तैरना चाहता हूं।\n------------------------\nयह देखा जा सकता है कि पात्र \"I\" को वास्तव में समुद्र में तैरना पसंद है, इसलिए पात्र \"I\" चाहता है कि गर्मी जल्दी आ जाए ताकि वह तैरने जा सके। 4 सही उत्तर है.",
+          "es": "Me gusta nadar en el mar. En verano, suelo ir al mar a nadar. Ojalá llegara pronto el verano.\n\n1. Me gusta más el verano.\n2. Ojalá pudiera nadar bien.\n3.Quiero intentar ir al mar en verano.\n4. Quiero nadar en el mar pronto.\n--------------------\nSe puede ver que al personaje \"I\" le gusta mucho nadar en el mar, por lo que el personaje \"I\" desea que el verano llegue pronto para poder ir a nadar. 4 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "옷장에 옷이 너무 많습니다. 그래서 옷장에서 옷을 찾기가 힘듭니다. 내일은 옷장을 정리할 겁니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "저는 옷장이 더 필요합니다.",
+          "저는 옷을 많이 찾을 겁니다.",
+          "저는 옷을 정리하려고 합니다.",
+          "저는 내일 옷을 사려고 합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "There are too many clothes in my closet. So it's hard to find clothes in my closet. I'm going to organize my closet tomorrow.\n\n1. I need more closet.\n2. I will find a lot of clothes.\n3. I am going to organize my clothes.\n4. I am going to buy clothes tomorrow.\n--------------------\nAccording to the information in the last sentence, the character \"I\" will organize the closet tomorrow. 3 is the correct answer.",
+          "vi": "Trong tủ quần áo có quá nhiều quần áo. Vì thế rất khó để tìm quần áo trong tủ. Ngày mai tôi sẽ dọn dẹp tủ quần áo.\n\n1. Tôi cần thêm tủ quần áo.\n2. Tôi sẽ tìm thật nhiều quần áo.\n3. Tôi định sắp xếp quần áo.\n4. Ngày mai tôi định mua quần áo.\n--------------------\nTheo như thông tin ở câu cuối cùng, nhân vật \"tôi\" sẽ sắp xếp lại tủ quần áo. 3 là đáp án đúng.",
+          "ar": "هناك الكثير من الملابس في خزانتي. لذلك من الصعب العثور على ملابس في خزانتي. سأقوم بتنظيم خزانة ملابسي غدا.\n\n1. أحتاج إلى المزيد من الخزانة.\n2. سأجد الكثير من الملابس.\n3. سأقوم بتنظيم ملابسي.\n4. سأذهب لشراء الملابس غدا.\n--------------------\nوفقا للمعلومات الواردة في الجملة الأخيرة، فإن الشخصية \"أنا\" سوف تنظم الخزانة غدا. 3 هو الجواب الصحيح.",
+          "ru": "В моем шкафу слишком много одежды. Поэтому мне трудно найти одежду в моем шкафу. Завтра собираюсь навести порядок в своем шкафу.\n\n1. Мне нужно больше шкафа.\n2. Я найду много одежды.\n3. Я собираюсь привести в порядок свою одежду.\n4. Я собираюсь купить одежду завтра.\n--------------------\nСогласно информации в последнем предложении, персонаж «Я» завтра наведет порядок в шкафу. 3 правильный ответ.",
+          "de": "In meinem Kleiderschrank sind zu viele Klamotten. Daher ist es schwierig, Kleidung in meinem Kleiderschrank zu finden. Ich werde morgen meinen Kleiderschrank aufräumen.\n\n1. Ich brauche mehr Kleiderschrank.\n2. Ich werde viele Klamotten finden.\n3. Ich werde meine Kleidung organisieren.\n4. Ich werde morgen Kleidung kaufen.\n--------------------\nDen Angaben im letzten Satz zufolge wird die Figur „Ich“ morgen den Kleiderschrank organisieren. 3 ist die richtige Antwort.",
+          "fr": "Il y a trop de vêtements dans mon placard. C'est donc difficile de trouver des vêtements dans mon placard. Je vais organiser mon placard demain.\n\n1. J’ai besoin de plus de placard.\n2. Je trouverai beaucoup de vêtements.\n3. Je vais organiser mes vêtements.\n4. Je vais acheter des vêtements demain.\n--------------------\nD'après les informations de la dernière phrase, le personnage \"Je\" organisera le placard demain. 3 est la bonne réponse.",
+          "id": "Ada terlalu banyak pakaian di lemariku. Jadi susah nyari baju di lemari. Aku akan membereskan lemariku besok.\n\n1. Saya membutuhkan lebih banyak lemari.\n2. Saya akan menemukan banyak pakaian.\n3. Saya akan menata pakaian saya.\n4. Saya akan membeli pakaian besok.\n--------------------\nMenurut informasi di kalimat terakhir, karakter \"Aku\" akan menata lemari besok. 3 adalah jawaban yang benar.",
+          "it": "Ci sono troppi vestiti nel mio armadio. Quindi è difficile trovare vestiti nel mio armadio. Domani organizzerò il mio armadio.\n\n1. Ho bisogno di più armadio.\n2. Troverò molti vestiti.\n3. Metterò in ordine i miei vestiti.\n4. Domani comprerò dei vestiti.\n--------------------\nSecondo le informazioni contenute nell'ultima frase, domani il personaggio \"io\" organizzerà l'armadio. 3 è la risposta corretta.",
+          "ja": "私のクローゼットには服が多すぎます。そのため、クローゼットの中から服を見つけるのが大変です。明日はクローゼットを整理するつもりです。\n\n1. クローゼットがもっと必要です。\n2. たくさんの服を見つけます。\n3. 衣服を整理するつもりです。\n4. 明日服を買うつもりです。\n--------------------\n最後の文の情報によると、登場人物「私」は明日クローゼットを整理する予定です。 3が正解です。",
+          "pt": "Há muitas roupas no meu armário. Então é difícil encontrar roupas no meu armário. Vou organizar meu armário amanhã.\n\n1. Preciso de mais armário.\n2. Vou encontrar muitas roupas.\n3. Vou organizar minhas roupas.\n4. Vou comprar roupas amanhã.\n--------------------\nDe acordo com as informações da última frase, o personagem “Eu” organizará o armário amanhã. 3 é a resposta correta.",
+          "th": "มีเสื้อผ้ามากเกินไปในตู้เสื้อผ้าของฉัน ดังนั้นจึงยากที่จะหาเสื้อผ้าในตู้เสื้อผ้าของฉัน พรุ่งนี้ฉันจะจัดตู้เสื้อผ้าของฉัน\n\n1. ฉันต้องการตู้เสื้อผ้าเพิ่ม\n2. ฉันจะหาเสื้อผ้าให้มากมาย\n3. ฉันจะจัดเสื้อผ้าของฉัน\n4. ฉันจะไปซื้อเสื้อผ้าพรุ่งนี้\n-\nตามข้อมูลในประโยคสุดท้าย ตัวอักษร \"ฉัน\" จะจัดตู้เสื้อผ้าพรุ่งนี้ 3 คือคำตอบที่ถูกต้อง",
+          "tr": "Dolabımda çok fazla kıyafet var. Bu yüzden dolabımda kıyafet bulmak çok zor. Yarın dolabımı düzenleyeceğim.\n\n1. Daha fazla dolaba ihtiyacım var.\n2. Bir sürü kıyafet bulacağım.\n3. Kıyafetlerimi düzenleyeceğim.\n4. Yarın kıyafet alacağım.\n--------------------\nSon cümlede yer alan bilgiye göre \"Ben\" karakteri yarın dolabı düzenleyecek. 3 doğru cevaptır.",
+          "zh-CN": "我衣柜里的衣服太多了。所以我的衣橱里很难找到衣服。明天我要整理一下我的衣柜。\n\n1.我需要更多的衣柜。\n2.我会找到很多衣服。\n3.我要整理一下我的衣服。\n4.我明天要去买衣服。\n--------------------\n根据最后一句的信息，“我”这个人物明天将会整理衣柜。 3 是正确答案。",
+          "zh-TW": "我衣櫃裡的衣服太多了。所以我的衣櫃裡很難找到衣服。明天我要整理一下我的衣櫃。\n\n1.我需要更多的衣櫃。\n2.我會找到很多衣服。\n3.我要整理一下我的衣服。\n4.我明天要去買衣服。\n--------------------\n根據最後一句話的信息，「我」這個人物明天將會整理衣櫃。 3 是正確答案。",
+          "hi": "मेरी अलमारी में बहुत सारे कपड़े हैं। इसलिए मेरी अलमारी में कपड़े ढूंढना मुश्किल है। मैं कल अपनी अलमारी व्यवस्थित करने जा रहा हूँ।\n\n1. मुझे और अधिक कोठरी की आवश्यकता है।\n2. मुझे बहुत सारे कपड़े मिलेंगे.\n3. मैं अपने कपड़े व्यवस्थित करने जा रहा हूं।\n4. मैं कल कपड़े खरीदने जा रहा हूं।\n------------------------\nअंतिम वाक्य में दी गई जानकारी के अनुसार, पात्र \"I\" कल कोठरी का आयोजन करेगा। 3 सही उत्तर है.",
+          "es": "Hay demasiada ropa en mi armario. Por eso es difícil encontrar ropa en mi armario. Mañana voy a organizar mi armario.\n\n1. Necesito más armario.\n2. Encontraré mucha ropa.\n3. Voy a organizar mi ropa.\n4. Mañana voy a comprar ropa.\n--------------------\nSegún la información de la última frase, el personaje \"yo\" organizará el armario mañana. 3 es la respuesta correcta."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 요리를 잘 못합니다. 그래서 음식을 보통 사 먹습니다. 오늘 저녁은 집 근처 식당에서 불고기를 먹을 겁니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 요리를 자주 합니다.",
+          "집 근처에 식당이 없습니다.",
+          "저는 오늘 불고기를 먹을 겁니다.",
+          "저는 오늘 집에서 저녁을 먹습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "I'm not good at cooking, so I usually buy food. Tonight, I'm going to have bulgogi at a restaurant near my house.\n\n1. I cook often.\n2. There is no restaurant near my house.\n3. I will eat bulgogi today.\n4. I will eat dinner at home today.\n--------------------\nTonight, the character \"I\" will eat bulgogi at a restaurant near his/her house. 3 is the correct answer.",
+          "vi": "Tôi không giỏi nấu ăn. Vì vậy, tôi thường mua thức ăn để ăn. Tối nay tôi sẽ ăn Bulgogi ở nhà hàng gần nhà.\n\n1. Tôi thường xuyên nấu ăn.\n2. Không có nhà hàng ở gần nhà.\n3. Hôm nay tôi sẽ ăn Bulgogi.\n4. Hôm nay tôi ăn tối ở nhà.\n--------------------\nTheo như thông tin trong đoạn văn, tối nay, nhân vật \"tôi\" sẽ ăn Bulgogi ở nhà hàng gần nhà. 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "어제 친구가 한국에 왔습니다. 오늘 우리 집에 놀러 올 겁니다. 저는 집을 깨끗하게 청소했습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "저는 친구 집에 갈 겁니다.",
+          "저는 오늘 친구를 만납니다.",
+          "친구가 오늘 한국에 왔습니다.",
+          "친구하고 집을 청소할 겁니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "My friend came to Korea yesterday. He will come to my house today. I cleaned the house very well.\n\n1. I will go to my friend's house.\n2. I will meet my friend today.\n3. My friend came to Korea today.\n4. I will clean the house with my friend.\n--------------------\nThe friend who came to Korea yesterday will come to \"my\" house today. 2 is the correct answer.",
+          "vi": "Hôm qua, bạn của tôi đã đến Hàn Quốc. Hôm nay sẽ đến nhà tôi chơi. Tôi đã dọn dẹp nhà cửa sạch sẽ.\n\n1. Tôi sẽ đến nhà một người bạn.\n2. Hôm nay tôi gặp bạn.\n3. Hôm nay bạn của tôi đã đến Hàn Quốc.\n4. Tôi sẽ dọn dẹp nhà cửa cùng với bạn.\n--------------------\nNgười bạn đã đến Hàn Quốc vào hôm qua và hôm nay sẽ đến nhà nhân vật \"tôi\" chơi. 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "명동에서 약속이 있었습니다. 저는 집에서 일찍 나왔지만 차가 많아서 길이 막혔습니다. 그래서 약속 장소에 늦게 도착했습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 명동에 못 갔습니다.",
+          "길에 차가 많지 않았습니다.",
+          "저는 약속 시간에 늦었습니다.",
+          "저는 집에서 늦게 출발했습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "I had an appointment in Myeongdong. I left home early, but there was a lot of traffic and the roads were blocked. So I arrived at the meeting place late.\n\n1. I couldn't go to Myeongdong.\n2. There weren't many cars on the road.\n3. I was late for the appointment.\n4. I left home late.\n--------------------\nAccording to the information in the last sentence, 3 is the correct answer.",
+          "vi": "Tôi đã có một cuộc hẹn ở Myeongdong. Tôi ra khỏi nhà sớm nhưng vì xe cộ đông đúc nên đường bị tắc. Vì thế tôi đã đến điểm hẹn muộn.\n\n1. Tôi đã không thể đến Myeongdong.\n2. Trên đường không có nhiều xe.\n3. Tôi đã muộn giờ hẹn.\n4. Tôi đã xuất phát từ nhà muộn.\n--------------------\nTheo như thông tin ở câu cuối cùng, 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "제 동생은 빵을 잘 만듭니다. 동생이 만든 빵은 아주 맛있습니다. 저도 빵 만드는 방법을 배우고 싶습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 빵집에서 일하고 싶습니다.",
+          "저는 맛있는 빵을 사고 싶습니다.",
+          "저는 동생에게 빵을 주고 싶습니다.",
+          "저는 맛있는 빵을 만들고 싶습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "My younger sibling is good at making bread. The bread he/she makes is very delicious. I want to learn how to make bread, too.\n\n1. I want to work in a bakery.\n2. I want to buy delicious bread.\n3. I want to give bread to my younger sibling.\n4. I want to make delicious bread.\n--------------------\nAccording to the information in the last sentence, the character \"I\" wants to learn how to make bread. 4 is the correct answer.",
+          "vi": "Em tôi làm bánh mì rất giỏi. Bánh do em tôi làm rất ngon. Tôi cũng muốn học cách làm bánh mì.\n\n1. Tôi muốn làm việc ở tiệm bánh.\n2. Tôi muốn mua bánh mì ngon.\n3. Tôi muốn cho em tôi bánh mì.\n4. Tôi muốn làm ra những chiếc bánh mì ngon.\n--------------------\nTheo như thông tin ở câu cuối cùng, nhân vật \"tôi\" muốn học cách làm bánh. 4 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 바다에서 수영하는 것을 좋아합니다. 여름에는 수영을 하러 바다에 자주 갑니다. 빨리 여름이 오면 좋겠습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 여름을 제일 좋아합니다.",
+          "저는 수영을 잘하면 좋겠습니다.",
+          "저는 여름 바다에 가 보고 싶습니다.",
+          "저는 빨리 바다에서 수영하고 싶습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "I like swimming in the sea. In the summer, I often go to the sea to swim. I wish summer would come soon.\n\n1. I like summer the most.\n2. I wish I could swim well.\n3.I want to try going to the sea in the summer.\n4. I want to swim in the sea soon.\n--------------------\nIt can be seen that the character \"I\" really likes swimming in the sea, so the character \"I\" wishes summer would come quickly so he could go swimming. 4 is the correct answer.",
+          "vi": "Tôi thích bơi ở biển. Vào mùa hè tôi thường ra biển để bơi. Ước gì mùa hè đến nhanh.\n\n1. Tôi thích mùa hè nhất.\n2. Tôi ước mình bơi giỏi.\n3. Tôi muốn thử đi biển vào mùa hè.\n4. Tôi muốn nhanh chóng bơi ở biển.\n--------------------\nCó thể thấy nhân vật \"tôi\" rất thích bơi ở biển vậy nên nhân vật \"tôi\" ước mùa hè đến thật nhanh để được đi bơi. 4 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "옷장에 옷이 너무 많습니다. 그래서 옷장에서 옷을 찾기가 힘듭니다. 내일은 옷장을 정리할 겁니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "저는 옷장이 더 필요합니다.",
+          "저는 옷을 많이 찾을 겁니다.",
+          "저는 옷을 정리하려고 합니다.",
+          "저는 내일 옷을 사려고 합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "There are too many clothes in my closet. So it's hard to find clothes in my closet. I'm going to organize my closet tomorrow.\n\n1. I need more closet.\n2. I will find a lot of clothes.\n3. I am going to organize my clothes.\n4. I am going to buy clothes tomorrow.\n--------------------\nAccording to the information in the last sentence, the character \"I\" will organize the closet tomorrow. 3 is the correct answer.",
+          "vi": "Trong tủ quần áo có quá nhiều quần áo. Vì thế rất khó để tìm quần áo trong tủ. Ngày mai tôi sẽ dọn dẹp tủ quần áo.\n\n1. Tôi cần thêm tủ quần áo.\n2. Tôi sẽ tìm thật nhiều quần áo.\n3. Tôi định sắp xếp quần áo.\n4. Ngày mai tôi định mua quần áo.\n--------------------\nTheo như thông tin ở câu cuối cùng, nhân vật \"tôi\" sẽ sắp xếp lại tủ quần áo. 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "우리 집 근처에 빵집이 하나 있습니다. 그 빵집은 케이크가 싸고 맛있습니다. 저는 케이크를 좋아해서 거기에 자주 갑니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "빵집이 집에서 멉니다.",
+          "저는 빵집에 자주 갑니다.",
+          "저는 케이크를 싫어합니다.",
+          "케이크가 비싸지만 맛있습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "There is a bakery near my house. The cakes there are cheap and delicious. I like cakes, so I go there often.\n\n1. The bakery is far from my house.\n2. I go to the bakery often.\n3. I hate cakes.\n4. The cakes are expensive, but delicious.\n--------------------\nThis person likes cakes so he/she often goes to the bakery. 2 is the correct answer.",
+          "vi": "Có một tiệm bánh gần nhà tôi. Tiệm bánh đó có bánh ngọt vừa rẻ vừa ngon. Tôi thích bánh ngọt nên thường đến đó.\n\n1. Tiệm bánh ở xa nhà tôi.\n2. Tôi thường đến tiệm bánh.\n3. Tôi ghét bánh ngọt.\n4. Bánh đắt nhưng rất ngon.\n--------------------\nNgười này thích bánh ngọt nên thường đến tiệm bánh. 2 là đáp án đúng.",
+          "ar": "يوجد مخبز بالقرب من منزلي. الكعك هناك رخيص ولذيذ. أنا أحب الكعك، لذلك أذهب إليه كثيرًا.\n\n1. المخبز بعيد عن منزلي.\n2. أذهب إليه كثيرًا.\n3. أكره الكعك.\n4. الكعك غالي الثمن، لكنه لذيذ.\n--------------------\nهذا الشخص يحب الكعك، لذلك يذهب إلى المخبز كثيرًا. 2 هي الإجابة الصحيحة.",
+          "ru": "Рядом с моим домом есть пекарня. Торты там дешевые и вкусные. Мне нравятся торты, поэтому я часто туда хожу.\n\n1. Пекарня находится далеко от моего дома.\n2. Я часто хожу в пекарню.\n3. Я ненавижу торты.\n4. Торты дорогие, но вкусные.\n--------------------\nЭтот человек любит торты, поэтому он/она часто ходит в пекарню. 2 — правильный ответ.",
+          "de": "In meiner Nähe gibt es eine Bäckerei. Die Kuchen dort sind günstig und lecker. Ich mag Kuchen und gehe deshalb oft dorthin.\n\n1. Die Bäckerei ist weit weg von meinem Haus.\n2. Ich gehe oft dorthin.\n3. Ich hasse Kuchen.\n4. Die Kuchen sind teuer, aber lecker.\n--------------------\nDiese Person mag Kuchen und geht deshalb oft dorthin. 2 ist die richtige Antwort.",
+          "fr": "Il y a une boulangerie près de chez moi. Les gâteaux y sont bon marché et délicieux. J'aime les gâteaux, alors j'y vais souvent.\n\n1. La boulangerie est loin de chez moi.\n2. J'y vais souvent.\n3. Je déteste les gâteaux.\n4. Les gâteaux sont chers, mais délicieux.\n--------------------\nCette personne aime les gâteaux, alors elle va souvent à la boulangerie. 2 est la bonne réponse.",
+          "id": "Ada toko roti di dekat rumahku. Kue-kue di sana murah dan lezat. Aku suka kue, jadi aku sering ke sana.\n\n1. Toko roti itu jauh dari rumahku.\n2. Aku sering ke toko roti itu.\n3. Aku benci kue.\n4. Kue-kue itu mahal, tapi lezat.\n--------------------\nOrang ini suka kue jadi dia sering ke toko roti itu. 2 adalah jawaban yang benar.",
+          "it": "C'è una pasticceria vicino a casa mia. Le torte lì sono economiche e deliziose. Mi piacciono le torte, quindi ci vado spesso.\n\n1. La pasticceria è lontana da casa mia.\n2. Vado spesso in pasticceria.\n3. Odio le torte.\n4. Le torte sono costose, ma deliziose.\n--------------------\nA questa persona piacciono le torte, quindi va spesso in pasticceria. La risposta corretta è 2.",
+          "ja": "私の家の近くにパン屋があります。そこのケーキは安くておいしいです。私はケーキが好きなので、よく行きます。\n\n1. そのパン屋は私の家から遠いです。\n2. 私はよくそのパン屋に行きます。\n3. 私はケーキが嫌いです。\n4. ケーキは高いですが、おいしいです。\n--------------------\nこの人はケーキが好きなので、よくそのパン屋に行きます。正解は 2 です。",
+          "pt": "Há uma padaria perto da minha casa. Os bolos de lá são baratos e deliciosos. Eu gosto de bolos, então vou lá com frequência.\n\n1. A padaria fica longe da minha casa.\n2. Eu vou à padaria com frequência.\n3. Eu odeio bolos.\n4. Os bolos são caros, mas deliciosos.\n--------------------\nEsta pessoa gosta de bolos, então ela vai à padaria com frequência. A resposta correta é 2.",
+          "th": "มีร้านเบเกอรี่อยู่ใกล้บ้านฉัน เค้กที่นั่นราคาถูกและอร่อย ฉันชอบเค้กจึงไปที่นั่นบ่อยๆ\n\n1. ร้านเบเกอรี่อยู่ไกลจากบ้านฉัน\n2. ฉันไปร้านเบเกอรี่บ่อย\n3. ฉันเกลียดเค้ก\n4. เค้กแพงแต่ก็อร่อย\n--------------------\nบุคคลนี้ชอบเค้กจึงไปร้านเบเกอรี่บ่อยๆ 2 คือคำตอบที่ถูกต้อง",
+          "tr": "Evimin yakınında bir fırın var. Oradaki kekler ucuz ve lezzetli. Kekleri seviyorum, bu yüzden sık sık oraya gidiyorum.\n\n1. Fırın evimden uzakta.\n2. Fırına sık sık gidiyorum.\n3. Keklerden nefret ediyorum.\n4. Kekler pahalı ama lezzetli.\n--------------------\nBu kişi kekleri seviyor, bu yüzden sık sık fırına gidiyor. Doğru cevap 2'dir.",
+          "tw": "Bakery bi wɔ hɔ a ɛbɛn me fie. Keeki a ɛwɔ hɔ no bo nyɛ den na ɛyɛ dɛ. M’ani gye keeki ho, enti metaa kɔ hɔ.\n\n1. Bakery no ne me fie ntam kwan ware.\n2. Metaa kɔ baabi a wɔyɛ paanoo.\n3. Metan keeki.\n4. Keeki no bo yɛ den, nanso ɛyɛ dɛ.\n--------------------\nSaa onipa yi ani gye keeki ho enti ɔtaa kɔ baabi a wɔyɛ paanoo. 2 ne mmuae a ɛteɛ.",
+          "hi": "मेरे घर के पास एक बेकरी है। वहाँ के केक सस्ते और स्वादिष्ट हैं। मुझे केक पसंद है, इसलिए मैं अक्सर वहाँ जाता हूँ।\n\n1. बेकरी मेरे घर से बहुत दूर है।\n\n2. मैं अक्सर बेकरी जाता हूँ।\n\n3. मुझे केक से नफ़रत है।\n\n4. केक महंगे हैं, लेकिन स्वादिष्ट हैं।\n\n--------------------\nइस व्यक्ति को केक पसंद है इसलिए वह अक्सर बेकरी जाता है। 2 सही उत्तर है।",
+          "ne": "मेरो घर नजिकै एउटा बेकरी छ। त्यहाँका केकहरू सस्तो र स्वादिष्ट छन्। मलाई केकहरू मन पर्छ, त्यसैले म त्यहाँ बारम्बार जान्छु।\n\n१. बेकरी मेरो घरबाट टाढा छ।\n२. म प्रायः बेकरीमा जान्छु।\n३. मलाई केक मन पर्दैन।\n४. केकहरू महँगा छन्, तर स्वादिष्ट छन्।\n----------------\nयो व्यक्तिलाई केक मन पर्छ त्यसैले ऊ प्रायः बेकरीमा जान्छ। २ सही उत्तर हो।",
+          "km": "មានហាងនំបុ័ងនៅជិតផ្ទះខ្ញុំ។ នំនៅទីនោះមានតម្លៃថោក និងឆ្ងាញ់។ ខ្ញុំចូលចិត្តនំខេក ដូច្នេះខ្ញុំទៅទីនោះញឹកញាប់។\n\n1. ហាងនំប៉័ងនៅឆ្ងាយពីផ្ទះខ្ញុំ។\n2. ខ្ញុំទៅហាងនំប៉័ងជាញឹកញាប់។\n3. ខ្ញុំស្អប់នំខេក។\n4. នំខេកមានតម្លៃថ្លៃ ប៉ុន្តែឆ្ងាញ់។\n--------------------\nបុគ្គលនេះចូលចិត្តនំខេក ដូច្នេះគាត់តែងតែទៅហាងនំប៉័ង។ 2 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "මගේ ගෙදර ළඟ බේකරියක් තියෙනවා. ඒකෙ කේක් ලාබයි රසයි. මම කේක් වලට කැමතියි, ඒ නිසා මම නිතරම එතනට යනවා.\n\n1. බේකරිය මගේ ගෙදරින් ගොඩක් දුරයි.\n2. මම නිතරම බේකරියට යනවා.\n3. මම කේක් වලට කැමති නැහැ.\n4. කේක් මිල අධිකයි, නමුත් රසවත්.\n-------------------------\nමේ පුද්ගලයා කේක් වලට කැමතියි, ඒ නිසා ඔහු/ඇය නිතරම බේකරියට යනවා. 2 තමයි නිවැරදි පිළිතුර.",
+          "bn": "আমার বাসার কাছেই একটা বেকারি আছে। সেখানকার কেকগুলো সস্তা এবং সুস্বাদু। আমি কেক পছন্দ করি, তাই আমি প্রায়ই সেখানে যাই।\n\n১. বেকারিটা আমার বাসা থেকে অনেক দূরে।\n২. আমি প্রায়ই বেকারিতে যাই।\n৩. কেক আমার পছন্দের না।\n৪. কেকগুলো দামি, কিন্তু সুস্বাদু।\n----------------\nএই ব্যক্তি কেক পছন্দ করেন তাই তিনি প্রায়ই বেকারিতে যান। ২ হল সঠিক উত্তর।",
+          "my": "ငါ့အိမ်နားမှာ မုန့်ဆိုင်ရှိတယ်။ အဲဒီမှာ ကိတ်မုန့်တွေက ဈေးသက်သက်သာသာနဲ့ အရသာရှိတယ်။ ကိတ်မုန့်ကြိုက်တယ်၊ ဒါကြောင့် မကြာခဏ သွားဖြစ်တယ်။\n\n1. မုန့်ဆိုင်က ငါ့အိမ်နဲ့ ဝေးတယ်။\n2. မုန့်ဆိုင်ကို မကြာခဏ သွားဖြစ်တယ်။\n3. ကိတ်မုန့်တွေကို မုန်းတယ်။\n4. ကိတ်မုန့်များသည် ဈေးကြီးသော်လည်း အရသာရှိသည်။\n--------------------\nဒီလူက ကိတ်မုန့်ကို ကြိုက်တဲ့အတွက် မုန့်ဆိုင်ကို မကြာခဏ သွားဖြစ်တယ်။ 2 က အဖြေမှန်ပါ။",
+          "es": "Hay una panadería cerca de mi casa. Los pasteles son baratos y deliciosos. Me gustan los pasteles, así que voy a menudo.\n\n1. La panadería está lejos de mi casa.\n2. Voy a la panadería a menudo.\n3. Odio los pasteles.\n4. Los pasteles son caros, pero deliciosos.\n--------------------\nA esta persona le gustan los pasteles, así que va a menudo a la panadería. 2 es la respuesta correcta.",
+          "zh-CN": "我家附近有一家面包店。那里的蛋糕便宜又好吃。我喜欢吃蛋糕，所以经常去那里。\n\n1. 这家面包店离我家很远。\n2. 我经常去那家面包店。\n3. 我讨厌吃蛋糕。\n4. 那里的蛋糕很贵，但是很好吃。\n--------------------\n这个人喜欢蛋糕，所以他/她经常去那家面包店。正确答案是2。",
+          "zh-TW": "我家附近有一家麵包店。那裡的蛋糕便宜又好吃。我喜歡吃蛋糕，所以我經常去那裡。\n\n1. 這家麵包店離我家很遠。\n2. 我常去那家麵包店。\n3. 我討厭吃蛋糕。\n4. 那裡的蛋糕很貴，但是很好吃。\n--------------------\n這個人喜歡蛋糕，所以他/她常去那家麵包店。正確答案是2。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 1년 동안 K-POP 춤을 배웠습니다. 매일 연습해서 지금은 잘 춥니다. 이번 달에는 K-POP 춤 대회에도 나갑니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "저는 K-POP 춤을 잘 춥니다.",
+          "저는 춤 연습을 못 했습니다.",
+          "저는 한 달 동안 춤을 배웠습니다.",
+          "저는 다음 달에 춤 대회에 나갑니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "I learned K-POP dance for a year. I practice every day and I am good at it now. I will participate in a K-POP dance competition this month.\n\n1. I am good at K-POP dance.\n2. I couldn't practice dancing.\n3. I learned dance for a month.\n4. I will participate in a dance competition next month.\n--------------------\nThis person practices dancing every day so he/she can dance well now. 1 is the correct answer.",
+          "vi": "Tôi đã học nhảy K-POP trong một năm. Tôi luyện tập mỗi ngày nên bây giờ tôi có thể nhảy tốt. Tháng này tôi cũng tham gia một cuộc thi nhảy K-POP.\n\n1. Tôi giỏi nhảy K-POP.\n2. Tôi đã không thể tập nhảy.\n3. Tôi đã học nhảy trong một tháng.\n4. Tôi sẽ tham gia một cuộc thi nhảy vào tháng tới.\n--------------------\nNgười này tập nhảy mỗi ngày nên bây giờ có thể nhảy tốt. 1 là đáp án đúng.",
+          "ar": "تعلمتُ رقص الكيبوب لمدة عام. أتدرب يوميًا، وأصبحتُ بارعًا فيه الآن. سأشارك في مسابقة رقص كيبوب هذا الشهر.\n\n1. أنا بارع في رقص الكيبوب.\n2. لم أستطع التدرب على الرقص.\n3. تعلمتُ الرقص لمدة شهر.\n4. سأشارك في مسابقة رقص الشهر القادم.\n--------------------\nيتدرب هذا الشخص على الرقص يوميًا حتى يتقنه الآن. الإجابة الصحيحة هي 1.",
+          "ru": "Я учился танцевать K-POP целый год. Я практикуюсь каждый день, и теперь у меня хорошо получается. В этом месяце я буду участвовать в танцевальном конкурсе K-POP.\n\n1. Я хорошо танцую K-POP.\n2. Я не мог практиковаться в танцах.\n3. Я учился танцевать целый месяц.\n4. Я буду участвовать в танцевальном конкурсе в следующем месяце.\n--------------------\nЭтот человек практикуется в танцах каждый день, поэтому теперь он/она может хорошо танцевать. Правильный ответ — 1.",
+          "de": "Ich habe ein Jahr lang K-Pop-Tanzen gelernt. Ich übe jeden Tag und bin jetzt gut darin. Ich werde diesen Monat an einem K-Pop-Tanzwettbewerb teilnehmen.\n\n1. Ich bin gut im K-Pop-Tanzen.\n2. Ich konnte nicht tanzen.\n3. Ich habe einen Monat lang Tanzen gelernt.\n4. Ich werde nächsten Monat an einem Tanzwettbewerb teilnehmen.\n--------------------\nDiese Person übt jeden Tag, damit sie jetzt gut tanzen kann. 1 ist die richtige Antwort.",
+          "fr": "J'ai appris la danse K-POP pendant un an. Je m'entraîne tous les jours et je suis bon maintenant. Je vais participer à une compétition de danse K-POP ce mois-ci.\n\n1. Je suis bon en danse K-POP.\n2. Je n'ai pas pu m'entraîner.\n3. J'ai appris la danse pendant un mois.\n4. Je vais participer à une compétition de danse le mois prochain.\n--------------------\nCette personne s'entraîne tous les jours et peut donc bien danser maintenant. 1 est la bonne réponse.",
+          "id": "Saya belajar tari K-POP selama setahun. Saya berlatih setiap hari dan sekarang saya sudah mahir. Saya akan mengikuti kompetisi tari K-POP bulan ini.\n\n1. Saya jago tari K-POP.\n\n2. Saya tidak bisa berlatih menari.\n\n3. Saya belajar menari selama sebulan.\n\n4. Saya akan mengikuti kompetisi tari bulan depan.\n\n--------------------\nOrang ini berlatih menari setiap hari agar dia bisa menari dengan baik sekarang. Jawaban yang benar adalah 1.",
+          "it": "Ho imparato a ballare il K-POP per un anno. Mi alleno ogni giorno e ora sono bravo. Parteciperò a una gara di ballo K-POP questo mese.\n\n1. Sono bravo a ballare il K-POP.\n2. Non riuscivo ad allenarmi.\n3. Ho imparato a ballare per un mese.\n4. Parteciperò a una gara di ballo il mese prossimo.\n--------------------\nQuesta persona si allena a ballare ogni giorno, quindi ora sa ballare bene. La risposta corretta è 1.",
+          "ja": "私はK-POPダンスを1年間習いました。毎日練習していて、今では上手になりました。今月開催されるK-POPダンスコンテストに出場します。\n\n1. 私はK-POPダンスが得意です。\n2. ダンスの練習ができませんでした。\n3. ダンスを1か月間習いました。\n4. 来月開催されるダンスコンテストに出場します。\n--------------------\nこの人は毎日ダンスの練習をしているので、今では上手に踊れます。正解は1です。",
+          "pt": "Aprendi dança K-POP por um ano. Pratico todos os dias e agora sou bom nisso. Participarei de uma competição de dança K-POP este mês.\n\n1. Sou bom em dança K-POP.\n2. Não consegui praticar dança.\n3. Aprendi dança por um mês.\n4. Participarei de uma competição de dança no mês que vem.\n--------------------\nEsta pessoa pratica dança todos os dias, então agora consegue dançar bem. A resposta correta é 1.",
+          "th": "ฉันเรียนเต้น K-POP มา 1 ปีแล้ว ฉันฝึกซ้อมทุกวันและตอนนี้ฉันทำได้ดีแล้ว เดือนนี้ฉันจะเข้าร่วมการแข่งขันเต้น K-POP\n\n1. ฉันเก่งในการเต้น K-POP\n2. ฉันฝึกเต้นไม่ได้\n3. ฉันเรียนเต้นมา 1 เดือนแล้ว\n4. เดือนหน้าฉันจะเข้าร่วมการแข่งขันเต้น\n--------------------\nบุคคลนี้ฝึกซ้อมเต้นทุกวัน ดังนั้นตอนนี้เขา/เธอจึงสามารถเต้นได้ดี 1 คือคำตอบที่ถูกต้อง",
+          "tr": "Bir yıl boyunca K-POP dansı öğrendim. Her gün pratik yapıyorum ve artık bunda iyiyim. Bu ay bir K-POP dans yarışmasına katılacağım.\n\n1. K-POP dansında iyiyim.\n2. Dans pratiği yapamadım.\n3. Bir ay boyunca dans öğrendim.\n4. Gelecek ay bir dans yarışmasına katılacağım.\n--------------------\nBu kişi artık iyi dans edebilmek için her gün dans pratiği yapıyor. Doğru cevap 1'dir.",
+          "tw": "Misuaa K-POP asaw afe biako. Meyɛ adesua da biara na me ho akokwaw wɔ mu mprempren. Mede me ho bɛhyɛ K-POP asaw akansi bi mu ɔsram yi.\n\n1. Me ho akokwaw wɔ K-POP asaw mu.\n2. Na mintumi nsua asaw.\n3. Misuaa asaw ɔsram biako.\n4. Mede me ho bɛhyɛ asaw akansi bi mu ɔsram a edi hɔ no.\n--------------------\nSaa onipa yi de asaw di dwuma da biara sɛnea ɛbɛyɛ a obetumi asaw yiye mprempren. 1 ne mmuae a ɛteɛ.",
+          "hi": "मैंने एक साल तक K-POP नृत्य सीखा। मैं हर दिन अभ्यास करता हूँ और अब मैं इसमें अच्छा हूँ। मैं इस महीने K-POP नृत्य प्रतियोगिता में भाग लूँगा।\n\n1. मैं K-POP नृत्य में अच्छा हूँ।\n\n2. मैं नृत्य का अभ्यास नहीं कर सका।\n\n3. मैंने एक महीने तक नृत्य सीखा।\n\n4. मैं अगले महीने नृत्य प्रतियोगिता में भाग लूँगा।\n\n--------------------\nयह व्यक्ति हर दिन नृत्य का अभ्यास करता है इसलिए वह अब अच्छा नृत्य कर सकता है। 1 सही उत्तर है।",
+          "ne": "मैले एक वर्षसम्म K-POP नृत्य सिकेँ। म हरेक दिन अभ्यास गर्छु र अहिले म यसमा राम्रो छु। म यस महिना K-POP नृत्य प्रतियोगितामा भाग लिनेछु।\n\n१. म K-POP नृत्यमा राम्रो छु।\n२. म नृत्य अभ्यास गर्न सकिन।\n३. मैले एक महिना नृत्य सिकेँ।\n४. म अर्को महिना नृत्य प्रतियोगितामा भाग लिनेछु।\n----------------\nयो व्यक्तिले हरेक दिन नृत्य अभ्यास गर्छ त्यसैले ऊ/उनी अब राम्रोसँग नाच्न सक्छ। १ सही उत्तर हो।",
+          "km": "ខ្ញុំរៀនរាំ K-POP មួយឆ្នាំ។ ខ្ញុំ​ហាត់​រាល់​ថ្ងៃ​ហើយ​ឥឡូវ​ខ្ញុំ​ពូកែ​ហើយ។ ខ្ញុំនឹងចូលរួមក្នុងការប្រកួតរាំ K-POP ក្នុងខែនេះ។\n\n1. ខ្ញុំពូកែរាំ K-POP ។\n2. ខ្ញុំមិនអាចហាត់រាំបានទេ។\n3. ខ្ញុំរៀនរាំបានមួយខែ។\n4. ខ្ញុំនឹងចូលរួមក្នុងការប្រកួតរាំនៅខែក្រោយ។\n--------------------\nអ្នក​នេះ​ហាត់​រាំ​ជា​រៀង​រាល់​ថ្ងៃ ដូច្នេះ​គាត់​អាច​រាំ​បាន​យ៉ាង​ល្អ​ឥឡូវ​នេះ។ 1 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "මම අවුරුද්දක් K-POP නැටුම් ඉගෙන ගත්තා. මම හැමදාම පුහුණු වෙනවා, දැන් මම ඒකට දක්ෂයි. මම මේ මාසයේ K-POP නැටුම් තරඟයකට සහභාගි වෙනවා.\n\n1. මම K-POP නර්තනයට දක්ෂයි.\n2. මට නැටුම් පුහුණු වෙන්න බැරි වුණා.\n3. මම මාසයක් නැටුම් ඉගෙන ගත්තා.\n4. මම ලබන මාසයේ නැටුම් තරඟයකට සහභාගි වෙනවා.\n--------------------------\nමේ පුද්ගලයා දැන් හොඳින් නටන්න පුළුවන් වෙන විදිහට හැමදාම නැටුම් පුහුණු වෙනවා. 1 තමයි නිවැරදි පිළිතුර.",
+          "bn": "আমি এক বছর ধরে কে-পপ নৃত্য শিখেছি। আমি প্রতিদিন অনুশীলন করি এবং এখন আমি এতে ভালো। আমি এই মাসে একটি কে-পপ নৃত্য প্রতিযোগিতায় অংশগ্রহণ করব।\n\n১. আমি কে-পপ নৃত্যে ভালো।\n২. আমি নাচ অনুশীলন করতে পারিনি।\n৩. আমি এক মাস ধরে নাচ শিখেছি।\n৪. আমি আগামী মাসে একটি নৃত্য প্রতিযোগিতায় অংশগ্রহণ করব।\n----------------\nএই ব্যক্তি প্রতিদিন নাচ অনুশীলন করে তাই সে এখন ভালো নাচতে পারে। ১টি সঠিক উত্তর।",
+          "my": "K-POP အကကို တစ်နှစ်လောက် သင်ယူခဲ့တယ်။ ကျွန်တော် နေ့တိုင်း လေ့ကျင့်နေပြီး အခု ကောင်းကောင်း လုပ်နိုင်နေပါပြီ။ ဒီလထဲမှာ K-POP အကပြိုင်ပွဲမှာ ပါဝင်ယှဉ်ပြိုင်မယ်။\n\n1. ငါ K-POP အက ကောင်းတယ် ။\n2. ကခုန်လေ့ကျင့်လို့ မရဘူး။\n3. တစ်လလောက် အက တတ်လာတယ်။\n4. နောက်လမှာ အကပြိုင်ပွဲမှာ ပါဝင်ယှဉ်ပြိုင်မယ်။\n--------------------\nဒီလူက နေ့တိုင်း အကတွေ လေ့ကျင့်နေတော့ သူ/သူမ ကောင်းကောင်း ကနေပြီ ။ 1 က အဖြေမှန်ပါ။",
+          "es": "Aprendí a bailar K-POP durante un año. Practico a diario y ahora soy bueno. Participaré en una competencia de baile K-POP este mes.\n\n1. Soy bueno bailando K-POP.\n2. No pude practicar.\n3. Aprendí a bailar durante un mes.\n4. Participaré en una competencia de baile el mes que viene.\n--------------------\nEsta persona practica baile a diario, así que ahora baila bien. La respuesta correcta es 1.",
+          "zh-CN": "我学了一年的K-POP舞蹈。我每天都练习，现在跳得很好。这个月我会参加一个K-POP舞蹈比赛。\n\n1. 我擅长K-POP舞蹈。\n2. 我没法练习舞蹈。\n3. 我学了一个月的舞蹈。\n4. 我下个月会参加一个舞蹈比赛。\n--------------------\n这个人每天都练习舞蹈，所以现在跳得很好。1是正确答案。",
+          "zh-TW": "我學了一年的K-POP舞蹈。我每天都練習，現在跳得很好。這個月我會參加一個K-POP舞蹈比賽。\n\n1. 我擅長K-POP舞蹈。\n2. 我沒辦法練習舞蹈。\n3. 我學了一個月的舞蹈。\n4. 我下個月會參加一場舞蹈比賽。\n--------------------\n這個人每天都會練習舞蹈，所以現在跳得很好。 1是正確答案。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43 ~ 45] 다음의 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 그릇 모으는 것이 취미입니다. 그래서 저는 예쁜 그릇을 볼 때마다 삽니다. 지난 주말에는 백화점에서 꽃 모양 접시를 샀습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 취미가 없습니다.",
+          "저는 예쁜 그릇을 보면 삽니다.",
+          "저는 백화점에서 컵을 샀습니다.",
+          "저는 지난 주말에 밖에 안 나갔습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "My hobby is collecting dishes. So whenever I see a pretty dish, I buy it. Last weekend, I bought a flower-shaped dish at a department store.\n\n1. I don't have a hobby.\n2. I buy pretty dishes when I see them.\n3. I bought a cup at a department store.\n4. I didn't go out last weekend.\n--------------------\nWhenever this person sees a pretty dish, he/she buys it. 2 is the correct answer.",
+          "vi": "Sở thích của tôi là sưu tầm đĩa. Vì vậy, bất cứ khi nào nhìn thấy một chiếc đĩa đẹp, tôi đều mua nó. Cuối tuần trước, tôi đã mua một chiếc đĩa hình bông hoa ở trung tâm thương mại.\n\n1. Tôi không có sở thích nào cả.\n2. Khi tôi nhìn thấy một chiếc đĩa đẹp, tôi sẽ mua nó.\n3. Tôi đã mua một chiếc cốc ở một trung tâm thương mại.\n4. Tôi đã không ra ngoài vào cuối tuần trước.\n--------------------\nBất cứ khi nào nhìn thấy một chiếc đĩa đẹp, người này đều mua nó. 2 là đáp án đúng.",
+          "ar": "هوايتي جمع الأطباق. لذا كلما رأيت طبقًا جميلًا، أشتريه. في نهاية الأسبوع الماضي، اشتريت طبقًا على شكل زهرة من متجر متعدد الأقسام.\n\n1. ليس لديّ هواية.\n2. أشتري أطباقًا جميلة عندما أراها.\n3. اشتريت كوبًا من متجر متعدد الأقسام.\n4. لم أخرج في نهاية الأسبوع الماضي.\n--------------------\nكلما رأى هذا الشخص طبقًا جميلًا، يشتريه. الإجابة الصحيحة هي 2.",
+          "ru": "Мое хобби — коллекционирование тарелок. Поэтому, когда я вижу красивую тарелку, я ее покупаю. На прошлых выходных я купила в универмаге тарелку в форме цветка.\n\n1. У меня нет хобби.\n2. Я покупаю красивую тарелку, когда ее вижу.\n3. Я купила чашку в универмаге.\n4. Я не ходила куда-то на прошлых выходных.\n--------------------\nВсякий раз, когда этот человек видит красивую тарелку, он/она ее покупает. Правильный ответ — 2.",
+          "de": "Mein Hobby ist das Sammeln von Geschirr. Wenn ich also ein schönes Geschirr sehe, kaufe ich es. Letztes Wochenende habe ich mir ein blumenförmiges Geschirr in einem Kaufhaus gekauft.\n\n1. Ich habe kein Hobby.\n2. Ich kaufe schönes Geschirr, wenn ich es sehe.\n3. Ich habe mir eine Tasse in einem Kaufhaus gekauft.\n4. Ich war letztes Wochenende nicht aus.\n--------------------\nWenn diese Person ein schönes Geschirr sieht, kauft sie es. 2 ist die richtige Antwort.",
+          "fr": "Mon hobby est de collectionner la vaisselle. Alors, dès que je vois une jolie assiette, je l'achète. Le week-end dernier, j'ai acheté une assiette en forme de fleur dans un grand magasin.\n\n1. Je n'ai pas de hobby.\n2. J'achète de la jolie vaisselle quand j'en vois.\n3. J'ai acheté une tasse dans un grand magasin.\n4. Je ne suis pas sorti le week-end dernier.\n--------------------\nChaque fois que cette personne voit une jolie assiette, elle l'achète. 2 est la bonne réponse.",
+          "id": "Hobi saya adalah mengoleksi piring. Jadi, setiap kali saya melihat piring yang cantik, saya akan membelinya. Akhir pekan lalu, saya membeli piring berbentuk bunga di sebuah department store.\n\n1. Saya tidak punya hobi.\n\n2. Saya membeli piring yang cantik ketika saya melihatnya.\n\n3. Saya membeli cangkir di sebuah department store.\n\n4. Saya tidak pergi keluar akhir pekan lalu.\n\n--------------------\nSetiap kali orang ini melihat piring yang cantik, dia akan membelinya. Jawaban yang benar adalah 2.",
+          "it": "Il mio hobby è collezionare piatti. Quindi ogni volta che vedo un bel piatto, lo compro. Lo scorso fine settimana ho comprato un piatto a forma di fiore in un grande magazzino.\n\n1. Non ho un hobby.\n2. Compro piatti belli quando li vedo.\n3. Ho comprato una tazza in un grande magazzino.\n4. Non sono uscito lo scorso fine settimana.\n--------------------\nOgni volta che questa persona vede un bel piatto, lo compra. La risposta corretta è 2.",
+          "ja": "私の趣味は食器を集めることです。だから、きれいな食器を見るといつも買ってしまいます。先週末はデパートで花の形をした食器を買いました。\n\n1. 私には趣味はありません。\n2. きれいな食器を見ると買ってしまいます。\n3. デパートでコップを買いました。\n4. 先週末は外出しませんでした。\n--------------------\nこの人はきれいな食器を見るといつも買ってしまいます。正解は 2 です。",
+          "pt": "Meu hobby é colecionar pratos. Então, sempre que vejo um prato bonito, eu o compro. No último fim de semana, comprei um prato em formato de flor em uma loja de departamentos.\n\n1. Não tenho um hobby.\n2. Compro pratos bonitos quando os vejo.\n3. Comprei uma xícara em uma loja de departamentos.\n4. Não saí no último fim de semana.\n--------------------\nSempre que essa pessoa vê um prato bonito, ela o compra. A resposta correta é 2.",
+          "th": "งานอดิเรกของฉันคือการสะสมจาน ดังนั้นทุกครั้งที่ฉันเห็นจานสวยๆ ฉันก็จะซื้อมัน เมื่อสุดสัปดาห์ที่แล้ว ฉันซื้อจานรูปดอกไม้ที่ห้างสรรพสินค้า\n\n1. ฉันไม่มีงานอดิเรก\n2. ฉันซื้อจานสวยๆ เมื่อฉันเห็นมัน\n3. ฉันซื้อถ้วยที่ห้างสรรพสินค้า\n4. ฉันไม่ได้ออกไปไหนเมื่อสุดสัปดาห์ที่แล้ว\n--------------------\nเมื่อใดก็ตามที่บุคคลนี้เห็นจานสวยๆ เขา/เธอจะซื้อมัน 2 คือคำตอบที่ถูกต้อง",
+          "tr": "Benim hobim tabak toplamak. Bu yüzden güzel bir tabak gördüğümde onu satın alıyorum. Geçtiğimiz hafta sonu bir mağazadan çiçek şeklinde bir tabak aldım.\n\n1. Bir hobim yok.\n2. Güzel tabaklar gördüğümde onları satın alıyorum.\n3. Bir mağazadan bir fincan aldım.\n4. Geçtiğimiz hafta sonu dışarı çıkmadım.\n--------------------\nBu kişi güzel bir tabak gördüğünde onu satın alıyor. Doğru cevap 2'dir.",
+          "tw": "M’anigyede ne sɛ mɛboaboa nkuku ano. Enti bere biara a mehu aduan fɛfɛ bi no, metɔ. Dapɛn awiei a etwaam no, metɔɔ aduan bi a ɛte sɛ nhwiren wɔ sotɔɔ kɛse bi mu.\n\n1. Menni biribi a mede gye m’ani.\n2. Metɔ nkuku fɛfɛ bere a mahu no.\n3. Metɔɔ kuruwa bi wɔ sotɔɔ kɛse bi mu.\n4. Mankɔ abɔnten dapɛn awiei a etwaam no.\n--------------------\nBere biara a onipa yi behu aduan fɛfɛ bi no, ɔtɔ. 2 ne mmuae a ɛteɛ.",
+          "hi": "मेरा शौक बर्तन इकट्ठा करना है। इसलिए जब भी मुझे कोई सुंदर बर्तन दिखता है, मैं उसे खरीद लेता हूँ। पिछले सप्ताहांत, मैंने एक डिपार्टमेंटल स्टोर से एक फूल के आकार का बर्तन खरीदा।\n\n1. मुझे कोई शौक नहीं है।\n2. जब भी मुझे कोई सुंदर बर्तन दिखता है, मैं उसे खरीद लेता हूँ।\n3. मैंने एक डिपार्टमेंटल स्टोर से एक कप खरीदा।\n4. मैं पिछले सप्ताहांत बाहर नहीं गया।\n--------------------\nजब भी यह व्यक्ति कोई सुंदर बर्तन देखता है, तो वह उसे खरीद लेता है। 2 सही उत्तर है।",
+          "ne": "मेरो शौक भाँडाकुँडा सङ्कलन गर्नु हो। त्यसैले जब म कुनै सुन्दर परिकार देख्छु, म त्यो किन्छु। गत सप्ताहन्तमा, मैले एउटा डिपार्टमेन्ट स्टोरबाट फूल आकारको परिकार किनेको थिएँ।\n\n१. मलाई कुनै शौक छैन।\n२. म राम्रा परिकारहरू देख्दा किन्छु।\n३. मैले डिपार्टमेन्ट स्टोरबाट कप किनेको थिएँ।\n४. म गत सप्ताहन्तमा बाहिर निस्किनँ।\n----------------\nजब यो व्यक्तिले सुन्दर परिकार देख्छ, उसले त्यो किन्छ। २ सही उत्तर हो।",
+          "km": "ចំណង់ចំណូលចិត្តរបស់ខ្ញុំគឺប្រមូលចាន។ ដូច្នេះ​រាល់​ពេល​ដែល​ខ្ញុំ​ឃើញ​ម្ហូប​ស្អាត ខ្ញុំ​ទិញ​វា។ កាល​ពី​ចុង​សប្តាហ៍​មុន ខ្ញុំ​បាន​ទិញ​ម្ហូប​រាង​ផ្កា​នៅ​ហាង​មួយ​។\n\n1. ខ្ញុំមិនមានចំណង់ចំណូលចិត្តទេ។\n2. ខ្ញុំទិញចានស្អាតនៅពេលខ្ញុំឃើញពួកគេ។\n3. ខ្ញុំបានទិញពែងមួយនៅហាងទំនិញមួយ។\n4. ខ្ញុំមិនបានចេញទៅក្រៅទេកាលពីចុងសប្តាហ៍មុន។\n--------------------\nពេល​ណា​មនុស្ស​ម្នាក់​នេះ​ឃើញ​មុខ​ម្ហូប​ស្អាត គាត់​ទិញ​វា។ 2 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "මගේ විනෝදාංශය කෑම එකතු කරන එක. ඒ නිසා මම ලස්සන කෑමක් දකින හැම වෙලාවෙම මම ඒක ගන්නවා. ගිය සති අන්තයේ, මම දෙපාර්තමේන්තු සාප්පුවකින් මල් හැඩැති කෑමක් මිලදී ගත්තා.\n\n1. මට විනෝදාංශයක් නැහැ.\n2. මම ඒවා දකින විට ලස්සන කෑම මිලදී ගන්නවා.\n3. මම දෙපාර්තමේන්තු සාප්පුවකින් කෝප්පයක් මිලදී ගත්තා.\n4. මම ගිය සති අන්තයේ එළියට ගියේ නැහැ.\n---------------------------\nමෙම පුද්ගලයා ලස්සන කෑමක් දකින සෑම විටම ඔහු/ඇය එය මිලදී ගන්නවා. 2 නිවැරදි පිළිතුරයි.",
+          "bn": "আমার শখ হল খাবার সংগ্রহ করা। তাই যখনই আমি সুন্দর খাবার দেখি, আমি তা কিনে ফেলি। গত সপ্তাহান্তে, আমি একটি ডিপার্টমেন্টাল স্টোর থেকে ফুলের আকৃতির একটি থালা কিনেছিলাম।\n\n১. আমার কোনও শখ নেই।\n২. আমি যখন সুন্দর খাবার দেখি তখনই তা কিনি।\n\n৩. আমি একটি ডিপার্টমেন্টাল স্টোর থেকে একটি কাপ কিনেছিলাম।\n৪. আমি গত সপ্তাহান্তে বাইরে যাইনি।\n----------------\nযখনই এই ব্যক্তি একটি সুন্দর খাবার দেখে, সে তা কিনে নেয়। ২ হল সঠিক উত্তর।",
+          "my": "ကျွန်တော့် ဝါသနာက ဟင်းတွေ စုဆောင်းရတာ။ ဒါကြောင့် ဟင်းလှလှလေးတွေ့တိုင်း ဝယ်စားတယ်။ ပြီးခဲ့တဲ့ အပတ်က စတိုးဆိုင်တစ်ခုမှာ ပန်းပုံသဏ္ဍာန် ပန်းကန်တစ်လုံး ဝယ်ခဲ့တယ်။\n\n1. ကျွန်တော့်မှာ ဝါသနာမရှိဘူး။\n2. ပန်းကန်လှလှလေးတွေတွေ့ရင် ဝယ်တယ်။\n3. ကျွန်မက စတိုးဆိုင်တစ်ခုမှာ ခွက်ဝယ်ခဲ့တယ်။\n4. ပြီးခဲ့တဲ့ အပတ်က အပြင်မထွက်ဘူး။\n--------------------\nဒီလူက ဟင်းလှလှကိုတွေ့တိုင်း သူ/သူမဝယ်တယ်။ 2 က အဖြေမှန်ပါ။",
+          "es": "Mi afición es coleccionar platos. Así que siempre que veo un plato bonito, lo compro. El fin de semana pasado, compré un plato con forma de flor en unos grandes almacenes.\n\n1. No tengo ninguna afición.\n2. Compro platos bonitos cuando los veo.\n3. Compré una taza en unos grandes almacenes.\n4. No salí el fin de semana pasado.\n--------------------\nSiempre que esta persona ve un plato bonito, lo compra. La respuesta correcta es 2.",
+          "zh-CN": "我的爱好是收集盘子。所以每当我看到漂亮的盘子，我都会买。上周末，我在百货商店买了一个花形盘子。\n\n1. 我没有爱好。\n2. 我看到漂亮的盘子就会买。\n3. 我在百货商店买了一个杯子。\n4. 我上周末没出去。\n--------------------\n这个人每次看到漂亮的盘子，他/她都会买。正确答案是2。",
+          "zh-TW": "我的興趣是收集盤子。所以每當我看到漂亮的盤子，我都會買。上週末，我在百貨公司買了一個花形盤。\n\n1. 我沒有愛好。\n2. 我看到漂亮的盤子就會買。\n3. 我在百貨公司買了一個杯子。\n4. 我上週末沒出去。\n--------------------\n這個人每次看到漂亮的盤子，他/她都會買。正確答案是2。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 얼마 전에 테니스를 시작했습니다. 테니스를 치면 즐겁고 기분이 좋습니다. 그래서 매일 테니스를 치러 갑니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 테니스를 배우려고 합니다.",
+          "저는 테니스 치는 것을 좋아합니다.",
+          "저는 테니스 경기를 보고 싶습니다.",
+          "저는 친구와 테니스를 치면 좋겠습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "I started playing tennis a while ago. I enjoy playing tennis and it makes me feel good. So I go play tennis every day.\n\n1. I want to learn tennis.\n2. I like playing tennis.\n3. I want to watch tennis matches.\n4. I would like to play tennis with my friends.\n--------------------\nThis person finds playing tennis enjoyable and relaxing. 2 is the correct answer.",
+          "vi": "Tôi bắt đầu chơi quần vợt được một thời gian rồi. Chơi quần vợt rất thú vị và khiến tôi cảm thấy thoải mái. Vì vậy, tôi đi chơi tennis mỗi ngày.\n\n1. Tôi muốn học chơi quần vợt.\n2. Tôi thích chơi quần vợt.\n3. Tôi muốn xem một trận đấu quần vợt.\n4. Tôi muốn chơi quần vợt với bạn bè của tôi.\n--------------------\nNgười này thấy việc chơi quần vợt rất thú vị và khiến họ cảm thấy thoải mái. 2 là đáp án đúng.",
+          "ar": "بدأتُ لعب التنس منذ فترة. أستمتع به ويُشعرني بالسعادة. لذلك ألعب التنس يوميًا.\n\n1. أريد أن أتعلم التنس.\n2. أحب لعب التنس.\n3. أريد مشاهدة مباريات التنس.\n4. أرغب في لعب التنس مع أصدقائي.\n--------------------\nيجد هذا الشخص لعب التنس ممتعًا ومريحًا. الإجابة الصحيحة هي 2.",
+          "ru": "Я начал играть в теннис некоторое время назад. Мне нравится играть в теннис, и это заставляет меня чувствовать себя хорошо. Поэтому я хожу играть в теннис каждый день.\n\n1. Я хочу научиться играть в теннис.\n2. Мне нравится играть в теннис.\n3. Я хочу смотреть теннисные матчи.\n4. Я хотел бы играть в теннис с друзьями.\n--------------------\nЭтот человек считает игру в теннис приятной и расслабляющей. Правильный ответ — 2.",
+          "de": "Ich habe vor einiger Zeit mit Tennis angefangen. Es macht mir Spaß und tut mir gut. Deshalb gehe ich jeden Tag Tennis spielen.\n\n1. Ich möchte Tennis lernen.\n2. Ich spiele gerne Tennis.\n3. Ich möchte Tennisspiele sehen.\n4. Ich möchte mit meinen Freunden Tennis spielen.\n--------------------\nDiese Person findet Tennisspielen angenehm und entspannend. 2 ist die richtige Antwort.",
+          "fr": "J'ai commencé à jouer au tennis il y a quelque temps. J'aime jouer au tennis et ça me fait du bien. Alors, j'y vais tous les jours.\n\n1. Je veux apprendre le tennis.\n2. J'aime jouer au tennis.\n3. Je veux regarder des matchs de tennis.\n4. J'aimerais jouer au tennis avec mes amis.\n--------------------\nCette personne trouve le tennis agréable et relaxant. 2 est la bonne réponse.",
+          "id": "Saya mulai bermain tenis beberapa waktu lalu. Saya senang bermain tenis dan itu membuat saya merasa senang. Jadi saya bermain tenis setiap hari.\n\n1. Saya ingin belajar tenis.\n2. Saya suka bermain tenis.\n3. Saya ingin menonton pertandingan tenis.\n4. Saya ingin bermain tenis dengan teman-teman saya.\n------------------\nOrang ini merasa bermain tenis menyenangkan dan menenangkan. Jawaban yang benar adalah 2.",
+          "it": "Ho iniziato a giocare a tennis un po' di tempo fa. Mi piace giocare a tennis e mi fa stare bene. Quindi vado a giocare a tennis tutti i giorni.\n\n1. Voglio imparare a giocare a tennis.\n2. Mi piace giocare a tennis.\n3. Voglio guardare le partite di tennis.\n4. Vorrei giocare a tennis con i miei amici.\n--------------------\nQuesta persona trova il tennis piacevole e rilassante. La risposta corretta è 2.",
+          "ja": "少し前にテニスを始めました。テニスをするのは楽しいし、気分も良くなるので、毎日テニスに行きます。\n\n1. テニスを習いたいです。\n2. テニスをするのが好きです。\n3. テニスの試合を観戦したいです。\n4. 友達とテニスをしたいです。\n--------------------\nこの人はテニスをするのが楽しくてリラックスできると感じています。正解は2です。",
+          "pt": "Comecei a jogar tênis há algum tempo. Gosto de jogar tênis e me sinto bem. Então, vou jogar tênis todos os dias.\n\n1. Quero aprender tênis.\n2. Gosto de jogar tênis.\n3. Quero assistir a partidas de tênis.\n4. Gostaria de jogar tênis com meus amigos.\n--------------------\nEsta pessoa acha jogar tênis agradável e relaxante. A resposta correta é 2.",
+          "th": "ฉันเริ่มเล่นเทนนิสมาได้ระยะหนึ่งแล้ว ฉันชอบเล่นเทนนิสและมันทำให้ฉันรู้สึกดี ฉันจึงไปเล่นเทนนิสทุกวัน\n\n1. ฉันอยากเรียนเทนนิส\n2. ฉันชอบเล่นเทนนิส\n3. ฉันอยากดูการแข่งขันเทนนิส\n4. ฉันอยากเล่นเทนนิสกับเพื่อนๆ\n--------------------\nบุคคลนี้พบว่าการเล่นเทนนิสเป็นเรื่องสนุกและผ่อนคลาย 2 คือคำตอบที่ถูกต้อง",
+          "tr": "Bir süre önce tenis oynamaya başladım. Tenis oynamaktan hoşlanıyorum ve bana iyi hissettiriyor. Bu yüzden her gün tenis oynamaya gidiyorum.\n\n1. Tenis öğrenmek istiyorum.\n2. Tenis oynamayı seviyorum.\n3. Tenis maçlarını izlemek istiyorum.\n4. Arkadaşlarımla tenis oynamak istiyorum.\n--------------------\nBu kişi tenis oynamayı keyifli ve rahatlatıcı buluyor. Doğru cevap 2'dir.",
+          "tw": "Mifii ase bɔɔ tɛnis bere bi a atwam ni. M’ani gye tennis bɔ ho na ɛma me ho tɔ me. Enti mekɔbɔ tɛnis da biara da.\n\n1. Mepɛ sɛ misua tɛnis.\n2. M’ani gye tennis bɔ ho.\n3. Mepɛ sɛ mehwɛ tɛnis agodie.\n4. Mepɛ sɛ me ne me nnamfo bɔ tɛnis.\n--------------------\nOnipa yi hu sɛ tɛnis a ɔbɛbɔ no yɛ anigye na ɛma n’ahome. 2 ne mmuae a ɛteɛ.",
+          "hi": "मैंने कुछ समय पहले टेनिस खेलना शुरू किया था। मुझे टेनिस खेलना अच्छा लगता है और इससे मुझे अच्छा महसूस होता है। इसलिए मैं हर दिन टेनिस खेलने जाता हूँ।\n\n1. मैं टेनिस सीखना चाहता हूँ।\n\n2. मुझे टेनिस खेलना पसंद है।\n\n3. मैं टेनिस मैच देखना चाहता हूँ।\n\n4. मैं अपने दोस्तों के साथ टेनिस खेलना चाहता हूँ।\n\n--------------------\nइस व्यक्ति को टेनिस खेलना मजेदार और आरामदायक लगता है। 2 सही उत्तर है।",
+          "ne": "मैले केही समय अघिदेखि टेनिस खेल्न थालेको थिएँ। मलाई टेनिस खेल्न मन पर्छ र यसले मलाई राम्रो महसुस गराउँछ। त्यसैले म हरेक दिन टेनिस खेल्न जान्छु।\n\n१. म टेनिस सिक्न चाहन्छु।\n२. मलाई टेनिस खेल्न मन पर्छ।\n३. म टेनिस खेल हेर्न चाहन्छु।\n४. म मेरा साथीहरूसँग टेनिस खेल्न चाहन्छु।\n----------------\nयस व्यक्तिले टेनिस खेल्न रमाइलो र आरामदायी पाउँछ। २ सही उत्तर हो।",
+          "km": "ខ្ញុំចាប់ផ្តើមលេងកីឡាវាយកូនបាល់មួយរយៈមុន។ ខ្ញុំចូលចិត្តលេងកីឡាវាយកូនបាល់ ហើយវាធ្វើឱ្យខ្ញុំមានអារម្មណ៍ល្អ។ ដូច្នេះ​ខ្ញុំ​ទៅ​លេង​វាយ​កូន​បាល់​ជា​រៀង​រាល់​ថ្ងៃ។\n\n1. ខ្ញុំចង់រៀនកីឡាវាយកូនបាល់។\n2. ខ្ញុំចូលចិត្តលេងកីឡាវាយកូនបាល់។\n3. ខ្ញុំចង់មើលការប្រកួតកីឡាវាយកូនបាល់។\n4. ខ្ញុំចង់លេងកីឡាវាយកូនបាល់ជាមួយមិត្តភក្តិរបស់ខ្ញុំ។\n--------------------\nមនុស្ស​ម្នាក់​នេះ​យល់​ថា​ការ​លេង​កីឡា​វាយ​កូន​បាល់​មាន​ភាព​រីករាយ និង​សម្រាក​កាយ។ 2 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "මම ටික කාලෙකට කලින් ටෙනිස් සෙල්ලම් කරන්න පටන් ගත්තා. මම ටෙනිස් සෙල්ලම් කරනවා රස විඳිනවා, ඒකෙන් මට හොඳක් දැනෙනවා. ඒ නිසා මම හැමදාම ටෙනිස් සෙල්ලම් කරනවා.\n\n1. මට ටෙනිස් ඉගෙන ගන්න ඕන.\n2. මට ටෙනිස් සෙල්ලම් කරන්න ආසයි.\n3. මට ටෙනිස් තරඟ බලන්න ඕන.\n4. මම මගේ යාළුවෝ එක්ක ටෙනිස් සෙල්ලම් කරන්න කැමතියි.\n--------------------------\nමෙම පුද්ගලයා ටෙනිස් ක්‍රීඩා කිරීම විනෝදජනක සහ විවේකී බව සොයා ගනී. 2 නිවැරදි පිළිතුරයි.",
+          "bn": "আমি কিছুদিন আগে টেনিস খেলা শুরু করেছি। আমি টেনিস খেলতে ভালোবাসি এবং এতে আমার মন ভালো থাকে। তাই আমি প্রতিদিন টেনিস খেলতে যাই।\n\n১. আমি টেনিস শিখতে চাই।\n২. আমি টেনিস খেলতে পছন্দ করি।\n৩. আমি টেনিস ম্যাচ দেখতে চাই।\n৪. আমি আমার বন্ধুদের সাথে টেনিস খেলতে চাই।\n----------------\nএই ব্যক্তি টেনিস খেলা উপভোগ্য এবং আরামদায়ক বলে মনে করেন। ২ হল সঠিক উত্তর।",
+          "my": "ကျွန်တော် တင်းနစ်ကစားတာ မကြာသေးပါဘူး။ တင်းနစ်ကစားရတာကို နှစ်သက်ပြီး ခံစားချက်ကောင်းတယ်။ ဒါကြောင့် နေ့တိုင်း တင်းနစ်သွားကစားတယ်။\n\n1. တင်းနစ်ကို သင်ယူချင်ပါတယ်။\n2. တင်းနစ်ကစားရတာကြိုက်တယ်။\n3. တင်းနစ်ပွဲတွေ ကြည့်ချင်တယ်။\n4. သူငယ်ချင်းတွေနဲ့ တင်းနစ်ကစားချင်ပါတယ်။\n--------------------\nဤလူသည် တင်းနစ်ကစားခြင်းကို နှစ်သက်ပြီး အပန်းဖြေခြင်းကို တွေ့ရှိသည်။ 2 က အဖြေမှန်ပါ။",
+          "es": "Empecé a jugar al tenis hace un tiempo. Disfruto jugando al tenis y me hace sentir bien. Así que voy a jugar al tenis todos los días.\n\n1. Quiero aprender a jugar al tenis.\n2. Me gusta jugar al tenis.\n3. Quiero ver partidos de tenis.\n4. Me gustaría jugar al tenis con mis amigos.\n--------------------\nEsta persona encuentra que jugar al tenis es divertido y relajante. La respuesta correcta es 2.",
+          "zh-CN": "我开始打网球已经有一段时间了。我喜欢打网球，它让我感觉很好。所以我每天都去打网球。\n\n1. 我想学网球。\n2. 我喜欢打网球。\n3. 我想看网球比赛。\n4. 我想和朋友们一起打网球。\n--------------------\n这个人觉得打网球很有趣也很放松。正确答案是2。",
+          "zh-TW": "我開始打網球已經有一段時間了。我喜歡打網球，它讓我感覺很好。所以我每天都去打網球。\n\n1. 我想學網球。\n2. 我喜歡打網球。\n3. 我想看網球比賽。\n4. 我想和朋友一起打網球。\n--------------------\n這個人覺得打網球很有趣也很放鬆。正確答案是2。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "제 방 에어컨은 오래되었습니다. 에어컨에서 소리도 나고 시원하지 않습니다. 이번 여름에는 새 에어컨을 사려고 합니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 에어컨을 바꿀 겁니다.",
+          "저는 큰 에어컨이 좋습니다.",
+          "저는 에어컨이 싸면 좋겠습니다.",
+          "저는 에어컨을 오래 쓰고 싶습니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "The air conditioner in my room is old. The air conditioner is noisy and not cool. I'm thinking of buying a new air conditioner this summer.\n\n1. I'm going to change the air conditioner.\n2. I like a big air conditioner.\n3. I want the air conditioner to be cheap.\n4. I want to use the air conditioner for a long time.\n--------------------\nThis person is thinking of buying a new air conditioner this summer. 1 is the correct answer.",
+          "vi": "Máy điều hòa trong phòng tôi cũ rồi. Máy điều hòa ồn và không mát. Tôi đang nghĩ đến việc mua một chiếc máy điều hòa mới vào mùa hè này.\n\n1. Tôi sẽ thay máy điều hòa.\n2. Tôi thích máy điều hòa lớn.\n3. Tôi ước gì máy điều hòa rẻ.\n4. Tôi muốn sử dụng máy điều hòa một thời gian dài.\n--------------------\nNgười này đang nghĩ đến việc mua một chiếc máy điều hòa mới vào mùa hè này. 1 là đáp án đúng.",
+          "ar": "مكيف الهواء في غرفتي قديم. صوته مزعج وغير بارد. أفكر في شراء مكيف هواء جديد هذا الصيف.\n\n1. سأغير المكيف.\n2. أحب المكيف الكبير.\n3. أريد أن يكون المكيف رخيصًا.\n4. أريد استخدام المكيف لفترة طويلة.\n--------------------\nهذا الشخص يفكر في شراء مكيف هواء جديد هذا الصيف. الإجابة الصحيحة هي 1.",
+          "ru": "Кондиционер в моей комнате старый. Кондиционер шумит и не охлаждает. Я думаю купить новый кондиционер этим летом.\n\n1. Я собираюсь поменять кондиционер.\n2. Мне нравится большой кондиционер.\n3. Я хочу, чтобы кондиционер был дешевым.\n4. Я хочу пользоваться кондиционером долгое время.\n--------------------\nЭтот человек думает купить новый кондиционер этим летом. 1 — правильный ответ.",
+          "de": "Die Klimaanlage in meinem Zimmer ist alt. Sie ist laut und kühlt nicht. Ich überlege, mir diesen Sommer eine neue Klimaanlage zu kaufen.\n\n1. Ich werde die Klimaanlage austauschen.\n2. Ich mag eine große Klimaanlage.\n3. Ich möchte, dass die Klimaanlage günstig ist.\n4. Ich möchte die Klimaanlage lange nutzen.\n--------------------\nDiese Person überlegt, sich diesen Sommer eine neue Klimaanlage zu kaufen. 1 ist die richtige Antwort.",
+          "fr": "Le climatiseur de ma chambre est vieux. Il est bruyant et ne refroidit pas. Je pense en acheter un nouveau cet été.\n\n1. Je vais changer le climatiseur.\n2. J'aime les grands climatiseurs.\n3. Je veux un climatiseur pas cher.\n4. Je veux l'utiliser longtemps.\n--------------------\nCette personne pense en acheter un nouveau cet été. La bonne réponse est 1.",
+          "id": "AC di kamar saya sudah tua. AC-nya berisik dan tidak dingin. Saya berpikir untuk membeli AC baru musim panas ini.\n\n1. Saya akan mengganti AC.\n\n2. Saya suka AC yang besar.\n\n3. Saya ingin AC yang murah.\n\n4. Saya ingin menggunakan AC untuk waktu yang lama.\n\n--------------------\nOrang ini berpikir untuk membeli AC baru musim panas ini. 1 adalah jawaban yang benar.",
+          "it": "Il condizionatore nella mia stanza è vecchio. È rumoroso e non raffredda. Sto pensando di comprarne uno nuovo quest'estate.\n\n1. Ho intenzione di cambiare il condizionatore.\n2. Mi piace un condizionatore grande.\n3. Voglio che il condizionatore sia economico.\n4. Voglio usare il condizionatore a lungo.\n--------------------\nQuesta persona sta pensando di comprarne uno nuovo quest'estate. La risposta corretta è 1.",
+          "ja": "私の部屋のエアコンは古いです。エアコンはうるさいし、冷えません。この夏、新しいエアコンを買おうと思っています。\n\n1. エアコンを交換するつもりです。\n2. 大きなエアコンが好きです。\n3. エアコンは安い方がいいです。\n4. エアコンを長く使いたいです。\n--------------------\nこの人はこの夏、新しいエアコンを買おうと考えています。正解は 1 です。",
+          "pt": "O ar-condicionado do meu quarto é antigo. Ele faz barulho e não gela. Estou pensando em comprar um ar-condicionado novo neste verão.\n\n1. Vou trocar o ar-condicionado.\n2. Gosto de um ar-condicionado grande.\n3. Quero que o ar-condicionado seja barato.\n4. Quero usar o ar-condicionado por muito tempo.\n--------------------\nEsta pessoa está pensando em comprar um ar-condicionado novo neste verão. A resposta correta é a 1.",
+          "th": "แอร์ห้องผมเก่า แอร์เสียงดัง ไม่เย็น กำลังคิดจะซื้อแอร์ใหม่หน้าร้อนนี้\n\n1. จะเปลี่ยนแอร์ใหม่\n2. ชอบแอร์ตัวใหญ่\n3. อยากได้แอร์ราคาถูก\n4. อยากใช้แอร์นานๆ\n-------------------\nคนนี้กำลังคิดจะซื้อแอร์ใหม่หน้าร้อนนี้ 1 คือคำตอบที่ถูกต้อง",
+          "tr": "Odamdaki klima eski. Klima gürültülü ve soğutmuyor. Bu yaz yeni bir klima almayı düşünüyorum.\n\n1. Klimayı değiştireceğim.\n2. Büyük bir klimayı seviyorum.\n3. Klimanın ucuz olmasını istiyorum.\n4. Klimayı uzun süre kullanmak istiyorum.\n--------------------\nBu kişi bu yaz yeni bir klima almayı düşünüyor. Doğru cevap 1'dir.",
+          "tw": "Mframa a wɔde yɛ adwuma wɔ me dan mu no akyɛ. Mframa a wɔde yɛ adwuma no yɛ dede na ɛnyɛ nwini. Meresusuw ho sɛ mɛtɔ mframa a wɔde yɛ adwuma foforo wɔ awɔw bere yi mu.\n\n1. Me deɛ, mɛsesa air conditioner no.\n2. M’ani gye mframa a wɔde yɛ adwuma kɛse ho.\n3. Mepɛ sɛ mframa a wɔde yɛ adwuma no bo yɛ mmerɛw.\n4. Mepɛ sɛ mede mframa a wɔde yɛ adwuma no di dwuma bere tenten.\n--------------------\nSaa onipa yi resusuw ho sɛ ɔbɛtɔ mframa a wɔde yɛ adwuma foforo wɔ awɔw bere yi mu. 1 ne mmuae a ɛteɛ.",
+          "hi": "मेरे कमरे का एयर कंडीशनर पुराना है। एयर कंडीशनर शोर करता है और ठंडा नहीं करता। मैं इस गर्मी में एक नया एयर कंडीशनर खरीदने की सोच रहा हूँ।\n\n1. मैं एयर कंडीशनर बदलने जा रहा हूँ।\n\n2. मुझे बड़ा एयर कंडीशनर पसंद है।\n\n3. मैं चाहता हूँ कि एयर कंडीशनर सस्ता हो।\n\n4. मैं एयर कंडीशनर का लंबे समय तक इस्तेमाल करना चाहता हूँ।\n\n--------------------\nयह व्यक्ति इस गर्मी में एक नया एयर कंडीशनर खरीदने की सोच रहा है। 1 सही उत्तर है।",
+          "ne": "मेरो कोठाको एयर कन्डिसनर पुरानो छ। एयर कन्डिसनरमा आवाज आइरहेको छ र चिसो पनि छैन। म यो गर्मीमा नयाँ एयर कन्डिसनर किन्ने सोचमा छु।\n\n१. म एयर कन्डिसनर परिवर्तन गर्न जाँदैछु।\n२. मलाई ठूलो एयर कन्डिसनर मन पर्छ।\n३. म एयर कन्डिसनर सस्तो होस् भन्ने चाहन्छु।\n४. म लामो समयसम्म एयर कन्डिसनर प्रयोग गर्न चाहन्छु।\n----------------\nयो व्यक्ति यस गर्मीमा नयाँ एयर कन्डिसनर किन्ने सोचमा छ। १ सही उत्तर हो।",
+          "km": "ម៉ាស៊ីនត្រជាក់ក្នុងបន្ទប់ខ្ញុំចាស់។ ម៉ាស៊ីនត្រជាក់មានសំលេងរំខាន និងមិនត្រជាក់។ ខ្ញុំកំពុងគិតចង់ទិញម៉ាស៊ីនត្រជាក់ថ្មីនៅរដូវក្តៅនេះ។\n\n1. ខ្ញុំនឹងប្តូរម៉ាស៊ីនត្រជាក់។\n2. ខ្ញុំចូលចិត្តម៉ាស៊ីនត្រជាក់ធំមួយ។\n3. ខ្ញុំចង់ឱ្យម៉ាស៊ីនត្រជាក់ថោក។\n4. ខ្ញុំចង់ប្រើម៉ាស៊ីនត្រជាក់យូរ។\n--------------------\nបុគ្គលនេះគិតចង់ទិញម៉ាស៊ីនត្រជាក់ថ្មីនៅរដូវក្តៅនេះ។ 1 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "මගේ කාමරේ තියෙන වායු සමීකරණ යන්ත්‍රය පරණයි. වායු සමීකරණ යන්ත්‍රය ඝෝෂාකාරීයි, සිසිල් නැහැ. මේ ගිම්හානයේදී අලුත් වායු සමීකරණ යන්ත්‍රයක් ගන්න හිතාගෙන ඉන්නවා.\n\n1. මම වායු සමීකරණ යන්ත්‍රය මාරු කරන්න යනවා.\n2. මම ලොකු වායු සමීකරණ යන්ත්‍රයක් කැමතියි.\n3. මට වායු සමීකරණ යන්ත්‍රය ලාභ වෙන්න ඕන.\n4. මට දිගු කාලයක් වායු සමීකරණ යන්ත්‍රය භාවිතා කරන්න ඕන.\n---------------------------\nමේ පුද්ගලයා මේ ගිම්හානයේදී අලුත් වායු සමීකරණ යන්ත්‍රයක් ගන්න හිතාගෙන ඉන්නවා. 1 තමයි නිවැරදි පිළිතුර.",
+          "bn": "আমার ঘরের এয়ার কন্ডিশনারটি পুরনো। এয়ার কন্ডিশনারটি শব্দ করছে এবং ঠান্ডাও হচ্ছে না। আমি এই গ্রীষ্মে একটি নতুন এয়ার কন্ডিশনার কেনার কথা ভাবছি।\n\n১. আমি এয়ার কন্ডিশনারটি পরিবর্তন করতে যাচ্ছি।\n২. আমার একটি বড় এয়ার কন্ডিশনার পছন্দ।\n৩. আমি চাই এয়ার কন্ডিশনারটি সস্তা হোক।\n৪. আমি দীর্ঘদিন ধরে এয়ার কন্ডিশনারটি ব্যবহার করতে চাই।\n----------------\nএই ব্যক্তি এই গ্রীষ্মে একটি নতুন এয়ার কন্ডিশনার কেনার কথা ভাবছেন। ১টি সঠিক উত্তর।",
+          "my": "ငါ့အခန်းထဲက လေအေးပေးစက်က ဟောင်းနေပြီ။ လေအေးပေးစက်က ဆူညံပြီး မအေးပါဘူး။ ဒီနွေရာသီမှာ လေအေးပေးစက်အသစ်ဝယ်ဖို့ စဉ်းစားနေတယ်။\n\n1. လေအေးပေးစက်ပြောင်းတော့မယ်။\n2. လေအေးပေးစက်ကြီးကြီး ကြိုက်တယ်။\n3. လေအေးပေးစက်ကို စျေးသက်သက်သာသာနဲ့ လိုချင်တယ်။\n4. လေအေးပေးစက်ကို အချိန်အကြာကြီး မသုံးချင်ပါ။\n--------------------\nဤလူသည် ယခုနွေရာသီတွင် လေအေးပေးစက်အသစ်ဝယ်ရန် စိတ်ကူးနေသည်။ 1 က အဖြေမှန်ပါ။",
+          "es": "El aire acondicionado de mi habitación es viejo. Hace ruido y no enfría. Estoy pensando en comprar uno nuevo este verano.\n\n1. Voy a cambiar el aire acondicionado.\n2. Me gusta un aire acondicionado grande.\n3. Quiero que el aire acondicionado sea barato.\n4. Quiero usar el aire acondicionado durante mucho tiempo.\n--------------------\nEsta persona está pensando en comprar un aire acondicionado nuevo este verano. La respuesta correcta es 1.",
+          "zh-CN": "我房间的空调很旧了。空调噪音大，而且不凉快。我打算今年夏天买一台新空调。\n\n1. 我打算换空调。\n2. 我喜欢大功率的空调。\n3. 我想要便宜的空调。\n4. 我想长期使用这台空调。\n--------------------\n这个人打算今年夏天买一台新空调。1 是正确答案。",
+          "zh-TW": "我房間的空調很舊了。冷氣噪音大，而且不涼快。我打算今年夏天買一台新冷氣。\n\n1. 我打算換冷氣。\n2. 我喜歡大功率的空調。\n3. 我想要便宜的冷氣。\n4. 我想長期使用這台空調。\n--------------------\n這個人打算今年夏天買一台新冷氣。 1 是正確答案。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "우리 동네에 편의점이 생겼습니다. 거기는 넓고 좋은 물건도 많습니다. 그리고 늦은 시간에도 편하게 이용할 수 있습니다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "저는 편의점이 넓으면 좋겠습니다.",
+          "저는 우리 동네 편의점에서 일할 겁니다.",
+          "저는 우리 동네 편의점이 마음에 듭니다.",
+          "저는 편의점에서 물건을 많이 사고 싶습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "A convenience store opened in my neighborhood. It is spacious and has many good items. And it is convenient to use even at late hours.\n\n1. I wish the convenience store was spacious.\n2. I will work at the convenience store in my neighborhood.\n3. I like the convenience store in my neighborhood.\n4. I want to buy a lot of things at the convenience store.\n--------------------\nThis person praises the new convenience store that opened in his/her neighborhood. So this person likes it. 3 is the correct answer.",
+          "vi": "Một cửa hàng tiện lợi mới mở ở khu phố của chúng tôi. Nơi này rộng rãi và có nhiều đồ tốt. Và bạn có thể thoải mái sử dụng ngay cả vào đêm khuya.\n\n1. Tôi ước cửa hàng tiện lợi rộng hơn.\n2. Tôi sẽ làm việc tại cửa hàng tiện lợi ở khu phố của chúng tôi.\n3. Tôi thích cửa hàng tiện lợi ở khu phố của chúng tôi.\n4. Tôi muốn mua nhiều thứ ở cửa hàng tiện lợi.\n--------------------\nNgười này khen ngợi cửa hàng tiện lợi mới mở ở khu phố của họ. Như vậy người này thích nó. 3 là đáp án đúng.",
+          "ar": "افتُتح متجر صغير في حيّي. إنه واسع ويحتوي على العديد من المنتجات الجيدة، وهو مريح للاستخدام حتى في ساعات متأخرة من الليل.\n\n1. أتمنى لو كان المتجر واسعًا.\n2. سأعمل في المتجر الصغير في حيّي.\n3. أحب المتجر الصغير في حيّي.\n4. أريد شراء الكثير من الأشياء منه.\n--------------------\nهذا الشخص يُشيد بالمتجر الصغير الجديد الذي افتُتح في حيّه. لذا، فهو يُحبّه. الإجابة الصحيحة هي 3.",
+          "ru": "В моем районе открылся магазин у дома. Он просторный и в нем много хороших товаров. И им удобно пользоваться даже в позднее время.\n\n1. Я хотел бы, чтобы магазин у дома был просторным.\n2. Я буду работать в магазине у дома в моем районе.\n3. Мне нравится магазин у дома в моем районе.\n4. Я хочу покупать много вещей в магазине у дома.\n--------------------\nЭтот человек хвалит новый магазин у дома, который открылся в его/ее районе. Поэтому этому человеку он нравится. 3 — правильный ответ.",
+          "de": "In meiner Nachbarschaft hat ein Lebensmittelladen eröffnet. Er ist geräumig und bietet viele gute Produkte. Und er ist auch zu später Stunde bequem zu erreichen.\n\n1. Ich wünschte, der Lebensmittelladen wäre geräumig.\n2. Ich werde im Lebensmittelladen in meiner Nachbarschaft arbeiten.\n3. Ich mag den Lebensmittelladen in meiner Nachbarschaft.\n4. Ich möchte viele Dinge im Lebensmittelladen kaufen.\n--------------------\nDiese Person lobt den neuen Lebensmittelladen, der in ihrer Nachbarschaft eröffnet hat. Sie mag ihn also. 3 ist die richtige Antwort.",
+          "fr": "Une supérette a ouvert dans mon quartier. Elle est spacieuse et propose de nombreux produits de qualité. De plus, elle est pratique, même tard le soir.\n\n1. J'aimerais que la supérette soit spacieuse.\n2. Je travaillerai dans la supérette de mon quartier.\n3. J'aime bien la supérette de mon quartier.\n4. Je veux y acheter beaucoup de choses.\n--------------------\nCette personne fait l'éloge de la nouvelle supérette qui a ouvert dans son quartier. Elle l'apprécie donc. 3 est la bonne réponse.",
+          "id": "Sebuah minimarket dibuka di lingkungan tempat tinggal saya. Tokonya luas dan menyediakan banyak barang bagus. Dan nyaman untuk digunakan bahkan di malam hari.\n\n1. Saya berharap minimarket itu luas.\n2. Saya akan bekerja di minimarket di lingkungan tempat tinggal saya.\n3. Saya suka minimarket di lingkungan tempat tinggal saya.\n4. Saya ingin membeli banyak barang di minimarket.\n\n-----------------\nOrang ini memuji minimarket baru yang dibuka di lingkungan tempat tinggalnya. Jadi orang ini menyukainya. 3 adalah jawaban yang benar.",
+          "it": "Un minimarket ha aperto nel mio quartiere. È spazioso e ha molti buoni articoli. Ed è comodo da usare anche a tarda notte.\n\n1. Vorrei che il minimarket fosse spazioso.\n2. Lavorerò nel minimarket del mio quartiere.\n3. Mi piace il minimarket del mio quartiere.\n4. Voglio comprare un sacco di cose al minimarket.\n--------------------\nQuesta persona elogia il nuovo minimarket che ha aperto nel suo quartiere. Quindi gli piace. 3 è la risposta corretta.",
+          "ja": "近所にコンビニがオープンしました。店内は広くて良い商品がたくさんあります。夜遅くでも利用できて便利です。\n\n1. コンビニが広ければいいのにと思います。\n2. 近所のコンビニで働くつもりです。\n3. 近所のコンビニが好きです。\n4. コンビニで色々なものを買いたいです。\n--------------------\nこの人は近所に新しくオープンしたコンビニを褒めています。つまり、この人はコンビニが好きなのです。正解は3です。",
+          "pt": "Uma loja de conveniência abriu no meu bairro. Ela é espaçosa e tem muitos itens bons. E é conveniente para usar mesmo tarde da noite.\n\n1. Gostaria que a loja de conveniência fosse espaçosa.\n2. Vou trabalhar na loja de conveniência do meu bairro.\n3. Gosto da loja de conveniência do meu bairro.\n4. Quero comprar muitas coisas na loja de conveniência.\n--------------------\nEsta pessoa elogia a nova loja de conveniência que abriu no seu bairro. Então, ela gosta dela. A resposta correta é 3.",
+          "th": "ร้านสะดวกซื้อเปิดใหม่ในละแวกบ้านฉัน ร้านกว้างขวาง มีสินค้าดี ๆ มากมาย สะดวกต่อการใช้งานแม้ในยามดึก\n\n1. ฉันอยากให้ร้านสะดวกซื้อกว้างขวาง\n2. ฉันจะทำงานที่ร้านสะดวกซื้อในละแวกบ้านฉัน\n3. ฉันชอบร้านสะดวกซื้อในละแวกบ้านฉัน\n4. ฉันอยากซื้อของหลายอย่างที่ร้านสะดวกซื้อ\n-------------------\nบุคคลนี้ชื่นชมร้านสะดวกซื้อแห่งใหม่ที่เพิ่งเปิดในละแวกบ้านของเขา/เธอ ดังนั้นบุคคลนี้จึงชอบร้านสะดวกซื้อแห่งนี้ 3 คือคำตอบที่ถูกต้อง",
+          "tr": "Mahallemde bir market açıldı. Geniş ve birçok güzel ürün var. Ve geç saatlerde bile kullanmak rahat.\n\n1. Keşke market geniş olsaydı.\n2. Mahallemdeki markette çalışacağım.\n3. Mahallemdeki marketi seviyorum.\n4. Marketten birçok şey satın almak istiyorum.\n--------------------\nBu kişi mahallesinde açılan yeni marketi övüyor. Yani bu kişi marketi beğeniyor. Doğru cevap 3'tür.",
+          "tw": "Wobuee sotɔɔ bi a wɔtɔn nneɛma a ɛyɛ mmerɛw wɔ me mpɔtam hɔ. Ɛtrɛw na nneɛma pa pii wɔ mu. Na ɛyɛ mmerɛw sɛ wode bedi dwuma wɔ nnɔnhwerew a aka akyi mpo.\n\n1. Me yam a anka sotɔɔ a wɔtɔn nneɛma a ɛyɛ mmerɛw no trɛw.\n2. Mɛyɛ adwuma wɔ sotɔɔ a wɔtɔn nneɛma a ɛyɛ mmerɛw wɔ me mpɔtam hɔ no mu.\n3. M’ani gye sotɔɔ a wɔtɔn nneɛma a ɛyɛ mmerɛw wɔ me mpɔtam hɔ no ho.\n4. Mepɛ sɛ metɔ nneɛma pii wɔ sotɔɔ a wɔtɔn nneɛma a ɛyɛ mmerɛw mu.\n--------------------\nSaa onipa yi kamfo sotɔɔ foforo a wɔtɔn nneɛma a ɛyɛ mmerɛw a wobuee wɔ ne mpɔtam hɔ no. Enti onipa yi ani gye ho. 3 ne mmuae a ɛteɛ.",
+          "hi": "मेरे पड़ोस में एक सुविधा स्टोर खुला है। यह विशाल है और इसमें कई अच्छी चीजें हैं। और देर रात तक भी इसका उपयोग करना सुविधाजनक है।\n\n1. मैं चाहता हूं कि सुविधा स्टोर विशाल हो।\n\n2. मैं अपने पड़ोस में सुविधा स्टोर पर काम करूंगा।\n\n3. मुझे अपने पड़ोस में सुविधा स्टोर पसंद है।\n\n4. मैं सुविधा स्टोर से बहुत सारी चीजें खरीदना चाहता हूं।\n\n--------------------\nयह व्यक्ति अपने पड़ोस में खुले नए सुविधा स्टोर की प्रशंसा करता है। तो इस व्यक्ति को यह पसंद है। 3 सही उत्तर है।",
+          "ne": "मेरो छिमेकमा एउटा सुविधा पसल खोलिएको छ। यो फराकिलो छ र यसमा धेरै राम्रा सामानहरू छन्। र यो ढिलो समयमा पनि प्रयोग गर्न सुविधाजनक छ।\n\n१. म चाहन्छु कि सुविधा पसल फराकिलो होस्।\n२. म मेरो छिमेकमा सुविधा पसलमा काम गर्नेछु।\n३. मलाई मेरो छिमेकमा सुविधा पसल मन पर्छ।\n४. म सुविधा पसलमा धेरै चीजहरू किन्न चाहन्छु।\n----------------\nयो व्यक्तिले आफ्नो छिमेकमा खोलिएको नयाँ सुविधा पसलको प्रशंसा गर्छ। त्यसैले यो व्यक्तिलाई यो मन पर्छ। ३ सही उत्तर हो।",
+          "km": "ហាងងាយស្រួលមួយបានបើកនៅក្នុងសង្កាត់របស់ខ្ញុំ។ វាធំទូលាយ និងមានរបស់របរល្អៗជាច្រើន។ ហើយ​វា​ងាយ​ស្រួល​ក្នុង​ការ​ប្រើ​ប្រាស់​សូម្បី​តែ​នៅ​ម៉ោង​ចុង​។\n\n1. ខ្ញុំសូមជូនពរឱ្យហាងងាយស្រួលមានទំហំធំទូលាយ។\n2. ខ្ញុំនឹងធ្វើការនៅហាងងាយស្រួលក្នុងសង្កាត់របស់ខ្ញុំ។\n3. ខ្ញុំចូលចិត្តហាងងាយស្រួលនៅក្នុងសង្កាត់របស់ខ្ញុំ។\n4. ខ្ញុំចង់ទិញរបស់ជាច្រើននៅហាងងាយស្រួល។\n--------------------\nបុគ្គលនេះសរសើរហាងងាយស្រួលថ្មីដែលបានបើកនៅក្នុងសង្កាត់របស់គាត់។ ដូច្នេះមនុស្សនេះចូលចិត្តវា។ 3 គឺជាចម្លើយត្រឹមត្រូវ។",
+          "si": "මගේ අසල්වැසි ප්‍රදේශයේ විවෘත කරන ලද පහසුව සඳහා වෙළඳසැලක්. එය ඉඩකඩ සහිත වන අතර හොඳ අයිතම රාශියක් ඇත. ප්‍රමාද වූ විට පවා එය භාවිතා කිරීමට පහසුය.\n\n1. පහසුව සඳහා වෙළඳසැල ඉඩකඩ සහිත නම් මම ප්‍රාර්ථනා කරමි.\n2. මම මගේ අසල්වැසි ප්‍රදේශයේ ඇති පහසුව සඳහා වෙළඳසැලේ වැඩ කරමි.\n3. මම මගේ අසල්වැසි ප්‍රදේශයේ ඇති පහසුව සඳහා වෙළඳසැලට කැමතියි.\n4. මට පහසුව සඳහා වෙළඳසැලෙන් බොහෝ දේ මිලදී ගැනීමට අවශ්‍යයි.\n---------------------------\nමෙම පුද්ගලයා ඔහුගේ/ඇයගේ අසල්වැසි ප්‍රදේශයේ විවෘත කරන ලද නව පහසුව සඳහා වෙළඳසැල ගැන ප්‍රශංසා කරයි. එබැවින් මෙම පුද්ගලයා එයට කැමතියි. 3 නිවැරදි පිළිතුරයි.",
+          "bn": "আমার পাড়ায় একটা কনভেনিয়েন্স স্টোর খোলা হয়েছে। এটা প্রশস্ত এবং অনেক ভালো জিনিসপত্র আছে। আর রাতের বেলায়ও ব্যবহার করা সুবিধাজনক।\n\n১. আমি চাই কনভেনিয়েন্স স্টোরটা প্রশস্ত হোক।\n২. আমি আমার পাড়ার কনভেনিয়েন্স স্টোরে কাজ করব।\n৩. আমার পাড়ার কনভেনিয়েন্স স্টোরটা আমার পছন্দ।\n৪. আমি কনভেনিয়েন্স স্টোর থেকে অনেক জিনিস কিনতে চাই।\n----------------\nএই ব্যক্তি তার পাড়ায় খোলা নতুন কনভেনিয়েন্স স্টোরের প্রশংসা করছেন। তাই এই ব্যক্তি এটি পছন্দ করেছেন। ৩ হল সঠিক উত্তর।",
+          "my": "ရပ်ကွက်ထဲမှာ စတိုးဆိုင်ဖွင့်တယ်။ ကျယ်ဝန်းပြီး ပစ္စည်းကောင်းများစွာပါရှိပါသည်။ ပြီးတော့ နောက်ကျတဲ့ အချိန်တွေမှာတောင် သုံးရတာ အဆင်ပြေတယ်။\n\n၁။ ကုန်စုံဆိုင်ကို ကျယ်ဝန်းစေချင်တယ်။\n2. ကျွန်ုပ်သည် ရပ်ကွက်အတွင်းရှိ ကုန်စုံဆိုင်တွင် အလုပ်လုပ်ပါမည်။\n3. ရပ်ကွက်ထဲက ကုန်စုံဆိုင်ကို ကြိုက်တယ်။\n၄။ ကုန်စုံဆိုင်မှာ ပစ္စည်းတွေအများကြီးဝယ်ချင်တယ်။\n--------------------\nဤလူက သူ/သူမ၏ အနီးနားတွင် ဖွင့်လှစ်ထားသော ကုန်စုံဆိုင်အသစ်ကို ချီးကျူးသည်။ ဒါကြောင့် ဒီလူက ကြိုက်တယ်။ 3 က အဖြေမှန်ပါ။",
+          "es": "Abrió una tienda de conveniencia en mi barrio. Es espaciosa y tiene muchos artículos buenos. Es cómoda incluso de noche.\n\n1. Ojalá la tienda fuera espaciosa.\n2. Trabajaré en la tienda de conveniencia de mi barrio.\n3. Me gusta la tienda de conveniencia de mi barrio.\n4. Quiero comprar muchas cosas en la tienda de conveniencia.\n--------------------\nEsta persona elogia la nueva tienda de conveniencia que abrió en su barrio. Así que le gusta. 3 es la respuesta correcta.",
+          "zh-CN": "我家附近开了一家便利店。店面宽敞，商品齐全，即使深夜也很方便。\n\n1. 我希望便利店也宽敞一些。\n2. 我会去我家附近的便利店工作。\n3. 我喜欢我家附近的便利店。\n4. 我想在便利店买很多东西。\n--------------------\n这个人称赞了他家附近新开的便利店。所以这个人喜欢这家便利店。正确答案是3。",
+          "zh-TW": "我家附近開了一家便利商店。店面寬敞，商品齊全，即使深夜也很方便。\n\n1. 我希望便利商店也寬敞一些。\n2. 我會去我家附近的便利商店工作。\n3. 我喜歡我家附近的便利商店。\n4. 我想在便利商店買很多東西。\n--------------------\n這個人稱讚了他家附近新開的便利商店。所以這個人喜歡這家便利商店。正確答案是3。"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004",
+    "count_question": 1,
+    "tag": "read"
+  }
+]

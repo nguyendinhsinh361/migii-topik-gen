@@ -1,0 +1,4802 @@
+[
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 회사원입니까?",
+      "g_text_audio_translate": {
+        "en": "Woman: Are you an office worker?",
+        "vi": "Nữ: Bạn có phải là nhân viên công ty không?"
+      },
+      "g_audio": "/topiks/audios/5c7b78801b66111e722901d2e8412c51_32_60.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 회사원입니다.",
+          "네, 회사원이 있습니다.",
+          "아니요, 회사원이 많습니다.",
+          "아니요, 회사원이 좋습니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I am an office worker.\n2. Yes, there is an office worker.\n3. No, there are many office workers.\n4. No, the office worker is good.\n--------------------\nNoun + <g>입니까?</g>\n=> Noun + <g>입니다.</g>\n=> Noun + <g>이/가 아닙니다.</g>",
+          "vi": "1. Vâng, tôi là nhân viên công ty.\n2. Vâng, có nhân viên công ty.\n3. Không, có nhiều nhân viên công ty.\n4. Không, nhân viên công ty tốt.\n--------------------\nDanh từ + 입니까?\n=> Danh từ + 입니다.\n=> Danh từ + 이/가 아닙니다."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어느 나라 사람입니까?",
+      "g_text_audio_translate": {
+        "en": "Woman: What country are you from?",
+        "vi": "Nữ: Bạn là người nước nào?"
+      },
+      "g_audio": "/topiks/audios/5c7b78801b66111e722901d2e8412c51_70_95.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "남자입니다.",
+          "기술자입니다.",
+          "서른 살입니다.",
+          "네팔 사람입니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I am a man.\n2. I am a technician.\n3. I am 30 years old.\n4. I am Nepalese.\n--------------------\n<g>어느 나라 사람 => 네팔 사람.</g>",
+          "vi": "1. Tôi là nam giới.\n2. Tôi là kỹ sư.\n3. Tôi 30 tuổi.\n4. Tôi là người Nepal.\n--------------------\n어느 나라 사람 => 네팔 사람."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 이건 휴대폰이에요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is this a mobile phone?",
+        "vi": "Nam: Đây là điện thoại di động phải không?"
+      },
+      "g_audio": "/topiks/audios/e1aa0177188425d58c3c9775fb7255e2_50_79.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 휴대폰을 사요.",
+          "네, 휴대폰을 주세요.",
+          "아니요, 휴대폰이 없어요.",
+          "아니요, 휴대폰이 아니에요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, I buy a mobile phone.\n2. Yes, please give me a mobile phone.\n3. No, I don't have a mobile phone.\n4. No, this is not a mobile phone.\n--------------------\nNoun + <g>이에요/예요?</g>\n=> Noun + <g>이에요/예요.</g>\n=> Noun + <g>이/가 아니에요.</g>",
+          "vi": "1. Vâng, tôi mua điện thoại.\n2. Vâng, hãy đưa tôi điện thoại.\n3. Không, tôi không có điện thoại.\n4. Không, đây không phải là điện thoại.\n--------------------\nDanh từ + 이에요/예요?\n=> Danh từ + 이에요/예요.\n=> Danh từ + 이/가 아니에요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이건 한국어로 뭐예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What is this called in Korean?",
+        "vi": "Nữ: Cái này trong tiếng Hàn là gì?"
+      },
+      "g_audio": "/topiks/audios/e1aa0177188425d58c3c9775fb7255e2_90_115.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "한국에서 왔어요.",
+          "그건 이불이에요.",
+          "제 것이 아니에요.",
+          "책상 위에 있어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I came from Korea.\n2. That is a blanket.\n3. It is not mine.\n4. It is on the desk.\n--------------------\nThe answer must provide the name of an item in Korean.",
+          "vi": "1. Tôi đến từ Hàn Quốc.\n2. Đó là chăn.\n3. Không phải là của tôi.\n4. Nó ở trên bàn.\n--------------------\nCâu trả lời cần cung cấp tên một món đồ nào đó bằng tiếng Hàn."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 의자가 있어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is there a chair?",
+        "vi": "Nam: Có ghế không?"
+      },
+      "g_audio": "/topiks/audios/76926906a28ba39faadebe32cbc5414f_33_60.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 의자를 사요.",
+          "네, 의자가 많아요.",
+          "아니요, 의자예요.",
+          "아니요, 의자가 높아요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, I buy a chair.\n2. Yes, there are many chairs.\n3. No, this is a chair.\n4. No, the chair is high.\n--------------------\nNoun + <g>이/가 있어요?</g>\n=> Noun + <g>이/가 있어요.</g>\n=> Noun + <g>이/가 없어요.</g>\n=> Noun + <g>이/가 많아요.</g>\n=> Noun + <g>이/가 적어요.</g>",
+          "vi": "1. Vâng, tôi mua ghế.\n2. Vâng, có nhiều ghế.\n3. Không, đây là ghế.\n4. Không, ghế cao.\n--------------------\nDanh từ + 이/가 있어요?\n=> Danh từ + 이/가 있어요.\n=> Danh từ + 이/가 없어요.\n=> Danh từ + 이/가 많아요.\n=> Danh từ + 이/가 적어요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 시장에 어떻게 갔어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: How did you go to the market?",
+        "vi": "Nữ: Bạn đã đi đến chợ bằng cách nào?"
+      },
+      "g_audio": "/topiks/audios/76926906a28ba39faadebe32cbc5414f_71_94.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "어제 갔어요.",
+          "매일 갔어요.",
+          "친구가 갔어요.",
+          "지하철로 갔어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I went yesterday.\n2. I went every day.\n3. My friend went.\n4. I went by subway.\n--------------------\n<g>어떻게 갔어요?</g>\n=> Noun + <g>(으)로 갔어요.</g>",
+          "vi": "1. Tôi đã đi hôm qua.\n2. Tôi đã đi mỗi ngày.\n3. Bạn tôi đã đi.\n4. Tôi đã đi bằng tàu điện ngầm.\n--------------------\n어떻게 갔어요?\n=> Danh từ + (으)로 갔어요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 주스를 마셔요?",
+      "g_text_audio_translate": {
+        "en": "Man: Do you drink juice?",
+        "vi": "Nam: Bạn uống nước ép không?"
+      },
+      "g_audio": "/topiks/audios/9a54c99845f4b707d9fe0dbde2320367_78_107.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 주스를 사요.",
+          "네, 주스가 없어요.",
+          "아니요, 주스예요.",
+          "아니요, 주스를 안 마셔요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, I buy juice.\n2. Yes, there is no juice.\n3. No, this is juice.\n4. No, I don't drink juice.\n--------------------\nNoun + <g>을/를 마셔요?</g>\n=> Noun + <g>을/를 마셔요.</g>\n=> Noun + <g>을/를 안 마셔요.</g>",
+          "vi": "1. Vâng, tôi mua nước ép.\n2. Vâng, không có nước ép.\n3. Không, đây là nước ép.\n4. Không, tôi không uống nước ép.\n--------------------\nDanh từ + 을/를 마셔요?\n=> Danh từ + 을/를 마셔요.\n=> Danh từ + 을/를 안 마셔요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 유진 씨는 뭐 해요?",
+      "g_text_audio_translate": {
+        "en": "Man: What are you doing, Yujin?",
+        "vi": "Nam: Yujin, cô đang làm gì vậy?"
+      },
+      "g_audio": "/topiks/audios/9a54c99845f4b707d9fe0dbde2320367_118_141.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "유진 씨예요.",
+          "영화를 봐요.",
+          "회사에 안 가요.",
+          "유진 씨를 만나요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. It's Yujin.\n2. I am watching a movie.\n3. I am not going to work.\n4. I am meeting Yujin.\n--------------------\n<g>뭐 해요?</g>\n=> Verb + <g>아/어요.</g>\n\nAnswer 3: Eliminated because it contains the negative adverb <g>안</g>.\nAnswer 4: Eliminated because it is not reasonable in terms of meaning.",
+          "vi": "1. Đó là cô Yujin.\n2. Tôi xem phim.\n3. Tôi không đi làm.\n4. Tôi gặp Yujin.\n--------------------\n뭐 해요?\n=> Động từ + 아/어요.\n\nĐáp án 3: Loại vì có từ phủ định 안.\nĐáp án 4: Loại vì không hợp lý về nghĩa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 수요일에 일해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Do you work on Wednesday?",
+        "vi": "Nam: Bạn làm việc vào ngày thứ Tư phải không?"
+      },
+      "g_audio": "/topiks/audios/18243f88509c05eb43c0976ad44eafe0_61_91.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 수요일이에요.",
+          "네, 수요일에 일해요.",
+          "아니요, 수요일을 좋아해요.",
+          "아니요, 수요일에 일이 많아요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, today is Wednesday.\n2. Yes, I work on Wednesdays.\n3. No, I like Wednesdays.\n4. No, I have a lot of work on Wednesdays.\n--------------------\nThe answer should indicate whether or not this person works on Wednesday.",
+          "vi": "1. Vâng, hôm nay là thứ Tư.\n2. Vâng, tôi làm việc vào thứ Tư.\n3. Không, tôi thích thứ Tư.\n4. Không, tôi có nhiều việc vào thứ Tư.\n--------------------\nCâu trả lời cần cho biết người này có làm việc vào thứ Tư hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 오늘이 무슨 요일이에요?",
+      "g_text_audio_translate": {
+        "en": "Man: What day is today?",
+        "vi": "Nam: Hôm nay là thứ mấy?"
+      },
+      "g_audio": "/topiks/audios/18243f88509c05eb43c0976ad44eafe0_102_124.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오늘입니다.",
+          "주말입니다.",
+          "화요일입니다.",
+          "2월 9일입니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. It's today.\n2. It's the weekend.\n3. It's Tuesday.\n4. It's February 9th.\n--------------------\n<g>무슨 요일 => 화요일.</g>",
+          "vi": "1. Là hôm nay.\n2. Là cuối tuần.\n3. Là thứ Ba.\n4. Là ngày 9 tháng 2.\n--------------------\n무슨 요일 => 화요일."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 몇 시에 출근합니까?",
+      "g_text_audio_translate": {
+        "en": "Man: What time do you go to work?",
+        "vi": "Nam: Bạn đi làm vào mấy giờ?"
+      },
+      "g_audio": "/topiks/audios/895a1c22ff05427a632a25bec9e7168b_84_111.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "매일 출근합니다.",
+          "버스로 출근합니다.",
+          "아침 8시에 출근합니다.",
+          "칼로 씨하고 같이 출근합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I go to work every day.\n2. I go to work by bus.\n3. I go to work at 8 AM.\n4. I go to work with Carlo.\n--------------------\n<g>몇 시 => 아침 8시.</g>",
+          "vi": "1. Tôi đi làm mỗi ngày.\n2. Tôi đi làm bằng xe buýt.\n3. Tôi đi làm lúc 8 giờ sáng.\n4. Tôi đi làm cùng với Carlo.\n--------------------\n몇 시 => 아침 8시."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 어디에서 저녁을 먹습니까?",
+      "g_text_audio_translate": {
+        "en": "Man: Where do you eat dinner?",
+        "vi": "Nam: Bạn ăn tối ở đâu?"
+      },
+      "g_audio": "/topiks/audios/895a1c22ff05427a632a25bec9e7168b_122_148.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "7시에 먹습니다.",
+          "비빔밥을 먹습니다.",
+          "기숙사에서 먹습니다.",
+          "반장님하고 먹습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I eat at 7 o'clock.\n2. I eat bibimbap.\n3. I eat in the dormitory.\n4. I eat with the team leader.\n--------------------\n<g>어디에서 => 기숙사에서.</g>",
+          "vi": "1. Tôi ăn lúc 7 giờ.\n2. Tôi ăn cơm trộn.\n3. Tôi ăn ở ký túc xá.\n4. Tôi ăn cùng tổ trưởng.\n--------------------\n어디에서 => 기숙사에서."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 커피가 많이 뜨거워요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is the coffee very hot?",
+        "vi": "Nữ: Cà phê có nóng lắm không?"
+      },
+      "g_audio": "/topiks/audios/65722b7abf41bf91b016e27070a7c3c2_72_105.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 커피가 맛있어요.",
+          "네, 커피를 정말 좋아해요.",
+          "아니요, 커피가 너무 많아요.",
+          "아니요, 커피가 별로 뜨겁지 않아요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, the coffee is delicious.\n2. Yes, I really like coffee.\n3. No, there is too much coffee.\n4. No, the coffee is not very hot.\n--------------------\nThe answer should state whether the coffee is hot or not.",
+          "vi": "1. Vâng, cà phê ngon.\n2. Vâng, tôi thực sự thích cà phê.\n3. Không, có quá nhiều cà phê.\n4. Không, cà phê không nóng lắm.\n--------------------\nCâu trả lời cần cho biết cà phê có nóng hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 우산을 언제 샀어요?",
+      "g_text_audio_translate": {
+        "en": "Man: When did you buy the umbrella?",
+        "vi": "Nam: Bạn mua ô khi nào?"
+      },
+      "g_audio": "/topiks/audios/65722b7abf41bf91b016e27070a7c3c2_117_141.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "싸게 샀어요.",
+          "조금 전에 샀어요.",
+          "비가 와서 샀어요.",
+          "편의점에서 샀어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I bought it cheaply.\n2. I bought it a little while ago.\n3. I bought it because it was raining.\n4. I bought it at a convenience store.\n--------------------\n<g>언제 => 조금 전에.</g>",
+          "vi": "1. Tôi đã mua với giá rẻ.\n2. Tôi vừa mới mua.\n3. Tôi mua vì trời mưa.\n4. Tôi mua ở cửa hàng tiện lợi.\n--------------------\n언제 => 조금 전에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 아버지께서 키가 크세요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is your father tall?",
+        "vi": "Nữ: Bố của bạn cao không?"
+      },
+      "g_audio": "/topiks/audios/feb8e393cdb33835935146cc08d39cb0_12_47.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 아버지께서는 집에 계세요.",
+          "네, 아버지께서는 키가 크세요.",
+          "아니요, 아버지께서는 회사원이세요.",
+          "아니요, 아버지께서는 네팔에 사세요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, my father is at home.\n2. Yes, my father is tall.\n3. No, my father is an office worker.\n4. No, my father lives in Nepal.\n--------------------\nThe answer should indicate whether the father is tall or not.",
+          "vi": "1. Vâng, bố tôi ở nhà.\n2. Vâng, bố tôi cao.\n3. Không, bố tôi là nhân viên công ty.\n4. Không, bố tôi sống ở Nepal.\n--------------------\nCâu trả lời cần cho biết người bố có cao hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 여동생이 몇 명이에요?",
+      "g_text_audio_translate": {
+        "en": "Man: How many younger sisters do you have?",
+        "vi": "Nam: Bạn có bao nhiêu người em gái?"
+      },
+      "g_audio": "/topiks/audios/feb8e393cdb33835935146cc08d39cb0_58_81.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "학생이에요.",
+          "부지런해요.",
+          "한 명 있어요.",
+          "미얀마에 있어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. She is a student.\n2. She is diligent.\n3. I have one younger sister.\n4. She is in Myanmar.\n--------------------\n<g>몇 명 => 한 명.</g>",
+          "vi": "1. Em ấy là học sinh.\n2. Em ấy chăm chỉ.\n3. Tôi có một em gái.\n4. Em ấy ở Myanmar.\n--------------------\n몇 명 => 한 명."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 피자를 좋아해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Do you like pizza?",
+        "vi": "Nam: Bạn thích pizza không?"
+      },
+      "g_audio": "/topiks/audios/75a17355ae17a55849d816f17dfbd081_58_86.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 피자가 있어요.",
+          "네, 피자를 좋아해요.",
+          "아니요, 피자가 커요.",
+          "아니요, 피자를 사요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, there is pizza.\n2. Yes, I like pizza.\n3. No, the pizza is big.\n4. No, I am buying pizza.\n--------------------\nThe answer should indicate whether or not this person likes pizza.",
+          "vi": "1. Vâng, có pizza.\n2. Vâng, tôi thích pizza.\n3. Không, pizza lớn.\n4. Không, tôi mua pizza.\n--------------------\nCâu trả lời cần cho biết người này có thích pizza hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어제 뭐 먹었어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What did you eat yesterday?",
+        "vi": "Nữ: Hôm qua bạn đã ăn gì?"
+      },
+      "g_audio": "/topiks/audios/75a17355ae17a55849d816f17dfbd081_97_123.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "생일에 먹었어요.",
+          "두 그릇 먹었어요.",
+          "식당에서 먹었어요.",
+          "김밥하고 라면을 먹었어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I ate it on my birthday.\n2. I ate two bowls.\n3. I ate at a restaurant.\n4. I ate kimbap and ramen.\n--------------------\n<g>뭐 먹었어요?</g>\n=> Noun + <g>을/를 먹었어요.</g>",
+          "vi": "1. Tôi đã ăn vào ngày sinh nhật.\n2. Tôi đã ăn hai bát.\n3. Tôi đã ăn ở nhà hàng.\n4. Tôi đã ăn kimbap và mì ramen.\n--------------------\n뭐 먹었어요?\n=> Danh từ + 을/를 먹었어요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 누가 쓰레기를 버렸어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Who threw away the trash?",
+        "vi": "Nam: Ai đã vứt rác?"
+      },
+      "g_audio": "/topiks/audios/45ba4f85c8d7bc928391be1c1ebd9f67_39_65.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "따로 버렸어요.",
+          "수거함에 버렸어요.",
+          "유수프 씨가 버렸어요.",
+          "어제 오전에 버렸어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I threw it away separately.\n2. I threw it away in the collection bin.\n3. Yusuf threw it away.\n4. I threw it away yesterday morning.\n--------------------\n<g>누가 => 유수프 씨.</g>",
+          "vi": "1. Tôi đã vứt riêng biệt.\n2. Tôi đã vứt vào thùng thu gom.\n3. Yusuf đã vứt rác.\n4. Tôi đã vứt vào sáng hôm qua.\n--------------------\n누가 => 유수프 씨."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 언제 청소해요?",
+      "g_text_audio_translate": {
+        "en": "Woman: When do you clean?",
+        "vi": "Nữ: Bạn làm vệ sinh khi nào?"
+      },
+      "g_audio": "/topiks/audios/45ba4f85c8d7bc928391be1c1ebd9f67_76_103.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "화장실을 청소해요.",
+          "주말 저녁에 청소해요.",
+          "닛차난 씨가 청소해요.",
+          "한 시간 동안 청소해요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I clean the bathroom.\n2. I clean in the evening on weekends.\n3. Nitchanan cleans.\n4. I clean for one hour.\n--------------------\n<g>언제 => 주말 저녁에.</g>",
+          "vi": "1. Tôi lau dọn nhà vệ sinh.\n2. Tôi dọn dẹp vào buổi tối cuối tuần.\n3. Nitchanan dọn dẹp.\n4. Tôi dọn dẹp trong một giờ.\n--------------------\n언제 => 주말 저녁에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 회사에서 기차역까지 어떻게 가요?",
+      "g_text_audio_translate": {
+        "en": "Man: How do you get from the company to the train station?",
+        "vi": "Nam: Làm sao để đi từ công ty đến ga tàu hỏa?"
+      },
+      "g_audio": "/topiks/audios/d97ec9fa2a31da7ce6b872d377dd501a_83_115.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "회사가 집에서 멀어요.",
+          "기차역에서 버스를 탔어요.",
+          "지하철 2호선을 타고 가요.",
+          "날씨가 좋아서 걸어왔어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. The company is far from home.\n2. I took the bus from the train station.\n3. I take subway line 2.\n4. The weather was nice, so I walked.\n--------------------\n<g>어떻게 가요?</g>\n=> Noun + <g>을/를 타고 가요.</g>",
+          "vi": "1. Công ty cách xa nhà.\n2. Tôi đã đi xe buýt từ ga tàu.\n3. Tôi đi bằng tuyến tàu điện ngầm số 2.\n4. Thời tiết đẹp nên tôi đã đi bộ đến đây.\n--------------------\n어떻게 가요?\n=> Danh từ + 을/를 타고 가요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 오늘도 바빠요?",
+      "g_text_audio_translate": {
+        "en": "Man: Are you busy today as well?",
+        "vi": "Nam: Hôm nay bạn cũng bận à?"
+      },
+      "g_audio": "/topiks/audios/ffc94a07cb855d45f8e2a00cd562bb04_63_92.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 일이 많아요.",
+          "네, 일을 잘해요.",
+          "아니요, 일이 재미있어요.",
+          "아니요, 일을 하고 싶어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I have a lot of work.\n2. Yes, I'm good at my job.\n3. No, my work is interesting.\n4. No, I want to work.\n--------------------\n<g>바쁘다 ≈ 일이 많다.</g>",
+          "vi": "1. Vâng, tôi có nhiều việc.\n2. Vâng, tôi làm việc giỏi.\n3. Không, công việc thú vị.\n4. Không, tôi muốn làm việc.\n--------------------\n바쁘다 ≈ 일이 많다."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 일요일마다 어디에 가요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Where do you go every Sunday?",
+        "vi": "Nữ: Mỗi chủ nhật bạn đi đâu?"
+      },
+      "g_audio": "/topiks/audios/ffc94a07cb855d45f8e2a00cd562bb04_103_127.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "교회에 가요.",
+          "10시에 가요.",
+          "버스로 가요.",
+          "친구하고 가요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I go to church.\n2. I go at 10 o'clock.\n3. I go by bus.\n4. I go with a friend.\n--------------------\n<g>어디에 가요?</g>\n=> Noun + <g>에 가요.</g>",
+          "vi": "1. Tôi đi đến nhà thờ.\n2. Tôi đi lúc 10 giờ.\n3. Tôi đi bằng xe buýt.\n4. Tôi đi cùng bạn.\n--------------------\n어디에 가요?\n=> Danh từ + 에 가요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 병원이 어디에 있어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Where is the hospital?",
+        "vi": "Nam: Bệnh viện ở đâu?"
+      },
+      "g_audio": "/topiks/audios/45a8b8a8fba98830fcf27d3c8cd1afb4_12_39.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "병원이 있어요.",
+          "오후에 병원에 가요.",
+          "마트 맞은편에 있어요.",
+          "마트는 여기에서 멀어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. There is a hospital.\n2. I go to the hospital in the afternoon.\n3. It is across from the mart.\n4. The mart is far from here.\n--------------------\nNoun + <g>이/가 어디에 있어요?</g>\n=> Noun + <g>에 있어요.</g>",
+          "vi": "1. Có một bệnh viện.\n2. Tôi đi bệnh viện vào buổi chiều.\n3. Nó ở đối diện siêu thị.\n4. Siêu thị cách xa đây.\n--------------------\nDanh từ + 이/가 어디에 있어요?\n=> Danh từ + 에 있어요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 은행에 어떻게 가요?",
+      "g_text_audio_translate": {
+        "en": "Man: How do I get to the bank?",
+        "vi": "Nam: Làm sao để đi đến ngân hàng?"
+      },
+      "g_audio": "/topiks/audios/45a8b8a8fba98830fcf27d3c8cd1afb4_50_81.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "환전하러 은행에 가요.",
+          "신분증을 가지고 가세요.",
+          "은행은 네 시 반에 문을 닫아요.",
+          "편의점 앞에서 오른쪽으로 가세요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I go to the bank to exchange money.\n2. Please bring your ID.\n3. The bank closes at 4:30.\n4. Go to the right in front of the convenience store.\n--------------------\nThe answer should give instructions on how to get to the bank.",
+          "vi": "1. Tôi đi ngân hàng để đổi tiền.\n2. Hãy mang theo chứng minh thư.\n3. Ngân hàng đóng cửa lúc 4:30.\n4. Đi về phía bên phải trước cửa hàng tiện lợi.\n--------------------\nCâu trả lời cần hướng dẫn cách để đi đến ngân hàng."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 모자가 빨간색이에요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is the hat red?",
+        "vi": "Nam: Mũ là màu đỏ phải không?"
+      },
+      "g_audio": "/topiks/audios/9664a75c2446e193fbef9236009f15b2_41_71.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 모자를 써요.",
+          "네, 모자가 있어요.",
+          "아니요, 모자가 많아요.",
+          "아니요, 모자가 노란색이에요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, I wear a hat.\n2. Yes, I have a hat.\n3. No, I have many hats.\n4. No, the hat is yellow.\n--------------------\nThe answer should refer to the color of the hat.",
+          "vi": "1. Vâng, tôi đội mũ.\n2. Vâng, tôi có mũ.\n3. Không, tôi có nhiều mũ.\n4. Không, mũ có màu vàng.\n--------------------\nCâu trả lời cần đề cập đến màu của chiếc mũ."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 구두가 작아요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Are the shoes small?",
+        "vi": "Nữ: Đôi giày có nhỏ không?"
+      },
+      "g_audio": "/topiks/audios/9664a75c2446e193fbef9236009f15b2_82_112.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 구두가 비싸요.",
+          "네, 구두가 무거워요.",
+          "아니요, 구두가 조금 커요.",
+          "아니요, 구두를 신고 있어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, the shoes are expensive.\n2. Yes, the shoes are heavy.\n3. No, the shoes are a little big.\n4. No, I am wearing the shoes.\n--------------------\nThe answer should be related to the size of the shoes.",
+          "vi": "1. Vâng, đôi giày đắt.\n2. Vâng, đôi giày nặng.\n3. Không, đôi giày hơi rộng.\n4. Không, tôi đang mang đôi giày.\n--------------------\nCâu trả lời cần liên quan đến kích thước của đôi giày."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 기숙사가 가까워요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is the dormitory close?",
+        "vi": "Nữ: Ký túc xá có gần không?"
+      },
+      "g_audio": "/topiks/audios/01e912ee9655b0473a8327bd2c728ca9_46_76.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 기숙사에 가요.",
+          "네, 기숙사에서 살아요.",
+          "아니요, 기숙사가 멀어요.",
+          "아니요, 기숙사가 좋아요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, I am going to the dormitory.\n2. Yes, I live in the dormitory.\n3. No, the dormitory is far.\n4. No, I like the dormitory.\n--------------------\nThe answer should indicate whether the dormitory is near or far.",
+          "vi": "1. Vâng, tôi đến ký túc xá.\n2. Vâng, tôi sống trong ký túc xá.\n3. Không, ký túc xá ở xa.\n4. Không, tôi thích ký túc xá.\n--------------------\nCâu trả lời cần cho biết ký túc xá gần hay xa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 언제 이사할 거예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: When are you moving?",
+        "vi": "Nữ: Khi nào bạn sẽ chuyển nhà?"
+      },
+      "g_audio": "/topiks/audios/01e912ee9655b0473a8327bd2c728ca9_87_116.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "부동산에 갈 거예요.",
+          "친구하고 같이 살 거예요.",
+          "다음 주에 이사할 거예요.",
+          "회사 근처로 이사할 거예요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I am going to a real estate agency.\n2. I am going to live with a friend.\n3. I am moving next week.\n4. I am moving near my company.\n--------------------\n<g>언제 => 다음 주에.</g>",
+          "vi": "1. Tôi sẽ đi đến văn phòng bất động sản.\n2. Tôi sẽ sống cùng bạn.\n3. Tôi sẽ chuyển nhà vào tuần sau.\n4. Tôi sẽ chuyển đến gần công ty.\n--------------------\n언제 => 다음 주에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 무엇을 타고 가려고 해요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What are you planning to take for transportation?",
+        "vi": "Nữ: Bạn dự định đi bằng phương tiện gì?"
+      },
+      "g_audio": "/topiks/audios/24c2c62edaa6f84105e3bc880de75605_92_119.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "비행기로 가려고 해요.",
+          "월요일에 가려고 해요.",
+          "친구하고 가려고 해요.",
+          "제주도로 가려고 해요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I plan to go by plane.\n2. I plan to go on Monday.\n3. I plan to go with a friend.\n4. I plan to go to Jeju Island.\n--------------------\nNoun (means of transport) + <g>(으)로 가다.</g>",
+          "vi": "1. Tôi định đi bằng máy bay.\n2. Tôi định đi vào thứ Hai.\n3. Tôi định đi cùng bạn.\n4. Tôi định đi đến đảo Jeju.\n--------------------\nDanh từ (phương tiện giao thông) + (으)로 가다."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 영화가 재미있어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is the movie interesting?",
+        "vi": "Nam: Bộ phim có thú vị không?"
+      },
+      "g_audio": "/topiks/audios/1876f1447f701b9ec365fca62e62fe9f_41_72.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 영화가 어려워요.",
+          "아니요, 영화를 봐요.",
+          "네, 영화가 재미있어요.",
+          "아니요, 영화를 좋아해요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, the movie is difficult.\n2. No, I watch a movie.\n3. Yes, the movie is interesting.\n4. No, I like the movie.\n--------------------\nThe answer should indicate whether the movie is interesting or not.",
+          "vi": "1. Vâng, bộ phim khó hiểu.\n2. Không, tôi xem phim.\n3. Vâng, bộ phim thú vị.\n4. Không, tôi thích bộ phim.\n--------------------\nCâu trả lời cần cho biết bộ phim có thú vị hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 언제 운동 경기를 봐요?",
+      "g_text_audio_translate": {
+        "en": "Man: When do you watch sports games?",
+        "vi": "Nam: Khi nào bạn xem trận đấu thể thao?"
+      },
+      "g_audio": "/topiks/audios/1876f1447f701b9ec365fca62e62fe9f_83_109.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "친구하고 봐요.",
+          "경기장에서 봐요.",
+          "야구 경기를 봐요.",
+          "토요일 저녁에 봐요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I watch with a friend.\n2. I watch at the stadium.\n3. I watch a baseball game.\n4. I watch on Saturday evening.\n--------------------\n<g>언제 => 토요일 저녁에.</g>",
+          "vi": "1. Tôi xem cùng bạn.\n2. Tôi xem ở sân vận động.\n3. Tôi xem trận đấu bóng chày.\n4. Tôi xem vào tối thứ Bảy.\n--------------------\n언제 => 토요일 저녁에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 지금 김치찌개를 끓여요?",
+      "g_text_audio_translate": {
+        "en": "Man: Are you cooking kimchi stew right now?",
+        "vi": "Nam: Bây giờ bạn đang nấu canh kimchi à?"
+      },
+      "g_audio": "/topiks/audios/47e50a414db6bde80c3a0c6722f9bb5f_12_45.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 김치찌개를 주세요.",
+          "네, 김치찌개가 싱거워요.",
+          "아니요, 김치찌개가 없어요.",
+          "아니요, 김치찌개를 안 끓여요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, please give me kimchi stew.\n2. Yes, the kimchi stew is bland.\n3. No, there is no kimchi stew.\n4. No, I don't cook kimchi stew.\n--------------------\nThe answer should indicate whether or not this person is cooking kimchi stew.",
+          "vi": "1. Vâng, làm ơn cho tôi món canh kimchi.\n2. Vâng, canh kimchi bị nhạt.\n3. Không, không có canh kimchi.\n4. Không, tôi không nấu canh kimchi.\n--------------------\nCâu trả lời cần cho biết người này có nấu canh kimchi hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 요리하는 것을 좋아해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Do you like cooking?",
+        "vi": "Nam: Bạn có thích nấu ăn không?"
+      },
+      "g_audio": "/topiks/audios/47e50a414db6bde80c3a0c6722f9bb5f_56_90.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 제가 만들었어요.",
+          "네, 제 취미는 요리예요.",
+          "아니요, 요리 교실에서 배웠어요.",
+          "아니요, 저는 한국 요리를 좋아해요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, I made it.\n2. Yes, my hobby is cooking.\n3. No, I learned it in a cooking class.\n4. No, I like Korean food.\n--------------------\nThe answer should indicate whether this person likes cooking or not.",
+          "vi": "1. Vâng, tôi đã làm nó.\n2. Vâng, sở thích của tôi là nấu ăn.\n3. Không, tôi đã học nấu ăn ở lớp học nấu ăn.\n4. Không, tôi thích ẩm thực Hàn Quốc.\n--------------------\nCâu trả lời cần cho biết người này có thích nấu ăn hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어제 문자 메시지를 못 받았어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: You didn't get the text message yesterday?",
+        "vi": "Nữ: Bạn đã không nhận được tin nhắn hôm qua sao?"
+      },
+      "g_audio": "/topiks/audios/f2912b8b22e0760e3bceee2508755a8d_71_103.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 메시지예요.",
+          "네, 메시지를 쓸게요.",
+          "아니요, 메시지를 보냈어요.",
+          "아니요, 메시지를 확인했어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, it's a message.\n2. Yes, I will write a message.\n3. No, I sent a message.\n4. No, I checked the message.\n--------------------\nThe answer should indicate whether this person has read the message or not.",
+          "vi": "1. Vâng, đó là tin nhắn.\n2. Vâng, tôi sẽ viết tin nhắn.\n3. Không, tôi đã gửi tin nhắn.\n4. Không, tôi đã kiểm tra tin nhắn.\n--------------------\nCâu trả lời cần cho biết người này đã đọc tin nhắn hay chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 한국 드라마는 어떻게 봐요?",
+      "g_text_audio_translate": {
+        "en": "Man: How do you watch Korean dramas?",
+        "vi": "Nam: Bạn xem phim truyền hình Hàn Quốc như thế nào?"
+      },
+      "g_audio": "/topiks/audios/f2912b8b22e0760e3bceee2508755a8d_114_138.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "주말에 봐요.",
+          "세 시간 봐요.",
+          "친구하고 봐요.",
+          "오티티(OTT)로 봐요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I watch on the weekend.\n2. I watch for three hours.\n3. I watch with a friend.\n4. I watch on OTT (streaming service).\n--------------------\nThe answer should say what this person watches dramas on.",
+          "vi": "1. Tôi xem vào cuối tuần.\n2. Tôi xem trong ba giờ.\n3. Tôi xem cùng bạn.\n4. Tôi xem bằng OTT (dịch vụ phát trực tuyến).\n--------------------\nCâu trả lời cần cho biết người này xem phim bằng gì."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 언제 마지막으로 홈페이지에 접속했어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: When was the last time you accessed the homepage?",
+        "vi": "Nữ: Lần cuối bạn truy cập trang chủ là khi nào?"
+      },
+      "g_audio": "/topiks/audios/f2912b8b22e0760e3bceee2508755a8d_149_181.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "2시간 동안 했어요.",
+          "마두 씨하고 같이 했어요.",
+          "어제 저녁에 들어가 봤어요.",
+          "회사 홈페이지에 로그인을 했어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I did it for two hours.\n2. I did it with Madu.\n3. I tried logging in last night.\n4. I logged into the company's homepage.\n--------------------\n<g>언제 => 어제 저녁에.</g>\n\nAnswer 1 answers the question <g>'홈페이지에 얼마 동안 접속했어요?'</g>",
+          "vi": "1. Tôi đã làm trong 2 giờ.\n2. Tôi đã làm cùng với Madu.\n3. Tôi đã thử đăng nhập vào tối qua.\n4. Tôi đã đăng nhập vào trang chủ công ty.\n--------------------\n언제 => 어제 저녁에.\n\nĐáp án 1 trả lời cho câu hỏi '홈페이지에 얼마 동안 접속했어요?'"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 요즘 병원에 환자가 많아요?",
+      "g_text_audio_translate": {
+        "en": "Man: Are there many patients in the hospital these days?",
+        "vi": "Nam: Dạo này bệnh viện có nhiều bệnh nhân không?"
+      },
+      "g_audio": "/topiks/audios/d37a9de4137ee490055f203ed7a40184_73_106.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 환자가 아파요.",
+          "네, 환자가 적어요.",
+          "아니요, 환자가 체온을 재요.",
+          "아니요, 환자가 많지 않아요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, the patient is sick.\n2. Yes, there are few patients.\n3. No, the patient is checking their temperature.\n4. No, there aren't many patients.\n--------------------\nThe answer should indicate whether there are many patients or not.\n\nWe do not choose answer 2 because of <g>'네'</g> (it must be <g>'아니요'</g>).",
+          "vi": "1. Vâng, bệnh nhân bị đau.\n2. Vâng, có ít bệnh nhân.\n3. Không, bệnh nhân đang đo nhiệt độ.\n4. Không, không có nhiều bệnh nhân.\n--------------------\nCâu trả lời cần cho biết có nhiều bệnh nhân hay không.\n\nKhông chọn đáp án 2 là bởi vì '네' (cần sửa thành '아니요')."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어디가 아프세요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Where do you feel pain?",
+        "vi": "Nữ: Bạn đau ở đâu?"
+      },
+      "g_audio": "/topiks/audios/d37a9de4137ee490055f203ed7a40184_117_145.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "다리를 다쳤어요.",
+          "퇴근 후에 갈게요.",
+          "병원은 회사 앞에 있어요.",
+          "진료실 앞에서 기다리세요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I hurt my leg.\n2. I will go after work.\n3. The hospital is in front of the company.\n4. Please wait in front of the consultation room.\n--------------------\n<g>어디 => 다리.</g>",
+          "vi": "1. Tôi bị thương ở chân.\n2. Tôi sẽ đi sau giờ tan làm.\n3. Bệnh viện ở trước công ty.\n4. Hãy đợi trước phòng khám.\n--------------------\n어디 => 다리."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 소독약을 몇 개 샀어요?",
+      "g_text_audio_translate": {
+        "en": "Man: How many bottles of antiseptic did you buy?",
+        "vi": "Nam: Bạn đã mua bao nhiêu lọ thuốc sát trùng?"
+      },
+      "g_audio": "/topiks/audios/4310512c4b2a9a6eb55650d65664aa9f_71_96.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "어제 샀어요.",
+          "두 개 샀어요.",
+          "감기약을 샀어요.",
+          "오천 원에 샀어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I bought it yesterday.\n2. I bought two.\n3. I bought cold medicine.\n4. I bought it for 5,000 won.\n--------------------\n<g>몇 개 => 두 개.</g>",
+          "vi": "1. Tôi đã mua hôm qua.\n2. Tôi đã mua hai lọ.\n3. Tôi đã mua thuốc cảm.\n4. Tôi đã mua với giá 5.000 won.\n--------------------\n몇 개 => 두 개."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 약은 언제 먹어야 돼요?",
+      "g_text_audio_translate": {
+        "en": "Woman: When should I take this medicine?",
+        "vi": "Nữ: Khi nào tôi nên uống thuốc này?"
+      },
+      "g_audio": "/topiks/audios/4310512c4b2a9a6eb55650d65664aa9f_107_136.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "지난주에 먹었어요.",
+          "3일 동안 먹었어요.",
+          "식사하신 후에 드세요.",
+          "따뜻한 물과 함께 드세요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I ate it last week.\n2. I ate it for three days.\n3. Take it after your meal.\n4. Take it with warm water.\n--------------------\n<g>언제 => 식사하신 후에.</g>",
+          "vi": "1. Tôi đã ăn vào tuần trước.\n2. Tôi đã ăn trong 3 ngày.\n3. Hãy dùng sau khi ăn.\n4. Hãy uống cùng với nước ấm.\n--------------------\n언제 => 식사하신 후에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 우편 요금이 얼마예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: How much is the postage fee?",
+        "vi": "Nữ: Phí bưu điện là bao nhiêu?"
+      },
+      "g_audio": "/topiks/audios/97ed5671a599e096cf843e2f08a210dc_66_93.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "사천팔백 원이에요.",
+          "책과 옷을 넣었어요.",
+          "이틀 후에 도착해요.",
+          "우체국에서 보냈어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. It's 4,800 won.\n2. I put in books and clothes.\n3. It will arrive in two days.\n4. I sent it at the post office.\n--------------------\n<g>얼마 => 사천팔백 원.</g>",
+          "vi": "1. Là 4.800 won.\n2. Tôi đã cho sách và quần áo vào.\n3. Nó sẽ đến sau hai ngày.\n4. Tôi đã gửi ở bưu điện.\n--------------------\n얼마 => 사천팔백 원."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 택배를 언제 받을 수 있어요?",
+      "g_text_audio_translate": {
+        "en": "Man: When can I receive the package?",
+        "vi": "Nam: Khi nào tôi có thể nhận được gói hàng?"
+      },
+      "g_audio": "/topiks/audios/97ed5671a599e096cf843e2f08a210dc_103_134.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "내일 받을 수 있어요.",
+          "비행기로 보낼 수 있어요.",
+          "회사에서 받을 수 있어요.",
+          "자야 씨가 보낼 수 있어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. You can receive it tomorrow.\n2. You can send it by plane.\n3. You can receive it at the company.\n4. Jaya can send it.\n--------------------\n<g>언제 => 내일.</g>",
+          "vi": "1. Bạn có thể nhận vào ngày mai.\n2. Bạn có thể gửi bằng máy bay.\n3. Bạn có thể nhận tại công ty.\n4. Jaya có thể gửi.\n--------------------\n언제 => 내일."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 마당이 넓어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is the yard big?",
+        "vi": "Nữ: Sân có rộng không?"
+      },
+      "g_audio": "/topiks/audios/375af44f088e80da4b3cf5f6d0377ab7_8_38.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 마당이 있어요.",
+          "네, 마당이 깨끗해요.",
+          "아니요, 마당이 좁아요.",
+          "아니요, 마당이 시원해요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, there is a yard.\n2. Yes, the yard is clean.\n3. No, the yard is narrow.\n4. No, the yard is cool.\n--------------------\nThe answer should indicate whether the yard is wide or narrow.",
+          "vi": "1. Vâng, có sân.\n2. Vâng, sân sạch sẽ.\n3. Không, sân hẹp.\n4. Không, sân mát mẻ.\n--------------------\nCâu trả lời cần cho biết sân rộng hay hẹp."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 유니폼이 작아요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is the uniform small?",
+        "vi": "Nam: Đồng phục có chật không?"
+      },
+      "g_audio": "/topiks/audios/bea3aa83713d12042678f8e0c1d635de_38_67.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 유니폼이에요.",
+          "네, 유니폼이 예뻐요.",
+          "아니요, 유니폼이 커요.",
+          "아니요, 유니폼이 비싸요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, it's a uniform.\n2. Yes, the uniform is pretty.\n3. No, the uniform is big.\n4. No, the uniform is expensive.\n--------------------\nThe answer should indicate whether the uniform is small or big.",
+          "vi": "1. Vâng, là đồng phục.\n2. Vâng, đồng phục đẹp.\n3. Không, đồng phục rộng.\n4. Không, đồng phục đắt.\n--------------------\nCâu trả lời cần cho biết đồng phục chật hay rộng."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 어디에서 밥을 먹어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Where do you eat?",
+        "vi": "Nam: Bạn ăn cơm ở đâu?"
+      },
+      "g_audio": "/topiks/audios/bf971f47434d2bd4c480bc4aa1a8c993_36_60.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "비빔밥을 먹어요.",
+          "열두 시에 먹어요.",
+          "마두 씨하고 먹어요.",
+          "구내식당에서 먹어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I eat bibimbap.\n2. I eat at twelve o'clock.\n3. I eat with Madu.\n4. I eat at the cafeteria.\n--------------------\n<g>어디에서 => 구내식당에서.</g>",
+          "vi": "1. Tôi ăn cơm trộn bibimbap.\n2. Tôi ăn vào 12 giờ.\n3. Tôi ăn cùng với Madu.\n4. Tôi ăn ở căng tin.\n--------------------\n어디에서 => 구내식당에서."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 칼로 씨한테 미안하다고 말했어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Did you apologize to Carlo?",
+        "vi": "Nữ: Bạn đã nói lời xin lỗi với Carlo chưa?"
+      },
+      "g_audio": "/topiks/audios/1a9b789591a89b615ce7fd654c1b43a6_12_46.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 칼로 씨한테 사과했어요.",
+          "네, 칼로 씨와 말다툼을 했어요.",
+          "아니요, 칼로 씨한테 이야기했어요.",
+          "아니요, 칼로 씨와 화해했어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I apologized to Carlo.\n2. Yes, I argued with Carlo.\n3. No, I talked to Carlo.\n4. No, I reconciled with Carlo.\n--------------------\nThe answer should indicate whether this person has apologized to Carlo or not.\n\nWe do not choose answer 4 because of <g>'아니요'</g> (it must be <g>'네'</g>).",
+          "vi": "1. Vâng, tôi đã xin lỗi Carlo.\n2. Vâng, tôi đã tranh cãi với Carlo.\n3. Không, tôi đã nói chuyện với Carlo.\n4. Không, tôi đã hòa giải với Carlo.\n--------------------\nCâu trả lời cần cho biết người này đã xin lỗi Carlo hay chưa.\n\nKhông chọn đáp án 4 là bởi vì '아니요'."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 아궁 씨가 누구예요?",
+      "g_text_audio_translate": {
+        "en": "Man: Who is Agung?",
+        "vi": "Nam: Ai là Agung?"
+      },
+      "g_audio": "/topiks/audios/1a9b789591a89b615ce7fd654c1b43a6_57_83.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "스물일곱 살이에요.",
+          "동티모르에서 왔어요.",
+          "아궁 씨는 가족이 많아요.",
+          "용접을 하고 있는 사람이에요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. He is 27 years old.\n2. He is from East Timor.\n3. Agung has a big family.\n4. He is the one who is welding.\n--------------------\nThe answer should say who Agung is.",
+          "vi": "1. Anh ấy 27 tuổi.\n2. Anh ấy đến từ Đông Timor.\n3. Agung có nhiều người thân.\n4. Anh ấy là người đang hàn.\n--------------------\nCâu trả lời cần cho biết Agung là người nào."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 마두 씨가 무슨 농담을 했어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What joke did Madu make?",
+        "vi": "Nữ: Madu đã nói đùa gì vậy?"
+      },
+      "g_audio": "/topiks/audios/68971e7f5cd195b3b3609a36c744826f_11_38.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "농담이 심했어요.",
+          "성적인 농담을 했어요.",
+          "마두 씨가 농담을 했어요.",
+          "푸캄 씨도 같이 들었어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. The joke was too much.\n2. He made a sexual joke.\n3. Madu made a joke.\n4. Phukham also listened.\n--------------------\nThe answer should say what joke Mandu made.",
+          "vi": "1. Trò đùa thật quá đáng.\n2. Anh ấy đã nói câu đùa mang tính tình dục.\n3. Madu đã nói đùa.\n4. Phukham cũng đã nghe cùng.\n--------------------\nCâu trả lời cần cho biết Madu đã nói câu đùa như thế nào."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 작업장 소음이 심해요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is the workplace noise severe?",
+        "vi": "Nữ: Tiếng ồn ở nơi làm việc có lớn không?"
+      },
+      "g_audio": "/topiks/audios/cf140836b35b55561983da07f6d4c877_37_64.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 아주 조용해요.",
+          "네, 냄새가 심해요.",
+          "아니요, 시끄럽지 않아요.",
+          "아니요, 쾌적하지 않아요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, it's very quiet.\n2. Yes, it smells strong.\n3. No, it's not noisy.\n4. No, it's not pleasant.\n--------------------\nThe answer should indicate whether the workplace is noisy or quiet.\n\nWe do not choose answer 1 because of <g>'네'</g> (it must be <g>'아니요'</g>).",
+          "vi": "1. Vâng, rất yên tĩnh.\n2. Vâng, có mùi rất nặng.\n3. Không, không ồn ào.\n4. Không, không thoải mái.\n--------------------\nCâu trả lời cần cho biết ở nơi làm việc ồn ào hay yên tĩnh.\n\nKhông chọn đáp án 1 là bởi vì '네' (cần sửa thành '아니요')."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어떻게 상자를 운반했어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: How did you transport the boxes?",
+        "vi": "Nữ: Bạn đã vận chuyển thùng hàng như thế nào?"
+      },
+      "g_audio": "/topiks/audios/19eb3c0e1363417a54094758ec0b7739_36_63.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "아궁 씨가 운반했어요.",
+          "핸드 파렛트로 운반했어요.",
+          "점심시간 전에 운반했어요.",
+          "오십 상자 정도 운반했어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Agung transported them.\n2. I transported them with a hand pallet.\n3. I transported them before lunch time.\n4. I transported about fifty boxes.\n--------------------\n<g>어떻게 운반했어요? => 핸드 파렛트로 운반했어요.</g>",
+          "vi": "1. Agung đã vận chuyển.\n2. Tôi đã vận chuyển bằng xe nâng tay.\n3. Tôi đã vận chuyển trước giờ ăn trưa.\n4. Tôi đã vận chuyển khoảng 50 thùng.\n--------------------\n어떻게 운반했어요? => 핸드 파렛트로 운반했어요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 언제 부품 조립을 시작할 거예요?",
+      "g_text_audio_translate": {
+        "en": "Man: When will you start assembling the parts?",
+        "vi": "Nam: Khi nào bạn sẽ bắt đầu lắp ráp các bộ phận?"
+      },
+      "g_audio": "/topiks/audios/c58cf4e93c15ca8b5113f7f2667bd496_32_57.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "제가 할 거예요.",
+          "혼자 할 거예요.",
+          "내일부터 할 거예요.",
+          "작업장에서 할 거예요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I will do it.\n2. I will do it alone.\n3. I will do it from tomorrow.\n4. I will do it in the workshop.\n--------------------\n<g>언제 => 내일부터.</g>",
+          "vi": "1. Tôi sẽ làm.\n2. Tôi sẽ làm một mình.\n3. Tôi sẽ làm từ ngày mai.\n4. Tôi sẽ làm tại xưởng.\n--------------------\n언제 => 내일부터."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 용접이 힘들어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is welding hard?",
+        "vi": "Nữ: Việc hàn có vất vả không?"
+      },
+      "g_audio": "/topiks/audios/f7a21b83522c908e5dfa1992fbd9c11a_39_64.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 잘할 수 있어요.",
+          "네, 해 보고 싶어요.",
+          "아니요, 힘들지 않아요.",
+          "아니요, 어려운 것 같아요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, I can do it well.\n2. Yes, I want to try it.\n3. No, it's not hard.\n4. No, I think it's difficult.\n--------------------\nThe answer should indicate whether welding is hard.\n\nWe do not choose answer 4 because of <g>'아니요'</g> (it must be <g>'네'</g>).",
+          "vi": "1. Vâng, tôi có thể làm tốt.\n2. Vâng, tôi muốn thử làm.\n3. Không, không vất vả.\n4. Không, tôi nghĩ là khó.\n--------------------\nCâu trả lời cần cho biết việc hàn có vất vả không.\n\nKhông chọn đáp án 4 là bởi vì '아니요' (cần sửa thành '네')."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 기계 작동을 중지했어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Did you stop the machine operation?",
+        "vi": "Nam: Bạn đã dừng hoạt động của máy chưa?"
+      },
+      "g_audio": "/topiks/audios/b50916585af3cc12391fd5977e59e572_41_69.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 전원을 껐어요.",
+          "네, 전원을 공급해요.",
+          "아니요, 작동하지 않아요.",
+          "아니요, 작동을 중지했어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I turned off the power.\n2. Yes, I am supplying power.\n3. No, it's not working.\n4. No, it has stopped working.\n--------------------\nThe answer should indicate whether the machine has stopped working.\n\nWe do not choose answer 4 because of <g>'아니요'</g> (it must be <g>'네'</g>).",
+          "vi": "1. Vâng, tôi đã tắt nguồn.\n2. Vâng, tôi đang cấp nguồn.\n3. Không, nó không hoạt động.\n4. Không, tôi đã dừng hoạt động.\n--------------------\nCâu trả lời cần cho biết máy đã dừng hoạt động chưa.\n\nKhông chọn đáp án 4 là bởi vì '아니요' (cần sửa thành '네')."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 누가 혼합기를 청소했어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Who cleaned the mixer?",
+        "vi": "Nữ: Ai đã vệ sinh máy trộn?"
+      },
+      "g_audio": "/topiks/audios/b50916585af3cc12391fd5977e59e572_80_106.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "자하라 씨가 했어요.",
+          "한 시간 동안 했어요.",
+          "출근하고 나서 했어요.",
+          "혼합기가 더러워서 했어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Zahara did it.\n2. She did it for an hour.\n3. She did it after she got to work.\n4. She did it because the mixer was dirty.\n--------------------\n<g>누가 => 자하라 씨.</g>",
+          "vi": "1. Zahara đã vệ sinh.\n2. Cô ấy đã vệ sinh trong một giờ.\n3. Cô ấy đã vệ sinh sau khi đi làm.\n4. Cô ấy đã vệ sinh vì máy trộn bị bẩn.\n--------------------\n누가 => 자하라 씨."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 염색 과정이 간단해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is the dyeing process simple?",
+        "vi": "Nam: Quá trình nhuộm có đơn giản không?"
+      },
+      "g_audio": "/topiks/audios/f59d224e1c253faf99e34c6e7f7b8b29_41_75.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 염색 과정이 필요해요.",
+          "네, 염색 과정이 재미있어요.",
+          "아니요, 염색 과정은 쉬워요.",
+          "아니요, 염색 과정은 복잡해요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, the dyeing process is necessary.\n2. Yes, the dyeing process is interesting.\n3. No, the dyeing process is easy.\n4. No, the dyeing process is complicated.\n--------------------\nThe answer should indicate whether the dyeing process is simple or complicated.\n\nWe do not choose answer 3 because of <g>'아니요'</g> (it must be <g>'네'</g>).",
+          "vi": "1. Vâng, cần có quá trình nhuộm.\n2. Vâng, quá trình nhuộm thú vị.\n3. Không, quá trình nhuộm dễ dàng.\n4. Không, quá trình nhuộm phức tạp.\n--------------------\nCâu trả lời cần cho biết quá trình nhuộm đơn giản hay phức tạp.\n\nKhông chọn đáp án 3 là bởi vì '아니요' (cần sửa thành '네')."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 누가 염료를 넣었어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Who added the dye?",
+        "vi": "Nữ: Ai đã cho thuốc nhuộm vào?"
+      },
+      "g_audio": "/topiks/audios/f59d224e1c253faf99e34c6e7f7b8b29_86_114.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "조금 전에 넣었어요.",
+          "닛차난 씨가 넣었어요.",
+          "보관 창고에서 넣었어요.",
+          "작업 지시서대로 넣었어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I put it in a while ago.\n2. Nitchanan put it in.\n3. It was put in the storage warehouse.\n4. It was put in according to the work instructions.\n--------------------\n<g>누가 => 닛차난 씨.</g>",
+          "vi": "1. Tôi vừa mới bỏ vào.\n2. Nitchanan đã bỏ vào.\n3. Đã bỏ vào kho bảo quản.\n4. Đã bỏ vào theo hướng dẫn công việc.\n--------------------\n누가 => 닛차난 씨."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 그라인더를 사용해 봤어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Have you ever used a grinder?",
+        "vi": "Nam: Bạn đã từng sử dụng máy mài chưa?"
+      },
+      "g_audio": "/topiks/audios/364eebffbc88116ec1df81388aafe2d4_40_71.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 그라인더가 있어요.",
+          "네, 그라인더를 써 봤어요.",
+          "아니요, 그라인더가 잘 돼요.",
+          "아니요, 그라인더가 가벼워요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, there is a grinder.\n2. Yes, I have used a grinder before.\n3. No, the grinder works well.\n4. No, the grinder is light.\n--------------------\nThe answer should indicate whether this person has ever used a grinder.",
+          "vi": "1. Vâng, có máy mài.\n2. Vâng, tôi đã từng sử dụng máy mài.\n3. Không, máy mài hoạt động tốt.\n4. Không, máy mài nhẹ.\n--------------------\nCâu trả lời cần cho biết người này đã từng sử dụng máy mài chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 페인트가 얼마나 있어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: How much paint is there?",
+        "vi": "Nữ: Có bao nhiêu sơn?"
+      },
+      "g_audio": "/topiks/audios/364eebffbc88116ec1df81388aafe2d4_82_106.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "두 통 있어요.",
+          "창고에 있어요.",
+          "지금 바르고 있어요.",
+          "아궁 씨한테 있어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. There are two cans.\n2. It's in the warehouse.\n3. I am applying it now.\n4. Agung has it.\n--------------------\n<g>얼마나 있어요? => 두 통 있어요.</g>",
+          "vi": "1. Có hai thùng.\n2. Nó ở trong kho.\n3. Bây giờ tôi đang sơn.\n4. Agung có nó.\n--------------------\n얼마나 있어요? => 두 통 있어요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 거푸집 설치하는 방법을 알아요?",
+      "g_text_audio_translate": {
+        "en": "Man: Do you know how to install the formwork?",
+        "vi": "Nam: Bạn có biết cách lắp đặt cốp pha không?"
+      },
+      "g_audio": "/topiks/audios/9b42ddb7b4974d2882c93ae9fc9a187b_40_70.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 설치해야 돼요.",
+          "네, 설치할 줄 알아요.",
+          "아니요, 설치해 놓았어요.",
+          "아니요, 설치하는 중이에요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, I need to install it.\n2. Yes, I know how to install it.\n3. No, I have installed it.\n4. No, I am installing it.\n--------------------\nThe answer should indicate whether this person knows how to install formwork.",
+          "vi": "1. Vâng, tôi phải lắp đặt.\n2. Vâng, tôi biết cách lắp đặt.\n3. Không, tôi đã lắp đặt rồi.\n4. Không, đang trong quá trình lắp đặt.\n--------------------\nCâu trả lời cần cho biết người này có biết cách lắp đặt cốp pha hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 철근을 묶을 때 뭐가 필요해요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What are needed when tying reinforcing bars?",
+        "vi": "Nữ: Khi buộc thép thì cần có cái gì?"
+      },
+      "g_audio": "/topiks/audios/9b42ddb7b4974d2882c93ae9fc9a187b_81_113.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "철근을 강하게 결속해야 돼요.",
+          "철근의 교차점을 결속해야 돼요.",
+          "결속선과 결속핸들이 있어야 돼요.",
+          "철근 배근 작업이 끝나면 결속해요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. The rebar must be tied strongly.\n2. The intersections of the rebar must be tied.\n3. A binding wire and a rebar tying handle are needed.\n4. Tie after the rebar placement work is finished.\n--------------------\nThe answer should indicate what are needed when tying reinforcing bars.",
+          "vi": "1. Phải buộc thép thật mạnh.\n2. Phải buộc tại điểm giao nhau của thép.\n3. Phải có dây buộc và tay cầm buộc.\n4. Phải buộc sau khi hoàn thành công việc bố trí thép gia cố.\n--------------------\nCâu trả lời cần cho biết những thứ cần thiết khi buộc thép."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 무엇으로 땅을 다질까요?",
+      "g_text_audio_translate": {
+        "en": "Man: What should I use to compact the ground?",
+        "vi": "Nam: Tôi nên dùng gì để đầm chặt đất?"
+      },
+      "g_audio": "/topiks/audios/3b702dfb485c27709770cb0d7ddad077_36_62.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "여기부터 다지세요.",
+          "꼼꼼하게 다지세요.",
+          "핸드 램머로 다지세요.",
+          "돌을 제거한 후에 다지세요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Compact it from here. \n2. Compact it thoroughly. \n3. Compact it with a hand rammer. \n4. Compact it after removing the stones.\n--------------------\nThe answer should indicate what machine is needed to compact the ground.\n\n<g>무엇으로 => 핸드 램머로.</g>",
+          "vi": "1. Hãy đầm chặt từ đây.\n2. Hãy đầm chặt kỹ lưỡng.\n3. Hãy đầm chặt bằng máy đầm cầm tay.\n4. Hãy đầm chặt sau khi loại bỏ đá.\n--------------------\nCâu trả lời cần cho biết cần đầm chặt đất bằng gì.\n\n무엇으로 => 핸드 램머로."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 배추를 뽑을까요?",
+      "g_text_audio_translate": {
+        "en": "Man: Should I pull out the cabbage?",
+        "vi": "Nam: Tôi nhổ cải thảo nhé?"
+      },
+      "g_audio": "/topiks/audios/2902a67c258d2393346a8d34741a86ed_40_67.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 배추를 담을게요.",
+          "아니요, 배추가 있어요.",
+          "네, 배추를 뽑아 주세요.",
+          "아니요, 배추를 좋아해요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I will pickle the cabbage.\n2. No, I have cabbage. \n3. Yes, please pull out the cabbage.\n4. No, I like cabbage.\n--------------------\nThe answer should indicate whether the man should pull out the cabbage.",
+          "vi": "1. Vâng, tôi sẽ muối cải thảo.\n2. Không, tôi có cải thảo.\n3. Vâng, hãy nhổ cải thảo giúp tôi.\n4. Không, tôi thích cải thảo.\n--------------------\nCâu trả lời cần cho biết người đàn ông có nên nhổ cải thảo không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 언제 농약을 칠 거예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: When will you spray pesticides?",
+        "vi": "Nữ: Khi nào sẽ phun thuốc trừ sâu?"
+      },
+      "g_audio": "/topiks/audios/2902a67c258d2393346a8d34741a86ed_79_105.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "점심 먹고 칠 거예요.",
+          "과수원에서 칠 거예요.",
+          "다린두 씨가 칠 거예요.",
+          "세 시간 동안 칠 거예요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I will spray after lunch. \n2. I will spray in the orchard. \n3. Tharindu will spray. \n4. I will spray for three hours.\n--------------------\nThe answer should indicate when pesticides will be sprayed.\n\nAnswer 4 answers the question <g>'농약을 얼마 동안 칠 거예요?'</g> (How long will pesticides be sprayed?).",
+          "vi": "1. Tôi sẽ phun sau khi ăn trưa.\n2. Tôi sẽ phun ở vườn cây ăn quả.\n3. Tharindu sẽ phun.\n4. Tôi sẽ phun trong ba giờ.\n--------------------\nCâu trả lời cần cho biết thời điểm sẽ phun thuốc trừ sâu.\n\nĐáp án 4 trả lời cho câu hỏi '농약을 얼마 동안 칠 거예요?' (Sẽ phun thuốc trừ sâu trong bao lâu?)."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 누가 축사 청소를 했어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Who cleaned the livestock shed?",
+        "vi": "Nam: Ai đã dọn dẹp chuồng trại?"
+      },
+      "g_audio": "/topiks/audios/b263ac43eeace8dc6670ff1228d4f520_37_64.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오전에 청소했어요.",
+          "더러워서 청소했어요.",
+          "다라 씨가 청소했어요.",
+          "두 시간 동안 청소했어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I cleaned in the morning. \n2. I cleaned because it was dirty. \n3. Dara cleaned. \n4. I cleaned for two hours.\n--------------------\n<g>누가 => 다라 씨.</g>",
+          "vi": "1. Tôi đã dọn dẹp vào buổi sáng.\n2. Tôi đã dọn dẹp vì nó bẩn.\n3. Dara đã dọn dẹp.\n4. Tôi đã dọn dẹp trong hai giờ.\n--------------------\n누가 => 다라 씨."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 수조가 깨끗해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is the water tank clean?",
+        "vi": "Nam: Bể nước có sạch không?"
+      },
+      "g_audio": "/topiks/audios/9ff325716ad720705a137a17bf3b3c3f_37_66.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 수조가 커요.",
+          "네, 수조가 많아요.",
+          "아니요, 수조가 더러워요.",
+          "아니요, 수조가 너무 깊어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, the water tank is big. \n2. Yes, there are many water tanks. \n3. No, the water tank is dirty. \n4. No, the water tank is too deep.\n--------------------\nThe answer should indicate whether the water tank is clean or not.",
+          "vi": "1. Vâng, bể chứa lớn.\n2. Vâng, có nhiều bể chứa.\n3. Không, bể chứa bẩn.\n4. Không, bể chứa quá sâu.\n--------------------\nCâu trả lời cần cho biết bể nước có sạch hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 비계 설치 작업은 언제 시작해요?",
+      "g_text_audio_translate": {
+        "en": "Man: When does the scaffolding installation work start?",
+        "vi": "Nam: Khi nào công việc lắp đặt giàn giáo bắt đầu?"
+      },
+      "g_audio": "/topiks/audios/2806bd3a19246edae7565c4ffd3d3a83_34_63.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "칼로 씨하고 할 거예요.",
+          "내일 오전부터 할 거예요.",
+          "안전난간도 설치할 거예요.",
+          "오늘 네 시간 정도 할 거예요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I will do it with Carlo. \n2. I will start doing it from tomorrow morning. \n3. I will also install the safety railing. \n4. I will do it for about four hours today.\n--------------------\n<g>언제 시작해요? => 내일 오전부터.</g>\n\nAnswer 4 answers the question 'How long does it take to install scaffolding?'.",
+          "vi": "1. Tôi sẽ làm với Carlo.\n2. Tôi sẽ bắt đầu làm vào sáng mai.\n3. Tôi cũng sẽ lắp đặt lan can an toàn.\n4. Tôi sẽ làm trong khoảng bốn tiếng hôm nay.\n--------------------\n언제 시작해요? => 내일 오전부터.\n\nĐáp án 4 trả lời cho câu hỏi 'Lắp đặt giàn giáo trong bao lâu?'."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 어디에서 토막 내기 작업을 해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Where do you do the cutting into pieces?",
+        "vi": "Nam: Bạn làm công việc cắt thành khúc ở đâu?"
+      },
+      "g_audio": "/topiks/audios/22124d180d19687cde6fb1d2622dd630_35_62.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오후에 작업해요.",
+          "집재장에서 작업해요.",
+          "체인톱으로 작업해요.",
+          "영호 씨하고 작업해요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I do it in the afternoon. \n2. I do it at the log yard. \n3. I do it with a chainsaw. \n4. I do it with Youngho.\n--------------------\n<g>어디에서 => 집재장에서.</g>",
+          "vi": "1. Tôi làm vào buổi chiều.\n2. Tôi làm ở bãi gỗ súc.\n3. Tôi làm bằng cưa xích.\n4. Tôi làm với Youngho.\n--------------------\n어디에서 => 집재장에서."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 청소기 플러그를 꽂았어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Did you plug in the vacuum cleaner?",
+        "vi": "Nam: Bạn đã cắm phích cắm máy hút bụi chưa?"
+      },
+      "g_audio": "/topiks/audios/d1d85e09ce8077ae0a886fc07e0b6759_37_62.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 뺐어요.",
+          "네, 꽂았어요.",
+          "아니요, 없어요.",
+          "아니요, 길었어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, I unplugged it.\n2. Yes, I plugged it in.\n3. No, there isn't.\n4. No, it was long.\n--------------------\nThe answer should indicate whether the person has plugged in the vacuum cleaner.",
+          "vi": "1. Vâng, tôi đã rút ra rồi.\n2. Vâng, tôi đã cắm vào rồi.\n3. Không, không có.\n4. Không, nó dài.\n--------------------\nCâu trả lời cần cho biết người này đã cắm phích cắm chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 지퍼백이 얼마나 있어요?",
+      "g_text_audio_translate": {
+        "en": "Man: How many zipper bags are there?",
+        "vi": "Nam: Có bao nhiêu túi zip?"
+      },
+      "g_audio": "/topiks/audios/74fb3cd8497666b419730d8e07abc75e_36_60.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "큰 것만 있어요.",
+          "열 장 정도 있어요.",
+          "선반 위에 있어요.",
+          "당근을 넣고 있어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. There are only big ones. \n2. There are about ten sheets. \n3. It's on the shelf. \n4. I am putting in the carrots.\n--------------------\n<g>얼마나 => 열 장.</g>",
+          "vi": "1. Chỉ có cái lớn.\n2. Có khoảng mười cái.\n3. Nó ở trên kệ.\n4. Tôi đang bỏ cà rốt vào.\n--------------------\n얼마나 => 열 장."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 기계가 뜨거워요?",
+      "g_text_audio_translate": {
+        "en": "Man: Is the machine hot?",
+        "vi": "Nam: Máy có nóng không?"
+      },
+      "g_audio": "/topiks/audios/32f738902afd22b35596d41407c16d5e_12_38.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 기계예요.",
+          "네, 많이 있어요.",
+          "아니요, 뜨겁지 않아요.",
+          "아니요, 기계가 아니에요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, it's a machine. \n2. Yes, there are many. \n3. No, it's not hot. \n4. No, it's not a machine.\n--------------------\nThe answer should indicate whether the machine is hot or not.",
+          "vi": "1. Vâng, đó là máy.\n2. Vâng, có rất nhiều.\n3. Không, nó không nóng.\n4. Không, nó không phải là máy.\n--------------------\nCâu trả lời cần cho biết máy có nóng hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 왜 넘어졌어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Why did you fall?",
+        "vi": "Nam: Tại sao bạn bị ngã?"
+      },
+      "g_audio": "/topiks/audios/32f738902afd22b35596d41407c16d5e_49_76.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오전에 넘어졌어요.",
+          "마두 씨가 넘어졌어요.",
+          "작업장에서 넘어졌어요.",
+          "바닥이 미끄러워서 넘어졌어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I fell in the morning. \n2. Madu fell. \n3. I fell at the workplace. \n4. I fell because the floor was slippery.\n--------------------\n<g>왜 => 바닥이 미끄러워서.</g>",
+          "vi": "1. Tôi bị ngã vào buổi sáng.\n2. Madu bị ngã.\n3. Tôi bị ngã trong xưởng làm việc.\n4. Tôi bị ngã vì sàn trơn.\n--------------------\n왜 => 바닥이 미끄러워서."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 안전모를 착용할까요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Should I wear a safety helmet?",
+        "vi": "Nữ: Tôi đội mũ bảo hộ nhé?"
+      },
+      "g_audio": "/topiks/audios/51255dcee60e56f531d6cbe0b4016aab_12_40.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 안전모를 쓰세요.",
+          "네, 안전모를 벗으세요.",
+          "아니요, 안전모를 써야 해요.",
+          "아니요, 안전모를 벗지 마세요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, please wear a safety helmet. \n2. Yes, please take off the safety helmet. \n3. No, you must wear a safety helmet. \n4. No, do not take off the safety helmet.\n--------------------\nIn terms of meaning, 1 is the most reasonable answer.",
+          "vi": "1. Vâng, hãy đội mũ bảo hộ.\n2. Vâng, hãy cởi mũ bảo hộ.\n3. Không, bạn phải đội mũ bảo hộ.\n4. Không, đừng cởi mũ bảo hộ.\n--------------------\nXét về nghĩa, 1 là đáp án hợp lý nhất."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 어디에 표지판을 설치할까요?",
+      "g_text_audio_translate": {
+        "en": "Man: Where should I install the sign?",
+        "vi": "Nam: Nên lắp biển báo ở đâu?"
+      },
+      "g_audio": "/topiks/audios/51255dcee60e56f531d6cbe0b4016aab_51_81.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "마두 씨가 직접 설치하세요.",
+          "잘 보이는 곳에 설치하세요.",
+          "수리가 끝날 때까지 설치하세요.",
+          "작업을 시작하기 전에 설치하세요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Madu, please install it yourself. \n2. Install it in a visible place. \n3. Install it until the repair is complete. \n4. Install it before starting work.\n--------------------\n<g>어디에 => 잘 보이는 곳에.</g>",
+          "vi": "1. Hãy tự lắp đặt, Madu.\n2. Hãy lắp đặt ở nơi dễ thấy.\n3. Hãy lắp đặt cho đến khi hoàn thành việc sửa chữa.\n4. Hãy lắp đặt trước khi bắt đầu làm việc.\n--------------------\n어디에 => 잘 보이는 곳에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 오늘 안전 교육이 있어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is there a safety training session today?",
+        "vi": "Nữ: Hôm nay có buổi đào tạo an toàn không?"
+      },
+      "g_audio": "/topiks/audios/010a5c8cf10e9bc8c4b0612c98309408_12_42.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 안전 교육이 어려워요.",
+          "네, 안전 교육을 들었어요.",
+          "아니요, 안전 교육이 많아요.",
+          "아니요, 안전 교육이 없어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, the safety training session is difficult. \n2. Yes, I attended the safety training session. \n3. No, there are a lot of safety training sessions. \n4. No, there is no safety training session.\n--------------------\nThe answer should indicate whether there is a safety training session today.",
+          "vi": "1. Vâng, buổi đào tạo an toàn khó.\n2. Vâng, tôi đã tham gia buổi đào tạo an toàn.\n3. Không, có nhiều buổi đào tạo an toàn.\n4. Không, không có buổi đào tạo an toàn.\n--------------------\nCâu trả lời cần cho biết có buổi đào tạo an toàn hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 몇 시에 전기 작업을 해요?",
+      "g_text_audio_translate": {
+        "en": "Man: What time is the electrical work?",
+        "vi": "Nam: Mấy giờ sẽ thực hiện công việc điện?"
+      },
+      "g_audio": "/topiks/audios/010a5c8cf10e9bc8c4b0612c98309408_53_76.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "다섯 번 해요.",
+          "열 시에 해요.",
+          "실외에서 해요.",
+          "마두 씨가 해요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I do it five times. \n2. I do it at ten o'clock. \n3. I do it outdoors. \n4. Madu does it.\n--------------------\n<g>몇 시에 => 열 시에.</g>",
+          "vi": "1. Thực hiện năm lần.\n2. Thực hiện lúc 10 giờ.\n3. Thực hiện ngoài trời.\n4. Madu thực hiện.\n--------------------\n몇 시에 => 열 시에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 소화기 사용법을 알아요?",
+      "g_text_audio_translate": {
+        "en": "Man: Do you know how to use a fire extinguisher?",
+        "vi": "Nam: Bạn có biết cách sử dụng bình chữa cháy không?"
+      },
+      "g_audio": "/topiks/audios/8a7f6fb93472ba4a4f75cf9d10b9503b_12_40.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 소화기예요.",
+          "네, 많이 있어요.",
+          "아니요, 소화기가 없어요.",
+          "아니요, 사용법을 몰라요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Yes, it is a fire extinguisher. \n2. Yes, there are many. \n3. No, there is no fire extinguisher. \n4. No, I don't know how to use it.\n--------------------\nThe answer should indicate whether this person knows how to use a fire extinguisher.",
+          "vi": "1. Vâng, đó là bình chữa cháy.\n2. Vâng, có rất nhiều.\n3. Không, không có bình chữa cháy.\n4. Không, tôi không biết cách sử dụng.\n--------------------\nCâu trả lời cần cho biết người này có biết cách sử dụng bình chữa cháy hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 왜 손을 다쳤어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Why did you hurt your hand?",
+        "vi": "Nữ: Tại sao bạn bị thương ở tay?"
+      },
+      "g_audio": "/topiks/audios/8a7f6fb93472ba4a4f75cf9d10b9503b_51_75.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "어제 다쳤어요.",
+          "마두 씨가 다쳤어요.",
+          "작업장에서 다쳤어요.",
+          "파편이 튀어서 다쳤어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. I got injured yesterday. \n2. Madu got injured. \n3. I got injured at the workplace. \n4. I got injured by flying debris.\n--------------------\n<g>왜 => 파편이 튀어서.</g>",
+          "vi": "1. Tôi bị thương hôm qua.\n2. Madu bị thương.\n3. Tôi bị thương trong xưởng làm việc.\n4. Tôi bị thương vì mảnh vỡ bắn vào.\n--------------------\n왜 => 파편이 튀어서."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 신청한 비자가 나왔어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Has the visa you applied for been issued?",
+        "vi": "Nam: Visa bạn đã xin có kết quả chưa?"
+      },
+      "g_audio": "/topiks/audios/221d0b40447d01d8b754b5f3554cd7cc_12_44.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 어제 비자를 받았어요.",
+          "네, 비자를 신청할 거예요.",
+          "아니요, 비자를 신청하세요.",
+          "아니요, 비자가 빨리 나왔어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I received my visa yesterday. \n2. Yes, I will apply for a visa. \n3. No, please apply for a visa. \n4. No, the visa came out quickly.\n--------------------\nThe answer should indicate whether this person has received the visa or not.",
+          "vi": "1. Vâng, tôi đã nhận visa hôm qua.\n2. Vâng, tôi sẽ xin visa.\n3. Không, hãy xin visa.\n4. Không, visa được cấp nhanh.\n--------------------\nCâu trả lời cần cho biết người này đã nhận được visa hay chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 언제 한국에 가요?",
+      "g_text_audio_translate": {
+        "en": "Man: When are you going to Korea?",
+        "vi": "Nam: Khi nào bạn đi Hàn Quốc?"
+      },
+      "g_audio": "/topiks/audios/221d0b40447d01d8b754b5f3554cd7cc_55_83.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "다음 주에 가게 되었어요.",
+          "한국에 가게 되었어요.",
+          "왕민 씨가 가게 되었어요.",
+          "고용허가제로 가게 되었어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I'm going next week.\n2. I'm going to Korea.\n3. Wangmin is going.\n4. I'm going with the employment permit system.\n--------------------\n<g>언제 => 다음 주에.</g>\n\n<g>가게 되었다</g> here means that the subject has been allowed to go but has not actually gone.",
+          "vi": "1. Tôi được đi vào tuần tới.\n2. Tôi được đi Hàn Quốc.\n3. Wangmin được đi.\n4. Tôi được đi theo chương trình cấp phép lao động.\n--------------------\n언제 => 다음 주에.\n\n가게 되었다 ở đây mang nghĩa đã được cho phép đi chứ thực tế chưa đi."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 지금 근무시간이에요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is it working hours now?",
+        "vi": "Nữ: Bây giờ có phải giờ làm việc không?"
+      },
+      "g_audio": "/topiks/audios/db74bad4d64937cd2f7707547e00b7d2_12_42.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 6시에 퇴근했어요.",
+          "네, 근무시간이 아니에요.",
+          "아니요, 9시부터 근무해요.",
+          "아니요, 근무시간을 몰라요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, I left work at 6 o'clock. \n2. Yes, it is not working hours. \n3. No, I work from 9 o'clock. \n4. No, I don't know the working hours.\n--------------------\nNoun + <g>이에요/예요?</g>\n=> Noun + <g>이에요/예요.</g>\n=> Noun + <g>이/가 아니에요.</g>",
+          "vi": "1. Vâng, tôi đã tan làm lúc 6 giờ.\n2. Vâng, bây giờ không phải giờ làm việc.\n3. Không, tôi làm việc từ 9 giờ.\n4. Không, tôi không biết giờ làm việc.\n--------------------\nDanh từ + 이에요/예요?\n=> Danh từ + 이에요/예요.\n=> Danh từ + 이/가 아니에요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 한국에 가면 무슨 일을 해요?",
+      "g_text_audio_translate": {
+        "en": "Man: What job will you do when you go to Korea?",
+        "vi": "Nam: Khi đến Hàn Quốc, bạn sẽ làm công việc gì?"
+      },
+      "g_audio": "/topiks/audios/db74bad4d64937cd2f7707547e00b7d2_53_80.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "3년 동안 일을 해요.",
+          "가구 만드는 일을 해요.",
+          "돈을 벌려고 일을 해요.",
+          "프엉 씨와 같이 일을 해요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I have been working for three years. \n2. I work in furniture making. \n3. I work to earn money. \n4. I work with Phuong.\n--------------------\n<g>무슨 일 => 가구 만드는 일.</g>",
+          "vi": "1. Tôi làm việc trong ba năm.\n2. Tôi làm công việc sản xuất đồ nội thất.\n3. Tôi làm việc để kiếm tiền.\n4. Tôi làm việc cùng với Phương.\n--------------------\n무슨 일 => 가구 만드는 일."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 외국인등록증을 발급받았어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Have you received your alien registration card?",
+        "vi": "Nam: Bạn đã nhận được thẻ đăng ký người nước ngoài chưa?"
+      },
+      "g_audio": "/topiks/audios/6de6f7a87a838a64801b8641c79c3eb9_12_47.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 외국인등록증을 신청했어요.",
+          "네, 외국인등록증을 수령했어요.",
+          "아니요, 외국인등록증을 제출했어요.",
+          "아니요, 외국인등록증을 준비했어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, I applied for an alien registration card. \n2. Yes, I received my alien registration card. \n3. No, I submitted my alien registration card. \n4. No, I prepared my alien registration card.\n--------------------\nThe answer should indicate whether this person has received the alien registration card.",
+          "vi": "1. Vâng, tôi đã đăng ký thẻ đăng ký người nước ngoài.\n2. Vâng, tôi đã nhận thẻ đăng ký người nước ngoài.\n3. Không, tôi đã nộp thẻ đăng ký người nước ngoài.\n4. Không, tôi đã chuẩn bị thẻ đăng ký người nước ngoài.\n--------------------\nCâu trả lời cần cho biết người này đã nhận thẻ đăng ký người nước ngoài hay chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 출입국·외국인사무소 방문 예약을 어떻게 해요?",
+      "g_text_audio_translate": {
+        "en": "Woman: How do I make an appointment at the Immigration Office?",
+        "vi": "Nữ: Làm thế nào để đặt lịch hẹn với Văn phòng Xuất nhập cảnh?"
+      },
+      "g_audio": "/topiks/audios/6de6f7a87a838a64801b8641c79c3eb9_58_87.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "내일 예약하면 돼요.",
+          "천천히 예약하면 돼요.",
+          "퇴근 후에 예약하면 돼요.",
+          "인터넷으로 예약하면 돼요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. You can make a reservation tomorrow. \n2. You can make a reservation slowly. \n3. You can make a reservation after work. \n4. You can make a reservation online.\n--------------------\n<g>어떻게 => 인터넷으로.</g>",
+          "vi": "1. Bạn có thể đặt lịch hẹn vào ngày mai.\n2. Bạn có thể đặt lịch hẹn từ từ.\n3. Bạn có thể đặt lịch hẹn sau giờ làm việc.\n4. Bạn có thể đặt lịch hẹn qua internet.\n--------------------\n어떻게 => 인터넷으로."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 보험금은 받았어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Did you receive the insurance money?",
+        "vi": "Nữ: Bạn đã nhận được tiền bảo hiểm chưa?"
+      },
+      "g_audio": "/topiks/audios/f76f0febf168319bffd37b3dae05fce9_12_44.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 보험금을 안 냈어요.",
+          "네, 보험금을 신청할 거예요.",
+          "아니요, 보험금을 못 받았어요.",
+          "아니요, 보험금이 많지 않아요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Yes, I didn't pay the insurance premium. \n2. Yes, I will apply for insurance money. \n3. No, I didn't receive the insurance money.\n4. No, the insurance money is not much.\n--------------------\nThe answer should indicate whether the person has received insurance money or not.",
+          "vi": "1. Vâng, tôi chưa đóng tiền bảo hiểm.\n2. Vâng, tôi sẽ yêu cầu bồi thường bảo hiểm.\n3. Không, tôi chưa nhận được tiền bảo hiểm.\n4. Không, tiền bảo hiểm không nhiều.\n--------------------\nCâu trả lời cần cho biết người này đã nhận được tiền bảo hiểm hay chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 누가 보험금을 청구했어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Who filed the insurance claim?",
+        "vi": "Nam: Ai đã yêu cầu bồi thường bảo hiểm?"
+      },
+      "g_audio": "/topiks/audios/f76f0febf168319bffd37b3dae05fce9_55_79.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "집에서 했어요.",
+          "칼로 씨가 했어요.",
+          "퇴근 후에 했어요.",
+          "인터넷으로 했어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I did it at home. \n2. Carlo did it. \n3. I did it after work. \n4. I did it online.\n--------------------\n<g>누가 => 칼로 씨.</g>",
+          "vi": "1. Tôi đã làm ở nhà.\n2. Carlo đã làm.\n3. Tôi đã làm sau giờ làm việc.\n4. Tôi đã làm qua internet.\n--------------------\n누가 => 칼로 씨."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 오늘 점심 뭐 먹을 거예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What will you eat for lunch today?",
+        "vi": "Nữ: Hôm nay bạn sẽ ăn trưa món gì?"
+      },
+      "g_audio": "/topiks/audios/c70f05fe68810b3569b4c3ad2fb1f01a.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "세 시에 먹을 거예요.",
+          "혼자 먹을 거예요.",
+          "김치찌개 먹을 거예요.",
+          "식당에서 만날 거예요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I will eat at 3 o'clock.\n2. I will eat alone.\n3. I will eat kimchi stew.\n4. I will meet at the restaurant.\n--------------------\n<g>뭐 => 김치찌개.</g>",
+          "vi": "1. Tôi sẽ ăn vào lúc 3 giờ.\n2. Tôi sẽ ăn một mình.\n3. Tôi sẽ ăn canh kim chi.\n4. Tôi sẽ gặp ở nhà hàng.\n--------------------\n뭐 => 김치찌개."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 오늘 날씨가 어때요?",
+      "g_text_audio_translate": {
+        "en": "Man: How is the weather today?",
+        "vi": "Nam: Hôm nay thời tiết thế nào?"
+      },
+      "g_audio": "/topiks/audios/aa96581b5b77d9cb7a2889f1cf2e4176.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "흐리고 비가 와요.",
+          "집에 갈 거예요.",
+          "아침에 운동했어요.",
+          "내일은 맑아요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. It's cloudy and raining.\n2. I will go home.\n3. I exercised in the morning.\n4. Tomorrow will be clear.\n--------------------\nThe man asks about the weather today (not tomorrow).",
+          "vi": "1. Trời nhiều mây và đang mưa.\n2. Tôi sẽ về nhà.\n3. Tôi đã tập thể dục vào buổi sáng.\n4. Ngày mai trời sẽ trong xanh.\n--------------------\nNgười đàn ông hỏi về thời tiết hôm nay (không phải ngày mai)."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 저기 있는 분은 누구예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Who is that person over there?",
+        "vi": "Nữ: Người ở đằng kia là ai vậy?"
+      },
+      "g_audio": "/topiks/audios/f28ebd32efcaa0b793fea93b97057a1a.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "점심시간이에요.",
+          "내 옆에 앉아 있어요.",
+          "우리 반장님이에요.",
+          "지금 회의 중이에요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. It's lunchtime.\n2. That person is sitting next to me.\n3. That person is our group leader.\n4. There is a meeting now.\n--------------------\n<g>누구예요 => 반장님이에요.</g>",
+          "vi": "1. Là giờ nghỉ trưa.\n2. Người đó đang ngồi bên cạnh tôi.\n3. Đó là tổ trưởng của tôi.\n4. Hiện tại đang họp.\n--------------------\n누구예요 => 반장님이에요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 지금 뭐 하고 있어요?",
+      "g_text_audio_translate": {
+        "en": "Man: What are you doing now?",
+        "vi": "Nam: Bây giờ bạn đang làm gì?"
+      },
+      "g_audio": "/topiks/audios/214e41a8ae81591e50fd421c8ab22e4b.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오전 아홉 시예요.",
+          "점심시간이에요.",
+          "청소하고 있어요.",
+          "기계가 멈췄어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. It's 9 a.m.\n2. It's lunchtime.\n3. I am cleaning.\n4. The machine stopped.\n--------------------\nThe answer should say what you are doing.",
+          "vi": "1. Bây giờ là 9 giờ sáng.\n2. Là giờ nghỉ trưa.\n3. Tôi đang dọn dẹp.\n4. Máy móc đã ngừng hoạt động.\n--------------------\nCâu trả lời cần cho biết đang làm gì."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 장갑 어디에 둬요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Where should I put these gloves?",
+        "vi": "Nữ: Tôi để đôi găng tay này ở đâu?"
+      },
+      "g_audio": "/topiks/audios/d4c59e49df6c1f97f543308ea2a1fcf1.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "제 것이 아니에요.",
+          "도구함에 넣으세요.",
+          "오후에 만나요.",
+          "한 켤레만 있어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. It's not mine.\n2. Please put it in the toolbox.\n3. See you in the afternoon.\n4. I only have one pair.\n--------------------\n<g>어디에 => 도구함에.</g>",
+          "vi": "1. Đây không phải của tôi.\n2. Hãy bỏ vào hộp dụng cụ.\n3. Hẹn gặp vào buổi chiều.\n4. Tôi chỉ có một đôi.\n--------------------\n어디에 => 도구함에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 언제부터 일했어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Since when have you been working?",
+        "vi": "Nam: Bạn làm việc từ khi nào?"
+      },
+      "g_audio": "/topiks/audios/d4830e8dec1080d4d4a31c9bd9be9d14.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "3년 전에 시작했어요.",
+          "공장에서 일해요.",
+          "아침 7시에 일어나요.",
+          "다음 주부터 일할 거예요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I started 3 years ago.\n2. I work in a factory.\n3. I get up at 7 a.m.\n4. I will work starting next week.\n--------------------\n<g>언제부터 => 3년 전에.\n\nThe question uses past tense so we do not choose answer 4.",
+          "vi": "1. Tôi bắt đầu cách đây 3 năm.\n2. Tôi làm việc tại nhà máy.\n3. Tôi thức dậy lúc 7 giờ sáng.\n4. Tôi sẽ bắt đầu làm việc từ tuần tới.\n--------------------\n언제부터 => 3년 전에.\n\nCâu hỏi dùng thì quá khứ nên ta không chọn đáp án 4."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 점심은 먹었어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Did you have lunch?",
+        "vi": "Nữ: Bạn đã ăn trưa chưa?"
+      },
+      "g_audio": "/topiks/audios/ef1cd45fd9f412787a3496b9ed8102da.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "아직 안 먹었어요.",
+          "삼겹살 좋아해요.",
+          "요즘 바빠요.",
+          "같이 일해요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I haven't eaten yet.\n2. I like pork belly.\n3. I'm busy these days.\n4. We work together.\n--------------------\nThe answer should indicate whether you have had lunch or not.",
+          "vi": "1. Tôi vẫn chưa ăn.\n2. Tôi thích thịt ba chỉ nướng.\n3. Gần đây tôi rất bận.\n4. Chúng tôi làm việc cùng nhau.\n--------------------\nCâu trả lời cần cho biết đã ăn trưa hay chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 오늘 회의 어디에서 해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Where is the meeting today?",
+        "vi": "Nam: Cuộc họp hôm nay tổ chức ở đâu?"
+      },
+      "g_audio": "/topiks/audios/ac4f1b0e9dcdf4d7ac9dfae4b92f22f6.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "10시에 끝나요.",
+          "3층 회의실이에요.",
+          "부장님하고 이야기했어요.",
+          "늦게 도착했어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. It ends at 10 o'clock.\n2. It's the conference room on the 3rd floor.\n3. I talked with the manager.\n4. I arrived late.\n--------------------\n<g>어디에서 => 3층 회의실.</g>",
+          "vi": "1. Kết thúc lúc 10 giờ.\n2. Phòng họp ở tầng 3.\n3. Tôi đã nói chuyện với trưởng phòng.\n4. Tôi đã đến muộn.\n--------------------\n어디에서 => 3층 회의실."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 지금 가는 곳이 어디예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Where are you going now?",
+        "vi": "Nữ: Bạn đang đi đâu vậy?"
+      },
+      "g_audio": "/topiks/audios/0f7933eb067334654b86e3c73cc87f8e.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "창고에 가는 중이에요.",
+          "친구하고 통화했어요.",
+          "어제 갔다 왔어요.",
+          "운동하러 갔어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I am going to the warehouse.\n2. I talked on the phone with a friend.\n3. I went there yesterday and came back.\n4. I went to exercise.\n--------------------\n<g>어디예요 => 창고에.</g>\n\nThe question asks about a specific place and uses the present continuous tense, so we do not choose answer 4.",
+          "vi": "1. Tôi đang đi đến kho.\n2. Tôi đã gọi điện thoại với bạn.\n3. Tôi đã đi và về hôm qua.\n4. Tôi đã đi tập thể dục.\n--------------------\n어디예요 => 창고에.\n\nCâu hỏi hỏi cụ thể về địa điểm và dùng thì hiện tại tiếp diễn, do đó ta không chọn đáp án 4."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 새로 온 사람 봤어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Have you seen the new person?",
+        "vi": "Nam: Bạn đã gặp người mới đến chưa?"
+      },
+      "g_audio": "/topiks/audios/64af01eebc2c578ac5f977c108cc3e00.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "지금 쉬고 있어요.",
+          "여자예요.",
+          "아니요, 아직 못 봤어요.",
+          "오후에 청소했어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I am resting now.\n2. She is a woman.\n3. No, I haven't seen that person yet.\n4. I cleaned in the afternoon.\n--------------------\nThe answer should say whether you have met or not.",
+          "vi": "1. Bây giờ tôi đang nghỉ.\n2. Là nữ.\n3. Chưa, tôi chưa gặp.\n4. Tôi đã dọn dẹp vào buổi chiều.\n--------------------\nCâu trả lời cần cho biết đã gặp hay chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 서류 어디에 내야 돼요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Where should I submit this document?",
+        "vi": "Nữ: Tôi phải nộp tài liệu này ở đâu?"
+      },
+      "g_audio": "/topiks/audios/cd3d06ecbde6985a8b6f6031e8935314.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "사무실에 제출하세요.",
+          "제가 만들었어요.",
+          "컴퓨터로 작성했어요.",
+          "어제 받았어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Please submit it to the office.\n2. I made it.\n3. I wrote it on the computer.\n4. I received it yesterday.\n--------------------\n<g>어디에 => 사무실에.</g>",
+          "vi": "1. Hãy nộp ở văn phòng.\n2. Tôi đã làm nó.\n3. Tôi đã soạn thảo trên máy tính.\n4. Tôi đã nhận được hôm qua.\n--------------------\n어디에 => 사무실에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 내일도 야근이에요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Do we have to work overtime tomorrow too?",
+        "vi": "Nữ: Ngày mai cũng phải làm thêm giờ à?"
+      },
+      "g_audio": "/topiks/audios/02783abdd57d15b2728e5294fda43980.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "아니요, 정시에 끝나요.",
+          "지금 퇴근해요.",
+          "오늘 야근했어요.",
+          "일찍 출근했어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. No, it ends on time.\n2. I am leaving work now.\n3. I worked overtime today.\n4. I came to work early.\n--------------------\nThe answer should indicate whether they have to work overtime today.",
+          "vi": "1. Không, kết thúc đúng giờ.\n2. Bây giờ tôi tan làm.\n3. Tôi đã làm việc thêm giờ hôm nay.\n4. Tôi đã đi làm sớm.\n--------------------\nCâu trả lời cần cho biết hôm nay có làm thêm giờ hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 부품은 어디에서 샀어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Where did you buy this part?",
+        "vi": "Nữ: Bạn đã mua linh kiện này ở đâu?"
+      },
+      "g_audio": "/topiks/audios/a931188760cb5b2190f29b04d95e0bb3.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "조립했어요.",
+          "인터넷으로 주문했어요.",
+          "작업 중이에요.",
+          "창고에 있어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I assembled it.\n2. I ordered it online.\n3. I am working.\n4. It is in the warehouse.\n--------------------\n<g>어디에서 샀어요 => 인터넷으로 주문했어요.</g>",
+          "vi": "1. Tôi đã lắp ráp.\n2. Tôi đã đặt hàng qua mạng.\n3. Tôi đang làm việc.\n4. Nó đang ở trong kho.\n--------------------\n어디에서 샀어요 => 인터넷으로 주문했어요."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 오늘 점심 뭐 드셨어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What did you have for lunch today?",
+        "vi": "Nữ: Hôm nay bạn ăn trưa món gì?"
+      },
+      "g_audio": "/topiks/audios/08f56533ebe4f4ff1fd389ab22f2bb49.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "공장에서 일했어요.",
+          "밥하고 김치를 먹었어요.",
+          "아직 일하고 있어요.",
+          "기숙사에 돌아갔어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I worked at the factory.\n2. I ate rice and kimchi.\n3. I'm still working.\n4. I went back to the dormitory.\n--------------------\n<g>뭐 => 밥하고 김치.</g>",
+          "vi": "1. Tôi đã làm việc tại nhà máy.\n2. Tôi đã ăn cơm và kim chi.\n3. Tôi vẫn đang làm việc.\n4. Tôi đã về ký túc xá.\n--------------------\n뭐 => 밥하고 김치."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 도구 이름이 뭐예요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What is the name of this tool?",
+        "vi": "Nữ: Dụng cụ này tên là gì?"
+      },
+      "g_audio": "/topiks/audios/ff07415c469cd4804f38725a980f750f.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "드라이버예요.",
+          "고장 났어요.",
+          "창고에 있어요.",
+          "제가 쓸 거예요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. It is a screwdriver.\n2. It is broken.\n3. It is in the warehouse.\n4. I will use it.\n--------------------\nThe answer should state the name of the tool.",
+          "vi": "1. Nó là tua vít.\n2. Nó đã bị hỏng.\n3. Nó đang ở trong kho.\n4. Tôi sẽ dùng nó.\n--------------------\nCâu trả lời cần cho biết tên của dụng cụ."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 잡초는 어떻게 할까요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What should we do with these weeds?",
+        "vi": "Nữ: Chúng ta làm gì với cỏ dại này?"
+      },
+      "g_audio": "/topiks/audios/f5803d1ad60aa5646bf34be24b08250a.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "비닐을 씌워 주세요.",
+          "트랙터로 옮기세요.",
+          "예초기로 자르세요.",
+          "내일 뿌릴 거예요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Cover it with plastic.\n2. Move it with the tractor.\n3. Cut it with the mower.\n4. I will spray it tomorrow.\n--------------------\n<g>잡초 => 예초기.</g>",
+          "vi": "1. Hãy phủ nilon lên.\n2. Hãy di chuyển bằng máy kéo.\n3. Hãy cắt bằng máy cắt cỏ.\n4. Tôi sẽ rải vào ngày mai.\n--------------------\n잡초 => 예초기."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 방금 뭐가 고장 났어요?",
+      "g_text_audio_translate": {
+        "en": "Man: What just broke?",
+        "vi": "Nam: Cái gì vừa hỏng thế?"
+      },
+      "g_audio": "/topiks/audios/f6723a3584300f494e64482720615f1b.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "펌프가 멈췄어요.",
+          "부품을 바꿨어요.",
+          "오후에 점검해요.",
+          "정비팀이 왔어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. The pump stopped.\n2. I changed the parts.\n3. I will inspect it in the afternoon.\n4. The maintenance team came.\n--------------------\nThe answer should say what was broken.",
+          "vi": "1. Máy bơm đã ngừng hoạt động.\n2. Tôi đã thay bộ phận.\n3. Tôi sẽ kiểm tra vào buổi chiều.\n4. Đội sửa chữa đã đến.\n--------------------\nCâu trả lời cần cho biết cái gì đã bị hỏng."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 오늘 모종 심을까요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Should we plant the seedlings today?",
+        "vi": "Nữ: Hôm nay có nên trồng cây con không?"
+      },
+      "g_audio": "/topiks/audios/5ee01a6dee717cb01d078c9f2caf6f3f.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "아니요, 비가 올 거예요.",
+          "네, 물을 줄 거예요.",
+          "네, 다 뽑았어요.",
+          "아니요, 따로 둘게요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. No, it will rain.\n2. Yes, I will water the plants.\n3. Yes, I pulled them all out.\n4. No, I will keep them separately.\n--------------------\n1 is the most reasonable answer because it tells whether or not to plant and gives a reason.",
+          "vi": "1. Không, trời sẽ mưa.\n2. Vâng, tôi sẽ tưới nước.\n3. Vâng, tôi đã nhổ hết rồi.\n4. Không, tôi sẽ để riêng ra.\n--------------------\n1 là đáp án hợp lý nhất vì nó cho biết có nên trồng hay không và nêu lý do."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 방금 이상한 소리가 났어요.",
+      "g_text_audio_translate": {
+        "en": "Man: I just heard a strange noise.",
+        "vi": "Nam: Vừa rồi có tiếng động lạ gì đó."
+      },
+      "g_audio": "/topiks/audios/739b6de6b3cbc4ce4a6f692d24529264.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "점심시간이에요.",
+          "바닥이 미끄러워요.",
+          "기계에 이상이 있어요.",
+          "네, 알겠습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. It is lunchtime.\n2. The floor is slippery.\n3. There is a problem with the machine.\n4. Yes, I understood.\n--------------------\nThere is a strange noise => There is a problem with the machine.",
+          "vi": "1. Là giờ nghỉ trưa.\n2. Sàn nhà trơn trượt.\n3. Máy móc có vấn đề.\n4. Vâng, tôi hiểu rồi\n--------------------\nCó tiếng động lạ => Máy móc có vấn đề gì đó."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 도면 봤어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Have you seen this blueprint?",
+        "vi": "Nữ: Bạn đã xem bản vẽ này chưa?"
+      },
+      "g_audio": "/topiks/audios/c8d568d0f6b70850de11dcca031bf604.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 아침에 확인했어요.",
+          "아니요, 어제 샀어요.",
+          "도구함에 있어요.",
+          "부품이 필요해요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I checked it in the morning.\n2. No, I bought it yesterday.\n3. It is in the toolbox.\n4. We need parts.\n--------------------\nThe answer should indicate whether you have seen the blueprint.",
+          "vi": "1. Vâng, tôi đã kiểm tra vào buổi sáng.\n2. Không, tôi đã mua hôm qua.\n3. Nó đang ở trong hộp dụng cụ.\n4. Tôi cần có bộ phận.\n--------------------\nCâu trả lời cần cho biết đã xem bản vẽ chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 작업복을 입어야 해요?",
+      "g_text_audio_translate": {
+        "en": "Man: Do you have to wear work clothes?",
+        "vi": "Nam: Có cần mặc đồ bảo hộ không?"
+      },
+      "g_audio": "/topiks/audios/9e4d7042037ea5992cc0a5efc581fca6.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 세탁했어요.",
+          "네, 출근 전에 갈아입어요.",
+          "네, 사무실에서 쉬어요.",
+          "아니요, 작업복만 입어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. Yes, I have washed it.\n2. Yes, I change clothes before going to work.\n3. Yes, I rest in the office.\n4. No, I just wear work clothes.\n--------------------\nThe answer \"I change clothes before going to work\" indirectly indicates that work clothes must be worn.\n\nWe do not choose answer 4 because of <g>\"아니요\"</g>.",
+          "vi": "1. Vâng, tôi đã giặt rồi.\n2. Vâng, tôi thay trước khi vào làm.\n3. Vâng, tôi nghỉ ngơi ở văn phòng.\n4. Không, tôi chỉ mặc đồ bảo hộ.\n--------------------\nCâu trả lời \"tôi thay trước khi vào làm\" gián tiếp cho biết là phải mặc đồ bảo hộ. \n\nTa không chọn đáp án 4 vì \"아니요\"."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 포장 작업 도와줄 수 있어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Can you help with the packing work?",
+        "vi": "Nữ: Bạn có thể giúp tôi việc đóng gói không?"
+      },
+      "g_audio": "/topiks/audios/0811daa08e20bd11a0307f0819d45f2f.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오후에 쉴 거예요.",
+          "아니요, 점심 먹었어요.",
+          "네, 바로 갈게요.",
+          "상자가 커요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I will rest in the afternoon.\n2. No, I already ate lunch.\n3. Yes, I will come right away.\n4. The box is big.\n--------------------\nThe answer \"I will come right away\" indirectly indicates that you can help.",
+          "vi": "1. Tôi sẽ nghỉ vào buổi chiều.\n2. Không, tôi đã ăn trưa rồi.\n3. Vâng, tôi sẽ đến ngay.\n4. Hộp rất lớn.\n--------------------\nCâu trả lời \"tôi sẽ đến ngay\" gián tiếp cho biết là người này có thể giúp."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 비가 오면 어떻게 해요?",
+      "g_text_audio_translate": {
+        "en": "Man: What should we do if it rains?",
+        "vi": "Nam: Nếu trời mưa thì phải làm sao?"
+      },
+      "g_audio": "/topiks/audios/2ecfc480c2481e508dfce9fb97d93bf1.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "산책할 거예요.",
+          "우비를 입고 일해요.",
+          "오후에 퇴근했어요.",
+          "기계가 멈췄어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I'm going to go for a walk.\n2. We work wearing raincoats.\n3. I left work in the afternoon.\n4. The machine stopped working.\n--------------------\n2 is the most reasonable answer to what to do when it rains.",
+          "vi": "1. Tôi sẽ đi dạo.\n2. Chúng ta mặc áo mưa rồi làm việc.\n3. Tôi tan ca vào buổi chiều.\n4. Máy móc đã dừng hoạt động.\n--------------------\n2 là câu trả lời hợp lý nhất về việc phải làm gì khi trời mưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 이 사다리 써도 돼요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Can I use this ladder?",
+        "vi": "Nữ: Tôi có thể dùng cái thang này không?"
+      },
+      "g_audio": "/topiks/audios/26e2ef0f798b9bb3fc6a8e8fe5a16ef8.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "아니요, 고장 났어요.",
+          "네, 높이가 낮아요.",
+          "내일 다시 쓸게요.",
+          "옆에 놨어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. No, it is broken.\n2. Yes, the height is low.\n3. I will use it again tomorrow.\n4. I put it beside.\n--------------------\nAnswer 1 states whether the ladder can be used and gives a reason.",
+          "vi": "1. Không, nó bị hỏng rồi.\n2. Vâng, chiều cao thấp.\n3. Tôi sẽ dùng lại vào ngày mai.\n4. Tôi đã để nó bên cạnh.\n--------------------\nĐáp án 1 cho biết có thể sử dụng cái thang hay không và cho biết lý do."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 언제 출근했어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What time did you come to work?",
+        "vi": "Nữ: Bạn đến làm từ khi nào?"
+      },
+      "g_audio": "/topiks/audios/11648502442344d5b3d46a25b7b976a7.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "일곱 시 반에 출근했어요.",
+          "회사 근처에 살아요.",
+          "사무실에서 일해요.",
+          "공장에서 퇴근했어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. I went to work at 7:30.\n2. I live near the company.\n3. I work in the office.\n4. I left work from the factory.\n--------------------\n<g>언제 => 일곱 시 반에.</g>",
+          "vi": "1. Tôi đi làm lúc 7 giờ rưỡi.\n2. Tôi sống gần công ty.\n3. Tôi làm việc ở văn phòng.\n4. Tôi tan ca từ nhà máy.\n--------------------\n언제 => 일곱 시 반에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 이 공구는 어디에 둬요?",
+      "g_text_audio_translate": {
+        "en": "Man: Where should I put this tool?",
+        "vi": "Nam: Tôi để dụng cụ này ở đâu?"
+      },
+      "g_audio": "/topiks/audios/3a2390556cc2ca98280b68b1988cdb3a.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "고장 났어요.",
+          "오후에 쓸 거예요.",
+          "네, 알겠어요.",
+          "창고에 넣으세요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. It is broken.\n2. I will use it in the afternoon.\n3. Yes, I understand.\n4. Please put it in the warehouse.\n--------------------\n<g>어디에 => 창고에.</g>",
+          "vi": "1. Nó bị hỏng rồi.\n2. Tôi sẽ dùng vào buổi chiều.\n3. Vâng, tôi hiểu rồi.\n4. Hãy bỏ vào kho.\n--------------------\n어디에 => 창고에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 지금 뭐 하고 있어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: What are you doing now?",
+        "vi": "Nữ: Bạn đang làm gì vậy?"
+      },
+      "g_audio": "/topiks/audios/dac527bcba4f550e226b2cbbd542eb5c.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "점심시간이에요.",
+          "회의에 참석했어요.",
+          "어제 일찍 잤어요.",
+          "창고에서 청소하고 있어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. It is lunchtime.\n2. I attended the meeting.\n3. I went to bed early yesterday.\n4. I am cleaning in the warehouse.\n--------------------\nThe answer must use the present continuous tense.",
+          "vi": "1. Là giờ nghỉ trưa.\n2. Tôi đã tham dự cuộc họp.\n3. Tôi đã đi ngủ sớm hôm qua.\n4. Tôi đang dọn dẹp trong kho.\n--------------------\nCâu trả lời cần dùng thì hiện tại tiếp diễn."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 밭에 뭐 심을 거예요?",
+      "g_text_audio_translate": {
+        "en": "Man: What will you plant in the field?",
+        "vi": "Nam: Bạn sẽ trồng gì ở ruộng?"
+      },
+      "g_audio": "/topiks/audios/494588f9795a7f09d0324e9ec5e33c51.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "물을 줄 거예요.",
+          "예초기로 잘라요.",
+          "고추를 심을 거예요.",
+          "비닐을 뗐어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. I will water the plants.\n2. I cut with a mower.\n3. I will plant chili peppers.\n4. I removed the plastic cover.\n--------------------\n<g>뭐 => 고추.</g>",
+          "vi": "1. Tôi sẽ tưới nước.\n2. Tôi cắt bằng máy cắt.\n3. Tôi sẽ trồng ớt.\n4. Tôi đã tháo nilon ra.\n--------------------\n뭐 => 고추."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 왜 기계를 멈췄어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Why did you stop the machine?",
+        "vi": "Nữ: Sao bạn lại dừng máy?"
+      },
+      "g_audio": "/topiks/audios/2048c3be13e33a2d93f17769330aa0cd.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오늘 야근해요.",
+          "소리가 이상했어요.",
+          "박스를 날랐어요.",
+          "새 부품이에요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I am working overtime today.\n2. The sound was strange.\n3. I carried the boxes.\n4. These are new parts.\n--------------------\nAnswer 2 is a valid reason for stopping the machine.",
+          "vi": "1. Hôm nay tôi làm thêm giờ.\n2. Âm thanh có vấn đề.\n3. Tôi đã khuân thùng hàng.\n4. Đây là bộ phận mới.\n--------------------\nĐáp án 2 là lý do hợp lý cho việc dừng máy."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 객실 청소는 끝났어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Is the room cleaning finished?",
+        "vi": "Nữ: Bạn đã dọn phòng xong chưa?"
+      },
+      "g_audio": "/topiks/audios/de96ee5ad734c647ec6b934659d75c87.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 쓰레기만 버리면 돼요.",
+          "아니요, 손님이 나갔어요.",
+          "네, 문을 잠갔어요.",
+          "네, 퇴근했어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I only need to throw away the trash.\n2. No, the guests have left.\n3. Yes, I locked the door.\n4. Yes, I already left work.\n--------------------\nAnswer 1 is the most appropriate answer to the question \"Have you finished cleaning the room?\"",
+          "vi": "1. Vâng, chỉ cần vứt rác nữa thôi.\n2. Không, khách đã đi rồi.\n3. Vâng, tôi đã khóa cửa.\n4. Vâng, tôi đã tan ca rồi.\n--------------------\nĐáp án 1 là câu trả lời phù hợp nhất cho câu hỏi đã dọn phòng xong chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 수건은 어디에 두면 돼요?",
+      "g_text_audio_translate": {
+        "en": "Man: Where should I put the towels?",
+        "vi": "Nam: Tôi để khăn tắm ở đâu được?"
+      },
+      "g_audio": "/topiks/audios/8dcfc52114dd94a1a76bd012864d9ea1.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "아직 빨래를 안 했어요.",
+          "욕실 선반에 두세요.",
+          "손님이 방에 있어요.",
+          "일찍 퇴근했어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I haven't done the laundry yet.\n2. Please put it on the bathroom shelf.\n3. The guest is in the room.\n4. I left work early.\n--------------------\n<g>어디에 => 욕실 선반에.</g>",
+          "vi": "1. Tôi vẫn chưa giặt quần áo.\n2. Hãy đặt lên kệ phòng tắm.\n3. Khách đang ở trong phòng.\n4. Tôi đã tan ca sớm.\n--------------------\n어디에 => 욕실 선반에."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 그물 정리는 끝났어요?",
+      "g_text_audio_translate": {
+        "en": "Man: Have you finished organizing the nets?",
+        "vi": "Nam: Đã xếp xong lưới đánh cá chưa?"
+      },
+      "g_audio": "/topiks/audios/5f3de3c27efa2a809b8a559c42f5a751.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "네, 배에 실었어요.",
+          "오늘 새로 샀어요.",
+          "생선을 정리했어요.",
+          "오후에 출발했어요."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "1. Yes, I loaded it onto the ship.\n2. I bought it today.\n3. I organized the fish.\n4. I departed in the afternoon.\n--------------------\nAnswer 1 tells whether the nets are organized and also tells the next action.",
+          "vi": "1. Vâng, tôi đã chất lên tàu.\n2. Tôi mới mua hôm nay.\n3. Tôi đã sắp xếp cá.\n4. Tôi đã xuất phát vào buổi chiều.\n--------------------\nĐáp án 1 cho biết đã xếp lưới xong chưa và cho biết cả hành động tiếp theo."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 어제 고기 많이 잡았어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Did you catch a lot of fish yesterday?",
+        "vi": "Nữ: Hôm qua bắt được nhiều cá không?"
+      },
+      "g_audio": "/topiks/audios/0faea9a6bafe29a7b6577817ed82e202.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "바다가 맑았어요.",
+          "네, 엔진이 고장 났어요.",
+          "네, 참치가 많았어요.",
+          "저녁에 출발했어요."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. The sea was clear.\n2. Yes, the engine broke down.\n3. Yes, there were many tuna.\n4. I departed in the evening.\n--------------------\nAnswer 3 tells whether or not many fish were caught.",
+          "vi": "1. Biển rất trong.\n2. Vâng, động cơ đã bị hỏng.\n3. Vâng, đã có rất nhiều cá ngừ.\n4. Tôi đã xuất phát vào buổi tối.\n--------------------\nĐáp án 3 cho biết có bắt được nhiều cá hay không."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 구명조끼 착용했어요?",
+      "g_text_audio_translate": {
+        "en": "Woman: Did you put on a life jacket?",
+        "vi": "Nữ: Bạn đã mặc áo phao chưa?"
+      },
+      "g_audio": "/topiks/audios/ede261f632791747093b428a7d1cbc47.mp3",
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오후에 도착했어요.",
+          "네, 지금 입고 있어요.",
+          "고기 냄새가 나요.",
+          "항구에서 일했어요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "1. I arrived in the afternoon.\n2. Yes, I am wearing it now.\n3. There is a smell of meat.\n4. I worked at the harbor.\n--------------------\nAnswer 2 is the most reasonable answer to the question of whether you are wearing a life jacket or not.",
+          "vi": "1. Tôi đã đến vào buổi chiều.\n2. Vâng, bây giờ tôi đang mặc nó.\n3. Có mùi thịt.\n4. Tôi đã làm việc ở cảng.\n--------------------\nĐáp án 2 là câu trả lời hợp lý nhất cho câu hỏi đã mặc áo phao chưa."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3410004",
+    "count_question": 1,
+    "tag": null
+  }
+]

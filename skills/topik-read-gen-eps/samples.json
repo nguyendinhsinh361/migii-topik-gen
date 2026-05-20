@@ -1,0 +1,814 @@
+[
+  {
+    "title": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/new_eps/images/420001/18.jpg",
+        "q_point": 4,
+        "q_answer": [
+          "1. 마스크입니다.",
+          "2. 테이프입니다.",
+          "3. 주머니입니다.",
+          "4. 스티커입니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Đây là khẩu trang.\n2. Đây là băng dính.\n3. Đây là túi.\n4. Đây là nhãn dán.",
+          "en": "1. These are masks.\n2. These are tapes.\n3. These are pockets.\n4. These are stickers."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320001",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/new_eps/images/420001/163.jpg",
+        "q_point": 4,
+        "q_answer": [
+          "1. 바가지입니다.",
+          "2. 빗자루입니다.",
+          "3. 소화기입니다.",
+          "4. 쇠스랑입니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. Đây là cái gáo.\n2. Đây là cái chổi.\n3. Đây là bình cứu hỏa.\n4. Đây là cái chĩa.",
+          "en": "1. This is a large bowl.\n2. This is a broom.\n3. This is a fire extinguisher.\n4. This is a pitchfork."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320001",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "[31-37] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "가: 필리핀 가는 비행기 표를 예약하려고 하는데요.\n나: ________(으)로 하시겠어요? 편도로 하시겠어요?",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "예매",
+          "여행",
+          "왕복",
+          "취소"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "A: Tôi muốn mua vé máy bay đi Philippines.\nB: Anh/chị muốn mua vé _________ hay là vé một chiều.\n\n1. Đặt mua trước\n2. Du lịch\n3. Khứ hồi\n4. Hủy\n-------------------- \n편도: Một chiều, một lượt\n왕복: Khứ hồi, hai lượt",
+          "en": "1. Reservation\n2. Travel\n3. Round trip\n4. Cancel\n--------------------\n<g>편도:</g> One way, one turn\n<g>왕복:</g> Round trip, two turns\n\nA: I'd like to reserve a flight ticket to the Philippines.\nB: Do you want to buy a round trip ticket or a one way ticket?"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320002",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "자기가 이용하는 은행이 아닌 다른 은행으로 돈을 보낼 때는 ________을/를 내야 합니다.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 세금",
+          "2. 수수료",
+          "3. 예금이자",
+          "4. 거스름돈"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Nếu bạn gửi tiền đến ngân hàng không phải ngân hàng bạn đang dùng, bạn sẽ phải trả ________.\n\n1. Thuế\n2. Phí\n3. Lãi suất tiền gửi\n4. Tiền thối",
+          "en": "1. Tax\n2. Fee\n3. Deposit interest\n4. Change\n--------------------\nIf you send money to a bank other than your own, you will have to pay a fee."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320002",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 질문에 답하십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "다음 표지를 맞게 설명한 것을 고르십시오.",
+        "q_image": "/topiks/images/abd9b165bea29e543293e5439d4fdfe0.jpg",
+        "q_point": 4,
+        "q_answer": [
+          "1. 화재 사고가 날 위험이 있으니까 조심하십시오.",
+          "2. 안에 위험한 물질이 들어 있으니까 조심하십시오.",
+          "3. 위에서 물체가 떨어질 수 있으니까 조심하십시오.",
+          "4. 바닥이 미끄러워 넘어질 수 있으니까 조심하십시오."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn lời giải thích đúng với tấm biển sau.\n\nAn toàn là trên hết - Cùng nhau an toàn\nNguy hiểm!\nChú ý có đồ vật rơi\n\n1. Cẩn thận vì có nguy cơ xảy ra hỏa hoạn.\n2. Cẩn thận vì bên trong có chất nguy hiểm.\n3. Cẩn thận vì vật thể có thể rơi từ trên xuống.\n4. Cẩn thận vì đường trơn nên có thể sẽ bị ngã.\n-------------------- \n떨어지다: Rơi\n낙하물: Vật rơi từ nơi cao xuống nơi thấp\n\nV/A + (으)니까: Vì ... nên.\nV + (으)ㄹ 수 있다/없다: Có thể/không thể.",
+          "en": "Choose the one that best describes the sign below.\n\nSafety first - Safe together\nDanger!\nBe careful of falling objects\n\n1. Be careful because there is a risk of a fire accident.\n2. Be careful because there are dangerous substances inside.\n3. Be careful because objects may fall from above.\n4. Be careful because the floor is slippery and you may fall.\n--------------------\n<g>떨어지다:</g> To fall, to drop\n<g>낙하물:</g> Falling object\n\n<g>V/A + (으)니까:</g> Because ... so.\n<g>V + (으)ㄹ 수 있다/없다:</g> Can/can't."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320003",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 질문에 답하십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "2020년도의 국가별 포도 수출액에 대한 설명으로 맞는 것은 무엇입니까?",
+        "q_image": "/topiks/images/afe9c7349e050bf18e5e21de2dc1dd1a.jpg",
+        "q_point": 4,
+        "q_answer": [
+          "1. 싱가포르보다 베트남은 더 많이 수출하였습니다.",
+          "2. 베트남은 두 번째로 많이 수출하였습니다.",
+          "3. 미국은 가장 많이 수출하였습니다.",
+          "4. 베트남은 가장 적게 수출하였습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Mô tả nào về xuất khẩu nho theo quốc gia vào năm 2020 là chính xác?\n\nXuất khẩu nho theo quốc gia năm 2020\n(Đơn vị: 10.000 USD)\nViệt Nam\nHoa Kỳ\nSingapore\n\n1. Việt Nam xuất khẩu nhiều hơn Singapore.\n2. Việt Nam xuất khẩu nhiều thứ hai.\n3. Hoa Kỳ xuất khẩu nhiều nhất.\n4. Việt Nam xuất khẩu ít nhất.",
+          "en": "Which statement about grape exports by country in 2020 is correct?\n\nGrape exports by country in 2020\n(Unit: Ten thousand dollars)\nVietnam\nUSA\nSingapore\n\n1. Vietnam exported more than Singapore.\r\n2. Vietnam exported the second most.\r\n3. The United States exported the most.\r\n4. Vietnam exported the least."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320003",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[45-48] 다음 글을 읽고 물음에 답하십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "이 사람의 우산은 어디에 있었습니까?\n\n오늘은 아침부터 비가 옵니다. 오래간만에 오는 비입니다. 그래서 빗소리가 더 반갑습니다. 나는 밖에 나가려고 우산을 찾았습니다. 그런데 내 우산은 보이지 않았습니다. 우산은 어디에 있을까요? 가방 안에도 없고 옷장 안에도 없고, 신발장 안에도 없습니다. 책상 서랍을 한번 열어 봤습니다. 아, 바로 여기 있군요!",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "가방 안",
+          "옷장 안",
+          "신발장 안",
+          "책상 서랍 안"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Cái ô của người này ở đâu?\n\nTừ sáng hôm nay trời đã mưa. Rất lâu rồi trời mới mưa. Vì vậy tiếng mưa càng vui tai. Tôi tìm một chiếc ô để đi ra ngoài. Nhưng chiếc ô của tôi không thấy đâu cả. Chiếc ô ở đâu nhỉ? Không có trong túi, không có trong tủ quần áo, không phải trong tủ giày. Tôi thử mở ngăn kéo bàn học. Ồ, nó ở ngay đây!\n\n1. Trong túi\n2. Trong tủ quần áo\n3. Trong tủ giày\n4. Trong ngăn kéo bàn học\n--------------------\nN + 에 있다/없다: Có/không có ở đâu đó.\nN + 도: Cũng.",
+          "en": "Where was this person's umbrella?\n\nIt is raining from morning today. It's the rain that hasn't come in a long time. That's why I like the sound of rain more. I looked for an umbrella to go outside. But my umbrella was nowhere to be seen. Where is the umbrella? Not in the bag, not in the closet, not even in the shoebox. I opened the desk drawer. Ah, right here!\n\n1. Inside the bag\n2. Inside the closet\n3. Inside the shoebox\n4. Inside the desk drawer\n--------------------\n<g>N + 에 있다/없다:</g> To be/not to be in <g>N</g>.\n<g>N + 도:</g> Too."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[45-48] 다음 글을 읽고 물음에 답하십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "다음 내용과 관계가 있는 표지판은 무엇입니까?\n\n이곳은 출입이 금지되어 있습니다. 들어가면 안 됩니다.",
+        "q_image": "/topiks/images/6fb6c12c362e51a7282e1802ab6786da.jpg",
+        "q_point": 4,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn biển báo có liên quan tới nội dung bên dưới.\n\nNơi này cấm người ra vào. Không được đi vào.\n\n1. Cấm ra vào\n2. Chú ý nhiệt độ cao\n3. Nguy hiểm - Thiếu oxy\n4. Cẩn thận đầu\n--------------------\n출입: Ra vào\n금지되다: Bị cấm\n\nV + (으)면 안 되다: Không thể, không được làm gì.",
+          "en": "Which signs relate to the following?\n\nEntry is prohibited here. You can't go in.\n\n1. No entry\n2. High temperature warning\n3. Danger - Lack of oxygen\n4. Watch your head\n--------------------\n<g>출입:</g> Entry and exit \n<g>금지되다:</g> To be prohibited\n\n<g>V + (으)면 안 되다:</g> May not, not allowed."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[49-50] 다음 글을 읽고 물음에 답하십시오.",
+    "general": {
+      "g_text": "한국 사람들은 추운 겨울이 오기 전에 김장을 합니다. ㉠ 김장은 겨울 동안 먹을 김치를 한꺼번에 모두 만드는 것을 말합니다. ㉡ 보통 11월~12월에 만들어서 다음 해 봄까지 먹습니다. ㉢ 몇 달 동안 먹을 반찬이기 때문에 김장 김치를 맛있게 만드는 것은 매우 중요합니다. ㉣ 날씨가 추운 북쪽 지방에서는 김치를 덜 맵고 덜 짜게 만들고, 날씨가 더운 남쪽 지방에서는 오래 보관하기 위해 더 맵고 더 짜게 만듭니다.",
+      "g_text_translate": {
+        "vi": "Người Hàn Quốc làm Gimjang - việc muối kimchi trước khi mùa đông lạnh đến. ㉠ Kimjang là việc làm kimchi trong một lần để ăn trong suốt mùa đông. ㉡ Thông thường sẽ làm vào tháng 11~12 rồi ăn đến mùa xuân năm sau. ㉢ Kimchi là món ăn phụ sẽ được ăn trong một vài tháng nên việc làm kimchi kimjang ngon rất quan trọng. ㉣ Ở phía Bắc có thời tiết lạnh, kimchi được làm ít cay và ít mặn hơn, còn ở phía Nam có thời tiết nóng, kimchi được làm cay hơn và mặn hơn để có thể bảo được quản lâu.",
+        "en": "Koreans do 'kimjang' before the cold winter arrives. ㉠ 'Kimjang' refers to making all the kimchi for the winter at once. ㉡ It is usually made between November and December and eaten until the following spring. ㉢ It is very important to make kimchi delicious because it is a side dish that will be eaten for several months. ㉣ In the northern regions where the weather is cold, kimchi is made less spicy and less salty, and in the southern regions where the weather is hot, it is made more spicy and salty to keep it for a long time."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "다음 문장이 들어갈 가장 알맞은 곳을 ㉠~㉣ 중에서 고르십시오.\n\n\"그런데 김장 김치는 지역에 따라 만드는 방법이 조금씩 다릅니다.\"",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "㉠",
+          "㉡",
+          "㉢",
+          "㉣"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn vị trí từ ㉠~㉣ để điền câu sau vào chỗ trống.\n\n\"Tuy nhiên, tùy từng vùng mà phương pháp làm kimchi kimjang cũng sẽ khác nhau một chút.\"\n\n1. ㉠\n2. ㉡\n3. ㉢\n4. ㉣\n-------------------- \n조금씩: Từng chút, từng xíu một\n김장: Kimjang, việc muối kimchi\n\nN + 에 따라: Theo, theo như, tùy vào.\nA + 게: Một cách (Biến tính từ thành trạng từ).\n\nSau ㉣ là 2 cách làm kim chi ít cay/ít muối hoặc nhiều cay/nhiều muối hơn nên đáp án đúng là 4.",
+          "en": "Choose the most appropriate place for the following sentence from <g>㉠</g>to <g>㉣</g>.\n\n\"However, the way to make kimchi kimjang differs slightly depending on the region.\"\n\n1. ㉠\n2. ㉡\n3. ㉢\n4. ㉣\n--------------------\n<g>조금씩:</g> Gradually, little by little\n<g>김장:</g> Kimchi-making for the winter\n\n<g>N + 에 따라:</g> According to.\n<g>A + 게:</g> Turn adjectives into adverbs.\n\nBehind the <g>㉣</g> position are two different ways of making kimchi by region, so the correct answer is 4."
+        }
+      },
+      {
+        "q_text": "김장 김치에 대한 설명으로 맞는 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "11월~12월에 먹을 김치를 말합니다.",
+          "고춧가루를 많이 넣은 김치를 말합니다.",
+          "겨울 동안 먹기 위해 만드는 김치입니다.",
+          "일년 동안 먹기 위해 봄에 만드는 김치입니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn giải thích đúng về kimchi kimjang.\n\n1. Là kimchi được ăn từ tháng 11~12.\n2. Là kimchi được cho nhiều bột ớt.\n3. Là kimchi được làm để ăn trong suốt mùa đông.\n4. Là kimchi làm vào mùa xuân để ăn quanh năm.\n-------------------- \n동안: Trong, trong khi\n\nV + 기 전에: Trước khi.\nV + 기 위해(서): Để (làm gì).\n\nCâu 3 là đáp án đúng vì kimchi kimjang là kimchi được làm để ăn đến tận mùa xuân sang năm.",
+          "en": "Choose the one that fits the description of kimjang kimchi.\n\n1. It refers to kimchi to be eaten in November-December.\n2. It refers to kimchi with a lot of red pepper powder.\n3. It refers to kimchi made to eat during the winter.\n4. It refers to kimchi made in the spring to be eaten throughout the year.\n--------------------\n<g>동안:</g> While\n\n<g>V + 기 전에:</g> Before.\n<g>V + 기 위해(서):</g> For the sake of, in order to.\n\n3 is the correct answer because kimchi kimjang is kimchi made to be eaten until next spring."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320005",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[49-50] 다음 글을 읽고 물음에 답하십시오.",
+    "general": {
+      "g_text": "‘비빔밥’은 한국 전통 음식 중의 하나입니다. 여러 가지 야채와 고기를 양념하여 밥과 함께 비벼서 먹기 때문에 비빔밥이라는 이름이 붙었습니다. 흰밥 위에 고기를 볶아서 놓고, 콩나물, 도라지, 버섯 등 여러 가지 나물도 예쁘게 놓고, 이것을 모두 섞어 비벼 먹는데, 한국 사람들은 보통 여기에 고추장을 넣어서 맵게 먹습니다. 비빔밥 안에는 여러 가지 나물들이 들어가 있기 때문에 비빔밥은 특별한 반찬이 따로 필요없는 아주 훌륭한 식사입니다. 요즘은 비행기 안에서 먹는 식사로도 인기가 많습니다.",
+      "g_text_translate": {
+        "vi": "\"Bibimbap\" là một trong những món ăn truyền thống của Hàn Quốc. Bibimbap có tên gọi như vậy vì người ta tẩm ướp nhiều loại rau và thịt rồi trộn với cơm để ăn. Người ta xào thịt cho lên cơm trắng, đặt nhiều loại rau như giá đỗ, hoa chuông, nấm lên một cách đẹp mắt, sau đó trộn đều rồi ăn, bình thường người Hàn Quốc sẽ cho tương ớt lên đây và ăn cay. Bibimbap là một bữa ăn rất ngon mà không cần bất kỳ món ăn kèm đặc biệt nào vì có nhiều loại rau trong đó. Ngày nay, nó cũng phổ biến như một món ăn trên máy bay.",
+        "en": "‘Bibimbap’ is one of the traditional Korean foods. Bibimbap got its name because various vegetables and meat are seasoned and mixed with rice. Stir-fried meat is placed on top of white rice, and various vegetables such as bean sprouts, bellflowers, and mushrooms are also laid out neatly, and they are all mixed and eaten. Koreans usually add red pepper paste to eat it spicy. Bibimbap is a great meal that does not require any special side dishes because it contains various vegetables. These days, it is also popular as an in-flight meal."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "사람들은 이 음식을 왜 ‘비빔밥’이라고 부릅니까?",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "비벼서 먹기 때문에",
+          "볶아서 먹기 때문에",
+          "고추장을 넣어서 맵기 때문에",
+          "나물이 많이 들어가기 때문에"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Tại sao người ta gọi món này là \"bibimbap\"?\n\n1. Vì trộn lên ăn\n2. Vì xào lên ăn\n3. Vì cho tương ớt vào nên cay\n4. Vì có nhiều rau\n--------------------\n비비다: Trộn\n\nV/A + 기 때문에: Bởi vì.",
+          "en": "Why do people call this food 'bibimbap'?\n\n1. Because it is mixed and eaten\n2. Because it is fried and eaten\n3. Because it is spicy with red pepper paste\n4. Because it contains a lot of vegetables\n--------------------\n<g>비비다:</g> To mix\n\n<g>V/A + 기 때문이다:</g> Because of, since."
+        }
+      },
+      {
+        "q_text": "비빔밥의 재료가 아닌 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "밥",
+          "고기",
+          "나물",
+          "생선"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn thứ không phải là nguyên liệu của bibimbap.\n\n1. Cơm\n2. Thịt\n3. Rau\n4. Cá",
+          "en": "Choose the one that is not the ingredient of bibimbap.\n\n1. Rice\n2. Meat\n3. Vegetables\n4. Fish"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "320005",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "다음 단어와 관계있는 것은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "고백, 수당, 보상, 발급",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 해소하다",
+          "2. 보다",
+          "3. 받다",
+          "4. 신청하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Bày tỏ, trợ cấp, bồi thường, phát hành\n\n1. Giải tỏa, đánh tan\n2. Thấy\n3. Nhận\n4. Đăng ký\n--------------------\n고백을 받다: Nhận được lời bày tỏ\n수당을 받다: Nhận được tiền thưởng\n보상을 받다: Nhận được đền bù\n발급을 받다: Được cấp",
+          "en": "Confession, allowance, compensation, issuance\n\n1. To resolve, to relieve\n2. To see \n3. To receive \n4. To apply, to register \n--------------------\n<g>고백을 받다:</g> To receive a confession \n<g>수당을 받다:</g> To receive an allowance\n<g>보상을 받다:</g> To receive compensation \n<g>발급을 받다:</g> To be issued"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420002",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 단어와 관계있는 것은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "버릇, 병, 얼굴, 기계",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 욕하다",
+          "2. 신다",
+          "3. 고치다",
+          "4. 걸리다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Thói quen, bệnh, khuôn mặt, máy móc\n\n1. Chửi\n2. Đeo, mang\n3. Sửa chữa\n4. Mắc phải\n--------------------\n버릇을 고치다: Sửa thói xấu\n병을 고치다: Chữa bệnh\n얼굴을 고치다: Sửa khuôn mặt (sửa trang điểm hoặc phẫu thuật thẩm mỹ)\n기계를 고치다: Sửa máy móc",
+          "en": "Habit, disease, face, machine\n\n1. To swear\n2. To put on\n3. To repair, to fix \n4. To catch\n--------------------\n<g>버릇을 고치다:</g> To break a habit\n<g>병을 고치다:</g> To cure a disease\n<g>얼굴을 고치다:</g> To revise makeup, to do plastic surgery\n<g>기계를 고치다:</g> To repair a machine"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420002",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 단어의 반대말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "승진하다",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 집중하다",
+          "2. 고시하다",
+          "3. 강등되다",
+          "4. 검진하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Được thăng chức\n\n1. Tập trung\n2. Thông báo\n3. Bị giáng chức\n4. Khám sức khỏe",
+          "en": "To be promoted\n\n1. To concentrate\n2. To notify\n3. To be demoted\n4. To do a checkup"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420003",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 단어의 반대말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "틀다",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 늙다",
+          "2. 타다",
+          "3. 끄다",
+          "4. 있다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Bật\n\n1. Già\n2. Đi xe\n3. Tắt\n4. Có",
+          "en": "To turn on\n\n1. To be old \n2. To ride \n3. To turn off\n4. To have "
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420003",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "우리들과 같이 일한 투안 씨가 다음 주에 고향에 돌아갈 거니까 반장님이 회식 자리를 마련하셨습니다.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 축하",
+          "2. 환송",
+          "3. 야유회",
+          "4. 환영"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Tuấn, người cùng làm việc với chúng tôi, tuần sau sẽ về quê nên tổ trưởng đã sắp xếp một bữa tiệc liên hoan.\n\n1. Sự chúc mừng\n2. Sự đưa tiễn\n3. Dã ngoại\n4. Sự chào mừng\n--------------------\nMọi người sẽ có một bữa tiệc liên hoan để tiễn Tuấn về nước. 2 là đáp án đúng.",
+          "en": "Tuan, who worked with us, is going back to his hometown next week, so the group leader has prepared a dinner party.\n\n1. Congratulation\n2. Farewell\n3. Picnic \n4. Welcome \n--------------------\nThey will have a farewell party to see Tuan back home. Therefore, the correct answer is 2. "
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420006",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "귀마개를 낄 때는 먼저 귀마개를 작게 만듭니다. 그 다음에 귀에 귀마개를 완전히 밀어 넣습니다. 착용 후 약 15초 정도 누릅니다.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 보호구 관리 방법",
+          "2. 보호구 착용 방법",
+          "3. 보호구 정리 방법",
+          "4. 보호구 점검 방법"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Khi đeo nút tai, trước tiên hãy bóp cho chúng nhỏ lại. Sau đó, nhét sao cho nút bịt tai nằm hoàn toàn trong tai của bạn. Sau khi đeo, nhấn trong khoảng 15 giây.\n\n1. Cách bảo quản đồ bảo hộ\n2. Cách đeo đồ bảo hộ\n3. Cách sắp xếp đồ bảo hộ\n4. Cách kiểm tra đồ bảo hộ\n--------------------\nĐoạn văn hướng dẫn cách đeo nút bịt tai. 2 là đáp án đúng.",
+          "en": "When wearing earplugs, first make them smaller. Then, insert the earplug completely into your ear. Press for approximately 15 seconds after wearing.\n\n1. How to manage protective gear\n2. How to wear protective gear\n3. How to organize protective gear\n4. How to check protective gear\n--------------------\nThe paragraph shows how to wear earplugs. 2 is the correct answer."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420006",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "저는 지난달에 친구의 소개를 받아서 사업장 변경을 했습니다. 그리고 사업장 변경 신고를 하러 갔다가 제가 잘못했다는 것을 알았습니다. 저는 사업장 변경을 할 때 고용센터에서 소개해 준 업체만 가능하다는 사실을 몰랐습니다. 그래서 결국 저는 근무처 변경허가를 받지 못하고 출국 조치를 당하게 되었습니다.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 고용센터에서 소개해 준 업체에 취업했습니다.",
+          "2. 사업장 변경 신청에 필요한 서류를 준비하지 못했습니다.",
+          "3. 친구가 소개 한 업체에 취업했다가 출국 조치를 당했습니다.",
+          "4. 작은 사업장에서 큰 사업장으로 변경했습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Tôi đã thay đổi nơi làm việc sau khi được một người bạn giới thiệu vào tháng trước. Và khi đến báo thay đổi nơi làm việc, tôi mới biết mình đã nhầm. Tôi không biết rằng khi tôi thay đổi nơi làm việc, tôi chỉ được thay đổi sang công ty được giới thiệu bởi trung tâm việc làm. Vì vậy, cuối cùng, tôi không được phép thay đổi nơi làm việc và bị buộc phải xuất cảnh.\n\n1. Tôi đã nhận được một công việc tại một công ty do trung tâm việc làm giới thiệu.\n2. Tôi không thể chuẩn bị các tài liệu cần thiết cho đơn đăng ký thay đổi nơi làm việc.\n3. Tôi đã xin được việc làm tại một công ty do một người bạn giới thiệu, nhưng đã bị trục xuất.\n4. Tôi đã thay đổi từ doanh nghiệp nhỏ sang doanh nghiệp lớn.\n--------------------\nNgười này đã thay đổi sang nơi làm việc được bạn giới thiệu, tuy nhiên do không hiểu rõ quy định nên cuối cùng người này bị trục xuất. 3 là đáp án đúng.",
+          "en": "I changed my workplace after being introduced by a friend last month. And when I went to report the change of workplace, I realized that I was wrong. I didn't know that when I changed my workplace, only the company introduced by the job center was available. So, in the end, I was not allowed to change my workplace and was forced to leave the country.\n\n1. I got a job at a company introduced by the job center.\n2. I was unable to prepare the documents required for a workplace change application.\n3. I got a job at a company introduced by a friend, but I was deported.\n4. I changed from a small business to a large business.\n--------------------\nThis person changed to a workplace recommended by a friend, but due to not knowing the law, this person was eventually deported. 3 is the correct answer."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420007",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "한국에는 더울 때 즐겨 먹는 음식과 추울 때 즐겨 먹는 음식이 있습니다. 한국 사람들은 더운 여름에 삼계탕에 닭고기, 인삼, 대추 등 몸에 좋은 재료가 들어 있어서 건강을 지켜 줍니다. 추운 겨울에는 따뜻한 군고구마나 찐빵, 호떡 등을 간식으로 많이 먹습니다. 이것은 한국의 대표적인 길거리 음식으로 가격도 비싸지 않고 맛도 있어서 사람들이 먹습니다.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 찐빵은 더운 여름에 사람들이 즐겨 먹는 음식입니다.",
+          "2. 한국 사람들은 계절에 따라 즐겨 먹는 음식이 다릅니다.",
+          "3. 한국 사람들은 여름보다 겨울에 삼계탕을 많이 먹습니다.",
+          "4. 군고구마는 맛있지만 값이 조금 비싼 편입니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Ở Hàn Quốc, có những món người ta thích ăn khi trời nóng và những món người ta thích ăn khi trời lạnh. Vào mùa hè nóng bức, người Hàn Quốc giữ gìn sức khỏe bằng món Samgyetang vì trong món này có thịt gà, nhân sâm, táo tàu rất tốt cho cơ thể. Vào mùa đông lạnh giá, khoai lang nướng nóng hổi, ​​bánh bao hấp và bánh nướng nhân đường thường được dùng làm món ăn vặt. Đó là các món ăn đường phố tiêu biểu của Hàn Quốc và mọi người ăn nó vì nó rẻ và ngon.\n\n1. Bánh bao hấp là món ăn được yêu thích trong mùa hè nóng bức.\n2. Người Hàn Quốc thưởng thức các món ăn khác nhau tùy theo mùa.\n3. Người Hàn Quốc ăn Samgyetang vào mùa đông nhiều hơn mùa hè.\n4. Khoai lang nướng ngon nhưng hơi mắc.\n--------------------\nVào mùa hè, người Hàn Quốc thường ăn Samgyetang, vào mùa đông, họ thường ăn khoai lang nướng, bánh bao hấp, v.v... Như vậy 2 là đáp án đúng.",
+          "en": "In Korea, there are foods people like to eat when it's hot and foods they like to eat when it's cold. In hot summer, Koreans keep healthy with Samgyetang because it contains chicken, ginseng, and jujube, which are good for the body. In the cold winter, warm roasted sweet potatoes, steamed buns, and hotteok are often eaten as snacks. These are representative street foods in Korea, and people eat them because they are inexpensive and delicious.\n\n1. Steamed buns are a favorite food in hot summer.\n2. Koreans enjoy different foods depending on the season.\n3. Koreans eat more Samgyetang in winter than in summer.\n4. Roasted sweet potatoes are delicious, but a bit expensive.\n--------------------\nIn the summer, Koreans usually eat Samgyetang, in the winter, they often eat roasted sweet potatoes, steamed buns, etc. So 2 is the correct answer."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420007",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 설명에 알맞은 어휘를 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "전기 제품이 오래되면 전선의 피복이 벗겨지는 경우가 있는데 이때 전기가 전선 밖으로 흘러나와 발생하는 사고입니다.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 낙하 사고",
+          "2. 누전 사고",
+          "3. 추락 사고",
+          "4. 붕괴 사고"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Đây là tai nạn xảy ra khi một sản phẩm điện đã cũ, lớp vỏ của dây điện bị bong ra, và lúc này dòng điện rò rỉ ra khỏi dây điện.\n\n1. Tai nạn rơi đồ vật từ trên cao\n2. Tai nạn rò điện\n3. Tai nạn rơi\n4. Tai nạn sập nhà\n--------------------\nĐây là tai nạn liên quan đến điện. 2 là đáp án đúng.",
+          "en": "When an electrical product is old, the sheath of the wire may peel off, and at this time, electricity flows out of the wire and causes an accident.\n\n1. Drop accident\n2. Electrical short accident\n3. Falling accident\n4. Collapse accident\n--------------------\nThis is an electrical accident. 2 is the correct answer."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420008",
+    "count_question": null,
+    "tag": "read"
+  },
+  {
+    "title": "다음 설명에 알맞은 어휘를 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "개인의 평소 행실이나 직업 같은 정보, 제품이나 서비스가 틀림이 없음을 증명하거나 계약 등이 확실하게 이루어졌음을 증명하는 서류입니다.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "1. 동의서",
+          "2. 청구서",
+          "3. 신원보증서",
+          "4. 신고서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Đây là tài liệu chứng minh rằng thông tin như hành vi ngày thường hoặc nghề nghiệp của một cá nhân, sản phẩm hoặc dịch vụ là chính xác hoặc hợp đồng đã được thực hiện một cách chắc chắn.\n\n1. Giấy đồng ý\n2. Giấy yêu cầu\n3. Giấy bảo lãnh\n4. Tờ khai\n--------------------\nGiấy bảo lãnh là loại tài liệu chứng minh những điều nói trên. 3 là đáp án đúng.",
+          "en": "This is a document that proves that information such as an individual's usual conduct or occupation, product or service is correct, or that a contract has been concluded with certainty.\n\n1. Agreement\n2. Invoice\n3. Letter of guarantee\n4. Declaration\n--------------------\nLetter of guarantee is a document that proves the above things. Thus, 3 is the correct answer."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420008",
+    "count_question": null,
+    "tag": "read"
+  }
+]

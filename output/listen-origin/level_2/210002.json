@@ -1,0 +1,50 @@
+[
+  {
+    "title": "[4～8] 다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 팀장님, 다음 주 목요일에 하루 휴가를 써도 될까요? 친척 결혼식이 있어서요.\n여자: 목요일요? 그날 중요한 회의가 있는 거 잊으셨어요?\n남자: 아, 맞다. 회의가 있었죠. 그러면 __________________",
+      "g_text_audio_translate": {
+        "vi": "Nam: Thưa trưởng nhóm, thứ Năm tuần sau tôi có thể xin nghỉ phép một ngày được không ạ? Tôi có đám cưới của người thân.\nNữ: Thứ Năm sao? Anh quên là ngày đó có cuộc họp quan trọng rồi à?\nNam: Ả, đúng rồi. Có cuộc họp nhỉ. Vậy thì __________________",
+        "en": "Man: Team leader, could I take a day off next Thursday? I have a relative's wedding.\nWoman: Thursday? Did you forget that there's an important meeting that day?\nMan: Oh, right. There was a meeting. Then __________________"
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "결혼식에 꼭 가야겠습니다.",
+          "회의 시간을 바꿔 주십시오.",
+          "회의가 끝나고 다녀오겠습니다.",
+          "휴가 날짜를 조정해 보겠습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. Tôi nhất định phải đi đám cưới. (trap_shared_noun)\n2. Xin hãy đổi giờ họp. (trap_shared_noun)\n3. Tôi sẽ đi sau khi cuộc họp kết thúc. (trap_shared_noun)\n4. Tôi sẽ thử điều chỉnh lại ngày nghỉ phép. (Đáp án đúng)\n--------------------\nKhi biết có lịch họp trùng, phản hồi hợp lý nhất là điều chỉnh lại thời gian nghỉ.",
+          "en": "1. I must go to the wedding. (trap_shared_noun)\n2. Please change the meeting time. (trap_shared_noun)\n3. I will go after the meeting ends. (trap_shared_noun)\n4. I will try to adjust the vacation date. (Correct Answer)\n--------------------\nWhen finding out there's a meeting conflict, the most reasonable response is to adjust the vacation date."
+        },
+        "question_feature": "qf_next_utterance",
+        "difficulty": 6,
+        "distractor_traps": {
+          "1": "trap_shared_noun",
+          "2": "trap_shared_noun",
+          "3": "trap_shared_noun",
+          "4": ""
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210002",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "workplace"
+  }
+]

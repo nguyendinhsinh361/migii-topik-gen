@@ -1,0 +1,34 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220005_1_20260515_174350_q0,220005_1,2,read,[19～20] 다음을 읽고 물음에 답하십시오.,2,우리는 보통 실수를 하면 당황하고 숨기고 싶어 한다. 하지만 전문가들은 실수를 (   ) 생각하라고 조언한다. 실수를 통해 무엇이 잘못되었는지 분석하면 더 나은 해결책을 찾을 수 있기 때문이다. 실제로 많은 발명품은 우연한 실수에서 시작되었다. 실수를 두려워하지 않는 태도가 새로운 성장을 이끄는 힘이 된다.,"Chúng ta thường hoảng hốt và muốn che giấu khi mắc lỗi. Tuy nhiên, các chuyên gia khuyên rằng hãy coi lỗi lầm là (   ). Đó là vì nếu phân tích xem điều gì đã sai thông qua lỗi lầm, chúng ta có thể tìm thấy giải pháp tốt hơn. Thực tế, nhiều phát minh đã bắt đầu từ những sai sót tình cờ. Thái độ không sợ hãi lỗi lầm chính là sức mạnh dẫn đến sự phát triển mới.","We usually get flustered and want to hide it when we make a mistake. However, experts advise to think of mistakes as (   ). This is because if you analyze what went wrong through mistakes, you can find a better solution. In fact, many inventions started from accidental mistakes. An attitude of not fearing mistakes becomes the power that leads to new growth.",psychology,(   )에 들어갈 내용으로 알맞은 것을 고르십시오.,2,"창피한 일로
+부끄러운 것으로
+배움의 기회로
+피해야 할 일로",3,"1. Việc xấu hổ (Sai)
+2. Thứ đáng thẹn (Sai)
+3. Cơ hội để học hỏi (Đáp án đúng - phù hợp với việc phân tích lỗi để tìm giải pháp)
+4. Việc nên tránh (Sai)
+--------------------
+Cụm từ '실수를 통해 무엇이 잘못되었는지 분석' (phân tích lỗi để xem sai ở đâu) chỉ ra đây là một 'cơ hội học hỏi'.","1. Embarrassing matter (Wrong)
+2. Shameful thing (Wrong)
+3. Opportunity for learning (Correct Answer - fits with analyzing mistakes to find solutions)
+4. Something to avoid (Wrong)
+--------------------
+The phrase 'analyze what went wrong through mistakes' points to this being a 'learning opportunity'.",,qf_fill_blank,1,"trap_synonym_swap
+trap_synonym_swap
+
+trap_wrong_inference",이 글의 내용과 같은 것을 고르십시오.,2,"실수는 성장에 전혀 도움이 되지 않는다.
+사람들은 보통 실수를 자랑스럽게 생각한다.
+실수를 분석하면 더 좋은 방법을 찾을 수 있다.
+발명품은 완벽한 계획 하에서만 만들어진다.",3,"1. Lỗi lầm hoàn toàn không giúp ích cho sự phát triển. (Sai)
+2. Mọi người thường coi lỗi lầm là điều tự hào. (Sai - thường muốn che giấu)
+3. Nếu phân tích lỗi lầm có thể tìm thấy phương pháp tốt hơn. (Đúng - khớp nội dung)
+4. Phát minh chỉ được tạo ra dưới một kế hoạch hoàn hảo. (Sai - nhiều cái từ sai sót tình cờ)
+--------------------
+Đáp án 3 khớp với câu '실수를 통해... 분석하면 더 나은 해결책을 찾을 수 있다'.","1. Mistakes do not help growth at all. (Wrong)
+2. People usually think of mistakes proudly. (Wrong - usually want to hide them)
+3. If you analyze mistakes, you can find a better way. (Correct - matches content)
+4. Inventions are made only under perfect planning. (Wrong - many from accidental mistakes)
+--------------------
+Answer 3 matches the sentence 'if you analyze what went wrong... you can find a better solution'.",,qf_content_match,1,"trap_neg_없안
+trap_detail_distort
+
+trap_wrong_inference",,,,,,,,,,,20260515_174350

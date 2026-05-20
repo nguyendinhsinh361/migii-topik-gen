@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220001_c_20260515_174350_q0,220001_c,2,read,[28～31] 다음을 읽고 (    )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.,1,,,,society,전통 시장은 대형 마트보다 가격이 저렴하고 정이 넘친다. 하지만 주차 시설이 부족하여 이용하기 불편하다는 단점이 있다. 이러한 불편함을 해결하기 위해 최근 지자체들은 (   ) 노력을 기울이고 있다.,2,"물건 값을 더 낮추려는
+주차 공간을 확보하려는
+마트 이용을 제한하려는
+전통 음식을 홍보하려는",2,"Chợ truyền thống giá rẻ và tràn đầy tình cảm hơn siêu thị lớn. Tuy nhiên, nó có nhược điểm là bất tiện khi sử dụng do thiếu cơ sở hạ tầng bãi đỗ xe. Để giải quyết sự bất tiện này, gần đây các chính quyền địa phương đang nỗ lực (   ).
+1. Hạ giá đồ hơn nữa (Sai - nhược điểm nêu ra là bãi đỗ xe)
+2. Đảm bảo không gian đỗ xe (Đáp án đúng - giải quyết trực tiếp nhược điểm)
+3. Hạn chế sử dụng siêu thị (Sai - cực đoan, không được nhắc tới)
+4. Quảng bá món ăn truyền thống (Sai - không liên quan đến bãi đỗ xe)
+--------------------
+Nỗ lực phải tập trung vào việc giải quyết '주차 시설 부족' (thiếu cơ sở hạ tầng đỗ xe).","Traditional markets are cheaper and more warm-hearted than large supermarkets. However, they have the disadvantage of being inconvenient to use due to a lack of parking facilities. To solve this inconvenience, local governments have recently been making efforts to (   ).
+1. Lower the price of goods further (Wrong - the mentioned disadvantage is parking)
+2. Secure parking spaces (Correct Answer - directly solves the disadvantage)
+3. Limit the use of supermarkets (Wrong - extreme, not mentioned)
+4. Promote traditional foods (Wrong - irrelevant to parking)
+--------------------
+The effort must focus on solving the 'lack of parking facilities' (주차 시설 부족).",,qf_fill_blank,7,"trap_shared_noun
+
+trap_overgeneralize
+trap_shared_noun",,,,,,,,,,,,,,,,,,,,,20260515_174350

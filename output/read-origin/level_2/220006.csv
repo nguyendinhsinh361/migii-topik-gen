@@ -1,0 +1,18 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220006_20260515_174350_q0,220006,2,read,[25～27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.,1,"'고공 행진' 배춧값, 식탁 물가 '비상'","Giá bắp cải 'diễu hành trên cao', giá cả bàn ăn 'báo động đỏ'","Cabbage prices 'marching high', dining table inflation 'emergency'",economy,,2,"배춧값이 많이 올라서 가계 부담이 커졌다.
+배추를 높게 쌓아 두고 파는 시장이 많아졌다.
+비상용 배추를 식탁 위에 준비해 두어야 한다.
+식탁 물가를 낮추기 위해 배추를 많이 사야 한다.",1,"1. Giá bắp cải tăng mạnh khiến gánh nặng gia đình tăng lên. (Đáp án đúng - giải thích nghĩa bóng của '고공 행진' và '비상')
+2. Có nhiều chợ xếp bắp cải cao để bán. (Hiểu theo nghĩa đen của '고공 행진')
+3. Phải chuẩn bị sẵn bắp cải dự phòng khẩn cấp trên bàn ăn. (Hiểu theo nghĩa đen của '비상')
+4. Phải mua nhiều bắp cải để hạ giá cả bàn ăn. (Suy luận sai)
+--------------------
+'고공 행진' (diễu hành trên cao) nghĩa là giá tăng liên tục ở mức cao, '비상' (khẩn cấp/báo động) nghĩa là tình hình đang trở nên nghiêm trọng.","1. Cabbage prices have risen significantly, increasing the household burden. (Correct Answer - explains metaphor of 'marching high' and 'emergency')
+2. Many markets are stacking cabbages high to sell. (Literal interpretation of 'marching high')
+3. Emergency cabbages should be prepared on the dining table. (Literal interpretation of 'emergency/비상')
+4. One must buy a lot of cabbages to lower dining table prices. (Wrong inference)
+--------------------
+'고공 행진' (high altitude march) means prices are continuously rising at high levels, and '비상' (emergency/alert) means the situation is becoming serious.",,qf_headline_explain,8,"
+trap_wrong_inference
+trap_wrong_inference
+trap_overgeneralize",,,,,,,,,,,,,,,,,,,,,20260515_174350

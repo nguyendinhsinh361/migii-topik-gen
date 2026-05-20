@@ -1,0 +1,27 @@
+﻿id,kind,level,tag,title,count_question,g_text_audio,g_text_audio_vi,g_text_audio_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,created_at
+210003_20260515_170026_q0,210003,2,listen,[9～12] 다음 대화를 잘 듣고 <u>여자</u>가 이어서 할 행동으로 알맞은 것을 고르십시오. (각 2점),1,"여자: 비행기 시간이 얼마 안 남았는데 아직 탑승 안내가 안 나오네.
+남자: 그러게. 전광판을 한번 확인해 볼까? 혹시 지연된 건지도 몰라.
+여자: 내가 가서 물어보고 올게. 당신은 여기서 짐 좀 봐줘.
+남자: 알았어. 조심히 다녀와.","Nữ: Sắp đến giờ bay rồi mà vẫn chưa thấy thông báo lên máy bay nhỉ.
+Nam: Ừ nhỉ. Hay để anh kiểm tra bảng điện tử xem sao? Biết đâu nó bị hoãn.
+Nữ: Để em đi hỏi thử xem. Anh ở đây trông hành lý nhé.
+Nam: Được rồi. Đi cẩn thận nhé.","Woman: There's not much time left before the flight, but there's still no boarding announcement.
+Man: You're right. Should I check the electronic board? Maybe it's delayed.
+Woman: I'll go and ask. You watch the luggage here.
+Man: Okay. Go carefully.",travel,,2,"짐을 지키고 있는다.
+전광판을 확인한다.
+직원에게 가서 물어본다.
+비행기 표를 예매한다.",3,"1. Trông giữ hành lý. (trap_subject_swap - hành động của nam)
+2. Kiểm tra bảng điện tử. (trap_shared_noun)
+3. Đi hỏi nhân viên. (Đáp án đúng)
+4. Đặt vé máy bay. (trap_shared_noun)
+--------------------
+Nữ nói '내가 가서 물어보고 올게' (Em sẽ đi hỏi rồi quay lại).","1. Watching the luggage. (trap_subject_swap - man's action)
+2. Checking the electronic board. (trap_shared_noun)
+3. Going to ask the staff. (Correct Answer)
+4. Booking a flight ticket. (trap_shared_noun)
+--------------------
+The woman says 'I'll go and ask'.",,qf_predict_action,7,"trap_subject_swap
+trap_shared_noun
+
+trap_shared_noun",,,,,,,,,,,20260515_170026

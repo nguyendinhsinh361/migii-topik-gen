@@ -1,0 +1,56 @@
+[
+  {
+    "title": "[15～16] 다음 대화를 듣고 알맞은 그림을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 이 책 빌릴 수 있어요?\n여자: 네, 여기에 학생증을 보여 주세요.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Tôi có thể mượn cuốn sách này không?\nNữ: Vâng, hãy cho tôi xem thẻ sinh viên ở đây.",
+        "en": "Man: Can I borrow this book?\nWoman: Yes, please show your student ID here."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 3,
+        "q_image_description": {
+          "1": "남자가 서점에서 책을 사고 있다.",
+          "2": "여자가 도서관에서 책을 정리하고 있다.",
+          "3": "남자가 도서관 카운터에서 여자 직원에게 책과 학생증을 건네고 있다.",
+          "4": "남자와 여자가 벤치에 앉아서 책을 읽고 있다."
+        },
+        "explain": {
+          "vi": "1. Người đàn ông đang mua sách ở hiệu sách.\n2. Người phụ nữ đang sắp xếp sách ở thư viện.\n3. Người đàn ông đang đưa sách và thẻ sinh viên cho nhân viên nữ tại quầy thư viện. (Đáp án đúng)\n4. Người đàn ông và người phụ nữ đang ngồi trên ghế đá đọc sách.\n--------------------\nĐoạn hội thoại nói về việc mượn sách bằng thẻ sinh viên, bức tranh 3 mô tả đúng cảnh này.",
+          "en": "1. A man is buying a book at a bookstore.\n2. A woman is organizing books in a library.\n3. A man is handing a book and a student ID to a female staff member at a library counter. (Correct Answer)\n4. A man and a woman are sitting on a bench reading books.\n--------------------\nThe dialogue is about borrowing a book using a student ID, which is correctly depicted in picture 3."
+        },
+        "question_feature": "qf_match_image",
+        "difficulty": 5,
+        "distractor_traps": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": ""
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110005",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "school_education"
+  }
+]

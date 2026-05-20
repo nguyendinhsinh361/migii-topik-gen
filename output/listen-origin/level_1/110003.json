@@ -1,0 +1,50 @@
+[
+  {
+    "title": "여기는 어디입니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 돈 좀 찾으려고 하는데요.\n여자: 네, 이쪽에 통장을 넣어 주세요.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Tôi muốn rút một ít tiền.\nNữ: Vâng, xin hãy cho sổ tài khoản vào đây.",
+        "en": "Man: I'd like to withdraw some money.\nWoman: Yes, please put your bankbook in here."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "우체국",
+          "은행",
+          "도서관",
+          "병원"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Bưu điện\n2. Ngân hàng (Đáp án đúng)\n3. Thư viện\n4. Bệnh viện\n--------------------\nTừ khóa '돈' (tiền) và '통장' (sổ tài khoản) cho biết đây là ngân hàng.",
+          "en": "1. Post office\n2. Bank (Correct Answer)\n3. Library\n4. Hospital\n--------------------\nThe keywords '돈' (money) and '통장' (bankbook) indicate this is a bank."
+        },
+        "question_feature": "qf_guess_place",
+        "difficulty": 4,
+        "distractor_traps": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": ""
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110003",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "shopping_price"
+  }
+]

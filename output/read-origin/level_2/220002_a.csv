@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220002_a_20260515_174350_q0,220002_a,2,read,[3～4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.,1,,,,health_medical,아무리 바빠도 건강을 위해서 아침 식사는 <u>먹는 대신에</u> 우유라도 마셔야 한다.,2,"먹는 대로
+먹는 만큼
+먹지 말고
+먹지 못해서",3,"Dù bận thế nào đi nữa, vì sức khỏe, thay vì ăn sáng (không ăn) thì ít nhất cũng phải uống sữa.
+1. Ngay khi ăn (Nghĩa khác)
+2. Bằng với việc ăn (Mức độ - không hợp)
+3. Đừng ăn (mà hãy...) (Đáp án tương đương nhất trong ngữ cảnh thay thế)
+4. Vì không thể ăn (Nguyên nhân - không hợp)
+--------------------
+'-는 대신에' thể hiện sự thay thế. Trong ngữ cảnh khuyên bảo, '-지 말고' (đừng làm A mà làm B) mang ý nghĩa tương đồng nhất.","No matter how busy you are, for your health, instead of eating breakfast, you should at least drink milk.
+1. As soon as you eat (Different meaning)
+2. As much as you eat (Degree - inappropriate)
+3. Don't eat (but...) (Most similar meaning in substitution context)
+4. Because you couldn't eat (Cause - inappropriate)
+--------------------
+'-는 대신에' expresses substitution. In an advising context, '-지 말고' (don't do A but do B) carries the most similar meaning.",,qf_similar_meaning,5,"trap_same_ending
+trap_synonym_swap
+
+trap_synonym_swap",,,,,,,,,,,,,,,,,,,,,20260515_174350

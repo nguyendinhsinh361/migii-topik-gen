@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120003_1_20260515_174350_q0,120003_1,1,read,[40～41] 다음을 읽고 맞지 않는 것을 고르십시오.,1,,,,food_restaurant,,3,"요리 교실은 금요일에 합니다.
+비빔밥을 만듭니다.
+참가비는 5,000원입니다.
+오전에 요리를 합니다.",4,"Thông báo lớp học nấu ăn. Thời gian: 10/5 (Thứ 6) 2h-4h chiều. Địa điểm: Bếp tầng 2 Trung tâm tiếng Hàn. Thực đơn: Làm Bibimbap. Phí tham gia: 5,000 won. Đồ chuẩn bị: Tạp chề.
+1. Lớp học nấu ăn diễn ra vào thứ 6. (Đúng theo ảnh)
+2. Làm Bibimbap. (Đúng theo ảnh)
+3. Phí tham gia là 5,000 won. (Đúng theo ảnh)
+4. Nấu ăn vào buổi sáng. (SAI - ảnh ghi chiều/오후)
+--------------------
+Đáp án đúng là 4 vì nó KHÔNG KHỚP với thông tin '오후 2시' trên ảnh.","Cooking class notice. Date: May 10th (Friday) 2 PM - 4 PM. Place: Kitchen, 2nd floor, Korean Center. Menu: Making Bibimbap. Fee: 5,000 won. Preparation: Apron.
+1. The cooking class is on Friday. (Correct per image)
+2. Bibimbap is made. (Correct per image)
+3. The fee is 5,000 won. (Correct per image)
+4. Cooking is done in the morning. (WRONG - image says afternoon/오후)
+--------------------
+The correct answer is 4 because it DOES NOT MATCH the '2 PM' information on the image.",,qf_not_match,4,"trap_neg_reverse
+trap_neg_reverse
+trap_neg_reverse
+",,,,,,,,,,,,,,,,,,,,,20260515_174350

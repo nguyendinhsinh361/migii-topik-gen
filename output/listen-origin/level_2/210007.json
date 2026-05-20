@@ -1,0 +1,74 @@
+[
+  {
+    "title": "다음은 대담입니다. 잘 듣고 물음에 답하십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 최근 도심 한복판에서 벌을 키우는 '도시 양봉'이 주목받고 있습니다. 박사님, 벌은 보통 산이나 시골에서 키우는 것으로 알고 있는데, 도시에서도 벌을 키우는 게 가능한가요?\n남자: 네, 도시는 시골보다 기온이 높고 꽃이 피는 기간이 길어서 오히려 벌이 살기에 유리한 환경일 수 있습니다. 또한 도시의 공원이나 가로수에 꽃이 많기 때문에 꿀을 모으는 데도 큰 문제가 없습니다.\n여자: 그렇다면 도시에서 생산된 꿀은 오염될 걱정은 없을까요?\n남자: 많은 분이 걱정하시지만, 조사 결과 도시 꿀은 시골 꿀과 비교했을 때 품질 면에서 큰 차이가 없으며 오히려 농약 성분이 검출되지 않아 더 안전하다는 연구 결과도 있습니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Gần đây, 'nuôi ong đô thị' - việc nuôi ong ngay giữa lòng thành phố đang nhận được sự chú ý. Thưa Tiến sĩ, chúng tôi thường biết rằng ong được nuôi ở núi hoặc nông thôn, vậy việc nuôi ong ở thành phố có khả thi không ạ?\nNam: Vâng, thành phố có nhiệt độ cao hơn nông thôn và thời gian hoa nở dài hơn nên trái lại có thể là môi trường thuận lợi cho ong sinh sống. Ngoài ra, vì có nhiều hoa ở công viên và cây xanh đường phố nên việc thu thập mật cũng không có vấn đề gì lớn.\nNữ: Vậy mật ong được sản xuất ở thành phố liệu có đáng lo về vấn đề ô nhiễm không ạ?\nNam: Nhiều người lo lắng nhưng kết quả khảo sát cho thấy mật ong đô thị không có sự khác biệt lớn về chất lượng so với mật ong nông thôn, thậm chí có kết quả nghiên cứu cho thấy nó an toàn hơn vì không phát hiện thành phần thuốc bảo vệ thực vật.",
+        "en": "Woman: Recently, 'urban beekeeping', keeping bees in the middle of the city, is attracting attention. Doctor, I usually know that bees are kept in mountains or rural areas. Is it possible to keep bees in the city?\nMan: Yes, cities have higher temperatures than the countryside and the flowering period is longer, so it can actually be a favorable environment for bees to live. Also, since there are many flowers in city parks and street trees, there is no big problem in collecting honey.\nWoman: Then, is there any concern about pollution for honey produced in the city?\nMan: Many people are worried, but the survey results show that urban honey does not have a big difference in quality compared to rural honey, and there are even research results showing that it is safer because no pesticide components were detected."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "여자의 태도로 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "도시 양봉의 실현 가능성을 부정하고 있다.",
+          "전문가의 의견을 바탕으로 궁금증을 해소하고 있다.",
+          "도시 양봉의 환경적 문제를 강력하게 비판하고 있다.",
+          "도시 꿀의 유통 과정에 대해 자세히 설명하고 있다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Phủ nhận khả năng thực hiện nuôi ong đô thị. (trap_neg_없안)\n2. Giải tỏa thắc mắc dựa trên ý kiến của chuyên gia. (Đáp án đúng)\n3. Chỉ trích mạnh mẽ các vấn đề môi trường của nuôi ong đô thị. (trap_opposite_meaning)\n4. Giải thích chi tiết về quy trình lưu thông mật ong đô thị. (trap_shared_noun)\n--------------------\nNgười phụ nữ đặt các câu hỏi thắc mắc để chuyên gia giải đáp.",
+          "en": "1. Denying the feasibility of urban beekeeping. (trap_neg_없안)\n2. Resolving curiosity based on the expert's opinion. (Correct Answer)\n3. Strongly criticizing the environmental problems of urban beekeeping. (trap_opposite_meaning)\n4. Explaining the distribution process of urban honey in detail. (trap_shared_noun)\n--------------------\nThe woman asks questions to have the expert resolve her curiosity."
+        },
+        "question_feature": "qf_attitude",
+        "difficulty": 9,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "",
+          "3": "trap_opposite_meaning",
+          "4": "trap_shared_noun"
+        }
+      },
+      {
+        "q_text": "들은 내용과 일치하는 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "도시에는 벌이 이용할 수 있는 꽃이 부족합니다.",
+          "시골 꿀보다 도시 꿀에서 농약이 더 많이 검출되었습니다.",
+          "도시는 시골보다 기온이 낮아 벌이 살기 어렵습니다.",
+          "도시 꿀은 시골 꿀과 비교했을 때 품질이 뒤처지지 않습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. Thành phố thiếu hoa mà ong có thể sử dụng. (trap_opposite_meaning)\n2. Thuốc bảo vệ thực vật được phát hiện ở mật ong đô thị nhiều hơn mật ong nông thôn. (trap_neg_없안)\n3. Thành phố có nhiệt độ thấp hơn nông thôn nên ong khó sinh sống. (trap_opposite_meaning)\n4. Mật ong đô thị không kém cạnh về chất lượng khi so với mật ong nông thôn. (Đáp án đúng)\n--------------------\nNam nói chất lượng không khác biệt lớn (품질 면에서 큰 차이가 없으며).",
+          "en": "1. Cities lack flowers that bees can use. (trap_opposite_meaning)\n2. More pesticides were detected in urban honey than in rural honey. (trap_neg_없안)\n3. Cities have lower temperatures than the countryside, making it difficult for bees to live. (trap_opposite_meaning)\n4. Urban honey does not fall behind in quality compared to rural honey. (Correct Answer)\n--------------------\nThe man says there is no big difference in quality."
+        },
+        "question_feature": "qf_match_content",
+        "difficulty": 9,
+        "distractor_traps": {
+          "1": "trap_opposite_meaning",
+          "2": "trap_neg_없안",
+          "3": "trap_opposite_meaning",
+          "4": ""
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210007",
+    "count_question": 2,
+    "tag": "listen",
+    "topic": "environment_society"
+  }
+]

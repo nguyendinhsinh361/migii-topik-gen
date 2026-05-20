@@ -1,0 +1,20 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+120004_2_20260515_174350_q0,120004_2,1,read,[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.,1,,,,food_restaurant,제 친구는 요리를 아주 잘합니다. 그 친구가 만들어 주는 음식은 모두 맛있습니다. 저도 그 친구에게 요리를 배우고 싶습니다.,3,"저는 친구와 같이 밥을 먹습니다.
+저는 요리하는 것이 즐겁습니다.
+친구는 음식을 많이 만듭니다.
+저는 친구에게 요리를 배우고 싶습니다.",4,"Bạn tôi nấu ăn rất giỏi. Những món bạn ấy làm đều ngon. Tôi cũng muốn học nấu ăn từ bạn ấy.
+1. Tôi ăn cơm cùng bạn. (Chi tiết phụ)
+2. Tôi thấy nấu ăn rất vui. (Không có trong bài)
+3. Bạn làm nhiều đồ ăn. (Không phải ý chính)
+4. Tôi muốn học nấu ăn từ bạn. (Ý chính - mong muốn cốt lõi sau khi khen bạn)
+--------------------
+Câu cuối '요리를 배우고 싶습니다' thể hiện ý định trung tâm của người viết.","My friend is very good at cooking. All the food that friend makes is delicious. I also want to learn cooking from that friend.
+1. I eat with my friend. (Minor detail)
+2. I find cooking fun. (Not in passage)
+3. Friend makes a lot of food. (Not the main idea)
+4. I want to learn cooking from my friend. (Main idea - core desire after praising the friend)
+--------------------
+The last sentence 'want to learn cooking' represents the writer's central intention.",,qf_central_thought,5,"trap_detail_distort
+trap_wrong_inference
+trap_partial_truth
+",,,,,,,,,,,,,,,,,,,,,20260515_174350

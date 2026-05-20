@@ -1,0 +1,27 @@
+﻿id,kind,level,tag,title,count_question,g_text_audio,g_text_audio_vi,g_text_audio_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,created_at
+210005_20260515_170026_q0,210005,2,listen,[17～20]다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점),1,"여자: 인공지능이 그린 그림이 경매에서 높은 가격에 팔렸대요. 신기하지 않아요?
+남자: 글쎄요. 저는 예술이란 인간의 감정과 경험이 담겨 있어야 한다고 생각해요.
+여자: 하지만 결과물이 훌륭하다면 그것도 예술로 인정할 수 있지 않을까요?
+남자: 단순히 기술로 만들어진 결과물보다는 창작자의 영혼이 느껴지는 작품이 진정한 예술이죠.","Nữ: Nghe nói bức tranh do trí tuệ nhân tạo vẽ đã được bán với giá cao trong một buổi đấu giá đấy. Không phải rất kỳ diệu sao?
+Nam: Chà. Tôi nghĩ rằng nghệ thuật phải chứa đựng cảm xúc và trải nghiệm của con người.
+Nữ: Nhưng nếu thành quả tuyệt vời thì chẳng phải chúng ta cũng có thể công nhận đó là nghệ thuật sao?
+Nam: So với một thành phẩm đơn thuần được tạo ra bởi công nghệ, tác phẩm mà ta cảm nhận được linh hồn của người sáng tạo mới là nghệ thuật đích thực.","Woman: I heard a painting drawn by AI was sold at a high price in an auction. Isn't it amazing?
+Man: Well. I think art must contain human emotions and experiences.
+Woman: But if the result is great, shouldn't we be able to recognize it as art too?
+Man: Rather than a result simply made with technology, a work in which the creator's soul can be felt is true art.",environment_society,,2,"인공지능의 그림도 예술로 인정해야 한다.
+예술 작품에는 인간의 감정이 담겨야 한다.
+기술의 발달이 예술의 가치를 높여 준다.
+경매에서 비싸게 팔리는 그림이 좋은 작품이다.",2,"1. Nên công nhận tranh của AI là nghệ thuật. (trap_opinion_swap - ý kiến của nữ)
+2. Tác phẩm nghệ thuật phải chứa đựng cảm xúc con người. (Đáp án đúng)
+3. Sự phát triển công nghệ làm tăng giá trị nghệ thuật. (trap_shared_noun)
+4. Tranh bán giá cao ở buổi đấu giá là tác phẩm tốt. (trap_shared_noun)
+--------------------
+Nam nhấn mạnh linh hồn và cảm xúc con người trong nghệ thuật.","1. AI paintings should also be recognized as art. (trap_opinion_swap - woman's opinion)
+2. Art works must contain human emotions. (Correct Answer)
+3. The development of technology increases the value of art. (trap_shared_noun)
+4. Paintings that sell at a high price in auctions are good works. (trap_shared_noun)
+--------------------
+The man emphasizes the soul and human emotions in art.",,qf_main_opinion,8,"trap_opinion_swap
+
+trap_shared_noun
+trap_shared_noun",,,,,,,,,,,20260515_170026

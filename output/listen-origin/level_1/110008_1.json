@@ -1,0 +1,74 @@
+[
+  {
+    "title": "[25～26] 다음을 듣고 물음에 답하십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 여러분, 주목해 주십시오. 지금부터 미술관 이용 방법에 대해 안내해 드리겠습니다. 관람 시간은 오전 10시부터 오후 6시까지입니다. 전시실 안에서는 사진을 찍으시면 안 됩니다. 그리고 다른 분들을 위해 조용히 관람해 주시기 바랍니다. 감사합니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Mọi người xin hãy chú ý. Sau đây tôi xin hướng dẫn về cách sử dụng bảo tàng mỹ thuật. Thời gian tham quan là từ 10 giờ sáng đến 6 giờ chiều. Trong phòng triển lãm, quý khách không được phép chụp ảnh. Và xin hãy tham quan một cách yên tĩnh vì những người khác. Xin cảm ơn.",
+        "en": "Woman: Everyone, please pay attention. From now on, I will guide you on how to use the art museum. The viewing hours are from 10 AM to 6 PM. You are not allowed to take pictures inside the exhibition room. And please view quietly for others. Thank you."
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "어떤 이야기를 하고 있는지 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "부탁",
+          "소개",
+          "안내",
+          "질문"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. Nhờ vả\n2. Giới thiệu\n3. Hướng dẫn (Đáp án đúng)\n4. Câu hỏi\n--------------------\nNgười phụ nữ đang cung cấp các quy định và thông tin tham quan, đây là bài hướng dẫn (안내).",
+          "en": "1. Request\n2. Introduction\n3. Guidance (Correct Answer)\n4. Question\n--------------------\nThe woman is providing rules and viewing information, which is a guidance (안내)."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "",
+          "2": "",
+          "3": "",
+          "4": ""
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "전시실 안에서 사진을 찍어도 됩니다.",
+          "미술관은 오후 6시에 문을 닫습니다.",
+          "관람객은 큰 소리로 이야기해야 합니다.",
+          "미술관은 오전 9시에 문을 엽니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Có thể chụp ảnh trong phòng triển lãm. (trap_neg_없안)\n2. Bảo tàng đóng cửa lúc 6 giờ chiều. (Đáp án đúng)\n3. Khách tham quan phải nói chuyện to. (trap_opposite_meaning)\n4. Bảo tàng mở cửa lúc 9 giờ sáng. (trap_number_shift)\n--------------------\nAudio nói '오후 6시까지' (đến 6 giờ chiều) khớp với đáp án 2.",
+          "en": "1. You can take pictures inside the exhibition room. (trap_neg_없안)\n2. The museum closes at 6 PM. (Correct Answer)\n3. Visitors must talk loudly. (trap_opposite_meaning)\n4. The museum opens at 9 AM. (trap_number_shift)\n--------------------\nThe audio says 'until 6 PM', which matches answer 2."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "",
+          "3": "trap_opposite_meaning",
+          "4": "trap_number_shift"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_1",
+    "count_question": 2,
+    "tag": "listen",
+    "topic": "culture_event"
+  }
+]

@@ -1,0 +1,2786 @@
+[
+  {
+    "title": "무엇에 대한 이야기입니까? <보기>와 같이 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "우리 어머니는 독일 사람이고 아버지는 태국 사람입니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "운동",
+          "음식",
+          "나라",
+          "사람"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Mẹ tôi là người Đức và bố tôi là người Thái.\n1. Thể dục\n2. Thức ăn\n3. Đất nước\n4. Người\n--------------------\n독일: Nước Đức\n태국: Thái Lan",
+          "en": "My mother is German and my father is Thai.\n1. Exercise\n2. Food\n3. Country\n4. Person\n---------------------\n<g>독일:</g> Germany\n<g>태국:</g> Thailand"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120001",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[31～33]무엇에 대한 이야기입니까? <보기>와 같이 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "운동을 좋아합니다.  농구를 자주 합니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "날씨",
+          "장소",
+          "취미",
+          "쇼핑"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Tôi thích vận động. Tôi thường chơi bóng rổ. \n1. Thời tiết\n2. Địa điểm\n3. Sở thích\n4. Shopping\n--------------------\n좋아하다: Thích",
+          "en": "I like to exercise. I often play basketball.\n1. Weather\n2. Location\n3. Hobbies\n4. Shopping\n--------------------\n<g>좋아하다</g>:  To like => It relates to hobbies."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120001",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43～45]다음의 내용과 같은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "오후부터 비가 왔습니다. 저는 우산이 없어서 걱정을 했습니다. 그런데 언니가 우산을 가지고 학교 앞에서 기다리고 있었습니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "아침에 비가 내렸습니다.",
+          "저는 언니를 기다렸습니다.",
+          "학교 앞에 언니가 있었습니다.",
+          "저는 학교에 우산을 가지고 왔습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Mưa từ buổi chiều. Tôi không có ô nên rất lo lắng. Nhưng chị tôi đã mang ô đến trước trường đợi tôi. \n1. Mưa vào buổi sáng. \n2. Tôi đợi chị. \n3. Chị tôi đợi ở trước trường. \n4. Tôi mang ô đến trường. \n--------------------\n우산: Ô\n걱정하다: Lo lắng\n가지다: Mang theo\n기다리다: Đợi\n",
+          "en": "It has been raining since the afternoon. I was worried because I didn't have an umbrella. But my sister was waiting for me in front of the school with an umbrella.\n1. It rained in the morning.\n2. I waited for my sister.\n3. My sister waited for me in front of the school.\n4. I brought an umbrella to school.\n--------------------\n<g>우산</g>: Umbrella\n<g>걱정하다</g>: Be worry\n<g>가지다</g>: To bring\n<g>기다리다</g>: To wait."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[46 ~ 48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "저는 바다에서 수영하는 것을 좋아합니다. 여름에는 수영을 하러 바다에 자주 갑니다. 빨리 여름이 오면 좋겠습니다.",
+        "q_image": null,
+        "q_point": 3,
+        "q_answer": [
+          "저는 여름을 제일 좋아합니다.",
+          "저는 수영을 잘하면 좋겠습니다.",
+          "저는 여름 바다에 가 보고 싶습니다.",
+          "저는 빨리 바다에서 수영하고 싶습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "I like swimming in the sea. In the summer, I often go to the sea to swim. I wish summer would come soon.\n\n1. I like summer the most.\n2. I wish I could swim well.\n3.I want to try going to the sea in the summer.\n4. I want to swim in the sea soon.\n--------------------\nIt can be seen that the character \"I\" really likes swimming in the sea, so the character \"I\" wishes summer would come quickly so he could go swimming. 4 is the correct answer.",
+          "vi": "Tôi thích bơi ở biển. Vào mùa hè tôi thường ra biển để bơi. Ước gì mùa hè đến nhanh.\n\n1. Tôi thích mùa hè nhất.\n2. Tôi ước mình bơi giỏi.\n3. Tôi muốn thử đi biển vào mùa hè.\n4. Tôi muốn nhanh chóng bơi ở biển.\n--------------------\nCó thể thấy nhân vật \"tôi\" rất thích bơi ở biển vậy nên nhân vật \"tôi\" ước mùa hè đến thật nhanh để được đi bơi. 4 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43～45] 다음의 내용과 같은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "사라 씨는 영어 선생님입니다. 오늘은 영어 수업이 없습니다. 집에서 텔레비전을 봅니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "사라 씨는 바쁩니다.",
+          "사라 씨는 학생입니다.",
+          "사라 씨는 오늘 시간이 많습니다.",
+          "사라 씨는 영어 수업을 듣습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Sara là giáo viên tiếng Anh. Hôm nay cô ấy không có tiết dạy tiếng Anh nào. Sara ở nhà xem TV.\n1. Sara rất bận.\n2. Sara là học sinh.\n3. Hôm nay Sara có nhiều thời gian.\n4. Sara theo học lớp học tiếng Anh.\n--------------------\n선생님: Giáo viên\n시간이 많다: Có nhiều thời gian, rảnh\n\nHôm nay Sara không có tiết dạy nên có nhiều thời gian.",
+          "en": "Sara is an English teacher. There are no English classes today. She watches TV at home.\n1. Sara is very busy.\n2. Sara is a student.\n3. Sara has a lot of time today.\n4. Sara is taking English classes.\n--------------------\n<g>선생님:</g> Teacher\n<g>시간이 많다:</g> To have a lot of time, free\n\nSara has no class today, so she has a lot of time."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[43～48] 다음을 읽고 중심 생각을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "저는 러시아에서 왔습니다. 한국 음식이 맛있지만 요즘은 고향 음식을 먹고 싶습니다. 그래서 러시아에 가고 싶습니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "한국 음식은 맛이 없습니다.",
+          "저는 요리를 배우고 싶습니다.",
+          "러시아 음식을 먹고 싶습니다.",
+          "고향 음식을 좋아하지 않습니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Tôi đến từ Nga. Món ăn Hàn Quốc rất ngon nhưng dạo này tôi muốn ăn các món quê nhà. Vì vậy tôi muốn về Nga.\n1. Món ăn Hàn Quốc không ngon. \n2. Tôi muốn học nấu ăn.\n3. Tôi muốn ăn món ăn Nga.\n4. Tôi không thích các món quê nhà.\n--------------------\n맛있다: Ngon\n\nV + 고 싶다: Muốn làm gì.",
+          "en": "I am from Russia. Korean food is delicious, but these days I want to eat hometown food.So I want to go to Russia.\n1. Korean food is not delicious. \n2. I want to learn cooking. \n3. I want to eat Russian food. \n4. I don't like my hometown food.\n--------------------\n<g>맛있다:</g> To be delicious\n\n<g>V + 고 싶다:</g> Want to do something."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120004_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[51～52] 다음을 읽고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "한국음악 박물관으로 오십시오. 한국음악 박물관에서는 한국의 옛날 악기를 보고 악기 소리를 들을 수 있습니다. ( ㉠ ) 사진을 보면서 한국음악의 역사에 대해서 알 수 있습니다. 주말에는 다양한 음악 공연을 볼 수 있습니다. 기념품을 살 수 있는 가게도 있습니다.",
+      "g_text_translate": {
+        "vi": "Các bạn hãy đến với Bảo tàng Âm nhạc Hàn Quốc. Tại Bảo tàng Âm nhạc Hàn Quốc, bạn có thể nhìn thấy nhạc cụ cổ của Hàn Quốc và có thể nghe âm thanh chúng tạo ra. ( ㉠ ) khi nhìn các bức ảnh, các bạn cũng có thể hiểu về lịch sử âm nhạc Hàn Quốc. Cuối tuần còn có thể được xem những buổi trình diễn khác nhau nữa. Và các bạn cũng có thể mua quà lưu niệm ở các cửa hàng (trong bảo tàng).",
+        "en": "Come to the Korean Music Museum. At the Korean Music Museum, you can see traditional  Korean musical instruments and hear their sounds. And you can learn about the history of Korean music by looking at the photos. On weekends, you can see a variety of music performances. There is also a store where you can buy souvenirs."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "㉠에 들어갈 알맞은 말을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "그리고",
+          "그래서",
+          "그러면",
+          "그러나"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Điền cụm từ thích hợp vào ㉠.\n1. Và\n2. Vì vậy\n3. Nếu vậy\n4. Nhưng\n--------------------\n옛날 악기: Nhạc cụ cổ\n\nN + 에 대해(서): Về điều gì đó\nV + (으)면서: Làm gì trong khi, trong lúc\nV  + (으)ㄹ 수 있다/없다 : Có thể/không thể làm gì\n\nDựa vào nghĩa => chọn đáp án 1.",
+          "en": "Fill in the blank <g>㉠</g> with the appropriate phrase.\n1. And\n2. So\n3. If so\n4. But\n--------------------\n<g>옛날 악기:</g> Traditional musical instrument\n\n<g>N + 에 대해(서):</g> About, concerning, with respect to N\n<g>V + (으)면서:</g> While, and…too\n<g>V + (으)ㄹ 수 있다/없다:</g> Can/can't do something\n\nBased on the meaning => choose 1."
+        }
+      },
+      {
+        "q_text": "무엇에 대한 이야기인지 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "박물관의 역사",
+          "박물관을 만든 이유",
+          "박물관에서 할 수 있는 일",
+          "박물관에서 살 수 있는 악기"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Đoạn văn này nói về chủ đề gì.\n1. Lịch sử của bảo tàng\n2. Lý do xây dựng bảo tàng\n3. Việc có thể làm ở bảo tàng\n4. Nhạc cụ có thể mua được ở bảo tàng",
+          "en": "What is this paragraph about?\n1. History of the museum\n2. The reason why the museum was created\n3. Things you can do at the museum\n4. Music instruments you can buy at the museum"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120005",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[49～56] 다음을 읽고 물음에 답하십시오.",
+    "general": {
+      "g_text": "우리 누나는 과일을 이용해서 비누를 잘 만듭니다. 그 비누는 과일 모양이고 냄새도 과일과 같습니다. 누나는 사과를 좋아하는 사람에게는 사과 비누를, 딸기를 좋아하는 사람에게는 딸기 비누를 만들어서 선물합니다. 그리고 비누에 (     ㉠     ) 이름도 써 줍니다. 사람들은 자기 이름을 보고 무척 좋아합니다.",
+      "g_text_translate": {
+        "vi": "Chị tôi hay sử dụng trái cây để làm xà phòng. Xà phòng đó có hình trái cây và mùi cũng giống như trái cây. Chị làm xà phòng táo cho người thích táo và xà phòng dâu cho người thích dâu. Và còn viết tên (     ㉠     ) lên xà phòng nữa. Mọi người nhìn thấy tên của họ và rất thích.",
+        "en": "My older sister is good at making soap using fruits. The soap is fruit-shaped and smells like fruit. My older sister makes apple soap for those who like apples and makes and presents strawberry soap for those who like strawberries. And she writes the name of the person who receives the gift on the soap. People love to see their name.\n"
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "㉠에 들어갈 알맞은 말을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "선물을 받는 사람의",
+          "누나가 기르는 과일의",
+          "과일을 선물하는 사람",
+          "누나가 선물하는 과일의"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Điền cụm từ thích hợp vào ㉠.\n1. Của người nhận quà\n2. Của loại quà mà chị trồng\n3. Người tặng quả\n4. Của loại quả mà chị tôi tặng \n--------------------\nV + 아/어/여 주다: Làm việc gì cho ai đó. \nN + 와/과 같다: Giống với N.\nV + 는 + N: Hình thức danh từ hóa, định ngữ thì hiện tại của N; động từ trước 는 bổ nghĩa cho danh từ đứng sau.",
+          "en": "Fill the appropriate phrase in <g>㉠</g>.\n1. Of the person who receives the gift\n2. Of the fruits she grows\n3. Of the person giving the fruit\n4. Of the fruit she gives\n--------------------\n<g>V + 아/어/여 주다:</g> Do something for someone.\n<g>N + 와/과 같다:</g> To be the same as.\n<g>V + 는 + N:</g> Noun modifiers for verbs of present tenses."
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "누나는 사과와 딸기를 좋아합니다.",
+          "누나는 같은 모양의 비누를 만듭니다.",
+          "누나는 과일 냄새가 나는 비누를 만듭니다.",
+          "누나가 좋아하는 과일과 비누를 선물합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn:\n1. Chị tôi thích táo và dâu tây. \n2. Chị tôi làm xà phòng cùng hình dạng. \n3. Chị tôi làm xà phòng có mùi trái cây. \n4. Tôi tặng trái cây và xà phòng mà chị thích.\n--------------------\n냄새가 나다: Có mùi, tỏa ra mùi",
+          "en": "Choose the answer that matches the content of the paragraph.\n1. My sister likes apples and strawberries.\n2. My sister makes soap with the same shape.\n3. My sister makes soap that smells like fruit.\n4. I give my sister her favorite fruit and soap as gifts.\n--------------------\n<g>냄새가 나다:</g> To smell"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120005",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[57～58] 다음을 순서대로 맞게 나열한 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(가) 한국에서 제일 유명한 시장은 서울 중심에 있는 남대문시장입니다. \n(나) 남대문시장도 한국의 가장 오래된 시장입니다. \n(다) 근처에 N서울타워, 한옥마을도 있어서 서울 구경하러 오는 외국인들이 남대문시장을 많이 찾아갑니다.\n(라) 여기에는 없는 것이 없어서 옷과 신발, 시계, 카메라 등 여러 가지 물건들을 살 수 있습니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "(가) - (라) - (다) - (나)",
+          "(가) - (나) - (라) - (다)",
+          "(나) - (가) - (다) - (라)",
+          "(나) - (라) - (가) - (다)"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "한국에서 제일 유명한 시장은 서울 중심에 있는 남대문시장입니다. 남대문시장도 한국의 가장 오래된 시장입니다. 여기에는 없는 것이 없어서 옷과 신발, 시계, 카메라 등 여러 가지 물건들을 살 수 있습니다. 근처에 N서울타워, 한옥마을도 있어서 서울 구경하러 오는 외국인들이 남대문시장을 많이 찾아갑니다.\n\nNgôi chợ nổi tiếng nhất ở Hàn Quốc là chợ Namdaemun nằm ở trung tâm thành phố Seoul. Chợ Namdaemun cũng là ngôi chợ lâu đời nhất ở Hàn Quốc. Ở đây không có thứ gì là không có nên bạn có thể mua nhiều đồ vật như quần áo, giày dép, đồng hồ, máy ảnh tại đây. Ở gần đó là tháp N Seoul và làng Hanok nên rất nhiều người nước ngoài tới tham quan Seoul tìm tới chợ Namdaemun.\n--------------------\n없는 것이 없다: Không có gì là không có\n오래되다: Cũ, lâu năm\n\nV + 는 + N: Định ngữ của động từ thì hiện tại.\nV + (으)러 오다: Đến (đâu) để.",
+          "en": "<g>한국에서 제일 유명한 시장은 서울 중심에 있는 남대문시장입니다. 남대문시장도 한국의 가장 오래된 시장입니다. 여기에는 없는 것이 없어서 옷과 신발, 시계, 카메라 등 여러 가지 물건들을 살 수 있습니다. 근처에 N서울타워, 한옥마을도 있어서 서울 구경하러 오는 외국인들이 남대문시장을 많이 찾아갑니다.</g>\n\nThe most famous market in Korea is Namdaemun Market in the center of Seoul. Namdaemun Market is also the oldest market in Korea. There is everything here, so you can buy clothes, shoes, watches, cameras, and many other things. There are also N Seoul Tower and Hanok Village nearby, so many foreigners who come to see Seoul visit Namdaemun Market.\n--------------------\n<g>없는 것이 없다:</g> To have everything\n<g>오래되다:</g> To be old\n\n<g>V + 는 + N:</g> Noun modifiers for verbs of present tenses.\n<g>V + (으)러 오다:</g> To come to somewhere to do something."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120006",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[57～58] 다음을 순서대로 맞게 나열한 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(가) 안동은 외국인들이 한국 문화를 보고 느낄 수 있는 곳으로 유명합니다.\n(나) 안동에는 숙소로 이용할 수 있는 전통 한옥이 있습니다. \n(다) 저도 이번에 한옥에서 처음 자 봤는데 이 전통적인 분위기가 참 좋았습니다.\n(라) 저는 지난 주말에 기숙사 친구들과 안동에 다녀왔습니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "(라) - (나) - (다) - (가)",
+          "(라) - (가) - (나) - (다)",
+          "(나) - (라) - (가) - (다)",
+          "(나) - (다) - (라) - (가)"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "저는 지난 주말에 기숙사 친구들과 안동에 다녀왔습니다. 안동은 외국인들이 한국 문화를 보고 느낄 수 있는 곳으로 유명합니다. 안동에는 숙소로 이용할 수 있는 전통 한옥이 있습니다. 저도 이번에 한옥에서 처음 자 봤는데 이 전통적인 분위기가 참 좋았습니다.\n\nTuần trước tôi đã đến Andong cùng các bạn cùng phòng ký túc xá. Andong nổi tiếng là nơi người nước ngoài có thể xem và cảm nhận nền văn hóa Hàn Quốc. Ở Andong có nhiều ngôi nhà Hanok truyền thống mà vẫn có thể dùng để ở. Dịp này cũng là lần đầu tiên tôi ngủ ở trong Hanok, và tôi thực sự thích bầu không khí truyền thống này.\n--------------------\n분위기: Bầu không khí\n\nN + (으)로 유명하다: Nổi tiếng là.\nV + 는 + N: Định ngữ của động từ thì hiện tại.\nV + (으)ㄹ 수 있다/없다: Có thể/không thể.",
+          "en": "<g>저는 지난 주말에 기숙사 친구들과 안동에 다녀왔습니다. 안동은 외국인들이 한국 문화를 보고 느낄 수 있는 곳으로 유명합니다. 안동에는 숙소로 이용할 수 있는 전통 한옥이 있습니다. 저도 이번에 한옥에서 처음 자 봤는데 이 전통적인 분위기가 참 좋았습니다.</g>\n\nI went to Andong with my dorm friends last weekend. Andong is famous as a place where foreigners can see and feel Korean culture. In Andong, there are traditional Hanok available for accommodation. I also slept in a Hanok for the first time this time, and I really liked this traditional atmosphere.\n--------------------\n<g>분위기:</g> Atmosphere\n\n<g>N + (으)로 유명하다:</g> To be famous for.\n<g>V + 는 + N:</g> Noun modifiers for verbs of present tenses.\n<g>V + (으)ㄹ 수 있다/없다:</g> Can/can't."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120006",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[1～2] (   )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "무슨 일을 (   ) 열심히 하는 것이 중요하다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "하든지",
+          "하도록",
+          "하다가",
+          "하더니"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Bất kể làm\n2. Để làm\n3. Đang làm thì\n4. Làm mà bây giờ\n--------------------\nV/A + 든지: Bất kể, bất cứ.\nV + 도록: Để, để cho.\nV + 다가: Đang ... thì.\nV/A + 더니: Vậy mà, thế mà, thế nhưng.\n\n(Bất kể làm) việc gì thì điều quan trọng là làm một cách chăm chỉ.",
+          "en": "1. Whatever you do\n2. To do\n3. While doing\n4. Do and now\n--------------------\n<g>V/A + 든지:</g> Regardless of.\n<g>V + 도록:</g> In order to.\n<g>V + 다가:</g> And, but then.\n<g>V/A + 더니:</g> And then, but now.\n\n<g>무슨 일을 (하든지) 열심히 하는 것이 중요하다:</g> Whatever you do, it's important to work hard."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220001_a",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[1～2]( )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "형은 차가워 (   ) 마음은 따뜻하다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "보여도",
+          "보여야",
+          "보이다가",
+          "보이든지"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Anh tôi (   ) lạnh lùng nhưng lại có ấm lòng ấm áp.\n1. Dù trông có vẻ\n2. Phải có vẻ\n3. Đang có vẻ thì\n4. Có vẻ hoặc \n--------------------\n차갑다: Lạnh, lạnh lùng\n\nV + 아/어도: Dù, cho dù\nV + 아/어야: Phải \nV + 다가: Đang (làm gì) thì\nV +  든지: Hoặc, hoặc là",
+          "en": "1. Looks (cold) but\n2. Has to look (cold) to\n3. Looks (cold) and then\n4. Looks (cold) or\n--------------------\n<g>차갑다:</g> To be cold\n\n<g>V + 아/어도:</g> Although.\n<g>V + 아/어야:</g> Must, have to.\n<g>V + 다가:</g> And, but then.\n<g>V + 든지:</g> Or.\n\n<g>형은 차가워 (보여도) 마음은 따뜻하다.</g>: My brother looks cold but has a warm heart."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220001_a",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[28～31]다음을 읽고 ( )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "사람들은 일반적으로 의자가 편안하게 앉기 위한 도구로 만들어졌다고 생각한다. 그러나 의자는 권력층이 자신들의 (        ) 만든 것이다. 왕의 의자는 동물의 다리 모양으로 다리를 만들었다. 심지어 거기에 금을 바르고 보석 등으로 장식을 하여 권위를 보여 주었다. 귀족들이 사용한 의자는 왕의 의자보다 장식이 간소하고 높이도 낮았으며, 귀족의 계급에 따라 다리 모양도 달랐다. 반면 당시 서민들은 의자 없이 바닥에서 앉아서 생활을 하였다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "실용성과 기술력을 보여 주고자",
+          "개성과 아름다움을 나타내고자",
+          "품위와 재력을 과시하고자",
+          "신분과 계급을 구분하고자"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Mọi người thường nghĩ rằng ghế được làm ra như một dụng cụ để ngồi thoải mái. Tuy nhiên, chiếc ghế được tạo ra bởi tầng lớp quyền lực (        ) của họ. Ghế của nhà vua có các chân làm theo hình dáng chân của động vật. Thậm chí họ còn cho thấy quyền uy bằng cách dát vàng và trang trí bằng đá quý. So với ghế của nhà vua, ghế quý tộc sử dụng được trang trí đơn giản và có chiều cao thấp hơn, và hình dáng của chân cũng khác nhau tùy thuộc vào tầng lớp của quý tộc. Mặt khác, người dân thường thời đó không dùng ghế, họ ngồi dưới sàn để sinh hoạt.\n1. Để cho mọi người thấy tính ứng dụng và kỹ thuật \n2. Để thể hiện cá tính và vẻ đẹp\n3. Để phô trương phẩm giá và tài chính \n4. Để phân biệt thân phận và giai cấp\n--------------------\nĐoạn văn cung cấp các ví dụ về sự khác nhau của thiết kế ghế tùy theo thân phận và giai cấp. Như vậy ghế được tạo ra bởi tầng lớp quyền lực để phân biệt thân phận và giai cấp. 4 là đáp án đúng.",
+          "en": "1. To show practicality and technical skills\n2. To express individuality and beauty\n3. To show off dignity and wealth\n4. To distinguish status and class\n--------------------\nPeople generally think of a chair as a tool for sitting comfortably. However, chairs were made by the powerful to distinguish their status and class. The king's chair has legs shaped like animal legs. They even coated it with gold and decorated it with jewels to show their authority. The chairs used by the nobles were simpler in decoration and lower in height than those of the king, and the shape of the legs was different depending on the rank of the nobles. On the other hand, the common people at that time sat on the floor without a chair.\n\nThe paragraph provides examples of different chair designs according to status and class. Thus chairs are created by the powerful to distinguish their status and class. 4 is the correct answer."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220001_b",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[28～31] 다음을 읽고 (   )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "취재 경계선은 취재가 과열되어 발생할 수 있는 불상사를 예방하기 위해 설정한 것이다. 수백 명의 취재진이 화제의 인물에게 몰려들 경우 사고가 발생해 취재를 망칠 수 있다. 그래서 선을 그어 놓고 그 바깥에서 취재하자는 합의를 본 것이다. 비록 법으로 정해져 있지 않지만 언론계가 이 선을 지키려고 노력하는 것은 (      ) 순간 원활한 보도가 어려워진다는 것을 누구보다 잘 알고 있기 때문이다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "취재 정보를 공유하는",
+          "취재 경계선이 무너지는",
+          "취재 내용을 잘못 해석하는",
+          "취재 경계선이 새로 설정되는"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Ranh giới lấy tin là thứ được đặt ra để đề phòng chuyện không hay có thể xảy ra do lấy tin quá đà. Khi hàng trăm người lấy tin đổ dồn về phía nhân vật của câu chuyện, sự cố có thể xảy ra và làm hỏng việc lấy tin. Vậy nên người ta mới kẻ vạch và nó được coi như thỏa thuận hãy lấy tin phía ngoài vạch đó. Dù nó không được quy định thành luật nhưng giới báo chí cố gắng giữ ranh giới này vì họ hiểu hơn ai hết vào lúc (   ) việc lấy tin thuận lợi sẽ trở nên khó khăn.\n1. Chia sẻ thông tin cần lấy\n2. Ranh giới lấy tin bị xô đổ\n3. Giải thích nhầm nội dung lấy tin\n4. Ranh giới lấy tin được đặt mới lại\n--------------------\n지키다: Giữ\n무너지다: Đổ\n사고가 발생하다: Sự cố phát sinh\n망치다: Làm hỏng\n\nGiới báo chí cố gắng giữ ranh giới này vì nếu ranh giới bị xô đổ thì sự cố sẽ phát sinh và khó lấy tin hơn.",
+          "en": "1. The information is shared\n2. The line of news collecting breaks down\n3. They misinterpret the contents of the report\n4. A new line of news collecting is set\n--------------------\nThe boundary line for news collecting is set to prevent accidents that may occur due to overheating of news collecting. If hundreds of reporters flock to the topic of discussion, accidents can occur and ruin the news that is being collected. So, after drawing a line, they agreed to collect news from outside. Although it is not stipulated by law, the reason why the media industry is trying to keep this line is because they know better than anyone that the moment the line of news collecting breaks down, it becomes difficult to report smoothly.\n\n<g>지키다:</g> To protect, to keep\n<g>무너지다:</g> To collapse\n<g>사고가 발생하다:</g> An accident occurs\n<g>망치다:</g> To spoil, to ruin\n\nThe press tries to keep this line because if the line is broken, accidents can occur and it will be more difficult to collect news."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220001_b",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[3～4]다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "새로 이사한 집은 회사에서 <u>가까울 뿐만 아니라</u> 방도 넓다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "가까울지라도",
+          "가까울뿐더러",
+          "가깝거나",
+          "가까울수록"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Ngôi nhà tôi mới chuyển đến <u>không chỉ gần</u> công ty <u>mà<u/> phòng cũng rộng.\n1. Dù có gần\n2. Không chỉ gần mà\n3. Gần hoặc\n4. Càng gần càng\n--------------------\nV/A + (으)ㄹ 뿐만 아니라: Không những... mà còn\nV/A + (으)ㄹ뿐더러: Không những chỉ... mà còn...",
+          "en": "1. Even if it's close\n2. Not only close\n3. Close or\n4. The closer it is\n--------------------\n<g>V/A + (으)ㄹ 뿐만 아니라:</g> Not only... but also...\n<g>V/A + (으)ㄹ뿐더러:</g> Not only... but also...\n\nThe new house is not only close to the company, but also has a large room."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_a",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[3～4]다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "먹구름이 몰려오는 걸 보니 비가 <u>올 모양이다</u>.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "오기도 한다",
+          "올 것만 같다",
+          "올 리가 없다",
+          "온 적이 없다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Mây đen kéo đến thế này <u>có vẻ sắp</u> mưa đây.\n1. Cũng đến\n2. Chắc là sẽ đến\n3. Không có lý nào lại đến\n4. Chưa từng đến\n--------------------\n먹구름: Mây đen\n\nV + (으)ㄹ 모양이다: Có vẻ, có lẽ.\nV + 기도 하다: Làm cả.\nV + (으)ㄹ 것 같다: Có vẻ, có lẽ.\nV + (으)ㄹ 리가 없다: Không có lý nào lại.\nV + (으)ㄴ 적이 있다/없다: Đã/chưa từng làm gì.",
+          "en": "The dark clouds come like this. It <u>looks like about to</u>  rain.\n1. It sometimes (rains)\n2. It looks like it's going to (rain)\n3. There's no way it's going to (rain)\n4. It has never (rained)\n--------------------\n<g>먹구름:</g> Dark clouds\n\n<g>V + (으)ㄹ 모양이다:</g> It seems, I guess.\n<g>V + 기도 하다:</g> Sometimes <g>V</g> happens.\n<g>V + (으)ㄹ 것 같다:</g> Look like, seem, I think.\n<g>V + (으)ㄹ 리가 없다:</g> There's no way, can't be.\n<g>V + (으)ㄴ 적이 있다/없다:</g> To have/to not have done something before."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_a",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[32～34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "나비 박사 석주명은 나비의 종류를 분류하고 이름을 지어 준 생물학자이다. 1931년부터 나비를 연구한 그는 한국의 나비가 총 844종이라는 당시의 분류를 248종으로 수정하였다. 날개 무늬나 모양이 조금만 달라도 다른 종이라고 판단한 기존의 분류가 틀렸음을 배추흰나비 16만여 마리의 무늬를 비교해서 밝혔다. 또한 그때까지 한자어나 외래어로 명명된 나비에 ‘떠들썩 팔랑나비’와 같은 고유어 이름을 지어 주는 데 앞장섰다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "석주명은 한국의 나비를 총 844종으로 분류하였다.",
+          "석주명은 나비 이름을 고유어로 바꾸려고 노력하였다.",
+          "석주명은 자신의 배추흰나비 연구에 문제가 있음을 알았다.",
+          "석주명은 나비의 날개 모양이 다르면 종이 달라짐을 밝혔다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Tiến sĩ bướm Seok Ju Myeong là nhà sinh vật học đã phân loại bướm và đặt tên cho chúng. Ông ấy đã nghiên cứu về bướm từ năm 1931 và sửa phân loại tổng số loài bướm ở Hàn Quốc từ 844 loài xuống còn 248 loài. Ông đã so sánh hoa văn của gần 160000 con bướm bắp cải trắng và cho thấy phân loại theo tiêu chuẩn dù chỉ khác một chút hoa văn trên cánh hay hình dạng cũng phán đoán là loài khác là kiểu phân loại sai. Thêm vào đó, ông là người đi đầu trong việc đặt tên thuần Hàn như \"bướm phấp phới lao xao\" cho những loại bướm được đặt tên bằng từ tiếng Hán hoặc từ ngoại lai. \n1. Seok Ju Myeong đã chia bướm Hàn Quốc thành 844 loại.\n2. Seok Ju Myeong cố gắng đổi tên bướm sang từ thuần Hàn.\n3. Seok Ju Myeong biết rằng có vấn đề trong nghiên cứu về bướm bắp cải trắng của bản thân.\n4. Seok Ju Myeong cho thấy nếu hình dạng của cánh bướm khác nhau thì sẽ khác loài.\n--------------------\n고유어: Từ thuần Hàn\n이름을 짓다: Đặt tên\n한자어: Từ tiếng Hán\n외래어: Từ ngoại lai\n명명되다: Được định danh\n\n또한 그때까지 한자어나 외래어로 명명된 나비에 ‘떠들썩  팔랑나비’와 같은 고유어 이름을 지어 주는 데 앞장섰다: Thêm vào đó, ông là người đi đầu trong việc đặt tên thuần Hàn như \"bướm phấp phới lao xao\" cho những loại bướm được đặt tên bằng từ tiếng Hán hoặc từ ngoại lai. ",
+          "en": "Dr. Butterfly Seok Ju Myeong is a biologist who classified and named butterflies. After studying butterflies since 1931, he revised the classification of Korean butterflies from 844 species to 248 species. It was revealed by comparing the patterns of 160,000 white butterflies in cabbage that the existing classification, which was judged to be different species even if the wing pattern or shape were slightly different, was wrong. He was also at the forefront of giving native language names such as 'Fluttering Butterfly' to butterflies that had been named in Chinese characters or foreign languages until then.\n1. Seok Ju Myeong classified Korean butterflies into 844 species.\n2. Seok Ju Myeong tried to change the name of the butterfly into the native language.\n3. Seok Ju Myeong realized that there was a problem with the research on cabbage white butterflies.\n4. Seok Ju Myeong revealed that the different species of butterflies have different wing shapes.\n--------------------\n<g>고유어:</g> Native language \n<g>이름을 짓다:</g> To name\n<g>한자어:</g> Sino-Korean word\n<g>외래어:</g> Loanword\n<g>명명되다:</g> To be named\n\n<g>또한 그때까지 한자어나 외래어로 명명된 나비에 ‘떠들썩  팔랑나비’와 같은 고유어 이름을 지어 주는 데 앞장섰다:</g> He was also at the forefront of giving native language names such as 'Fluttering Butterfly' to butterflies that had been named in Chinese characters or foreign languages until then."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_c",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[32～34]다음을 읽고 내용이 같은 것을 고르십시오.(각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "보리와 궁합이 잘 맞는 음식은 무와 콩이다. 무는 소화를 돕는 성분이 들어 있어 차가운 성질의 보리밥과 함께 먹으면 배탈을 방지한다. 무를 넣은 장국에 찬 메밀국수를 말아 먹는 것이나 냉면에 무채를 곁들여 먹는 것도 그런 이유에서이다. 한편 콩에는 보리에 부족한 영양 성분이 풍부해 콩을 섞어 보리밥을 지으면 영양의 균형을 맞출 수 있다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "차가운 메밀국수는 무와 함께 먹으면 소화가 잘된다.",
+          "보리밥을 콩과 함께 섭취하면 배탈을 방지할 수 있다.",
+          "콩으로 만든 반찬은 따뜻한 음식과 함께 먹으면 좋다.",
+          "냉면과 콩을 같이 섭취하면 영양의 균형을 맞출 수 있다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Món ăn phù hợp với lúa mạch là củ cải và đậu. Củ cải có thành phần giúp tiêu hóa nên nếu ăn cùng với cơm lúa mạch có tính chất lạnh sẽ ngăn ngừa rối loạn tiêu hoá. Đó là lý do mà mì kiều mạch lạnh được trộn với canh nước trong có bỏ củ cải, hoặc mì lạnh được ăn kèm với củ cải. Mặt khác, đậu có nhiều thành phần dinh dưỡng mà lúa mạch thiếu nên nếu trộn đậu với cơm lúa mạch thì có thể cân bằng dinh dưỡng.\n1. Mì kiều mạch lạnh được tiêu hóa tốt hơn khi ăn với củ cải.\n2. Nếu ăn cơm lúa mạch với đậu thì có thể ngăn ngừa rối loạn tiêu hoá.\n3. Các món ăn kèm từ làm từ đậu rất tốt để ăn với thức ăn ấm.\n4. Nếu ăn mì lạnh và đậu cùng nhau thì có thể cân bằng dinh dưỡng.\n--------------------\nCủ cải có thành phần giúp tiêu hóa nên mì kiều mạch lạnh được trộn với canh nước trong có bỏ củ cải. Như vậy 1 là đáp án đúng.",
+          "en": "Foods that go well with barley are radishes and beans. Radish contains ingredients that help digestion, so eating it with cold barley rice prevents stomach upset. That's why people eat cold buckwheat noodles in clear soybean soup with radish or cold noodles with radish. On the other hand, soybeans are rich in nutrients that barley lacks, so if you mix beans and make barley rice, you can balance the nutrition.\n1. Cold buckwheat noodles are better digested when eaten with radishes.\n2. If you eat barley rice with beans, you can prevent digestive disorders.\n3. Side dishes made from beans are great to eat with warm food.\n4. If you eat cold noodles and beans together, you can balance the nutrition.\n--------------------\nRadishes have ingredients that help with digestion, so cold buckwheat noodles are mixed with clear water soup with radish. So one is the right answer."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_c",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[35～38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "대중을 대상으로 한 예술 입문서가 작품의 역사적 배경, 작가에 대한 일화 등독자의 흥미를 끄는 이야기에 집중하는 경우를 많이 볼 수 있다. 작품에 관한 이런 지식은 작품 이해에 도움이 된다. 그러나 예술의 본질은 작품 그 자체에 있다. 작품 외적인 사실들보다 작품에 초점을 두고 작품의 구성 요소, 표현 방식 등을 충분히 설명하는 입문서가 늘어나기를 희망한다.",
+        "q_image": null,
+        "q_point": 2,
+        "q_answer": [
+          "예술 입문서는 작품 외적인 사실들을 다양하게 다뤄야 한다.",
+          "작품 자체에 대해 충실히 소개하는 예술 입문서가 많아져야 한다.",
+          "대중이 예술 작품에 관해 궁금해 하는 것이 무엇인지 알아야 한다.",
+          "예술 입문서는 대중이 예술을 어려운 것이 아니라고 느끼게 해야 한다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "It is common to see introductory art books aimed at the general public focus on stories that capture the reader's interest, such as the historical background of the work and anecdotes about the artist. This knowledge about the work is helpful in understanding the work. However, the essence of art lies in the work itself. I hope that the number of introductory books that focus on the work rather than facts outside the work and sufficiently explain the work's components and expression methods will increase.\n\n1. An introductory art book should cover a variety of facts outside the work.\n2. There should be more introductory art books that faithfully introduce the work itself.\n3. We need to know what the public is curious about the artwork.\n4. Introduction to art should make the public feel that art is not difficult.\n--------------------\nThe writer hopes that the number of introductory books that focus on the work rather than on facts outside the work will increase. 2 is the correct answer.",
+          "vi": "Ta thường thấy những cuốn sách nhập môn nghệ thuật nhắm đến đại chúng tập trung vào những câu chuyện thu hút sự quan tâm của người đọc, chẳng hạn như bối cảnh lịch sử của tác phẩm và những giai thoại về nghệ sĩ. Những kiến thức về tác phẩm như thế này rất hữu ích trong việc hiểu tác phẩm. Tuy nhiên, bản chất của nghệ thuật nằm ở chính tác phẩm. Tôi hy vọng rằng số lượng sách nhập môn tập trung vào tác phẩm hơn là các sự kiện bên ngoài tác phẩm và giải thích đầy đủ các yếu tố cấu thành cũng như phương pháp biểu đạt của tác phẩm sẽ tăng lên.\n\n1. Một cuốn sách nhập môn nghệ thuật phải bao gồm nhiều sự thật khác nhau bên ngoài tác phẩm.\n2. Cần có thêm những cuốn sách nhập môn nghệ thuật giới thiệu một cách trung thực về bản thân tác phẩm.\n3. Cần phải biết đại chúng tò mò điều gì về tác phẩm nghệ thuật.\n4. Sách nhập môn nghệ thuật phải làm cho đại chúng cảm thấy nghệ thuật không khó.\n--------------------\nNgười viết hy vọng rằng số lượng sách nhập môn tập trung vào tác phẩm hơn là các sự kiện bên ngoài tác phẩm sẽ tăng lên. 2 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220003_b",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[35～38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "분자 요리는 과학을 응용해 기존 식재료가 갖는 물리적인 제약에서 벗어나 새로운 형태와 식감의 음식을 만드는 요리법이다. 노란 망고 주스와 하얀 우유로 계란 모양의 요리를 만드는 것이 한 예다. 분자 요리는 식재료 고유의 맛과 향은 유지한 채 기존에는 볼 수 없었던 요리를 선보일 수 있다는 점에서 새로운 요리 문화를 이끌 것으로 기대하고 있다. 독특한 음식에 대한 설렘과 즐거움을 제공한다는 점도 이러한 기대감을 키운다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "분자 요리가 과학의 연구 영역을 더 넓히고 있다.",
+          "독특한 음식에 대한 소비자들의 요구가 늘고 있다.",
+          "식재료가 갖는 제약 탓에 요리법 개발이 정체되고 있다.",
+          "새로운 요리 문화를 이끌 요리법으로 분자 요리가 주목받고 있다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Ẩm thực phân tử là một phương pháp nấu ăn tạo ra thức ăn với hình dạng và cảm giác khi nhai mới bằng cách áp dụng khoa học để thoát khỏi những giới hạn vật lý của các thành phần hiện có. Một ví dụ là làm món trứng với nước ép xoài vàng và sữa trắng. Ẩm thực phân tử được kỳ vọng sẽ dẫn đầu một nền văn hóa ẩm thực mới trong đó nó có thể trình làng những món ăn chưa từng thấy trước đây trong khi vẫn giữ được hương vị và mùi thơm ban đầu của các nguyên liệu. Việc cung cấp sự hồi hộp và niềm vui về món ăn độc đáo cũng làm tăng sự kỳ vọng này.\n1. Ẩm thực phân tử đang mở rộng lĩnh vực nghiên cứu của khoa học.\n2. Nhu cầu của người tiêu dùng đối với loại ẩm thực độc đáo ngày càng tăng.\n3. Việc phát triển các công thức nấu ăn bị đình trệ do hạn chế về nguyên liệu.\n4. Ẩm thực phân tử đang thu hút sự chú ý như một phương pháp nấu ăn sẽ dẫn đầu một nền văn hóa ẩm thực mới.\n--------------------\n주목을 받다: Nhận được sự chú ý",
+          "en": "Molecular gastronomy is a cooking method that creates food with new look and feel by applying science to escape the physical limitations of existing ingredients. An example is making eggs with yellow mango juice and white milk. Molecular gastronomy is expected to lead a new food culture in which it can present never-before-seen dishes while preserving the original flavors and aromas of ingredients. Providing the thrill and fun of a unique dish also raises this expectation.\n1. Molecular gastronomy is expanding the field of scientific research.\n2. Consumer demand for unique cuisine is increasing.\n3. The development of recipes stalled due to limited availability of ingredients.\n4. Molecular gastronomy is gaining attention as a cooking method that will lead a new culinary culture.\n--------------------\n<g>주목을 받다:</g> To gain attention"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220003_b",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[13～15]다음을 순서대로 맞게 배열한 것을 고르십시오.(각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(가) 반딧불이가 내는 빛에서는 열이 나지 않는다. \n(나) 빛을 내는 곤충인 반딧불이가 뜨겁다는 생각은 사실과 다르다.\n(다) 이 빛은 배 끝에 있는 세포 속의 발광 물질이 몸속 산소와 결합해서 연소한 것이다. \n(라) 그래서 반딧불이의 빛은 '차가운 빛'이라고도 한다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(나) - (라) - (가) - (다)",
+          "(나) - (가) - (다) - (라)",
+          "(가) - (나) - (다) - (라)",
+          "(가) - (라) - (나) - (다)"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "빛을 내는 곤충인 반딧불이가 뜨겁다는 생각은 사실과 다르다. 반딧불이가 내는 빛에서는 열이 나지 않는다. 이 빛은 배 끝에 있는 세포 속의 발광 물질이 몸속 산소와 결합해서 연소한 것이다. 그래서 반딧불이의 빛은 '차가운 빛'이라고도 한다.\nSuy nghĩ ​​cho rằng đom đóm, một loài côn trùng phát sáng, nóng là không đúng. Ánh sáng do đom đóm phát ra không sinh nhiệt. Ánh sáng này là do vật chất phát quang trong tế bào ở cuối phần bụng đom đóm kết hợp với oxy trong cơ thể và đốt cháy. Đó là lý do tại sao ánh sáng của đom đóm còn được gọi là 'ánh sáng lạnh'.\n--------------------\nCâu (나) đứng đầu nêu lên chủ đề của đoạn văn. Câu (가) đứng thứ hai đề cập đến lý do cho câu đầu tiên. Câu (다) đứng thứ ba giải thích vì sao câu thứ hai lại nói ánh sáng đom đóm không sinh nhiệt. Câu (라) đứng cuối cùng mang tính kết luận và bổ sung thêm thông tin.",
+          "en": "<g>빛을 내는 곤충인 반딧불이가 뜨겁다는 생각은 사실과 다르다. 반딧불이가 내는 빛에서는 열이 나지 않는다. 이 빛은 배 끝에 있는 세포 속의 발광 물질이 몸속 산소와 결합해서 연소한 것이다. 그래서 반딧불이의 빛은 '차가운 빛'이라고도 한다.</g>\nThe idea that fireflies, the insects that produce light, are hot is not true. The light emitted by fireflies does not generate heat. This light is caused by the luminous substance in the cells at the end of the stomach combined with oxygen in the body and burned. That is why the light of fireflies is also called 'cold light'.\n--------------------\nThe first sentence <g>(나)</g> states the topic. The second sentence <g>(가)</g> refers to the reason for the first sentence. The third sentence <g>(다)</g> explains why the second sentence says that firefly light does not generate heat. The last sentence <g>(라)</g> is to conclude and to add more information."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[13～15]다음을 순서대로 맞게 배열한 것을 고르십시오.(각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(가) 그러므로 많이 가졌다는 것이 좋은 것만은 아니다.\n(나) 하지만 때때로 그 물건 때문에 적잖이 마음이 쓰이기도 한다.\n(다) 우리들은 필요에 의해서 물건을 갖게 된다.\n(라) 무엇인가를 갖는다는 것은 그만큼 자유롭지 못하다는 것이다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(다)-(라)-(나)-(가)",
+          "(다)-(나)-(라)-(가)",
+          "(라)-(가)-(나)-(다)",
+          "(라)-(다)-(가)-(나)"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "우리들은 필요에 의해서 물건을 갖게 된다. 하지만 때때로 그 물건 때문에 적잖이 마음이 쓰이기도 한다. 무엇인가를 갖는다는 것은 그만큼 자유롭지 못하다는 것이다. 그러므로 많이 가졌다는 것이 좋은 것만은 아니다.\nChúng ta sở hữu đồ đạc theo nhu cầu. Nhưng thỉnh thoảng vì những đồ vật đó mà ta bị bận lòng không ít. Việc nói rằng có được một cái gì đó là một việc không thể thoải mái ở mức như vậy. Vì vậy, có nhiều không phải lúc nào cũng là điều tốt.\n--------------------\nCâu (다) đứng đầu mang tính mở đoạn. Câu thứ hai là (나) đối lập với câu đầu tiên, nối bằng 하지만. Câu (라) đứng thứ ba giải thích cho câu thứ hai. Câu (가) đứng cuối cùng mang tính kết luận, nối bằng 그러므로.",
+          "en": "<g>우리들은 필요에 의해서 물건을 갖게 된다. 하지만 때때로 그 물건 때문에 적잖이 마음이 쓰이기도 한다. 무엇인가를 갖는다는 것은 그만큼 자유롭지 못하다는 것이다. 그러므로 많이 가졌다는 것이 좋은 것만은 아니다.</g>\nWe get things out of necessity. But sometimes, the object makes us feel a little bit fussy. Having something is not that free. So having a lot is not always a good thing.\n--------------------\nThe first sentence <g>(다)</g> comes first because it is an opening. The second sentence is <g>(나)</g> opposite to the first sentence, connected by <g>하지만</g>. The third sentence <g>(라)</g> explains the second sentence. The last sentence <g>(가)</g> is concluding, connected by <g>그러므로</g>."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220004",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[25～27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "할인 축제' 시작인데…'꽁꽁' 얼어붙은 소비심리",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "할인행사를 찾는 손님이 많을 것으로 예정된다.",
+          "할인행사를 앞두고 손님 유치에 힘쓰고 있다.",
+          "할인행사를 내일부터 시작하는데 손님의 주목을 받지 못는다.",
+          "할인행사 참여 업체 수가 지난해보다 감소하다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Lễ hội giảm giá' bắt đầu... Nhưng tâm lý tiêu dùng bị đóng băng 'cứng ngắc'\n\n1. Dự kiến sẽ có nhiều khách hàng đến sự kiện giảm giá.\n2. Trước thềm sự kiện giảm giá, người ta đang nỗ lực thu hút khách hàng.\n3. Sự kiện giảm giá bắt đầu từ ngày mai nhưng không nhận được sự chú ý của khách hàng.\n4. Số lượng doanh nghiệp tham gia sự kiện giảm giá giảm so với năm ngoái.\n--------------------\nTâm lý tiêu dùng bị đóng băng 'cứng ngắc' tức là người ta không mặn mà gì việc mua hàng. Do đó 3 là đáp án đúng.",
+          "en": "It's the beginning of the 'discount festival'... Frozen consumer sentiment\n\n1. Many customers are expected to visit the discount event.\n2. They are working hard to attract customers ahead of the discount event.\n3. The discount event starts tomorrow, but it doesn't attract customers' attention.\n4. The number of companies participating in the discount event decreased compared to last year.\n--------------------\n'Frozen consumer sentiment' means that people are not interested in buying goods. The correct answer is 3. "
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220006",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[25～27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "감동과 재미 두 마리 토끼 잡아, 늦은 시간대에도 시청률 쑥쑥",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "감동과 재미를 주기 때문에 늦은 시간에 방송되지만 시청률이 높다.",
+          "감동과 재미가 없어서 시청률이 낮은 시간으로 방송 시간을 옮겼다.",
+          "감동과 재미가 있어서 시청률이 높은 시간으로 방송 시간이 변경되었다.",
+          "감동과 재미가 없기 때문에 방송 시간을 바꾸어도 시청률이 계속 떨어진다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Bắt cả hai con thỏ cảm động và thú vị, dù ở khoảng thời gian muộn thì tỷ suất người xem vẫn vùn vụt\n\n1. Vì mang lại sự cảm động và thú vị nên phát sóng muộn nhưng tỷ lệ người xem vẫn cao.\n2. Vì không có sự cảm động và thú vị nên đã chuyển thời gian phát sóng sang giờ có tỷ suất người xem thấp.\n3. Vì cảm động và thú vị nên thời gian phát sóng đã được thay đổi thành thời gian có tỷ suất người xem cao.\n4. Vì không cảm động và thú vị nên dù có thay đổi thời gian phát sóng thì tỷ lệ người xem vẫn tiếp tục giảm.\n--------------------\nNgười Hàn Quốc có câu \"두 마리 토끼를 다 잡을 수 없다\" - không thể bắt được cả hai con thỏ. Câu này mang nghĩa là không thể có được cả hai thứ, được cái này thì phải mất cái kia. Thế nhưng đề bài lại nói là bắt được cả hai con thỏ, tức là vừa có được sự cảm động vừa có được sự thú vị. \"쑥쑥\" mang nghĩa ùn ụt, vùn vụt (hình ảnh liên tục văng hoặc bùng ra), tức là tỷ suất người xem tăng vùn vụt dù ở khung giờ muộn. Như vậy 1 là đáp án đúng.",
+          "en": "Catch both touching and funny rabbits, ratings are growing even at late hours\n\n1. It is broadcasted late at night but because it is touching and fun, the ratings are high.\n2. The broadcast time was moved to a time with low ratings because it was not touching and fun.\n3. The broadcasting time was changed to a time with high viewer ratings because it was touching and fun.\n4. Because it is not touching and fun, even if the broadcast time is changed, the ratings continue to drop.\n--------------------\n<g>두 마리 토끼를 잡는다:</g> Having two benefits doing one thing. 'Catch both touching and funny rabbits' means it is touching and fun. <g>쑥쑥:</g> A word used to describe how something or someone grows fast. We can guess that the ratings increase rapidly although it is broadcasted late at night. So the correct answer is 1."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220006",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[39～41] 다음 글에서 <보기>의 문장이 들어가기에 가장 알맞은 곳을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "군 가산점 제도는 장애인과 여성, 군대에 갈 수 없는 남자들에게 차별적인 제도이다. (     ㉠     ) 장애가 있거나 시력이 나쁘거나 체중이 지나치게 많이 나가는 사람은 군대에 가고 싶어도 갈 수 없다. (     ㉡     ) 군 가산점 제도가 부활되면 자신의 의지와 상관없이 군대에 가지 못한 사람들은 공무원 시험 등 입사 시험을 볼 때 차별을 받게 된다. (     ㉢     ) 누구나 공평한 기회를 가질 권리가 있는데 군대에 가지 않았다는 이유로 차별하는 것은 공정하지 않다. (     ㉣     )\n<보 기>따라서 군 가산점 제도가 부활되어서는 안 된다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "㉠",
+          "㉡",
+          "㉢",
+          "㉣"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chế độ cộng điểm quân sự là chế độ phân biệt đối xử với người khuyết tật, phụ nữ và đàn ông không thể đi quân đội. (     ㉠     ) Những người khuyết tật, thị lực kém hoặc quá cân không thể đi nhập ngũ ngay cả khi họ muốn. (     ㉡     ) Nếu chế độ cộng điểm quân sự được khôi phục, những người không thể đi lính bất kể ý chí của họ sẽ phải đối mặt với sự phân biệt đối xử khi tham gia các kỳ thi đầu vào công chức. (     ㉢     ) Mọi người đều có quyền có cơ hội bình đẳng, việc bị phân biệt đối xử với lý do không phục vụ trong quân đội là không công bằng. (     ㉣     )\n\nDo đó, chế độ cộng điểm quân sự không nên được khôi phục.\n--------------------\nCâu cần điền mang tính kết luận. Do đó sẽ hợp lý nếu nó đứng ở vị trí ㉣. 4 là đáp án đúng.",
+          "en": "The military bonus system is a discriminatory system for the disabled, women, and men who cannot serve in the military. <g>(     ㉠     )</g> People with disabilities, poor eyesight, or excessive weight cannot go to the military even if they want to. <g>(     ㉡     )</g> If the military bonus system is revived, those who did not serve in the military regardless of their will will be discriminated against when taking entrance exams such as civil service exams. <g>(     ㉢     )</g> Everyone has the right to equal opportunities, but it is not fair to discriminate against people just because they did not go to the military. <g>(     ㉣     )</g>\n\nTherefore, the military bonus system should not be revived.\n--------------------\nThe example sentence is conclusive. Therefore it will make sense if it is at <g>㉣</g>. 4 is the correct answer."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220007",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[39～41] 다음 글에서 <보기>의 문장이 들어가기에 가장 알맞은 곳을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "사람의 마음은 신체에 어떤 작용을 하는가? 한 심리 실험에서 70~80대 노인들을 대상으로 20년 전으로 돌아갔다고 치고 생활하도록 했다. (     ㉠     ) 실험 결과, 가족이나 간병인에 의지하며 힘없이 살아가던 노인들이 일주일 뒤 체중이 늘고 기억력도 좋아졌다. (     ㉡     ) 이 실험은 사람이 마음먹기에 따라 노화의 속도가 달라질 수 있음을 잘 보여 준다. (     ㉢     ) 다시 말하면 나는 늙어서 아무것도 못한다는 생각을 가지고서는 아무리 노력해도 젊어질 리 만무하다는 것을 이 실험을 통해 알 수 있다. (     ㉣     )\n<보 기>그뿐만 아니라 자신이 젊다고 생각하고 생활한 노인들은 그렇지 않은 노인들보다 실제로 더 젊어 보인다는 평가를 받았다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "㉠",
+          "㉡",
+          "㉢",
+          "㉣"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Tâm trí con người tác động như thế nào đến cơ thể? Trong một thí nghiệm tâm lý, những người cao tuổi ở độ tuổi 70~80 được yêu cầu sinh hoạt như thể họ đã quay trở lại 20 năm trước. (     ㉠     ) Kết quả thí nghiệm cho thấy, những người cao tuổi từng sống không có sức lực dựa vào gia đình hoặc người chăm sóc đã tăng cân và trí nhớ cũng tốt hơn sau một tuần. (     ㉡     ) Thí nghiệm này cho thấy tốc độ lão hóa có thể thay đổi tùy theo quyết tâm của con người. (     ㉢     ) Nói cách khác, qua thí nghiệm này có thể biết được rằng với suy nghĩ già rồi không làm được gì thì dù có cố gắng thế nào cũng không thể trẻ ra được. (     ㉣     )\n\nKhông chỉ vậy, những người già sống mà nghĩ rằng mình trẻ được đánh giá là thực sự trông trẻ hơn những người già nào không như vậy. \n--------------------\nV + (으)ㄹ 리(가) 만무하다: Không có lý nào, không thể như thế.\n\nCâu cần điền là một trong những kết quả của thí nghiệm và đầu câu có cụm \"그뿐만 아니라\". Vì vậy sẽ hợp lý nếu câu cần điền đứng ở vị trí ㉡. 2 là đáp án đúng.",
+          "en": "What does the human mind do to the body? In a psychological experiment, elderly people in their 70s and 80s were asked to live as if they had gone back 20 years. <g>(     ㉠     )</g> As a result of the experiment, the elderly who lived without power relying on their families or caregivers gained weight and improved their memory after a week. <g>(     ㉡     )</g> This experiment shows well that the speed of aging can vary depending on the person's mind. <g>(     ㉢     )</g> In other words, through this experiment, we can see that no matter how hard we try, we cannot become young if we think that we cannot do anything because we are old. <g>(     ㉣     )</g>\n\nNot only that, but the elderly who thought they were young were evaluated as actually looking younger than those who did not.\n--------------------\n<g>V + (으)ㄹ 리(가) 만무하다:</g> This expression indicates that there is no reason or possibility for a situation to occur.\n\nThe example sentence is one of the results of the experiment and has the phrase <g>\"그뿐만 아니라\"</g> at the beginning. Therefore, it is reasonable if the example sentence is at <g>㉡</g>. 2 is the correct answer."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220007",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(   )에 갑니다. 우유를 삽니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "가게",
+          "교실",
+          "은행",
+          "서점"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Tôi đi tới (   ). Tôi mua sữa. \n1. Cửa hàng\n2. Lớp học\n3. Ngân hàng\n3. Hiệu sách\n--------------------\n우유: Sữa. \n\nCửa hàng là nơi duy nhất trong 4 đáp án có bán sữa.",
+          "en": "1. Store\n2. Classroom\n3. Bank\n3. Bookstore\n--------------------\n<g>우유:</g> Milk. \n\nI go to store. I buy milk. \n\nStore is the place that sells milk. So 1 is correct."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39]<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "서점에 갑니다. (  )을 삽니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "책",
+          "물",
+          "옷",
+          "빵"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Tôi đi đến hiệu sách. Tôi mua (   ). \n1. Sách\n2. Nước\n3. Quần áo\n4. Bánh mỳ\n--------------------\n서점: Hiệu sách\n\nHiệu sách là nơi duy nhất bán sách, vì vậy nếu muốn mua sách thì cần đến địa điểm này.",
+          "en": "1. Books\n2. Water\n3. Clothes\n4. Bread\n--------------------\n<g>서점:</g> Bookstore\n\n<g>서점에 갑니다. (책)을 삽니다</g>: I go to the bookstore. I buy books.\n\nBookstore is the only one that sells books."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "저는 한국어 선생님입니다. 한국어를 (   ).",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "줍니다",
+          "모릅니다",
+          "가르칩니다",
+          "일어납니다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Tôi là giáo viên tiếng Hàn. Tôi (   ) tiếng Hàn. \n1. Cho\n2. Không biết\n3. Dạy\n4. Thức dậy\n--------------------\n한국어 선생님: Giáo viên tiếng Hàn. \n\nGiáo viên tiếng Hàn thì dạy tiếng Hàn.",
+          "en": "1. Give\n2. Don't know \n3. Teach\n4. Wake up\n--------------------\n<g>한국어 선생님:</g> Korean teacher. \n\n<g>저는 한국어 선생님입니다. 한국어를 (가르칩니다):</g> I am a Korean teacher. I teach Korean. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "요즘 일이 (   ). 바쁩니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "비쌉니다",
+          "작습니다",
+          "많습니다",
+          "나쁩니다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Dạo này công việc (   ). Tôi rất bận. \n1. Đắt\n2. Nhỏ\n3. Nhiều\n4. Xấu\n--------------------\n일이 많다: Nhiều việc. ",
+          "en": "1. Expensive\n2. Small\n3. Many/much/a lot of\n4. Bad\n--------------------\n<g>일이 많다:</g> A lot of work. \n\nThese days, there is a lot of work. I'm very busy. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "몇 시(   ) 옵니까?",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "가",
+          "는",
+          "를",
+          "에"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. 가 (Tiểu từ chủ ngữ)\n2. 는 (Tiểu từ chủ ngữ)\n3. 를 (Tiểu từ tân ngữ)\n4. 에 (Trợ từ ở đâu/vào lúc)\n--------------------\n몇 시(에) 옵니까? : Mấy giờ thì cậu tới? \n\n시: Giờ + 에: Vào lúc (mấy) giờ.",
+          "en": "1. 가 (Subject marker)\n2. 는 (Subject marker)\n3. 를 (Object marker)\n4. 에 (Time and location particle)\n--------------------\n<g>몇 시(에) 옵니까? : </g> What time are you coming? \n\n<g>시 + 에: </g> At/in/on the time. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39]<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "한국어가 어렵습니다. 친구(  ) 물어봅니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "의",
+          "를",
+          "에게",
+          "에서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. 의 (Trợ từ sở hữu)\n2. 를 (Tiểu từ tân ngữ)\n3. 에게 (Trợ từ chỉ đối tượng được tác động)\n4. 에서 (Trợ từ ở đâu/vào lúc)\n--------------------\n한국어가 어렵습니다. 친구 (에게) 물어봅니다: Tiếng Hàn thì khó. (Nên) tôi hỏi bạn. ",
+          "en": "1. 의 (Possessive particle)\n2. 를 (Object particle)\n3. 에게 (Adverb indicating the affected object)\n4. 에서 (Time and location particle)\n--------------------\n<g>한국어가 어렵습니다. 친구 (에게) 물어봅니다:</g> Korean is difficult. So I ask my friend. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39] <보기>와 같이 (   )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "산을 좋아합니다. 그래서 등산을 (   ) 합니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "자주",
+          "제일",
+          "아주",
+          "아까"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Tôi thích núi. Vì vậy tôi (   ) đi leo núi. \n1. Thường xuyên\n2. Nhất\n3. Rất\n4. Lúc nãy\n--------------------\n산을 좋아하다: Thích núi. ",
+          "en": "1. Frequently/often\n2. The best\n3. Very\n4. Earlier\n--------------------\n<g>산을 좋아하다:</g> I like mountains. \n\nI like mountains. So I often go hiking. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_4",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[34～39]<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "바다 여행이 재미있었습니다. 다음에 (  )갈 겁니다.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "다시",
+          "서로",
+          "아주",
+          "제일"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Đi du lịch biển rất thú vị. Lần sau tôi sẽ (  ) đi. \n1. Lại\n2. Lẫn nhau\n3. Rất\n4. Nhất\n--------------------\n바다 여행이 재미있었습니다. 다음에 ( 다시 ) 갈 겁니다: Đi du lịch biển rất thú vị. Lần sau tôi sẽ ( lại ) đi. ",
+          "en": "1. Again\n2. Mutual\n3. Very\n4. Best\n--------------------\n<g>바다 여행이 재미있었습니다. 다음에 (다시) 갈 겁니다:</g> Going to beach is very interesting. Next time I will go again. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120002_4",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[40～42] 다음을 읽고 맞지 않는 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/2880876533c2aab8ed5c0b6f5f6501d6.png",
+        "q_point": 3,
+        "q_answer": [
+          "이 컴퓨터는 십만 원입니다.",
+          "이 컴퓨터를 1년 동안 썼습니다.",
+          "이 사람은 컴퓨터를 받고 싶습니다.",
+          "컴퓨터를 사고 싶으면 이메일로 연락합니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "\"Bán máy tính đã dùng được một năm. \"\nGiá: 100 000 won\nĐịa chỉ liên lạc: study@Korea.co.kr\n1. Chiếc máy tính này 100 000 won. \n2. Chiếc máy tính này đã dùng được một năm. \n3. Người này muốn nhận chiếc máy tính. \n4. Nếu muốn mua máy tính thì liên hệ qua email. \n--------------------\n연락처: Địa chỉ liên lạc\n쓰다: Dùng, sử dụng\n\nV + 고 싶: Muốn làm gì đó. ",
+          "en": "\"One year old computer for sale.\"\nPrice: 100 000 won\nContact: study@Korea.co.kr\n1. This computer costs 100 000 won. \n2. This computer is one year old. \n3. This person wants to receive the computer. \n4. If you want to buy a computer, contact them by email. \n--------------------\n<g>연락처:</g> Contact address\n<g>쓰다:</g>  To use\n\n<g>V + 고 싶:</g> Want to do something. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120003_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[40～42] 다음을 읽고 맞지 않는 것을 고르십시오. . ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/0482619b8d2c3c7edc0ca4b0c2216573.png",
+        "q_point": 3,
+        "q_answer": [
+          "하늘공원에서 음악회를 합니다.",
+          "토요일마다 음악회가 있습니다.",
+          "이 음악회는 한 달 동안 합니다.",
+          "이 음악회는 일곱 시에 시작합니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Buổi hòa nhạc hạnh phúc\nMời (anh/chị) tới dự buổi hòa nhạc. \nThời gian: 1/8-31/8/2014\nNgày giờ: 8 giờ tối thứ 7 hàng tuần\nĐịa điểm: Công viên bầu trời.\n\n1. Buổi hòa nhạc được diễn ra ở công viên bầu trời. \n2. Mỗi thứ 7 đều có buổi hòa nhạc. \n3. Buổi hòa nhạc này diễn ra trong một tháng. \n4. Buổi hòa nhạc này bắt đầu lúc 7 giờ. \n--------------------\n음악회: Nhạc hội, buổi hòa nhạc. ",
+          "en": "Happy Concert\nInvite (sir/madam) to the concert. \nTime: August 1st to August 31th, 2014\nDate and time: 8pm every Saturday\nLocation: Sky Park.\n\n1. The concert was held at the sky park. \n2. Every Saturday there is a concert. \n3. This concert runs for a month. \n4. This concert starts at 7 o'clock. \n--------------------\n<g>음악회:</g> Music festival, concert. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120003_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[40～42] 다음을 읽고 맞지 않는 것을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/0877692c4170e4d8442b3374516054f8.png",
+        "q_point": 3,
+        "q_answer": [
+          "지현 씨의 동생이 왔습니다.",
+          "커피숍은 회사 안에 있습니다.",
+          "지현 씨는 한 시에 회사에 갑니다.",
+          "지현 씨는 민수 씨에게 메시지를 썼습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Minsoo, \nEm của tớ tới rồi. \nVì vậy bây giờ tớ đang ở quán cafe trước công ty. \nTớ sẽ tới công ty lúc 1 giờ. ^^\nJihoon \n\n1. Em của Jihoon đã tới. \n2. (Jihoon) ở tiệm cafe bên trong công ty. \n3. Jihoon tới công ty lúc 1 giờ. \n4. Jihoon gửi tin nhắn cho Minsoo. \n--------------------\n메시지 쓰다: Gửi, viết tin nhắn\n\nTên người + 드림: Thường được dùng khi viết email, thể hiện ai là người viết mail đó. ",
+          "en": "Minsoo, \nMy younger brother has arrived. \nSo now I'm at the cafe in front of our company. \nI'll be at work at 1 o'clock. ^^\nJihoon\n\n1. Jihoon's brother has arrived. \n2. (Jihoon) at the cafe inside the company. \n3. Jihoon will arrive at the company at 1 o'clock. \n4. Jihoon sent a message to Minsoo. \n--------------------\nName + <g>드림:</g> Usually used when writing an email, showing who wrote the email. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120003_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[40～42]다음을 읽고 맞지 않는 것을 고르십시오. (각 3점). ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/dac9e3b78cfdc6601c5026ebd1366f49.png",
+        "q_point": 3,
+        "q_answer": [
+          "민수 씨는 도서관에 있습니다.",
+          "마이클 씨는 도서관에 올 겁니다.",
+          "민수 씨는 10분 후에 전화할 겁니다.",
+          "마이클 씨는 민수 씨에게 전화를 했습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Mike, xin lỗi cậu. Tớ đang ở thư viện nên không nghe điện thoại được. 10 phút sau tớ sẽ gọi lại cho cậu. -Minsoo-1. Minsoo đang ở thư viện. 2. Mike sẽ tới thư viện. 3. 10 phút sau Minsoo sẽ gọi lại. 4. Mike đã gọi điện cho Minsoo. --------------------전화 받다: Nghe điện thoại<div><br></div><div>Đề bài yêu cầu chọn câu có nội dung sai so với ảnh nên ta chọn đáp án 2.</div>",
+          "en": "Mike, I'm sorry.I'm at the library so I can't answer the phone.I'll call you back in 10 minutes.-Minsoo-1. Minsoo is at the library.2. Mike will go to the library.3. Minsoo will call back 10 minutes later.4. Mike called Minsoo.--------------------<g>전화 받다:</g> To answer the phone.<div><br></div><div>The question asks to choose the sentence with incorrect content compared to the picture, so we choose answer 2.</div>"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120003_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[59～60] 다음을 읽고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "라면은 맛있지만 소금이 많이 들어 있어서 건강에 나쁩니다. ( ㉠ ) 라면의 소금은 보통 국물을 만드는 스프에 있습니다. ( ㉡ ) 그래도 국물을 먹고 싶으면 스프를 조금만 넣습니다. ( ㉢ ) 그리고 라면을 끓일 때 스프를 늦게 넣는 것도 소금을 덜 먹는 또 하나의 방법입니다. ( ㉣ )",
+      "g_text_translate": {
+        "vi": "Mì Ramen thì ngon nhưng có nhiều muối nên không tốt cho sức khỏe. ( ㉠ ) Muối trong mì thường có trong súp được dùng để nấu nước mì. ( ㉡ ) Dù vậy thì nếu muốn ăn nước mì thì cũng chỉ nên cho một chút súp. ( ㉢ ) Và thêm súp vào sau khi đun sôi mì cũng là một cách để ăn ít muối hơn. ( ㉣ )\n",
+        "en": "Ramen is delicious, but it is bad for your health because it has a lot of salt. <g>( ㉠ )</g> The salt of ramen is usually in the soup making ramen soup. <g>( ㉡ )</g> But if you want to eat the ramen soup, add a little bit of soup. <g>( ㉢ )</g> And adding soup after boiling ramen is another way to eat less salt. <g>( ㉣ )</g>\n"
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "다음 문장이 들어갈 곳을 고르십시오: \n\"그래서 소금을 적게 먹으려면 라면 국물을 먹지 않는 게 좋습니다.\"",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "㉠",
+          "㉡",
+          "㉢",
+          "㉣"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Điền câu sau đây vào chỗ trống thích hợp: \n그래서 소금을 적게 먹으려면 라면 국물을 먹지 않는 게 좋습니다. \nVì vậy nếu muốn ăn ít muối hơn thì không nên ăn nước mì gói. \n--------------------\n그래서: Vì vậy, vì thế - Từ được dùng khi nội dung ở phía trước trở thành nguyên nhân, điều kiện hay căn cứ của nội dung ở phía sau. \n\nMuối có ở trong súp, khi nấu cho nhiều súp thì lúc uống nước mì sẽ ăn phải nhiều muối. Vì vậy muốn ăn ít muối thì không nên ăn nước mì. ",
+          "en": "Fill in the appropriate blank with this sentence: \n<g>그래서 소금을 적게 먹으려면 라면 국물을 먹지 않는 게 좋습니다. </g>\nSo if you want to eat less salt, you should not eat ramen soup. \n--------------------\n<g>그래서:</g> Therefore, so - This word is used when the content in front becomes the cause, condition or basis of the content behind. \n\nSalt is in the soup, when you add a lot of soup into ramen soup, you will eat a lot of salt. So if you want to eat less salt, you shouldn't eat ramen soup. "
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "라면은 건강에 좋은 음식입니다.",
+          "스프를 많이 넣으면 건강에 좋습니다.",
+          "스프를 먼저 넣으면 소금을 많이 먹게 됩니다.",
+          "라면의 소금을 적게 먹는 방법은 한 가지입니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn: \n1. Mì là thức ăn tốt cho sức khỏe. \n2. Nếu cho nhiều súp thì tốt cho sức khỏe. \n3. Nếu cho súp vào ngay từ đầu thì sẽ ăn nhiều muối hơn. \n4. Phương pháp ăn ít muối trong mì gói hơn. \n--------------------\n라면을 끓일 때 스프를 늦게 넣는 것도 소금을 덜 먹는 또 하나의 방법입니다:  Thêm súp vào sau khi đun sôi mì cũng là một cách để ăn ít muối hơn. \n\nVì vậy nếu cho súp vào ngay từ đầu thì sẽ ăn nhiều muối hơn. ",
+          "en": "Choose the answer that matches the passage's content: \n1. Ramen is healthy food. \n2. If you add a lot of soup, it is good for your health. \n3. If you add the soup at the beginning, you will eat more salt. \n4. Method of eating less salt in Ramen noodles. \n--------------------\n<g>라면을 끓일 때 스프를 늦게 넣는 것도 소금을 덜 먹는 또 하나의 방법입니다</g>:  Adding soup after boiling Ramen noodles is also a way to eat less salt. \n\n=> If you add soup at the beginning, you'll eat more salt. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120007_1",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[59～60]다음을 읽고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "저는 어릴 때부터 춤추는 것을 좋아했습니다. ( ㉠ )요즘도 매일 혼자 거울을 보면서 춤 연습을 합니다. ( ㉡ )주말에는 가끔 친구들과같이 지하철역이나 공원에서 공연도 합니다. ( ㉢ )사람들의 박수소리를 들으면 기분이 좋아져서 더 열심히 춤을 춥니다. ( ㉣ )",
+      "g_text_translate": {
+        "vi": "Tôi thích nhảy từ khi còn bé. ( ㉠ ) Dạo gần đây, mỗi ngày tôi đều vừa đứng trước gương vừa tập nhảy một mình. ( ㉡ ) Vào cuối tuần, thi thoảng tôi sẽ cùng bạn bè biểu diễn ở ga tàu điện ngầm hoặc công viên. ( ㉢ ) Nghe tiếng vỗ tay của mọi người khiến tôi vui hơn và nhảy chăm chỉ, miệt mài hơn. ",
+        "en": "I love to dance since I was a kid. <g>( ㉠ )</g> Lately, every day I stand in front of the mirror and practice dancing alone. <g>( ㉡ )</g> On weekends, sometimes I will perform with my friends at the subway station or in the park. <g>( ㉢ )</g> Hearing everyone's applause makes me happier and dance harder and harder. <g>( ㉣ )</g>"
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "다음 문장이 들어갈 곳을 고르십시오: \n\"사람들은 우리의 춤을 보고 박수를 치면서 소리를 지릅니다.\"",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "㉠",
+          "㉡",
+          "㉢",
+          "㉣"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Điền câu sau đây vào chỗ trống thích hợp: \n사람들은 우리의 춤을 보고 박수를 치면서 소리를 지릅니다. \nMọi người vừa xem chúng tôi nhảy, vừa vỗ tay và hò hét. \n--------------------\n박수를 치다: Vỗ tay\n소리를 지르다: Hò hét, la hét\n\nMọi người vỗ tay và la hét nên nhân vật nhảy chăm chỉ hơn. Hai câu này xảy ra theo thứ tự lần lượt và liên quan trực tiếp tới nhau. ",
+          "en": "Fill in the appropriate blank with the following sentences:\n<g>사람들은 우리의 춤을 보고 박수를 치면서 소리를 지릅니다. </g>\nPeople were watching us dance, clapping and shouting.\n--------------------\n<g>박수를 치다</g>: To applaud\n<g>소리를 지르다</g>: To shout\n\nEveryone clapped and shouted so the character danced harder. These two sentences occur in sequential order and are directly related to each other."
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "저는 날마다 춤 연습을 합니다.",
+          "저는 공연 보는 것을 좋아합니다.",
+          "저는 요즘 춤에 관심이 생겼습니다.",
+          "저는 혼자 공원에서 공연을 합니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn. \n1. Mỗi ngày tôi đều tập nhảy. \n2. Tôi thích xem biểu diễn. \n3. Dạo này tôi quan tâm tới nhảy. \n4. Tôi biểu diễn ở công viên một mình\n--------------------\n요즘도 매일 혼자 거울을 보면서 춤 연습을 합니다. \n\nDạo này nhân vật tập nhảy mỗi ngày trước gương (khi soi gương). ",
+          "en": "Choose the answer that matches the passage's content:\n1. I practice dancing every day.\n2. I like to watch shows.\n3. These days I'm interested in dancing.\n4. I perform at the park alone\n--------------------\n<g>요즘도 매일 혼자 거울을 보면서 춤 연습을 합니다. </g>\n\nThese days, the character practices dancing every day in front of the mirror (when looking in the mirror)."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120007_1",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[61～62] 다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "지금은 동전과 지폐를 모두 사용합니다. 하지만 전에는 동전만 사용했습니다. 종이로 만든 지폐는 쉽게 찢어지고 더러워져서( ㉠ )못합니다.  그리고 가짜 돈을 만들기도 쉽습니다. 그래서 동전보다 지폐를 늦게 사용한 것입니다.",
+      "g_text_translate": {
+        "vi": "Bây giờ chúng ta dùng cả tiền xu và tiền giấy. Nhưng trước đây lại chỉ dùng tiền xu. Tiền làm từ giấy rất dễ bị rách và bẩn nên không thể ( ㉠ ) được. Và nó cũng rất dễ để làm giả. Vì vậy mà tiền giấy được dùng muộn hơn tiền xu. \n",
+        "en": "We now use both coins and banknotes. But before, only coins were used. Banknotes are easily torn and dirty, so they don't last long. And it's easy to counterfeit. That is why banknotes were used later than coins."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "㉠에 들어갈 알맞은 말을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "오래 쓰지",
+          "가끔 내지",
+          "자주 만들지",
+          "계속 나오지"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Điền cụm từ thích hợp vào ㉠\n1. Dùng lâu dài\n2. Thỉnh thoảng lấy ra\n3. Làm thường xuyên\n4. Tiếp tục xuất hiện\n--------------------\nDựa vào nghĩa của câu thì chọn đáp án 1: Tiền làm từ giấy rất dễ bị rách và bẩn nên không thể dùng lâu dài được. \n",
+          "en": "Fill in <g>㉠</g> with an appropriate phrase:\n1. Last long\n2. Take it out from time to time\n3. Do it often\n4. Keep appearing\n--------------------\nBased on the meaning of the sentence, choose answer 1: Money made from paper is easy to tear and dirty, so it cannot be used for a long time.\n"
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "지폐는 잘 더러워집니다.",
+          "옛날에도 지폐를 사용했습니다.",
+          "지폐가 동전보다 먼저 나왔습니다.",
+          "동전은 가짜 돈을 만들기 쉽습니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn\n1. Tiền giấy dễ bị bẩn. \n2. Tiền giấy ngày xưa cũng được dùng. \n3. Tiền giấy xuất hiện trước tiền xu. \n4. Tiền xu rất dễ làm giả. \n--------------------\n종이로 만든 지폐는 쉽게 찢어지고 더러워져서: Tiền làm từ giấy rất dễ bị rách và bẩn. ",
+          "en": "Choose the answer that matches the passage's content:\n1. Banknotes get dirty easily.\n2. Banknotes were also used in the past.\n3. Banknotes appeared before coins.\n4. Coins are easy to counterfeit.\n--------------------\n<g>종이로 만든 지폐는 쉽게 찢어지고 더러워져서</g>: Money made from paper is easy to tear and dirty. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120007_2",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[65～66] 다음을 읽고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "식혜는 한국의 전통 음료수입니다. 보통 모임이나 잔치에서 ( ㉠ ) 식혜를 마십니다. 이것은 식혜가 소화를 도와주기 때문입니다. 식혜는 달고 맛있어서 많은 사람들이 좋아합니다. 시원하게 마시면 더 좋습니다. 저는 식혜를 만드는 방법이 간단해서 자주 만들어 먹습니다. 하지만 만드는 데 시간이 오래 걸립니다.",
+      "g_text_translate": {
+        "vi": "Sikhye là một loại đồ uống truyền thống của Hàn Quốc. Mọi người thường uống Sikhye trong các buổi họp mặt hoặc các bữa tiệc ( ㉠ ). Điều này là do Sikhye giúp hỗ trợ tiêu hóa. Sikhye ngọt và ngon nên mọi người rất thích. Nếu uống lạnh thì sẽ càng ngon hơn. Cách làm Sikhye cũng đơn giản nên tôi thường tự làm và uống. Nhưng tốn khá nhiều thời gian để làm Sikhye. \n",
+        "en": "Sikhye is a traditional Korean beverage. Sikhye is usually drunk after eating food at a meeting or feast after eating food. Because Sikhye aids digestion. Sikhye is sweet and delicious, so many people like it. It is better to drink it cold. The method of making sikhye is simple, so I often make it myself and drink. But it takes a long time to make."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "㉠에 들어갈 알맞은 말을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "운동을 한 후에",
+          "음식을 먹은 후에",
+          "모임에 가기 전에",
+          "음료수를 마시기 전에"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Điền cụm từ thích hợp vào ㉠\n1. Sau khi tập thể dục\n2. Sau khi ăn thức ăn\n3. Trước khi tới buổi họp mặt\n4. Trước khi uống nước giải khát\n--------------------\n식혜가 소화를 도와주기 때문입니다. \n\nVì Sikhye tốt cho hệ tiêu hóa nên sẽ uống sau khi ăn thức ăn. ",
+          "en": "Fill in <g>㉠</g> with an appropriate phrase:\n1. After doing exercise\n2. After eating food\n3. Before going to the meeting\n4. Before drinking beverage\n--------------------\n<g>식혜가 소화를 도와주기 때문입니다:</g> This is because Sikhye aids digestion.\n\nSikhye is good for the digestive system, it should be drunk after eating food. "
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "식혜는 빨리 만들 수 있습니다.",
+          "식혜는 달아서 사람들이 싫어합니다.",
+          "식혜는 차갑게 마시면 더 맛있습니다.",
+          "모임이나 잔치에 가면 식혜를 만듭니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn\n1. Có thể nhanh chóng làm Sikhye. \n2. Sikhye ngọt nên mọi người không thích. \n3. Sikhye ngon hơn khi uống lạnh. \n4. Khi đi họp hoặc dự tiệc (tôi) sẽ làm Sikhye. \n--------------------\n차갑다: Lạnh, lạnh lùng\n\n시원하게 마시면 더 좋습니다: Nếu uống lạnh thì sẽ càng ngon hơn. ",
+          "en": "Choose the answer that matches the passage's content:\n1. Sikhye can be made quickly.\n2. Sikhye is sweet so people don't like it.\n3. Sikhye tastes better when it's cold.\n4. When going to a meeting or party (I) will be Sikhye.\n--------------------\n<g>차갑다</g>: Be cold\n\n<g>시원하게 마시면 더 좋습니다</g>: If you drink it cold, it will taste better. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120007_2",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[63～64] 다음을 읽고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "Tiêu đề: Cuộc thi bóng rổ dành cho du học sinh\nCảm ơn bạn vì đã đăng ký tham gia cuộc thi bóng rổ. Cuộc thi sẽ bắt đầu lúc 10 giờ sáng thứ bảy tuần này tại sân vận động. Chúng tôi hy vọng những cầu thủ đăng ký tham gia trận đấu sẽ tới trước 9 giờ. Nếu trời mưa trận đấu sẽ được tổ chức tại nhà thi đấu bên cạnh hội quán sinh viên. Hẹn gặp bạn vào thứ bảy. \nHội trưởng hội sinh viên Kim Yumi",
+        "en": "Title: Basketball contest for international students\nThank you for signing up for the basketball contest. The contest will begin at 10 a.m. this Saturday at the stadium. We expect players registered to participate in the match will arrive before 9 o'clock. If it rains, the match will be held at the gymnasium next to the student union. See you on Saturday.\nStudent Union President Kim Yumi"
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": "/topiks/images/533e2a07360c04ecb42db6c92f91ee19.png"
+    },
+    "content": [
+      {
+        "q_text": "유미 씨는 왜 이 글을 썼습니까?",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "대회 날짜를 바꾸려고",
+          "대회 참가 신청을 받으려고",
+          "대회 참가 신청을 취소하려고",
+          "대회 시간과 장소를 알려 주려고"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Tại sao Yumi viết email này? \n1. Để đổi ngày tháng tổ chức cuộc thi\n2. Để nhận đăng ký tham gia cuộc thi\n3. Để hủy đăng ký tham gia cuộc thi\n4. Để thông báo thời gian và địa điểm của cuộc thi\n--------------------\n이번 주 토요일 오전 10시에 운동장에서 대회가 시작됩니다: Cuộc thi sẽ bắt đầu lúc 10 giờ sáng thứ bảy tuần này tại sân vận động. \n\nNhư vậy Yumi viết email này để thông báo thời gian và địa điểm của cuộc thi. ",
+          "en": "Why did Yumi write this email?\n1. To change the contest date\n2. To receive registration for the contest\n3. To cancel registration for the contest\n4. To announce the time and place of the contest\n--------------------\n<g>이번 주 토요일 오전 10시에 운동장에서 대회가 시작됩니다:</g> The contest will start at 10am this Saturday at the stadium.\n\nSo Yumi wrote this email to announce the time and place of the contest. "
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "체육관은 운동장 옆에 있습니다.",
+          "비가 오면 농구 대회를 하지 않습니다.",
+          "농구 대회 참가자는 10시까지 와야 합니다.",
+          "날씨가 좋으면 운동장에서 농구 대회를 할 겁니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn\n1. Nhà thi đấu ở cạnh sân vận động. \n2. Nếu trời mưa cuộc thi sẽ không được tổ chức. \n3. Người tham gia cuộc thi bóng rổ phải tới trước 10 giờ. \n4. Nếu trời đẹp thì cuộc thi bóng rổ sẽ được tổ chức ở sân vận động. \n--------------------\nNếu mưa thì tổ chức ở nhà thi đấu => Vậy chơi đẹp thì vẫn tổ chức ở Sân vận động. ",
+          "en": "Choose the answer that matches the passage's content:\n1. The gymnasium is next to the stadium.\n2. If it rains, the contest will not be held.\n3. Participants in the basketball contest must arrive before 10 o'clock.\n4. If the weather is nice, the basketball contest will be held at the stadium.\n--------------------\nIf it rains, the contest will be held at the gymnasium => So if it's nice, this contest will still be held at the stadium. "
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120007_3",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[63～64]다음을 읽고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "Bộ truyện tranh thú vị!\nKim Yunmi (@yunmiparang.net)\nĐây là bộ truyện tranh yêu thích của các bạn nhỏ. \nHọc sinh tiểu học cũng có thể đọc bộ truyện này. \nTôi mới chỉ đọc một lần nên sách còn rất sạch và mới. \nGiá của bộ truyện đã bao gồm phí vận chuyển là 15 000 won. \nCác bạn ai có hứng thú với bộ truyện này thì hãy gửi email cho tôi nhé. ",
+        "en": "Interesting comic series!\nKim Yunmi (@yunmiparang.net)\nThis is a children's favorite comic book series.\nElementary school students can also read this series.\nI have only read it once, so the book is very clean and new.\nThe price of the series includes the shipping fee of 15 000 won.\nIf you are interested in this series, please email me."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": "/topiks/images/8b0683a272e7fea4f3308b52d6a1c8c3.png"
+    },
+    "content": [
+      {
+        "q_text": "김윤미 씨는 왜 이 글을 썼습니까?",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "그림책을 팔고 싶어서",
+          "그림책을 바꾸고 싶어서",
+          "그림책을 소개하고 싶어서",
+          "그림책에 대해 물어보고 싶어서"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Vì muốn bán bộ truyện tranh\n2. Vì muốn đổi bộ truyện tranh\n3. Vì muốn giới thiệu bộ truyện tranh\n4. Vì muốn hỏi về bộ truyện tranh\n--------------------\n그림책: Truyện tranh, sách hình\n포함하다: Bao gồm\n관심이 있다: Quan tâm, hứng thú, thích\n배달 비용: Phí vận chuyển \n\n가격: Vì có nhắc tới giá cả nên nhân vật muốn bán bộ truyện này. ",
+          "en": "1. Because she wants to sell the comics\n2. Because she wants to change the comics\n3. Because she wants to introduce the comics\n4. Because she wants to ask about the comics\n--------------------\n<g>그림책</g>: Comics, picture books\n<g>포함하다</g>: Include\n<g>관심이 있다</g>: Be interested in\n<g>배달 비용</g>: Shipping fee\n\n<g>가격</g>: Because of telling about the price, the character wants to sell this series."
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "이 그림책은 새 책입니다.",
+          "여러 번 읽었지만 깨끗합니다.",
+          "초등학교 가기 전에 읽는 책입니다.",
+          "책값에 배달 비용도 들어 있습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn. \n1. Đây là bộ truyện mới. \n2. Người bán đã đọc vài lần nhưng vẫn còn sạch và mới. \n3. Đây là sách trẻ nhỏ đọc trước khi học tiểu học. \n4. Trong giá của bộ sách đã có cả phí vận chuyển. \n--------------------\n배달 비용을 포함해서 15000원입니다: Giá của bộ truyện đã bao gồm phí vận chuyển là 15 000 won. ",
+          "en": "Choose the answer that matches the passage's content:\n1. This is a new series.\n2. Seller read it a few times but still clean and new.\n3. This is a book children read before elementary school.\n4. In the price of the book, there is also a shipping fee.\n--------------------\n<g>배달 비용을 포함해서 15000원입니다</g>: The price of the comics includes the shipping fee of 15 000 won."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "120007_3",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[5～8]다음은 무엇에 대한 글인지 고르십시오. (각 2점). ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/6184edcb2236f2e62f029ba118df4a48.png",
+        "q_point": 2,
+        "q_answer": [
+          "신문",
+          "사전",
+          "시계",
+          "연필"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Mỗi ngày đọc một thế giới mới. \nĐôi mắt để nhìn thế giới!\n1. Báo \n2. Từ điển\n3. Đồng hồ\n4. Bút chì\n--------------------\n날마다: Mỗi ngày, hằng ngày",
+          "en": "Every day read a new world.\nEyes to see the world!\n1. Newspaper\n2. Dictionary\n3. Clock\n4. Pencil\n--------------------\n<g>날마다:</g> Every day."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220003_a_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[5～8]다음은 무엇에 대한 글인지 고르십시오. (각 2점). ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/a6865a7ccd333eedb9ed17e81ff05587.png",
+        "q_point": 2,
+        "q_answer": [
+          "학원",
+          "병원",
+          "박물관",
+          "대사관"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Bạn bị đau? Đừng chịu đựng. \nChúng tôi sẽ giúp nhiệt tình từ tư vấn đến phẫu thuật. \n1. Học viện, trung tâm\n2. Bệnh viện\n3. Viện bảo tàng\n4. Đại sứ quán\n--------------------\n상담하다: Tư vấn\n친철하다: Nhiệt tình, tử tế\n",
+          "en": "Are you sick? Don't suffer.\nWe will kindly help you from consultation to surgery.\n1. Academy\n2. Hospital\n3. Museum\n4. Embassy\n--------------------\n<g>상담하다/<g>: To consult\n<g>친철하다:</g> Be enthusiastic, be kind."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220003_a_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[5～8]다음은 무엇에 대한 글인지 고르십시오. (각 2점). ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/c2c98ea24053353f987f997f971f49a7.png",
+        "q_point": 2,
+        "q_answer": [
+          "환경 보호",
+          "공원 소개",
+          "날씨 정보",
+          "여행 계획"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Ngọn gió thổi mát trong rừng\nĐộng vật đáng yêu sống trong rừng\nNếu không còn rừng thì tất cả chúng đều biến mất. \n1. Bảo vệ môi trường\n2. Giới thiệu công viên\n3. Thông tin thời tiết\n4. Kế hoạch du lịch\n--------------------\n숲: Rừng",
+          "en": "Cool wind blowing in the forest\nLovely animals living in the forest\nWhen the forest disappears, all of this disappears.\n1. Environmental protection\n2. Park Introduction\n3. Weather information\n4. Travel plan\n--------------------\n<g>숲:</g> Forest."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220003_a_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[5～8]다음은 무엇에 대한 글인지 고르십시오. (각 2점). ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/47b1e40274f8840dde284b551ba1766f.png",
+        "q_point": 2,
+        "q_answer": [
+          "상품 안내",
+          "모집 안내",
+          "문의 방법",
+          "사용 방법"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Nếu bạn có thắc mắc, vui lòng để lại trên bảng thông báo dành cho khách hàng trên trang chủ Mỹ phẩm Seoul. Nếu bạn muốn nói chuyện điện thoại với nhân viên tư vấn, vui lòng gọi đến số 080-987-6543. \n1. Thông tin sản phẩm\n2. Hướng dẫn tuyển dụng\n3. Phương pháp tư vấn\n4. Phương pháp sử dụng\n--------------------\n홈페이지: Trang chủ\n상담원: Tư vấn viên, nhân viên tư vấn\n\n\n",
+          "en": "If you have any questions, please leave them on the customer notice board on the Seoul Cosmetics homepage. If you would like to speak to our counselor on the phone, please call 080-987-6543.\n1. Product announcement\n2. Recruitment notice\n3. Contact method\n4. Usage method\n--------------------\n<g>홈페이지:</g> Homepage\n<g>상담원:</g> Consultant."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220003_a_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[9～12]다음 글 또는 도표의 내용과 같은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/527bda007d886f18d16406b98c36e208.png",
+        "q_point": 2,
+        "q_answer": [
+          "주말에는 단체 할인을 받을 수 있다.",
+          "이 행사는 이번에 처음 열리는 행사이다.",
+          "특별권을 사면 놀이 시설 이용료가 할인된다.",
+          "지하철을 타고 가면 입장권을 싸게 살 수 있다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Hội chợ hoa quốc tế Seoul lần thứ 10. \nPhân loại: Bình thường - Đoàn (20 người trở lên) - Vé đặc biệt\nPhí vào cửa: 9000 won - 7000 won - 10000 won\nGiá theo đoàn chỉ áp dụng vào ngày thường. \nKhi vào bằng vé đặc biệt quý khách có thể sử dụng các thiết bị trò chơi miễn phí trong khu triển lãm. \nNhững người đến bằng các phương tiện công cộng sẽ được giảm giá 1000 won. \n\n1. Cuối tuần có thể nhận được giảm giá khi đi theo đoàn. \n2. Hoạt động lần này được tổ chức lần đầu tiên. \n3. Nếu mua vé đặc biệt sẽ được giảm giá phí sử dụng thiết bị trò chơi. \n4. Nếu đi bằng tàu điện ngầm thì sẽ được mua vé với giá rẻ. \n--------------------\n평일: Ngày thường\n행사장: Địa điểm tổ chức\n무료로: Miễn phí\n할인하다: Giảm giá\n",
+          "en": "10th Seoul International Flower Fair.\nCategory: Casual - Group (20 people or more) - Special ticket\nEntrance fee: 9000 won - 7000 won - 10000 won\nGroup rates are applicable on weekdays only.\nWhen entering with a special ticket you can use game equipments for free in the venue of the event.\nThose arriving by public transport will receive a 1000 won discount.\n\n1. You can get discounts at the weekends when traveling in groups.\n2. This event is held for the first time this year.\n3. If you buy a special ticket, you will get a discount on the use of amusement facilities.\n4. If you go by subway, you will be able to buy tickets at a cheap price.\n--------------------\n<g>평일:</g> Weekdays\n<g>행사장:</g> Venue of the event\n<g>무료로:</g> Free\n<g>할인하다:</g> To have a discount.\n"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_b_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[9～12]다음 글 또는 도표의 내용과 같은 것을 고르십시오. (각 2점). ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/5f019486e16660e3a0552ddbd466dadb.png",
+        "q_point": 2,
+        "q_answer": [
+          "여러 나라 작가가 이번 전시회에 참여한다.",
+          "이 전시회에 가면 가을에 대한 사진을 볼 수 있다.",
+          "가족 사진을 들고 가면 관람료를 내지 않아도 된다.",
+          "작가와의 대화는 전시회 기간 동안 날마다 진행된다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Triển lãm ảnh mùa thu lần thứ 10.\nTriển lãm ảnh của 9 nghệ sĩ nổi tiếng trong nước sẽ được tổ chức.\nCác bạn có thể ngắm những tác phẩm độc đáo về chủ đề gia đình.\nThời gian buổi triển lãm: 3/11 - 12/11/2014 (Thứ hai - thứ tư)\nThời gian tham quan: 10h-18h (Trò chuyện với tác giả vào 4 giờ chiều các ngày cuối tuần)\nVé vào cửa: 5000 won\n*Nếu mang theo ảnh gia đình thì có thể tham quan miễn phí.\n-Phòng triển lãm Seoul-\n\n1. Các tác giả đến từ nhiều quốc gia tham gia cuộc triển lãm này.\n2. Nếu đến triển lãm này, bạn có thể xem những bức ảnh về mùa thu.\n3. Nếu bạn mang theo ảnh của gia đình thì sẽ không phải trả phí vào tham quan.\n4. Cuộc trò chuyện với các tác giả được tổ chức hàng ngày trong suốt thời gian diễn ra triển lãm.\n--------------------\n주제로: Với/lấy chủ đề là\n관람료: Phí tham qua\n가지고 가다: Mang tới, mang đến",
+          "en": "10th autumn photo exhibition\nA photo exhibition of 9 famous domestic artists will be held.\nYou can see unique works with the theme of family.\nExhibition period: November 3 (Mon) - November 12 (Wed), 2014\nVisiting hours: 10:00 am - 6:00 pm (Conversation with the artist at 4pm on weekends)\nAdmission fee: 5000 won\n*Admission is free if you bring a family photo.\n-Seoul Exhibition Hall-\n\n1. Authors from many countries participate in this exhibition.\n2. If you go to this exhibition, you can see pictures of autumn.\n3. If you bring family photos, there is no entrance fee.\n4. Conversations with the authors are held daily for the duration of the exhibition.\n--------------------\n<g>주제로:</g> With the topic is\n<g>관람료:</g> Entrance fee, admission fee\n<g>가지고 가다:</g> To bring."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_b_1",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[9～12]다음 글 또는 도표의 내용과 같은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/8f78319cf66cdeb9a37a5d389fdf4989.png",
+        "q_point": 2,
+        "q_answer": [
+          "주인 없는 동물을 데려와 키우는 사람이 가장 적다.",
+          "인터넷에서 산 사람이 가게에서 산 사람보다 더 많다.",
+          "가게에서 산 사람보다 아는 사람한테서 받은 사람이 더 적다.",
+          "아는 사람한테서 동물을 데리고 온 사람은 전체의 반이 넘는다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Bạn tìm nuôi thú cưng ở đâu?\nTừ người quen: 39.3%\nCửa hàng thú cưng: 36.7%\nInternet: 16.8%\nĐộng vật bị bỏ rơi: 7.2%\n\n1. Người nuôi động vật không có chủ chiếm tỷ lệ nhỏ nhất.\n2. Số người mua trên mạng nhiều hơn số người mua ở cửa hàng. \n3. So với người mua ở cửa hàng thì số người nhận được (thú cưng) từ người quen ít hơn. \n4. Hơn một nửa số người nhận nuôi động vật từ người quen.\n\n\n",
+          "en": "Where did you get your pet?\nFrom acquaintances: 39.3%\nPet stores: 36.7%\nInternet: 16.8%\nAbandoned animal: 7.2%\n\n1. The owners of animals without owners make up the smallest percentage.\n2. There are more people buying online than people buying in stores.\n3. There are fewer people who got pet from acquaintances than people who bought it at the store.\n4. More than half of people adopt animals from acquaintances."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_b_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[9～12]다음 글 또는 도표의 내용과 같은 것을 고르십시오. (각 2점). ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/5dc1cad325b78041c0a7ad236a1ed6f3.png",
+        "q_point": 2,
+        "q_answer": [
+          "남녀 모두 부모님보다 친구에게 고민 상담을 많이 한다.",
+          "남녀 모두 형제와 자매에게 고민 상담을 가장 많이 한다.",
+          "혼자서 고민을 해결하는 청소년은 여자보다 남자가 더 적다.",
+          "부모님에게 고민을 말하는 청소년은 남자보다 여자가 더 적다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Đối tượng tư vấn tâm sự của thanh thiếu niên\n남자: Nam\n여자: Nữ\n부모님: Bố mẹ\n형제-자매: Anh chị em\n치구: Bạn bè\n자기 자신: Tự bản thân\n\n1. Cả nam và nữ đều trao đổi tâm sự, băn khoăn với bạn bè nhiều hơn bố mẹ.\n2. Cả nam và nữ đều trao đổi tâm sự, băn khoăn nhiều nhất cho anh chị em của mình.\n3. Nam giới tự mình giải quyết băn khoăn ít hơn nữ giới.\n4. Nữ giới nói về tâm sự, băn khoăn với bố mẹ ít hơn là nam giới.\n--------------------\n상담하다: Tư vấn, trao đổi\n고민 상담: Tư vấn tâm sự, tâm lý, âu lo\n\nCả nam và nữ đều trao đổi với bạn bè nhiều hơn tất cả những đối tượng còn lại.",
+          "en": "Adolescent concerns counseling subjects\n<g>남자:</g> Man\n<g>여자:</g> Woman\n<g>부모님:</g> Parents\n<g>형제-자매:</g> Brothers and sisters\n<g>치구:</g> Friends\n<g>자기 자신:</g> Their own self\n\n1. Both men and women exchange thoughts and concerns with their friends more than their parents.\n2. Both men and women exchange their thoughts and concerns the most for their brothers and sisters.\n3. Men solve their own problems less than women.\n4. Women talk about their feelings and concerns with their parents less than men.\n--------------------\n<g>상담하다:</g> To consult\n<g>고민 상담:</g> Counsel of trouble\n\nBoth men and women exchanged more with their friends than all the other subjects."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_b_2",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[9～12]다음 글 또는 도표의 내용과 같은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "최근 70～80년대를 경험해 볼 수 있는 문화 공간이 생겼다. 서울시에서 새로 문을 연 ‘추억극장’이 바로 그곳이다. 입장료 2, 000원만 내면 남녀노소 누구나 그때 유행했던 영화를 관람할 수 있으며 커피와 차, 과자 등 간단한 간식도 먹을 수 있다. 극장 내부에는 추억의 영화 포스터, 영화표 등이 전시되어 있다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이곳에서 옛날 영화 포스터를 살 수 있다.",
+          "얼마 전 추억의 문화 공간이 새로 만들어졌다.",
+          "추억극장은 입장료가 없기 때문에 인기가 많다.",
+          "추억극장에서는 최근에 나온 영화도 볼 수 있다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Gần đây, có một không gian văn hóa có thể trải nghiệm những năm 70-80. Đó là \"nhà hát ký ức\" mới mở tại thành phố Seoul. Chỉ với phí vào cửa là 2.000 won, bất cứ ai già trẻ trai gái đều có thể xem những bộ phim nổi tiếng thời ấy và có thể thưởng thức những món ăn vặt đơn giản như cà phê, trà, bánh kẹo. Bên trong rạp chiếu phim có trưng bày poster phim, vé xem phim.\n\n1. Có thể mua poster phim ngày xưa tại đây. \n2. Cách đây không lâu, không gian văn hóa của ký ức mới được mở ra.\n3. Rạp chiếu phim kỷ niệm rất được yêu thích vì không có phí vào cửa. \n4. Có thể xem bộ phim mới ra gần đây tại nhà hát ký ức.\n",
+          "en": "Recently, there is a cultural space that can experience the 70s-80s. It is the new \"memory theater\" opened in Seoul city. With only an entrance fee of 2,000 won, anyone young or old can watch popular movies of the time and can enjoy simple snacks such as coffee, tea, and sweets. Inside the cinema, there are movie posters and movie tickets.\n\n1. You can buy old movie posters here.\n2. Not long ago, a new cultural space of memories was opened.\n3. Commemorative cinema is very popular because there is no entrance fee.\n4. Recently released movies can be seen at the memory theater."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_b_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[9～12]다음 글 또는 도표의 내용과 같은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "사람들은 가끔씩 지금과는 다른 내가 되고 싶어 한다. 이런 마음은 가면을 통해서 나타낼 수 있는데 가면을 쓰면 잠시 동안이지만 현실과 다른 나를 표현할 수 있다. 예를 들어 힘이 약한 사람이 호랑이 가면을 쓰게 되면 호랑이처럼 힘이 세다고 생각한다. 그래서 정말 힘센 사람처럼 행동하게 되고 이를 통해 스스로 만족하게 된다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "가면을 쓰면 성격을 바꿀 수 있다.",
+          "가면을 쓰면 현실을 더 잘 볼 수 있다.",
+          "가면으로 원하던 모습을 표현할 수 있다.",
+          "힘을 자랑하기 위해서 호랑이 가면을 쓴다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Thỉnh thoảng con người ta muốn trở thành một người khác hơn so với hiện tại. Điều này có thể được thể hiện thông qua mặt nạ. Dù chỉ dùng mặt nạ trong một khoảng thời gian ngắn nhưng có thể thể hiện được \"mặt khác\" của bản thân so với thực tế. Ví dụ, khi một người yếu đuối đeo mặt nạ hổ thì họ nghĩ rằng họ mạnh mẽ như một con hổ. Vì vậy, người đó sẽ hành động như một người thực sự mạnh mẽ và thông qua đó hài lòng về bản thân.\n\n1. Nếu đeo mặt nạ thì có thể thay đổi tính cách. \n2. Nếu đeo mặt nạ thì có thể nhìn rõ hiện thực hơn. \n3. Có thể thể hiện hình ảnh mong muốn bằng mặt nạ. \n4. Đeo mặt nạ hổ để khoe sức mạnh.\n--------------------\nV + 기 위해(서): Để. Cấu trúc thể hiện mục đích.",
+          "en": "Sometimes people want to be a different person than they are right now. This can be expressed through masks. Even if you only use a mask for a short period of time, you can show a \"different side\" of yourself compared to reality. For example, when a weak person wears a tiger mask, they think they are as strong as a tiger. So that person will act like a really strong person and thereby be satisfied with himself.\n\n1. If you wear a mask, you can change your personality.\n2. If you wear a mask, you can see reality more clearly.\n3. The desired image can be expressed with a mask.\n4. Wear a tiger mask to show off your strength.\n--------------------\n<g>V + 기 위해(서)</g>: For (the sake of), (in order) to."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220002_b_3",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[19～20]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "과일을 빨리 익히기 위해 화학 물질이 사용되기도 한다. 그러나 화학 물질로 익힌 과일은 겉은 익었지만 속이 잘 익지 않은 경우가 많다. 그래서 화학 물질로 익힌 과일은 대개 자연적으로 숙성된 과일에 비해 맛과 향이 떨어진다. ( ) 화학 물질이 과일 껍질에 남게 될 수도 있다. 이런 과일을 지속적으로 먹으면 건강에 문제가 생기게 된다.",
+      "g_text_translate": {
+        "vi": "Hóa chất đôi khi được sử dụng để làm chín trái cây nhanh hơn. Tuy nhiên, hoa quả dùng hóa chất thường chín bên ngoài nhưng không chín bên trong. Do đó, trái cây chín bằng hóa chất thường không thơm và không ngon bằng trái cây chín tự nhiên. (  ) Hóa chất có thể vẫn còn trên vỏ trái cây. Nếu thường xuyên ăn những loại trái cây như vậy có thể dẫn đến các vấn đề sức khỏe.\n",
+        "en": "Chemicals are sometimes used to ripen the fruit faster. However, chemically ripened fruits often ripen on the outside but not on the inside. As a result, chemically ripened fruits usually have a lower taste and aroma than naturally-ripened fruits. Chemicals may also be left on the peel of the fruit. Consuming these fruits on a regular basis can lead to health problems."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "또는",
+          "또한",
+          "그래도",
+          "그러면"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Điền cụm từ thích hợp vào chỗ trống.\n1. Hay, hoặc, hoặc là\n2. Hơn nữa\n3. Dù vậy\n4. Nếu vậy thì\n--------------------\nV/A + 는/은/ㄴ 경우가 있다: Có trường hợp rằng. \nN + 에 비해: So với N. \nV + 게 되다: Trở nên.\n\nDùng từ liên kết 또한 để bổ sung thông tin.",
+          "en": "Fill in the blank with the appropriate phrase.\n1. Or\n2. Moreover\n3. Even so\n4. If so\n--------------------\n<g>V/A + 는/은/ㄴ 경우가 있다:</g> There is a case that...\n<g>N + 에 비해(서):</g> Compared to <g>N</g>.\n<g>V/A + 게 되다:</g> Became, came to, been decided.\n\nUse the linking word <g>또한</g> to add information."
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "과일을 껍질까지 먹으면 건강에 좋다.",
+          "과일 향을 좋게 만드는 화학 물질이 있다.",
+          "화학 물질을 사용하면 과일이 속까지 잘 익는다.",
+          "자연 숙성 과일이 인공 숙성 과일보다 맛이 더 낫다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn.\n1. Ăn trái cây cả vỏ rất tốt cho sức khỏe.\n2. Có những chất hóa học làm cho trái cây thơm hơn.\n3. Việc sử dụng hóa chất khiến trái cây bị chín đến tận bên trong.\n4. Trái cây chín tự nhiên sẽ ngon hơn trái cây chín nhân tạo.\n--------------------\n껍질: Vỏ\n화학 물질: Chất hóa học\n익다: Chín\n자연 숙성 과일: Qủa chín tự nhiên",
+          "en": "Choose the option that corresponds to the paragraph.\n1. Eating fruit with skin is very good for health.\n2. There are chemicals that make fruit more fragrant.\n3. The use of chemicals causes the fruit to ripen to the inside.\n4. Naturally ripened fruit will taste better than artificially ripened fruit.\n--------------------\n<g>껍질:</g> Skin, shell\n<g>화학 물질:</g> Chemical substances, chemicals\n<g>익다:</g> To become ripe, to ripen\n<g>자연 숙성 과일:</g> Natural ripening fruit"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220005_1",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[21～22]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "사람들은 보통 선택을 할 때 여러 가지 중에서 고르면 더 좋은 선택을 할 수 있을 것이라고 생각한다. 그래서 선택이 필요할 때 정보를 많이 수집하려고 노력한다. 그러나 선택의 수가 늘어나면 고민의 양도 함께 증가한다. (   )결정을 내리지 못하는 상황이 되는 것이다. 후회 없는 선택을 위한 노력이 오히려 선택을 방해하는 결과를 불러오게 된다.",
+      "g_text_translate": {
+        "vi": "Mọi người thường nghĩ rằng khi lựa chọn, nếu chọn một trong nhiều lựa chọn thì có thể chọn được cái tốt hơn. Vì vậy, khi cần lựa chọn ta thường cố gắng thu thập nhiều thông tin. Tuy nhiên, nếu số lựa chọn tăng lên thì theo đó sự phân vân cũng sẽ tăng lên. (  ) Trở thành tình huống không thể đưa ra quyết định. Nỗ lực để chọn sao cho không hối hận trái lại sẽ dẫn đến kết quả là cản trở khi lựa chọn.\n",
+        "en": "People usually think that when they make a choice, they will be able to make a better choice by choosing from several. So we try to gather a lot of information when we need to make a choice. However, as the number of choices increases, the amount of trouble also increases. It's a pain in the ass and you can't make decisions. Efforts to make a choice without regrets will, on the contrary, result in hindrance in choosing."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "골치만 아프고",
+          "콧대만 높아지고",
+          "눈치만 빨라지고",
+          "비행기만 태우고"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Điền cụm từ thích hợp vào chỗ trống.\n1. Đau đầu (về việc gì)\n2. Vênh váo, vểnh mũi\n3. Nhanh mắt, tinh ý\n4. Cho lên mây (Khen nợi quá mức)\n--------------------\nN + (이)라고 생각하다: Nghĩ rằng, nghĩ là.\nV + (으)려고 노력하다: Nỗ lực, cố gắng để.\nV/A + (으)ㄴ/는/(으)ㄹ + N: Định ngữ.",
+          "en": "Fill in the blank with the appropriate phrase.\n1. Be a pain in the ass\n2. Have a big head\n3. Be quick-witted\n4. Make someone board a plane (To praise someone in order to make them feel attractive or important)\n--------------------\n<g>N + (이)라고 생각하다:</g> To think that.\n<g>V + (으)려고 노력하다:</g> To try, put effort in doing something\n<g>A/V + (으)ㄴ/는/(으)ㄹ + N:</g> Noun modifier."
+        }
+      },
+      {
+        "q_text": "이 글의 중심 생각을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "고민할수록 더 좋은 선택을 할 수 있다.",
+          "선택의 폭이 넓어지면 결정이 더 어려워진다.",
+          "선택을 할 때는 먼저 방해 요인을 없애야 한다.",
+          "후회 없는 선택을 하려면 풍부한 정보가 필요하다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn nội dung chính của đoạn văn.\n1. Càng suy nghĩ đắn đo thì càng có thể đưa ra lựa chọn đúng đắn.\n2. Càng có nhiều sự lựa chọn, bạn càng khó đưa ra quyết định.\n3. Khi đưa ra lựa chọn, trước tiên bạn phải loại bỏ những yếu tố cản trở.\n4. Cần có nhiều thông tin để đưa ra lựa chọn mà không phải hối tiếc.\n--------------------\n폭이 넓다: Nhiều\n없애다: Loại bỏ\n\nV + (으)ㄹ 수록: Càng... càng...",
+          "en": "Choose the central thought of this paragraph.\n1. The more you think about it, the more you can make the right choice.\n2. The more choices you have, the harder it is to make a decision.\n3. When making a choice, you must first remove the hindrances.\n4. It takes a lot of information to make a choice without regrets.\n--------------------\n<g>폭이 넓다:</g> Be extensive\n<g>없애다:</g> To remove, to eliminate, to get rid of\n\n<g>V + (으)ㄹ 수록:</g> The more... the more..."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220005_1",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[23～24]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "내가 운영하는 회사의 사정이 점점 더 어려워졌다. 공장에 불이 나서 피해를 입은 데다가 매출까지 크게 감소한 것이다. 어쩔 수 없이 직원 수를 줄여야 했다. <u>나는 직원들을 한자리에 불러 모아 놓고도 한참을 아무 말도 할 수 없었다. </u> 눈을 지그시 감고 겨우 입을 떼려는 순간 “사장님!”한 직원이 나를 불렀다. 그 직원은 흰 봉투를 내 앞으로 내밀면서 말했다. “그동안 어려운 회사 살림 때문에 고생 많으셨습니다. 어려워진 회사에 도움이 될까 싶어서 저희들이 월급의 10퍼센트씩을 모았습니다. 적은 돈이지만 회사 운영에 도움이 되었으면 합니다. ”순간 나는 마치 천하를 얻은 듯 마음이 든든해졌다.",
+      "g_text_translate": {
+        "vi": "Tình hình ở công ty do tôi điều hành ngày càng khó khăn hơn. Nhà máy đã bị hư hại do hỏa hoạn, và doanh số bán hàng đã giảm đáng kể. Việc không thể tránh khỏi là phải cắt giảm nhân viên. <u>Tôi đã gọi tất cả các nhân viên lại nhưng một lúc lâu chẳng thể nói được gì.</u> Khi tôi chuẩn bị nhắm mắt và chưa kịp mở miệng, một nhân viên đã nói: \"Ông chủ!\". Cậu nhân viên vừa nói vừa chìa ra trước mặt tôi một phong bì màu trắng. “Anh đã phải chịu đựng rất nhiều vì tình hình khó khăn của công ty. Vì muốn giúp đỡ công ty đang gặp khó khăn, chúng tôi đã góp 10% tiền lương hàng tháng. Đây chỉ là một số tiền nhỏ, nhưng tôi hy vọng nó sẽ giúp công ty hoạt động.\" Trong khoảnh khắc, tôi cảm thấy vững tâm như thể tôi đã giành được cả thiên hạ.",
+        "en": "The situation at the company I run is getting more and more difficult. The factory was damaged by the fire, and sales fell dramatically. It is inevitable that staff will have to be cut. <u>I called all the staff but for a long time nothing could be said.</u> When I was about to close my eyes and before I could open my mouth, an employee said, \"Mr. CEO!\". The employee said as he held out a white envelope in front of me. “You suffered a lot because of the company's difficult situation. Because we want to help the company in difficulty, we have contributed 10% of our monthly salary. It's only a small amount, but I hope it keeps the company going.\" For a moment, I felt as confident as if I'd won the world.\n"
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "밑줄 친 부분에 나타난 나의 심정으로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "곤란하다",
+          "섭섭하다",
+          "부끄럽다",
+          "당황하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với cảm xúc của nhân vật được thể hiện trong phần gạch chân.\n1. Khó khăn\n2. Tiếc nuối, thất vọng\n3. Ngượng nghịu, thẹn thùng\n4. Bàng hoàng\n--------------------\nV + 는 데 도움을 되다: Giúp ích trong việc.\n마치: Giống như.\nA/V + (으)ㄴ/는 듯이: Cứ như là, như thể là. ",
+          "en": "Choose the answer that fits the feelings expressed in the underlined part.\n1. Be difficult\n2. To feel disappointed\n3. Be ashamed, be shameful, be embarrassed\n4. Be embarrassed, be disconcerted\n--------------------\n<g>V + 는 데 도움을 되다:</g> To be helpful in something.\n<g>마치:</g> Like a...\n<g>A/V + (으)ㄴ/는 듯이:</g> As if."
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "화재가 발생한 후 회사의 사정이 좋아졌다.",
+          "나는 회사에서 일할 새로운 직원들을 뽑았다.",
+          "직원들이 월급의 일부를 걷어 회사를 도왔다.",
+          "흰 봉투 안에는 직원들이 쓴 편지가 들어 있었다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn.\n1. Sau vụ cháy, tình hình của công ty được cải thiện.\n2. Tôi đã thuê nhân viên mới làm việc cho công ty.\n3. Nhân viên đã giúp công ty bằng cách góp một phần tiền lương của họ.\n4. Bên trong phong bì trắng là một lá thư do nhân viên viết.\n--------------------\n월급의 일부를 걷다: Gom góp một phần tiền lương",
+          "en": "Choose the option that corresponds to the paragraph.\n1. After the fire, the company's situation improved.\n2. I have hired new employees to work for the company.\n3. Employees helped the company by contributing a part of their salary.\n4. Inside the white envelope was a letter written by employees.\n--------------------\n<g>월급의 일부를 걷다:</g> To contribute part of the salary"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220005_2",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[23～24]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "학창시절 내내 서울 생활을 꿈꿨던 나는 대학에 합격하면서 그토록 바라던 서울에서 살게 되었다. 시간제 아르바이트를 하는 것만으로는 생활 하기가 빠듯해서 늘 허덕거려야 했다. 당연히 어머니와의 전화 통화는 주로 돈 이야기가 되어 버렸다. “아휴, 여기서 대학 다녔으면 그렇게 돈 걱정은 안 해도 됐을걸. 서울까지 가서 마음 편히 공부도 못하고. 엄마가 제대로 도와주지 못해 미안해. ” 어머니가 고생하는 딸이 안쓰러워서 하는 말에 <u>눈물이 핑 돈 적도 있었다</u>. 전액 장학금을 주겠다는 지방 대학을 포기하고 택한 서울행이었다. 그런데 매번 돈타령이나 하면서 가뜩이나 형편이 어려운 부모님에게 마음의 부담만 더한 꼴이 된 것 같았다.",
+      "g_text_translate": {
+        "vi": "Tôi đã mơ ước được sống ở Seoul suốt thời còn đi học và khi đỗ đại học, tôi đã được sống ở Seoul, nơi mình từng ao ước. Tôi đã phải chật vật vì thật khó để sống với số tiền ít ỏi kiếm được từ công việc bán thời gian theo giờ. Và đương nhiên, tiền đã trở thành chủ đề chính trong những cuộc nói chuyện giữa tôi và mẹ. \"Ôi trời, nếu con học đại học ở đây thì chắc đã không cần phải lo lắng về tiền bạc như vậy. Con đến tận Seoul và rồi không thể học một cách thoải mái được. Xin lỗi vì mẹ đã không thể giúp con.\" <u>Mắt tôi rưng rưng</u> khi nghe những lời bà nói bà cảm thấy thật xót xa cho đứa con gái khổ sở của mình. Tôi đã từ bỏ học bổng toàn phần của một trường học địa phương và chọn lên Seoul để học đại học. Dường như lòng tôi chỉ thêm nặng trĩu mỗi lần ca cẩm về tiền bạc hay hoàn cảnh vốn đã khó khăn của gia đình mình với bố mẹ.",
+        "en": "I dreamed of living in Seoul all the time when I was in school, and when I graduated from university, I was able to live in Seoul, the place I always dreamed of. I struggled because it was hard to live on the little money I made from my part-time hourly job. And of course, money became the main topic of conversation between me and my mother. \"Oh my, if you went to college here, you wouldn't have to worry about money like that. You came to Seoul and you couldn't study comfortably. Sorry I couldn't help you.\" <u>My eyes filled with tears</u> when I heard her words as she felt so sorry for her miserable daughter. I gave up a full scholarship to a local school and chose to go to Seoul to attend university. However, it seemed that every time I talked about money, I only added a burden to my parents who were already in difficult circumstances."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "밑줄 친 부분에 나타난 나의 심정으로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "곤란하다",
+          "속상하다",
+          "답답하다",
+          "억울하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Tâm trạng được thể hiện trong phần gạch chân là gì?\n1. Cùng quẫn\n2. Buồn lòng\n3. Khó chịu\n4. Uất ức\n--------------------\n눈물이 핑 돌다: Rưng rưng nước mắt\n허덕거리다: Mệt lả, gắng sức\n가뜩이나: Vốn đã, vốn dĩ\n돈타령: Lời ca cẩm về tiền bạc",
+          "en": "Choose the answer that fits the feeling expressed in the underlined part.\n1. To be difficult, to be embarrassing, to be awkward\n2. To be upset, to be distressed, to be annoyed\n3. To be stuffy, to be stifling, to be suffocating\n4. To be unfair, to be resentful\n--------------------\n<g>눈물이 핑 돌다:</g> To tear up\n<g>허덕거리다:</g> To pant, to gasp for breath, be exhausted\n<g>가뜩이나:</g> In addition to, moreover\n<g>돈타령:</g> Talking about money all the time."
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "나는 아르바이트를 해서 생활비가 넉넉했다.",
+          "나는 대학에 합격하기 전부터 서울에 살고 있었다.",
+          "부모님은 형편이 어려운데도 많은 돈을 보내 주셨다.",
+          "나는 서울 생활의 꿈을 이루기 위해 장학금을 포기했다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với nội dung của đoạn văn.\n1. Tôi đi làm thêm nên chi phí sinh hoạt rất dư dả.\n2. Tôi đã sống ở Seoul trước khi tôi vào đại học.\n3. Bố mẹ gửi cho tôi rất nhiều tiền mặc dù hoàn cảnh gia đình tôi rất khó khăn.\n4. Tôi đã từ bỏ học bổng để thực hiện ước mơ sống ở Seoul.\n--------------------\n학창시절: Thời còn đi học\n전액 장학금: Học bổng toàn phần\n포기하다: Từ bỏ\n\nV/A + 았/었던: Hồi tưởng lại một hành động đã xảy ra trong quá khứ.",
+          "en": "Choose the answer that matches the content of the paragraph.\n1. I work part-time, so my living expenses are abundant.\n2. I lived in Seoul before I entered university.\n3. My parents send me a lot of money even though my family situation is very difficult.\n4. I gave up a scholarship to fulfill my dream of living in Seoul.\n--------------------\n<g>학창시절:</g> School days\n<g>전액 장학금:</g> Full scholarship\n<g>포기하다:</g> To give up\n\n<g>V/A + 았/었던:</g> Recall a past event that has not continued to the present."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220005_2",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[42～43]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "<b>초등학교 3학년쯤으로 보이는 남자 아이가 가장 높은 다이빙대에 올라갔다. 성인도 호기로 올라갔다가 그냥 내려오곤 하는 곳이었다. 소년은 무서워서 뛰어내리지도, 뒤돌아 내려가지도 못하고 다이빙대 끝과 계단 사이를 한참 왔다 갔다 했다. 그러자 부모로 보이는 사람이 내려오라는 손짓을 했다. 아이는 계속 망설였다. 수영장의 모든 사람이 이 모습을 지켜보고 있었다. 그때였다. 스피커에서 수영장 관리자로 추정되는 사람의 목소리가 나오기 시작했다. 나는 당연히 아이의 부모에게 ‘어서 아이를 데리고 내려오라. ’고 말할 줄 알았다. 그런데 그는 전혀 다른 말을 했다.  “넌 할 수 있어!내가 도와줄게. 이제 셋을 셀 거야. 겁내지 말고 뛰어내리면 돼!”그리고 큰 소리로 숫자를 세기 시작했다. <u>수영장에 있던 모든 사람도 스피커 소리를 따라 큰 소리로 숫자를 따라 셌다</u>. (중략) 아이는 다이빙대 끝을 박차고 허공에 손을 휘저으며 뛰어내렸다. 아이가 물로 떨어지는 몇 초 동안, 모든 것은 잠시 숨을 멈추었다. 바람도 공기도 나뭇잎의 흔들림까지. 이윽고 ‘풍덩’하는 소리와 함께 세상은 다시 깨어났다. 박수 소리가 수영장을 울렸다. 나도 손뿐 아니라 마음 깊은 곳에서 박수를 보냈다.",
+      "g_text_translate": {
+        "vi": "Một cậu bé khoảng chừng năm 3 tiểu học đi lên bệ nhảy cao nhất. Đó là nơi người lớn cũng hay bốc đồng đi lên rồi cứ thế đi xuống. Cậu thiếu niên vì sợ nên không nhảy xuống mà cũng không quay bước đi xuống, cậu cứ đi lại một lúc lâu giữa bậc thang và cuối bệ nhảy. Thế rồi ai đó có vẻ là bố mẹ ra hiệu cho cậu đi xuống. Cậu bé vẫn do dự. Tất cả mọi người ở bể bơi đều theo dõi hình ảnh này. Chính là lúc đó. Trên loa bắt đầu phát ra tiếng của ai đó, được cho là người quản lý bể bơi. Tôi tưởng đương nhiên họ sẽ bảo với bố mẹ đứa bé \"Dẫn con xuống đi.\" Nhưng mà người đó nói một lời hoàn toàn khác. \"Cháu có thể làm được! Để ta giúp cho. Bây giờ ta sẽ đếm đến ba. Đừng sợ nữa mà cứ nhảy xuống là được!\" Và người đó bắt đầu đếm số bằng giọng rất lớn. <u>Những người có mặt ở bể bơi cũng lớn tiếng đếm số theo tiếng trên loa.</u> (Lược bớt) Cậu bé bật khỏi bệ nhảy, vẫy tay vào hư không và nhảy xuống. Trong suốt mấy giây cậu bé rơi xuống, tất cả đều ngừng thở trong chốc lát. Từ gió, không khí đến chuyển động của lá cây. Cuối cùng thế giới bừng tỉnh cùng tiếng \"tõm\". Tiếng vỗ tay vang khắp bể bơi. Tôi cũng vỗ tay, không chỉ ở đôi tay mà còn từ đáy lòng.",
+        "en": "A boy, who looks like a third grader in elementary school, went up to the highest diving board. That's where adults also impulsively go up and then down. The boy couldn't jump down or turn back in fear and went back and forth between the end of the diving board and the stairs for a long time. Then someone who appeared to be his parents motioned for him to come down. The boy still hesitated. Everyone at the pool watched this scene. After that, there was an announcement of someone playing on the speakers, supposedly the pool manager. I thought of course they would say to the parents, \"Take him down.\" But that person said a completely different word. \"You can do it! Let me help you. Now I'll count to three. Don't be afraid, just jump!\" And the person started counting the numbers in a very loud voice. <u>Those at the pool also loudly counted the numbers according to the sound on the speaker.</u> (...) The child kicked the end of the diving board and jumped down, waving his hand in the air. Everything paused for a few seconds while the boy fell into the water. From the wind, the air, to the movement of the leaves. Eventually, the world woke up again with the sound 'plop!'. The sound of applause echoed the pool. I applauded not only from my hands, but also from the depths of my heart."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "밑줄 친 부분에 나타난 사람들의 태도로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "격려하고 있다",
+          "위로하고 있다",
+          "안도하고 있다",
+          "원망하고 있다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn đúng câu thể hiện tâm trạng của mọi người trong phần gạch chân.\n1. Khích lệ\n2. An ủi\n3. Thanh thản\n4. Oán trách\n--------------------\nMọi người đếm số theo tiếng trên loa. Trước đó người trên loa cổ vũ cậu bé có thể làm được và đếm số cho cậu nhảy xuống. Vậy thái độ của mọi người là khích lệ. ",
+          "en": "Choose the correct sentence that expresses everyone's attitude in the underlined part.\n1. Be encouraging\n2. Be consoling\n3. Be relieved\n4. Be complaining\n--------------------\nEveryone counted to the sound on the loudspeaker to encourage the boy."
+        }
+      },
+      {
+        "q_text": "이 글의 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "아이가 올라간 다이빙대는 어린이 전용으로 만들어졌다.",
+          "아이가 뛰어내려 물속으로 들어가자 사람들이 박수를 쳤다.",
+          "방송을 통해 아이의 부모가 아이에게 내려오라고 소리쳤다.",
+          "아이의 부모는 관리자에게 아이를 데려와 달라고 부탁했다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn câu giống với nội dung trên.\n1. Bệ nhảy mà cậu bé đi lên được làm ra để cho trẻ em nhảy.\n2. Cậu bé vừa nhảy vào nước là mọi người đã vỗ tay.\n3. Bố mẹ đứa trẻ hét lên bảo nó đi xuống qua loa phát thanh.\n4. Bố mẹ cậu bé nhờ người quản lý dẫn cậu bé xuống giúp họ.\n--------------------\nV + 자: Hành động này vừa kết thúc là hành động khác diễn ra.",
+          "en": "Choose the option that corresponds to the paragraph.\n1. The diving board on which the child climbed is made exclusively for children.\n2. As soon as the boy jumped into the water, everyone clapped.\n3. The child's parents shouted for him to come down over the speaker.\n4. The child's parents asked the manager to bring the child.\n--------------------\n<g>V + 자:</g> As soon as one action ends, another action takes place."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220008_1",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[44～45]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "<b>환경부는 ‘온실가스 배출권 거래제’의 시행을 앞두고 향후 3년간 온실가스 총량을 정해 업종별로 할당한다는 계획을 발표했다. 이 제도는 지구온난화의 원인인 온실가스를 줄이기 위한 것으로 업체별로 일정한 배출량을 정해 놓고 기준보다 많거나 모자라는 경우 배출권을 사고팔 수 있게 하는 제도이다. 그런데 기업의 성장률을 고려하지 않고 할당량을 정하는 방식에 대해 문제가 있다는 지적이 있다. (   ) 기업은 배출권을 구입해야 하는데 경영 악화로 공장을 가동하지 않는 기업은 도리어 배출권 판매 이익을 취할 수 있기 때문이다. 새 제도의 정착을 위해 모두가 납득할 수 있는 합리적인 시행 방안이 마련되어야 할 것이다.",
+      "g_text_translate": {
+        "vi": "Bộ Môi trường công bố kế hoạch xác định tổng lượng khí nhà kính trong 3 năm tới và chia ra theo từng ngành trước khi thực hiện \"Chế độ mua bán quyền thải khí nhà kính\". Chế độ này nhằm giảm bớt lượng khí nhà kính - nguyên nhân của hiện tượng Trái Đất nóng lên, trong đó người ta sẽ quyết định lượng khí thải nhất định cho từng ngành, nếu thải ra nhiều hoặc ít hơn tiêu chuẩn thì có thể mua bán quyền thải ra. Tuy nhiên cũng có người chỉ trích rằng có vấn đề trong cách xác định lượng phân chia mà không xem xét đến tỷ lệ tăng trưởng của doanh nghiệp. Bởi vì doanh nghiệp  (   ) phải mua quyền thải khí, ngược lại doanh nghiệp không hoạt động nhà máy nữa do tình hình kinh doanh xấu đi có thể sẽ chạy theo lợi nhuận từ việc bán quyền thải khí. Để thiết lập chế độ mới, phải chuẩn bị một phương án thực hiện mà tất cả mọi người đều có thể tiếp thu.",
+        "en": "The Ministry of Environment announced a plan to determine the total amount of greenhouse gas for the next three years and allocate it to each industry ahead of the implementation of the Greenhouse Gas Emission Trading System. This system is designed to reduce greenhouse gas, the cause of global warming, by setting a certain amount of emission for each company and allowing the purchase and sale of emission permits if the amount exceeds or falls short of the standard. However, it is pointed out that there is a problem with the method of setting the quota without considering the growth rate of the company. Companies whose factory utilization rate has risen due to increased sales must purchase emission permits, but companies that do not operate factories due to poor management can take profits from the sale of emission permits. For the establishment of the new system, a reasonable implementation plan that everyone can understand should be prepared."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "이 글의 주제로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "기업이 동의하지 않는 제도의 시행은 지양해야 한다.",
+          "배출권 할당은 기업의 사정에 따라 조정되어야 한다.",
+          "배출권 할당은 의도적인 거래를 염두에 두어야 한다.",
+          "현실성을 고려한 환경 보호 대책이 마련되어야 한다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề của bài viết.\n1. Hạn chế thực hiện chế độ chưa được doanh nghiệp đồng ý.\n2. Việc phân chia quyền thải khí phải được điều chỉnh tùy theo tình hình doanh nghiệp.\n3. Khi phân chia quyền thải khí phải lưu tâm đến việc cố ý giao dịch.\n4. Phải chuẩn bị giải pháp bảo vệ môi trường có xem xét đến tính thực tiễn.\n--------------------\n기업: Doanh nghiệp\n성장률: Tỷ lệ tăng trưởng\n사정: Tình hình\n조정되다: Được điều chỉnh\n\nN + 에 따라: Tùy theo, dựa theo.\n\nBài viết nói về kế hoạch phân chia quyền thải khí theo doanh nghiệp, nhưng đặt ra vấn đề trong việc phân chia mà không xem xét đến tỷ lệ tăng trưởng của doanh nghiệp, vậy chủ đề của bài là việc phân chia quyền thải khí phải được điều chỉnh tùy theo tình hình doanh nghiệp.",
+          "en": "Choose the answer that best fits the topic of this paragraph.\n1. Enforcement of systems that companies do not agree with should be discouraged.\n2. The division of emission rights must be adjusted depending on the business situation.\n3. The allocation of allowances must be made with intentional trade in mind.\n4. Environmental protection measures should be prepared in consideration of reality.\n--------------------\n<g>기업:</g> Business, enterprise, company\n<g>성장률:</g> Rate of growth, growth rate\n<g>사정:</g> Situation\n<g>조정되다:</g> Be adjusted, be changed\n\n<g>N + 에 따라(서):</g> According to N.\n\nThe paragraph talks about the plan to allocate emission rights for enterprises, but poses a problem in the division without considering the growth rate of enterprises, so the topic of the paragraph is that the distribution of emission rights must be adjusted according to the business situation."
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 내용으로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "배출량이 할당된 양에 못 미친",
+          "온실가스 총량을 신고하지 않은",
+          "매출이 늘어 공장 가동률이 높아진",
+          "경영진의 배출량 감소 의지가 강한"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn câu đúng để điền vào phần (   ).\n1. Không đạt đến lượng thải ra được phân chia\n2. Không báo cáo tổng lượng khí nhà kính\n3. Có doanh thu tăng nên tỉ lệ hoạt động nhà máy cũng tăng lên\n4. Có quyết tâm giảm lượng khí thải của ban lãnh đạo mạnh mẽ\n--------------------\n가동하다: Hoạt động\n가동률: Tỉ lệ hoạt động\n악화: Xấu đi\n매출: Doanh thu\n\nCuối câu này có cấu trúc \"-기 때문이다\" (bởi vì) thể hiện nó đang giải thích cho câu phía trước, câu phía trước có đề cập đến tỷ lệ tăng trưởng của doanh nghiệp, vậy câu này nội dung có liên quan đến việc tăng trưởng của doanh nghiệp. Vế phía sau của câu này nói đến \"ngược lại doanh nghiệp không hoạt động nhà máy nữa do tình hình kinh doanh xấu đi\", vậy vế phía trước sẽ nói về doanh nghiệp phát triển. ",
+          "en": "Fill in the blank with the appropriate phrase.\n1. With less than the allotted amount of emissions\n2. That do not report the total amount of greenhouse gas\n3. Whose factory utilization rate has risen due to increased sales\n4. With strong management's will to reduce emissions\n--------------------\n<g>가동하다:</g> To operate\n<g>가동률:</g> Rate of operation\n<g>악화:</g> Degeneration\n<g>매출:</g> Sales\n\nAt the end of this sentence, there is a structure \"<g>-기 때문이다</g>\" (because) to show that it is explaining the previous sentence, the previous sentence mentioned the growth rate of the business, so this sentence is also related to business growth. The second part of this sentence refers to \"companies that do not operate factories due to poor management\", so the first part will talk about growing companies."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220008_1",
+    "count_question": 2,
+    "tag": "read"
+  },
+  {
+    "title": "[48～50]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "<b>인터넷 공간에서의 개인 정보 삭제에 관한 법안 제정이 뜨거운 쟁점으로 부각되고 있다. 유럽에서는 이러한 법안이 통과되었고 미국에서도 제한적으로 적용하기로 결정되었다. 우리 사회에서도 그간 피해 사례가 잘 알려져 있기 때문인지 찬성 쪽으로 공감대가 형성되어 있는 듯하다. 그러나 이는 이면에 잠재한 부정적 측면을 고려하지 않은 성급한 동조이다. 이 법안이 실행되었을 때 나타날 수 있는 부작용을 생각해 보라. 삭제된 정보가 흉악범에 관한 것이라면, 특정 기업의 부조리나 공직자의 비리를 고발한 기사라면……. <u>법 시행의 결과가 개인뿐만 아니라 사회, 국가의 불행으로 이어지지 않는다고 누가 자신할 수 있겠는가? </u> 예컨대 누군가가 후속 범죄의 대상이 될 수도 있고 과거의 행적을 조작한 후보자가 선거에서 당선될 수도 있다. 개인의 권리를 존중하려는 의도가 (   )장치가 되어서는 안 될 것이다.",
+      "g_text_translate": {
+        "vi": "Việc ban hành dự luật liên quan đến xóa thông tin cá nhân trong không gian internet đang trở thành một vấn đề nóng. Dự luật này đã được thông qua ở châu Âu và được quyết định áp dụng giới hạn ở Mỹ. Trong xã hội của chúng ta, không biết có phải do được biết về nhiều ví dụ bị hại trong thời gian qua hay không mà dường như sự đồng cảm đã dần được hình thành theo hướng tán thành. Tuy nhiên, đây là một sự hưởng ứng khá vội vàng khi không xem xét khía cạnh tiêu cực tiềm ẩn đằng sau. Hãy thử nghĩ về sự phản tác dụng có thể xảy ra khi dự luật này được thi hành. Nếu những thông tin bị xóa liên quan đến tội phạm nguy hiểm, nếu đó là các bài báo tố cáo sự bất hợp lý của một công ty nào đó hay là việc sai trái của những công chức... <u>Ai có thể tự tin rằng kết quả của việc thi hành luật này sẽ không dẫn đến bất hạnh của cá nhân hay của xã hội và quốc gia?</u> Ví dụ, ai đó có thể trở thành đối tượng tiếp theo của tội phạm hoặc ứng cử viên làm giả thành tích trong quá khứ có thể trúng cử trong cuộc bầu cử. Ý muốn tôn trọng quyền cá nhân không nên là một cơ chế ( ).",
+        "en": "The enactment of a law on the deletion of personal information in the Internet space is emerging as a hot issue. In Europe, such legislation has been passed and it has been decided to have limited application in the United States. There seems to be a consensus in favor of the pros, perhaps because the damage cases are well known in our society. However, this is a hasty agreement that does not consider the potential negative aspects behind it. Consider the possible side effects of implementing this measure. If the deleted information is about a vicious criminal, if it is an article accusing a certain company of absurdity or corruption of public officials... <u>Who can be sure that the results of the enforcement of the law will not lead to unhappiness not only for individuals, but also for society and the nation?</u> For example, someone could be the target of a follow-up crime, or a candidate who manipulated past records could be elected. The intention to respect individual rights should not become a mechanism for causing public harm.\n"
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "필자가 이 글을 쓴 목적을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "법 제정의 공론화를 촉구하기 위해",
+          "법 제정의 반대 근거를 제시하기 위해",
+          "법 시행의 피해 사례를 알려 주기 위해",
+          "법 시행의 적절한 시기를 제안하기 위해"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn nội dung chính của đoạn văn.1. Để thúc đẩy cuộc tranh luận công khai về việc thi hành luật2. Để tạo cơ sở cho việc phản đối việc ban hành luật3. Để cho biết các trường hợp thiệt hại do việc thi hành luật4. Để đề xuất một thời điểm thích hợp cho việc thi hành luật--------------------N + 에 관하다: Liên quan đến.V + 기로 결정되다: Được quyết định là.V + 는 듯하다, A + (으)ㄴ 듯하다: Nghĩa là, mang ý nghĩa là.A/V + (으)ㄴ/는/(으)ㄹ + N: Định ngữ.",
+          "en": "Choose the purpose of the paragraph.\n\n1. To promote public debate on law enforcement\n2. To provide grounds to object to law enforcement\n3. To indicate cases of damage caused by law enforcement\n4. To propose an opportune time for law enforcement\n--------------------\n<g>N + 에 관하다:</g> About/related to.\n<g>V + 기로 결정되다:</g> Be determined to be <g>V</g>.\n<g>V + 는 듯하다, A + (으)ㄴ 듯하다:</g> To seem like that, sound like that. \n<g>A/V + (으)ㄴ/는/(으)ㄹ + N:</g> Noun modifier."
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 내용으로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "공공의 피해를 유발하는",
+          "국민의 자유를 침해하는",
+          "소통의 단절을 조장하는",
+          "사회의 통합을 저해하는"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Điền nội dung thích hợp vào ( ).\n1. Gây ra thiệt hại cho con người\n2. Xâm phạm quyền tự do của con người\n3. Thúc đẩy sự gián đoạn trong giao tiếp\n4. Cản trở sự gắn kết xã hội\n",
+          "en": "Fill in the blank with the appropriate phrase.\n1. For causing public harm\n2. To infringe on the freedom of the people\n3. To promote the severance of communication\n4. Of hindering the integration of society"
+        }
+      },
+      {
+        "q_text": "밑줄 친 부분에 나타난 필자의 태도로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이 법으로 피해를 입은 사람들을 동정하고 있다.",
+          "이 법의 제정 단계에서의 문제점을 지적하고 있다.",
+          "이 법이 실패했던 해외 사례에 대해 비판하고 있다",
+          "이 법의 시행이 가져올 부작용에 대해 염려하고 있다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn đáp án thể hiện thái độ của tác giả ở câu gạch chân.\n\n1. Đồng cảm với những người bị hại do luật này. \n2. Chỉ ra những vấn đề trong giai đoạn ban hành luật này. \n3. Phê phán các trường hợp áp dụng thất bại luật này ở nước ngoài.\n4. Lo ngại về việc phản tác dụng khi thi hành luật này.",
+          "en": "Choose the answer that shows the author's attitude in the underlined sentence.\n\n1. Empathizing with those harmed by this law.\n2. Pointing out the problems in this stage of law enactment.\n3. Criticizing cases of failure to apply this law abroad.\n4. Be concerned about counterproductive enforcement of this law."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220008_2",
+    "count_question": 3,
+    "tag": "read"
+  },
+  {
+    "title": "[48～50]다음을 읽고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "<b>성장과 분배는 경제 정책의 양 축이다. 새가 두 날개로 날 듯 둘 중 하나만으로는 국가 경제가 제대로 굴러갈 수 없다. 문제는 어느 쪽에 더 정책의 무게를 두느냐에 있다. 지난 정부에서는 성장률이 올라가면 저절로 분배가 이루어진다는 ‘낙수 효과’를 기대하고 선성장 후분배 정책을 시행했지만 큰 효과를 보지 못하였다. 1950년대와 1960년대에 일부 국가들이 (  ), 이와 함께 소득 불평등이 크게 완화된 예가 있기는 하다. 그러나 대기업이 주도하는 현재 우리의 경제 구조에서는 발전의 성과가 편중되기 마련이어서 낙수 효과를 기대하기가 어렵다. 그러므로 <u>경제 성장에 따른 소득 불평등 완화 현상은 실현되기 어렵다</u>. 따라서 소득 불평등의 심화는 필연적이므로 이에 대한 획기적인 정책이 마련되어야 한다. 이런 점에서 현 정부가 발표한 성장과 분배의 균형에 목표를 둔‘ 소득 주도 성장’정책은 시의 적절하다고 볼 수 있다.",
+      "g_text_translate": {
+        "vi": "Tăng trưởng và phân phối là hai trụ cột của chính sách kinh tế. Giống như một con chim bay bằng hai cánh, nền kinh tế quốc dân không thể vận hành đúng cách chỉ với một trong hai cánh. Vấn đề nằm ở chỗ nên đặt nặng chính sách bên nào hơn. Chính phủ nhiệm kỳ trước đã kỳ vọng vào 'Hiệu ứng nhỏ giọt' mà việc phân phối sẽ tự động xảy ra khi tốc độ tăng trưởng tăng lên đồng thời thi hành chính sách phân phối trước tăng trưởng sau nhưng hiệu quả đạt được lại không cao. Trong những năm 1950, 1960, có những ví dụ về việc một số quốc gia (  ), cùng với sự giảm đáng kể về bất bình đẳng thu nhập. Tuy nhiên, trong cơ cấu kinh tế mà các tập đoàn lớn đang chi phối hiện nay của chúng ta, khó có thể kỳ vọng vào hiệu ứng nhỏ giọt vì thành quả phát triển đang được coi trọng hơn rất nhiều. Vì vậy <u>khó có thể hiện thực hóa hiện tượng xoa dịu bất bình đẳng thu nhập do tăng trưởng kinh tế</u>. Do đó, tình trạng bất bình đẳng thu nhập ngày càng trầm trọng là điều không thể tránh khỏi nên cần phải chuẩn bị một chính sách hoạch định mang tính đột phá cho vấn đề này. Về điểm này, chính sách 'Tăng trưởng chủ yếu dựa vào thu nhập' đặt mục tiêu cân bằng giữa tăng trưởng và phân phối do chính phủ hiện hành công bố có thể được coi là phù hợp thời trong thời điểm này.",
+        "en": "Growth and distribution are the two pillars of economic policy. Like a bird that flies on two wings, the national economy cannot function properly with only one of its wings. The problem lies in which side's policy should be placed more heavily. The previous government had expected the 'trickle effect' that the distribution would happen automatically when the growth rate increased and at the same time implemented the policy of distribution before growth, but the effect was not achieved. high. There are instances where some countries achieved high economic growth in the 1950s and 1960s, along with a significant reduction in income inequality. However, in our current economic structure dominated by large corporations, it is difficult to expect a trickle-down effect because development achievements are being given much more importance. Therefore, it is difficult to realize the phenomenon of mitigating income inequality due to economic growth</u>. Therefore, the worsening of income inequality is inevitable, so it is necessary to prepare a breakthrough policy planning for this problem. In this regard, the policy of 'Growth on the basis of income' that aims to balance growth and distribution as announced by the current government can be considered appropriate for the moment."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "필자가 이 글을 쓴 목적을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "정부의 지원 대책 마련을 요구하기 위하여",
+          "낙수 효과가 일어나는 현상을 설명하기 위하여",
+          "선성장 후분배의 성공 사례를 제시하기 위하여",
+          "정부의 새로운 경제 성장 정책을 지지하기 위하여"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Mục đích tác giả viết đoạn văn này là gì?\n1. Để yêu cầu chính phủ chuẩn bị các biện pháp hỗ trợ\n2. Để giải thích hiện tượng hiệu ứng nhỏ giọt đang xảy ra\n3. Để trình bày một ví dụ thành công về phân phối trước tăng trưởng sau\n4. Để ủng hộ chính sách tăng trưởng kinh tế mới của chính phủ\n--------------------\n지지하다: Ủng hộ, tán đồng\n편중되다: Được đặt nặng, được nghiêng về\n선성장 후분배: Tăng trưởng trước, phân phối sau",
+          "en": "Choose the purpose for which the author wrote this article.\n1. To request the government to prepare support measures\n2. To explain the phenomenon of the trickle-down effect\n3. To present a successful example of pre-growth post-distribution\n4. To support the government's new economic growth policy\n--------------------\n<g>지지하다:</g> To support\n<g>편중되다:</g> To be unequally distributed\n<g>선성장 후분배:</g> Pre-growth post-distribution."
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 내용으로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "높은 경제 성장을 이루고",
+          "다양한 분배 정책을 실시하고",
+          "성장과 분배가 조화를 이루고",
+          "적은 세금을 국민에게 부과하고"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Điền cụm từ thích hợp vào chỗ trống.\n1. Đạt được phát triển kinh tế cao\n2. Thực hiện các chính sách phân phối đa dạng\n3. Đạt được sự hài hòa giữa tăng trưởng và phân phối\n4. Đánh thuế ít đối với người dân\n--------------------\n경제 성장: Tăng trưởng kinh tế",
+          "en": "Fill in the blank with the suitable phrase.\n1. Achieved high economic growth\n2. Implemented various distribution policies\n3. Harmonized between growth and distribution\n4. Levied low taxes on their citizens\n--------------------\n<g>경제 성장:</g> Economic growth."
+        }
+      },
+      {
+        "q_text": "밑줄 친 부분에 나타난 필자의 태도로 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "소득 불평등 문제가 해소된 상황을 가정하고 있다.",
+          "소득 주도 성장을 위한 다양한 방법을 제안하고 있다.",
+          "이전과 같은 성장에 따른 분배가 불가능함을 주장하고 있다.",
+          "정책 변화로 인해 경제 성장률이 떨어질 것을 예측하고 있다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn đáp án phù hợp với thái độ mà tác giả thể hiện trong phần gạch chân.\n1. Giả định rằng vấn đề bất bình đẳng thu nhập đã được giải quyết.\n2. Đề xuất nhiều phương án về việc tăng trưởng chủ yếu dựa vào thu nhập\n3. Khẳng định không thể phân phối theo tăng trưởng như trước đây.\n4. Dự đoán tăng trưởng kinh tế sẽ giảm do thay đổi chính sách.\n--------------------\n주장하다: Khẳng định, chủ trương",
+          "en": "Choose the answer that suits the author's attitude as indicated in the underlined part.\n1. Assuming that the income inequality problem has been resolved.\n2. Proposing many methods for income-led growth.\n3. Arguing that distribution according to growth as before is impossible.\n4. Predicting that economic growth will decrease due to policy changes.\n--------------------\n주장하다: To claim, to affirm."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220008_2",
+    "count_question": 3,
+    "tag": "read"
+  },
+  {
+    "title": "[28～31]다음을 읽고 (   )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "새를 상자 안에 넣으면 자꾸 밖으로 나오려고 한다. 그러나 반대로 자유로운 공간에서는 안정을 찾고 도망치려고 애쓰지 않는다. 아이도 이와 마찬가지다. 부모들이 (   ) 하면 아이는 이를 구속이라 생각하고 반발심을 가진다. 그러나 일어나는 시간, 방과 후 할 일 등 생활 규칙을 아이와 의논하여 정하게 되면 부모가 시키지 않아도 스스로 책임감을 가지고 잘 지키려고 노력한다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "방과 후에 공부를 시키려고",
+          "친구와의 관계에 관여하려고",
+          "규칙을 정하고 그대로 따르게",
+          "집에서 동물을 키우지 못하게"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Khi bạn đặt một con chim vào hộp, nó sẽ tiếp tục cố gắng chui ra. Ngược lại, nếu được ở trong không gian tự do, nó sẽ thấy ổn định và không tìm cách trốn chạy. Đối với trẻ con cũng vậy. Nếu cha mẹ cứ ( ), đứa trẻ sẽ nghĩ rằng đó là sự gò ép và có thái độ oán giận. Tuy nhiên, nếu các quy tắc trong cuộc sống, chẳng hạn như thời gian thức dậy hay các việc phải làm sau giờ học, được quyết định với sự tham khảo ý kiến ​​của con trẻ, chúng sẽ tự chịu trách nhiệm và cố gắng thực hiện tốt, ngay cả khi cha mẹ không yêu cầu chúng làm vậy. \n\n1. Muốn bắt học thêm sau giờ học\n2. Muốn tham gia vào mối quan hệ với bạn bè\n3. Ra quy định và bắt làm theo như vậy\n4. Không cho nuôi động vật ở nhà\n--------------------\n그대로 따르다: Làm theo như vậy\n애쓰지 않다: Không cố gắng để làm việc gì đó.\n이와 마찬가지다: Giống như vậy.\n\nCâu sau đề cập đến việc cùng con thảo luận và cùng tạo ra các quy định nên câu trước điền đáp án 3 sẽ có sự liên kết.",
+          "en": "1. Force to study after school\n2. Involve in children's relationships with friends\n3. Set rules and let them follow them\n4. Do not allow pets in the house.\n--------------------\nWhen you put a bird in a box, it keeps trying to come out. However, in a free space, on the other hand, it finds stability and does not try to escape. So are the children. When parents set rules and let the children follow them, the children think of them as restraints and have a resentment. However, if the rules of life, such as wake up time and after-school tasks, are discussed with the children, they will take responsibility for themselves and try to keep it well, even if the parents do not ask them to do so.\n\n<g>그대로 따르다:</g> To follow as it is\n<g>애쓰지 않다:</g> Do not try to do something\n<g>이와 마찬가지다:</g> Like that\n\nThe following sentence refers to discussing and creating rules with the children, so the previous sentence with 3 will have a connection."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220001_c",
+    "count_question": 1,
+    "tag": "read"
+  },
+  {
+    "title": "[28～31]다음을 읽고 (   )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "사람들은 문화생활을 위한 시간을 따로 내기가 어렵다고들 한다. 최근 이런 사람들을 위해 (   ) 새로운 문화 콘텐츠들이 등장하고 있다. 그중 하나가 웹 소설인데 이것은 5분 이내에 읽을 수 있는 짧은 분량의 인터넷 소설을 말한다. 이 소설은 컴퓨터 화면에서 읽어도 눈이 피로하지 않도록 줄 간격이 넓게 편집되어 있다. 그리고 소설의 내용을 쉽게 이해할 수 있도록 등장인물의 수를 제한하는 것도 특징이다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "재미있는 내용으로 관심을 끄는",
+          "현대의 사람들을 등장인물로 하는",
+          "유행했던 기존의 소설을 각색해서 만든",
+          "짧은 시간 동안 부담 없이 즐길 수 있는"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Người ta nói rằng rất khó để dành thời gian cho đời sống văn hóa. Gần đây, ( ) những người như vậy, content (nội dung) mới dần xuất hiện. Một trong số đó là tiểu thuyết web - những tiểu thuyết ngắn trên Internet có thể đọc xong trong vòng 5 phút. Loại tiểu thuyết này được biên tập với khoảng cách dòng rộng để mắt không bị mỏi ngay cả khi đọc trên màn hình máy tính. Nó cũng có đặc điểm là giới hạn số lượng nhân vật để (người đọc) có thể dễ dàng hiểu được nội dung của tiểu thuyết.\n\n1. Thu hút sự chú ý với nội dung thú vị\n2. Nhân vật xuất hiện trong tiểu thuyết là người hiện đại\n3. Được tạo ra bằng cách biên kịch lại những cuốn tiểu thuyết thịnh hành\n4. Người đọc có thể tận hưởng trong thời gian ngắn mà không bị áp lực gì cả\n--------------------\nN + 을 위한: Vì, để.\nA/V + (으)ㄴ/는/(으)ㄹ + N: Định ngữ.\nV + 도록: Để cho.\n\nCâu đầu nói đến việc không có thời gian để dành cho đời sống văn hóa nên câu sau cần điền đáp án 4 để có sự liên kết.",
+          "en": "1. Get attention with interesting content\n2. Characters appearing in the novel are modern people\n3. Created by rewriting popular novels\n4. Readers can enjoy in a short time without any pressure\n--------------------\nPeople say that it is difficult to set aside time for cultural life. Recently, new cultural contents that can be enjoyed casually for a short period of time are emerging for such people. One of them is web novels, which are short Internet novels that can be read in less than 5 minutes. This novel is edited with wide line spacing so that the eyes do not get tired even when reading on a computer screen. It is also characterized by limiting the number of characters so that the content of the novel can be easily understood.\n\n<g>N + 을/를 위해(서), V + 기 위해(서)</g>: For (the sake of), (in order) to.\n<g>A/V + (으)ㄴ/는/(으)ㄹ + N:</g> Noun modifier.\n<g>V + 도록:</g> In order to, so that.\n\nThe first sentence mentions that there is no time to spend in cultural life, so the second sentence needs to be fill in with 4 to have a connection."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "220001_c",
+    "count_question": 1,
+    "tag": "read"
+  }
+]

@@ -1,0 +1,321 @@
+# TOPIK Reading Question Generator (TOPIK I & II)
+
+Skill tạo câu hỏi phần Đọc (읽기) cho kỳ thi TOPIK I & II theo đúng format JSON của hệ thống Migii.
+
+## Khi nào dùng skill này
+
+- Khi user yêu cầu tạo/gen câu hỏi đọc TOPIK (Level 1 & 2)
+- Khi user chỉ định kind cụ thể (ví dụ: "gen 120001", "tạo câu hỏi dạng 220007")
+- Khi user yêu cầu tạo đề thi đọc TOPIK I hoặc TOPIK II
+
+## Cấu trúc thư mục
+
+```
+skills/topik-read-gen-origin/
+├── SKILL.md              ← File này (overview + quy tắc chung)
+├── scripts/
+│   └── save_read.py      ← Script lưu CSV/JSON theo kind
+├── kinds/                ← Quy tắc chi tiết từng dạng
+│   ├── 120001.md         Đoán chủ đề đoạn văn ngắn (TOPIK I)
+│   ├── 120002_1.md       Điền chỗ trống [34] (TOPIK I)
+│   ├── 120002_2.md       Điền chỗ trống [35~37] (TOPIK I)
+│   ├── 120002_3.md       Điền chỗ trống [38] (TOPIK I)
+│   ├── 120002_4.md       Điền chỗ trống [39] (TOPIK I)
+│   ├── 120003_1.md       Chọn đáp án sai [40~41] (TOPIK I) [ảnh]
+│   ├── 120003_2.md       Chọn đáp án sai [42] (TOPIK I) [ảnh]
+│   ├── 120004_1.md       Nội dung khớp (TOPIK I)
+│   ├── 120004_2.md       Ý chính / trung tâm (TOPIK I)
+│   ├── 120005.md         Đọc đoạn + 2 câu hỏi dễ (TOPIK I)
+│   ├── 120006.md         Sắp xếp câu theo thứ tự (TOPIK I)
+│   ├── 120007_1.md       Đoạn văn ngắn khó [59~60] (TOPIK I)
+│   ├── 120007_2.md       Đoạn văn ngắn khó [61~68] (TOPIK I)
+│   ├── 120007_3.md       Đoạn văn ngắn khó [69~70] (TOPIK I)
+│   ├── 220001_a.md       Điền ngữ pháp liên kết [1~2] (TOPIK II)
+│   ├── 220001_b.md       Điền nội dung đoạn [16~18] (TOPIK II)
+│   ├── 220001_c.md       Điền nội dung đoạn [28~31] (TOPIK II)
+│   ├── 220002_a.md       Ý nghĩa tương tự — 밑줄 [3~4] (TOPIK II)
+│   ├── 220002_b_1.md     Nội dung tương tự [9] (TOPIK II) [ảnh]
+│   ├── 220002_b_2.md     Nội dung tương tự [10] (TOPIK II) [ảnh]
+│   ├── 220002_b_3.md     Nội dung tương tự [11~12] (TOPIK II) [ảnh]
+│   ├── 220002_c.md       Nội dung khớp văn bản [32~34] (TOPIK II)
+│   ├── 220003_a_1.md     Chủ đề đoạn văn [5~6] (TOPIK II) [ảnh]
+│   ├── 220003_a_2.md     Chủ đề đoạn văn [7~8] (TOPIK II) [ảnh]
+│   ├── 220003_b.md       Chủ đề đoạn văn dài [35~38] (TOPIK II)
+│   ├── 220004.md         Sắp xếp câu nâng cao (TOPIK II)
+│   ├── 220005_1.md       Đoạn văn dễ [19~22] (TOPIK II)
+│   ├── 220005_2.md       Đoạn văn dễ [23~24] (TOPIK II)
+│   ├── 220006.md         Tiêu đề báo chí (TOPIK II)
+│   ├── 220007.md         Chèn câu vào đúng vị trí (TOPIK II)
+│   ├── 220008_1.md       Đoạn văn khó [42~47] (TOPIK II)
+│   └── 220008_2.md       Đoạn văn khó [48~50] (TOPIK II)
+└── samples.json          ← Mẫu câu hỏi tham khảo
+```
+
+Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKILL.md này.
+
+---
+
+## Output Format (JSON)
+
+Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
+
+```json
+{
+  "title": "<tiêu đề dạng câu hỏi bằng tiếng Hàn>",
+  "general": {
+    "g_text": "<đoạn văn đọc chung — nếu count_question >= 2>",
+    "g_text_translate": { "vi": "<dịch tiếng Việt>", "en": "<dịch tiếng Anh>" },
+    "g_text_audio": "",
+    "g_text_audio_translate": { "vi": "", "en": "" },
+    "g_audio": "",
+    "g_image": ""
+  },
+  "content": [
+    {
+      "q_text": "<đoạn văn hoặc câu hỏi phụ>",
+      "q_image": "",
+      "q_point": 2,
+      "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
+      "q_correct": 1,
+      "explain": {
+        "vi": "<giải thích tiếng Việt>",
+        "en": "<giải thích tiếng Anh>"
+      },
+      "question_feature": "<mã đặc điểm từ bảng question_feature>",
+      "difficulty": <mức độ khó 1-4>,
+      "distractor_traps": {
+        "1": "<trap code cho đáp án 1 — rỗng nếu là đáp án đúng>",
+        "2": "<trap code cho đáp án 2>",
+        "3": "<trap code cho đáp án 3>",
+        "4": "<trap code cho đáp án 4>"
+      }
+    }
+  ],
+  "level": 1,
+  "kind": "120001",
+  "count_question": 1,
+  "tag": "read",
+  "topic": "<mã chủ đề từ bảng topic>"
+}
+```
+
+### Khác biệt so với Listening
+
+| Trường | Listen | Read |
+|--------|--------|------|
+| `g_text_audio` | Nội dung audio | **Luôn rỗng** |
+| `g_text` | Thường rỗng | Đoạn văn đọc chung (khi count_question ≥ 2) |
+| `q_text` | Câu hỏi phụ hoặc rỗng | Đoạn văn đọc HOẶC câu hỏi phụ |
+| `tag` | `"listen"` | `"read"` |
+| `q_image` | Rỗng (mô tả qua q_image_description) | URL ảnh thực (poster, biểu đồ, biển hiệu) |
+
+### Format bổ sung cho kind có ảnh
+
+Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
+
+```json
+{
+  "q_image_description": {
+    "image": "<mô tả chi tiết nội dung hình ảnh>"
+  }
+}
+```
+
+Áp dụng cho: 120003_1, 120003_2, 120004_2 (một phần), 220002_b_1, 220002_b_2, 220002_b_3, 220003_a_1, 220003_a_2.
+
+---
+
+## Danh mục chủ đề (topic)
+
+Phân tích từ câu hỏi đọc thực tế TOPIK I & II.
+
+### Chủ đề chung (Level 1, 2)
+
+| Code | Nhãn tiếng Anh | Tiếng Hàn | Kind thường gặp |
+|------|---------------|-----------|----------------|
+| `daily_life` | Daily Life & Routine | 일상생활 | 120001, 120002_1~4, 120004_1 |
+| `food_restaurant` | Food & Dining | 음식/식당 | 120001, 120002_1~4 |
+| `shopping_price` | Shopping & Price | 쇼핑/가격 | 120001, 120003_1~2 |
+| `school_education` | School & Education | 학교/교육 | 120001, 120004_2, 220003_b |
+| `hobby_leisure` | Hobbies & Leisure | 취미/여가 | 120001, 220002_c |
+| `travel` | Travel & Tourism | 여행/관광 | 120003_1~2, 220002_b_1~3 |
+| `health_hospital` | Health & Hospital | 건강/병원 | 120002_1~4, 220001_b |
+| `weather_season` | Weather & Seasons | 날씨/계절 | 120001, 120002_1~4 |
+| `culture_event` | Culture & Events | 문화/행사 | 220002_b_1~3, 220003_a_1~2 |
+| `environment_society` | Environment & Society | 환경/사회 | 220003_b, 220006, 220008_1~2 |
+| `science_tech` | Science & Technology | 과학/기술 | 220003_b, 220007, 220008_1~2 |
+| `economy_business` | Economy & Business | 경제/산업 | 220006, 220008_1~2 |
+| `language_expression` | Language & Expression | 언어/표현 | 220003_b, 220007 |
+| `psychology_behavior` | Psychology & Behavior | 심리/행동 | 220003_b, 220008_1~2 |
+
+---
+
+## Chiến lược bẫy đáp án sai (distractor_trap)
+
+### Nhóm 1: Bẫy từ vựng (Vocabulary Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_shared_noun` | Shared-Noun Trap | Đáp án sai chứa từ vựng giống đoạn đọc |
+| `trap_synonym_swap` | Synonym Swap | Thay từ đúng bằng từ đồng nghĩa nhưng sai ngữ cảnh |
+| `trap_similar_word` | Similar Word | Đáp án chứa từ phát âm/dạng tương tự (e.g. 관광/관계) |
+
+### Nhóm 2: Bẫy phủ định (Negation Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_neg_없안` | Negation 없/안/아니 | Đáp án sai đảo nghĩa bằng 없다/안/아니다 |
+| `trap_neg_않못` | Negation 않/못 | Đáp án sai thêm 않다/못하다 |
+| `trap_neg_reverse` | Reverse NOT | Kind 120003_1~2 — đáp án ĐÚNG là cái SAI; bẫy là các phát biểu đúng |
+
+### Nhóm 3: Bẫy cấu trúc (Structural Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_same_ending` | Same-Ending Pattern | Cả 4 đáp án kết thúc cùng dạng ngữ pháp |
+| `trap_same_length` | Same-Length Pattern | Đáp án cùng độ dài, khó phân biệt bằng mắt |
+| `trap_order_swap` | Order Swap | Kind sắp xếp — đảo thứ tự 1-2 câu |
+
+### Nhóm 4: Bẫy nội dung (Content Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_partial_truth` | Partial Truth | Đáp án sai chứa >50% nội dung đúng nhưng sửa 1 chi tiết |
+| `trap_subject_swap` | Subject Swap | Gán hành động/đặc điểm cho sai đối tượng |
+| `trap_number_shift` | Number/Time Shift | Thay đổi con số/thời gian/số lượng từ bài đọc |
+| `trap_detail_distort` | Detail Distortion | Đáp án sai bóp méo chi tiết nhỏ trong đoạn văn |
+| `trap_overgeneralize` | Overgeneralization | Đáp án sai khái quát hóa quá mức từ nội dung cụ thể |
+| `trap_wrong_inference` | Wrong Inference | Suy luận hợp lý nhưng KHÔNG có trong bài đọc |
+
+---
+
+## Đặc điểm câu hỏi (question_feature)
+
+### Dạng câu hỏi chính
+
+| Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
+|------|---------------|-------|-------------|
+| `qf_topic_identify` | Topic Identification | Đoạn văn nói về chủ đề gì? | 120001, 220003_a_1~2, 220003_b |
+| `qf_fill_blank` | Fill in Blank | Điền từ/cụm vào chỗ trống ( ) | 120002_1~4, 220001_a, 220001_b, 220001_c |
+| `qf_not_match` | NOT Matching | Chọn phát biểu KHÔNG khớp nội dung | 120003_1~2 |
+| `qf_content_match` | Content Matching | Chọn phát biểu khớp nội dung | 120004_1, 220002_c |
+| `qf_central_thought` | Central Thought | Ý chính / trung tâm của đoạn văn | 120004_2, 220003_b |
+| `qf_multi_passage` | Multi-Question Passage | Đoạn văn + 2-3 câu hỏi | 120005, 120007_1~3, 220005_1~2, 220008_1~2 |
+| `qf_sentence_order` | Sentence Ordering | Sắp xếp câu đúng thứ tự | 120006, 220004 |
+| `qf_similar_meaning` | Similar Meaning | Tìm cụm có nghĩa tương tự phần gạch chân | 220002_a |
+| `qf_graph_match` | Graph/Chart Matching | Nội dung khớp biểu đồ/đồ thị | 220002_b_1~3 |
+| `qf_headline_explain` | Headline Explanation | Giải thích tiêu đề báo chí | 220006 |
+| `qf_sentence_insert` | Sentence Insertion | Chèn câu vào vị trí phù hợp | 220007 |
+
+---
+
+## Định dạng văn bản đọc (text_format)
+
+Thay thế `audio_format` của Listen — xác định dạng bài đọc:
+
+| Code | Mô tả | Độ dài trung bình | Kind chính |
+|------|-------|:-----------------:|-----------|
+| `text_short_sentence` | 1-2 câu ngắn, từ vựng đơn giản | 15-30 ký tự | 120001, 120002 |
+| `text_paragraph_short` | Đoạn văn ngắn (3-5 câu) | 50-100 ký tự | 120004_1, 120004_2, 220002_c |
+| `text_paragraph_long` | Đoạn văn dài (6+ câu) | 150-300 ký tự | 220003_b, 220007, 220008_1~2 |
+| `text_passage_multi` | Đoạn dài + nhiều câu hỏi | 150-500 ký tự (g_text) | 120005, 120007_1~3, 220005_1~2, 220008_1~2 |
+| `text_notice_poster` | Thông báo / poster / quảng cáo (ảnh) | Ảnh | 120003_1~2, 220002_b_1~3, 220003_a_1~2 |
+| `text_headline` | Tiêu đề báo (ngắn, ẩn dụ) | 15-30 ký tự | 220006 |
+| `text_ordered_sentences` | 4 câu (가)(나)(다)(라) cần sắp xếp | 120-200 ký tự | 120006, 220004 |
+
+---
+
+## Ngữ pháp đáp án (answer_grammar)
+
+| Code | Mô tả | Kind áp dụng |
+|------|-------|-------------|
+| `ans_noun_phrase` | Đáp án là danh từ/cụm danh từ | 120001, 120002_1~4 (một phần), 220003_a_1~2 |
+| `ans_sentence_plain` | Đáp án là câu thể trần thuật (~ㄴ다/한다) | 120004_1, 220002_c, 220003_b |
+| `ans_sentence_polite` | Đáp án dùng ~ㅂ니다/습니다 | 120003_1~2 |
+| `ans_grammar_form` | Đáp án là cấu trúc ngữ pháp | 220001_a, 220002_a |
+| `ans_sentence_long` | Đáp án là câu dài (20+ ký tự) | 220001_b, 220001_c, 220006, 220008_1~2 |
+| `ans_order_combo` | Đáp án là tổ hợp thứ tự (가)-(나)-(다)-(라) | 120006, 220004 |
+| `ans_position_mark` | Đáp án là vị trí ㉠/㉡/㉢/㉣ | 220007 |
+
+---
+
+## Thang độ khó (Difficulty Scale)
+
+| Mức | Kind | Kiểu suy luận |
+|:---:|------|--------------|
+| 2 | 120001 | `vocab_match` — Từ vựng đơn giản |
+| 3 | 120002_1~4 | `context_fill` — Điền chỗ trống dựa ngữ cảnh |
+| 4 | 120003_1~2 | `detail_extraction` — Trích xuất chi tiết từ hình/văn |
+| 5 | 120004_1, 120004_2, 220002_a | `content_matching` — So khớp nội dung |
+| 6 | 120006, 220001_a, 220003_a_1~2, 220004 | `logical_ordering` / `grammar_inference` |
+| 7 | 120005, 120007_1~3, 220001_b, 220001_c, 220002_b_1~3, 220002_c, 220005_1~2 | `paragraph_comprehension` — Hiểu đoạn văn |
+| 8 | 220003_b, 220006, 220007 | `abstract_reasoning` — Suy luận trừu tượng |
+| 9 | 220008_1~2 | `deep_comprehension` — Hiểu sâu + nhiều câu hỏi |
+
+---
+
+## Cấp độ đọc theo level (reading_level)
+
+| Level | Đặc điểm văn bản | Ngữ pháp phổ biến |
+|:-----:|------------------|------------------|
+| 1 | Câu ngắn, từ vựng cơ bản N5-N4, chủ đề sinh hoạt | ~ㅂ니다/어요, ~는/은, ~에서, ~과/와 |
+| 2 | Đoạn văn dài, từ vựng trung-cao cấp, chủ đề xã hội/khoa học | ~(으)ㄴ/는, ~기 때문에, ~(으)므로, ~에 따르면 |
+
+---
+
+## Quy tắc chung khi gen câu hỏi
+
+### 1. Chất lượng nội dung tiếng Hàn
+- Dùng ngữ pháp đúng level (xem bảng reading_level)
+- Văn bản tự nhiên, đa dạng chủ đề
+- KHÔNG lặp lại từ vựng/ngữ cảnh giữa các câu trong cùng batch
+- Level 2: đoạn văn mạch lạc, chủ đề xã hội/khoa học/tâm lý
+
+### 2. Xây dựng đáp án sai (distractor)
+- Tuân theo tỷ lệ bẫy của từng kind (xem file kind tương ứng)
+- Phải hợp lý nhưng SAI về nội dung
+- Tái sử dụng từ vựng bài đọc khi kind yêu cầu `trap_shared_noun`
+- Đáp án sai phải cùng format/độ dài với đáp án đúng
+
+### 3. Giải thích (explain)
+- **vi**: Dịch bài đọc + dịch cả 4 đáp án → dấu `--------------------` → giải thích đáp án đúng
+- **en**: Tương tự bằng tiếng Anh
+- Highlight từ vựng/ngữ pháp quan trọng
+
+### 4. Số lượng
+- Mặc định: 5 câu mỗi kind nếu user không chỉ định
+- Tối đa: 20 câu mỗi lần
+
+### 5. Kiểm tra sau khi gen (Validation Checklist)
+- [ ] `q_correct` nằm trong 1-4
+- [ ] 4 đáp án không trùng nhau
+- [ ] Văn bản là tiếng Hàn tự nhiên, đúng level
+- [ ] Bẫy đúng phân bố của kind
+- [ ] Bản dịch (vi/en) chính xác
+- [ ] `explain` chứa dịch + lý do đáp án đúng
+- [ ] `count_question` khớp số phần tử trong `content`
+- [ ] `tag` = `"read"` (KHÔNG phải `"listen"`)
+- [ ] Kind có ảnh → có `q_image_description`
+
+## Workflow
+
+1. User chỉ định kind → đọc file `kinds/{kind}.md`
+2. Hỏi số lượng (mặc định 5)
+3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
+4. Lưu JSON tạm → chạy `scripts/save_read.py` để tách CSV theo kind
+5. Validate theo checklist
+
+### Lưu kết quả bằng script
+
+```bash
+# Lưu CSV theo kind + JSON + merge tổng
+python skills/topik-read-gen-origin/scripts/save_read.py gen_temp.json -o output/read-origin --json --merge
+
+# Chỉ validate
+python skills/topik-read-gen-origin/scripts/save_read.py gen_temp.json --validate-only
+
+# Append thêm batch mới
+python skills/topik-read-gen-origin/scripts/save_read.py new_batch.json --append
+```
+
+Output: `output/read-origin/level_{1,2}/{kind}.csv`

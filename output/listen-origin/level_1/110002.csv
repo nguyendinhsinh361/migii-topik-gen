@@ -1,0 +1,18 @@
+﻿id,kind,level,tag,title,count_question,g_text_audio,g_text_audio_vi,g_text_audio_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,created_at
+110002_20260515_170026_q0,110002,1,listen,[5～6] 다음을 듣고 <보기>와 같이 이어지는 말을 고르십시오.,1,생일 축하해요!,Chúc mừng sinh nhật!,Happy birthday!,culture_event,,4,"고맙습니다.
+반갑습니다.
+축하합니다.
+실례합니다.",1,"1. Cảm ơn. (Đáp án đúng)
+2. Rất vui được gặp bạn.
+3. Chúc mừng. (trap_shared_noun)
+4. Xin lỗi/Thất lễ.
+--------------------
+Khi nhận được lời chúc mừng sinh nhật, phản hồi tự nhiên nhất là lời cảm ơn.","1. Thank you. (Correct Answer)
+2. Nice to meet you.
+3. Congratulations. (trap_shared_noun)
+4. Excuse me.
+--------------------
+When receiving birthday wishes, the most natural response is a thank you.",,qf_next_utterance,3,"
+trap_same_ending
+trap_shared_noun
+trap_same_ending",,,,,,,,,,,20260515_170026

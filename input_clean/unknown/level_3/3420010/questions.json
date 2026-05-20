@@ -1,0 +1,4762 @@
+[
+  {
+    "title": "다음 단어와 의미가 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "연세",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "이름",
+          "나이",
+          "고향",
+          "국적"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Age (honorific form)\n\n1. Name\n2. Age\n3. Hometown\n4. Nationality\n--------------------\n<g>연세</g> is the honorific form of <g>나이</g>.",
+          "vi": "Tuổi (kính ngữ)\n\n1. Tên\n2. Tuổi\n3. Quê hương\n4. Quốc tịch\n--------------------\n연세 là kính ngữ của 나이."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어와 의미가 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "자르다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "조립하다",
+          "혼합하다",
+          "절단하다",
+          "조절하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To cut\n\n1. To assemble\n2. To mix\n3. To cut\n4. To control\n-------------------\n<g>자르다 = 절단하다.</g>",
+          "vi": "Cắt\n\n1. Lắp ráp\n2. Trộn\n3. Cắt\n4. Điều tiết\n--------------------\n자르다 = 절단하다."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어와 의미가 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "혼합하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "담다",
+          "묶다",
+          "섞다",
+          "쌓다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To mix\n\n1. To put something in something\n2. To tie\n3. To mix\n4. To pile\n--------------------\n<g>혼합하다 = 섞다.</g>",
+          "vi": "Trộn\n\n1. Chứa đựng\n2. Buộc, cột\n3. Trộn\n4. Chất lên, xếp lên\n--------------------\n혼합하다 = 섞다."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "연기하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "연결하다",
+          "미루다",
+          "취소하다",
+          "바뀌다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To postpone\n\n1. To connect \n2. To postpone\n3. To cancel\n4. To change",
+          "vi": "Dời lại, hoãn lại\n\n1. Kết nối\n2. Dời lại, hoãn lại\n3. Hủy bỏ\n4. Thay đổi"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "적재하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "싣다",
+          "막다",
+          "빼다",
+          "뚫다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To load\n\n1. To load\n2. To prevent\n3. To subtract\n4. To dig, to bore",
+          "vi": "Chất lên\n\n1. Chất lên\n2. Ngăn chặn\n3. Trừ đi\n4. Đục, khoét"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "(월급을) 타다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "널다",
+          "받다",
+          "담다",
+          "걷다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To receive (a salary)\n\n1. To hang\n2. To receive \n3. To put something in something\n4. To walk",
+          "vi": "Nhận (được lương)\n\n1. Phơi\n2. Nhận\n3. Đựng, chứa\n4. Đi bộ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "(가격이) 오르다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "변화하다",
+          "인상되다",
+          "유지되다",
+          "선택되다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To rise (in price)\n\n1. To change \n2. To rise\n3. To be maintained \n4. To be selected",
+          "vi": "(Giá) tăng lên        \n\n1. Thay đổi\n2. Được tăng lên\n3. Được duy trì\n4. Được chọn"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "끊다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "수리하다",
+          "보관하다",
+          "절단하다",
+          "작동하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To cut off\n\n1. To repair \n2. To keep, to store\n3. To cut off\n4. To operate",
+          "vi": "Cắt đứt\n\n1. Sửa chữa\n2. Giữ gìn\n3. Cắt đứt\n4. Hoạt động"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "크기",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "규모",
+          "단정",
+          "견해",
+          "허가서"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Size \n\n1. Size\n2. Conclusion \n3. Opinion \n4. Permit",
+          "vi": "Kích cỡ\n\n1. Quy mô\n2. Sự kết luận\n3. Ý kiến\n4. Giấy phép"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "밝다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "묻다",
+          "분주하다",
+          "환하다",
+          "조용하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be bright \n\n1. To ask \n2. To be busy \n3. To be bright \n4. To be quiet",
+          "vi": "Sáng\n\n1. Hỏi\n2. Bận rộn\n3. Tươi sáng\n4. Yên tĩnh"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "강하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "튼튼하다",
+          "당기다",
+          "금지하다",
+          "낭비하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To be strong \n\n1. To be strong\n2. To pull\n3. To ban\n4. To waste",
+          "vi": "Mạnh\n\n1. Chắc chắn\n2. Kéo\n3. Cấm\n4. Lãng phí"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "닮다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "절약하다",
+          "푸르다",
+          "비슷하다",
+          "환하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To resemble\n\n1. To save\n2. To be blue\n3. To be similar\n4. To be bright",
+          "vi": "Giống\n\n1. Tiết kiệm\n2. Xanh\n3. Tương tự\n4. Tươi sáng"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "고치다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "구경하다",
+          "환하다",
+          "즐겁다",
+          "수선하다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To repair\n\n1. To watch, to see\n2. To be bright \n3. To be happy \n4. To repair",
+          "vi": "Sửa chữa\n\n1. Xem\n2. Tươi sáng\n3. Vui vẻ\n4. Sửa chữa"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "동일하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "곱다",
+          "담다",
+          "같다",
+          "싱겁다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be the same\n\n1. To be beautiful \n2. To put something in something\n3. To be the same\n4. To be bland",
+          "vi": "Giống nhau\n\n1. Đẹp\n2. Đựng, chứa\n3. Giống nhau\n4. Nhạt nhẽo"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "(계약이) 끝나다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "면제되다",
+          "시작되다",
+          "유지되다",
+          "만료되다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "(A contract) expires\n\n1. To be exempted\n2. To begin\n3. To be maintained \n4. To expire",
+          "vi": "(Hợp đồng) kết thúc\n\n1. Được miễn\n2. Được bắt đầu\n3. Được duy trì\n4. Được hết hạn"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "(일이) 쌓다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "몰리다",
+          "한가하다",
+          "비우다",
+          "포함되다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "̣(Work) piles up\n\n1. To be pressed\n2. To be free\n3. To empty \n4. To be included",
+          "vi": "(Công việc) chất đống\n\n1. Bị dồn\n2. Nhàn rỗi, nhàn nhã\n3. Làm trống\n4. Bao gồm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "팔리다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "연기하다",
+          "없어지다",
+          "타버리다",
+          "매진되다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To be sold \n\n1. To postpone\n2. To disappear\n3. To burn oneself\n4. To be sold out",
+          "vi": "Được bán\n\n1. Trì hoãn\n2. Mất đi\n3. Bốc cháy mất\n4. Được bán hết"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "달리다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "허탈하다",
+          "나누다",
+          "달콤하다",
+          "뛰다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To run \n\n1. To be dispirited\n2. To divide \n3. To be sweet\n4. To run",
+          "vi": "Chạy\n\n1. Mệt mỏi, đuối sức\n2. Phân chia\n3. Ngọt ngào\n4. Chạy"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "간단하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "단순하다",
+          "수선하다",
+          "달콤하다",
+          "복잡하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To be simple\n\n1. To be simple\n2. To repair \n3. To be sweet\n4. To be complicated",
+          "vi": "Đơn giản\n\n1. Đơn giản\n2. Sửa chữa\n3. Ngọt ngào\n4. Phức tạp"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "목욕하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "수선하다",
+          "샤워하다",
+          "질문하다",
+          "용접하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To take a bath \n\n1. To repair\n2. To take a shower\n3. To ask \n4. To weld",
+          "vi": "Đi tắm\n\n1. Sửa chữa\n2. Đi tắm\n3. Hỏi\n4. Hàn"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "가족",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "기온",
+          "공간",
+          "대낮",
+          "식구"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Family \n\n1. Temperature \n2. Space \n3. The middle of the day\n4. Family",
+          "vi": "Gia đình\n\n1. Nhiệt độ thời tiết\n2. Không gian\n3. Giữa ban ngày\n4. Gia đình"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "신경을 쓰다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "견의하다",
+          "무한하다",
+          "개의하다",
+          "생각하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be concerned\n\n1. To suggest\n2. To be infinite \n3. To mind, to bother\n4. To think",
+          "vi": "Lo lắng, để ý\n\n1. Kiến nghị\n2. Vô hạn\n3. Quan tâm, lo lắng\n4. Suy nghĩ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "견디다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "참다",
+          "담다",
+          "감다",
+          "남다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To endure\n\n1. To endure\n2. To put something in something\n3. To wind up\n4. To be left",
+          "vi": "Chịu đựng\n\n1. Chịu đựng\n2. Đựng, chứa\n3. Quấn, cuộn vào\n4. Còn lại"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "겪다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "수련하다",
+          "경험하다",
+          "감소하다",
+          "연구하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To experience\n\n1. To practice\n2. To experience \n3. To decrease\n4. To research",
+          "vi": "Trải qua\n\n1. Tu luyện\n2. Trải qua, trải nghiệm \n3. Giảm bớt\n4. Nghiên cứu"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "애를 먹다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "생생하다",
+          "고생하다",
+          "식사하다",
+          "재배하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To have a hard time\n\n1. To be vivid \n2. To have difficulty\n3. To eat\n4. To cultivate",
+          "vi": "Vất vả \n\n1. Sống động\n2. Vất vả \n3. Ăn cơm\n4. Trồng trọt"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "뾰족하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "여유롭다",
+          "명예롭다",
+          "신비롭다",
+          "날카롭다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To be sharp\n\n1. To be relaxed\n2. To be honorable\n3. To be mysterious\n4. To be sharp",
+          "vi": "Nhọn\n\n1. Có tính dư giả\n2. Có danh dự\n3. Thần bí\n4. Sắc, bén, nhọn"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "확인하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "재가하다",
+          "무시하다",
+          "보고하다",
+          "진료하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To confirm\n\n1. To approve\n2. To look down on \n3. To report \n4. To treat",
+          "vi": "Xác nhận\n\n1. Phê chuẩn\n2. Coi thường, xem thường\n3. Báo cáo\n4. Điều trị"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "철거하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "미루다",
+          "치우다",
+          "키우다",
+          "이루다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To demolish\n\n1. To postpone\n2. To remove\n3. To raise\n4. To achieve",
+          "vi": "Tháo dỡ\n\n1. Hoãn lại\n2. Dẹp bỏ\n3. Nuôi nấng\n4. Đạt được"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "지급하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "맞추다",
+          "멈추다",
+          "내주다",
+          "격리하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To pay\n\n1. To adjust \n2. To stop \n3. To give\n4. To isolate",
+          "vi": "Chi trả, cấp\n\n1. Ghép, lắp\n2. Ngừng lại\n3. Đưa cho, thanh toán\n4. Cách ly"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "축사",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "외출",
+          "역할",
+          "다양성",
+          "외양간"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Barn\n\n1. Going out\n2. Role\n3. Diversity\n4. Barn",
+          "vi": "Chuồng\n\n1. Sự ra ngoài\n2. Vai trò\n3. Tính đa dạng\n4. Chuồng bò, chuồng ngựa"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "실시하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "가입하다",
+          "실례하다",
+          "제시하다",
+          "시행하다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To enforce\n\n1. To sign up\n2. To excuse\n3. To present\n4. To enforce",
+          "vi": "Thực thi\n\n1. Gia nhập\n2. Thất lễ\n3. Trình bày\n4. Thi hành"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "수확하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "거두다",
+          "확인하다",
+          "순수하다",
+          "그만두다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To harvest \n\n1. To harvest \n2. To check\n3. To be innocent\n4. To quit",
+          "vi": "Thu hoạch\n\n1. Thu hoạch\n2. Kiểm tra\n3. Ngây thơ\n4. Thôi, bỏ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "근로자",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "사망자",
+          "연구자",
+          "노동자",
+          "관리자"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Worker\n\n1. The dead\n2. Researcher \n3. Worker\n4. Manager",
+          "vi": "Người lao động\n\n1. Người chết\n2. Nhà nghiên cứu\n3. Người lao động\n4. Người quản lý"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "송별회",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "환영회",
+          "망년회",
+          "신년회",
+          "환송회"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Farewell party\n \n1. Welcome party\n2. Year-end party\n3. New Year's party\n4. Farewell party\n--------------------\n<g>송별회</g>: A gathering to comfort people who are saddened by an upcoming separation, and wishing the people who are leaving good luck.\n<g>환송회</g>: A gathering arranged to send off with pleasure someone who is leaving.",
+          "vi": "Tiệc chia tay\n \n1. Tiệc chào mừng\n2. Tiệc tất niên\n3. Tiệc năm mới\n4. Tiệc chia tay (tiễn đưa)\n--------------------\n송별회: Tiễn với tâm trạng tiếc nuối và cầu chúc may mắn cho người ra đi.\n환송회: Tiễn với tâm trạng vui vẻ."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "꼼꼼하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "대충하다",
+          "치밀하다",
+          "게으르다",
+          "급하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To be meticulous\n \n1. To do sloppily\n2. To be meticulous\n3. To be lazy\n4. To be hasty",
+          "vi": "Tỉ mỉ, cẩn thận\n \n1. Làm qua loa\n2. Chi li, tỉ mỉ\n3. Lười biếng\n4. Vội vàng"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "보람",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "후회",
+          "가치",
+          "불안",
+          "걱정"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Worth, satisfaction\n \n1. Regret\n2. Value, worth\n3. Anxiety\n4. Worry",
+          "vi": "Sự hài lòng, giá trị\n \n1. Hối hận\n2. Giá trị\n3. Bất an\n4. Lo lắng"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "체불",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "지급",
+          "연장",
+          "단축",
+          "연기"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Arrears (of payment)\n \n1. Payment\n2. Extension\n3. Shortening\n4. Postponement",
+          "vi": "Trả chậm\n \n1. Chi trả\n2. Kéo dài\n3. Rút ngắn\n4. Trì hoãn"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "고충",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "즐거움",
+          "어려움",
+          "희망",
+          "행복"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Difficulty\n \n1. Joy\n2. Difficulty\n3. Hope\n4. Happiness",
+          "vi": "Khó khăn, nỗi khổ\n \n1. Niềm vui\n2. Khó khăn\n3. Hy vọng\n4. Hạnh phúc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "귀국",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "출국",
+          "입국",
+          "방문",
+          "여행"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Returning to one's country\n \n1. Departure\n2. Entry\n3. Visit\n4. Travel",
+          "vi": "Về nước\n \n1. Xuất cảnh\n2. Nhập cảnh\n3. Viếng thăm\n4. Du lịch"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "넉넉하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "부족하다",
+          "충분하다",
+          "불편하다",
+          "불안하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To be sufficient\n \n1. To be insufficient\n2. To be sufficient\n3. To be inconvenient\n4. To be uneasy",
+          "vi": "Đầy đủ, dư dả\n \n1. Thiếu thốn\n2. Đầy đủ\n3. Bất tiện\n4. Bất an"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "사업장",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "가정",
+          "학교",
+          "직장",
+          "병원"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Workplace\n \n1. Home\n2. School\n3. Workplace\n4. Hospital",
+          "vi": "Nơi làm việc, công trường\n \n1. Gia đình\n2. Trường học\n3. Nơi làm việc\n4. Bệnh viện"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "불쾌하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "상쾌하다",
+          "거북하다",
+          "통쾌하다",
+          "쾌적하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To be uncomfortable\n \n1. To be refreshing\n2. To be uncomfortable\n3. To be delightful\n4. To be comfortable",
+          "vi": "Khó chịu, bực bội\n \n1. Sảng khoái\n2. Khó chịu, không thoải mái \n3. Sảng khoái, hả hê\n4. Dễ chịu, thoải mái"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "임금",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "세금",
+          "벌금",
+          "월급",
+          "연금"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Wage\n \n1. Tax\n2. Fine\n3. Monthly salary\n4. Pension",
+          "vi": "Tiền lương\n \n1. Thuế\n2. Tiền phạt\n3. Lương tháng\n4. Lương hưu"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "숙련공",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "초보자",
+          "기능공",
+          "학생",
+          "실업자"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Skilled worker\n \n1. Beginner\n2. Skilled worker\n3. Student\n4. Unemployed person",
+          "vi": "Công nhân lành nghề\n \n1. Người mới bắt đầu\n2. Người lao động có tay nghề\n3. Học sinh\n4. Người thất nghiệp"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "산업 재해",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "자연 재해",
+          "교통 사고",
+          "화재 사고",
+          "업무상 사고"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Industrial accident\n \n1. Natural disaster\n2. Traffic accident\n3. Fire accident\n4. Work-related accident",
+          "vi": "Tai nạn lao động\n \n1. Thiên tai\n2. Tai nạn giao thông\n3. Tai nạn hỏa hoạn\n4. Tai nạn trong công việc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "출입국관리소",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "경찰서",
+          "소방서",
+          "세무서",
+          "이민국"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Immigration office\n \n1. Police station\n2. Fire station\n3. Tax office\n4. Immigration office",
+          "vi": "Văn phòng quản lý xuất nhập cảnh\n \n1. Đồn cảnh sát\n2. Trạm cứu hỏa\n3. Cơ quan thuế\n4. Cục quản lý xuất nhập cảnh"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "상담",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "질문",
+          "대화",
+          "토론",
+          "조언"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Advice, consultation\n \n1. Question\n2. Conversation\n3. Discussion\n4. Advice",
+          "vi": "Tư vấn\n \n1. Hỏi\n2. Đối thoại\n3. Thảo luận\n4. Khuyên bảo"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "고용 보험",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "건강 보험",
+          "국민 연금",
+          "산재 보험",
+          "실업 보험"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Unemployment insurance\n \n1. Health insurance\n2. National pension\n3. Industrial accident insurance\n4. Unemployment insurance\n--------------------\n<g>고용 보험</g> is the broader concept of <g>실업 보험</g>.",
+          "vi": "Bảo hiểm việc làm\n \n1. Bảo hiểm y tế\n2. Lương hưu quốc dân\n3. Bảo hiểm tai nạn lao động\n4. Bảo hiểm thất nghiệp\n--------------------\n고용 보험 là khái niệm rộng hơn của 실업 보험."
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "근로 계약서",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "이력서",
+          "자기소개서",
+          "고용 계약서",
+          "재직 증명서"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Employment contract\n \n1. Resume\n2. Letter of self-introduction\n3. Employment contract\n4. Certificate of employment",
+          "vi": "Hợp đồng lao động\n \n1. Sơ yếu lý lịch\n2. Thư tự giới thiệu\n3. Hợp đồng lao động\n4. Giấy chứng nhận đang làm việc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "사업주",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "근로자",
+          "사용자",
+          "동료",
+          "고객"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Employer\n \n1. Employee\n2. Employer\n3. Colleague\n4. Customer",
+          "vi": "Chủ doanh nghiệp\n \n1. Người lao động\n2. Người sử dụng (lao động)\n3. Đồng nghiệp\n4. Khách hàng"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "안전모",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "장갑",
+          "마스크",
+          "안전화",
+          "헬멧"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Safety helmet\n \n1. Gloves\n2. Mask\n3. Safety shoes\n4. Helmet",
+          "vi": "Mũ bảo hộ\n \n1. Găng tay\n2. Khẩu trang\n3. Giày bảo hộ\n4. Mũ bảo hiểm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "작업복",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "정장",
+          "사복",
+          "근무복",
+          "운동복"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Work clothes\n \n1. Suit\n2. Plain clothes\n3. Work uniform\n4. Sports clothes",
+          "vi": "Quần áo làm việc\n \n1. Trang phục chỉnh tề\n2. Thường phục\n3. Đồng phục làm việc\n4. Quần áo thể thao"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "소화기",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "난로",
+          "에어컨",
+          "선풍기",
+          "불 끄는 기구"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Fire extinguisher\n \n1. Heater\n2. Air conditioner\n3. Fan\n4. Fire extinguishing device",
+          "vi": "Bình cứu hỏa\n \n1. Lò sưởi\n2. Điều hòa\n3. Quạt máy\n4. Dụng cụ dập lửa"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "보호구",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "작업 도구",
+          "안전 장비",
+          "사무용품",
+          "개인 소지품"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Protective equipment\n \n1. Work tools\n2. Safety equipment\n3. Office supplies\n4. Personal belongings",
+          "vi": "Thiết bị bảo hộ\n \n1. Dụng cụ làm việc\n2. Thiết bị an toàn\n3. Văn phòng phẩm\n4. Đồ dùng cá nhân"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "산업 안전",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "교통 안전",
+          "생활 안전",
+          "공공 안전",
+          "작업장 안전"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Industrial safety\n \n1. Traffic safety\n2. Life safety\n3. Public safety\n4. Workplace safety",
+          "vi": "An toàn lao động\n \n1. An toàn giao thông\n2. An toàn đời sống\n3. An toàn công cộng\n4. An toàn nơi làm việc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "예방",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "치료",
+          "방지",
+          "관리",
+          "점검"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Prevention\n \n1. Treatment\n2. Prevention\n3. Management\n4. Inspection",
+          "vi": "Phòng ngừa\n \n1. Điều trị\n2. Ngăn chặn\n3. Quản lý\n4. Kiểm tra"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "감독자",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "사원",
+          "관리자",
+          "동료",
+          "고객"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Supervisor\n \n1. Employee\n2. Manager\n3. Colleague\n4. Customer",
+          "vi": "Người giám sát\n \n1. Nhân viên\n2. Người quản lý\n3. Đồng nghiệp\n4. Khách hàng"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "지시",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "부탁",
+          "명령",
+          "제안",
+          "설명"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Order, command\n \n1. Request\n2. Order, command\n3. Suggestion\n4. Explanation",
+          "vi": "Chỉ thị\n \n1. Nhờ vả\n2. Mệnh lệnh\n3. Đề xuất\n4. Giải thích"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "점검",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "수리",
+          "검사",
+          "청소",
+          "정리"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Inspection\n \n1. Repair\n2. Inspection\n3. Cleaning\n4. Arrangement",
+          "vi": "Kiểm tra\n \n1. Sửa chữa\n2. Kiểm tra\n3. Dọn dẹp\n4. Sắp xếp"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "휴식 시간",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "근무 시간",
+          "점심 시간",
+          "쉬는 시간",
+          "퇴근 시간"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Break time\n \n1. Working hours\n2. Lunch time\n3. Break time\n4. Leaving time",
+          "vi": "Thời gian nghỉ ngơi\n \n1. Thời gian làm việc\n2. Thời gian ăn trưa\n3. Thời gian nghỉ ngơi\n4. Thời gian tan làm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "안전 교육",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "직무 교육",
+          "소방 훈련",
+          "안전 훈련",
+          "외국어 교육"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Safety education\n \n1. Job training\n2. Fire drill\n3. Safety training\n4. Foreign language education",
+          "vi": "Giáo dục an toàn\n \n1. Giáo dục công việc\n2. Huấn luyện phòng cháy chữa cháy\n3. Huấn luyện an toàn\n4. Giáo dục ngoại ngữ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "작업 환경",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "근무 조건",
+          "근무 태도",
+          "근무 시간",
+          "작업 내용"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Working environment\n \n1. Working conditions\n2. Working attitude\n3. Working hours\n4. Work content",
+          "vi": "Môi trường làm việc\n \n1. Điều kiện làm việc\n2. Thái độ làm việc\n3. Thời gian làm việc\n4. Nội dung công việc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "환기",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "청소",
+          "통풍",
+          "난방",
+          "냉방"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Ventilation\n \n1. Cleaning\n2. Ventilation\n3. Heating\n4. Cooling",
+          "vi": "Thông gió\n \n1. Dọn dẹp\n2. Thông gió\n3. Sưởi ấm\n4. Làm mát"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "소음",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "음악",
+          "조용한 소리",
+          "시끄러운 소리",
+          "자연의 소리"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Noise\n \n1. Music\n2. Quiet sound\n3. Loud sound\n4. Natural sound",
+          "vi": "Tiếng ồn\n \n1. Âm nhạc\n2. Âm thanh yên tĩnh\n3. Âm thanh ồn ào\n4. Âm thanh tự nhiên"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "분진",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "먼지",
+          "습기",
+          "연기",
+          "냄새"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "Dust\n \n1. Dust\n2. Humidity\n3. Smoke\n4. Smell",
+          "vi": "Bụi\n \n1. Bụi\n2. Độ ẩm\n3. Khói\n4. Mùi"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "유해 물질",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "좋은 물질",
+          "안전한 물질",
+          "해로운 물질",
+          "유용한 물질"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Harmful substance\n \n1. Good substance\n2. Safe substance\n3. Harmful substance\n4. Useful substance",
+          "vi": "Chất độc hại\n \n1. Chất tốt\n2. Chất an toàn\n3. Chất có hại\n4. Chất hữu ích"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "질병",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "건강",
+          "질환",
+          "운동",
+          "휴식"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Disease\n \n1. Health\n2. Disease\n3. Exercise\n4. Rest",
+          "vi": "Bệnh tật\n \n1. Sức khỏe\n2. Bệnh tật\n3. Vận động\n4. Nghỉ ngơi"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "예방 접종",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "치료",
+          "수술",
+          "백신 주사",
+          "건강 검진"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Vaccination\n \n1. Treatment\n2. Surgery\n3. Vaccine injection\n4. Health checkup",
+          "vi": "Tiêm phòng\n \n1. Điều trị\n2. Phẫu thuật\n3. Tiêm vắc xin\n4. Kiểm tra sức khỏe"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "스트레스",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "행복",
+          "즐거움",
+          "긴장",
+          "편안함"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Stress\n \n1. Happiness\n2. Joy\n3. Tension\n4. Comfort",
+          "vi": "Căng thẳng, stress\n \n1. Hạnh phúc\n2. Niềm vui\n3. Căng thẳng\n4. Thoải mái"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "규칙적인 생활",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "불규칙한 생활",
+          "계획적인 생활",
+          "자유로운 생활",
+          "바쁜 생활"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Regular life\n \n1. Irregular life\n2. Planned life\n3. Free life\n4. Busy life",
+          "vi": "Sinh hoạt điều độ\n \n1. Sinh hoạt không điều độ\n2. Sinh hoạt có kế hoạch\n3. Cuộc sống tự do\n4. Cuộc sống bận rộn"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "균형 잡힌 식사",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "인스턴트 음식",
+          "패스트푸드",
+          "영양가 있는 식사",
+          "불규칙한 식사"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Balanced meal\n \n1. Instant food\n2. Fast food\n3. Nutritious meal\n4. Irregular meal",
+          "vi": "Bữa ăn cân bằng dinh dưỡng\n \n1. Đồ ăn liền\n2. Đồ ăn nhanh\n3. Bữa ăn có dinh dưỡng\n4. Bữa ăn không điều độ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "적절한 운동",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "과도한 운동",
+          "운동 부족",
+          "알맞은 운동",
+          "격렬한 운동"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Appropriate exercise\n \n1. Excessive exercise\n2. Lack of exercise\n3. Appropriate exercise\n4. Strenuous exercise",
+          "vi": "Vận động phù hợp\n \n1. Vận động quá sức\n2. Thiếu vận động\n3. Vận động phù hợp\n4. Vận động mạnh"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "긍정적",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "부정적",
+          "낙관적",
+          "소극적",
+          "비관적"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Positive\n \n1. Negative\n2. Positive\n3. Passive\n4. Pessimistic",
+          "vi": "Tích cực\n \n1. Tiêu cực\n2. Lạc quan\n3. Thụ động\n4. Bi quan"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "협력적인 관계",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "경쟁적인 관계",
+          "적대적인 관계",
+          "서로 돕는 관계",
+          "갈등 관계"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Cooperative relationship\n \n1. Competitive relationship\n2. Hostile relationship\n3. Mutually supportive relationship\n4. Conflicting relationship",
+          "vi": "Quan hệ hợp tác\n \n1. Quan hệ cạnh tranh\n2. Quan hệ thù địch\n3. Quan hệ giúp đỡ lẫn nhau\n4. Quan hệ xung đột"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "존중",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "무시",
+          "멸시",
+          "존경",
+          "경멸"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Respect\n \n1. Disregard\n2. Contempt\n3. Respect\n4. Scorn",
+          "vi": "Tôn trọng\n \n1. Coi thường\n2. Khinh miệt\n3. Tôn kính\n4. Khinh thường"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "이해",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "오해",
+          "무지",
+          "공감",
+          "무관심"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Understanding\n \n1. Misunderstanding\n2. Ignorance\n3. Empathy\n4. Unconcern",
+          "vi": "Hiểu\n \n1. Hiểu lầm\n2. Vô tri\n3. Đồng cảm\n4. Vô tâm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "양보",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "고집",
+          "주장",
+          "배려",
+          "강요"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Concession\n \n1. Stubbornness\n2. Assertion\n3. Consideration\n4. Coercion",
+          "vi": "Nhường nhịn\n \n1. Cố chấp\n2. Chủ trương\n3. Quan tâm\n4. Ép buộc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "꼼꼼히",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "대충",
+          "세심히",
+          "급히",
+          "서투르게"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Thoroughly, carefully\n \n1. Roughly\n2. Meticulously\n3. Hastily\n4. Clumsily",
+          "vi": "Kỹ lưỡng, cẩn thận\n \n1. Đại khái, qua loa\n2. Tỉ mỉ, cẩn thận\n3. Gấp gáp, vội vàng\n4. Vụng về"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "서투르다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "익숙하다",
+          "능숙하다",
+          "미숙하다",
+          "정확하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be unskilled\n \n1. To be familiar\n2. To be skilled\n3. To be unskilled\n4. To be accurate",
+          "vi": "Vụng về, không quen\n \n1. Quen thuộc\n2. Lành nghề, thành thạo\n3. Non nớt, vụng về\n4. Chính xác"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "꾸준히",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "간헐적으로",
+          "열심히",
+          "게을리",
+          "뜸하게"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Steadily, consistently\n \n1. Intermittently\n2. Diligently\n3. Lazily\n4. Infrequently",
+          "vi": "Kiên trì, đều đặn\n \n1. Gián đoạn, không liên tục\n2. Chăm chỉ, nhiệt tình\n3. Uể oải, rề rà\n4. Thưa thớt, không thường xuyên"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "낯설다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "익숙하다",
+          "유명하다",
+          "새롭다",
+          "편안하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be unfamiliar\n \n1. To be familiar\n2. To be famous\n3. To be new\n4. To be comfortable",
+          "vi": "Xa lạ, lạ lẫm\n \n1. Quen thuộc\n2. Nổi tiếng\n3. Mới lạ\n4. Thoải mái"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "망설이다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "결심하다",
+          "주저하다",
+          "포기하다",
+          "시작하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To hesitate\n \n1. To decide\n2. To hesitate\n3. To give up\n4. To start",
+          "vi": "Do dự, lưỡng lự\n \n1. Quyết tâm\n2. Ngập ngừng, do dự\n3. Từ bỏ\n4. Bắt đầu"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "곤란하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "쉽다",
+          "편하다",
+          "어렵다",
+          "간단하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be difficult\n \n1. To be easy\n2. To be comfortable\n3. To be difficult\n4. To be simple",
+          "vi": "Khó khăn, nan giải\n \n1. Dễ dàng\n2. Thoải mái\n3. Khó khăn\n4. Đơn giản"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "보람 있다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "후회스럽다",
+          "가치 있다",
+          "지루하다",
+          "무의미하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To be worthwhile\n \n1. To be regretful\n2. To be valuable\n3. To be boring\n4. To be meaningless",
+          "vi": "Đáng giá, có ý nghĩa\n \n1. Đáng tiếc, hối hận\n2. Có giá trị, ý nghĩa\n3. Chán nản\n4. Vô nghĩa"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "서늘하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "덥다",
+          "따뜻하다",
+          "시원하다",
+          "뜨겁다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be cool\n \n1. To be hot\n2. To be warm\n3. To be cool\n4. To be scorching",
+          "vi": "Se lạnh\n \n1. Nóng\n2. Ấm áp\n3. Mát mẻ\n4. Nóng bỏng"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "묵묵히",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "시끄럽게",
+          "조용히",
+          "떠들썩하게",
+          "활발하게"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Silently\n \n1. Noisily\n2. Quietly\n3. Boisterously\n4. Actively",
+          "vi": "Im lặng, lặng lẽ\n \n1. Ồn ào\n2. Yên lặng\n3. Ầm ĩ, náo nhiệt\n4. Hoạt bát"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "익숙하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "낯설다",
+          "어색하다",
+          "능숙하다",
+          "불편하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be skilled\n \n1. To be unfamiliar\n2. To be awkward\n3. To be skilled\n4. To be uncomfortable",
+          "vi": "Quen thuộc, thành thạo\n \n1. Xa lạ\n2. Ngượng ngùng\n3. Lành nghề, thành thạo\n4. Bất tiện"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "약하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "불안하다",
+          "강하다",
+          "튼튼하다",
+          "가늘다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To be weak\n \n1. To be anxious\n2. To be strong\n3. To be strong\n4. To be thin, to be weak",
+          "vi": "Yếu đuối\n \n1. Bất an\n2. Mạnh\n3. Chắc chắn, khỏe mạnh\n4. Mảnh dẻ, yếu ớt"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "답답하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "시원하다",
+          "상쾌하다",
+          "갑갑하다",
+          "유쾌하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be stuffy, to be frustrated\n \n1. To be cool\n2. To be refreshing\n3. To be stuffy\n4. To be pleasant",
+          "vi": "Ngột ngạt, bức bối\n \n1. Mát mẻ\n2. Sảng khoái\n3. Ngột ngạt\n4. Vui vẻ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "닳다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "붉어지다",
+          "낡아지다",
+          "깨끗해지다",
+          "고장나다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To wear out\n \n1. To turn red\n2. To wear out\n3. To become clean\n4. To break down",
+          "vi": "Mòn, hao mòn\n \n1. Trở nên đỏ\n2. Cũ đi, mòn đi\n3. Trở nên sạch sẽ\n4. Bị hỏng"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "마음먹다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "포기하다",
+          "미루다",
+          "결심하다",
+          "후회하다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To make up one's mind\n \n1. To give up\n2. To postpone\n3. To determine\n4. To regret",
+          "vi": "Quyết tâm\n \n1. Từ bỏ\n2. Trì hoãn\n3. Quyết tâm\n4. Hối hận"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "엄격하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "너그럽다",
+          "관대하다",
+          "융통성이 있다",
+          "까다롭다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To be strict\n \n1. To be generous\n2. To be tolerant\n3. To be flexible\n4. To be picky",
+          "vi": "Nghiêm khắc\n \n1. Rộng lượng\n2. Khoan dung\n3. Linh hoạt\n4. Khó tính, khắt khe"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "섭섭하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "기쁘다",
+          "만족스럽다",
+          "아쉽다",
+          "가볍다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "To be disappointed\n \n1. To be happy\n2. To be satisfied\n3. To be disappointed\n4. To be relieved",
+          "vi": "Buồn, tiếc nuối\n \n1. Vui vẻ\n2. Hài lòng\n3. Tiếc nuối\n4. Nhẹ nhõm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "간절히",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "무심하게",
+          "진지하게",
+          "정확하게",
+          "불행하게"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "Earnestly\n \n1. Heartlessly\n2. Earnestly\n3. Accurately\n4. Unfortunately",
+          "vi": "Tha thiết, chân thành\n \n1. Vô tâm\n2. Chân thành\n3. Chính xác\n4. Khȏng may"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "지원하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "신청하다",
+          "포기하다",
+          "거절하다",
+          "취소하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To apply\n \n1. To apply\n2. To give up\n3. To refuse\n4. To cancel",
+          "vi": "Đăng ký\n \n1. Đăng ký\n2. Từ bỏ\n3. Từ chối\n4. Hủy bỏ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "숙련되다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "서투르다",
+          "익숙하다",
+          "비슷하다",
+          "다르다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To be skilled, to be familiar\n \n1. To be clumsy\n2. To be familiar, to be skilled\n3. To be similar\n4. To be different",
+          "vi": "Thành thạo, quen\n \n1. Vụng về\n2. Quen thuộc, thành thạo\n3. Tương tự\n4. Khác biệt"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "보관하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "간직하다",
+          "버리다",
+          "숨기다",
+          "찾다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To store, to keep\n \n1. To keep, to treasure\n2. To throw away\n3. To hide\n4. To find",
+          "vi": "Bảo quản, cất giữ\n \n1. Giữ gìn, bảo quản cẩn thận\n2. Vứt bỏ\n3. Che giấu\n4. Tìm kiếm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "개선하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "악화시키다",
+          "향상시키다",
+          "유지하다",
+          "반복하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To improve\n \n1. To worsen\n2. To improve\n3. To maintain\n4. To repeat",
+          "vi": "Cải thiện\n \n1. Làm tệ hơn\n2. Cải thiện, nâng cao\n3. Duy trì\n4. Lặp lại"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "적응하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "익숙해지다",
+          "작아지다",
+          "어려워지다",
+          "싫어지다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To adapt\n \n1. To become familiar\n2. To become smaller\n3. To become difficult\n4. To start disliking",
+          "vi": "Thích nghi\n \n1. Trở nên quen thuộc\n2. Trở nên nhỏ hơn\n3. Trở nên khó khăn\n4. Trở nên ghét"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "절약하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "낭비하다",
+          "아끼다",
+          "빌리다",
+          "훔치다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To save\n \n1. To waste\n2. To save\n3. To borrow\n4. To steal",
+          "vi": "Tiết kiệm\n \n1. Lãng phí\n2. Tiết kiệm, dành dụm\n3. Vay mượn\n4. Ăn trộm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "분석하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "종합하다",
+          "검토하다",
+          "무시하다",
+          "추측하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To analyze\n \n1. To synthesize\n2. To review, to analyze\n3. To ignore\n4. To guess",
+          "vi": "Phân tích\n \n1. Tổng hợp\n2. Kiểm tra, phân tích\n3. Coi thường\n4. Đoán"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "교환하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "거래하다",
+          "숨기다",
+          "찾다",
+          "버리다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To exchange, to trade\n \n1. To trade, to deal\n2. To hide\n3. To find\n4. To throw away",
+          "vi": "Trao đổi\n \n1. Giao dịch, trao đổi\n2. Che giấu\n3. Tìm kiếm\n4. Vứt bỏ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "실시하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "계획하다",
+          "시행하다",
+          "중단하다",
+          "연기하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To implement\n \n1. To plan\n2. To implement\n3. To stop\n4. To postpone",
+          "vi": "Thực thi, tiến hành\n \n1. Lên kế hoạch\n2. Thực hiện, thi hành\n3. Dừng lại\n4. Trì hoãn"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "극복하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "포기하다",
+          "이겨내다",
+          "피하다",
+          "무시하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To overcome\n \n1. To give up\n2. To overcome\n3. To avoid\n4. To ignore",
+          "vi": "Khắc phục, vượt qua\n \n1. Từ bỏ\n2. Vượt qua, chiến thắng\n3. Tránh né\n4. Phớt lờ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "요청하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "명령하다",
+          "부탁하다",
+          "거절하다",
+          "강요하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To request\n \n1. To order\n2. To request\n3. To refuse\n4. To force",
+          "vi": "Yêu cầu, thỉnh cầu\n \n1. Ra lệnh\n2. Nhờ vả, yêu cầu\n3. Từ chối\n4. Ép buộc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "연습하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "단련하다",
+          "쉬다",
+          "놀다",
+          "구경하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To practice, to train\n \n1. To train\n2. To rest\n3. To play\n4. To watch",
+          "vi": "Luyện tập\n \n1. Rèn luyện, đào tạo\n2. Nghỉ ngơi\n3. Chơi đùa\n4. Tham quan"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "의논하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "토론하다",
+          "이야기하다",
+          "질문하다",
+          "상담하다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "To consult\n \n1. To discuss\n2. To talk\n3. To ask\n4. To consult",
+          "vi": "Bàn bạc, thảo luận\n \n1. Thảo luận\n2. Nói chuyện\n3. Hỏi\n4. Tư vấn, bàn bạc"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "제공하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "받다",
+          "내놓다",
+          "훔치다",
+          "숨기다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To provide\n \n1. To receive\n2. To offer, to provide\n3. To steal\n4. To hide",
+          "vi": "Cung cấp\n \n1. Nhận\n2. Đưa ra\n3. Ăn trộm\n4. Che giấu"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "증가하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "감소하다",
+          "늘다",
+          "줄다",
+          "같다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To increase\n \n1. To decrease\n2. To increase\n3. To decrease\n4. To be the same",
+          "vi": "Tăng lên\n \n1. Giảm xuống\n2. Tăng lên\n3. Giảm xuống\n4. Bằng nhau"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "연결하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "끊다",
+          "잇다",
+          "분리하다",
+          "삭제하다"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "To connect\n \n1. To cut\n2. To connect\n3. To separate\n4. To delete",
+          "vi": "Kết nối\n \n1. Cắt, ngắt\n2. Nối, liên kết\n3. Phân ly\n4. Xóa bỏ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "배려하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "생각하다",
+          "무시하다",
+          "비난하다",
+          "멸시하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To care for, to consider\n \n1. To think of\n2. To ignore\n3. To criticize\n4. To despise",
+          "vi": "Quan tâm\n \n1. Nghĩ cho (ai đó)\n2. Coi thường\n3. Chỉ trích\n4. Khinh miệt"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "보상하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "배상하다",
+          "벌주다",
+          "비난하다",
+          "후회하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To compensate\n \n1. To compensate\n2. To punish\n3. To criticize\n4. To regret",
+          "vi": "Bồi thường\n \n1. Bồi thường, đền bù\n2. Phạt\n3. Chỉ trích\n4. Hối hận"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "보충하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "채우다",
+          "비우다",
+          "줄이다",
+          "늘리다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To supplement\n \n1. To fill\n2. To empty\n3. To reduce\n4. To increase",
+          "vi": "Bổ sung\n \n1. Lấp đầy, bổ sung\n2. Làm trống\n3. Giảm bớt\n4. Tăng lên"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "고려하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "생각하다",
+          "무시하다",
+          "잊다",
+          "오해하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To consider\n \n1. To think\n2. To ignore\n3. To forget\n4. To misunderstand",
+          "vi": "Cân nhắc, xem xét\n \n1. Suy nghĩ, xem xét\n2. Phớt lờ\n3. Quên\n4. Hiểu lầm"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "동의하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "찬성하다",
+          "반대하다",
+          "거절하다",
+          "무시하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To agree\n \n1. To agree\n2. To disagree\n3. To refuse\n4. To ignore",
+          "vi": "Đồng ý\n \n1. Tán thành, đồng ý\n2. Phản đối\n3. Từ chối\n4. Phớt lờ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "관리하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "운영하다",
+          "방치하다",
+          "파괴하다",
+          "낭비하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To manage\n \n1. To manage\n2. To neglect\n3. To destroy\n4. To waste",
+          "vi": "Quản lý\n \n1. Vận hành, quản lý\n2. Bỏ mặc\n3. Phá hủy\n4. Lãng phí"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "돕다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "지원하다",
+          "방해하다",
+          "무시하다",
+          "비난하다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To help\n \n1. To support\n2. To hinder\n3. To ignore\n4. To criticize",
+          "vi": "Giúp đỡ\n \n1. Hỗ trợ, giúp đỡ\n2. Cản trở\n3. Phớt lờ\n4. Chỉ trích"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "노력하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "애쓰다",
+          "포기하다",
+          "게을리하다",
+          "망설이다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To make an effort\n \n1. To make an effort\n2. To give up\n3. To be lazy\n4. To hesitate",
+          "vi": "Nỗ lực, cố gắng\n \n1. Cố gắng, nỗ lực\n2. Từ bỏ\n3. Lười biếng\n4. Do dự"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  },
+  {
+    "title": "다음 단어의 비슷한 말은 무엇입니까?",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_audio": null,
+      "g_image": null
+    },
+    "content": [
+      {
+        "q_text": "발전하다",
+        "q_image": null,
+        "q_point": 2,
+        "answer_type": "text",
+        "q_answer": [
+          "진보하다",
+          "퇴보하다",
+          "정지하다",
+          "악화되다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "en": "To develop\n \n1. To progress\n2. To regress\n3. To stop\n4. To worsen",
+          "vi": "Phát triển\n \n1. Tiến bộ, phát triển\n2. Thoái trào\n3. Dừng lại\n4. Trở nên tồi tệ"
+        }
+      }
+    ],
+    "level": 3,
+    "kind": "3420010",
+    "count_question": 1,
+    "tag": null
+  }
+]

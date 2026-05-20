@@ -1,0 +1,667 @@
+[
+  {
+    "title": "읽고 (ㄱ)과 (ㄴ)에 들어갈 말을 쓰기",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "수미 씨, 그동안 고마웠습니다.\n저는 다음 달이면 홍콩으로 일을 ( ㄱ ).\n제가 원하는 회사에 취직을 해서 기쁘지만 수미 씨를 자주 못 볼 것 같아 아쉽습니다. \n선물을 준비했는데 선물이 수미 씨 마음에 ( ㄴ ).",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(ㄱ) 합니다 - (ㄴ) 오면/왔으면 좋겠습니다.",
+          "(ㄱ) 하러 갑니다 - (ㄴ) 들면/들었으면 좋겠습니다.",
+          "(ㄱ) 합니다 - (ㄴ) 들면/들었으면 좋겠습니다.",
+          "(ㄱ) 하러 갑니다 - (ㄴ) 오면/왔으면 좋겠습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Điền từ/cụm từ thích hợp vào chỗ trống.:\n1. (ㄱ) Làm - (ㄴ) Hy vọng bạn đến\n2. (ㄱ) Tới làm - (ㄴ) Hy vọng bạn thích \n3. (ㄱ) Làm - (ㄴ) Hy vọng bạn thích\n4. (ㄱ) Tới làm - (ㄴ) Hy vọng bạn tới\n----------------------------\nSumi, cảm ơn bạn rất nhiều.\nTôi sẽ (tới làm) việc ở Hồng Kông vào tháng tới.\nTôi rất vui khi nhận được một công việc tại công ty mà tôi muốn, nhưng thật tiếc vì tôi sẽ không thể gặp Sumi thường xuyên.\nTôi đã chuẩn bị một món quà cho bạn, và tôi (hy vọng bạn thích) nó.\n\nĐằng trước (ㄱ) có 홍콩으로 có nghĩa là \"đến Hồng Kông\", do đó phần điền phía sau sẽ phải chứa một động từ di chuyển. Chỉ có đáp án 2 và 4 thỏa mãn điều kiện này. Trước (ㄴ) là 마음에, ta có cấu trúc 마음에 들다 - \"thích/ưng ý/hài lòng về cái gì đó\" => Đáp án 2 ",
+          "en": "Fill in the blanks with the appropriate words/phrases.\n1. <g>(ㄱ)</g> Do - <g>(ㄴ)</g> Hope you come\n2. <g>(ㄱ)</g> Come for - <g>(ㄴ)</g> Hope you like\n3. <g>(ㄱ)</g> Do - <g>(ㄴ)</g> Hope you like\n4. <g>(ㄱ)</g> Come for - <g>(ㄴ)</g> Hope you come\n-----------------------------\nSumi, thank you so much.\nI am going to Hong Kong for work next month.\nI'm happy to get a job at the company I want, but it's a pity that I won't be able to see Sumi often.\nI prepared a gift, I hope you like it, Sumi.\n\nBefore <g>(ㄱ)</g> has <g>홍콩 으로</g> that means \"to Hong Kong\", so the blank have to contain a verb about moving. Only 2 and 4 satisfy this condition. Before <g>(ㄴ)</g> is <g>마음 에</g>, there is the expression <g>마음에 들다</g> - \"to be satisfied with something\" => Answer 2"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230001_1",
+    "count_question": 1,
+    "tag": "write"
+  },
+  {
+    "title": "읽고 (ㄱ)과 (ㄴ)에 들어갈 말을 쓰기",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "제목: 도서관을 이용하고 싶습니다.\n한국대학교를 졸업한학생인데 도서관을 이용하고 싶습니다.\n선배에게 물어보니 졸업생이 도서관을 이용하려면 출입증이 (ㄱ).\n출입증을 만들려면 (ㄴ)?\n방법을 알려 주시면 감사하겠습니다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(ㄱ) 필요하다고 합니다/있어야 한다고 합니다 - (ㄴ) 어떻게 해야 합니까/어떻게 해야 됩니까",
+          "(ㄱ) 필요없다고 합니다/없어도 된다고 합니다 - (ㄴ) 도서관에 가서 합니다",
+          "(ㄱ) 필요합니다/있어야 합니다 - (ㄴ) 어떻게 해야 합니까/어떻게 해야 됩니까",
+          "(ㄱ) 필요없습니다/없어도 됩니다 - (ㄴ) 도서관에 가서 합니다"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Điền từ/cụm từ thích hợp vào chỗ trống.\n1. (ㄱ) Nói phải có - (ㄴ) Phải làm thế nào\n2. (ㄱ) Nói không cần - (ㄴ) Đến thư viện làm\n3. (ㄱ) Phải có - (ㄴ) Phải làm thế nào\n4. (ㄱ) Không cần - (ㄴ) Đến thư viện làm \n----------------------------\nTiêu đề: Tôi muốn sử dụng thư viện.\nTôi là một sinh viên đã tốt nghiệp Đại học Hàn Quốc và tôi muốn sử dụng thư viện.\nTôi đã hỏi và một tiền bối (nói phải có) thẻ ra vào mới được sử dụng thư viện.\nVậy nếu muốn làm thẻ ra vào thì (phải làm thế nào)?\nTôi sẽ rất biết ơn nếu có người cho tôi biết cách làm.\n\nỞ (ㄱ), đây là lời của tiền bối nói nên buộc phải dùng ngữ pháp 다고 하다 mang nghĩa ai đó nói gì đó. Đằng sau (ㄴ) là dấu hỏi nên ở đây sẽ kết thúc bằng đuôi câu hỏi. Dựa vào ngữ cảnh, muốn dùng thư viện chắc chắn phải có thẻ ra vào nên người viết mới hỏi cách làm thẻ => Đáp án 1",
+          "en": "Fill in the blanks with the appropriate words/phrases.\n1. <g>(ㄱ)</g> Said that must have - <g>(ㄴ)</g> How do I make\n2. <g>(ㄱ)</g> Said that must not have - <g>(ㄴ)</g> Go to the library\n3. <g>(ㄱ)</g> Must have - <g>(ㄴ)</g> How do I make\n4. <g>(ㄱ)</g> Must not have - <g>(ㄴ)</g> Go to the library\n----------------------------\nTitle: I want to use the library.\nI am a student who graduated from Korea University and would like to use the library.\nI asked a senior and he said that graduates must have a pass to use the library.\nHow do I make a pass?\nI would be grateful if you could tell me how.\n\nIn the first blank, this is what the senior said, so we have to use the grammar <g>다고 하다</g>. Behind the second blank is a question mark, so it will end with a question tag. Based on the context, if you want to use the library, you must have a pass, so the writer will ask how to make the pass => Answer 1"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230001_1",
+    "count_question": 1,
+    "tag": "write"
+  },
+  {
+    "title": "읽고 (ㄱ)과 (ㄴ)에 들어갈 말을 쓰기",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "별은 지구에서 멀리 떨어져 있다. 그래서 별빛이 지구까지 오는 데 많은 시간이 걸린다. 지구와 가장 가까운 별의 빛도 지구까지 오는 데 4억 년이 걸린다. 만약 우리가 이 별을 본다면 우리는 이 별의 현재 모습이 아니라 4억 년 전의 ( ㄱ ). 이처럼 별빛은 오랜 시간이 지나야 지구에 도달한다. 그래서 어떤 별이 사라져도 우리는 그 사실을 바로 알지 못하고 아주 오랜 시간이 ( ㄴ ).",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(ㄱ) 모습이 보는 것이다 - (ㄴ) 지나기 전에야 알 수 있다.",
+          "(ㄱ) 모습을 보는 것이다 - (ㄴ) 지나야 알 수 없다/지난 후에야 알 수 없다.",
+          "(ㄱ) 모습을 보는 것이다 - (ㄴ) 지나야 알 수 있다/지난 후에야 알 수 있다.",
+          "(ㄱ) 모습이 보는 것이다 - (ㄴ) 지나야 알 수 있다/지난 후에야 알 수 있다"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Điền từ/cụm từ thích hợp vào chỗ trống.\n1. (ㄱ) Thấy dáng vẻ - (ㄴ) Phải trước khi trải qua một thời gian dài mới biết được\n2. (ㄱ) Thấy dáng vẻ - (ㄴ) Phải mất một thời gian dài mới không biết được\n3. (ㄱ) Thấy dáng vẻ - (ㄴ) Phải mất một thời gian rất dài mới biết được\n4. (ㄱ) Thấy dáng vẻ - (ㄴ) Phải mất một thời gian rất dài mới biết được\n----------------------------\nCác ngôi sao ở rất xa Trái đất. Vì vậy, phải mất rất nhiều thời gian để ánh sáng của ngôi sao đến được Trái đất. Từ ngôi sao gần nhất tới Trái đất cũng phải mất 400 triệu năm ánh sáng. Nếu chúng ta nhìn vào ngôi sao này, chúng ta không thấy ngôi sao ở thời điểm hiện tại, mà (thấy dáng vẻ) của nó vào thời điểm cách đây 400 triệu năm. Ánh sáng của các ngôi sao phải mất một thời gian dài để đến được Trái đất. Vì vậy, ngay cả khi một ngôi sao biến mất, chúng ta không thể biết ngay mà (phải mất một thời gian rất dài mới biết được).\n\nĐáp án 1 và 4 bị loại vì sai tiểu từ ở chỗ trống đầu tiên. Ở chỗ trống thứ hai, chúng ta không thể biết ngay khi một ngôi sao biến mất, tức là chúng ta chỉ có thể biết sau một thời gian dài => Đáp án 3",
+          "en": "Fill in the blanks with the appropriate words/phrases.\n1. <g>(ㄱ)</g> Looking at what it was <g>(이)</g> - <g>(ㄴ)</g> Can only find out before\n2. <g>(ㄱ)</g> Looking at what it was <g>(을)</g> - <g>(ㄴ)</g> Can't only find out after\n3. <g>(ㄱ)</g> Looking at what it was <g>(을)</g> - <g>(ㄴ)</g> Can only find out after\n4. <g>(ㄱ)</g> Looking at what it was <g>(이)</g> - <g>(ㄴ)</g> Can only find out after\n----------------------------\nStars are far from Earth. So it takes a lot of time for starlight to reach Earth. Even light from the closest star to Earth takes 400 million years to reach Earth. If we look at this star, we're not looking at what it is today, we're looking at what it was 400 million years ago. Starlight takes a long time to reach Earth. So even if a star disappears, we don't know the fact right away, and we can only find out after a very long time.\n\n1 and 4 are rejected because of the wrong particle in the first blank. In the second blank, we cannot know immediately when a star disappears, i.e. we can only know after a long time => Answer 3"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230001_2",
+    "count_question": 1,
+    "tag": "write"
+  },
+  {
+    "title": "읽고 (ㄱ)과 (ㄴ)에 들어갈 말을 쓰기",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "사람들은 음악 치료를 할 때 환자에게 주로 밝은 분위기의 음악을 들려 줄 것이라고 생각한다. 그러나 환자에게 항상 밝은 분위기의 음악을  ( ㄱ ). 치료 초기에는 환자가 편안한 감정을 느끼는 것이 중요하다. 그래서 환자의 심리 상태와 비슷한 분위기의 음악을 들려준다. 그 이후에는 환자에게 다양한 분위기의 음악을 들려줌으로써 환자가 다양한 감정을 ( ㄴ ).",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(ㄱ) 들려주는 것이다/사용하는 것이다 - (ㄴ) 느끼도록 한다/느끼게 한다",
+          "(ㄱ) 들려주는 것이다/사용하는 것이다 - (ㄴ) 준다",
+          "(ㄱ) 들려주는 것은 아니다/사용하는 것이 아니다 - (ㄴ) 준다",
+          "(ㄱ) 들려주는 것은 아니다/사용하는 것이 아니다 - (ㄴ) 느끼도록 한다/느끼게 한다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Điền từ/cụm từ thích hợp vào chỗ trống.\n1. (ㄱ) Lúc nào cũng nghe - (ㄴ) Để cảm nhận được\n2. (ㄱ) Lúc nào cũng nghe - (ㄴ) Để cho đi\n3. (ㄱ) Không phải lúc nào cũng nghe - (ㄴ) Để cho đi\n4. (ㄱ) Không phải lúc nào cũng nghe - (ㄴ) Để cảm nhận được\n----------------------------\nMọi người nghĩ rằng khi thực hiện liệu pháp âm nhạc, bệnh nhân sẽ được nghe chủ yếu là nhạc có không khí vui vẻ. Tuy nhiên, bệnh nhân (không phải lúc nào cũng nghe) nhạc có không khí vui tươi. Việc bệnh nhân cảm thấy thoải mái khi bắt đầu trị liệu là rất quan trọng. Do đó, âm nhạc có bầu không khí gần giống với trạng thái tâm lý của bệnh nhân sẽ được phát. Sau đó, bệnh nhân sẽ được nghe nhiều loại nhạc đa dạng (để cảm nhận được) nhiều cảm xúc đa dạng hơn.\n\nĐộng từ + (으)ㅁ으로써 nói đến kết quả vế sau có được do hành động vế ở trước\n\nVới chỗ trống đầu tiên, đầu câu có 그러나 (nhưng/tuy nhiên), do đó nội dung câu này phải đối lập với nội dung câu trước. Đoạn văn nói đến sự cảm nhận của bệnh nhân ảnh hưởng bởi âm nhạc như thế nào, âm nhạc đa dạng sẽ khiến bệnh nhân cảm nhận được những cảm xúc đa dạng => Đáp án 4",
+          "en": "Fill in the blanks with the appropriate words/phrases.\n1. <g>(ㄱ)</g> Play - <g>(ㄴ)</g> Make the patient feel\n2. <g>(ㄱ)</g> Play - <g>(ㄴ)</g> Give\n3. <g>(ㄱ)</g> Do not play - <g>(ㄴ)</g> Give\n4. <g>(ㄱ)</g> Do not play - <g>( ㄴ)</g> Make the patient feel\n----------------------------\nPeople think that in music therapy, patients will be mainly listening to upbeat music. However, they do not always play bright music to patients. It is important that the patient feel comfortable at the beginning of treatment. So, they play music that has a similar atmosphere to the patient's psychological state. After that, the patient is given music of various atmospheres to make the patient feel various emotions.\n\n<g>V + (으)ㅁ으로써:</g> Expressing causes and reasons.\n\nFor the first blank, the beginning of the sentence has <g>그러나</g> (but/however), so the content of this sentence must be opposite to the content of the previous sentence. The paragraph is about how the patient's feeling is influenced by music, diverse music will make the patient feel various emotions => Answer 4"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230001_2",
+    "count_question": 1,
+    "tag": "write"
+  },
+  {
+    "title": "다음 그래프나 그림을 보고, 조사 결과를 비교하여 200~300자로 쓰기. 단, 글의 제목을 쓰지 않기.",
+    "general": {
+      "g_text": "다음을 참고하여 ‘국내 외국인 유학생 현황’에 대한 글을 200~300자로쓰시오. 단, 글의 제목을 쓰지 마시오.",
+      "g_text_translate": {
+        "vi": "Tham khảo biểu đồ dưới đây và viết một đoạn văn 200~300 chữ về \"Hiện trạng du học sinh nước ngoài tại Hàn Quốc\". Lưu ý, không viết tiêu đề đoạn văn.",
+        "en": "By referring to the following, the article on the status of domestic foreign students from 200 ~ 300 characters\nPlease write it. However, do not write the title of the article."
+      },
+      "g_text_audio": "Please refer to the following graph and write a 200 ~ 300 words paragraph about 'The status of foreign students in Korea'. However, do not write the title of the paragraph.",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": "/topiks/images/ca74cdbb411b14e2bf8e1987efe62c6a.png",
+      "g_text_image": "Chủ đề: 국내 외국인 유학생 현황\n\nDữ liệu 1: 유학생 수: 2000년 4천 명에서 2016년 10만 명으로 25배 증가하였다. 증가하다가 잠시 주춤하더니 다시 증가했다.\n\nDữ liệu 2: 증가 원인: 한국·한국어에 대한 관심 증가, 한국 대학의 유학생 유치 노력 확대\n\nDữ liệu 3: 기대: 외국인 유학생 20만 명(2023년)"
+    },
+    "content": [
+      {
+        "q_text": "그래프와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "2000년에 4천 명이던 유학 생이 가파른 상승세를 보였다.",
+          "2000년에 4천 명이던 유학 생이 가파른 감소세를 보였다.",
+          "2000년에 10만 명이던 유학 생이 가파른 상승세를 보였다.",
+          "2000년에 10만 명이던 유학 생이 가파른 감소세를 보였다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn câu đúng với biểu đồ\n1. Số lượng du học sinh là 4 nghìn người vào năm 2000 có xu thế tăng mạnh.\n2. Số lượng du học sinh là 4 nghìn người vào năm 2000 có xu thế giảm mạnh.\n3. Số lượng du học sinh là 100 nghìn người vào năm 2000 có xu thế tăng mạnh.\n4. Số lượng du học sinh là 100 nghìn người vào năm 2000 có xu thế giảm mạnh.\n------------\n\n가파르다: dốc đứng, tăng cao\n상승세: xu thế tăng\n감소세: xu thế giảm\n\nBiểu đồ cho thấy số lương du học sinh vào năm 2000 là 4 nghìn người, và có xu thế tăng rất mạnh vào các năm sau đó => Đáp án 1",
+          "en": "Choose the one that best matches the graph.\n1. The number of international students was 4,000 in 2000 and showed a steep upward trend.\n2. The number of international students was 4,000 in 2000 and showed a steep downward trend.\n3. The number of international students was 100,000 in 2000 and showed a steep upward trend.\n4. The number of international students was 100,000 in 2000 and showed a steep downward trend.\n------------\nThe graph shows the number of international students was 4,000 in 2000, and showed a very steep upward trend in subsequent years => Answer 1"
+        }
+      },
+      {
+        "q_text": "그래프와 가장 알맞은 것을 고르십시오.\n\n",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이러한 영향이 계속 이어진 다면 2016년에는 외국인 유학생이 20만 명에 이를 것으로 기대된다.",
+          "이러한 영향이 계속 이어진 다면 2020년에는 외국인 유학생이 20만 명에 이를 것으로 기대된다.",
+          "이러한 영향이 계속 이어진 다면 2023년에는 외국인 유학생이 20만 명에 이를 것으로 기대된다.",
+          "이러한 영향이 계속 이어진 다면 2025년에는 외국인 유학생이 20만 명에 이를 것으로 기대된다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn câu đúng với biểu đồ\n1. Nếu tình trạng này tiếp tục, số lượng du học sinh dự kiến ​​sẽ đạt 200.000 người vào năm 2016.\n2. Nếu tình trạng này tiếp tục, số lượng du học sinh dự kiến ​​sẽ đạt 200.000 người vào năm 2020.\n3. Nếu tình trạng này tiếp tục, số lượng du học sinh dự kiến ​​sẽ đạt 200.000 người vào năm 2023.\n4. Nếu tình trạng này tiếp tục, số lượng du học sinh dự kiến ​​sẽ đạt 200.000 người vào năm 2025.\n------------\nThe 'expectation' section in the graph clearly states 2 factors: 200,000 international students and the year 2023 => Answer 3",
+          "en": "Choose the one that best matches the graph.\n1. If this trend continues, the number of international students is expected to reach 200,000 by 2016.\n2. If this trend continues, the number of international students is expected to reach 200,000 by 2020.\n3. If this trend continues, the number of international students is expected to reach 200,000 by 2023.\n4. If this trend continues, the number of international students is expected to reach 200,000 by 2025.\n------------\nThe 'expectation' section in the graph clearly states 2 factors: 200,000 international students and the year 2023 => Answer 3"
+        }
+      },
+      {
+        "q_text": "그래프와 틀린 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이러한 증가의 원인으로 외국인들의 한국 에 대한 관심이 증가한 것을 들 수 있다.",
+          "이러한 증가의 원인으로 외국인들의 한국어 에 대한 관심이 증가한 것을 들 수 있다.",
+          "한국 대학에서 유학생을 유치하려는 노력도 유학생의 증가에 큰 영향을 미친 것으로 보인다.",
+          "한국 대학에서 유학생을 유치하려는 노력도 유학생의 증가에 영향이 없는 것으로 보인다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn câu sai so với biểu đồ\n1. Nguyên nhân của sự gia tăng này là do sự quan tâm của người nước ngoài đối với Hàn Quốc ngày càng tăng.\n2. Nguyên nhân của sự gia tăng này là do sự quan tâm của người nước ngoài đối với ngôn ngữ Hàn Quốc đã tăng lên.\nNhững nỗ lực thu hút sinh viên quốc tế từ các trường đại học Hàn 3. Quốc dường như cũng có tác động đáng kể đến sự gia tăng du học sinh.\n4. Những nỗ lực thu hút sinh viên quốc tế từ các trường đại học Hàn Quốc dường như không ảnh hưởng gì đến sự gia tăng du học sinh.\n------------\n\n유치하다: thu hút\n\nPhần 'nguyên nhân tăng' của biểu đồ nêu rõ các nguyên nhân: quan tâm đến Hàn Quốc và tiếng Hàn, nỗ lực thu hút du học sinh của các trường đại học Hàn Quốc => Đáp án 4",
+          "en": "Choose the one that is wrong compared to the graph.\n1. The reason for this increase is the growing interest of foreigners in Korea.\n2. The reason for this increase is the growing interest of foreigners in the Korean language.\n3. Efforts by Korean universities to attract international students also seem to have had a significant impact on the increase.\n4. Efforts by Korean universities to attract international students seem to have had no impact on the increase.\n------------\nThe 'cause of increase' section in the graph clearly states the reasons: interest in Korea and Korean language, and efforts by Korean universities to attract international students => Answer 4"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230002",
+    "count_question": 3,
+    "tag": "write"
+  },
+  {
+    "title": "다음 그래프나 그림을 보고, 조사 결과를 비교하여 200~300자로 쓰기. 단, 글의 제목을 쓰지 않기.",
+    "general": {
+      "g_text": "다음 그래프를 참고하여 '주요 품목 전년 대비 수출입 증감'에 대한 글을 200~300자로 쓰시오. 단, 글의 제목을 쓰지 마시오.",
+      "g_text_translate": {
+        "vi": "Tham khảo biểu đồ dưới đây và viết một đoạn văn 200~300 chữ về \"Tỉ lệ tăng giảm xuất nhập khẩu các mặt hàng chủ yếu so với năm trước\". Lưu ý, không viết tiêu đề đoạn văn.",
+        "en": "Referring to the following graph, write an essay about 'increase or decrease in import and export of major items compared to the previous year' in 200-300 characters. However, do not write the title of the essay."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": "/topiks/images/d00c257804451d7bfd1c85d877078997.png"
+    },
+    "content": [
+      {
+        "q_text": "그래프와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "유선 통신기기의 수출 증가율은 가장 높다.",
+          "반도체의 수입률은 가장 적게 증가된다.",
+          "철강재의 수출율은 전년보다 적게 나타났다.",
+          "승용차의 수출율은 가장 많이 증가된다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn câu đúng với biểu đồ.\n1. Tốc độ tăng trưởng xuất khẩu của thiết bị liên lạc hữu tuyến là cao nhất. \n2. Tỷ lệ nhập khẩu chất bán dẫn tăng ít nhất. \n3. Tỷ lệ xuất khẩu các sản phẩm thép thấp hơn năm trước. \n4. Tỷ lệ xuất khẩu xe hơi tăng mạnh nhất.\n--------------------\nBiểu đồ không thể hiện tỷ lệ nhập khẩu chất bán dẫn và tỷ lệ xuất khẩu thép nên loại đáp án 2 và 3, tỷ lệ xuất khẩu thiết bị liên lạc hữu tuyến cao hơn xe hơi và là cao nhất => Đáp án 1",
+          "en": "Choose the one that best suits the graph.\n1. The export growth rate of wired communication equipment is the highest.\n2. The import rate of semiconductors increases the least.\n3. The export rate of steel products was lower than the previous year.\n4. The export rate of passenger cars increases the most.\n--------------------\nThe graph does not show the semiconductor import rate and the steel export rate, so 2 and 3 are eliminated, the export rate of wired communication equipment is higher than that of cars and is the highest => Answer 1"
+        }
+      },
+      {
+        "q_text": "그래프와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "석탄의 수입률은 22%로 줄어들었다",
+          "석탄의 수입률은 22%를 줄어들었다.",
+          "석탄의 수출율은 22%를 줄어들었다.",
+          "석탄의 수출율은 22%로 줄어들었다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn câu đúng với biểu đồ.\n1. Tỷ lệ nhập khẩu than giảm xuống còn 22%.\n2. Tỷ lệ nhập khẩu than giảm 22%. \n3. Tỷ lệ xuất khẩu than giảm 22%. \n4. Tỷ lệ xuất khẩu than giảm xuống còn 22%.\n--------------------\nKhi xem biểu đồ cần lưu ý kĩ đâu là xuất khẩu, đâu là nhập khẩu.\nNgữ pháp lưu ý: xx%로 줄어들었다 = giảm còn xx%, xx%를 줄어들었다 = giảm xx%.\n\nNhìn biểu đồ ta thấy tỷ lệ tăng giảm nhập khẩu than là -22% tức giảm 22% => Đáp án 2 ",
+          "en": "Choose the one that best suits the graph. \n1. The import rate of coal has been reduced to 22%.\n2. The import rate of coal was reduced by 22%.\n3. The export rate of coal was reduced by 22%.\n4. The export rate of coal has been reduced to 22%.\n--------------------\nWhen looking at the graph, it is important to pay attention to which is the export rate and which is the import rate.\n<g>xx%로 줄어들다</g> = Reduce to xx%\n<g>xx%를 줄어들다</g> = Reduce by xx%\n\nLooking at the graph, we can see that the import rate of coal is -22%, which is a decrease of 22% => Answer 2"
+        }
+      },
+      {
+        "q_text": "그래프와 틀린 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "반도체의 수출 증가률은 가장 적게 나타났다.",
+          "무선 통신기기 수출은 가장 높게 증가했다.",
+          "승용차 수출과 수입률이 둘 다 증가되었다.",
+          "유선 통신기기의 수출 증가률은 가장 적게 나타났다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn câu sai so với biểu đồ.\n1. Tốc độ tăng trưởng xuất khẩu chất bán dẫn là thấp nhất. \n2. Xuất khẩu thiết bị truyền thông không dây tăng mạnh nhất. \n3. Tỷ lệ xuất và nhập khẩu xe hơi đều tăng. \n4. Tỷ lệ tăng xuất khẩu thiết bị truyền thông có dây là thấp nhất.\n--------------------\nNhìn biểu đồ ta thấy tỷ lệ xuất khẩu chất bán dẫn là thấp nhất, chứ không phải thiết bị truyền thông có dây => Đáp án 4",
+          "en": "Choose the one that is wrong with the graph. \n1. The export growth rate of semiconductors was the least.\n2. Exports of wireless communication equipments increased the highest.\n3. Both the export and import rates of passenger cars have become heavy.\n4. The export growth rate of wired communication equipments was the lowest.\n--------------------\nLooking at the graph, we can see that the export rate of semiconductors is the lowest, not that of wired communication equipments => Answer 4"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230002",
+    "count_question": 3,
+    "tag": "write"
+  },
+  {
+    "title": "다음을 주제로 하여 자신의 생각을 600~700자로 쓰기. 단, 문제를 그대로 옮겨 쓰지 않기.",
+    "general": {
+      "g_text": "사람은 누구나 청소년기를 거쳐 어른이 된다. 아동에서 어른으로 넘어가는 이 시기에 많은 청소년들은 혼란과 방황을 겪으며 성장된다. 아래의 내용을 중심으로 ‘청소년기의 중요성’에 대한 자신의 생각을 쓰라.\n\n∙ 청소년기가 중요한 이유는 무엇인가?\n∙ 청소년들은 이 시기에 주로 어떤 특징을 보이는가?\n∙ 청소년의 올바른 성장을 돕기 위해 어떤 노력이 필요한가?",
+      "g_text_translate": {
+        "vi": "Mọi người đều trải qua tuổi thanh xuân mới trở thành người lớn. Trong giai đoạn chuyển tiếp từ trẻ con thành người lớn này, nhiều thanh thiếu niên lớn lên trong trạng thái hoang mang và hỗn loạn. Hãy viết suy nghĩ của bạn về \"tầm quan trọng của tuổi vị thành niên\" tập trung vào những nội dung sau.\n\n∙ Tại sao tuổi thanh xuân lại quan trọng?\n∙ Trong giai đoạn này thanh thiếu niên chủ yếu thể hiện những đặc điểm nào?\n∙ Loại nỗ lực nào là cần thiết để đảm bảo sự phát triển đúng đắn của thanh thiếu niên?",
+        "en": "Everyone goes through adolescence and becomes an adult. During this period of transition from children to adults, many adolescents grow up experiencing confusion and wandering. Write your thoughts on the importance of adolescence, focusing on the information below.\n\n∙ Why is adolescence important?\n∙ What characteristics do adolescents usually show during this period?\n∙ What kind of efforts are needed to ensure proper growth of adolescents?"
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n청소년기는 자아 정체성을 찾아가는 과도기라는 점에서 사람의 생애 중 (   ) 시기이다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "중요한",
+          "재미있는",
+          "행복한",
+          "슬픈"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   ).\n\n1. Quan trọng\n2. Thú vị\n3. Hạnh phúc\n4. Buồn\n--------------------\nVị thành niên là một giai đoạn quan trọng trong cuộc đời của một người vì nó là giai đoạn chuyển tiếp hình thành bản sắc của một người.\n\nĐề bài yêu cầu viết về \"tầm quan trọng của tuổi vị thành niên\" => Đáp án 1",
+          "en": "Choose the right one for (   ).\n\n1. Important \n2. Interesting\n3. Happy \n4. Sad \n--------------------\nAdolescence is an important period in a person's life in that it is a transitional period in finding self-identity.\n\nWe have to write our thoughts on the importance of adolescence => Answer 1 "
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n특히 가치관의 혼란, 타인의 평가, 또래 집단 내의 압박감 등은 청소년들이 불안정함을 느끼게 되는 주된 (   )이다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "사람",
+          "행동",
+          "요인",
+          "결과"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   ).\n\n1. Người\n2. Hành động\n3. Nguyên nhân\n4. Kết quả \n--------------------\nĐặc biệt, sự nhầm lẫn về giá trị quan, sự đánh giá của người khác và áp lực từ nhóm bạn cùng lứa là những (nguyên nhân) chính khiến thanh thiếu niên cảm thấy bất an.\n\nĐọc cụm chủ ngữ \"sự nhầm lẫn về giá trị quan, sự đánh giá của người khác và áp lực từ nhóm bạn cùng lứa\", ta có thể thấy rõ đó không phải người, hành động hay kết quả, mà chính là nguyên nhân gây nên định ngữ \"khiến thanh thiếu niên cảm thấy bất an\" => Đáp án 3",
+          "en": "Choose the right one for (   ).\n\n1. People\n2. Behaviors\n3. Factors\n4. Results\n--------------------\nIn particular, the confusion of values, the evaluation of others, and the pressure within the peer group are the main factors that make adolescents feel insecure.\n\n\"The confusion of values, the evaluation of others, and the pressure within the peer group\" are factors => Answer 3 "
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n그러나 청소년은 아직 자아가 형성되지 않았 (   ) 심리적으로 불안정해지기 쉽다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "으니까",
+          "기 때문에",
+          "어서",
+          "고"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   ).\n\n1. Vì \n2. Vì\n3. Vì\n4. Và\n--------------------\nTuy nhiên, lứa tuổi thanh thiếu niên dễ bị bất ổn về tâm lý vì cái tôi của các em chưa được hình thành.\n\nĐáp án 1 thường dùng trong văn nói, không nên dùng trong văn viết. Đáp án 3 không dùng được với thì quá khứ. Đáp án 4 sai văn cảnh => Đáp án 2 ",
+          "en": "Choose the right one for (   ).\n\n1. Because\n2. Because\n3. Because\n4. And\n--------------------\nHowever, adolescents are prone to psychological instability because their ego has not yet been formed.\n\n1 is often used when speaking, should not be used in writing. 3 cannot be used with past tense. 4 is wrong with the context => Answer 2"
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n청소년기에 형성된 자아 정체성은 진로나 인간관계뿐 아니라 삶의 전 영역에 지속적인 영향을 (   ).",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "주는다",
+          "먹는다",
+          "불다",
+          "미친다"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   ).\n\n1. Cho\n2. Ăn\n3. Thổi\n4. Gây\n--------------------\nBản sắc được hình thành trong thời niên thiếu (gây) ảnh hưởng lâu dài không chỉ đến con đường sự nghiệp và các mối quan hệ, mà còn trong tất cả các lĩnh vực của cuộc sống.\n\nCụm \"영향을 미치다\" thường được sử dụng trong bài viết mang nghĩa \"gây ảnh hưởng\" => Đáp án 4",
+          "en": "Choose the right one for (   ).\n\n1. Gives\n2. Eats\n3. Blows\n4. Has\n--------------------\nThe self-identity formed in adolescence has a lasting impact on all areas of life, not just career and interpersonal relationships.\n\n<g>영향을 미치다:</g> To have an effect on => Answer 4"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "청소년은 자아가 형성되었기 때문에 심리적으로 불안정해지기 쉽다.",
+          "청소년은 아직 자아가 형성되지 않았기 때문에 심리적으로 불안정해지기 쉽다.",
+          "청소년은 아직 자아가 형성되지 않았기 때문에 심리적으로 불안정해지기 어렵다.",
+          "청소년은 아직 자아가 형성되지 않았기 때문에 심리적으로 안정해지기 쉽다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Thanh thiếu niên dễ bị bất ổn về mặt tâm lý vì các em đã hình thành cái tôi.\n2. Thanh thiếu niên dễ bị bất ổn về mặt tâm lý vì các em vẫn chưa hình thành cái tôi.\n3. Thanh thiếu niên khó bị bất ổn về mặt tâm lý vì các em vẫn chưa hình thành cái tôi.\n4. Thanh thiếu niên dễ dàng ổn định về mặt tâm lý vì các em vẫn chưa hình thành cái tôi.\n--------------------\nThanh thiếu niên là các bạn nhỏ vẫn chưa trưởng thành, tuổi đời ít, do đó cái tôi và bản sắc cá nhân chưa được hình thành rõ ràng, dẫn đến việc dễ gặp phải tình trạng bất ổn về mặt tâm lý => Đáp án 2",
+          "en": "Choose the one that best suits the topic.\n\n1. Adolescents are prone to psychological instability because their ego is formed.\n2. Adolescents are prone to psychological instability because their ego has not yet been formed.\n3. It is difficult for adolescents to become psychologically unstable because their ego has not yet been formed.\n4. Adolescents are easy to become psychologically stable because their ego has not yet been formed.\n--------------------\nAdolescents are young children who are still immature, have a small age, so their ego and self-identity have not been clearly formed, leading to easily encountering psychological instability => Answers 2"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "청소년은 건강하게 청소년기를 보내고 미래의 인재로 성장하도록 본인은 혼자서 노력해야 한다.",
+          "청소년은 건강하게 청소년기를 보내고 미래의 인재로 성장하도록 공부만 잘 하면 된다.",
+          "청소년이 건강하게 청소년기를 보내고 미래의 인재로 성장하도록 돕기 위해서는 가정과 사회의 다각적인 노력이 필요하다.",
+          "청소년이 건강하게 청소년기를 보내고 미래의 인재로 성장하도록 돕기 위해서는 가정과 사회의 다각적인 노력이 필요없다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Các bạn trẻ nên tự mình phấn đấu để có thể trải qua tuổi thành niên một cách lành mạnh và phát triển thành những tài năng trong tương lai.\n2. Các bạn trẻ chỉ cần học tập thật tốt để có thể trải qua tuổi thành niên một cách lành mạnh và phát triển thành những tài năng trong tương lai.\n3. Để giúp các bạn trẻ trải qua tuổi thành niên một cách lành mạnh và phát triển thành những tài năng trong tương lai, cần có sự nỗ lực từ nhiều phía của gia đình và xã hội.\n4. Gia đình và xã hội không cần nỗ lực để giúp các bạn trẻ trải qua tuổi thành niên một cách lành mạnh và phát triển thành những tài năng trong tương lai.\n--------------------\nTrẻ vị thành niên có tuổi đời nhỏ và chưa có nhiều kinh nghiệm trong cuộc sống, do đó sự hỗ trợ từ nhiều phía như gia đình và xã hội là vô cùng quan trọng để trẻ có thể phát triển tốt => Đáp án 3",
+          "en": "Choose the one that best suits the topic. \n\n1. Adolescents should make efforts alone to spend their adolescence healthy and grow into future talents.\n2. Adolescents only need to study well to spend their adolescence in good health and grow into future talents.\n3. In order to help adolescents spend their adolescence healthy and grow into future talents, family and society's multifaceted efforts are needed.\n4. In order to help adolescents spend their adolescence in a healthy way and grow into future talents, multilateral efforts from families and society are not required.\n--------------------\nAdolescents are young and do not have much experience in life, so support from many sides such as family and society is extremely important for children to develop well => Answer 3"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "청소년은 기존의 제도에 저항하거나 자신을 억압하는 어른에 대해 강한 반항심을 전여 보이지 않다.",
+          "청소년은 기존의 제도에 저항하거나 낯설 사람들에 대해 강한 반항심을 보이기도 한다.",
+          "청소년은 기존의 제도에 저항하거나 자신을 억압하는 어른에 대해 강한 반항심을 보이기도 한다.",
+          "청소년은 기존의 제도에 저항하거나 친한 사람들에 대해 강한 반항심을 보이기도 한다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Ta hoàn toàn không hề thấy hiện tượng thanh thiếu niên kháng cự thể chế hiện hành hoặc thể hiện tâm lý chống đối mạnh mẽ hướng đến những người lớn gò ép họ.\n2. Ta còn có thể thấy hiện tượng thanh thiếu niên kháng cự thể chế hiện hành hoặc thể hiện tâm lý chống đối mạnh mẽ hướng đến những người lạ mặt.\n3. Ta còn có thể thấy hiện tượng thanh thiếu niên kháng cự thể chế hiện hành hoặc thể hiện tâm lý chống đối mạnh mẽ hướng đến những người lớn gò ép họ.\n4. Ta còn có thể thấy hiện tượng thanh thiếu niên kháng cự thể chế hiện hành hoặc thể hiện tâm lý chống đối mạnh mẽ hướng đến những người thân thiết.\n--------------------\nVị thành niên là lứa tuổi nổi loạn, trong giai đoạn này các em do chưa hiểu chuyện nên có rất nhiều trường hợp chống đối nhà trường, thầy cô giáo và cả cha mẹ nếu như các em cảm thấy không vừa ý với việc mà người lớn khuyên bảo, dạy dỗ => Đáp án 3",
+          "en": "Choose the one that best suits the topic.\n\n1. Adolescents do not resist the existing system or show strong rebellion against adults who oppress them.\n2. Adolescents resist the existing system or show strong rebellion against unfamiliar people.\n3. Adolescents sometimes resist the existing system or show strong rebellion against adults who oppress them.\n4. Adolescents resist the existing system or show strong rebellion against close people.\n--------------------\nAdolescents are a rebellious age, so during this period, there are many cases of opposition to the school, teachers and parents if they feel dissatisfied with what others say => Answer 3"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "청소년은 아직 옳고 그름의 기준이 정립되지 않았기 때문에 주변 환경의 영향을 받기 어렵다.",
+          "청소년은 옳고 그름의 기준이 정립되었기 때문에 주변 환경의 영향을 받기 쉽다.",
+          "청소년은 옳고 그름의 기준이 정립되었기 때문에 주변 환경이 워낙 중요한다.",
+          "청소년은 아직 옳고 그름의 기준이 정립되지 않았기 때문에 주변 환경의 영향을 받기 쉽다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Thanh thiếu niên khó bị ảnh hưởng bởi môi trường xung quanh vì các tiêu chuẩn về đúng sai vẫn chưa được thiết lập.\n2. Thanh thiếu niên dễ bị ảnh hưởng bởi môi trường xung quanh vì các tiêu chuẩn về đúng sai đã được thiết lập.\n3. Bởi vì các tiêu chuẩn về đúng sai đã được thiết lập đối với thanh thiếu niên nên môi trường xung quanh là rất quan trọng.\n4. Thanh thiếu niên dễ bị ảnh hưởng bởi môi trường xung quanh vì các tiêu chuẩn về đúng và sai vẫn chưa được thiết lập.\n--------------------\nThanh thiếu niên tuổi còn nhỏ, nhận thức về đúng sai vẫn chưa thực sự đầy đủ, do đó rất dễ bị ảnh hưởng bởi môi trường xung quanh => Đáp án 4",
+          "en": "Choose the one that best suits the topic. \n\n1. Adolescents are hard to be influenced by their surroundings because the standards of right and wrong have not yet been established.\n2. Adolescents are easily influenced by their surroundings because the standards of right and wrong has been established.\n3. Because the standards of right and wrong has been established for adolescents, the environment around them is very important.\n4. Adolescents are easily influenced by their surroundings because the standards of right and wrong have not yet been established.\n--------------------\nAdolescents' standards of right and wrong have not yet been established, so they are easily influenced by the surrounding environment => Answer 4"
+        }
+      },
+      {
+        "q_text": "다음을 순서대로 맞게 배열한 것을 고르십시오.\n\n(가) 또한 이 시기는 청소년이 올바른 사회 구성원이 되기 위해 준비하는 시기이기도 하다.\n(나) 청소년기에 형성된 자아 정체성은 진로나 인간관계뿐 아니라 삶의 전 영역에 지속적인 영향을 미친다. \n(다) 그러나 청소년은 아직 자아가 형성되지 않았기 때문에 심리적으로 불안 정해지기 쉽다.\n(라) 청소년기는 자아 정체성을 찾아가는 과도기라는 점에서 사람의 생애 중 중요한 시기이다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(라) - (나) - (가) - (다)",
+          "(나) - (다) - (라) - (가)",
+          "(가) - (라) - (다) - (나)",
+          "(다) - (나) - (라) - (가)"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn cách sắp xếp đúng theo thứ tự cho các câu sau.\n\n청소년기는 자아 정체성을 찾아가는 과도기라는 점에서 사람의 생애 중 중요한 시기이다. 청소년기에 형성된 자아 정체성은 진로나 인간관계뿐 아니라 삶의 전 영역에 지속적인 영향을 미친다. 또한 이 시기는 청소년이 올바른 사회 구성원이 되기 위해 준비하는 시기이기도 하다. 그러나 청소년은 아직 자아가 형성되지 않았기 때문에 심리적으로 불안 정해지기 쉽다.\nVị thành niên là một giai đoạn quan trọng trong cuộc đời của một người vì nó là giai đoạn chuyển tiếp mà trong đó bản sắc của mỗi người được tìm thấy. Bản sắc cá nhân được hình thành trong thời niên thiếu có tác động lâu dài không chỉ đến con đường sự nghiệp và các mối quan hệ, mà còn trên tất cả các lĩnh vực của cuộc sống. Giai đoạn này cũng là giai đoạn thanh thiếu niên chuẩn bị trở thành một cá thể tốt của xã hội. Tuy nhiên, lứa tuổi thanh thiếu niên dễ bị bất ổn về tâm lý vì cái tôi của các em chưa được hình thành.\n--------------------\n(라) là câu bao quát, thể hiện nội dung chính của đoạn nên phải đứng đầu tiên. Tiếp theo (나) và (가) sẽ giải thích vì sao thời niên thiếu lại quan trọng nên sẽ đứng ngay sau (라). Trong đó, (가) bắt đầu bằng 또한 - mang nghĩa 'và' nên nó sẽ phải đứng sau (나). 그러나 cho thấy (다) thể hiện một nội dung khác với các câu trên nên đứng ở cuối cùng => Đáp án 1 ",
+          "en": "Choose the correct order for the following sentences.\n\n<g>청소년기는 자아 정체성을 찾아가는 과도기라는 점에서 사람의 생애 중 중요한 시기이다. 청소년기에 형성된 자아 정체성은 진로나 인간관계뿐 아니라 삶의 전 영역에 지속적인 영향을 미친다. 또한 이 시기는 청소년이 올바른 사회 구성원이 되기 위해 준비하는 시기이기도 하다. 그러나 청소년은 아직 자아가 형성되지 않았기 때문에 심리적으로 불안 정해지기 쉽다.</g>\nAdolescence is an important period in a person's life in that it is a transitional period in finding self-identity. The self-identity formed in adolescence has a lasting impact on all areas of life, not just career and interpersonal relationships. It is also a time when adolescents prepare to become proper members of society. However, adolescents are prone to psychological instability because their ego has not yet been formed.\n--------------------\n<g>(라)</g> is an overarching sentence, expressing the main content of the paragraph, so it comes first. <g>(나)</g> comes second and <g>(가)</g> comes third because they explain why adolescence is important, so they come right after <g>(라)</g>. <g>(가)</g> starts with <g>또한</g> (and), so it must follow <g>(나)</g>. <g>그러나</g> shows that <g>(다)</g> shows something different from the above sentences, so it comes last => Answer 1"
+        }
+      },
+      {
+        "q_text": "다음을 순서대로 맞게 배열한 것을 고르십시오.\n\n(가) 사회에서는 청 소년 심리 상담 센터나 방황하는 청소년을 위한 위탁 시설을 운영하는 등 의 제도적 지원을 통해 청소년의 올바른 성장을 도울 수 있을 것이다.\n(나) 가정에서는 청소년의 특성을 성장을 위한 하나의 과정으로 이해하고 청소년이 건강한 자아 정체성을 형성할 수 있도록 정서적으로 지원할 필요가 있다. \n(다) 청소년이 건강하게 청소년기를 보내고 미래의 인재로 성장하도록 돕기 위해서는 가정과 사회의 다각적인 노력이 필요하다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(가) - (다) - (나)",
+          "(가) - (나) - (다)",
+          "(다) - (나) - (가)",
+          "(다) - (가) - (나)"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn cách sắp xếp đúng theo thứ tự cho các câu sau.\n\n청소년이 건강하게 청소년기를 보내고 미래의 인재로 성장하도록 돕기 위해서는 가정과 사회의 다각적인 노력이 필요하다. 가정에서는 청소년의 특성을 성장을 위한 하나의 과정으로 이해하고 청소년이 건강한 자아 정체성을 형성할 수 있도록 정서적으로 지원할 필요가 있다. 사회에서는 청 소년 심리 상담 센터나 방황하는 청소년을 위한 위탁 시설을 운영하는 등 의 제도적 지원을 통해 청소년의 올바른 성장을 도울 수 있을 것이다.\nĐể giúp các bạn trẻ trải qua tuổi thanh thiếu niên một cách lành mạnh và phát triển thành những tài năng trong tương lai, cần có sự nỗ lực từ nhiều phía của gia đình và xã hội. Gia đình cần hiểu việc phát triển bản sắc của thanh thiếu niên là một quá trình và hỗ trợ về mặt tinh thần để thanh thiếu niên có thể hình thành bản sắc bản thân lành mạnh. Xã hội sẽ có thể giúp những người trẻ tuổi trưởng thành đúng cách thông qua sự hỗ trợ về mặt thể chế, chẳng hạn như mở trung tâm tư vấn tâm lý thanh thiếu niên hoặc các cơ sở nuôi dưỡng thanh thiếu niên lang thang.\n--------------------\n(다) là câu khái quát nội dung nên sẽ đứng đầu tiên. Như câu (다) đã viết '가정과 사회', 가정 đứng trước 사회, nên đằng sau nó chúng ta sẽ để câu viết về gia đình (나) đứng trước câu viết về xã hội (가) => Đáp án 3",
+          "en": "Choose the correct order for the following sentences.\n\n<g>청소년이 건강하게 청소년기를 보내고 미래의 인재로 성장하도록 돕기 위해서는 가정과 사회의 다각적인 노력이 필요하다. 가정에서는 청소년의 특성을 성장을 위한 하나의 과정으로 이해하고 청소년이 건강한 자아 정체성을 형성할 수 있도록 정서적으로 지원할 필요가 있다. 사회에서는 청 소년 심리 상담 센터나 방황하는 청소년을 위한 위탁 시설을 운영하는 등 의 제도적 지원을 통해 청소년의 올바른 성장을 도울 수 있을 것이다.</g>\nIn order to help young people spend their adolescence healthy and grow into future talents, family and society's multifaceted efforts are needed. Families need to understand the characteristics of adolescents as a process for growth and emotionally support them so that they can form a healthy self-identity. In society, institutional support such as the operation of youth psychological counseling centers or foster facilities for wandering youths will be able to help the youth grow properly.\n--------------------\n<g>(다)</g> is the sentence that summarizes the content, so it will come first. <g>(다)</g> has <g>'가정과 사회'</g>, <g>가정</g> comes before <g>사회</g>, so we will put the sentence about family <g>(나)</g> before the sentence about society <g>(가)</g> => Answer 3"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230003",
+    "count_question": 10,
+    "tag": "write"
+  },
+  {
+    "title": "다음을 주제로 하여 자신의 생각을 600~700자로 쓰기. 단, 문제를 그대로 옮겨 쓰지 않기.",
+    "general": {
+      "g_text": "요즘은 아이가 학교에 들어가기 전 어릴 때부터 악기나 외국어 등 여러 가지를 교육하는 경우가 많다. 이러한 조기 교육은 좋은 점도 있지만 문제점도 있다. 아래의 내용을 중심으로 ‘조기 교육의 장점과 문제점’에 대해 자신의 의견을 쓰라.\n\n∙ 조기 교육의 장점은 무엇인가?\n∙ 조기 교육의 문제점은 무엇인가?\n∙ 조기 교육에 찬성하는가, 반대하는가? 근거를 들어 자신의 의견을 쓰라.",
+      "g_text_translate": {
+        "vi": "Gần đây, trẻ em trước khi đi học ở trường thường được cho học nhạc cụ, ngoại ngữ,... từ khi còn nhỏ. Việc giáo dục sớm này có điểm tốt nhưng cũng có những điểm không tốt. Hãy viết suy nghĩ của bạn về \"ưu nhược điểm của việc giáo dục sớm\" tập trung vào những nội dung sau.\n\n∙ Ưu điểm của giáo dục sớm là gì?\n∙ Nhược điểm của giáo dục sớm là gì?\n∙ Bạn ủng hộ hay phản đối giáo dục sớm? Đưa ra căn cứ và viết ý kiến ​​của bạn.",
+        "en": "These days, there are many cases where children are taught various things such as musical instruments or foreign languages from an early age before entering school. Early education has its advantages, but it also has its drawbacks. Write your opinion on the ‘advantages and disadvantages of early education’ focusing on the following information.\n\n∙ What are the advantages of early education?\n∙ What are the disadvantages of early education?\n∙ Are you for or against early education? Give evidence and write your opinion."
+      },
+      "g_text_audio": "",
+      "g_text_audio_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n어릴 때부터 이루어지는 조기 교육은 (   ) 점도 있지만 (   ) 점도 있다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "서로 같은 - 다른",
+          "큰 - 작은",
+          "전통적인 - 현대적인",
+          "좋은 - 나쁜"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   ).\n\n1. Tương đồng - khác biệt\n2. Lớn - nhỏ\n3. Truyền thống - hiện đại\n4. Tốt - không tốt\n--------------------\nGiáo dục sớm ngay từ khi còn nhỏ có những điểm (tốt), nhưng cũng có những điểm (không tốt).\n\nChủ đề bài viết là ưu nhược điểm của giáo dục sớm => Đáp án 4",
+          "en": "Choose the right one for (   ).\n\n1. Similar - different \n2. Big - small\n3. Traditional - modern\n4. Good - bad\n--------------------\nEarly education from an early age has both good and bad points.\n\nWe have to write our opinion on the 'advantages and disadvantages of early education' => Answer 4 "
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n먼저 조기 교육의 가장 큰 장점은 아이의 재능을 (   ) 발견하고 아이가 가진 잠재력을 극대화할 수 있다는 점이다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "늦게",
+          "일찍",
+          "많이",
+          "적게"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   ).\n\n1. Muộn\n2. Sớm\n3. Nhiều\n4. Ít\n--------------------\nTrước hết, ưu điểm lớn nhất của giáo dục sớm là có thể phát hiện (sớm) năng khiếu của trẻ và phát huy tối đa tiềm năng của trẻ.\n\n극대화: Cực đại hóa, phát huy tối đa\n\nNếu trẻ được giáo dục sớm hơn, năng khiếu của trẻ đương nhiên sẽ bộc lộ sớm hơn => Đáp án 2",
+          "en": "Choose the right one for (   ).\n\n1. Late \n2. Early \n3. Many\n4. Less\n--------------------\nFirst of all, the biggest advantage of early education is that you can discover your child's talents early and maximize their potential.\n\n<g>극대화:</g> To maximize \n\nIf children are educated early, their talents will naturally be revealed earlier => Answer 2"
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n조기 교육을 실시하는 것(   ) 반대한다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이",
+          "은",
+          "에",
+          "과"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   ).\n\n1. Tiểu từ 이\n2. Tiểu từ 은\n3. Trợ từ 에\n4. Và\n--------------------\nTôi phản đối việc thực hiện giáo dục sớm.\n\nKhi muốn viết \"phản đối thứ gì đó\" ta sử dụng 에 đằng sau tân ngữ của câu => Đáp án 3",
+          "en": "Choose the right one for (   ).\n\n1. Subject marker <g>이</g>\n2. Topic marker <g>은</g>\n3. Particle <g>에</g>\n4. And\n--------------------\nI am against early education.\n\n<g>N + 에 반대하다:</g> To oppose."
+        }
+      },
+      {
+        "q_text": "(   )에 들어갈 알맞은 것을 고르십시오.\n\n먼저 조기 교육의 가장 큰 장점은 아이의 재능을 일찍 발견하고 아이가 가진 잠재력을 극대화할 수 있다는 점이다. (   ) 예체능계의 유명인 중에는 어릴 때부터 체계적인 교육을 받은 경우가 많다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "예를 들어",
+          "그러나",
+          "그래서",
+          "이 외에"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn đáp án đúng điền vào (   )\n1. Ví dụ\n2. Tuy nhiên\n3. Vì vậy\n4. Ngoài ra\n--------------------\nTrước hết, ưu điểm lớn nhất của giáo dục sớm là có thể phát hiện sớm năng khiếu của trẻ và phát huy tối đa tiềm năng của trẻ. Ví dụ, trong số những người nổi tiếng trong giới nghệ thuật và thể thao, có nhiều trường hợp được giáo dục có hệ thống ngay từ khi còn nhỏ. \n\n체계적: Có hệ thống\n\nCâu sau chính là 1 ví dụ điển hình cho nội dung mà câu trước nói tới => Đáp án 1",
+          "en": "Choose the right one for (   ).\n1. For example \n2. However\n3. Therefore\n4. Besides\n--------------------\nFirst of all, the biggest advantage of early education is that you can discover your child's talents early and maximize their potential. For example, many celebrities in the arts and sports world received systematic education from an early age.\n\n<g>체계적:</g> Systematic \n\nThe second sentence is an example of the content of the first sentence => Answer 1"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "어릴 때부터 이루어지는 조기 교육은 좋은 점도 있지만 문제점도 있다.",
+          "어릴 때부터 이루어지는 조기 교육은 좋은 점만 있다.",
+          "어릴 때부터 이루어지는 조기 교육은 문제점만 있다.",
+          "어릴 때부터 이루어지는 조기 교육은 해야 하는 것이다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Giáo dục sớm từ khi còn nhỏ có những ưu điểm, nhưng cũng có những nhược điểm.\n2. Giáo dục sớm từ khi còn nhỏ chỉ có ưu điểm.\n3. Giáo dục sớm từ khi còn nhỏ chỉ có nhược điểm.\n4. Giáo dục sớm từ khi còn nhỏ là điều phải làm.\n--------------------\nĐề bài yêu cầu viết về ưu nhược điểm của việc giáo dục sớm => Đáp án 1",
+          "en": "Choose the one that best suits the topic.\n\n1. Early education from an early age has its advantages, but it also has its drawbacks.\n2. Early education from an early age has only good points.\n3. Early education from an early age has only problems.\n4. Early education from an early age is a must.\n--------------------\nWe have to write our opinion on the 'advantages and disadvantages of early education' => Answer 1"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "조기 교육이 과도하게 이루어질 경우, 아이들의 정서 발달에 영향을 미칠 수 없다.",
+          "조기 교육이 과도하게 이루어질 경우, 아이들의 정서 발달에 긍정적인 영향을 미칠 수 있다.",
+          "조기 교육이 과도하게 이루어질 경우, 아이들의 정서 발달에 부정적인 영향을 미칠 수 있다.",
+          "조기 교육이 과도하게 이루어질 경우, 아이들의 정서 발달에 부정적인 영향을 미칠 수 없다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Giáo dục sớm quá mức không thể ảnh hưởng đến sự phát triển tình cảm của trẻ.\n2. Giáo dục sớm quá mức có thể có ảnh hưởng tích cực đến sự phát triển tình cảm của trẻ.\n3. Giáo dục sớm quá mức có thể ảnh hưởng tiêu cực đến sự phát triển tình cảm của trẻ.\n4. Giáo dục sớm quá mức không thể ảnh hưởng tiêu cực đến sự phát triển tình cảm của trẻ.\n--------------------\n긍정적: Tích cực\n부정적: Tiêu cực\n정서 발달: Sự phát triển về mặt tình cảm\n\nViệc gì quá mức cũng sẽ gây ra tác động không tốt, đặc biệt đối với những việc vừa có lợi vừa có hại như giáo dục sớm => Đáp án 3",
+          "en": "Choose the one that best suits the topic.\n\n1. Excessive early education cannot affect children's emotional development.\n2. Excessive early education can have a positive effect on children's emotional development.\n3. Excessive early education can negatively affect children's emotional development.\n4. Excessive early education cannot negatively affect children's emotional development.\n--------------------\n<g>긍정적:</g> Positive \n<g>부정적:</g> Negative \n<g>정서 발달:</g> Emotional development \n\nAnything in excess will also have a negative impact, especially for things that are both beneficial and harmful such as early education => Answer 3"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "조기 교육에서의 다양한 경험은 아이의 세계관에 영향을 미치지 않다.",
+          "조기 교육에서의 다양한 경험은 아이의 세계관을 넓히는 데 방해가 된다.",
+          "조기 교육에서의 다양한 경험은 아이의 세계관을 넓히는 데 도움이 안 된다.",
+          "조기 교육에서의 다양한 경험은 아이의 세계관을 넓히는 데 도움이 된다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Những trải nghiệm đa dạng trong giáo dục sớm không ảnh hưởng đến thế giới quan của trẻ.\n2. Những trải nghiệm đa dạng trong giáo dục sớm cản trở việc mở rộng thế giới quan của trẻ.\n3. Những trải nghiệm đa dạng trong giáo dục sớm không giúp mở rộng thế giới quan của trẻ.\n4. Những trải nghiệm đa dạng trong giáo dục sớm có thể giúp mở rộng thế giới quan của trẻ.\n--------------------\n방해: Sự cản trở\n도움: Sự giúp đỡ\n세계관: Thế giới quan\n\nGiáo dục sớm giúp trẻ có nhiều những trải nghiệm đa dạng, từ đó góp phần giúp cho việc mở rộng thế giới quan của trẻ => Đáp án 4",
+          "en": "Choose the one that best suits the topic.\n\n1. Various experiences in early education do not affect a child's worldview.\n2. Various experiences in early education hinder a child's world view.\n3. Various experiences in early education do not help to broaden a child's worldview.\n4. Various experiences in early education help to broaden a child's worldview.\n--------------------\n<g>방해:</g> Hindrance\n<g>도움:</g> Help\n<g>세계관:</g> Worldview\n\nEarly education helps children have a variety of experiences, thereby contributing to the expansion of children's worldview => Answer 4"
+        }
+      },
+      {
+        "q_text": "주제와 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "조기 교육은 부모의 강요에 의해 이루어질 수 있다는 문제점이 있다.",
+          "조기 교육은 부모의 강요에 의해 이루어질 수 있다는 장점이 있다.",
+          "조기 교육은 부모의 강요에 의해 이루어질 수 없다는 장점이 있다.",
+          "조기 교육은 부모의 강요에 의해 이루어질 수 없다는 문제점이 있다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn câu đúng với chủ đề.\n\n1. Giáo dục sớm có thể bắt nguồn từ sự ép buộc của cha mẹ chính là một nhược điểm.\n2. Giáo dục sớm có thể bắt nguồn từ sự ép buộc của cha mẹ chính là một ưu điểm.\n3. Giáo dục sớm không thể bắt nguồn từ sự ép buộc của cha mẹ chính là một ưu điểm.\n4. Giáo dục sớm không thể bắt nguồn từ sự ép buộc của cha mẹ chính là một nhược điểm.\n--------------------\nCó rất nhiều trường hợp trẻ em nhận giáo dục sớm do bị cha mẹ ép buộc, và điều đó hoàn toàn không tốt, là 1 nhược điểm của sự giáo dục sớm => Đáp án 1",
+          "en": "Choose the one that best suits the topic.\n\n1. There is a problem that early education can be done by parental coercion.\n2. Early education has the advantage that it can be done by parental coercion.\n3. Early education has the advantage that it cannot be done by parental coercion.\n4. There is a problem that early education cannot be done by parental coercion.\n--------------------\nThere are many cases where children receive early education because they are forced by their parents, which is not good and is a drawback of early education => Answer 1"
+        }
+      },
+      {
+        "q_text": "다음을 순서대로 맞게 배열한 것을 고르십시오.\n\n(가) 또 다른 조기 교육의 장점은 아이의 학업 경쟁력을 높일 수 있다는 점이다. \n(나) 먼저 조기 교육의 가장 큰 장점은 아이의 재능을 일찍 발견하고 아이가 가진 잠재력을 극대화할 수 있다는 점이다. \n(다) 예를 들어 예체능계의 유명인 중에는 어릴 때부터 체계적인 교육을 받은 경우가 많다. \n(라) 이 외에도 조기 교육에서의 다양한 경험은 아이의 세계관을 넓히는 데 도움이 된다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(라) - (나) - (가) - (다)",
+          "(나) - (다) - (라) - (가)",
+          "(가) - (라) - (다) - (나)",
+          "(나) - (다) - (가) - (라)"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn cách sắp xếp đúng theo thứ tự cho các câu sau.\n\n먼저 조기 교육의 가장 큰 장점은 아이의 재능을 일찍 발견하고 아이가 가진 잠재력을 극대화할 수 있다는 점이다. 예를 들어 예체능계의 유명인 중에는 어릴 때부터 체계적인 교육을 받은 경우가 많다. 또 다른 조기 교육의 장점은 아이의 학업 경쟁력을 높일 수 있다는 점이다. 이 외에도 조기 교육에서의 다양한 경험은 아이의 세계관을 넓히는 데 도움이 된다.\nTrước hết, ưu điểm lớn nhất của giáo dục sớm là có thể phát hiện sớm năng khiếu của trẻ và phát huy tối đa tiềm năng của trẻ. Ví dụ, trong số những người nổi tiếng trong giới nghệ thuật và thể thao, có nhiều trường hợp được giáo dục có hệ thống ngay từ khi còn nhỏ. Một ưu điểm khác của giáo dục sớm là nó có thể tăng khả năng cạnh tranh trong học tập của trẻ. Ngoài ra, những trải nghiệm đa dạng trong giáo dục sớm giúp mở rộng thế giới quan của trẻ.\n--------------------\nCác câu văn đều viết về ưu điểm của việc giáo dục sớm. (나) nói về ưu điểm lớn nhất và bắt đầu bằng 먼저, ta sẽ để ở đầu tiên, (다) nêu ví dụ cho ưu điểm đó, nên đặt thứ 2. Tiếp tục nói đến 1 ưu điểm khác là (가) và cuối cùng là (라). Những câu bắt đầu bằng 이 외에 (ngoài ra) thường đứng cuối đoạn, nêu nốt những yếu tố còn lại của đoạn văn => Đáp án 4",
+          "en": "Choose the correct order for the following sentences.\n\n<g>먼저 조기 교육의 가장 큰 장점은 아이의 재능을 일찍 발견하고 아이가 가진 잠재력을 극대화할 수 있다는 점이다. 예를 들어 예체능계의 유명인 중에는 어릴 때부터 체계적인 교육을 받은 경우가 많다. 또 다른 조기 교육의 장점은 아이의 학업 경쟁력을 높일 수 있다는 점이다. 이 외에도 조기 교육에서의 다양한 경험은 아이의 세계관을 넓히는 데 도움이 된다.</g>\nFirst of all, the biggest advantage of early education is that you can discover your child's talents early and maximize their potential. For example, many celebrities in the arts and sports world received systematic education from an early age. Another advantage of early education is that it can enhance a child's academic competitiveness. In addition to this, various experiences in early education help to expand the child's worldview.\n--------------------\n<g>(나)</g> talks about the biggest advantage and contains <g>먼저</g> so it comes first. <g>(다)</g> gives an example of that advantage so it comes second. <g>(가)</g> and <g>(라)</g> come third and last because they continue to talk about other advantages. Sentences starting with <g>외에</g> (in addition) usually come at the end of the paragraph and state the rest of the paragraph => Answer 4"
+        }
+      },
+      {
+        "q_text": "다음을 순서대로 맞게 배열한 것을 고르십시오.\n\n(가) 그러나 조기 교육은 부모의 강요에 의해 이루어질 수 있다는 문제점이 있다. \n(나) 이로 인해 아이는 스트레스를 받거나, 억압적인 학습 경험의 반발로 학업에 흥미를 느끼지 못할 수 있다. \n(다) 또한 조기 교육이 과도하게 이루어질 경우, 아이들의 정서 발달에 부정적인 영향을 미칠 수 있다.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "(가) - (다) - (나)",
+          "(가) - (나) - (다)",
+          "(다) - (나) - (가)",
+          "(다) - (가) - (나)"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn cách sắp xếp đúng theo thứ tự cho các câu sau.\n\n그러나 조기 교육은 부모의 강요에 의해 이루어질 수 있다는 문제점이 있다. 이로 인해 아이는 스트레스를 받거나, 억압적인 학습 경험의 반발로 학업에 흥미를 느끼지 못할 수 있다. 또한 조기 교육이 과도하게 이루어질 경우, 아이들의 정서 발달에 부정적인 영향을 미칠 수 있다.\nTuy nhiên, có một vấn đề là giáo dục sớm có thể bắt nguồn từ sự ép buộc của cha mẹ. Điều này có thể khiến trẻ bị căng thẳng hoặc không còn cảm thấy hứng thú với việc học do kháng cự lại những trải nghiệm học tập bị gò ép. Ngoài ra, giáo dục sớm quá mức có thể ảnh hưởng tiêu cực đến sự phát triển tình cảm của trẻ.\n--------------------\n억압하다: Đè nén, áp bức, gò ép, cưỡng ép\n반발: Phản kháng, chống cự, kháng cự\n정서 발달: Sự phát triển về mặt tình cảm\n\n(가) là câu mở đầu, cho người đọc biết đoạn văn này nói về nhược điểm của giáo dục sớm. 이로 인해 ở câu (나) cho thấy sự liên kết với câu trước, nêu lên kết quả do câu trước (việc giáo dục sớm) gây ra => Đáp án 2",
+          "en": "Choose the correct order for the following sentences.\n\n<g>그러나 조기 교육은 부모의 강요에 의해 이루어질 수 있다는 문제점이 있다. 이로 인해 아이는 스트레스를 받거나, 억압적인 학습 경험의 반발로 학업에 흥미를 느끼지 못할 수 있다. 또한 조기 교육이 과도하게 이루어질 경우, 아이들의 정서 발달에 부정적인 영향을 미칠 수 있다.</g>\nHowever, there is a problem that early education can be done by parental coercion. As a result, the child may be stressed or lose interest in school due to the repulsion of the oppressive learning experience. In addition, excessive early education can have a negative impact on children's emotional development.\n--------------------\n<g>억압하다:</g> To suppress, to oppress\n<g>반발:</g> Resistance \n<g>정서 발달:</g> Emotional development \n\n<g>(가)</g> is the opening sentence, indicating that this paragraph is about the disadvantages of early education. <g>이로 인해</g> in <g>(나)</g> shows the connection with the previous sentence and shows the result caused by the previous sentence (early education) => Answer 2"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "230003",
+    "count_question": 10,
+    "tag": "write"
+  }
+]

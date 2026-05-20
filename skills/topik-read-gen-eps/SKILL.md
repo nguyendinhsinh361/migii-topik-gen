@@ -1,0 +1,284 @@
+# EPS-TOPIK Reading Question Generator (Level 3)
+
+Skill tạo câu hỏi phần Đọc (읽기) cho kỳ thi EPS-TOPIK (Level 3 — lao động nước ngoài) theo đúng format JSON của hệ thống Migii.
+
+## Khi nào dùng skill này
+
+- Khi user yêu cầu tạo/gen câu hỏi đọc EPS-TOPIK
+- Khi user chỉ định kind EPS cụ thể (ví dụ: "gen 320001", "tạo câu hỏi dạng 3420007")
+- Khi user yêu cầu tạo đề thi đọc EPS-TOPIK
+
+## Cấu trúc thư mục
+
+```
+skills/topik-read-gen-eps/
+├── SKILL.md              ← File này (overview + quy tắc chung)
+├── scripts/
+│   └── save_read.py      ← Script lưu CSV/JSON theo kind
+├── kinds/                ← Quy tắc chi tiết từng dạng
+│   ├── 320001.md         Xem hình chọn từ/câu (EPS, gồm 3420001) [ảnh]
+│   ├── 320002.md         Điền chỗ trống (EPS, gồm 3420004)
+│   ├── 320003.md         Trả lời câu hỏi — hình (EPS, gồm 3420005) [ảnh]
+│   ├── 320004.md         Đọc + trả lời (EPS) [ảnh]
+│   ├── 320005.md         Đọc dài + 2 câu hỏi (EPS)
+│   ├── 3420002.md        Từ liên quan (EPS)
+│   ├── 3420003.md        Đồng nghĩa / trái nghĩa (EPS)
+│   ├── 3420006.md        Chủ đề đoạn văn (EPS)
+│   ├── 3420007.md        Nội dung khớp (EPS)
+│   └── 3420008.md        Từ vựng theo mô tả (EPS)
+└── samples.json          ← Mẫu câu hỏi tham khảo (10 mẫu)
+```
+
+Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKILL.md này.
+
+---
+
+## Output Format (JSON)
+
+Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
+
+```json
+{
+  "title": "<tiêu đề dạng câu hỏi bằng tiếng Hàn>",
+  "general": {
+    "g_text": "<đoạn văn đọc chung — nếu count_question >= 2>",
+    "g_text_translate": { "vi": "<dịch tiếng Việt>", "en": "<dịch tiếng Anh>" },
+    "g_text_audio": "",
+    "g_text_audio_translate": { "vi": "", "en": "" },
+    "g_audio": "",
+    "g_image": ""
+  },
+  "content": [
+    {
+      "q_text": "<đoạn văn hoặc câu hỏi phụ>",
+      "q_image": "",
+      "q_point": null,
+      "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
+      "q_correct": 1,
+      "explain": {
+        "vi": "<giải thích tiếng Việt>",
+        "en": "<giải thích tiếng Anh>"
+      },
+      "question_feature": "<mã đặc điểm từ bảng question_feature>",
+      "difficulty": <mức độ khó 1-4>,
+      "distractor_traps": {
+        "1": "<trap code cho đáp án 1 — rỗng nếu là đáp án đúng>",
+        "2": "<trap code cho đáp án 2>",
+        "3": "<trap code cho đáp án 3>",
+        "4": "<trap code cho đáp án 4>"
+      }
+    }
+  ],
+  "level": 3,
+  "kind": "320001",
+  "count_question": 1,
+  "tag": "read",
+  "topic": "<mã chủ đề từ bảng topic>"
+}
+```
+
+### Lưu ý riêng EPS-TOPIK
+
+| Trường | EPS-TOPIK |
+|--------|-----------|
+| `level` | **Luôn = 3** |
+| `q_point` | **null** (EPS không tính điểm theo câu) |
+| `count_question` | **null** hoặc khớp len(content) |
+| `tag` | `"read"` |
+| `q_image` | URL ảnh thực (poster, biển hiệu, hình minh họa) |
+
+### Format bổ sung cho kind có ảnh
+
+Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
+
+```json
+{
+  "q_image_description": {
+    "image": "<mô tả chi tiết nội dung hình ảnh>"
+  }
+}
+```
+
+Áp dụng cho: 320001, 320003, 320004, 3420001, 3420005.
+
+---
+
+## Danh mục chủ đề (topic)
+
+### Chủ đề riêng EPS-TOPIK (Level 3)
+
+| Code | Nhãn tiếng Anh | Kind chính |
+|------|---------------|-----------|
+| `factory_work` | Factory & Production | 320002, 3420004 |
+| `dormitory_life` | Dormitory Life | 320003, 3420005 |
+| `safety_workplace` | Workplace Safety | 320003, 3420007 |
+| `wages_contract` | Wages & Contract | 320004, 3420004 |
+| `korean_culture` | Korean Culture & Etiquette | 3420006, 3420007 |
+| `daily_vocab` | Daily Vocabulary | 320001, 3420001, 3420002, 3420008 |
+
+### Chủ đề chung (dùng được cho EPS)
+
+| Code | Nhãn tiếng Anh | Tiếng Hàn |
+|------|---------------|-----------|
+| `daily_life` | Daily Life & Routine | 일상생활 |
+| `food_restaurant` | Food & Dining | 음식/식당 |
+| `shopping_price` | Shopping & Price | 쇼핑/가격 |
+| `health_hospital` | Health & Hospital | 건강/병원 |
+| `weather_season` | Weather & Seasons | 날씨/계절 |
+| `travel` | Travel & Tourism | 여행/관광 |
+
+---
+
+## Chiến lược bẫy đáp án sai (distractor_trap)
+
+### Nhóm 1: Bẫy từ vựng (Vocabulary Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_shared_noun` | Shared-Noun Trap | Đáp án sai chứa từ vựng giống đoạn đọc |
+| `trap_synonym_swap` | Synonym Swap | Thay từ đúng bằng từ đồng nghĩa nhưng sai ngữ cảnh |
+| `trap_similar_word` | Similar Word | Đáp án chứa từ phát âm/dạng tương tự (e.g. 관광/관계) |
+
+### Nhóm 2: Bẫy phủ định (Negation Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_neg_없안` | Negation 없/안/아니 | Đáp án sai đảo nghĩa bằng 없다/안/아니다 |
+| `trap_neg_않못` | Negation 않/못 | Đáp án sai thêm 않다/못하다 |
+
+### Nhóm 3: Bẫy cấu trúc (Structural Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_same_ending` | Same-Ending Pattern | Cả 4 đáp án kết thúc cùng dạng ngữ pháp |
+| `trap_same_length` | Same-Length Pattern | Đáp án cùng độ dài, khó phân biệt bằng mắt |
+
+### Nhóm 4: Bẫy nội dung (Content Traps)
+
+| Code | Nhãn tiếng Anh | Mô tả |
+|------|---------------|-------|
+| `trap_partial_truth` | Partial Truth | Đáp án sai chứa >50% nội dung đúng nhưng sửa 1 chi tiết |
+| `trap_subject_swap` | Subject Swap | Gán hành động/đặc điểm cho sai đối tượng |
+| `trap_number_shift` | Number/Time Shift | Thay đổi con số/thời gian/số lượng từ bài đọc |
+| `trap_detail_distort` | Detail Distortion | Đáp án sai bóp méo chi tiết nhỏ trong đoạn văn |
+
+---
+
+## Đặc điểm câu hỏi (question_feature)
+
+| Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
+|------|---------------|-------|-------------|
+| `qf_image_word` | Image → Word/Sentence | Nhìn hình chọn từ/câu mô tả | 320001, 3420001 |
+| `qf_image_qa` | Image Q&A | Nhìn hình + đọc câu hỏi → chọn đáp án | 320003, 320004, 3420005 |
+| `qf_fill_blank` | Fill in Blank | Điền từ/cụm vào chỗ trống ( ) | 320002, 3420004 |
+| `qf_word_relation` | Word Relationship | Tìm từ liên quan | 3420002 |
+| `qf_synonym_antonym` | Synonym/Antonym | Tìm từ đồng nghĩa hoặc trái nghĩa | 3420003 |
+| `qf_vocab_definition` | Vocabulary Definition | Đọc mô tả, chọn từ phù hợp | 3420008 |
+| `qf_topic_identify` | Topic Identification | Đoạn văn nói về chủ đề gì? | 3420006 |
+| `qf_content_match` | Content Matching | Chọn phát biểu khớp nội dung | 3420007 |
+| `qf_multi_passage` | Multi-Question Passage | Đoạn văn + 2 câu hỏi | 320005 |
+
+---
+
+## Định dạng văn bản đọc (text_format)
+
+| Code | Mô tả | Độ dài trung bình | Kind chính |
+|------|-------|:-----------------:|-----------|
+| `text_dialog_eps` | Hội thoại 가/나 ngắn (EPS) | 30-80 ký tự | 320002, 3420004 |
+| `text_image_only` | Chỉ có hình, không text | Ảnh | 320001, 3420001, 320003 |
+| `text_single_word` | Từ đơn hoặc cụm ngắn | 2-10 ký tự | 3420002, 3420003, 3420008 |
+| `text_paragraph_short` | Đoạn văn ngắn (3-5 câu) | 50-100 ký tự | 320004, 3420006, 3420007 |
+| `text_paragraph_long` | Đoạn văn dài (6+ câu) | 150-300 ký tự | 320005 |
+| `text_passage_multi` | Đoạn dài + nhiều câu hỏi | 150-500 ký tự (g_text) | 320005 |
+
+---
+
+## Ngữ pháp đáp án (answer_grammar)
+
+| Code | Mô tả | Kind áp dụng |
+|------|-------|-------------|
+| `ans_noun_phrase` | Đáp án là danh từ/cụm danh từ | 320001, 3420001, 3420002, 3420003, 3420008 |
+| `ans_sentence_polite` | Đáp án dùng ~ㅂ니다/습니다 | 320004, 3420007 |
+| `ans_sentence_plain` | Đáp án là câu thể trần thuật | 3420006 |
+| `ans_grammar_form` | Đáp án là cấu trúc ngữ pháp | 320002, 3420004 |
+
+---
+
+## Thang độ khó (Difficulty Scale)
+
+| Mức | Kind | Kiểu suy luận |
+|:---:|------|--------------|
+| 1 | 320001, 3420001 | `image_recognition` — Nhận diện từ qua hình |
+| 2 | 3420002, 3420003, 3420008 | `vocab_match` — Từ vựng đơn giản |
+| 3 | 320002, 3420004 | `context_fill` — Điền chỗ trống dựa ngữ cảnh |
+| 4 | 320003, 3420005, 3420006 | `detail_extraction` — Trích xuất chi tiết từ hình/văn |
+| 5 | 3420007 | `content_matching` — So khớp nội dung |
+| 7 | 320004, 320005 | `paragraph_comprehension` — Hiểu đoạn văn |
+
+---
+
+## Cấp độ đọc EPS (reading_level)
+
+| Level | Đặc điểm văn bản | Ngữ pháp phổ biến |
+|:-----:|------------------|------------------|
+| 3 (EPS) | Đoạn ngắn-trung bình, từ vựng thực tế lao động | ~(으)면, ~어야 하다, ~지 마십시오, ~(으)세요 |
+
+---
+
+## Quy tắc chung khi gen câu hỏi
+
+### 1. Chất lượng nội dung tiếng Hàn
+- Dùng ngữ pháp đúng level EPS (xem bảng reading_level)
+- Văn bản tự nhiên, đa dạng chủ đề (lao động, an toàn, ký túc xá, lương, văn hóa Hàn, từ vựng hàng ngày)
+- KHÔNG lặp lại từ vựng/ngữ cảnh giữa các câu trong cùng batch
+
+### 2. Xây dựng đáp án sai (distractor)
+- Tuân theo tỷ lệ bẫy của từng kind (xem file kind tương ứng)
+- Phải hợp lý nhưng SAI về nội dung
+- Tái sử dụng từ vựng bài đọc khi kind yêu cầu `trap_shared_noun`
+- Đáp án sai phải cùng format/độ dài với đáp án đúng
+
+### 3. Giải thích (explain)
+- **vi**: Dịch bài đọc + dịch cả 4 đáp án → dấu `--------------------` → giải thích đáp án đúng
+- **en**: Tương tự bằng tiếng Anh
+- Highlight từ vựng/ngữ pháp quan trọng
+
+### 4. Số lượng
+- Mặc định: 5 câu mỗi kind nếu user không chỉ định
+- Tối đa: 20 câu mỗi lần
+
+### 5. Kiểm tra sau khi gen (Validation Checklist)
+- [ ] `q_correct` nằm trong 1-4
+- [ ] 4 đáp án không trùng nhau
+- [ ] Văn bản là tiếng Hàn tự nhiên, đúng level EPS
+- [ ] Bẫy đúng phân bố của kind
+- [ ] Bản dịch (vi/en) chính xác
+- [ ] `explain` chứa dịch + lý do đáp án đúng + ghi chú trap type cho từng đáp án sai
+- [ ] `count_question` khớp số phần tử trong `content` (hoặc null)
+- [ ] `tag` = `"read"` (KHÔNG phải `"listen"`)
+- [ ] `level` = 3
+- [ ] `q_point` = null (EPS không tính điểm)
+- [ ] Kind có ảnh → có `q_image_description`
+
+## Workflow
+
+1. User chỉ định kind → đọc file `kinds/{kind}.md`
+2. Hỏi số lượng (mặc định 5)
+3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
+4. Lưu JSON tạm → chạy `scripts/save_read.py` để tách CSV theo kind
+5. Validate theo checklist
+
+### Lưu kết quả bằng script
+
+```bash
+# Lưu CSV theo kind + JSON + merge tổng
+python skills/topik-read-gen-eps/scripts/save_read.py gen_temp.json -o output/read-eps --json --merge
+
+# Chỉ validate
+python skills/topik-read-gen-eps/scripts/save_read.py gen_temp.json --validate-only
+
+# Append thêm batch mới
+python skills/topik-read-gen-eps/scripts/save_read.py new_batch.json --append
+```
+
+Output: `output/read-eps/level_3/{kind}.csv`

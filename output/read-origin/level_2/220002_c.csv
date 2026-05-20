@@ -1,0 +1,18 @@
+﻿id,kind,level,tag,title,count_question,g_text,g_text_vi,g_text_en,topic,q_text_1,q_point_1,q_answer_1,q_correct_1,explain_vi_1,explain_en_1,q_image_desc_1,question_feature_1,difficulty_1,distractor_trap_1,q_text_2,q_point_2,q_answer_2,q_correct_2,explain_vi_2,explain_en_2,q_image_desc_2,question_feature_2,difficulty_2,distractor_trap_2,q_text_3,q_point_3,q_answer_3,q_correct_3,explain_vi_3,explain_en_3,q_image_desc_3,question_feature_3,difficulty_3,distractor_trap_3,created_at
+220002_c_20260515_174350_q0,220002_c,2,read,[32～34] 다음을 읽고 내용이 같은 것을 고르십시오.,1,최근 스마트폰 사용 시간이 늘어나면서 눈의 피로를 호소하는 사람들이 많아졌다. 특히 잠자기 전 어두운 곳에서 스마트폰을 보는 것은 시력 저하의 주요 원인이 된다. 전문가들은 눈 건강을 위해 화면 밝기를 조절하고 정기적으로 눈을 쉬게 해 주는 것이 중요하다고 조언한다. 또한 눈에 좋은 성분이 포함된 음식을 섭취하는 것도 도움이 된다.,"Gần đây, khi thời gian sử dụng điện thoại thông minh tăng lên, nhiều người than phiền về tình trạng mỏi mắt. Đặc biệt, việc xem điện thoại ở nơi tối trước khi đi ngủ là nguyên nhân chính gây suy giảm thị lực. Các chuyên gia khuyên rằng để bảo vệ sức khỏe đôi mắt, việc điều chỉnh độ sáng màn hình và cho mắt nghỉ ngơi định kỳ là rất quan trọng. Ngoài ra, việc hấp thụ thực phẩm chứa thành phần tốt cho mắt cũng rất hữu ích.","Recently, as smartphone usage time has increased, many people have complained of eye fatigue. Especially, looking at a smartphone in a dark place before going to sleep is a major cause of vision deterioration. Experts advise that to protect eye health, it is important to adjust screen brightness and rest the eyes regularly. In addition, consuming foods containing ingredients good for the eyes is also helpful.",health_medical,,2,"어두운 곳에서 스마트폰을 보면 눈에 좋다.
+스마트폰은 눈 건강과 아무런 상관이 없다.
+눈 건강을 위해 정기적으로 휴식을 취해야 한다.
+화면 밝기는 눈 건강에 영향을 주지 않는다.",3,"1. Xem điện thoại ở nơi tối tốt cho mắt. (Sai - gây hại)
+2. Điện thoại thông minh không có bất kỳ liên quan nào đến sức khỏe mắt. (Sai - có liên quan mật thiết)
+3. Phải nghỉ ngơi định kỳ để bảo vệ sức khỏe mắt. (Đúng - khớp nội dung)
+4. Độ sáng màn hình không ảnh hưởng đến sức khỏe mắt. (Sai - có ảnh hưởng)
+--------------------
+Đáp án 3 khớp với lời khuyên '정기적으로 눈을 쉬게 해 주는 것이 중요하다'.","1. Looking at a smartphone in a dark place is good for the eyes. (Wrong - it's harmful)
+2. Smartphones have nothing to do with eye health. (Wrong - they are closely related)
+3. You must take periodic rests for eye health. (Correct - matches content)
+4. Screen brightness does not affect eye health. (Wrong - it does affect it)
+--------------------
+Answer 3 matches the advice 'it is important to rest the eyes regularly'.",,qf_content_match,7,"trap_neg_없안
+trap_shared_noun
+
+trap_partial_truth",,,,,,,,,,,,,,,,,,,,,20260515_174350
