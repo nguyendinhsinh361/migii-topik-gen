@@ -1,0 +1,40 @@
+# Monorepo root ignores
+node_modules/
+**/node_modules/
+
+# Build output
+**/dist/
+**/.next/
+**/build/
+**/out/
+
+# TypeScript
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Env
+.env
+.env.local
+.env.production
+.env.prod
+**/.env
+**/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor
+.idea/
+.vscode/
+.DS_Store
+
+# Misc
+*.pem
+.turbo/
+.env.prod
+deploy/ssl
+
+input/
+input_clean/
