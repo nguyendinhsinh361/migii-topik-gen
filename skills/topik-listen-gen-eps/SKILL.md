@@ -154,6 +154,9 @@ Phát hiện từ dữ liệu 2.242 câu EPS — các chủ đề đặc thù ch
 | `trap_same_ending` | Cả 4 đáp án kết thúc cùng dạng ngữ pháp | 310001, 310004, 310005, 310006, 3410005 |
 | `trap_neg_없안` | Đáp án sai thêm 없다/안/아니다 để đảo nghĩa | 310001, 310004, 310005, 3410005 |
 | `trap_subject_swap` | Gán hành động cho sai người (가↔나) | 310005, 310006 |
+| `trap_detail_distort` | Bóp méo chi tiết nhỏ trong nội dung | 310002, 310003 |
+| `trap_action_swap` | Bức sai có đúng bối cảnh nhưng sai hành động | 310003 |
+| `trap_context_swap` | Bức sai có đúng hành động nhưng sai bối cảnh | 310003 |
 
 ### Quy tắc gán nhãn bẫy
 

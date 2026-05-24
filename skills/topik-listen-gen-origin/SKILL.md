@@ -150,7 +150,9 @@ Phân tích từ 5.701 câu hỏi nghe thực tế. Ngưỡng gán nhãn: ≥2 t
 
 | Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
 |------|---------------|-------|-------------|
-| `trap_shared_noun` | Shared-Noun Trap | Đáp án sai chứa ≥2 danh từ giống audio | 110001, 110002, 110006, 110007, 210002-210007 |
+| `trap_shared_noun` | Shared-Noun Trap | Đáp án sai chứa ≥2 danh từ giống audio | 110001, 110002, 110003, 110004, 110006, 110007, 210002-210007 |
+| `trap_similar_word` | Similar Word | Đáp án chứa từ phát âm/dạng tương tự (e.g. 약국↔학교, 운동↔운전) | 110003, 110004 |
+| `trap_partial_topic` | Partial Topic | Đáp án chỉ đề cập một phần nội dung, không phải chủ đề chính | 110004 |
 
 ### Nhóm 2: Bẫy phủ định (Negation Traps)
 
@@ -176,9 +178,10 @@ Phân tích từ 5.701 câu hỏi nghe thực tế. Ngưỡng gán nhãn: ≥2 t
 | `trap_cause_effect_swap` | Cause-Effect Swap | Đảo quan hệ nhân quả | 110006, 110008_3 |
 | `trap_scope_change` | Scope Change | Thay đổi từ chỉ phạm vi: 모든↔일부 | 110006, 110007, 110008_3 |
 | `trap_temporal_distort` | Temporal Distortion | Đảo biểu thức thời gian | 110006, 110008_2 |
-| `trap_comparison_flip` | Comparison Flip | Đảo chiều so sánh | 110006 |
-| `trap_action_swap` | Action Swap | Đáp án sai thay đổi hành động | 110005 |
-| `trap_context_swap` | Context Swap | Đáp án sai thay đổi bối cảnh | 110005 |
+| `trap_comparison_flip` | Comparison Flip | Đảo chiều so sánh | 110006, 210001_2 |
+| `trap_action_swap` | Action Swap | Đáp án sai thay đổi hành động | 110005, 210001_1 |
+| `trap_context_swap` | Context Swap | Đáp án sai thay đổi bối cảnh | 110005, 210001_1 |
+| `trap_number_shift` | Number/Time Shift | Thay đổi số liệu biểu đồ | 210001_2 |
 
 ### Quy tắc gán nhãn bẫy
 
