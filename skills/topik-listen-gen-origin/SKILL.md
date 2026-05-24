@@ -79,25 +79,30 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 }
 ```
 
-### Trường tùy chọn (OPTIONAL — chỉ thêm nếu cần phân tích chuyên sâu)
+### Trường metadata BẮT BUỘC
 
-Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json không chứa các trường này. Chỉ thêm khi user yêu cầu phân tích metadata:
+Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json không chứa các trường này (vì lấy từ dữ liệu cũ), nhưng khi gen mới **BẮT BUỘC** phải thêm:
 
 ```json
-// Trong content[]:
+// Trong content[] — thêm vào MỖI câu hỏi con:
 "question_feature": "<mã từ bảng question_feature>",
 "difficulty": 3,
 "distractor_traps": {
   "1": "", "2": "trap_detail_distort", "3": "trap_neg_없안", "4": "trap_shared_noun"
 }
 
-// Ở cấp top-level:
+// Ở cấp top-level — thêm vào MỖI câu hỏi:
 "topic": "daily_routine"
 ```
 
-### Format bổ sung cho kind có ảnh
+- `topic`: chọn từ bảng **Danh mục chủ đề** bên dưới
+- `question_feature`: chọn từ bảng **Đặc điểm câu hỏi** bên dưới, theo kind
+- `difficulty`: lấy từ bảng **Thang độ khó** bên dưới, theo kind
+- `distractor_traps`: ghi trap code cho **từng đáp án** (đáp án đúng để rỗng `""`)
 
-Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
+### Format BẮT BUỘC cho kind có ảnh
+
+Kind có ảnh (110005, 210001_1, 210001_2) **PHẢI** có trường `q_image_description` ở **cấp top-level** (cùng cấp `title`, `general`), mô tả nội dung ảnh bằng text để AI tạo ảnh sau:
 
 ```json
 {
@@ -110,7 +115,7 @@ Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
 }
 ```
 
-> ⚠️ **Lưu ý**: `q_image_description` là trường **chỉ dùng khi gen câu hỏi mới** — dùng để mô tả ảnh bằng text cho AI tạo ảnh sau. Trường này KHÔNG có trong `samples.json` (vì samples lấy từ dữ liệu thực đã có ảnh URL). Đặt ở **cấp top-level** của JSON (cùng cấp với `title`, `general`).
+Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng.
 
 ---
 

@@ -62,21 +62,26 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 }
 ```
 
-### Trường tùy chọn (OPTIONAL — chỉ thêm nếu cần phân tích chuyên sâu)
+### Trường metadata BẮT BUỘC
 
-Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json không chứa các trường này. Chỉ thêm khi user yêu cầu phân tích metadata:
+Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json không chứa các trường này (vì lấy từ dữ liệu cũ), nhưng khi gen mới **BẮT BUỘC** phải thêm:
 
 ```json
-// Trong content[]:
+// Trong content[] — thêm vào MỖI câu hỏi con:
 "question_feature": "<mã từ bảng question_feature>",
 "difficulty": 3,
 "distractor_traps": {
   "1": "", "2": "trap_partial_truth", "3": "trap_grammar_connector", "4": "trap_wrong_inference"
 }
 
-// Ở cấp top-level:
+// Ở cấp top-level — thêm vào MỖI câu hỏi:
 "topic": "daily_routine"
 ```
+
+- `topic`: chọn từ bảng **Danh mục chủ đề** bên dưới
+- `question_feature`: chọn từ bảng **Đặc điểm câu hỏi** bên dưới, theo kind
+- `difficulty`: lấy từ bảng **Thang độ khó** bên dưới, theo kind
+- `distractor_traps`: ghi trap code cho **từng đáp án** (đáp án đúng để rỗng `""`)
 
 ### Khác biệt so với Listen/Read
 
@@ -96,7 +101,9 @@ Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json khô
 - **230002**: Có `g_image` (biểu đồ/đồ thị) + `g_text` (đề bài). `count_question=3` (3 câu hỏi phụ về biểu đồ)
 - **230003**: Có `g_text` (đề bài dài). `count_question=10` (10 câu hỏi phụ: điền từ, chọn ngữ pháp, nội dung)
 
-### Format bổ sung cho kind có ảnh
+### Format BẮT BUỘC cho kind có ảnh
+
+Kind có ảnh (230001_1, 230001_2, 230002) **PHẢI** có trường `q_image_description` ở **cấp top-level** (cùng cấp `title`, `general`):
 
 ```json
 {
@@ -106,9 +113,7 @@ Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json khô
 }
 ```
 
-Áp dụng cho: 230001_1, 230001_2 (ảnh đoạn văn có chỗ trống), 230002 (ảnh biểu đồ).
-
-> ⚠️ **Lưu ý**: `q_image_description` là trường **chỉ dùng khi gen câu hỏi mới** — dùng để mô tả ảnh bằng text cho AI tạo ảnh sau. Trường này KHÔNG có trong `samples.json` (vì samples lấy từ dữ liệu thực đã có ảnh URL). Đặt ở **cấp top-level** của JSON (cùng cấp với `title`, `general`).
+Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng.
 
 ---
 
