@@ -50,25 +50,32 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
       "q_correct": 1,
       "explain": {
-        "vi": "<giải thích tiếng Việt>",
+        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
         "en": "<giải thích tiếng Anh>"
-      },
-      "question_feature": "<mã đặc điểm từ bảng question_feature>",
-      "difficulty": <mức độ khó 1-4>,
-      "distractor_traps": {
-        "1": "<trap code cho đáp án 1 — rỗng nếu là đáp án đúng>",
-        "2": "<trap code cho đáp án 2>",
-        "3": "<trap code cho đáp án 3>",
-        "4": "<trap code cho đáp án 4>"
       }
     }
   ],
   "level": 2,
   "kind": "230001_1",
   "count_question": 1,
-  "tag": "write",
-  "topic": "<mã chủ đề từ bảng topic>"
+  "tag": "write"
 }
+```
+
+### Trường tùy chọn (OPTIONAL — chỉ thêm nếu cần phân tích chuyên sâu)
+
+Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json không chứa các trường này. Chỉ thêm khi user yêu cầu phân tích metadata:
+
+```json
+// Trong content[]:
+"question_feature": "<mã từ bảng question_feature>",
+"difficulty": 3,
+"distractor_traps": {
+  "1": "", "2": "trap_partial_truth", "3": "trap_grammar_connector", "4": "trap_wrong_inference"
+}
+
+// Ở cấp top-level:
+"topic": "daily_routine"
 ```
 
 ### Khác biệt so với Listen/Read
@@ -101,6 +108,8 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 
 Áp dụng cho: 230001_1, 230001_2 (ảnh đoạn văn có chỗ trống), 230002 (ảnh biểu đồ).
 
+> ⚠️ **Lưu ý**: `q_image_description` là trường **chỉ dùng khi gen câu hỏi mới** — dùng để mô tả ảnh bằng text cho AI tạo ảnh sau. Trường này KHÔNG có trong `samples.json` (vì samples lấy từ dữ liệu thực đã có ảnh URL). Đặt ở **cấp top-level** của JSON (cùng cấp với `title`, `general`).
+
 ---
 
 ## Danh mục chủ đề (topic)
@@ -124,20 +133,23 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 
 ### Nhóm 1: Bẫy ngữ pháp (Grammar Traps) — chủ yếu 230001
 
-| Code | Nhãn tiếng Anh | Mô tả |
-|------|---------------|-------|
-| `trap_grammar_ending` | Wrong Ending | Đáp án sai dùng sai dạng kết thúc câu (e.g. -습니다 vs -세요) |
-| `trap_grammar_connector` | Wrong Connector | Dùng sai liên từ (e.g. -기 때문에 vs -어서 vs -니까) |
-| `trap_grammar_tense` | Wrong Tense | Sai thì (quá khứ/hiện tại/tương lai) |
+| Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
+|------|---------------|-------|-------------|
+| `trap_grammar_ending` | Wrong Ending | Sai dạng kết thúc câu (~습니다 vs ~세요) | 230001_1 |
+| `trap_grammar_connector` | Wrong Connector | Dùng sai liên từ (~기 때문에 vs ~어서) | 230001_1, 230001_2, 230003 |
+| `trap_grammar_tense` | Wrong Tense | Sai thì (quá khứ/hiện tại/tương lai) | 230001_2 |
 
 ### Nhóm 2: Bẫy nội dung (Content Traps) — 230002, 230003
 
-| Code | Nhãn tiếng Anh | Mô tả |
-|------|---------------|-------|
-| `trap_partial_truth` | Partial Truth | Đáp án sai chứa >50% nội dung đúng |
-| `trap_number_shift` | Number/Time Shift | Thay đổi số liệu biểu đồ |
-| `trap_wrong_inference` | Wrong Inference | Suy luận hợp lý nhưng không có trong dữ liệu |
-| `trap_overgeneralize` | Overgeneralization | Khái quát hóa quá mức |
+| Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
+|------|---------------|-------|-------------|
+| `trap_partial_truth` | Partial Truth | Đáp án sai chứa >50% nội dung đúng | 230001_1, 230001_2, 230002 |
+| `trap_wrong_inference` | Wrong Inference | Suy luận hợp lý nhưng không có trong dữ liệu | 230001_2, 230002, 230003 |
+| `trap_number_shift` | Number/Time Shift | Thay đổi số liệu biểu đồ | 230002 |
+| `trap_comparison_flip` | Comparison Flip | Đảo chiều so sánh trong biểu đồ | 230002 |
+| `trap_cause_effect_swap` | Cause-Effect Swap | Đảo quan hệ nhân quả | 230002 |
+| `trap_overgeneralize` | Overgeneralization | Khái quát hóa quá mức | 230002, 230003 |
+| `trap_synonym_swap` | Synonym Swap | Thay từ đồng nghĩa/gần nghĩa nhưng sai sắc thái | 230003 |
 
 ---
 
@@ -167,10 +179,9 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 | Code | Mô tả | Kind áp dụng |
 |------|-------|-------------|
 | `ans_sentence_pair` | Đáp án là cặp câu (ㄱ)-(ㄴ), mỗi câu 5-15 ký tự | 230001_1, 230001_2 |
-| `ans_sentence_plain` | Đáp án là câu trần thuật về biểu đồ (~ㄴ다/한다) | 230002 |
-| `ans_grammar_form` | Đáp án là cấu trúc ngữ pháp (liên từ, kết thúc câu) | 230003 (câu điền ngữ pháp) |
-| `ans_sentence_long` | Đáp án là câu dài (20+ ký tự) mô tả nội dung | 230003 (câu nội dung) |
-| `ans_noun_phrase` | Đáp án là danh từ/cụm danh từ | 230003 (câu điền từ) |
+| `ans_sentence_long` | Đáp án là câu dài (20+ ký tự) mô tả biểu đồ | 230002 |
+| `ans_word_phrase` | Đáp án là từ/cụm từ ngắn | 230003 |
+| `ans_sentence_medium` | Đáp án là câu trung bình (10-20 ký tự) | 230003 |
 
 ---
 

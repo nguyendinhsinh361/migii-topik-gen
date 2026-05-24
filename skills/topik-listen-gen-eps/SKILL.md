@@ -1,114 +1,123 @@
 # EPS-TOPIK Listening Question Generator (Level 3)
 
-Skill tao cau hoi phan Nghe (듣기) cho ky thi EPS-TOPIK (Level 3 — danh cho nguoi lao dong nuoc ngoai tai Han Quoc) theo dung format JSON cua he thong Migii.
+Skill tạo câu hỏi phần Nghe (듣기) cho kỳ thi EPS-TOPIK (Level 3 — dành cho người lao động nước ngoài tại Hàn Quốc) theo đúng format JSON của hệ thống Migii.
 
-## Khi nao dung skill nay
+## Khi nào dùng skill này
 
-- Khi user yeu cau tao/gen cau hoi nghe EPS-TOPIK
-- Khi user chi dinh kind cu the (vi du: "gen 310001", "tao cau hoi dang 3410005")
-- Khi user yeu cau tao de thi nghe EPS
+- Khi user yêu cầu tạo/gen câu hỏi nghe EPS-TOPIK
+- Khi user chỉ định kind cụ thể (ví dụ: "gen 310001", "tạo câu hỏi dạng 3410005")
+- Khi user yêu cầu tạo đề thi nghe EPS
 
-## Cau truc thu muc
+## Cấu trúc thư mục
 
 ```
 skills/topik-listen-gen-eps/
-├── SKILL.md              ← File nay (overview + quy tac chung)
+├── SKILL.md              ← File này (overview + quy tắc chung)
 ├── scripts/
-│   └── save_listen.py    ← Script luu CSV/JSON theo kind
-├── kinds/                ← Quy tac chi tiet tung dang
-│   ├── 310001.md         Nhan dien tu/cau (EPS, gom 3410001)
-│   ├── 310002.md         Nhin hinh chon dap an (EPS, gom 3410003) [anh]
-│   ├── 310003.md         Chon hinh lien quan (EPS, gom 3410006) [anh]
-│   ├── 310004.md         Hoi-dap EPS (gom 3410004)
-│   ├── 310005.md         Trich xuat chi tiet (EPS, gom 3410007)
-│   ├── 310006.md         2 cau hoi EPS
-│   ├── 3410002.md        Nhan dien gio (EPS) [anh]
-│   └── 3410005.md        Chon cau noi tiep EPS (pragmatic_response)
-└── samples.json          ← Mau cau hoi tham khao
+│   └── save_listen.py    ← Script lưu CSV/JSON theo kind
+├── kinds/                ← Quy tắc chi tiết từng dạng
+│   ├── 310001.md         Nhận diện từ/câu (EPS, gồm 3410001)
+│   ├── 310002.md         Nhìn hình chọn đáp án (EPS, gồm 3410003) [ảnh]
+│   ├── 310003.md         Chọn hình liên quan (EPS, gồm 3410006) [ảnh]
+│   ├── 310004.md         Hỏi-đáp EPS (gồm 3410004)
+│   ├── 310005.md         Trích xuất chi tiết (EPS, gồm 3410007)
+│   ├── 310006.md         2 câu hỏi EPS
+│   ├── 3410002.md        Nhận diện giờ (EPS) [ảnh]
+│   └── 3410005.md        Chọn câu nối tiếp EPS (pragmatic_response)
+└── samples.json          ← Mẫu câu hỏi tham khảo
 ```
 
-Khi gen kind cu the, doc file `kinds/{kind}.md` tuong ung + file SKILL.md nay.
+Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKILL.md này.
 
 ---
 
 ## Output Format (JSON)
 
-Moi cau hoi PHAI tuan theo cau truc JSON sau:
+Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 
 ```json
 {
-  "title": "<tieu de dang cau hoi bang tieng Han>",
+  "title": "<tiêu đề dạng câu hỏi bằng tiếng Hàn>",
   "general": {
     "g_text": "",
     "g_text_translate": { "vi": "", "en": "" },
-    "g_text_audio": "<noi dung audio / doan hoi thoai bang tieng Han>",
+    "g_text_audio": "<nội dung audio / đoạn hội thoại bằng tiếng Hàn>",
     "g_text_audio_translate": {
-      "vi": "<ban dich tieng Viet>",
-      "en": "<ban dich tieng Anh>"
+      "vi": "<bản dịch tiếng Việt>",
+      "en": "<bản dịch tiếng Anh>"
     },
     "g_audio": "",
     "g_image": ""
   },
   "content": [
     {
-      "q_text": "<cau hoi phu neu co, neu khong thi de rong>",
+      "q_text": "<câu hỏi phụ nếu có, nếu không thì để rỗng>",
       "q_image": "",
-      "q_point": <diem hoac null>,
+      "q_point": <điểm hoặc null>,
       "q_answer": ["<dap an 1>", "<dap an 2>", "<dap an 3>", "<dap an 4>"],
-      "q_correct": <so thu tu dap an dung 1-4>,
+      "q_correct": <số thứ tự đáp án đúng 1-4>,
       "explain": {
-        "vi": "<giai thich tieng Viet>",
-        "en": "<giai thich tieng Anh>"
-      },
-      "question_feature": "<ma dac diem tu bang question_feature>",
-      "difficulty": <muc do kho 1-4>,
-      "distractor_traps": {
-        "1": "<trap code cho dap an 1 — rong neu la dap an dung>",
-        "2": "<trap code cho dap an 2>",
-        "3": "<trap code cho dap an 3>",
-        "4": "<trap code cho dap an 4>"
+        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
+        "en": "<giải thích tiếng Anh>"
       }
     }
   ],
   "level": 3,
-  "kind": "<ma kind>",
-  "count_question": <so cau hoi con trong content>,
-  "tag": "listen",
-  "topic": "<ma chu de tu bang topic>"
+  "kind": "<mã kind>",
+  "count_question": <số câu hỏi con trong content>,
+  "tag": "listen"
 }
 ```
 
-### Format bo sung cho kind co anh
+### Trường tùy chọn (OPTIONAL — chỉ thêm nếu cần phân tích chuyên sâu)
 
-Them truong `q_image_description` mo ta noi dung anh bang text:
+Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json không chứa các trường này. Chỉ thêm khi user yêu cầu phân tích metadata:
+
+```json
+// Trong content[]:
+"question_feature": "<mã từ bảng question_feature>",
+"difficulty": 3,
+"distractor_traps": {
+  "1": "", "2": "trap_same_ending", "3": "trap_neg_없안", "4": "trap_shared_noun"
+}
+
+// Ở cấp top-level:
+"topic": "daily_routine"
+```
+
+### Format bổ sung cho kind có ảnh
+
+Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
 
 ```json
 {
   "q_image_description": {
-    "1": "<mo ta noi dung hinh 1>",
-    "2": "<mo ta noi dung hinh 2>",
-    "3": "<mo ta noi dung hinh 3>",
-    "4": "<mo ta noi dung hinh 4>"
+    "1": "<mô tả nội dung hình 1>",
+    "2": "<mô tả nội dung hình 2>",
+    "3": "<mô tả nội dung hình 3>",
+    "4": "<mô tả nội dung hình 4>"
   }
 }
 ```
 
-Voi kind 310002/3410003 (chi 1 buc tranh, dap an trong audio):
+Với kind 310002/3410003 (chỉ 1 bức tranh, đáp án trong audio):
 ```json
 {
   "q_image_description": {
-    "image": "<mo ta buc tranh duy nhat>"
+    "image": "<mô tả bức tranh duy nhất>"
   }
 }
 ```
+
+> ⚠️ **Lưu ý**: `q_image_description` là trường **chỉ dùng khi gen câu hỏi mới** — dùng để mô tả ảnh bằng text cho AI tạo ảnh sau. Trường này KHÔNG có trong `samples.json` (vì samples lấy từ dữ liệu thực đã có ảnh URL). Đặt ở **cấp top-level** của JSON (cùng cấp với `title`, `general`).
 
 ---
 
-## Danh muc chu de (topic)
+## Danh mục chủ đề (topic)
 
-### Chu de chung (ap dung cho EPS)
+### Chủ đề chung (áp dụng cho EPS)
 
-| Code | Nhan tieng Anh | Tieng Han | Tu khoa nhan dien |
+| Code | Nhãn tiếng Anh | Tiếng Hàn | Từ khóa nhận diện |
 |------|---------------|-----------|-------------------|
 | `time_appointment` | Time & Appointments | 시간/약속 | 시간, 약속, 오전, 오후, 언제, 몇 시 |
 | `workplace` | Workplace & Work | 직장/업무 | 회사, 회의, 보고서, 출근, 퇴근, 팀장, 사장, 직장, 업무 |
@@ -123,11 +132,11 @@ Voi kind 310002/3410003 (chi 1 buc tranh, dap an trong audio):
 | `family_relations` | Family & Relations | 가족/관계 | 가족, 엄마, 아빠, 결혼, 아이, 부모님 |
 | `phone_communication` | Phone & Communication | 전화/통신 | 전화, 번호, 메시지, 연락, 문자 |
 
-### Chu de rieng EPS-TOPIK (Level 3)
+### Chủ đề riêng EPS-TOPIK (Level 3)
 
-Phat hien tu du lieu 2.242 cau EPS — cac chu de dac thu cho nguoi lao dong nuoc ngoai:
+Phát hiện từ dữ liệu 2.242 câu EPS — các chủ đề đặc thù cho người lao động nước ngoài:
 
-| Code | Nhan tieng Anh | Tu khoa nhan dien | Ty le (L3) |
+| Code | Nhãn tiếng Anh | Từ khóa nhận diện | Tỷ lệ (L3) |
 |------|---------------|-------------------|:-----------:|
 | `factory_work` | Factory & Production | 공장, 기계, 작업, 생산, 제품, 부품, 조립, 포장 | 5% |
 | `dormitory_life` | Dormitory Life | 기숙사, 룸메이트, 세탁기, 청소, 방, 규칙, 소음 | 6% |
@@ -136,51 +145,29 @@ Phat hien tu du lieu 2.242 cau EPS — cac chu de dac thu cho nguoi lao dong nuo
 
 ---
 
-## Chien luoc bay dap an sai (distractor_trap)
+## Chiến lược bẫy đáp án sai (distractor_trap)
 
-### Nhom 1: Bay tu vung (Vocabulary Traps)
+| Code | Mô tả | Kind áp dụng |
+|------|-------|-------------|
+| `trap_sound_similarity` | 4 đáp án phát âm gần giống nhau | 310001, 3410002 |
+| `trap_shared_noun` | Đáp án sai chứa >=2 danh từ giống audio | 310004, 310005, 310006, 3410005 |
+| `trap_same_ending` | Cả 4 đáp án kết thúc cùng dạng ngữ pháp | 310001, 310004, 310005, 310006, 3410005 |
+| `trap_neg_없안` | Đáp án sai thêm 없다/안/아니다 để đảo nghĩa | 310001, 310004, 310005, 3410005 |
+| `trap_subject_swap` | Gán hành động cho sai người (가↔나) | 310005, 310006 |
 
-| Code | Nhan tieng Anh | Mo ta | Bang chung tu du lieu |
-|------|---------------|-------|----------------------|
-| `trap_shared_noun` | Shared-Noun Trap | Dap an sai chua >=2 danh tu giong audio | 10.058 luot phat hien |
-| `trap_sound_similarity` | Sound Similarity | 4 dap an phat am gan giong nhau | 100% o 310001/3410001/3410002. Tu don 2 am tiet chiem 85% |
-| `trap_opposite_meaning` | Opposite Meaning | Dap an sai dung tu trai nghia voi dap an dung | 15% o 210006/210007, 6% o 110006 |
+### Quy tắc gán nhãn bẫy
 
-### Nhom 2: Bay phu dinh (Negation Traps)
-
-| Code | Nhan tieng Anh | Mo ta | Bang chung tu du lieu |
-|------|---------------|-------|----------------------|
-| `trap_neg_없안` | Negation 없/안/아니 | Dap an sai them 없다/안/아니다 de dao nghia | 456 luot 없, 333 luot 안, 209 luot 아니 |
-| `trap_neg_않못` | Negation 않/못 | Dap an sai them 않다/못하다 de phu dinh hanh dong | 333 luot 않, 162 luot 못 |
-
-### Nhom 3: Bay cau truc (Structural Traps)
-
-| Code | Nhan tieng Anh | Mo ta | Bang chung tu du lieu |
-|------|---------------|-------|----------------------|
-| `trap_same_ending` | Same-Ending Pattern | Ca 4 dap an ket thuc cung dang ngu phap | Pho bien nhat: ~ㅂ니다(907), ~있다(235), ~어요(185) |
-| `trap_same_start` | Same-Start Pattern | Ca 4 dap an bat dau bang cung mot tu | 66 cau o 310004, 58 cau o 210007 |
-
-### Nhom 4: Bay noi dung (Content Traps)
-
-| Code | Nhan tieng Anh | Mo ta | Bang chung tu du lieu |
-|------|---------------|-------|----------------------|
-| `trap_subject_swap` | Subject Swap | Gan hanh dong/y kien cho sai nguoi (가↔나) | 1.026 luot swap_general |
-| `trap_number_shift` | Number/Time Shift | Thay doi con so/thoi gian tu audio | 398 cau phat hien. Rat cao o 3410004-3410007(100%), 310006(52%) |
-| `trap_partial_truth` | Partial Truth | Dap an sai chua >30% tu dung tu audio nhung bi sua 1 chi tiet | 34% o 210004, 50% dap an sai 210006 |
-
-### Quy tac gan nhan bay
-
-- Moi cau hoi co the co NHIEU nhan bay cung luc
-- Gan nhan dua tren DAP AN SAI, khong phai dap an dung
-- Chi gan khi co bang chung ro rang, khong suy doan
+- Mỗi câu hỏi có thể có NHIỀU nhãn bẫy cùng lúc
+- Gán nhãn dựa trên ĐÁP ÁN SAI, không phải đáp án đúng
+- Chỉ gán khi có bằng chứng rõ ràng, không suy đoán
 
 ---
 
-## Dac diem cau hoi (question_feature)
+## Đặc điểm câu hỏi (question_feature)
 
-### Nhom cau hoi co q_text
+### Nhóm câu hỏi có q_text
 
-| Code | Nhan tieng Anh | Mo ta |
+| Code | Nhãn tiếng Anh | Mô tả |
 |------|---------------|-------|
 | `qf_content_match` | Content Match | "들은 내용으로 맞는 것을 고르십시오" |
 | `qf_what` | What (General) | "무엇입니까?", "무엇을 삽니까?" |
@@ -193,151 +180,154 @@ Phat hien tu du lieu 2.242 cau EPS — cac chu de dac thu cho nguoi lao dong nuo
 | `qf_how_many` | How Many | "몇 명?", "몇 개?" |
 | `qf_how_much` | How Much (Price) | "얼마입니까?" |
 
-### Nhom cau hoi KHONG co q_text
+### Nhóm câu hỏi KHÔNG có q_text
 
-| Code | Kind ap dung | Mo ta |
+| Code | Kind áp dụng | Mô tả |
 |------|-------------|-------|
-| `qf_direct_qa` | 310004 | Nghe cau hoi -> chon cau tra loi truc tiep |
-| `qf_next_utterance` | 3410005 | Nghe hoi thoai -> chon cau noi tiep |
-| `qf_match_image` | 310003 | Nghe -> chon hinh khop |
-| `qf_match_content` | 310005 | Nghe -> chon phat bieu khop noi dung |
-| `qf_identify_sound` | 310001 | Nghe -> nhan dien tu/cau |
-| `qf_identify_time` | 3410002 | Nghe gio -> chon dong ho |
-| `qf_image_qa` | 310002 | Nhin hinh + nghe 4 cau mo ta -> chon dung |
+| `qf_direct_qa` | 310004 | Nghe câu hỏi -> chọn câu trả lời trực tiếp |
+| `qf_next_utterance` | 3410005 | Nghe hội thoại -> chọn câu nối tiếp |
+| `qf_match_image` | 310003 | Nghe -> chọn hình khớp |
+| `qf_match_content` | 310005 | Nghe -> chọn phát biểu khớp nội dung |
+| `qf_identify_sound` | 310001 | Nghe -> nhận diện từ/câu |
+| `qf_identify_time` | 3410002 | Nghe giờ -> chọn đồng hồ |
+| `qf_image_qa` | 310002 | Nhìn hình + nghe 4 câu mô tả -> chọn đúng |
+| `qf_multi_comprehension` | 310006 | Nghe dài và trả lời 2 câu hỏi |
 
 ---
 
-## Cau truc ngu phap trong audio (grammar_semantic)
+## Cấu trúc ngữ pháp trong audio (grammar_semantic)
 
-### Phan bo Level 3 (2.242 cau, chi liet ke >=5%)
+### Phân bố Level 3 (2.242 câu, chỉ liệt kê >=5%)
 
 gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%), gram_cause_니까(8%), gram_cond_면(7%), gram_contrast_는데(7%), gram_prog_고있(6%), gram_intent_겠(6%), gram_cause_어서(5%)
 
-### Bang nhan ngu phap theo y nghia (Level 3)
+### Bảng nhãn ngữ pháp theo ý nghĩa (Level 3)
 
-| Code | Cau truc | Y nghia | L3 |
+| Code | Cấu trúc | Ý nghĩa | L3 |
 |------|----------|---------|:--:|
-| `gram_cause_어서` | ~어서/아서 | Nguyen nhan (nhe) | 5% |
-| `gram_cause_니까` | ~니까 | Nguyen nhan (nhan manh) | 8% |
-| `gram_cond_면` | ~(으)면 | Dieu kien | 7% |
-| `gram_contrast_지만` | ~지만 | Doi lap truc tiep | 3% |
-| `gram_contrast_는데` | ~는데/은데 | Boi canh/doi lap mem | 7% |
-| `gram_intent_려고` | ~(으)려고 | Y dinh | 4% |
-| `gram_intent_겠` | ~겠어요/겠습니다 | Du dinh/suy doan | 6% |
-| `gram_request_세요` | ~(으)세요 | Yeu cau lich su | 19% |
-| `gram_request_주세요` | ~주세요 | Nho va cu the | 4% |
-| `gram_prog_고있` | ~고 있다 | Dang dien ra | 6% |
-| `gram_honorific_시` | ~시/셨/세요 | Kinh ngu (시) | 21% |
-| `gram_honorific_습니다` | ~습니다/ㅂ니다 | Kinh ngu trang trong | 18% |
+| `gram_cause_어서` | ~어서/아서 | Nguyên nhân (nhẹ) | 5% |
+| `gram_cause_니까` | ~니까 | Nguyên nhân (nhấn mạnh) | 8% |
+| `gram_cond_면` | ~(으)면 | Điều kiện | 7% |
+| `gram_contrast_지만` | ~지만 | Đối lập trực tiếp | 3% |
+| `gram_contrast_는데` | ~는데/은데 | Bối cảnh/đối lập mềm | 7% |
+| `gram_intent_려고` | ~(으)려고 | Ý định | 4% |
+| `gram_intent_겠` | ~겠어요/겠습니다 | Dự định/suy đoán | 6% |
+| `gram_request_세요` | ~(으)세요 | Yêu cầu lịch sự | 19% |
+| `gram_request_주세요` | ~주세요 | Nhờ vả cụ thể | 4% |
+| `gram_prog_고있` | ~고 있다 | Đang diễn ra | 6% |
+| `gram_honorific_시` | ~시/셨/세요 | Kính ngữ (시) | 21% |
+| `gram_honorific_습니다` | ~습니다/ㅂ니다 | Kính ngữ trang trọng | 18% |
 
-### Ngu phap trong dap an (answer_grammar)
+### Ngữ pháp trong đáp án (answer_grammar)
 
-| Code | Mo ta | Kind ap dung |
+| Code | Mô tả | Kind áp dụng |
 |------|-------|-------------|
-| `ans_formal` | Dap an dung ~ㅂ니다 | 310004, 310005, 310006, va cac EPS kinds |
-| `ans_short_word` | Dap an la tu don / cum ngan | 310001, 3410002 |
-| `ans_sentence` | Dap an la cau day du | 3410005, 310003 |
+| `ans_word_phrase` | Đáp án là từ đơn / cụm ngắn | 310001 |
+| `ans_formal_polite` | Đáp án dùng ~ㅂ니다/습니다 | 310002 |
+| `ans_image` | Đáp án là hình ảnh | 310003, 3410002 |
+| `ans_formal` | Đáp án dùng ~ㅂ니다 | 310004, 310005, 310006 |
+| `ans_informal_polite` | Đáp án dùng ~아/어요 | 3410005 |
 
 ---
 
-## Cau truc audio (audio_format)
+## Cấu trúc audio (audio_format)
 
-| Code | Mo ta | Kind chinh |
+| Code | Mô tả | Kind chính |
 |------|-------|-----------|
-| `audio_dialog_가나` | Hoi thoai 가/나 (EPS) | 310003-310006 |
-| `audio_single_word` | Tu don/cum ngan (<15 ky tu) | 310001, 3410002 |
-| `audio_single_sentence` | Cau don (15-50 ky tu) | 310004, 3410005 |
-| `audio_numbered` | 4 cau mo ta danh so (1. 2. 3. 4.) | 310002 |
+| `audio_dialog_가나` | Hội thoại 가/나 (EPS) | 310003-310006 |
+| `audio_single_word` | Từ đơn/cụm ngắn (<15 ký tự) | 310001, 3410002 |
+| `audio_single_sentence` | Câu đơn (15-50 ký tự) | 310004, 3410005 |
+| `audio_numbered` | 4 câu mô tả đánh số (1. 2. 3. 4.) | 310002 |
 
 ---
 
-## Thang do kho (Difficulty Scale) — EPS kinds only
+## Thang đo khó (Difficulty Scale) — EPS kinds only
 
-| Muc | Kind | Kieu suy luan | Nhan |
+| Mức | Kind | Kiểu suy luận | Nhãn |
 |:---:|------|--------------|------|
-| 1 | 310001, 3410002 | `sound_recognition` / `time_recognition` | Nhan dien tu/gio |
-| 2 | 310004, 310002 | `direct_match` / `image_qa` | Hoi-dap don gian |
-| 3 | 3410005 | `pragmatic_response` | Chon cau noi tiep |
-| 4 | 310003 | `scene_matching` | Chon hinh lien quan |
-| 5 | 310005 | `detail_extraction` | Trich xuat chi tiet |
-| 8 | 310006 | `multi_comprehension` | 2 cau hoi / doan dai |
+| 1 | 310001, 3410002 | `sound_recognition` / `time_recognition` | Nhận diện từ/giờ |
+| 2 | 310004, 310002 | `direct_match` / `image_qa` | Hỏi-đáp đơn giản |
+| 3 | 3410005 | `pragmatic_response` | Chọn câu nối tiếp |
+| 4 | 310003 | `scene_matching` | Chọn hình liên quan |
+| 5 | 310005 | `detail_extraction` | Trích xuất chi tiết |
+| 8 | 310006 | `multi_comprehension` | 2 câu hỏi / đoạn dài |
 
-### Mo ta kieu suy luan (reasoning_type)
+### Mô tả kiểu suy luận (reasoning_type)
 
-| Code | Mo ta |
+| Code | Mô tả |
 |------|-------|
-| `sound_recognition` | Nhan dien chinh xac tu/cau duoc nghe |
-| `time_recognition` | Nghe gio, chon dong ho phu hop |
-| `direct_match` | Ghep cau hoi voi cau tra loi truc tiep |
-| `image_qa` | Nhin hinh, nghe cau hoi + dap an, chon dung |
-| `pragmatic_response` | Chon phan hoi phu hop ngu canh giao tiep |
-| `scene_matching` | Nghe audio, chon buc tranh minh hoa khop |
-| `detail_extraction` | Trich xuat chi tiet cu the tu hoi thoai |
-| `multi_comprehension` | Tra loi 2 cau hoi tu 1 doan |
+| `sound_recognition` | Nhận diện chính xác từ/câu được nghe |
+| `time_recognition` | Nghe giờ, chọn đồng hồ phù hợp |
+| `direct_match` | Ghép câu hỏi với câu trả lời trực tiếp |
+| `image_qa` | Nhìn hình, nghe câu hỏi + đáp án, chọn đúng |
+| `pragmatic_response` | Chọn phản hồi phù hợp ngữ cảnh giao tiếp |
+| `scene_matching` | Nghe audio, chọn bức tranh minh họa khớp |
+| `detail_extraction` | Trích xuất chi tiết cụ thể từ hội thoại |
+| `multi_comprehension` | Trả lời 2 câu hỏi từ 1 đoạn |
 
 ---
 
-## Cap do giao tiep trong audio (speech_level)
+## Cấp độ giao tiếp trong audio (speech_level)
 
-| Level | Audio chinh | Dap an |
+| Level | Audio chính | Đáp án |
 |:-----:|------------|--------|
 | 3 | `informal_polite` 37%, `modifier` 31%, `connective` 16% | `formal_polite` (~ㅂ니다) cho EPS |
 
-**Quy tac**: Audio EPS dung `informal_polite` la chinh. **Dap an** EPS thuong dung `formal_polite` (~ㅂ니다) — xem answer_grammar `ans_formal`.
+**Quy tắc**: Audio EPS dùng `informal_polite` là chính. **Đáp án** EPS thường dùng `formal_polite` (~ㅂ니다) — xem answer_grammar `ans_formal`.
 
 ---
 
-## Quy tac chung khi gen cau hoi
+## Quy tắc chung khi gen câu hỏi
 
-### 1. Chat luong noi dung tieng Han
-- Dung ngu phap dung Level 3 (xem bang speech_level + grammar_semantic)
-- Hoi thoai tu nhien, da dang chu de doi song + lao dong
-- KHONG lap lai tu vung/ngu canh giua cac cau trong cung batch
-- Pha tron chu de chung + chu de EPS dac thu
+### 1. Chất lượng nội dung tiếng Hàn
+- Dùng ngữ pháp đúng Level 3 (xem bảng speech_level + grammar_semantic)
+- Hội thoại tự nhiên, đa dạng chủ đề đời sống + lao động
+- KHÔNG lặp lại từ vựng/ngữ cảnh giữa các câu trong cùng batch
+- Pha trộn chủ đề chung + chủ đề EPS đặc thù
 
-### 2. Xay dung dap an sai (distractor)
-- Tuan theo ty le bay cua tung kind (xem file kind tuong ung)
-- Phai hop ly nhung SAI ve noi dung
-- Tai su dung tu vung audio khi kind yeu cau `shared_word`
+### 2. Xây dựng đáp án sai (distractor)
+- Tuân theo tỷ lệ bẫy của từng kind (xem file kind tương ứng)
+- Phải hợp lý nhưng SAI về nội dung
+- Tái sử dụng từ vựng audio khi kind yêu cầu `shared_word`
 
-### 3. Giai thich (explain)
-- **vi**: Dich ca 4 dap an -> dau `--------------------` -> giai thich dap an dung, ghi chu trap type cho tung dap an sai
-- **en**: Tuong tu bang tieng Anh
-- Highlight tu vung/ngu phap quan trong
+### 3. Giải thích (explain)
+- **vi**: Dịch cả 4 đáp án -> dấu `--------------------` -> giải thích đáp án đúng, ghi chú trap type cho từng đáp án sai
+- **en**: Tương tự bằng tiếng Anh
+- Highlight từ vựng/ngữ pháp quan trọng
 
-### 4. So luong
-- Mac dinh: 5 cau moi kind neu user khong chi dinh
-- Toi da: 20 cau moi lan
+### 4. Số lượng
+- Mặc định: 5 câu mỗi kind nếu user không chỉ định
+- Tối đa: 20 câu mỗi lần
 
-### 5. Kiem tra sau khi gen (Validation Checklist)
-- [ ] `q_correct` nam trong 1-4
-- [ ] 4 dap an khong trung nhau
-- [ ] Audio la tieng Han tu nhien
-- [ ] Ngu phap dung Level 3
-- [ ] Bay dung phan bo cua kind
-- [ ] Ban dich (vi/en) chinh xac
-- [ ] `explain` chua dich 4 dap an + ly do dap an dung + trap type cho dap an sai
-- [ ] `count_question` khop so phan tu trong `content`
-- [ ] `level` luon = 3
+### 5. Kiểm tra sau khi gen (Validation Checklist)
+- [ ] `q_correct` nằm trong 1-4
+- [ ] 4 đáp án không trùng nhau
+- [ ] Audio là tiếng Hàn tự nhiên
+- [ ] Ngữ pháp đúng Level 3
+- [ ] Bẫy đúng phân bố của kind
+- [ ] Bản dịch (vi/en) chính xác
+- [ ] `explain` chứa dịch 4 đáp án + lý do đáp án đúng + trap type cho đáp án sai
+- [ ] `count_question` khớp số phần tử trong `content`
+- [ ] `level` luôn = 3
 
 ## Workflow
 
-1. User chi dinh kind -> doc file `kinds/{kind}.md`
-2. Hoi so luong (mac dinh 5)
-3. Gen cau hoi theo JSON format + quy tac kind + chien luoc bay
-4. Luu JSON tam -> chay `scripts/save_listen.py` de tach CSV theo kind
+1. User chỉ định kind -> đọc file `kinds/{kind}.md`
+2. Hỏi số lượng (mặc định 5)
+3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
+4. Lưu JSON tạm -> chạy `scripts/save_listen.py` để tách CSV theo kind
 5. Validate theo checklist
 
-### Luu ket qua bang script
+### Lưu kết quả bằng script
 
 ```bash
-# Luu CSV theo kind + JSON + merge tong
+# Lưu CSV theo kind + JSON + merge tổng
 python skills/topik-listen-gen-eps/scripts/save_listen.py gen_temp.json -o output/listen-eps --json --merge
 
-# Chi validate
+# Chỉ validate
 python skills/topik-listen-gen-eps/scripts/save_listen.py gen_temp.json --validate-only
 
-# Append them batch moi
+# Append thêm batch mới
 python skills/topik-listen-gen-eps/scripts/save_listen.py new_batch.json --append
 ```
 

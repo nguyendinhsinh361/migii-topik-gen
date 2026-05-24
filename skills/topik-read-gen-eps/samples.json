@@ -35,7 +35,7 @@
     ],
     "level": 3,
     "kind": "320001",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -74,7 +74,7 @@
     ],
     "level": 3,
     "kind": "320001",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -152,7 +152,7 @@
     ],
     "level": 3,
     "kind": "320002",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -191,7 +191,7 @@
     ],
     "level": 3,
     "kind": "320003",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -457,7 +457,7 @@
     ],
     "level": 3,
     "kind": "3420002",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -496,7 +496,7 @@
     ],
     "level": 3,
     "kind": "3420002",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -535,7 +535,7 @@
     ],
     "level": 3,
     "kind": "3420003",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -574,7 +574,7 @@
     ],
     "level": 3,
     "kind": "3420003",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -613,7 +613,7 @@
     ],
     "level": 3,
     "kind": "3420006",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -652,7 +652,7 @@
     ],
     "level": 3,
     "kind": "3420006",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -691,7 +691,7 @@
     ],
     "level": 3,
     "kind": "3420007",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -730,7 +730,7 @@
     ],
     "level": 3,
     "kind": "3420007",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -769,7 +769,7 @@
     ],
     "level": 3,
     "kind": "3420008",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   },
   {
@@ -808,7 +808,7 @@
     ],
     "level": 3,
     "kind": "3420008",
-    "count_question": null,
+    "count_question": 1,
     "tag": "read"
   }
 ]

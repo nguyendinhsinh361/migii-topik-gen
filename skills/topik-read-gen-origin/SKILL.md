@@ -78,25 +78,33 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
       "q_correct": 1,
       "explain": {
-        "vi": "<giải thích tiếng Việt>",
+        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
         "en": "<giải thích tiếng Anh>"
-      },
-      "question_feature": "<mã đặc điểm từ bảng question_feature>",
-      "difficulty": <mức độ khó 1-4>,
-      "distractor_traps": {
-        "1": "<trap code cho đáp án 1 — rỗng nếu là đáp án đúng>",
-        "2": "<trap code cho đáp án 2>",
-        "3": "<trap code cho đáp án 3>",
-        "4": "<trap code cho đáp án 4>"
       }
     }
   ],
   "level": 1,
   "kind": "120001",
   "count_question": 1,
-  "tag": "read",
-  "topic": "<mã chủ đề từ bảng topic>"
+  "tag": "read"
 }
+```
+
+### Trường tùy chọn (OPTIONAL — chỉ thêm nếu cần phân tích chuyên sâu)
+
+Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json không chứa các trường này. Chỉ thêm khi user yêu cầu phân tích metadata:
+
+```json
+// Trong content[]:
+"question_feature": "<mã từ bảng question_feature>",  // ví dụ: "qf_content_match"
+"difficulty": 3,                                        // 1-4, xem bảng Thang độ khó
+"distractor_traps": {                                   // trap code cho từng đáp án
+  "1": "", "2": "trap_detail_distort", "3": "trap_neg_없안", "4": "trap_shared_noun"
+}
+
+// Ở cấp top-level:
+"topic": "daily_routine"                                // mã từ bảng Danh mục chủ đề
+```
 ```
 
 ### Khác biệt so với Listening
@@ -122,6 +130,8 @@ Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
 ```
 
 Áp dụng cho: 120003_1, 120003_2, 120004_2 (một phần), 220002_b_1, 220002_b_2, 220002_b_3, 220003_a_1, 220003_a_2.
+
+> ⚠️ **Lưu ý**: `q_image_description` là trường **chỉ dùng khi gen câu hỏi mới** — dùng để mô tả ảnh bằng text cho AI tạo ảnh sau. Trường này KHÔNG có trong `samples.json` (vì samples lấy từ dữ liệu thực đã có ảnh URL). Đặt ở **cấp top-level** của JSON (cùng cấp với `title`, `general`).
 
 ---
 
@@ -173,8 +183,8 @@ Phân tích từ câu hỏi đọc thực tế TOPIK I & II.
 | Code | Nhãn tiếng Anh | Mô tả |
 |------|---------------|-------|
 | `trap_same_ending` | Same-Ending Pattern | Cả 4 đáp án kết thúc cùng dạng ngữ pháp |
-| `trap_same_length` | Same-Length Pattern | Đáp án cùng độ dài, khó phân biệt bằng mắt |
 | `trap_order_swap` | Order Swap | Kind sắp xếp — đảo thứ tự 1-2 câu |
+| `trap_grammar_form` | Grammar Form Trap | Đáp án sai dùng dạng ngữ pháp khác |
 
 ### Nhóm 4: Bẫy nội dung (Content Traps)
 
@@ -186,6 +196,14 @@ Phân tích từ câu hỏi đọc thực tế TOPIK I & II.
 | `trap_detail_distort` | Detail Distortion | Đáp án sai bóp méo chi tiết nhỏ trong đoạn văn |
 | `trap_overgeneralize` | Overgeneralization | Đáp án sai khái quát hóa quá mức từ nội dung cụ thể |
 | `trap_wrong_inference` | Wrong Inference | Suy luận hợp lý nhưng KHÔNG có trong bài đọc |
+| `trap_cause_effect_swap` | Cause-Effect Swap | Đảo quan hệ nhân quả: "A gây ra B" → "B gây ra A" |
+| `trap_scope_change` | Scope Change | Thay đổi từ chỉ phạm vi: 모든↔일부, 항상↔가끔, 반드시↔때때로 |
+| `trap_temporal_distort` | Temporal Distortion | Đảo biểu thức thời gian: 이미↔아직, 전에↔후에, 먼저↔나중에 |
+| `trap_condition_omit` | Condition Omission | Bỏ/thêm điều kiện giới hạn khiến câu sai trở nên "đúng bề mặt" |
+| `trap_comparison_flip` | Comparison Flip | Đảo chiều so sánh: "A hơn B" → "B hơn A" |
+| `trap_wrong_relation` | Wrong Relation | Liên từ sai quan hệ nhân quả/tương phản/bổ sung |
+| `trap_partial_topic` | Partial Topic | Cụm danh từ chỉ đề cập một phần nội dung, không phải nội dung chính |
+| `trap_detail_as_main` | Detail As Main | Lấy chi tiết phụ làm nội dung chính |
 
 ---
 
@@ -230,11 +248,18 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 | Code | Mô tả | Kind áp dụng |
 |------|-------|-------------|
 | `ans_noun_phrase` | Đáp án là danh từ/cụm danh từ | 120001, 120002_1~4 (một phần), 220003_a_1~2 |
-| `ans_sentence_plain` | Đáp án là câu thể trần thuật (~ㄴ다/한다) | 120004_1, 220002_c, 220003_b |
+| `ans_sentence_plain` | Đáp án là câu thể trần thuật (~ㄴ다/한다) | 120004_1, 120004_2, 220002_c, 220003_b, 220005_2, 220008_1, 220008_2 |
 | `ans_sentence_polite` | Đáp án dùng ~ㅂ니다/습니다 | 120003_1~2 |
 | `ans_grammar_form` | Đáp án là cấu trúc ngữ pháp | 220001_a, 220002_a |
+| `ans_grammar_phrase` | Đáp án là cụm từ cùng gốc từ vựng, khác ngữ pháp | 120005 (Dạng 1 — content[0]) |
+| `ans_conjunction` | Đáp án là liên từ (그리고, 그래서, 그렇지만...) | 120005 (Dạng 2 — content[0]) |
+| `ans_word_phrase` | Đáp án là từ hoặc cụm từ ngắn (cụm động từ, cụm tính từ, cụm bổ nghĩa) | 120007_2 (content[0]) |
 | `ans_sentence_long` | Đáp án là câu dài (20+ ký tự) | 220001_b, 220001_c, 220006, 220008_1~2 |
 | `ans_order_combo` | Đáp án là tổ hợp thứ tự (가)-(나)-(다)-(라) | 120006, 220004 |
+| `ans_verb_polite` | Đáp án dùng ~어요/아요 (động từ) | 120002_1~4 |
+| `ans_grammar_conjugation` | Đáp án là dạng chia ngữ pháp | 120005_1 |
+| `ans_sentence_purpose` | Đáp án mô tả mục đích ~(으)려고 | 120007_3 |
+| `ans_single_noun` | Đáp án là danh từ đơn (~2 âm tiết) | 220003_a_1 |
 | `ans_position_mark` | Đáp án là vị trí ㉠/㉡/㉢/㉣ | 220007 |
 
 ---
@@ -278,9 +303,12 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 - Đáp án sai phải cùng format/độ dài với đáp án đúng
 
 ### 3. Giải thích (explain)
-- **vi**: Dịch bài đọc + dịch cả 4 đáp án → dấu `--------------------` → giải thích đáp án đúng
+- **vi**: Dịch bài đọc + dịch cả 4 đáp án → dấu `--------------------` → giải thích đáp án đúng + **ghi trap type cho từng đáp án sai**
 - **en**: Tương tự bằng tiếng Anh
+- Format trap annotation: `"① trap_detail_distort (수영→등산), ② đúng, ③ trap_neg_없안 (좋아한다→싫어한다), ④ trap_shared_noun"`
 - Highlight từ vựng/ngữ pháp quan trọng
+
+> **Lưu ý**: Samples.json chứa explain dạng cũ (chỉ dịch, không có trap annotation). Khi gen câu mới, BẮT BUỘC thêm trap annotation.
 
 ### 4. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

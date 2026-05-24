@@ -56,25 +56,32 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
       "q_correct": 1,
       "explain": {
-        "vi": "<giải thích tiếng Việt>",
+        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
         "en": "<giải thích tiếng Anh>"
-      },
-      "question_feature": "<mã đặc điểm từ bảng question_feature>",
-      "difficulty": <mức độ khó 1-4>,
-      "distractor_traps": {
-        "1": "<trap code cho đáp án 1 — rỗng nếu là đáp án đúng>",
-        "2": "<trap code cho đáp án 2>",
-        "3": "<trap code cho đáp án 3>",
-        "4": "<trap code cho đáp án 4>"
       }
     }
   ],
   "level": 3,
   "kind": "320001",
   "count_question": 1,
-  "tag": "read",
-  "topic": "<mã chủ đề từ bảng topic>"
+  "tag": "read"
 }
+```
+
+### Trường tùy chọn (OPTIONAL — chỉ thêm nếu cần phân tích chuyên sâu)
+
+Các trường sau **KHÔNG bắt buộc** khi gen câu hỏi. Samples.json không chứa các trường này. Chỉ thêm khi user yêu cầu phân tích metadata:
+
+```json
+// Trong content[]:
+"question_feature": "<mã từ bảng question_feature>",
+"difficulty": 3,
+"distractor_traps": {
+  "1": "", "2": "trap_detail_distort", "3": "trap_neg_없안", "4": "trap_shared_noun"
+}
+
+// Ở cấp top-level:
+"topic": "daily_routine"
 ```
 
 ### Lưu ý riêng EPS-TOPIK
@@ -83,7 +90,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 |--------|-----------|
 | `level` | **Luôn = 3** |
 | `q_point` | **null** (EPS không tính điểm theo câu) |
-| `count_question` | **null** hoặc khớp len(content) |
+| `count_question` | **Luôn là integer** = len(content). VD: 1 cho câu đơn |
 | `tag` | `"read"` |
 | `q_image` | URL ảnh thực (poster, biển hiệu, hình minh họa) |
 
@@ -100,6 +107,8 @@ Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
 ```
 
 Áp dụng cho: 320001, 320003, 320004, 3420001, 3420005.
+
+> ⚠️ **Lưu ý**: `q_image_description` là trường **chỉ dùng khi gen câu hỏi mới** — dùng để mô tả ảnh bằng text cho AI tạo ảnh sau. Trường này KHÔNG có trong `samples.json` (vì samples lấy từ dữ liệu thực đã có ảnh URL). Đặt ở **cấp top-level** của JSON (cùng cấp với `title`, `general`).
 
 ---
 
@@ -133,34 +142,27 @@ Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
 
 ### Nhóm 1: Bẫy từ vựng (Vocabulary Traps)
 
-| Code | Nhãn tiếng Anh | Mô tả |
-|------|---------------|-------|
-| `trap_shared_noun` | Shared-Noun Trap | Đáp án sai chứa từ vựng giống đoạn đọc |
-| `trap_synonym_swap` | Synonym Swap | Thay từ đúng bằng từ đồng nghĩa nhưng sai ngữ cảnh |
-| `trap_similar_word` | Similar Word | Đáp án chứa từ phát âm/dạng tương tự (e.g. 관광/관계) |
+| Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
+|------|---------------|-------|-------------|
+| `trap_similar_word` | Similar Word | Đáp án chứa từ phát âm/dạng tương tự | 320001, 320002, 3420002, 3420003, 3420006, 3420008 |
+| `trap_shared_noun` | Shared-Noun Trap | Đáp án sai chứa từ vựng giống đoạn đọc | 320002, 3420006, 3420008 |
+| `trap_synonym_swap` | Synonym Swap | Thay từ đúng bằng từ đồng nghĩa nhưng sai ngữ cảnh | 320002, 3420003 |
 
 ### Nhóm 2: Bẫy phủ định (Negation Traps)
 
-| Code | Nhãn tiếng Anh | Mô tả |
-|------|---------------|-------|
-| `trap_neg_없안` | Negation 없/안/아니 | Đáp án sai đảo nghĩa bằng 없다/안/아니다 |
-| `trap_neg_않못` | Negation 않/못 | Đáp án sai thêm 않다/못하다 |
+| Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
+|------|---------------|-------|-------------|
+| `trap_neg_reverse` | Negation Reverse | Đảo nghĩa phủ định | 320005 |
+| `trap_neg_없안` | Negation 없/안/아니 | Đáp án sai đảo nghĩa bằng 없다/안 | 3420007 |
 
-### Nhóm 3: Bẫy cấu trúc (Structural Traps)
+### Nhóm 3: Bẫy nội dung (Content Traps)
 
-| Code | Nhãn tiếng Anh | Mô tả |
-|------|---------------|-------|
-| `trap_same_ending` | Same-Ending Pattern | Cả 4 đáp án kết thúc cùng dạng ngữ pháp |
-| `trap_same_length` | Same-Length Pattern | Đáp án cùng độ dài, khó phân biệt bằng mắt |
-
-### Nhóm 4: Bẫy nội dung (Content Traps)
-
-| Code | Nhãn tiếng Anh | Mô tả |
-|------|---------------|-------|
-| `trap_partial_truth` | Partial Truth | Đáp án sai chứa >50% nội dung đúng nhưng sửa 1 chi tiết |
-| `trap_subject_swap` | Subject Swap | Gán hành động/đặc điểm cho sai đối tượng |
-| `trap_number_shift` | Number/Time Shift | Thay đổi con số/thời gian/số lượng từ bài đọc |
-| `trap_detail_distort` | Detail Distortion | Đáp án sai bóp méo chi tiết nhỏ trong đoạn văn |
+| Code | Nhãn tiếng Anh | Mô tả | Kind áp dụng |
+|------|---------------|-------|-------------|
+| `trap_detail_distort` | Detail Distortion | Bóp méo chi tiết nhỏ | 320003, 320004, 320005, 3420007 |
+| `trap_partial_truth` | Partial Truth | Đáp án sai chứa >50% nội dung đúng | 320004, 320005, 3420007 |
+| `trap_number_shift` | Number/Time Shift | Thay đổi con số/thời gian | 320004 |
+| `trap_subject_swap` | Subject Swap | Gán hành động cho sai đối tượng | 3420007 |
 
 ---
 
@@ -197,10 +199,8 @@ Thêm trường `q_image_description` mô tả nội dung ảnh bằng text:
 
 | Code | Mô tả | Kind áp dụng |
 |------|-------|-------------|
-| `ans_noun_phrase` | Đáp án là danh từ/cụm danh từ | 320001, 3420001, 3420002, 3420003, 3420008 |
-| `ans_sentence_polite` | Đáp án dùng ~ㅂ니다/습니다 | 320004, 3420007 |
-| `ans_sentence_plain` | Đáp án là câu thể trần thuật | 3420006 |
-| `ans_grammar_form` | Đáp án là cấu trúc ngữ pháp | 320002, 3420004 |
+| `ans_noun_phrase` | Đáp án là danh từ/cụm danh từ | 320001, 320002, 320003, 320004, 320005, 3420002, 3420003, 3420006, 3420008 |
+| `ans_sentence_long` | Đáp án là câu dài (20+ ký tự) | 3420007 |
 
 ---
 

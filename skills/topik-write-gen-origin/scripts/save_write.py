@@ -505,8 +505,9 @@ def main():
         print(f"\nLuu JSON -> {args.output_dir}")
         save_as_json(questions, output_dir=args.output_dir)
 
-    print(f"\nMerge CSV...")
-    merge_csvs(output_dir=args.output_dir)
+    if args.merge:
+        print(f"\nMerge CSV...")
+        merge_csvs(output_dir=args.output_dir)
 
     print("\nHoan thanh!")
 

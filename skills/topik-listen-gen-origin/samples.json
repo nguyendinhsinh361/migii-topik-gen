@@ -1,1606 +1,1570 @@
-{
-  "110001": [
-    {
-      "title": "다음을 듣고 <보기>와 같이 물음에 맞는 대답을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "시장에서 뭘 샀어요?",
-        "g_text_audio_translate": {
-          "vi": "Cậu đã mua gì ở chợ?",
-          "en": "What did you buy at the market?"
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/aa8cc48e39aea4f4b8c992bb270c3cc9.mp3",
-        "g_image": "",
-        "g_audio_repeat": "/topiks/audios_repeat/aa8cc48e39aea4f4b8c992bb270c3cc9_1.mp3"
+[
+  {
+    "title": "다음을 듣고 <보기>와 같이 물음에 맞는 대답을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "시장에서 먹었어요.",
-            "친구하고 갔어요.",
-            "시장에 자주 갔어요.",
-            "신발을 샀어요."
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "1. Tôi đã ăn ở chợ.\n2. Tôi đã đi cùng bạn.\n3. Tôi đã thường xuyên đi chợ.\n4. Tôi mua giày.",
-            "en": "1. I ate at the market.\n2. I went with a friend.\n3. I often went to the market.\n4. I bought shoes."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110001",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "시장에서 뭘 샀어요?",
+      "g_text_audio_translate": {
+        "vi": "Cậu đã mua gì ở chợ?",
+        "en": "What did you buy at the market?"
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/aa8cc48e39aea4f4b8c992bb270c3cc9.mp3",
+      "g_image": "",
+      "g_audio_repeat": "/topiks/audios_repeat/aa8cc48e39aea4f4b8c992bb270c3cc9_1.mp3"
     },
-    {
-      "title": "[1 ～ 4] 다음을 듣고 <보기>와 같이 물음에 맞는 대답을 고르십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "지금 뭐 해요? ",
-        "g_text_audio_translate": {
-          "vi": "Bạn đang làm gì vậy? ",
-          "en": "What are you doing now?"
-        },
-        "g_audio": "/topiks/audios/27264878ed4cba3e9ca2c8c79fe60ac9_4_26___4_38.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "자주 해요.",
-            "편지를 써요.",
-            "내일 만나요.",
-            "정말 좋아해요."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "1. Tôi thường hay làm. \n2. Tôi viết thư. \n3. Ngày mai gặp nhé. \n4. Tôi thực sự rất thích. \n--------------------\n 편지를 쓰다: Viết thư",
-            "en": "1. I often do it.\n2. I'm writing a letter.\n3. See you tomorrow.\n4. I really like it.\n--------------------\n<g>편지를 쓰다:</g> To write a letter"
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "시장에서 먹었어요.",
+          "친구하고 갔어요.",
+          "시장에 자주 갔어요.",
+          "신발을 샀어요."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. Tôi đã ăn ở chợ.\n2. Tôi đã đi cùng bạn.\n3. Tôi đã thường xuyên đi chợ.\n4. Tôi mua giày.",
+          "en": "1. I ate at the market.\n2. I went with a friend.\n3. I often went to the market.\n4. I bought shoes."
         }
-      ],
-      "level": 1,
-      "kind": "110001",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "110002": [
-    {
-      "title": "[5～6]다음을 듣고 <보기>와 같이 이어지는 말을 고르십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "휴가 잘 다녀오세요.",
-        "g_text_audio_translate": {
-          "vi": "Chúc bạn có một chuyến đi chơi vui vẻ.",
-          "en": "Have a nice trip."
-        },
-        "g_audio": "/topiks/audios/ebe5b3d1c47945776f1ff6f35e0e6c68_5_44___5_53.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ～ 4] 다음을 듣고 <보기>와 같이 물음에 맞는 대답을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 4,
-          "q_answer": [
-            "고맙습니다.",
-            "괜찮습니다.",
-            "축하합니다.",
-            "그렇습니다."
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "1. Cảm ơn. \n2. Không sao. \n3. Chúc mừng. \n4. Đúng vậy. \n--------------------\nNgười nói chúc đi chơi vui vẻ nên đáp lại sẽ là lời cảm ơn.",
-            "en": "1. Thank you.\n2. It's okay.\n3. Congratulations.\n4. That's right.\n--------------------\nThe character wished the other person a good trip. So \"Thank you\" is the most appropriate response. "
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110002",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "지금 뭐 해요? ",
+      "g_text_audio_translate": {
+        "vi": "Bạn đang làm gì vậy? ",
+        "en": "What are you doing now?"
+      },
+      "g_audio": "/topiks/audios/27264878ed4cba3e9ca2c8c79fe60ac9_4_26___4_38.mp3",
+      "g_image": ""
     },
-    {
-      "title": "다음을 듣고 <보기>와 같이 다음 말에 이어지는 것을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "왜 한국에 왔어요?",
-        "g_text_audio_translate": {
-          "vi": "Vì sao bạn đến Hàn Quốc?",
-          "en": "Why did you come to Korea?"
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/9682b0aa8736225cf94876d9f05a5f66.mp3",
-        "g_image": "",
-        "g_audio_repeat": "/topiks/audios_repeat/9682b0aa8736225cf94876d9f05a5f66_1.mp3"
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "한국 친구가 있어요.",
-            "여행하러 왔어요.",
-            "오랜만이에요.",
-            "맛있게 드세요."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "1. Tôi có bạn Hàn Quốc.\n2. Tôi đến để đi du lịch.\n3. Lâu rồi không gặp.\n4. Chúc ngon miệng.\n--------------------\nV + (으)러 오다: Đi (đâu) để.",
-            "en": "1. I have a Korean friend.\n2. I'm here to travel.\n3. Long time no see.\n4. Enjoy your meal.\n--------------------\n<g>V + (으)러 오다:</g> To go to (somewhere) in order to do something."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "자주 해요.",
+          "편지를 써요.",
+          "내일 만나요.",
+          "정말 좋아해요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Tôi thường hay làm. \n2. Tôi viết thư. \n3. Ngày mai gặp nhé. \n4. Tôi thực sự rất thích. \n--------------------\n 편지를 쓰다: Viết thư",
+          "en": "1. I often do it.\n2. I'm writing a letter.\n3. See you tomorrow.\n4. I really like it.\n--------------------\n<g>편지를 쓰다:</g> To write a letter"
         }
-      ],
-      "level": 1,
-      "kind": "110002",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "110003": [
-    {
-      "title": "[7～10] 여기는 어디입니까? <보기>와 같이 알맞은 것을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 아저씨, 저기에서 세워 주세요.\n남자: 네, 알겠습니다.",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Chú ơi, dừng xe ở đây giúp tôi với.\nNam: Vâng, tôi biết rồi.",
-          "en": "Woman: Sir, please stop over there.\nMan: Yes, I see."
-        },
-        "g_audio": "/topiks/audios/d18ba6fc986af479414134fce60974df_10_39_11_06.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110001",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[5～6]다음을 듣고 <보기>와 같이 이어지는 말을 고르십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "택시",
-            "기차",
-            "회사",
-            "공원"
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "1. Taxi\n2. Tàu hỏa\n3. Công ty\n4. Công viên\n--------------------\n차를 세우다: Đỗ, dừng xe\n\nCó cụm từ 차를 세우다 (đỗ xe ô tô) nên đáp án đúng là 1.",
-            "en": "1. Taxi\n2. Train\n3. Company\n4. Park\n--------------------\n<g>차를 세우다:</g> To stop the car, to park the car\n\nThere is the phrase <g>차를 세우다</g> (to park the car) so the correct answer is 1."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110003",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "휴가 잘 다녀오세요.",
+      "g_text_audio_translate": {
+        "vi": "Chúc bạn có một chuyến đi chơi vui vẻ.",
+        "en": "Have a nice trip."
+      },
+      "g_audio": "/topiks/audios/ebe5b3d1c47945776f1ff6f35e0e6c68_5_44___5_53.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[7～10] 여기는 어디입니까? <보기>와 같이 알맞은 것을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 어서 오세요.\n남자: 여기 수박 있어요?",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Xin mời vào.\nNam: Ở đây có dưa hấu không?",
-          "en": "Woman: Welcome.\nMan: Are there any watermelons here?"
-        },
-        "g_audio": "/topiks/audios/fdff307f6a54846feef32f7c2e9fc254_9_08_9_27.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "학교",
-            "극장",
-            "시장",
-            "서점"
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "1. Trường học\n2. Rạp chiếu phim\n3. Chợ\n4. Hiệu sách\n--------------------\n수박: Dưa hấu",
-            "en": "1. School\n2. Theater\n3. Market\n4. Bookstore\n--------------------\n<g>수박:</g> Watermelon"
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "고맙습니다.",
+          "괜찮습니다.",
+          "축하합니다.",
+          "그렇습니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Cảm ơn. \n2. Không sao. \n3. Chúc mừng. \n4. Đúng vậy. \n--------------------\nNgười nói chúc đi chơi vui vẻ nên đáp lại sẽ là lời cảm ơn.",
+          "en": "1. Thank you.\n2. It's okay.\n3. Congratulations.\n4. That's right.\n--------------------\nThe character wished the other person a good trip. So \"Thank you\" is the most appropriate response. "
         }
-      ],
-      "level": 1,
-      "kind": "110003",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "110004": [
-    {
-      "title": "[11～14] 다음은 무엇에 대해 말하고 있습니까? <보기>와 같이 알맞은 것을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 학생이세요?\n남자: 아니요. 회사에 다녀요.",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Anh là sinh viên à?\nNam: Không. Tôi làm việc ở một công ty.",
-          "en": "Woman: Are you a student?\nMan: No. I go to work."
-        },
-        "g_audio": "/topiks/audios/ef22a78cfe720d01bdd41b3d03745e97_14_13_14_35.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110002",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "다음을 듣고 <보기>와 같이 다음 말에 이어지는 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "직업",
-            "고향",
-            "장소",
-            "계획"
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "1. Nghề nghiệp\n2. Quê hương\n3. Địa điểm\n4. Kế hoạch\n--------------------\n학생: Học sinh\n회사에 다니다: Đi làm cho một công ty",
-            "en": "1. Occupation\n2. Hometown\n3. Location\n4. Plan\n--------------------\n<g>학생:</g> Student\n<g>회사에 다니다:</g> To work for a company"
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110004",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "왜 한국에 왔어요?",
+      "g_text_audio_translate": {
+        "vi": "Vì sao bạn đến Hàn Quốc?",
+        "en": "Why did you come to Korea?"
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/9682b0aa8736225cf94876d9f05a5f66.mp3",
+      "g_image": "",
+      "g_audio_repeat": "/topiks/audios_repeat/9682b0aa8736225cf94876d9f05a5f66_1.mp3"
     },
-    {
-      "title": "[11～14] 다음은 무엇에 대해 말하고 있습니까? <보기>와 같이 알맞은 것을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 집에 사과가 있어요?\n여자: 아니요. 배만 있어요. ",
-        "g_text_audio_translate": {
-          "vi": "Nam: Ở nhà còn táo không?\nNữ: Không. Còn lê thôi.",
-          "en": "Man: Do we have any apples at home?\nWoman: No. We only have pears."
-        },
-        "g_audio": "/topiks/audios/1ccb1962a94ba3dcca15487c845b924f_9_09_9_31.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "나라",
-            "운동",
-            "가방",
-            "과일"
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "1. Đất nước\n2. Thể dục\n3. Túi\n4. Hoa quả\n--------------------\n사과: Táo\n배: Lê",
-            "en": "1. Country\n2. Exercise\n3. Bag\n4. Fruit\n--------------------\n<g>사과:</g> Apple\n<g>배:</g> Pear"
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "한국 친구가 있어요.",
+          "여행하러 왔어요.",
+          "오랜만이에요.",
+          "맛있게 드세요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Tôi có bạn Hàn Quốc.\n2. Tôi đến để đi du lịch.\n3. Lâu rồi không gặp.\n4. Chúc ngon miệng.\n--------------------\nV + (으)러 오다: Đi (đâu) để.",
+          "en": "1. I have a Korean friend.\n2. I'm here to travel.\n3. Long time no see.\n4. Enjoy your meal.\n--------------------\n<g>V + (으)러 오다:</g> To go to (somewhere) in order to do something."
         }
-      ],
-      "level": 1,
-      "kind": "110004",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "110005": [
-    {
-      "title": "다음 대화를 듣고 알맞은 그림을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 오늘 와 주셔서 감사해요.\n남자: 수미 씨 입학식인데 꼭 와야죠. 이거 받으세요.",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Cảm ơn anh vì đã đến đây hôm nay.\nNam: Tôi nhất định phải đến dự lễ nhập học của cô Sumi chứ. Cô hãy nhận cái này đi.",
-          "en": "Woman: Thanks for coming today.\nMan: Sumi, it's your entrance ceremony, so I have to come. Get this."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/51779137ca9dfae29aab61e454bd018f.mp3",
-        "g_image": "",
-        "g_audio_repeat": "/topiks/audios_repeat/51779137ca9dfae29aab61e454bd018f_1.mp3"
+      }
+    ],
+    "level": 1,
+    "kind": "110002",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[7～10] 여기는 어디입니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "/topiks/images/cd2549c15feda42d8033bcff739e9b80.png",
-          "q_point": 3,
-          "q_answer": [
-            "(보기 1)",
-            "(보기 2)",
-            "(보기 3)",
-            "(보기 4)"
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "Nhân vật nam đến dự lễ nhập học của nhân vật nữ và đang tặng quà cho cô. Như vậy 3 là đáp án đúng.",
-            "en": "The man attends the woman's entrance ceremony and is giving her a present. So 3 is the correct answer."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110005",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "여자: 아저씨, 저기에서 세워 주세요.\n남자: 네, 알겠습니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Chú ơi, dừng xe ở đây giúp tôi với.\nNam: Vâng, tôi biết rồi.",
+        "en": "Woman: Sir, please stop over there.\nMan: Yes, I see."
+      },
+      "g_audio": "/topiks/audios/d18ba6fc986af479414134fce60974df_10_39_11_06.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[15～16] 다음 대화를 듣고 알맞은 그림을 고르십시오. (각 4점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 비가 오네요. 우산 있어요?\n여자: 네. 저하고 같이 써요.",
-        "g_text_audio_translate": {
-          "vi": "Nam: Mưa rồi này. Cậu có ô không?\nNữ: Có. Cậu dùng ô chung với tớ đi.",
-          "en": "Man: It's raining. Do you have an umbrella?\nWoman: Yes. Use it with me."
-        },
-        "g_audio": "/topiks/audios/ba3311d88cdf6392a06e27df2f641360_17_19_17_48.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "두 사람은 무엇을 하고 있습니까?",
-          "q_image": "/topiks/images/b1eb5e52a674f59520802b350ef8d43c.png",
-          "q_point": 3,
-          "q_answer": [
-            "(보기 1)",
-            "(보기 2)",
-            "(보기 3)",
-            "(보기 4)"
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "Hai người này đang làm gì?\n--------------------\nTrời đang mưa, bạn nữ hỏi bạn nam có ô không và đề nghị dùng ô cùng mình, có nghĩa là bạn nam không có ô nên đáp án đúng là 3.",
-            "en": "What are these two doing?\n--------------------\nThe woman has an umbrella and is asking the man to use the umbrella with her. So 3 is the correct answer."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "택시",
+          "기차",
+          "회사",
+          "공원"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Taxi\n2. Tàu hỏa\n3. Công ty\n4. Công viên\n--------------------\n차를 세우다: Đỗ, dừng xe\n\nCó cụm từ 차를 세우다 (đỗ xe ô tô) nên đáp án đúng là 1.",
+          "en": "1. Taxi\n2. Train\n3. Company\n4. Park\n--------------------\n<g>차를 세우다:</g> To stop the car, to park the car\n\nThere is the phrase <g>차를 세우다</g> (to park the car) so the correct answer is 1."
         }
-      ],
-      "level": 1,
-      "kind": "110005",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "110006": [
-    {
-      "title": "[17～21]다음을 듣고 <보기>와 같이 대화 내용과 같은 것을 고르십시오.(각 3점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 여기에서 담배를 피우시면 안 됩니다.\n남자: 미안합니다. 몰랐습니다. 그런데 어디에서 담배를 피울 수 있습니까?\n여자: 건물 밖으로 나가셔야 합니다.",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Không được hút thuốc ở đây.\nNam: Tôi xin lỗi. Tôi không biết. Nhưng tôi có thể hút thuốc ở đâu?\nNữ: Anh phải ra khỏi tòa nhà.",
-          "en": "Woman: You are not allowed to smoke here.\nMan: I'm sorry. I didn't know. But where can I smoke?\nWoman: You have to get out of the building."
-        },
-        "g_audio": "/topiks/audios/4e68f8ff767d28afd1c89a403ad0de91_27_38_28_27.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110003",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[7～10] 여기는 어디입니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "두 사람은 건물 안에 있습니다.",
-            "여자는 건물 밖으로 나갈 겁니다.",
-            "남자는 담배를 좋아하지 않습니다.",
-            "건물 밖에서는 담배를 피울 수 없습니다."
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "1. Hai người đang ở bên trong tòa nhà.\n2. Người phụ nữ sẽ ra khỏi tòa nhà.\n3. Người đàn ông không thích thuốc lá.\n4. Không được hút thuốc bên ngoài tòa nhà.\n--------------------\n담배를 피우다: Hút thuốc\n나가다: Ra ngoài, ra khỏi\n\nV/A + 아/어야 하다: Phải, nên làm gì.\nV + (으)면 안 되다: Không được làm gì.",
-            "en": "1. Two people are inside the building.\n2. The woman will leave the building.\n3. The man doesn't like cigarettes.\n4. Smoking is not allowed outside the building.\n--------------------\n<g>담배를 피우다:</g> To smoke a cigarette\n<g>나가다:</g> To go out, to get out, to leave\n\n<g>V + 아/어야 하다:</g> Must, have to.\n<g>V + (으)면 안 되다:</g> May not, not allowed."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110006",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "여자: 어서 오세요.\n남자: 여기 수박 있어요?",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Xin mời vào.\nNam: Ở đây có dưa hấu không?",
+        "en": "Woman: Welcome.\nMan: Are there any watermelons here?"
+      },
+      "g_audio": "/topiks/audios/fdff307f6a54846feef32f7c2e9fc254_9_08_9_27.mp3",
+      "g_image": ""
     },
-    {
-      "title": "다음을 듣고 <보기>와 같이 대화 내용과 같은 것을 고르십시오.",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 여보세요. 영화관에 도착했어요?\n여자: 네. 영화관 앞에 있어요. 어디까지 왔어요?\n남자: 저는 가는 중인데 길이 막히니까 조금 늦게 올 수 있어요. 영화관에 먼저 들어가세요.\n여자: 음, 시간이 아직 남아 있으니까 제가 영화관 옆에 있는 커피숍에 들어가서 기다릴게요. ",
-        "g_text_audio_translate": {
-          "vi": "Nam: A lô. Bạn đã đến rạp chiếu phim chưa?\nNữ: Rồi. Tôi ở phía trước rạp chiếu phim. Bạn đã đến đâu rồi?\nNam: Tôi đang trên đường đến, nhưng tôi có thể đến muộn một chút vì đường bị tắc. Hãy vào rạp chiếu phim trước đi.\nNữ: Chà, vẫn còn thời gian, tôi sẽ vào quán cà phê bên cạnh rạp chiếu phim và đợi bạn.",
-          "en": "Man: Hello. Did you arrive at the cinema?\nWoman: Yes. I'm in front of the cinema. How far have you come?\nMan: I'm on my way, but the road is blocked, so I can come a little late. Go into the cinema first.\nWoman: Well, since we still have time, I'll wait in the coffee shop next to the cinema."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/2f65a49688023b97808a8a246961b071.mp3",
-        "g_image": "",
-        "g_audio_repeat": "/topiks/audios_repeat/2f65a49688023b97808a8a246961b071_1.mp3"
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "길이 막혀서 여자가 늦게 올 겁니다.",
-            "남자가 늦어서 약속이 취소됩니다.",
-            "여자는 커피숍에서 남자를 기다릴 겁니다.",
-            "여자는 영화관에 먼저 들어갈 겁니다."
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "1. Đường tắc nên nhân vật nữ đến muộn.\n2. Cuộc hẹn bị hủy bỏ vì nhân vật nam đến muộn.\n3. Nhân vật nữ sẽ đợi nhân vật nam ở quán cà phê.\n4. Nhân vật nữ sẽ vào rạp chiếu phim trước.\n--------------------\n커피숍: Quán cà phê\n들어가다: Đi vào\n\nV + 아/어서: Liệt kê hai hành động nói tiếp nhau và có mối liên quan với nhau.\nV + (으)ㄹ게(요): Thể hiện ý chí, hứa hẹn của người nói về việc làm một hành động nào đó.",
-            "en": "1. The woman will come late because the road is blocked.\n2. The appointment is canceled because the man is late.\n3. The woman will wait for the man at the coffee shop.\n4. The woman will enter the cinema first.\n--------------------\n<g>커피숍:</g> Coffee shop\n<g>들어가다:</g> To enter\n\n<g>V + 아/어서:</g> Used to express doing one action then a second action.\n<g>V + (으)ㄹ게(요):</g> I will. Express intention or promise to do something."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "학교",
+          "극장",
+          "시장",
+          "서점"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. Trường học\n2. Rạp chiếu phim\n3. Chợ\n4. Hiệu sách\n--------------------\n수박: Dưa hấu",
+          "en": "1. School\n2. Theater\n3. Market\n4. Bookstore\n--------------------\n<g>수박:</g> Watermelon"
         }
-      ],
-      "level": 1,
-      "kind": "110006",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "110007": [
-    {
-      "title": "[22～24]다음을 듣고 <u>여자</u>의 중심 생각을 고르십시오. (각 3점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 어제 잠을 못 자서 좀 피곤하네요. \n여자: 그러면 이 사탕 한번 먹어 볼래요? 저는 피곤할 때 이런 걸 먹으면 힘이 나고 기분이 좋아지거든요. \n남자: 고마워요. 그런데 저는 단것을 별로 좋아하지 않아요. 건강에도 안 좋잖아요. \n여자: 자주 먹는 게 아니고 피곤할 때만 먹는 거니까 괜찮아요. ",
-        "g_text_audio_translate": {
-          "vi": "Nam: Hôm qua tớ hơi mệt vì không ngủ được. \nNữ: Nếu vậy thì cậu có muốn ăn thử kẹo này không? Khi tớ mệt mỏi, nếu ăn những thứ này thì tâm trạng tớ sẽ tốt hơn và có thêm năng lượng. \nNam: Cảm ơn cậu. Nhưng tớ không thích đồ ngọt lắm. Nó cũng không tốt cho sức khỏe. \nNữ: Không phải ăn thường xuyên mà chỉ ăn khi cảm thấy mệt mỏi thôi nên sẽ không sao đâu.\n",
-          "en": "Man: I'm a little tired because I couldn't sleep yesterday.\nWoman: Then, would you like to try this candy? When I'm tired, eating these things gives me strength and makes me feel good.\nMan: Thank you. But I don't really like sweets. It is also not good for health.\nWoman: I don't eat often, I only eat when I'm tired so it's okay."
-        },
-        "g_audio": "/topiks/audios/aee22909a56f915832da50a97611f38c_27_53___29_10.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110003",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[11～14] 다음은 무엇에 대해 말하고 있습니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "단 음식은 건강에 좋지 않습니다.",
-            "피곤하면 잠을 자는 게 좋습니다.",
-            "건강을 위해서 사탕을 줄여야 합니다.",
-            "피곤할 때 단 음식을 먹으면 좋습니다."
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "1. Đồ ngọt không tốt cho sức khỏe.\n2. Nếu mệt thì nên đi ngủ. \n3. Vì sức khỏe nên phải giảm lượng kẹo lại. \n4. Khi mệt mỏi thì nên ăn đồ ngọt. \n--------------------\nN + 을/를 위해(서): Để. Cấu trúc thể hiện mục đích.\nV + (으)ㄹ 래요?: Cấu trúc rủ rê. \nV/A + (으)ㄴ/는/(으)ㄹ + N: Định ngữ.\nV/A + 아/어/여 지다: Trở nên. \n\nKhi nhân vật nữ cảm thấy mệt mỏi, ăn kẹo giúp cô cảm thấy tốt hơn.",
-            "en": "1. Sweets are not good for health.\n2. If you are tired, you should go to sleep.\n3. You should cut down on candy for the sake of health.\n4. When you are tired, you should eat sweets.\n--------------------\n<g>N + 을/를 위해(서):</g> For the sake of, in order to\n<g>V + (으)ㄹ 래요?:</g> Do you want to, how about...?\n<g>V/A + (으)ㄴ/는/(으)ㄹ + N:</g> Noun modifier.\n<g>V/A + 아/어/여 지다:</g> To become.\n\nIf the woman eats candy when she is tired, she will feel better."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110007",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "여자: 학생이세요?\n남자: 아니요. 회사에 다녀요.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Anh là sinh viên à?\nNam: Không. Tôi làm việc ở một công ty.",
+        "en": "Woman: Are you a student?\nMan: No. I go to work."
+      },
+      "g_audio": "/topiks/audios/ef22a78cfe720d01bdd41b3d03745e97_14_13_14_35.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[22～24]다음을 듣고 <u>여자</u>의 중심 생각을 고르십시오. (각 3점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 오늘 우리가 해야 할 일이 너무 많네요. 회의 준비도 해야 하고 서류 정리도 해야 하고... \n여자: 회의는 모레니까 아직 시간이 있어요. 지금 하고 있는 일을 먼저 하고 이따가 준비해도 돼요. \n남자: 지금 하는 일은 오늘까지 끝내야 하는 거지요? \n여자: 네, 맞아요. 그러니까 우선 이 일부터 해요. ",
-        "g_text_audio_translate": {
-          "vi": "Nam: Hôm nay chúng ta có quá nhiều việc phải làm. Phải chuẩn bị cho cuộc họp, sắp xếp tài liệu và...\nNữ: Cuộc họp vào ngày kia nên vẫn còn thời gian. Chúng ta có thể làm việc đang làm trước rồi chuẩn bị cho cuộc họp sau cũng được.\nNam: Việc đang làm phải hoàn thành trong hôm nay phải không? \nNữ: Vâng, đúng vậy. Vậy nên hãy làm việc đó trước đi. \n",
-          "en": "Man: We have too much work to do today. We have to prepare for the meeting, organize the paperwork and...\nWoman: The meeting is the day after tomorrow so we still have time. We can do what we are doing first and prepare for the meeting later.\nMan: We have to finish what we are doing within today, right?\nWoman: Yes, that's right. So let's do that first."
-        },
-        "g_audio": "/topiks/audios/e4441e6cc8b2dd3d8c1e4df201ff4699_26_10___27_29.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "일이 힘들면 천천히 해야 합니다.",
-            "급한 일을 먼저 하는 게 좋습니다.",
-            "서로 도와주면서 일을 해야 합니다.",
-            "일이 많으면 쉬면서 하는 게 좋습니다."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "1. Nếu công việc khó khăn thì phải làm từ từ. \n2. Việc nào gấp thì nên làm trước. \n3. Phải giúp đỡ lẫn nhau khi làm việc. \n4. Nếu có nhiều việc thì nên nghỉ ngơi. \n--------------------\n모레: Ngày kia\n이따가: Tí nữa\n오늘: Hôm nay\n우선 = 먼저: Trước tiên, trước hết\n\nV/A + 네요: Đuôi câu cảm thán. \nV + 아/어/여도 되다: Làm như vậy cũng được. \nV + 아/어/여야 하다: Phải làm hành động nào đó. \n\n",
-            "en": "1. When your work is hard, you have to take it slow.\n2. It is better to do the urgent work first.\n3. We have to work while helping each other.\n4. If you have a lot of work, it's better to take a rest.\n--------------------\n<g>모레:</g> The day after tomorrow\n<g>이따가:</g> A little later, a short time later\n<g>오늘:</g> today\n<g>우선 = 먼저:</g> First, first of all\n\n<g>V/A + 네요:</g> Used to express surprise or admiration.\n<g>V + 아/어/여도 되다:</g> There is no problem if...\n<g>V + 아/어/여야 하다:</g> Must, have to."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "직업",
+          "고향",
+          "장소",
+          "계획"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Nghề nghiệp\n2. Quê hương\n3. Địa điểm\n4. Kế hoạch\n--------------------\n학생: Học sinh\n회사에 다니다: Đi làm cho một công ty",
+          "en": "1. Occupation\n2. Hometown\n3. Location\n4. Plan\n--------------------\n<g>학생:</g> Student\n<g>회사에 다니다:</g> To work for a company"
         }
-      ],
-      "level": 1,
-      "kind": "110007",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "210001_1": [
-    {
-      "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "en": "",
-          "vi": ""
-        },
-        "g_text_audio": "남자: 채소, 달걀 등의 식품을 정기적으로 배달 받는 서비스가 인기를 끌며 최근 4년간 이용자가 꾸준히 증가하고 있습니다. 이 서비스를 이용하는 이유로는 '신선하고 품질이 좋아서'가 가장 많았으며, '가격이 합리적이어서', '편리해서'가 그 뒤를 이었습니다.",
-        "g_text_audio_translate": {
-          "en": "Man: Services that regularly deliver food such as vegetables and eggs are gaining popularity, and the number of users has been steadily increasing over the past four years. The main reason for using the service was \"because it's fresh and good quality,\" followed by \"reasonable price\" and \"convenience.\"",
-          "vi": "Nam: Dịch vụ giao thực phẩm định kỳ như rau củ, trứng đang ngày càng phổ biến, số lượng người dùng đã tăng đều đặn trong 4 năm gần đây. Lý do sử dụng dịch vụ này nhiều nhất là vì \"tươi và chất lượng tốt\", sau đó là \"giá cả hợp lý\" và \"tiện lợi\"."
-        },
-        "g_audio": "/topiks/audios/226f04567a594a08c0255fea47ba341b_3_39.mp3",
-        "g_image": null
+      }
+    ],
+    "level": 1,
+    "kind": "110004",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[11～14] 다음은 무엇에 대해 말하고 있습니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "/topiks/images/2e01051c3a616d89b04a81711f486e2b.png",
-          "q_point": 2,
-          "q_answer": [
-            "①",
-            "②",
-            "③",
-            "④"
-          ],
-          "q_correct": 2,
-          "explain": {
-            "en": "The number of people using regular food delivery services has increased steadily over the past 4 years, so we do not choose answer 1. Answers 3 and 4 do not reasonably represent the proportion of reasons for using the service. Therefore, answer 2 is correct.",
-            "vi": "Số lượng người dùng dịch vụ giao thực phẩm định kỳ tăng đều đặn trong 4 năm gần đây nên ta không chọn đáp án 1. Đáp án 3 và 4 không thể hiện hợp lý tỷ lệ lý do sử dụng dịch vụ này. Như vậy 2 là đáp án đúng."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210001_1",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "남자: 집에 사과가 있어요?\n여자: 아니요. 배만 있어요. ",
+      "g_text_audio_translate": {
+        "vi": "Nam: Ở nhà còn táo không?\nNữ: Không. Còn lê thôi.",
+        "en": "Man: Do we have any apples at home?\nWoman: No. We only have pears."
+      },
+      "g_audio": "/topiks/audios/1ccb1962a94ba3dcca15487c845b924f_9_09_9_31.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "en": "",
-          "vi": ""
-        },
-        "g_text_audio": "남자: 의자에 앉아 보니까 어때?\n여자: 오, 잘 만들었다. 그런데 나한텐 좀 높은 거 같아.\n남자: 그래? 그럼 이 부분을 조금 더 잘라야겠다.",
-        "g_text_audio_translate": {
-          "en": "Man: How does it feel sitting on the chair? \nWoman: Oh, it's well made. But I think it's a bit high for me. \nMan: Really? Then I should cut this part down a bit more.",
-          "vi": "Nam: Ngồi thử lên ghế thấy thế nào?\nNữ: Ồ, cậu làm nó tốt đấy. Nhưng với tớ thì có vẻ hơi cao.\nNam: Vậy à? Thế thì tớ sẽ phải cắt phần này thấp xuống một chút."
-        },
-        "g_audio": "/topiks/audios/bc1816c7ac5023e8530610f81e2c5de2_3_25.mp3",
-        "g_image": null
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "/topiks/images/9d85b6c9fe6ed6c528ee2541b7b78d6d.png",
-          "q_point": 2,
-          "q_answer": [
-            "①",
-            "②",
-            "③",
-            "④"
-          ],
-          "q_correct": 2,
-          "explain": {
-            "en": "The woman is sitting on the chair made by the man. So 2 is the correct answer.",
-            "vi": "Nhân vật nữ đang ngồi thử lên chiếc ghế do nhân vật nam làm. Như vậy 2 là đáp án đúng."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "나라",
+          "운동",
+          "가방",
+          "과일"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. Đất nước\n2. Thể dục\n3. Túi\n4. Hoa quả\n--------------------\n사과: Táo\n배: Lê",
+          "en": "1. Country\n2. Exercise\n3. Bag\n4. Fruit\n--------------------\n<g>사과:</g> Apple\n<g>배:</g> Pear"
         }
-      ],
-      "level": 2,
-      "kind": "210001_1",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "210001_2": [
-    {
-      "title": "[1～3]다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 얼마 전 발표된 '출판 시장 현황 조사'에 따르면 종이책의 매출은 감소하고 있는 반면 전자책의 매출은 증가하는 것으로 나타났습니다. 이 중 전자책을 구입하는 이유를 살펴보면 가지고 다니기 좋다는 응답이 가장 높은 순위를 차지하였고 사는 방법이 편하다, 종이책에 비해 싸다는 응답이 그뒤를 이었습니다.",
-        "g_text_audio_translate": {
-          "vi": "Nam: Theo 'Khảo sát tình trạng thị trường xuất bản' được công bố gần đây, doanh số bán sách giấy đang giảm trong khi doanh số bán sách điện tử ngày càng tăng. Trong số đó, khi nhìn vào lý do mua sách điện tử, câu trả lời rằng nó thuận tiện mang theo chiếm thứ hạng cao nhất, tiếp theo là câu trả lời rằng cách thức mua tiện lợi và rẻ hơn sách giấy.",
-          "en": "Man: According to the 'Publishing Market Status Survey' recently announced, sales of paper books are decreasing, while sales of e-books are increasing. Among them, when looking at the reasons for purchasing e-books, the response that it is convenient to carry was the highest, followed by the response that it is convenient to buy and that it is cheaper than paper books."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/2c98fe9c0fdc1686ff8e8e3224d0381d.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110004",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "다음 대화를 듣고 알맞은 그림을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "/topiks/images/63539bec4533614c3e6b74786f9f25e2.png",
-          "q_point": 2,
-          "q_answer": [
-            "①",
-            "②",
-            "③",
-            "④"
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Đoạn băng cho biết doanh số bán sách giấy đang giảm trong khi doanh số bán sách điện tử ngày càng tăng, như vậy 4 là đáp án đúng. Đáp án 1 và 3 loại vì thứ hạng các lý do mua sách điện tử không đúng.",
-            "en": "The sales of paper books is decreasing while the sales of e-books is rising, so the correct answer is 4. 1 and 3 are wrong because the percentage of reasons for buying e-books is not suitable."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210001_2",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "여자: 오늘 와 주셔서 감사해요.\n남자: 수미 씨 입학식인데 꼭 와야죠. 이거 받으세요.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Cảm ơn anh vì đã đến đây hôm nay.\nNam: Tôi nhất định phải đến dự lễ nhập học của cô Sumi chứ. Cô hãy nhận cái này đi.",
+        "en": "Woman: Thanks for coming today.\nMan: Sumi, it's your entrance ceremony, so I have to come. Get this."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/51779137ca9dfae29aab61e454bd018f.mp3",
+      "g_image": "",
+      "g_audio_repeat": "/topiks/audios_repeat/51779137ca9dfae29aab61e454bd018f_1.mp3"
     },
-    {
-      "title": "[1～3]다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 최근 직업을 선택할 때 가장 중요하게 생각되는 요인을 조사한 결과 '수입'이라는 응답이 가장 많았으며 ‘적성이나 흥미', ‘안정성’ 등이 그 뒤를 이었습니다. 과거에는 ‘안정성'이 가장 중요했지만 지금은 정신적인 만족감이나 안정성보다는 현재의 경제적인 면을 더 중요하게 생각하는 것으로 조사되었습니다.",
-        "g_text_audio_translate": {
-          "vi": "Nam: Theo kết quả của một cuộc khảo sát gần đây về các yếu tố quan trọng nhất khi chọn một công việc, 'thu nhập' là câu trả lời phổ biến nhất, tiếp theo là 'năng khiếu hoặc sở thích' và 'sự ổn định'. Trước đây, ‘sự ổn định’ là điều quan trọng nhất, nhưng bây giờ, người ta thấy rằng khía cạnh kinh tế quan trọng hơn sự hài lòng về mặt tinh thần hay sự ổn định.",
-          "en": "Man: As a result of a recent survey on the most important factor when choosing a job, 'income' was the most common response, followed by 'aptitude or interest' and 'stability'. In the past, ‘stability’ was the most important, but now it has been investigated that the current economic aspect is more important than mental satisfaction or stability."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/8cea9a95f946d0dadeedd8ced71d9691.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "/topiks/images/b88b87fb5d79e589e45d3fdc9f2b5720.png",
-          "q_point": 2,
-          "q_answer": [
-            "①",
-            "②",
-            "③",
-            "④"
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Đoạn băng cho biết 'sự ổn định' giờ đây không còn là điều quan trọng nhất khi lựa chọn công việc nữa, vì vậy loại đáp án 1 và 3. Đáp án 4 phản ánh hợp lý tỷ lệ của các yếu tố. Như vậy 4 là đáp án đúng.",
-            "en": "Stability' isn't the most important thing when choosing a job now, so 1 and 3 are wrong. 4 reflects correctly the percentage of factors. The correct answer is 4. "
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/cd2549c15feda42d8033bcff739e9b80.png",
+        "q_point": 3,
+        "q_answer": [
+          "(보기 1)",
+          "(보기 2)",
+          "(보기 3)",
+          "(보기 4)"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Nhân vật nam đến dự lễ nhập học của nhân vật nữ và đang tặng quà cho cô. Như vậy 3 là đáp án đúng.",
+          "en": "The man attends the woman's entrance ceremony and is giving her a present. So 3 is the correct answer."
         }
-      ],
-      "level": 2,
-      "kind": "210001_2",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "210002": [
-    {
-      "title": "[4～8] 다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 과장님, 내일 회의 때 발표할 사업 계획서입니다.\n여자: 수고하셨습니다. 회의 때 같이 나눌 다른 자료도 다 준비되었습니까?\n남자: __________________",
-        "g_text_audio_translate": {
-          "vi": "Nam: Trưởng phòng, đây là bản kế hoạch dự án sẽ phát biểu trong cuộc họp ngày mai ạ.\nNữ. Anh vất vả rồi. Anh đã chuẩn bị xong cả những tài liệu khác sẽ được phát cùng trong cuộc họp chưa?\nNam: __________________",
-          "en": "Man: Manager, this is the business plan to be presented at tomorrow's meeting.\nWoman: Good job. Have you prepared any other materials to share at the meeting?\nMan: __________________"
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/90f5271e70064b87be90bdb8c11c278f.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110005",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[15～16] 다음 대화를 듣고 알맞은 그림을 고르십시오. (각 4점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "이미 준비해 놓았습니다.",
-            "사업 계획서를 만들겠습니다.",
-            "회의를 잘 준비하겠습니다.",
-            "지금 바로 제출하겠습니다."
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "1. Tôi đã chuẩn bị trước cả rồi ạ.\n2. Tôi sẽ làm bản kế hoạch dự án.\n3. Tôi sẽ chuẩn bị cuộc họp thật tốt.\n4. Tôi sẽ nộp ngay bây giờ ạ.",
-            "en": "1. I have already prepared it.\n2. I will create a business plan.\n3. I will prepare well for the meeting.\n4. I will submit it right now."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210002",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "남자: 비가 오네요. 우산 있어요?\n여자: 네. 저하고 같이 써요.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Mưa rồi này. Cậu có ô không?\nNữ: Có. Cậu dùng ô chung với tớ đi.",
+        "en": "Man: It's raining. Do you have an umbrella?\nWoman: Yes. Use it with me."
+      },
+      "g_audio": "/topiks/audios/ba3311d88cdf6392a06e27df2f641360_17_19_17_48.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[4～8] 다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 거실이 너무 넓어서 허전해 보였는데 이렇게 화분을 몇 개 놓으니까 훨씬 좋지?\n남자: 응, 그렇기는 한데 문 옆에 커다란 화분이 있으면 좀 불편할 것 같아.\n여자: __________________________________________________",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Phòng khách rộng quá nên nhìn hơi trống trải, em đặt chậu hoa vào thế này trông ổn hơn nhiều đúng không?\nNam: Ừ, đúng vậy nhưng nếu đặt chậu hoa lớn cạnh cửa thế này có lẽ sẽ hơi bất tiện.\nNữ: __________________________________________________",
-          "en": "Woman: The living room was so spacious that it looked empty. It's much better to put some flowerpots like this, right?\nMan: Yes, but I think it would be a bit inconvenient to have large flowerpots next to the door.\nWoman: __________________________________________________"
-        },
-        "g_audio": "/topiks/audios/362ba54a2570e28efa6f234d98118222_5_06___5_25.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "거실이 좀 넓으면 좋겠어.",
-            "그럼 저쪽으로 옮겨야겠네.",
-            "이따가 몇 개 더 갖다 놓을게.",
-            "화분이 없어서 허전한 것 같아."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "1. Ước gì phòng khách rộng hơn một chút.\n2. Vậy thì em phải chuyển nó qua bên kia thôi.\n3. Lát nữa em sẽ mang thêm vài cái đến.\n4. Vì không có chậu hoa nên có vẻ trống trải.\n--------------------\nA + 아/어 보이다: Trông có vẻ.",
-            "en": "1. I wish the living room was a little bigger.\n2. Then I'll have to move it over there.\n3. I'll put a few more later.\n4. It seems to be empty because there is no flowerpot.\n--------------------\n<g>A + 아/어 보이다:</g> To look like, to seem like"
-          }
+    "content": [
+      {
+        "q_text": "두 사람은 무엇을 하고 있습니까?",
+        "q_image": "/topiks/images/b1eb5e52a674f59520802b350ef8d43c.png",
+        "q_point": 3,
+        "q_answer": [
+          "(보기 1)",
+          "(보기 2)",
+          "(보기 3)",
+          "(보기 4)"
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Hai người này đang làm gì?\n--------------------\nTrời đang mưa, bạn nữ hỏi bạn nam có ô không và đề nghị dùng ô cùng mình, có nghĩa là bạn nam không có ô nên đáp án đúng là 3.",
+          "en": "What are these two doing?\n--------------------\nThe woman has an umbrella and is asking the man to use the umbrella with her. So 3 is the correct answer."
         }
-      ],
-      "level": 2,
-      "kind": "210002",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "210003": [
-    {
-      "title": "[9～12] 다음 대화를 잘 듣고 <u>여자</u>가 이어서 할 행동으로 알맞은 것을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "en": "",
-          "vi": ""
-        },
-        "g_text_audio": "여자: 민수 씨, 문자 받았어요?\n남자: 네, 토요일에 동아리 모임이 있다면서요? 참석할 거예요?\n여자: 아니요. 그날 일이 있어서 지금 회비만 보내려고요.\n남자: 그렇군요. 그럼 중요한 게 있으면 제가 모임 끝나고 전화할게요.",
-        "g_text_audio_translate": {
-          "en": "Woman: Minsu, did you receive the text message?\r\nMan: Yes, I heard there is a club meeting on Saturday? Are you going to attend?\r\nWoman: No. I have work to do that day, so I just want to send the membership fee now.\r\nMan: I see. Then, if there's anything important, I'll call you after the meeting.",
-          "vi": "Nữ: Minsu, bạn có nhận được tin nhắn không?\r\nNam: Vâng, tôi nghe nói thứ bảy có cuộc họp câu lạc bộ phải không? Bạn có định tham dự không?\r\nNữ: Không. Hôm đó tôi có việc phải làm nên bây giờ tôi định chỉ gửi phí thành viên.\r\nNam: Thì ra là vậy. Vậy nếu có gì quan trọng tôi sẽ gọi cho bạn sau khi cuộc họp kết thúc."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/260ec079a4d0ca5cb831770313e02b59.mp3",
-        "g_image": null
+      }
+    ],
+    "level": 1,
+    "kind": "110005",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[17～21]다음을 듣고 <보기>와 같이 대화 내용과 같은 것을 고르십시오.(각 3점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": null,
-          "q_point": 2,
-          "q_answer": [
-            "문자를 보낸다.",
-            "문자를 확인한다.",
-            "모임에 참석한다.",
-            "돈을 보낸다."
-          ],
-          "q_correct": 4,
-          "explain": {
-            "en": "1. Send a text message.\n2. Check the text message.\n3. Attend the meeting.\n4. Send money.\n--------------------\nThe woman mentions that she won't attend the meeting but will only send the membership fee. Therefore, she will send money.",
-            "vi": "1. Gửi tin nhắn văn bản.\n2. Kiểm tra tin nhắn văn bản.\n3. Tham dự cuộc họp.\n4. Gửi tiền.\n--------------------\nNhân vật nữ cho biết cô sẽ không dự cuộc họp mà chỉ gửi phí thành viên. Như vậy tiếp theo cô sẽ gửi tiền."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210003",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "여자: 여기에서 담배를 피우시면 안 됩니다.\n남자: 미안합니다. 몰랐습니다. 그런데 어디에서 담배를 피울 수 있습니까?\n여자: 건물 밖으로 나가셔야 합니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Không được hút thuốc ở đây.\nNam: Tôi xin lỗi. Tôi không biết. Nhưng tôi có thể hút thuốc ở đâu?\nNữ: Anh phải ra khỏi tòa nhà.",
+        "en": "Woman: You are not allowed to smoke here.\nMan: I'm sorry. I didn't know. But where can I smoke?\nWoman: You have to get out of the building."
+      },
+      "g_audio": "/topiks/audios/4e68f8ff767d28afd1c89a403ad0de91_27_38_28_27.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[9～12] 다음 대화를 잘 듣고 <u>여자</u>가 이어서 할 행동으로 알맞은 것을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "en": "",
-          "vi": ""
-        },
-        "g_text_audio": "여자: 빨래방은 처음인데 먼저 코스 선택하고 세탁물 넣으면 되나?\n남자: 여기 안내문 있다. 세탁물 넣은 후에 코스 선택하고, 동전 넣으래.\n여자: 나 동전은 없는데. 아, 저기 동전 교환기 있네. 바꿔 올게.\n남자: 응. 난 또 뭘 해야 되는지 읽어 볼게.",
-        "g_text_audio_translate": {
-          "en": "Woman: This is my first time at a laundromat. Can I select a course first and then load the laundry?\nMan: Here is a notice. After putting in the laundry, select a course and insert a coin.\nWoman: I don't have any coins. Oh, there's a coin exchange machine over there. I'll go change coins.\nMan: Okay. I'll read what else to do.",
-          "vi": "Nữ: Đây là lần đầu tiên tớ đến phòng giặt quần áo đó. Chọn chế độ giặt trước rồi cho đồ vào giặt là được phải không?\nNam: Ở đây có bảng hướng dẫn này. Người ta bảo rằng sau khi cho đồ giặt vào, chọn chế độ giặt rồi nhét một đồng xu vào.\nNữ: Tớ không có đồng xu nào cả. Ồ, có một máy đổi tiền ở đằng kia. Tớ sẽ đi đổi rồi quay lại.\nNam: Ừm. Tớ sẽ đọc xem cần làm gì tiếp theo."
-        },
-        "g_audio": "/topiks/audios/4803cfe80ff2a41ef6cbf94400bc95ae_3_41.mp3",
-        "g_image": null
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": null,
-          "q_point": 2,
-          "q_answer": [
-            "세탁물을 넣는다.",
-            "안내문을 읽는다.",
-            "동전을 바꾸러 간다.",
-            "세탁 코스를 선택한다."
-          ],
-          "q_correct": 3,
-          "explain": {
-            "en": "1. Put in the laundry.\r\n2. Read the notice.\r\n3. Go change coins.\r\n4. Select a washing course.\n--------------------\nThe woman says she will go change coins and come back.",
-            "vi": "1. Cho đồ cần giặt vào.\n2. Đọc thông báo.\n3. Đi đổi đồng xu.\n4. Chọn chế độ giặt.\n--------------------\nNhân vật nữ nói rằng cô sẽ đi đổi đồng xu rồi quay lại."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "두 사람은 건물 안에 있습니다.",
+          "여자는 건물 밖으로 나갈 겁니다.",
+          "남자는 담배를 좋아하지 않습니다.",
+          "건물 밖에서는 담배를 피울 수 없습니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Hai người đang ở bên trong tòa nhà.\n2. Người phụ nữ sẽ ra khỏi tòa nhà.\n3. Người đàn ông không thích thuốc lá.\n4. Không được hút thuốc bên ngoài tòa nhà.\n--------------------\n담배를 피우다: Hút thuốc\n나가다: Ra ngoài, ra khỏi\n\nV/A + 아/어야 하다: Phải, nên làm gì.\nV + (으)면 안 되다: Không được làm gì.",
+          "en": "1. Two people are inside the building.\n2. The woman will leave the building.\n3. The man doesn't like cigarettes.\n4. Smoking is not allowed outside the building.\n--------------------\n<g>담배를 피우다:</g> To smoke a cigarette\n<g>나가다:</g> To go out, to get out, to leave\n\n<g>V + 아/어야 하다:</g> Must, have to.\n<g>V + (으)면 안 되다:</g> May not, not allowed."
         }
-      ],
-      "level": 2,
-      "kind": "210003",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "210004": [
-    {
-      "title": "[13～16]다음을 듣고 내용과 일치하는 것을 고르십시오.(각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 모기와 파리는 우리 주변에서 흔히 볼 수 있는 곤충이죠. 그런데 왜 모기 소리만 더 크게 들리는 걸까요? 그건 바로 날갯짓의 차이 때문입니다. 모기는 1초에 600번 정도로 날개를 빨리 움직입니다. 그 때문에 사람이 들을 수 있을 정도의 앵앵거리는 소리가 나죠. 그런데 파리는 날갯짓을 50번 정도밖에 못 하기 때문에 소리가 작은 겁니다.",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Muỗi và ruồi là những côn trùng thường thấy xung quanh chúng ta. Nhưng tại sao tiếng của muỗi lại nghe to hơn? Đó chính là do sự khác biệt về cánh. Muỗi vỗ cánh nhanh khoảng 600 lần một giây. Đó là lý do tại sao nó tạo ra tiếng kêu đủ để con người có thể nghe được. Nhưng ruồi thì chỉ có thể vỗ cánh khoảng 50 lần nên âm thanh nhỏ.",
-          "en": "Woman: Mosquitoes and flies are common insects around us. But why is the mosquito sound louder? That's because of the difference in flapping wings. Mosquitoes move their wings as fast as 600 times per second. That's why it makes a buzzing sound that's audible to humans. But flies only flap their wings about 50 times, so the sound is low."
-        },
-        "g_audio": "/topiks/audios/88b82bf8163f29ad7d054a0ee328dfee_15_09_16_31.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110006",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "다음을 듣고 <보기>와 같이 대화 내용과 같은 것을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "곤충의 크기가 비슷하면 날갯짓도 비슷하다.",
-            "모기와 파리는 날개의 모양과 크기가 다르다.",
-            "파리는 크기 때문에 날개를 조금만 움직여도 된다.",
-            "모기는 날개를 빨리 움직이기 때문에 소리가 난다."
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "1. Nếu các loài côn trùng có kích thước tương tự nhau, thì đôi cánh của chúng cũng sẽ giống nhau.\n2. Muỗi và ruồi khác nhau về hình dạng và kích thước đôi cánh.\n3. Vì ruồi lớn nên chúng chỉ vỗ cánh ít cũng được.\n4. Muỗi phát ra âm thanh vì chúng vỗ cánh nhanh chóng.\n--------------------\nMuỗi vỗ cánh 600 lần một giây nên tạo ra âm thanh con người có thể nghe được. Vì vậy 4 là đáp án chính xác.",
-            "en": "1. If insects are similar in size, their wings will be similar.\n2. Mosquitoes and flies differ in the shape and size of their wings.\n3. Because flies are large, they can move their wings a little.\n4. Mosquitoes make noises because they move their wings quickly.\n--------------------\nMosquitoes flap their wings 600 times a second, so they create sounds that humans can hear. So 4 is the correct answer."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210004",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "남자: 여보세요. 영화관에 도착했어요?\n여자: 네. 영화관 앞에 있어요. 어디까지 왔어요?\n남자: 저는 가는 중인데 길이 막히니까 조금 늦게 올 수 있어요. 영화관에 먼저 들어가세요.\n여자: 음, 시간이 아직 남아 있으니까 제가 영화관 옆에 있는 커피숍에 들어가서 기다릴게요. ",
+      "g_text_audio_translate": {
+        "vi": "Nam: A lô. Bạn đã đến rạp chiếu phim chưa?\nNữ: Rồi. Tôi ở phía trước rạp chiếu phim. Bạn đã đến đâu rồi?\nNam: Tôi đang trên đường đến, nhưng tôi có thể đến muộn một chút vì đường bị tắc. Hãy vào rạp chiếu phim trước đi.\nNữ: Chà, vẫn còn thời gian, tôi sẽ vào quán cà phê bên cạnh rạp chiếu phim và đợi bạn.",
+        "en": "Man: Hello. Did you arrive at the cinema?\nWoman: Yes. I'm in front of the cinema. How far have you come?\nMan: I'm on my way, but the road is blocked, so I can come a little late. Go into the cinema first.\nWoman: Well, since we still have time, I'll wait in the coffee shop next to the cinema."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/2f65a49688023b97808a8a246961b071.mp3",
+      "g_image": "",
+      "g_audio_repeat": "/topiks/audios_repeat/2f65a49688023b97808a8a246961b071_1.mp3"
     },
-    {
-      "title": "[13～16]다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 다음 달에 학교 기숙사에서 나가야 하는데 어디 좋은 데 없을까?\n여자: 고시원은 어때? 방이 작기는 하지만 혼자 살기에는 충분할 거야. 내가 아는 고시원이 있는데, 알아봐 줄까?\n남자: 그래? 한번 알아보고 거기 빈 방이 있거든 좀 말해 줄래?\n여자: 알았어. 지하철역에서도 가깝고 깨끗한 편이어서 마음에 들 거야.",
-        "g_text_audio_translate": {
-          "vi": "Nam: Tớ phải rời khỏi ký túc xá của trường vào tháng tới, cậu có biết chỗ nào tốt không?\nNữ: Gosiwon thì sao? Căn phòng tuy nhỏ nhưng cũng đủ cho cậu sống một mình. Có một gosiwon mà tớ biết, nó tìm hiểu giúp cậu nhé?\nNam: Vậy sao? Vậy cậu tìm hiểu xem ở đó có phòng trống không rồi cho tớ biết với nhé?\nNữ: Được rồi. Nó gần ga tàu điện ngầm và sạch sẽ, vì vậy cậu sẽ thích nó.",
-          "en": "Man: I have to leave the school dormitory next month, is there any good place?\nWoman: How about a goshiwon? The room is small, but it will be enough for a single person. There is a gosiwon I know. Would you like me to check it out?\nMan: Really? Can you check it out and tell me if there's an empty room there?\nWoman: All right. It's close to the subway station and it's clean, so you'll like it."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/193f0d3b76ed9443bcd0912ce977ec81.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "남자는 이사할 곳을 찾고 있다.",
-            "남자는 기숙사가 마음에 들지 않는다.",
-            "여자는 고시원으로 이사하고 싶어한다.",
-            "여자는 기숙사에 들어갈 것이다."
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "1. Nhân vật nam đang tìm kiếm một nơi để chuyển đi.\n2. Nhân vật nam không thích ký túc xá.\n3. Nhân vật nữ muốn chuyển đến gosiwon.\n4. Nhân vật nữ sẽ vào ký túc xá.\n--------------------\n고시원: Nhà trọ luyện thi \n\nNhân vật nam cho biết anh phải rời khỏi ký túc xá của trường vào tháng tới và hỏi nhân vật nữ một chỗ tốt để chuyển đến. Như vậy 1 là đáp án đúng.",
-            "en": "1. The man is looking for a place to move.\n2. The man doesn't like the dormitory.\n3. The woman wants to move to a gosiwon.\n4. The woman will go into the dormitory.\n--------------------\n<g>고시원:</g> Accommodations for students studying for exams\n\nThe man said that he had to leave the school dormitory the following month and asked the woman a good place to move to. So the correct answer is 1. "
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "길이 막혀서 여자가 늦게 올 겁니다.",
+          "남자가 늦어서 약속이 취소됩니다.",
+          "여자는 커피숍에서 남자를 기다릴 겁니다.",
+          "여자는 영화관에 먼저 들어갈 겁니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. Đường tắc nên nhân vật nữ đến muộn.\n2. Cuộc hẹn bị hủy bỏ vì nhân vật nam đến muộn.\n3. Nhân vật nữ sẽ đợi nhân vật nam ở quán cà phê.\n4. Nhân vật nữ sẽ vào rạp chiếu phim trước.\n--------------------\n커피숍: Quán cà phê\n들어가다: Đi vào\n\nV + 아/어서: Liệt kê hai hành động nói tiếp nhau và có mối liên quan với nhau.\nV + (으)ㄹ게(요): Thể hiện ý chí, hứa hẹn của người nói về việc làm một hành động nào đó.",
+          "en": "1. The woman will come late because the road is blocked.\n2. The appointment is canceled because the man is late.\n3. The woman will wait for the man at the coffee shop.\n4. The woman will enter the cinema first.\n--------------------\n<g>커피숍:</g> Coffee shop\n<g>들어가다:</g> To enter\n\n<g>V + 아/어서:</g> Used to express doing one action then a second action.\n<g>V + (으)ㄹ게(요):</g> I will. Express intention or promise to do something."
         }
-      ],
-      "level": 2,
-      "kind": "210004",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "210005": [
-    {
-      "title": "[17～20]다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 무슨 일 있어? 얼굴이 안 좋아 보이네.\n여자: 아침에 같은 방 쓰는 친구하고 싸웠거든. 아직도 화가 나서 참을 수가 없어.\n남자: 그렇게 계속 화만 내지 말고 천천히 네가 뭐 때문에 화가 났는지 생각해 봐. 그리고 그걸 간단하게 글로 써 봐. 그러다 보면 화가 좀 풀릴 거야.",
-        "g_text_audio_translate": {
-          "vi": "Nam: Có chuyện gì vậy? Nhìn mặt cậu không được tốt cho lắm.\nNữ: Tớ đã cãi nhau với bạn cùng phòng vào buổi sáng. Tớ vẫn còn tức giận và không thể chịu đựng được.\nNam: Đừng chỉ cứ tức giận như vậy, hãy từ từ nghĩ xem cậu tức giận vì cái gì. Và hãy thử viết một cách đơn giản điều đó ra xem. Nếu làm như vậy thì sẽ bớt tức giận đó.",
-          "en": "Man: What's wrong? You don't look well.\nWoman: I had a fight with my friend in the morning. I'm still so angry that I can't stand it.\nMan: Don't just keep getting angry, take your time and think about what you're angry with. And write it down simply. That will ease your anger."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/6e7fc585e4eb4cee35600ea37fa5faf2.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110006",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[22～24]다음을 듣고 <u>여자</u>의 중심 생각을 고르십시오. (각 3점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "화를 푸는 방법을 찾는 것이 필요하다.",
-            "싸우고 나면 되도록 빨리 화해하는 것이 좋다.",
-            "화가 났던 이유를 글로 써 보는 것이 좋다.",
-            "싸우기 전에 천천히 친구의 얘기를 들어야 한다."
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "1. Việc tìm cách giải tỏa cơn giận là cần thiết.\n2. Sau khi cãi nhau, tốt nhất là hòa giải càng sớm càng tốt.\n3. Nên viết ra lý do tại sao lại tức giận. \n4. Trước khi cãi nhau thì nên từ từ lắng nghe câu chuyện của bạn bè.\n--------------------\nNhân vật nam khuyên nhân vật nữ hãy nghĩ xem mình tức giận vì cái gì và viết một cách đơn giản điều đó ra. Như vậy 3 là đáp án đúng.",
-            "en": "1. You need to find a way to release your anger.\n2. It is good to reconcile as soon as possible after a fight.\n3. It's good to write down why you're angry.\n4. You should listen to your friend slowly before fighting.\n--------------------\nThe man advised the woman to think about what she was angry with and write it simply. So the correct answer is 3."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210005",
-      "count_question": 1,
-      "tag": "listen"
+      "g_text_audio": "남자: 어제 잠을 못 자서 좀 피곤하네요. \n여자: 그러면 이 사탕 한번 먹어 볼래요? 저는 피곤할 때 이런 걸 먹으면 힘이 나고 기분이 좋아지거든요. \n남자: 고마워요. 그런데 저는 단것을 별로 좋아하지 않아요. 건강에도 안 좋잖아요. \n여자: 자주 먹는 게 아니고 피곤할 때만 먹는 거니까 괜찮아요. ",
+      "g_text_audio_translate": {
+        "vi": "Nam: Hôm qua tớ hơi mệt vì không ngủ được. \nNữ: Nếu vậy thì cậu có muốn ăn thử kẹo này không? Khi tớ mệt mỏi, nếu ăn những thứ này thì tâm trạng tớ sẽ tốt hơn và có thêm năng lượng. \nNam: Cảm ơn cậu. Nhưng tớ không thích đồ ngọt lắm. Nó cũng không tốt cho sức khỏe. \nNữ: Không phải ăn thường xuyên mà chỉ ăn khi cảm thấy mệt mỏi thôi nên sẽ không sao đâu.\n",
+        "en": "Man: I'm a little tired because I couldn't sleep yesterday.\nWoman: Then, would you like to try this candy? When I'm tired, eating these things gives me strength and makes me feel good.\nMan: Thank you. But I don't really like sweets. It is also not good for health.\nWoman: I don't eat often, I only eat when I'm tired so it's okay."
+      },
+      "g_audio": "/topiks/audios/aee22909a56f915832da50a97611f38c_27_53___29_10.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[17～20]다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 아토피 증상 중에 가장 괴로운 것을 꼽으라면 역시 가려움증입니다. 그렇다 보니 여러 민간요법이 많은데요. 실제로 평상시 많이 가려울 때 우리가 할 수 있는 효과적인 방법은 어떤 것이 있나요?\n남자: 민간요법 대부분이 모든 환자에게 효과가 있지는 않고 효과가 있다 해도 일시적일 뿐이며 피부에 자극을 주어 아토피 피부염을 오히려 악화시키는 경우가 많습니다. 가장 중요한 것은 보습입니다. 적절한 목욕과 보습제 사용을 통해 피부 기능을 정상으로 만들어야 합니다. 피부에 직접 닿는 옷은 순면 재질을 입어야 하며 손발톱을 짧고 청결하게 관리하고 방안의 온도와 습도를 적절하게 유지해야 합니다.",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Ngứa là triệu chứng khó chịu nhất trong các triệu chứng dị ứng da. Do đó mà quả nhiên có rất nhiều bài thuốc dân gian. Xin ông cho biết một số cách có hiệu quả trên thực tế mà chúng ta có thể làm khi bị ngứa nhiều lúc bình thường?\nNam: Hầu hết các bài thuốc dân gian đều không có tác dụng với tất cả các bệnh nhân, nếu có hiệu quả thì cũng chỉ là tạm thời, ngược lại nó có thể gây kích ứng da khiến bệnh dị ứng da trở nên trầm trọng hơn trong nhiều trường hợp. Điều quan trọng nhất là dưỡng ẩm. Phải làm cho chức năng của da trở nên bình thường thông qua việc tắm và sử dụng chất dưỡng ẩm thích hợp. Quần áo chạm trực tiếp vào da phải là chất liệu cotton, giữ móng tay ngắn và sạch sẽ, giữ nhiệt độ và độ ẩm trong phòng ở mức thích hợp.",
-          "en": "Woman: Among the symptoms of atopy, the most painful thing is, of course, itching. So, there are many folk remedies. What are some effective ways that we can do when we are actually very itchy?\nMan: Most folk remedies do not work for all patients, and even if they are effective, they are only temporary and often aggravate atopic dermatitis by irritating the skin. The most important thing is moisturizing. Skin function should be brought to normal through proper bathing and the use of moisturizers. Clothes that come in direct contact with the skin should be made of pure cotton, nails should be kept short and clean, and the temperature and humidity in the room should be maintained appropriately."
-        },
-        "g_audio": "/topiks/audios_text_to_speech_v2/8cc22b2d9f0464925205ee16f990ada8.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "아토피 증상이 있을 때 피부에 자극을 주는 것이 좋다.",
-            "아토피 증상에는 보습이 가장 중요하다.",
-            "아토피 증상에는 민간요법이 효과적이다.",
-            "아토피 증상 중 가장 괴로운 것은 가려움이다."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "<div>1. Khi bị dị ứng da, tốt hơn nên gây kích ứng lên da.</div><div>2. Độ ẩm là quan trọng nhất đối với chứng dị ứng da.</div><div>3. Các bài thuốc dân gian có hiệu quả đối với chứng dị ứng da.</div><div>4. Ngứa là triệu chứng khó chịu nhất trong các triệu chứng dị ứng da.</div><div>--------------------</div><div>Nhân vật nam cho biết điều quan trọng nhất để khắc phục tình trạng ngứa là phải dưỡng ẩm, đó là suy nghĩ trọng tâm của nhân vật nam. Như vậy 2 là đáp án đúng.</div>",
-            "en": "<div>1. It is good to irritate your skin when you have atopic symptoms.</div><div>2. Moisturizing is the most important thing for atopic symptoms.</div><div>3. Folk remedies are effective for atopic symptoms.</div><div>4. The most painful atopic symptom is itching.</div><div>--------------------</div><div>The man said that the most important thing is moisturizing, which is the man's central thought. So the correct answer is 2.&nbsp;</div>"
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "단 음식은 건강에 좋지 않습니다.",
+          "피곤하면 잠을 자는 게 좋습니다.",
+          "건강을 위해서 사탕을 줄여야 합니다.",
+          "피곤할 때 단 음식을 먹으면 좋습니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. Đồ ngọt không tốt cho sức khỏe.\n2. Nếu mệt thì nên đi ngủ. \n3. Vì sức khỏe nên phải giảm lượng kẹo lại. \n4. Khi mệt mỏi thì nên ăn đồ ngọt. \n--------------------\nN + 을/를 위해(서): Để. Cấu trúc thể hiện mục đích.\nV + (으)ㄹ 래요?: Cấu trúc rủ rê. \nV/A + (으)ㄴ/는/(으)ㄹ + N: Định ngữ.\nV/A + 아/어/여 지다: Trở nên. \n\nKhi nhân vật nữ cảm thấy mệt mỏi, ăn kẹo giúp cô cảm thấy tốt hơn.",
+          "en": "1. Sweets are not good for health.\n2. If you are tired, you should go to sleep.\n3. You should cut down on candy for the sake of health.\n4. When you are tired, you should eat sweets.\n--------------------\n<g>N + 을/를 위해(서):</g> For the sake of, in order to\n<g>V + (으)ㄹ 래요?:</g> Do you want to, how about...?\n<g>V/A + (으)ㄴ/는/(으)ㄹ + N:</g> Noun modifier.\n<g>V/A + 아/어/여 지다:</g> To become.\n\nIf the woman eats candy when she is tired, she will feel better."
         }
-      ],
-      "level": 2,
-      "kind": "210005",
-      "count_question": 1,
-      "tag": "listen"
-    }
-  ],
-  "210006": [
-    {
-      "title": "[27～28]다음을 듣고 물음에 답하십시오.(각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: 저는 지금이라도 가로수를 교체해야 한다고 봅니다. 아름답게 조성된 가로수 길에서 시민들이 행복해해야 하는데, 오히려 가을만 되면 은행 나무 열매 냄새 때문에 시민들이 불쾌해하지 않습니까? 은행을 밟을까 봐 피해서 다니느라고 통행에 불편을 겪는 시민들도 많고요. 해마다 반복되는 문제이니만큼 이번 기회에 바꾸는 게 좋다고 생각합니다. \n여자: 물론 그런 문제도 있지만, 지난번 여론 조사에서 은행나무가 아름답기도 하고 심리적인 안정을 준다고, 가로수 교체를 반대한다는 시민들이 많더라고요. 가로수 교체보다는 시민들의 불편을 줄일 수 있는 다른 방법을 마련해야 하지 않을까요?",
-        "g_text_audio_translate": {
-          "vi": "Nam: Tôi nghĩ rằng phải thay cây trên đường phố ngay từ lúc này. Người dân đáng ra phải hạnh phúc trên con đường có hàng cây được trồng đẹp đẽ, nhưng trái lại khi thu đến, không phải họ khó chịu vì mùi của hạt cây ngân hạnh sao? Cũng có rất nhiều người dân gặp bất tiện khi đi lại vì họ phải tránh đạp phải ngân hạnh mà đi. Vì nó là một vấn đề lặp đi lặp lại hàng năm, tôi nghĩ rằng nên thay đổi vào lần này.\nNữ: Tất nhiên là có vấn đề như vậy, nhưng trong đợt thăm dò ý kiến ​​vừa rồi, nhiều người dân cho rằng cây ngân hạnh đẹp và tạo ra sự ổn định trong tâm lý, họ phản đối việc thay thế cây xanh đường phố. Có nên nghĩ ra một cách khác để giảm bớt sự bất tiện cho người dân hơn là thay thế cây xanh trên đường phố hay không?",
-          "en": "Man: I think the street trees need to be replaced now. Citizens should be happy on the beautifully constructed streets, but in autumn, the smell of ginkgo nuts makes the citizens uncomfortable, don't they? There are many citizens who suffer from inconvenience in passing because they avoid stepping on ginkgo. Since this is a problem that repeats every year, I think it is good to change it this time.\nWoman: Of course, there is such a problem, but in the last poll, many citizens said that ginkgo trees are beautiful and give psychological stability, and that they oppose the replacement of street trees. Shouldn't we come up with another way to reduce inconvenience to citizens rather than replacing street trees?"
-        },
-        "g_audio": "/topiks/audios/d04d8510d02f985fd641b74e33c69a37_37_54_39_53.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110007",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[22～24]다음을 듣고 <u>여자</u>의 중심 생각을 고르십시오. (각 3점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "남자의 생각으로 맞는 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "아름다운 나무를 가로수로 심어야 한다.",
-            "가로수는 시민들의 심리 안정에 도움이 된다.",
-            "은행나무 가로수는 시민들에게 불편을 주고 있다.",
-            "통행이 많은 곳에는 가로수를 심지 않는 것이 좋다."
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "Chọn câu đúng với suy nghĩ của nhân vật nam.\n1. Cây đẹp nên trồng làm cây xanh đường phố.\n2. Cây xanh đường phố giúp ích cho sự ổn định tâm lý của người dân.\n3. Cây ngân hạnh trên đường phố đang gây bất tiện cho người dân.\n4. Không nên trồng cây xanh đường phố ở những nơi có nhiều người qua lại.\n--------------------\n불쾌하다: Khó chịu\n불편: Bất tiện\n\nNgười dân gặp bất tiện vì mùi của cây ngân hạnh và lo giẫm phải nó.",
-            "en": "Choose the one that matches the man's thoughts.\n1. Beautiful trees should be planted as street trees.\n2. Street trees are helpful for the psychological stability of citizens.\n3. Ginkgo trees are causing inconvenience to citizens.\n4. It is better not to plant street trees in places with a lot of traffic.\n--------------------\n<g>불쾌하다:</g> To be unpleasant\n<g>불편:</g> Inconvenience\n\nPeople were inconvenienced by the smell of ginkgo and worried about stepping on it."
-          }
-        },
-        {
-          "q_text": "여자의 생각이나 태도로 맞는 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "남자의 의견에 동조하고 있다.",
-            "남자의 말에 감정적으로 대응하고 있다.",
-            "강력하게 문제에 대한 책임을 묻고 있다.",
-            "조심스럽게 자신의 의견을 밝히고 있다."
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Chọn câu đúng với suy nghĩ hay thái độ của nhân vật nữ.\n1. Đồng ý với ý kiến của nhân vật nam.\n2. Đối ứng một cách cảm tính với lời nói của nhân vật nam.\n3. Yêu cầu chịu trách nhiệm về vấn đề một cách mạnh mẽ.\n4. Thận trọng làm rõ ý kiến của bản thân.\n--------------------\n하지 않을까?: Cấu trúc dùng để bày tỏ ý kiến một cách khiêm tốn.\n\nNhân vật nữ đồng ý một phần ý kiến của nhân vật nam và dẫn ra căn cứ để phản bác. ",
-            "en": "Choose the one that fits the woman's thoughts and attitude.\n1. Agreeing with the man's opinion.\n2. Responding emotionally to the man's words.\n3. Strongly holding accountable for the problem.\n4. Cautiously expressing her opinion.\n--------------------\n<g>하지 않을까?:</g> Shouldn't we?\n\nThe woman partially agrees with the man's opinion and cites the basis for rebuttal."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210006",
-      "count_question": 2,
-      "tag": "listen"
+      "g_text_audio": "남자: 오늘 우리가 해야 할 일이 너무 많네요. 회의 준비도 해야 하고 서류 정리도 해야 하고... \n여자: 회의는 모레니까 아직 시간이 있어요. 지금 하고 있는 일을 먼저 하고 이따가 준비해도 돼요. \n남자: 지금 하는 일은 오늘까지 끝내야 하는 거지요? \n여자: 네, 맞아요. 그러니까 우선 이 일부터 해요. ",
+      "g_text_audio_translate": {
+        "vi": "Nam: Hôm nay chúng ta có quá nhiều việc phải làm. Phải chuẩn bị cho cuộc họp, sắp xếp tài liệu và...\nNữ: Cuộc họp vào ngày kia nên vẫn còn thời gian. Chúng ta có thể làm việc đang làm trước rồi chuẩn bị cho cuộc họp sau cũng được.\nNam: Việc đang làm phải hoàn thành trong hôm nay phải không? \nNữ: Vâng, đúng vậy. Vậy nên hãy làm việc đó trước đi. \n",
+        "en": "Man: We have too much work to do today. We have to prepare for the meeting, organize the paperwork and...\nWoman: The meeting is the day after tomorrow so we still have time. We can do what we are doing first and prepare for the meeting later.\nMan: We have to finish what we are doing within today, right?\nWoman: Yes, that's right. So let's do that first."
+      },
+      "g_audio": "/topiks/audios/e4441e6cc8b2dd3d8c1e4df201ff4699_26_10___27_29.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[21～22]다음을 듣고 물음에 답하십시오.(각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "남자: ‘TV를 말하다’ 오늘은 최근 5주간 시청률 1위를 기록하고 있는 ‘아빠의 도전’의 인기 요인에 대해 들어보겠습니다. (잠시 쉬고) 전문가 입장에서 이 프로그램의 인기 비결이 뭐라고 생각하십니까?\n여자: 네. 아마도 다양한 사연을 가진 출연자들의 울고 웃는 모습이 그대로 방송돼 시청자의 마음을 움직인 것 같습니다. 그리고 출연자들이 실패 끝에 도전에 성공하는 것을 보면서 시청자는 출연자와 하나 가 된 느낌을 갖게 되고요. 무엇보다도 ‘아빠의 도전’은 우리 곁에 있는 아빠들이 출연한다는 점에서 시청자들에게 큰 공감을 불러일으키는 거죠.",
-        "g_text_audio_translate": {
-          "vi": "Nam: Trong \"Nói Về Tivi\" hôm nay, chúng ta sẽ tìm hiểu nguyên nhân nổi tiếng của chương trình \"Thử Thách Của Bố\", chương trình hiện đang ghi nhận tỷ suất xem đài số 1 trong suốt 5 tuần gần đây. (Nghỉ một chút) Trên góc nhìn của chuyên gia, cô nghĩ lý do thành công của chương trình này là gì?\nNữ: Vâng. Có lẽ những hình ảnh khóc, cười của những người tham gia với nhiều câu chuyện khác nhau được lên sóng nguyên vẹn nên chúng đã làm lay động tấm lòng của khán giả. Khi khán giả thấy người tham gia thành công trong thử thách sau những lần thất bại, họ có cảm giác hòa làm một với người tham gia. Hơn hết, trong chương trình \"Thử Thách Của Bố\", người tham gia là các ông bố ở cạnh chúng ta, thế nên họ khơi dậy sự đồng cảm rất lớn ở khán giả.",
-          "en": "Man: In 'Talking about TV' today, let's hear about the popular factors of 'Daddy's Challenge', which has ranked first in viewership ratings for the last 5 weeks. (Stops for a while) As an expert, what do you think is the secret to the popularity of this program?\nWoman: Yes. Perhaps the crying and smiling faces of the performers with various stories were broadcast and moved the hearts of the viewers. And watching the performers succeed in their challenges after failure, viewers feel as one with the cast. Above all, \"Daddy's Challenge\" is something that resonates with viewers in that it stars fathers who are around us."
-        },
-        "g_audio": "/topiks/audios/dfb08828054a1038feed3a4ec8eb6350_27_56_29_52.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "들은 내용으로 맞는 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "최근 일반인들이 출연할 수 있는 프로그램이 생겼다.",
-            "‘TV를 말하다’는 최근 5주 동안 시청률이 가장 높았다.",
-            "평범한 아빠들의 도전을 다룬 프로그램이 인기를 끈다.",
-            "인기 있는 프로그램에는 사연이 특별한 출연자들이 나온다."
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "Hãy chọn câu đúng với nội dung đã nghe.\n1. Gần đây xuất hiện chương trình mà người bình thường có thể tham gia.\n2. \"Nói Về Tivi\" có tỉ suất xem đài cao nhất trong suốt 5 tuần gần đây.\n3. Chương trình nói về thử thách của những ông bố bình thường thu hút sự chú ý.\n4. Trong chương trình nổi tiếng, những người tham gia mang câu chuyện đặc biệt xuất hiện.\n--------------------\n인기를 끌다: Thu hút sự chú ý\n시청률: Tỉ suất xem đài\n\n최근 5주간 시청률 1위를 기록하고 있는 ‘아빠의 도전’: Chương trình \"Thử Thách Của Bố\", chương trình hiện đang ghi nhận tỷ suất xem đài số 1 trong suốt 5 tuần gần đây.\n\nChương trình có tỉ suất xem đài cao tức là đang thu hút sự chú ý.\n",
-            "en": "Choose the one that fits what you heard.\n1. Recently appeared a program that ordinary people can participate in.\n2. \"Talking About TV\" has the highest viewership ratings in the last 5 weeks.\n3. The show about the challenges of ordinary fathers attracts attention.\n4. In the popular program, participants with special stories appear.\n--------------------\n<g>인기를 끌다:</g> To attract attention\n<g>시청률:</g> Ratings\n\n<g>최근 5주간 시청률 1위를 기록하고 있는 ‘아빠의 도전’:</g> 'Daddy's Challenge', which has ranked first in viewership ratings for the last 5 weeks.\n\nA program with a high viewership rating means it is attracting attention.\n"
-          }
-        },
-        {
-          "q_text": "여자가 누구인지 고르십시오.",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "일반인 도전 프로그램 출연자",
-            "시청률 1위 프로그램의 진행자",
-            "프로그램 게시판에 감상평을 쓴 시청자",
-            "프로그램의 인기 요인을 분석한 비평가"
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Nhân vật nữ là ai?\n1. Người tham gia chương trình thử thách cho người bình thường\n2. Người dẫn chương trình có tỉ suất xem đài hạng 1\n3. Khán giả viết cảm nhận trên bảng tin của chương trình\n4. Nhà phê bình phân tích nguyên nhân chương trình nổi tiếng\n--------------------\n전문가: Chuyên gia\n비결: Bí quyết\n요인: Nguyên nhân\n비평가: Nhà phê bình\n\nNhân vật nam hỏi nhân vật nữ về bí quyết nổi tiếng của chương trình dưới góc nhìn chuyên gia. Vậy nhân vật nữ là nhà phê bình và đang nói về nguyên nhân chương trình nổi tiếng.",
-            "en": "Who is the woman?\n1. Participants in the challenge program for ordinary people\n2. Host of the program with the highest ratings\n3. Viewers who wrote reviews on the program bulletin board\n4. Critics who analyzed the program's popularity factors\n--------------------\n<g>전문가:</g> Expert\n<g>비결:</g> Secret\n<g>요인:</g> Main cause\n<g>비평가:</g> Critic\n\nThe man asks the woman about the secret of the show's popularity from an expert perspective. So the woman is a critic and is talking about why the show is popular."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "일이 힘들면 천천히 해야 합니다.",
+          "급한 일을 먼저 하는 게 좋습니다.",
+          "서로 도와주면서 일을 해야 합니다.",
+          "일이 많으면 쉬면서 하는 게 좋습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Nếu công việc khó khăn thì phải làm từ từ. \n2. Việc nào gấp thì nên làm trước. \n3. Phải giúp đỡ lẫn nhau khi làm việc. \n4. Nếu có nhiều việc thì nên nghỉ ngơi. \n--------------------\n모레: Ngày kia\n이따가: Tí nữa\n오늘: Hôm nay\n우선 = 먼저: Trước tiên, trước hết\n\nV/A + 네요: Đuôi câu cảm thán. \nV + 아/어/여도 되다: Làm như vậy cũng được. \nV + 아/어/여야 하다: Phải làm hành động nào đó. \n\n",
+          "en": "1. When your work is hard, you have to take it slow.\n2. It is better to do the urgent work first.\n3. We have to work while helping each other.\n4. If you have a lot of work, it's better to take a rest.\n--------------------\n<g>모레:</g> The day after tomorrow\n<g>이따가:</g> A little later, a short time later\n<g>오늘:</g> today\n<g>우선 = 먼저:</g> First, first of all\n\n<g>V/A + 네요:</g> Used to express surprise or admiration.\n<g>V + 아/어/여도 되다:</g> There is no problem if...\n<g>V + 아/어/여야 하다:</g> Must, have to."
         }
-      ],
-      "level": 2,
-      "kind": "210006",
-      "count_question": 2,
-      "tag": "listen"
-    }
-  ],
-  "210007": [
-    {
-      "title": "[49～50] 다음은 강연입니다. 잘 듣고 물음에 답하십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 이것은 조선 후기 왕들의 일기인 ‘일성록’입니다. 하루의 반성문이란 뜻을 가진 이 책은 왕의 소소한 일상에서부터 국정 업무 전반을 왕의 시점으로 기록한 것인데요. 당시의 왕들은 ‘일성록’을 신하들이 볼 수 있게 하여 국정 업무에 참고하게 했습니다. 이 일기에는 백성들의 상소와 처리 과정은 물론 그에 대한 왕의 심경까지 기록되어 있고, 18세기부터 20세기에 걸친 세계정세 변화와 동서양의 사회 문화적 교류 양상까지도 상세히 적혀 있습니다. ‘일성록’은 단순한 일기를 넘어 한국뿐만 아니라 세계 역사에도 매우 중요한 사료로 인정받고 있습니다.",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Đây là \"Ilseongnok\", nhật ký của các vị vua thời hậu Joseon. Cuốn sách này có nghĩa là bản kiểm điểm của một ngày, nó ghi lại toàn bộ từ chuyện ngày thường nhỏ nhặt của vua đến công việc nhà nước theo góc nhìn của nhà vua. Vào thời đó,  các vị vua cho phép quần thần có thể xem \"Ilseongnok\" và tham khảo công việc nhà nước. Trong cuốn nhật ký này không chỉ ghi chép tấu sớ của dân chúng và quá trình xử lý mà còn ghi lại cả cảm nhận của nhà vua về việc đó, những biến động của tình hình thế giới từ thế kỷ 18 đến thế kỷ 20 và quá trình hình thành giao lưu văn hóa xã hội giữa phương Đông và phương Tây cũng được ghi lại một cách chi tiết. \"Ilseongnok\" không chỉ đơn thuần là một cuốn nhật ký, nó được công nhận là một tài liệu lịch sử vô cùng quan trọng không chỉ ở Hàn Quốc mà còn trong lịch sử thế giới.",
-          "en": "Woman: This is ‘Ilseongnok’, the diary of the kings of the late Joseon Dynasty. This book, which means a day's reflection, is a record of the king's daily life and overall state affairs from the king's point of view. The kings of that time made ‘Ilseongnok’ available for their servants to refer to for state affairs. In this diary, not only the appeals and handling of the people, but also the king's feelings about him are recorded, and the changes in the world situation from the 18th to the 20th century and the social and cultural exchanges between the East and the West are also recorded in detail. ‘Ilseongnok’ goes beyond a simple diary and is recognized as a very important historical document not only in Korea but also in the history of the world."
-        },
-        "g_audio": "/topiks/audios/5396b74172168dc77bc2cd571041675f_56_19___58_45.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 1,
+    "kind": "110007",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
       },
-      "content": [
-        {
-          "q_text": "들은 내용과 일치하는 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "이 책은 왕의 업무 내용을 담고 있다",
-            "이 책은 신하들에게 공개되지 않았다.",
-            "이 책은 백성의 관점에서 작성되었다.",
-            "이 책은 조선 시대 이전에 기록되었다."
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "Hãy chọn câu đúng với nội dung đã nghe.\n1. Cuốn sách này có chứa nội dung công việc của nhà vua.\n2. Cuốn sách này không được công khai cho quần thần.\n3. Cuốn sách này được viết từ quan điểm của nhân dân.\n4. Cuốn sách này được viết trước triều đại Joseon.\n--------------------\n업무: Công việc\n담다: Chứa đựng\n기록하다: Ghi chép \n\n하루의 반성문이란 뜻을 가진 이 책은 왕의 소소한 일상에서부터 국정 업무 전반을 왕의 시점으로 기록한 것인데요:  Cuốn sách này có nghĩa là bản kiểm điểm của một ngày, nó ghi lại toàn bộ từ chuyện ngày thường nhỏ nhặt của vua đến công việc nhà nước theo góc nhìn của nhà vua. ",
-            "en": "Choose the answer that fits what you heard.\n1. This book contains the contents of the king's work.\n2. This book was not opened to the ministers.\n3. This book is written from the people's point of view.\n4. This book was written before the Joseon Dynasty.\n--------------------\n<g>업무:</g> Business, work\n<g>담다:</g> To put something in something\n<g>기록하다:</g> To record\n\n<g>하루의 반성문이란 뜻을 가진 이 책은 왕의 소소한 일상에서부터 국정 업무 전반을 왕의 시점으로 기록한 것인데요:</g> This book, which means a day's reflection, is a record of the king's daily life and overall state affairs from the king's point of view."
-          }
-        },
-        {
-          "q_text": "여자의 태도로 가장 알맞은 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 2,
-          "q_answer": [
-            "기록물의 가치를 높이 평가하고 있다.",
-            "기록물의 활용 방안을 강구하고 있다.",
-            "기록물에 대한 맹신을 경계하고 있다.",
-            "기록물의 훼손 가능성을 우려하고 있다."
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "Chọn câu đúng với thái độ của nhân vật nữ.\n1. Đánh giá cao giá trị của tài liệu.\n2. Cố gắng tìm ra cách sử dụng tài liệu.\n3. Cảnh báo về niềm tin mù quáng vào tài liệu.\n4. Lo ngại về khả năng tài liệu bị hư hỏng.\n--------------------\n가치: Giá trị\n사료: Tài liệu lịch sử\n중요하다: Quan trọng\nN-뿐만 아니라: Không chỉ... mà còn...\n\n‘일성록’은 단순한 일기를 넘어 한국뿐만 아니라 세계 역사에도 매우 중요한 사료로 인정받고 있습니다: \"Ilseongnok\" không chỉ đơn thuần là một cuốn nhật ký, nó được công nhận là một tài liệu lịch sử vô cùng quan trọng không chỉ ở Hàn Quốc mà còn trong lịch sử thế giới.",
-            "en": "Choose the answer that best suits the woman's attitude.\n1. Appreciating the value of the archives.\n2. Trying to figure out how to use the records.\n3. Be wary of blind faith in the archives.\n4. Be concerned about the possibility of damaging the archives.\n--------------------\n<g>가치:</g> Value, worth\n<g>사료:</g> Historical records\n<g>중요하다:</g> To be important\n\n<g>N + 뿐만 아니라:</g> Not only... but also...\n\n<g>‘일성록’은 단순한 일기를 넘어 한국뿐만 아니라 세계 역사에도 매우 중요한 사료로 인정받고 있습니다:</g> ‘Ilseongnok’ goes beyond a simple diary and is recognized as a very important historical document not only in Korea but also in the history of the world."
-          }
-        }
-      ],
-      "level": 2,
-      "kind": "210007",
-      "count_question": 2,
-      "tag": "listen"
+      "g_text_audio": "남자: 채소, 달걀 등의 식품을 정기적으로 배달 받는 서비스가 인기를 끌며 최근 4년간 이용자가 꾸준히 증가하고 있습니다. 이 서비스를 이용하는 이유로는 '신선하고 품질이 좋아서'가 가장 많았으며, '가격이 합리적이어서', '편리해서'가 그 뒤를 이었습니다.",
+      "g_text_audio_translate": {
+        "en": "Man: Services that regularly deliver food such as vegetables and eggs are gaining popularity, and the number of users has been steadily increasing over the past four years. The main reason for using the service was \"because it's fresh and good quality,\" followed by \"reasonable price\" and \"convenience.\"",
+        "vi": "Nam: Dịch vụ giao thực phẩm định kỳ như rau củ, trứng đang ngày càng phổ biến, số lượng người dùng đã tăng đều đặn trong 4 năm gần đây. Lý do sử dụng dịch vụ này nhiều nhất là vì \"tươi và chất lượng tốt\", sau đó là \"giá cả hợp lý\" và \"tiện lợi\"."
+      },
+      "g_audio": "/topiks/audios/226f04567a594a08c0255fea47ba341b_3_39.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[37～38] 다음은 교양 프로그램입니다. 잘 듣고 물음에 답하십시오. (각 2점)",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "en": "",
-          "vi": ""
-        },
-        "g_text_audio": "남자: 부모 세대가 사용했던 필름 카메라가 디지털에 익숙한 젊은 세대들의 마음을 사로잡고 있습니다.\n여자: 네. 필름 사진만이 갖는 독특한 감성 때문입니다. 필름을 현상하기 위해 약품 처리를 하는 과정에서 묘한 색감과 분위기가 나는데 그것이 아주 매력적이죠. 또 필름 카메라는 필름을 구하기도 어렵고 필름마다 찍을 수 있는 사진 수가 제한적이에요. 인화 과정을 거쳐야만 사진을 받아볼 수 있고요 이런 번거로움이 오히려 젊은 세대들이 사진 한 장 한 장을 소중하고 특별하게 느끼는 이유가 됩니다.",
-        "g_text_audio_translate": {
-          "en": "Man: The film cameras that our parents used are capturing the hearts of the younger generation who are familiar with digital.\nWoman: Yes. This is because of the unique sensibility that only film photography has. During the process of chemical treatment to develop the film, a strange color and atmosphere is created, which is very attractive. Also, it is difficult to obtain film for a film camera, and the number of pictures that can be taken with each film is limited. You can only receive photos after going through a printing process, and this inconvenience is actually the reason why the younger generation feels that each photo is precious and special.",
-          "vi": "Nam: Những chiếc máy ảnh phim mà thế hệ cha mẹ sử dụng đang chiếm được cảm tình của thế hệ trẻ đã quen với kỹ thuật số.\nNữ: Vâng. Điều này là do cảm xúc độc đáo mà chỉ có ảnh phim mới có. Trong quá trình xử lý hóa chất để tráng một cuộn phim, màu sắc và không khí tuyệt diệu được tạo ra, điều đó rất hấp dẫn. Ngoài ra, rất khó để mua được cuộn phim cho máy ảnh phim và số lượng ảnh có thể chụp bằng mỗi cuộn phim cũng có hạn. Bạn chỉ có thể nhận ảnh sau khi trải qua quá trình rửa ảnh, và sự bất tiện này thực chất là lý do khiến thế hệ trẻ cảm thấy mỗi bức ảnh đều quý giá và đặc biệt."
-        },
-        "g_audio": "/topiks/audios/15fbff73f59e9e031cdacd2c90704464_11_69.mp3",
-        "g_image": null
-      },
-      "content": [
-        {
-          "q_text": "여자의 중심 생각으로 가장 알맞은 것을 고르십시오.",
-          "q_image": null,
-          "q_point": 2,
-          "q_answer": [
-            "사진을 찍을 때는 정성을 들이는 게 중요하다.",
-            "필름 사진을 잘 찍으려면 많이 찍어 봐야 한다.",
-            "사진을 여러 장 인화하면 원본의 가치가 떨어진다.",
-            "필름 사진에는 감성을 자극하는 특별한 매력이 있다."
-          ],
-          "q_correct": 4,
-          "explain": {
-            "en": "Choose the sentence that best fits the woman's central idea.\n\n1. It is important to be sincere when taking photos.\n2. To take good film photos, you need to take a lot of them.\n3. If you print multiple photos, the value of the original decreases.\n4. Film photography has a special charm that stimulates emotions.\n--------------------\nThe woman explains that film photography brings unique emotions. 4 is the correct answer.",
-            "vi": "Chọn câu phù hợp nhất với suy nghĩ trọng tâm của nhân vật nữ.\n\n1. Điều quan trọng là phải chân thành khi chụp ảnh.\n2. Để chụp được ảnh phim đẹp thì cần phải chụp thật nhiều.\n3. Nếu rửa ảnh thành nhiều tấm, giá trị của bản gốc sẽ giảm.\n4. Ảnh phim có sức hấp dẫn đặc biệt, kích thích cảm xúc.\n--------------------\nNhân vật nữ giải thích về việc ảnh phim mang tới cảm xúc độc đáo. 4 là đáp án đúng."
-          }
-        },
-        {
-          "q_text": "들은 내용과 같은 것을 고르십시오.",
-          "q_image": null,
-          "q_point": 2,
-          "q_answer": [
-            "필름 사진은 인화하기 전에 미리 볼 수 있다.",
-            "필름 사진을 얻을 때까지의 과정이 수월해졌다.",
-            "필름 사진의 색감은 약품 처리를 할 때 생긴다.",
-            "필름 카메라가 부모 세대들에게 재유행하고 있다."
-          ],
-          "q_correct": 3,
-          "explain": {
-            "en": "Choose the one that fits what you heard.\n\n1. Film photos can be previewed before printing.\n2. The process of obtaining film photos has become easier.\n3. The color of film photos is created when processed with chemicals.\n4. Film cameras are making a comeback among our parents' generation.\n--------------------\nDuring the process of chemical treatment to develop the film, a strange color and atmosphere is created, which is very attractive. 3 is the correct answer.",
-            "vi": "Hãy chọn câu giống với nội dung đã nghe.\n\n1. Có thể xem trước ảnh phim trước khi rửa ảnh.\n2. Quá trình lấy ảnh phim đã trở nên dễ dàng hơn.\n3. Màu sắc của ảnh phim xuất hiện khi xử lý hóa chất.\n4. Máy ảnh phim đang thịnh hành trở lại đối với thế hệ cha mẹ.\n--------------------\nTrong quá trình xử lý hóa chất để tráng một cuộn phim, màu sắc và không khí tuyệt diệu được tạo ra. 3 là đáp án đúng."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/2e01051c3a616d89b04a81711f486e2b.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "The number of people using regular food delivery services has increased steadily over the past 4 years, so we do not choose answer 1. Answers 3 and 4 do not reasonably represent the proportion of reasons for using the service. Therefore, answer 2 is correct.",
+          "vi": "Số lượng người dùng dịch vụ giao thực phẩm định kỳ tăng đều đặn trong 4 năm gần đây nên ta không chọn đáp án 1. Đáp án 3 và 4 không thể hiện hợp lý tỷ lệ lý do sử dụng dịch vụ này. Như vậy 2 là đáp án đúng."
         }
-      ],
-      "level": 2,
-      "kind": "210007",
-      "count_question": 2,
-      "tag": "listen"
-    }
-  ],
-  "110008_1": [
-    {
-      "title": "[25～26] 다음을 듣고 물음에 답하십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 자, 여러분. 호텔에 도착했습니다. 많이 피곤하시죠? 먼저 방에 가 계시면 짐들을 가져다 드리겠습니다. 식사는 지하 1층 식당에서 하시면 됩니다. 호텔에 있는 수영장은 무료로 이용하실 수 있습니다. 그리고 필요한 것이 있으면 저에게 전화해 주십시오. 제 방은 301호입니다. 그럼 편히 쉬십시오. ",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Mọi người ơi. Chúng ta đã đến khách sạn rồi. Mọi người cảm thấy rất mệt đúng không? Các bạn cứ đi lên phòng trước đi rồi tôi sẽ mang hành lý lên sau. Các bạn có thể dùng bữa tại nhà hàng ở tầng hầm số 1. Hồ bơi ở khách sạn có thể được sử dụng miễn phí. Và nếu cần gì thì hãy cứ gọi cho tôi. Tôi ở phòng 301. Các bạn hãy nghỉ ngơi thật thoải mái nhé. ",
-          "en": "Woman: Everyone. We already arrived at the hotel. Are you tired? You guys just go up to your room first and I'll bring your luggage up later. You can eat in the restaurant on the first basement floor. You can use the swimming pool in the hotel for free. And if you need anything, just give me a call. My room is room 301. Please rest comfortably."
-        },
-        "g_audio": "/topiks/audios/a27f2d5e915e39e8248cd5c9687cef0a_29_39_31_14.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 2,
+    "kind": "210001_1",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1 ~ 3] 다음을 듣고 가장 알맞은 그림 또는 그래프를 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
       },
-      "content": [
-        {
-          "q_text": "어떤 이야기를 하고 있는지 고르십시오.",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "부탁",
-            "질문",
-            "초대",
-            "안내"
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Đoạn hội thoại đang nói về điều gì? \n1. Nhờ vả\n2. Thắc mắc\n3. Lời mời\n4. Hướng dẫn\n--------------------\nNgười phụ nữ đang hướng dẫn khách (cách dùng đồ, khi có chuyện cần giúp thì làm thế nào,...). ",
-            "en": "What is the conversation about?\n1. Request\n2. Question\n3. Invitation\n4. Guidance\n--------------------\nThe woman is guiding tourists (how to use things, what to do if they need help,...)."
-          }
-        },
-        {
-          "q_text": "들은 내용과 같은 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 4,
-          "q_answer": [
-            "사람들은 지금 호텔 방에 있습니다.",
-            "사람들은 짐을 직접 가지고 가야 합니다.",
-            "수영장을 이용하려면 돈을 내야 합니다.",
-            "도움이 필요하면 301호로 연락하면 됩니다."
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Bây giờ mọi người đang ở trong phòng khách sạn. \n2. Mọi người phải tự mang hành lý đi. \n3. Nếu muốn dùng hồ bơi thì phải trả tiền. \n4. Nếu cần giúp đỡ thì liên hệ phòng 301. \n--------------------\nNhân vật nữ nói rằng mình ở phòng 301 nên đáp án đúng là 4. ",
-            "en": "Choose the answer that matches what you heard.\n1. Now everyone is in the hotel room.\n2. Everyone must bring their own luggage.\n3. People have to pay to use the swimming pool.\n4. If anyone needs help, contact room 301.\n--------------------\nThe woman said that she was in room 301, so the correct answer is 4."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110008_1",
-      "count_question": 2,
-      "tag": "listen"
+      "g_text_audio": "남자: 의자에 앉아 보니까 어때?\n여자: 오, 잘 만들었다. 그런데 나한텐 좀 높은 거 같아.\n남자: 그래? 그럼 이 부분을 조금 더 잘라야겠다.",
+      "g_text_audio_translate": {
+        "en": "Man: How does it feel sitting on the chair? \nWoman: Oh, it's well made. But I think it's a bit high for me. \nMan: Really? Then I should cut this part down a bit more.",
+        "vi": "Nam: Ngồi thử lên ghế thấy thế nào?\nNữ: Ồ, cậu làm nó tốt đấy. Nhưng với tớ thì có vẻ hơi cao.\nNam: Vậy à? Thế thì tớ sẽ phải cắt phần này thấp xuống một chút."
+      },
+      "g_audio": "/topiks/audios/bc1816c7ac5023e8530610f81e2c5de2_3_25.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[25～26]다음을 듣고 물음에 답하십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 요즘 집안에 실내 정원을 만들고 싶어하는 분들 많으시죠? 하지만 꽃을 심고 정원을 가꾸는 게 보통 일은 아닙니다. 이럴 때 도움을 받을 수 있는 책이 한 권 있는데요. 이 책에는 꽃을 키우는 방법들이 사진과 함께 있어 배우기가 아주 쉽습니다. 또 봄, 여름, 가을, 겨울에 키울 수 있는 꽃의 종류도 알 수 있고요. ",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Dạo gần đây có rất nhiều người muốn xây một khu vườn trong nhà đúng không? Nhưng trồng hoa và chăm sóc vườn tược lại không phải là việc đơn giản. Những lúc thế này có một cuốn sách có thể giúp đỡ các bạn. Trong cuốn sách này có cách trồng hoa đi kèm với các bức ảnh nên rất dễ học. Ngoài ra, người đọc còn có thể biết được các loại hoa có thể trồng vào mùa xuân, hạ, thu, đông. ",
-          "en": "Woman: There are a lot of people who want to make an indoor garden in their house these days, right? But planting flowers and gardening are not common. At times like these there is a book that can help you. This book is very easy to learn because it has pictures of how to grow flowers. You can also know the kinds of flowers that can be grown in spring, summer, fall, and winter."
-        },
-        "g_audio": "/topiks/audios/1ccd82ee86c6abf4ab438822ef5d0d3b_30_10___31_52.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "어떤 이야기를 하고 있는지 고르십시오.",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "감사",
-            "부탁",
-            "신청",
-            "소개"
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Đoạn hội thoại đang nói về điều gì? \n1. Cảm ơn\n2. Nhờ vả\n3. Đăng ký\n4. Giới thiệu\n--------------------\nĐoạn băng đang giới thiệu về một cuốn sách hướng dẫn làm vườn. ",
-            "en": "What is the conversation about?\n1. Appreciation\n2. Request\n3. Application\n4. Introduction\n--------------------\nThe woman is introducing a gardening guidebook."
-          }
-        },
-        {
-          "q_text": "들은 내용과 같은 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 4,
-          "q_answer": [
-            "실내 정원은 가꾸기가 어렵지 않습니다.",
-            "이 책은 실내 정원을 만들 때 도움이 됩니다.",
-            "이 책을 보면 정원의 종류를 알 수 있습니다.",
-            "꽃을 키우는 방법은 책으로 배우기가 힘듭니다."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Làm vườn trong nhà không khó. \n2. Cuốn sách này sẽ có ích khi làm một khu vườn trong nhà. \n3. Cuốn sách này sẽ cho biết các loại vườn. \n4. Học cách trồng hoa từ sách rất khó. \n--------------------\n도움이 되다: Có ích, có lợi",
-            "en": "Choose the answer that matches what you heard.\n1. Indoor gardening is not difficult.\n2. This book will help you create an indoor garden.\n3. This book will tell you the types of gardens.\n4. Learning to grow flowers from books is very difficult.\n--------------------\n<g>도움이 되다:</g> Be a help to\n\n"
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/9d85b6c9fe6ed6c528ee2541b7b78d6d.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 2,
+        "explain": {
+          "en": "The woman is sitting on the chair made by the man. So 2 is the correct answer.",
+          "vi": "Nhân vật nữ đang ngồi thử lên chiếc ghế do nhân vật nam làm. Như vậy 2 là đáp án đúng."
         }
-      ],
-      "level": 1,
-      "kind": "110008_1",
-      "count_question": 2,
-      "tag": "listen"
-    }
-  ],
-  "110008_2": [
-    {
-      "title": "[27～28] 다음을 듣고 물음에 답하십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 부산에 소포를 보내려고 하는데 지금 보내면 언제 도착해요? \n남자: 지금 보내시면 모레 도착할 거예요. \n여자: 오늘 저녁까지 도착할 수는 없을까요? 제가 좀 급해서요. \n남자: 오전에 보내셨으면 오늘 안에 도착하는데 지금은 너무 늦었어요. 지금은 특급으로 보내도 내일 오전에 도착해요. \n여자: 아, 그래요? 내일 오전까지 들어갈 수 있으면 그걸로 해 주세요. ",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Tôi muốn gửi một bưu kiện tới Busan, nếu bây giờ tôi gửi thì khi nào hàng sẽ đến nơi? \nNam: Nếu bây giờ gửi thì ngày kia sẽ đến nơi. \nNữ: Bưu kiện không thể tới trong tối nay được sao? Vì tôi cần nó tới nơi hơi gấp một chút. \nNam: Nếu gửi vào buổi sáng thì bưu kiện sẽ tới trong ngày nhưng bây giờ thì muộn quá rồi. Bây giờ mà gửi chuyển phát nhanh thì cũng phải sáng mai mới tới nơi. \nNữ: À, vậy sao? Nếu có thể tới trong sáng mai thì anh gửi bằng đường đó giúp tôi. ",
-          "en": "Woman: I want to send a parcel to Busan, if I send it now, when will it arrive?\nMan: If you send it now, it will arrive the day after tomorrow.\nWoman: Can't the parcel arrive tonight? I'm in a bit of a hurry.\nMan: If you sent the parcel in the morning, it will arrive within today, but it's too late now. Even if you send it by express now, it will arrive tomorrow morning.\nWoman: Oh, really? If it can arrive tomorrow morning, please do that."
-        },
-        "g_audio": "/topiks/audios/b4e8b239a496c2d1ea0e29faa5823ef8_32_44_34_22.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 2,
+    "kind": "210001_1",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1～3]다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "소포를 빨리 보내는 방법",
-            "소포를 싸게 보내는 방법",
-            "소포를 잘 포장하는 방법",
-            "소포를 쉽게 보내는 방법"
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "Hai người này đang nói về điều gì? \n1. Cách gửi bưu kiện nhanh chóng\n2. Cách gửi bưu kiện với giá rẻ\n3. Cách đóng gói bưu kiện cẩn thận\n4. Cách gửi bưu kiện dễ dàng\n--------------------\nNhân vật nữ hơi vội và muốn bưu kiện nhanh tới nơi nên chọn đáp án 1. ",
-            "en": "What are these two talking about?\n1. How to send the parcel quickly\n2. How to send the parcel cheaply\n3. How to pack the parcel carefully\n4. How to send the parcel easily\n--------------------\nThe female is in a bit of a hurry and wants the parcel to arrive quickly, so 1 is correct."
-          }
-        },
-        {
-          "q_text": "들은 내용과 같은 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 4,
-          "q_answer": [
-            "여자는 부산에서 소포를 보냅니다.",
-            "여자는 빨리 소포를 받고 싶어 합니다.",
-            "여자는 소포를 특급으로 보낼 겁니다.",
-            "여자는 내일 오전에 소포를 받을 겁니다."
-          ],
-          "q_correct": 3,
-          "explain": {
-            "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Người phụ nữ gửi bưu kiện từ Busan. \n2. Người phụ nữ muốn nhanh nhận được bưu kiện. \n3. Người phụ nữ sẽ gửi bưu kiện bằng đường chuyển phát nhanh. \n4. Sáng mai người phụ nữ sẽ nhận được bưu kiện. \n--------------------\n내일 오전까지 들어갈 수 있으면 그걸로 해 주세요. Người phụ nữ nói rằng nếu có thể tới trong sáng mai thì hãy gửi bằng đường đó, tức là đường chuyển phát nhanh.",
-            "en": "Choose the answer that matches what you heard.\n1. The woman sends the parcel in Busan.\n2. The woman wants to get the parcel quickly.\n3. The woman will send the parcel by express.\n4. The woman will receive the parcel tomorrow morning.\n--------------------\n<g>내일 오전까지 들어갈 수 있으면 그걸로 해 주세요.</g> The woman asked the man to send the parcel by express if it could arrive tomorrow morning."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110008_2",
-      "count_question": 2,
-      "tag": "listen"
+      "g_text_audio": "남자: 얼마 전 발표된 '출판 시장 현황 조사'에 따르면 종이책의 매출은 감소하고 있는 반면 전자책의 매출은 증가하는 것으로 나타났습니다. 이 중 전자책을 구입하는 이유를 살펴보면 가지고 다니기 좋다는 응답이 가장 높은 순위를 차지하였고 사는 방법이 편하다, 종이책에 비해 싸다는 응답이 그뒤를 이었습니다.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Theo 'Khảo sát tình trạng thị trường xuất bản' được công bố gần đây, doanh số bán sách giấy đang giảm trong khi doanh số bán sách điện tử ngày càng tăng. Trong số đó, khi nhìn vào lý do mua sách điện tử, câu trả lời rằng nó thuận tiện mang theo chiếm thứ hạng cao nhất, tiếp theo là câu trả lời rằng cách thức mua tiện lợi và rẻ hơn sách giấy.",
+        "en": "Man: According to the 'Publishing Market Status Survey' recently announced, sales of paper books are decreasing, while sales of e-books are increasing. Among them, when looking at the reasons for purchasing e-books, the response that it is convenient to carry was the highest, followed by the response that it is convenient to buy and that it is cheaper than paper books."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/2c98fe9c0fdc1686ff8e8e3224d0381d.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[27～28]다음을 듣고 물음에 답하십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 선생님, 안녕하세요? 다음 주부터 방학이라 인사드리러 왔어요. \n남자: 어, 어서 와요. (조금 쉬고)이번 방학에는 뭐 할 거예요? \n여자: 방학을 좀 특별하게 보내고 싶어서 자전거 여행을 해 보려고요. \n남자: 음, 자전거 여행 좋죠. 힘들기는 하겠지만 좋은 경험이 될 거예요. \n여자: 네. 그리고 기타도 한번 배워 보려고 해요. \n남자: 새로운 걸 배워 보는 것도 좋겠네요. ",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Em chào thầy ạ. Từ tuần sau chúng em sẽ nghỉ hè nên em tới để chào thầy ạ. \nNam: Ồ, mau vào đi. (Nghỉ một lát) Em định làm gì trong kỳ nghỉ hè này? \nNữ: Em muốn trải qua một kỳ nghỉ thật đặc biệt nên định đi du lịch bằng xe đạp ạ. \nNam: Ừm, đi du lịch bằng xe đạp cũng vui đó. Sẽ vất vả nhưng đó sẽ là một trải nghiệm tuyệt vời. \nNữ: Vâng. Và em cũng muốn thử một lần học guitar. \nNam: Sẽ rất tuyệt khi học điều gì đó mới mẻ đó. ",
-          "en": "Woman: Teacher, how are you? From next week we will be on summer vacation, so I came to say goodbye.\nMan: Oh, come in quickly. (Stops talking for a moment) What are you going to do this summer vacation?\nWoman: I want to spend my vacation special, so I'm going to go on a bike trip.\nMan: Well, traveling by bike is also fun. It may be hard but it will be a great experience.\nWoman: Yes. And I also want to try to learn guitar.\nMan: It would be great to learn something new."
-        },
-        "g_audio": "/topiks/audios/c10282ca55fc18d2dde6612d8bd99491_32_53___34_50.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "방학 때 하고 싶은 일",
-            "방학 때 한 새로운 경험",
-            "방학 때 간 특별한 여행",
-            "방학 때 만나고 싶은 사람"
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "Hai người này đang nói về điều gì? \n1. Việc muốn làm trong kỳ nghỉ hè\n2. Trải nghiệm mới trong kỳ nghỉ hè\n3. Chuyến du lịch đặc biệt trong kỳ nghỉ hè\n4. Người mình muốn gặp trong kỳ nghỉ hè\n--------------------\nNhân vật nữ nói về những việc định làm trong kỳ nghỉ hè sắp tới nên đáp án đúng là 1. ",
-            "en": "What are these two talking about?\n1. What to do on vacation\n2. New experiences while on vacation\n3. A special trip during vacation\n4. People want to meet during vacation\n--------------------\nThe woman talks about what she plans to do during the upcoming summer vacation, so the correct answer is 1."
-          }
-        },
-        {
-          "q_text": "들은 내용과 같은 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 4,
-          "q_answer": [
-            "여자는 요즘 기타를 배우고 있습니다.",
-            "여자는 방학에 여행을 할 계획입니다.",
-            "여자는 자전거 여행이 힘들어서 싫습니다.",
-            "여자는 다음 주에 선생님을 찾아갈 겁니다."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Dạo này nhân vật nữ đang học guitar. \n2. Nhân vật nữ có kế hoạch đi du lịch trong kỳ nghỉ hè. \n3. Đi du lịch bằng xe đạp vất vả nên nhân vật nữ ghét điều đó. \n4. Nhân vật nữ sẽ đến gặp giáo viên vào tuần tới. ",
-            "en": "Choose the answer that matches what you heard.\n1. The woman is learning guitar these days.\n2. The woman plans to travel during the summer vacation.\n3. Traveling by bike is hard so the woman hates it.\n4. The woman will visit her teacher next week."
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/63539bec4533614c3e6b74786f9f25e2.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Đoạn băng cho biết doanh số bán sách giấy đang giảm trong khi doanh số bán sách điện tử ngày càng tăng, như vậy 4 là đáp án đúng. Đáp án 1 và 3 loại vì thứ hạng các lý do mua sách điện tử không đúng.",
+          "en": "The sales of paper books is decreasing while the sales of e-books is rising, so the correct answer is 4. 1 and 3 are wrong because the percentage of reasons for buying e-books is not suitable."
         }
-      ],
-      "level": 1,
-      "kind": "110008_2",
-      "count_question": 2,
-      "tag": "listen"
-    }
-  ],
-  "110008_3": [
-    {
-      "title": "[29～30] 다음을 듣고 물음에 답하십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 민수 씨, 이번 주말에 ‘사랑나누기’ 모임이 있는데 같이 가실래요? \n남자: ‘사랑나누기’요? 그게 뭐예요? \n여자: 혼자 사시는 할머니들을 도와 드리는 모임이에요. \n남자: 아, 그래요? 근데 무슨 일을 도와 드려요? \n여자: 청소를 하거나 음식을 만들어 드려요. 이번 주말엔 김치를 담가서 드릴 거예요. \n남자: 좋은 일을 하시네요. 저도 이번 모임에 가 보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해 볼게요. ",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Anh Minsoo, cuối tuần này có một cuộc họp mặt tên là \"Chia sẻ tình yêu thương\", anh có muốn đi cùng không? \nNam: \"Chia sẻ tình yêu thương\" ư? Đó là gì vậy nhỉ? \nNữ: Đó là cuộc họp mặt để giúp đỡ những bà cụ neo đơn sống một mình. \nNam: Ồ, vậy sao? Nhưng chúng ta có thể giúp gì cho các cụ? \nNữ: Chúng ta giúp các cụ dọn dẹp hoặc làm đồ ăn. Cuối tuần này bọn tôi định sẽ làm kimchi. \nNam: Quả là một việc làm tốt đó. Tôi cùng muốn thử đi tới cuộc gặp này. Tôi chưa từng làm kim chi nhưng sẽ cố gắng. ",
-          "en": "Woman: Minsoo, there's a gathering called \"Sharing the Love\" this weekend, do you want to come with us?\nMan: \"Share the love\"? What is that?\nWoman: It's a gathering to help elderly women who live alone.\nMan: Oh, really? But what can we do to help?\nWoman: We clean up or make food. We're going to make kimchi this weekend.\nMan: You guys are doing good things. I want to go to this gathering, too. I've never made kimchi, but I'll try my best."
-        },
-        "g_audio": "/topiks/audios/ba405dba07816102bb7716ecac78d074_35_52_37_39.mp3",
-        "g_image": ""
+      }
+    ],
+    "level": 2,
+    "kind": "210001_2",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[1～3]다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
       },
-      "content": [
-        {
-          "q_text": "두 사람은 왜 김치를 만듭니까?",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "할머니들께 드리고 싶어서",
-            "할머니들과 같이 먹고 싶어서",
-            "김치를 한번 담가 보고 싶어서",
-            "김치를 혼자 담그기가 힘들어서"
-          ],
-          "q_correct": 1,
-          "explain": {
-            "vi": "Tại sao hai người này lại làm kim chi? \n1. Vì muốn giúp đỡ những bà cụ\n2. Vì muốn ăn cùng những bà cụ\n3. Vì muốn thử làm kim chi một lần\n4. Vì làm kimchi một mình thì vất vả\n--------------------\nBạn nữ tham gia nhóm giúp đỡ những bà cụ sống một mình. Tuần này họ sẽ làm kimchi giúp những bà cụ đó. ",
-            "en": "Why are these two making kimchi?\n1. Because they want to help grandmothers\n2. Because they want to eat kimchi with grandmothers\n3. Because they want to try making kimchi once\n4. Because it's hard to make kimchi yourself\n--------------------\nThe woman joins a group to help elderly women who live alone. This weekend they will make kimchi for those elderly women."
-          }
-        },
-        {
-          "q_text": "들은 내용과 같은 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 4,
-          "q_answer": [
-            "남자는 이 모임에 간 적이 있습니다.",
-            "남자는 이번 주말에 모임에 갈 겁니다.",
-            "이 모임에서는 할머니들이 음식을 만듭니다.",
-            "이 모임에서는 이번 주말에 청소를 할 겁니다."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Bạn nam đã từng tới cuộc họp mặt. \n2. Cuối tuần này bạn nam sẽ đi tới cuộc họp mặt. \n3. Những bà cụ sẽ làm thức ăn trong cuộc họp mặt này. \n4. Mọi người sẽ dọn dẹp trong cuộc họp mặt cuối tuần này. \n--------------------\n저도 이번 모임에 가 보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해 볼게요. Bạn nam nói muốn đi tới cuộc họp mặt và sẽ làm kimchi thật chăm chỉ dù chưa làm bao giờ. ",
-            "en": "Choose the answer that matches what you heard.\n1. The man went to the gathering.\n2. The man will go to the gathering this weekend.\n3. The elderly woman will make food in the gathering.\n4. Everyone will clean up at this weekend's gathering.\n--------------------\n<g>저도 이번 모임에 가 보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해 볼게요. </g> The man said that he wanted to go to the gathering and would try his best to make kimchi even though he had never made it."
-          }
-        }
-      ],
-      "level": 1,
-      "kind": "110008_3",
-      "count_question": 2,
-      "tag": "listen"
+      "g_text_audio": "남자: 최근 직업을 선택할 때 가장 중요하게 생각되는 요인을 조사한 결과 '수입'이라는 응답이 가장 많았으며 ‘적성이나 흥미', ‘안정성’ 등이 그 뒤를 이었습니다. 과거에는 ‘안정성'이 가장 중요했지만 지금은 정신적인 만족감이나 안정성보다는 현재의 경제적인 면을 더 중요하게 생각하는 것으로 조사되었습니다.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Theo kết quả của một cuộc khảo sát gần đây về các yếu tố quan trọng nhất khi chọn một công việc, 'thu nhập' là câu trả lời phổ biến nhất, tiếp theo là 'năng khiếu hoặc sở thích' và 'sự ổn định'. Trước đây, ‘sự ổn định’ là điều quan trọng nhất, nhưng bây giờ, người ta thấy rằng khía cạnh kinh tế quan trọng hơn sự hài lòng về mặt tinh thần hay sự ổn định.",
+        "en": "Man: As a result of a recent survey on the most important factor when choosing a job, 'income' was the most common response, followed by 'aptitude or interest' and 'stability'. In the past, ‘stability’ was the most important, but now it has been investigated that the current economic aspect is more important than mental satisfaction or stability."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/8cea9a95f946d0dadeedd8ced71d9691.mp3",
+      "g_image": ""
     },
-    {
-      "title": "[29～30]다음을 듣고 물음에 답하십시오. ",
-      "general": {
-        "g_text": "",
-        "g_text_translate": {
-          "vi": "",
-          "en": ""
-        },
-        "g_text_audio": "여자: 아이 통장을 하나 만들려고 하는데요. \n남자: 아, 어린이 통장요? 요즘 입학 때라 많이들 만드시네요. \n여자: 네. 우리 아이도 자기 통장을 갖고 싶어해서 선물하려고요. \n남자: 좋은 생각이세요. 자기 통장이 생기면 돈을 모으는 즐거움을 느낄 수 있을 거예요. 참, 아이 도장은 가져오셨죠? \n여자: 도장이 필요해요? 안 가져왔는데... 그냥 내일 다시 와야겠네요. \n남자: 그럼 내일 아이도 데리고 오세요. 은행에 와서 직접 통장을 만들면 더 좋아할 거예요. ",
-        "g_text_audio_translate": {
-          "vi": "Nữ: Tôi muốn làm sổ ngân hàng cho con. \nNam: Ồ, sổ ngân hàng cho trẻ con ư? Dạo này là thời gian nhập học nên nhiều người làm nhỉ. \nNữ: Vâng. Con tôi cũng muốn có sổ ngân hàng của riêng mình nên tôi định tặng cho nó. \nNam: Ý tưởng hay đó. Nếu có sổ ngân hàng của riêng mình chúng có thể cảm nhận được niềm vui khi tiết kiệm được tiền. Để tôi xem nào, cô có mang theo con dấu riêng của con không? \nNữ: Cần con dấu sao? Tôi không mang theo... Chắc là tôi phải quay lại vào ngày mai rồi. \nNam: Vậy ngày mai cô hãy đưa cả cháu đến nữa. Nếu được trực tiếp tới mở sổ thì đứa bé sẽ càng thích nó hơn. ",
-          "en": "Woman: I want to make a bankbook for my child.\nMan: Oh, a children's bankbook? A lot of people make it these days because it's the admission season.\nWoman: Yes. My kid also wants his own bankbook so I plan to give it to him as a present.\nMan: That's a good idea. If they have their own bank book, they can feel the joy of saving money. By the way, did you bring your child's seal?\nWoman: We need a seal? I didn't bring it... I guess I'll have to come back tomorrow.\nMan: Then, bring your child with you tomorrow. He will like it more if he comes to the bank and makes his own bankbook."
-        },
-        "g_audio": "/topiks/audios/a8e6e086381c8464bead77dbd247e35e_36_18___38_28.mp3",
-        "g_image": ""
-      },
-      "content": [
-        {
-          "q_text": "여자는 왜 아이에게 통장을 만들어 줍니까?",
-          "q_image": "",
-          "q_point": 3,
-          "q_answer": [
-            "아이가 돈을 모으고 싶어해서",
-            "아이가 돈을 많이 가지고 있어서",
-            "아이가 통장을 바꿀 때가 되어서",
-            "아이가 자기 통장을 갖고 싶어해서"
-          ],
-          "q_correct": 4,
-          "explain": {
-            "vi": "Tại sao người phụ nữ muốn làm sổ ngân hàng cho con? \n1. Vì đứa trẻ muốn tiết kiệm tiền\n2. Vì đứa trẻ có rất nhiều tiền\n3. Vì đã đến lúc đứa trẻ phải đổi sổ ngân hàng \n4. Vì đứa trẻ muốn có sổ ngân hàng của riêng mình \n--------------------\n통장: Sổ tài khoản, sổ ngân hàng\n갖다: Có, cầm, sở hữu",
-            "en": "Why does the woman want to make a bankbook for her child?\n1. Because the child wants to save money\n2. Because the child has a lot of money\n3. Because it's time for the child to change his bankbook\n4. Because the child wants to have his own bankbook\n--------------------\n<g>통장:</g> Bankbook\n<g>갖다:</g> To have, to hold"
-          }
-        },
-        {
-          "q_text": "들은 내용과 같은 것을 고르십시오.",
-          "q_image": "",
-          "q_point": 4,
-          "q_answer": [
-            "여자는 지금 도장을 가지고 있습니다.",
-            "여자는 내일 은행에 다시 오려고 합니다.",
-            "여자는 아이에게 입학 선물을 주었습니다.",
-            "여자는 오늘 어린이 통장을 만들었습니다."
-          ],
-          "q_correct": 2,
-          "explain": {
-            "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Bây giờ người phụ nữ có mang theo con dấu. \n2. Người phụ nữ định ngày mai sẽ quay lại ngân hàng. \n3. Người phụ nữ đã tặng quà nhập học cho đứa trẻ. \n4. Người phụ nữ hôm nay đã làm sổ ngân hàng cho con. \n--------------------\n도장: Con dấu",
-            "en": "Choose the answer that matches what you heard.\n1. The woman is carrying the seal now.\n2. The woman intends to return to the bank tomorrow.\n3. The woman gave the child an admission gift.\n4. The woman made a bankbook for her child today.\n--------------------\n<g>도장:</g> Seal"
-          }
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "/topiks/images/b88b87fb5d79e589e45d3fdc9f2b5720.png",
+        "q_point": 2,
+        "q_answer": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Đoạn băng cho biết 'sự ổn định' giờ đây không còn là điều quan trọng nhất khi lựa chọn công việc nữa, vì vậy loại đáp án 1 và 3. Đáp án 4 phản ánh hợp lý tỷ lệ của các yếu tố. Như vậy 4 là đáp án đúng.",
+          "en": "Stability' isn't the most important thing when choosing a job now, so 1 and 3 are wrong. 4 reflects correctly the percentage of factors. The correct answer is 4. "
         }
-      ],
-      "level": 1,
-      "kind": "110008_3",
-      "count_question": 2,
-      "tag": "listen"
-    }
-  ]
-}
+      }
+    ],
+    "level": 2,
+    "kind": "210001_2",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[4～8] 다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 과장님, 내일 회의 때 발표할 사업 계획서입니다.\n여자: 수고하셨습니다. 회의 때 같이 나눌 다른 자료도 다 준비되었습니까?\n남자: __________________",
+      "g_text_audio_translate": {
+        "vi": "Nam: Trưởng phòng, đây là bản kế hoạch dự án sẽ phát biểu trong cuộc họp ngày mai ạ.\nNữ. Anh vất vả rồi. Anh đã chuẩn bị xong cả những tài liệu khác sẽ được phát cùng trong cuộc họp chưa?\nNam: __________________",
+        "en": "Man: Manager, this is the business plan to be presented at tomorrow's meeting.\nWoman: Good job. Have you prepared any other materials to share at the meeting?\nMan: __________________"
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/90f5271e70064b87be90bdb8c11c278f.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이미 준비해 놓았습니다.",
+          "사업 계획서를 만들겠습니다.",
+          "회의를 잘 준비하겠습니다.",
+          "지금 바로 제출하겠습니다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Tôi đã chuẩn bị trước cả rồi ạ.\n2. Tôi sẽ làm bản kế hoạch dự án.\n3. Tôi sẽ chuẩn bị cuộc họp thật tốt.\n4. Tôi sẽ nộp ngay bây giờ ạ.",
+          "en": "1. I have already prepared it.\n2. I will create a business plan.\n3. I will prepare well for the meeting.\n4. I will submit it right now."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210002",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[4～8] 다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 거실이 너무 넓어서 허전해 보였는데 이렇게 화분을 몇 개 놓으니까 훨씬 좋지?\n남자: 응, 그렇기는 한데 문 옆에 커다란 화분이 있으면 좀 불편할 것 같아.\n여자: __________________________________________________",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Phòng khách rộng quá nên nhìn hơi trống trải, em đặt chậu hoa vào thế này trông ổn hơn nhiều đúng không?\nNam: Ừ, đúng vậy nhưng nếu đặt chậu hoa lớn cạnh cửa thế này có lẽ sẽ hơi bất tiện.\nNữ: __________________________________________________",
+        "en": "Woman: The living room was so spacious that it looked empty. It's much better to put some flowerpots like this, right?\nMan: Yes, but I think it would be a bit inconvenient to have large flowerpots next to the door.\nWoman: __________________________________________________"
+      },
+      "g_audio": "/topiks/audios/362ba54a2570e28efa6f234d98118222_5_06___5_25.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "거실이 좀 넓으면 좋겠어.",
+          "그럼 저쪽으로 옮겨야겠네.",
+          "이따가 몇 개 더 갖다 놓을게.",
+          "화분이 없어서 허전한 것 같아."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Ước gì phòng khách rộng hơn một chút.\n2. Vậy thì em phải chuyển nó qua bên kia thôi.\n3. Lát nữa em sẽ mang thêm vài cái đến.\n4. Vì không có chậu hoa nên có vẻ trống trải.\n--------------------\nA + 아/어 보이다: Trông có vẻ.",
+          "en": "1. I wish the living room was a little bigger.\n2. Then I'll have to move it over there.\n3. I'll put a few more later.\n4. It seems to be empty because there is no flowerpot.\n--------------------\n<g>A + 아/어 보이다:</g> To look like, to seem like"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210002",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[9～12] 다음 대화를 잘 듣고 <u>여자</u>가 이어서 할 행동으로 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 민수 씨, 문자 받았어요?\n남자: 네, 토요일에 동아리 모임이 있다면서요? 참석할 거예요?\n여자: 아니요. 그날 일이 있어서 지금 회비만 보내려고요.\n남자: 그렇군요. 그럼 중요한 게 있으면 제가 모임 끝나고 전화할게요.",
+      "g_text_audio_translate": {
+        "en": "Woman: Minsu, did you receive the text message?\r\nMan: Yes, I heard there is a club meeting on Saturday? Are you going to attend?\r\nWoman: No. I have work to do that day, so I just want to send the membership fee now.\r\nMan: I see. Then, if there's anything important, I'll call you after the meeting.",
+        "vi": "Nữ: Minsu, bạn có nhận được tin nhắn không?\r\nNam: Vâng, tôi nghe nói thứ bảy có cuộc họp câu lạc bộ phải không? Bạn có định tham dự không?\r\nNữ: Không. Hôm đó tôi có việc phải làm nên bây giờ tôi định chỉ gửi phí thành viên.\r\nNam: Thì ra là vậy. Vậy nếu có gì quan trọng tôi sẽ gọi cho bạn sau khi cuộc họp kết thúc."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/260ec079a4d0ca5cb831770313e02b59.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "문자를 보낸다.",
+          "문자를 확인한다.",
+          "모임에 참석한다.",
+          "돈을 보낸다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "1. Send a text message.\n2. Check the text message.\n3. Attend the meeting.\n4. Send money.\n--------------------\nThe woman mentions that she won't attend the meeting but will only send the membership fee. Therefore, she will send money.",
+          "vi": "1. Gửi tin nhắn văn bản.\n2. Kiểm tra tin nhắn văn bản.\n3. Tham dự cuộc họp.\n4. Gửi tiền.\n--------------------\nNhân vật nữ cho biết cô sẽ không dự cuộc họp mà chỉ gửi phí thành viên. Như vậy tiếp theo cô sẽ gửi tiền."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210003",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[9～12] 다음 대화를 잘 듣고 <u>여자</u>가 이어서 할 행동으로 알맞은 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "여자: 빨래방은 처음인데 먼저 코스 선택하고 세탁물 넣으면 되나?\n남자: 여기 안내문 있다. 세탁물 넣은 후에 코스 선택하고, 동전 넣으래.\n여자: 나 동전은 없는데. 아, 저기 동전 교환기 있네. 바꿔 올게.\n남자: 응. 난 또 뭘 해야 되는지 읽어 볼게.",
+      "g_text_audio_translate": {
+        "en": "Woman: This is my first time at a laundromat. Can I select a course first and then load the laundry?\nMan: Here is a notice. After putting in the laundry, select a course and insert a coin.\nWoman: I don't have any coins. Oh, there's a coin exchange machine over there. I'll go change coins.\nMan: Okay. I'll read what else to do.",
+        "vi": "Nữ: Đây là lần đầu tiên tớ đến phòng giặt quần áo đó. Chọn chế độ giặt trước rồi cho đồ vào giặt là được phải không?\nNam: Ở đây có bảng hướng dẫn này. Người ta bảo rằng sau khi cho đồ giặt vào, chọn chế độ giặt rồi nhét một đồng xu vào.\nNữ: Tớ không có đồng xu nào cả. Ồ, có một máy đổi tiền ở đằng kia. Tớ sẽ đi đổi rồi quay lại.\nNam: Ừm. Tớ sẽ đọc xem cần làm gì tiếp theo."
+      },
+      "g_audio": "/topiks/audios/4803cfe80ff2a41ef6cbf94400bc95ae_3_41.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "세탁물을 넣는다.",
+          "안내문을 읽는다.",
+          "동전을 바꾸러 간다.",
+          "세탁 코스를 선택한다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "1. Put in the laundry.\r\n2. Read the notice.\r\n3. Go change coins.\r\n4. Select a washing course.\n--------------------\nThe woman says she will go change coins and come back.",
+          "vi": "1. Cho đồ cần giặt vào.\n2. Đọc thông báo.\n3. Đi đổi đồng xu.\n4. Chọn chế độ giặt.\n--------------------\nNhân vật nữ nói rằng cô sẽ đi đổi đồng xu rồi quay lại."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210003",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[13～16]다음을 듣고 내용과 일치하는 것을 고르십시오.(각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 모기와 파리는 우리 주변에서 흔히 볼 수 있는 곤충이죠. 그런데 왜 모기 소리만 더 크게 들리는 걸까요? 그건 바로 날갯짓의 차이 때문입니다. 모기는 1초에 600번 정도로 날개를 빨리 움직입니다. 그 때문에 사람이 들을 수 있을 정도의 앵앵거리는 소리가 나죠. 그런데 파리는 날갯짓을 50번 정도밖에 못 하기 때문에 소리가 작은 겁니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Muỗi và ruồi là những côn trùng thường thấy xung quanh chúng ta. Nhưng tại sao tiếng của muỗi lại nghe to hơn? Đó chính là do sự khác biệt về cánh. Muỗi vỗ cánh nhanh khoảng 600 lần một giây. Đó là lý do tại sao nó tạo ra tiếng kêu đủ để con người có thể nghe được. Nhưng ruồi thì chỉ có thể vỗ cánh khoảng 50 lần nên âm thanh nhỏ.",
+        "en": "Woman: Mosquitoes and flies are common insects around us. But why is the mosquito sound louder? That's because of the difference in flapping wings. Mosquitoes move their wings as fast as 600 times per second. That's why it makes a buzzing sound that's audible to humans. But flies only flap their wings about 50 times, so the sound is low."
+      },
+      "g_audio": "/topiks/audios/88b82bf8163f29ad7d054a0ee328dfee_15_09_16_31.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "곤충의 크기가 비슷하면 날갯짓도 비슷하다.",
+          "모기와 파리는 날개의 모양과 크기가 다르다.",
+          "파리는 크기 때문에 날개를 조금만 움직여도 된다.",
+          "모기는 날개를 빨리 움직이기 때문에 소리가 난다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "1. Nếu các loài côn trùng có kích thước tương tự nhau, thì đôi cánh của chúng cũng sẽ giống nhau.\n2. Muỗi và ruồi khác nhau về hình dạng và kích thước đôi cánh.\n3. Vì ruồi lớn nên chúng chỉ vỗ cánh ít cũng được.\n4. Muỗi phát ra âm thanh vì chúng vỗ cánh nhanh chóng.\n--------------------\nMuỗi vỗ cánh 600 lần một giây nên tạo ra âm thanh con người có thể nghe được. Vì vậy 4 là đáp án chính xác.",
+          "en": "1. If insects are similar in size, their wings will be similar.\n2. Mosquitoes and flies differ in the shape and size of their wings.\n3. Because flies are large, they can move their wings a little.\n4. Mosquitoes make noises because they move their wings quickly.\n--------------------\nMosquitoes flap their wings 600 times a second, so they create sounds that humans can hear. So 4 is the correct answer."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210004",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[13～16]다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 다음 달에 학교 기숙사에서 나가야 하는데 어디 좋은 데 없을까?\n여자: 고시원은 어때? 방이 작기는 하지만 혼자 살기에는 충분할 거야. 내가 아는 고시원이 있는데, 알아봐 줄까?\n남자: 그래? 한번 알아보고 거기 빈 방이 있거든 좀 말해 줄래?\n여자: 알았어. 지하철역에서도 가깝고 깨끗한 편이어서 마음에 들 거야.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Tớ phải rời khỏi ký túc xá của trường vào tháng tới, cậu có biết chỗ nào tốt không?\nNữ: Gosiwon thì sao? Căn phòng tuy nhỏ nhưng cũng đủ cho cậu sống một mình. Có một gosiwon mà tớ biết, nó tìm hiểu giúp cậu nhé?\nNam: Vậy sao? Vậy cậu tìm hiểu xem ở đó có phòng trống không rồi cho tớ biết với nhé?\nNữ: Được rồi. Nó gần ga tàu điện ngầm và sạch sẽ, vì vậy cậu sẽ thích nó.",
+        "en": "Man: I have to leave the school dormitory next month, is there any good place?\nWoman: How about a goshiwon? The room is small, but it will be enough for a single person. There is a gosiwon I know. Would you like me to check it out?\nMan: Really? Can you check it out and tell me if there's an empty room there?\nWoman: All right. It's close to the subway station and it's clean, so you'll like it."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/193f0d3b76ed9443bcd0912ce977ec81.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "남자는 이사할 곳을 찾고 있다.",
+          "남자는 기숙사가 마음에 들지 않는다.",
+          "여자는 고시원으로 이사하고 싶어한다.",
+          "여자는 기숙사에 들어갈 것이다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "1. Nhân vật nam đang tìm kiếm một nơi để chuyển đi.\n2. Nhân vật nam không thích ký túc xá.\n3. Nhân vật nữ muốn chuyển đến gosiwon.\n4. Nhân vật nữ sẽ vào ký túc xá.\n--------------------\n고시원: Nhà trọ luyện thi \n\nNhân vật nam cho biết anh phải rời khỏi ký túc xá của trường vào tháng tới và hỏi nhân vật nữ một chỗ tốt để chuyển đến. Như vậy 1 là đáp án đúng.",
+          "en": "1. The man is looking for a place to move.\n2. The man doesn't like the dormitory.\n3. The woman wants to move to a gosiwon.\n4. The woman will go into the dormitory.\n--------------------\n<g>고시원:</g> Accommodations for students studying for exams\n\nThe man said that he had to leave the school dormitory the following month and asked the woman a good place to move to. So the correct answer is 1. "
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210004",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[17～20]다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 무슨 일 있어? 얼굴이 안 좋아 보이네.\n여자: 아침에 같은 방 쓰는 친구하고 싸웠거든. 아직도 화가 나서 참을 수가 없어.\n남자: 그렇게 계속 화만 내지 말고 천천히 네가 뭐 때문에 화가 났는지 생각해 봐. 그리고 그걸 간단하게 글로 써 봐. 그러다 보면 화가 좀 풀릴 거야.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Có chuyện gì vậy? Nhìn mặt cậu không được tốt cho lắm.\nNữ: Tớ đã cãi nhau với bạn cùng phòng vào buổi sáng. Tớ vẫn còn tức giận và không thể chịu đựng được.\nNam: Đừng chỉ cứ tức giận như vậy, hãy từ từ nghĩ xem cậu tức giận vì cái gì. Và hãy thử viết một cách đơn giản điều đó ra xem. Nếu làm như vậy thì sẽ bớt tức giận đó.",
+        "en": "Man: What's wrong? You don't look well.\nWoman: I had a fight with my friend in the morning. I'm still so angry that I can't stand it.\nMan: Don't just keep getting angry, take your time and think about what you're angry with. And write it down simply. That will ease your anger."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/6e7fc585e4eb4cee35600ea37fa5faf2.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "화를 푸는 방법을 찾는 것이 필요하다.",
+          "싸우고 나면 되도록 빨리 화해하는 것이 좋다.",
+          "화가 났던 이유를 글로 써 보는 것이 좋다.",
+          "싸우기 전에 천천히 친구의 얘기를 들어야 한다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "1. Việc tìm cách giải tỏa cơn giận là cần thiết.\n2. Sau khi cãi nhau, tốt nhất là hòa giải càng sớm càng tốt.\n3. Nên viết ra lý do tại sao lại tức giận. \n4. Trước khi cãi nhau thì nên từ từ lắng nghe câu chuyện của bạn bè.\n--------------------\nNhân vật nam khuyên nhân vật nữ hãy nghĩ xem mình tức giận vì cái gì và viết một cách đơn giản điều đó ra. Như vậy 3 là đáp án đúng.",
+          "en": "1. You need to find a way to release your anger.\n2. It is good to reconcile as soon as possible after a fight.\n3. It's good to write down why you're angry.\n4. You should listen to your friend slowly before fighting.\n--------------------\nThe man advised the woman to think about what she was angry with and write it simply. So the correct answer is 3."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210005",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[17～20]다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 아토피 증상 중에 가장 괴로운 것을 꼽으라면 역시 가려움증입니다. 그렇다 보니 여러 민간요법이 많은데요. 실제로 평상시 많이 가려울 때 우리가 할 수 있는 효과적인 방법은 어떤 것이 있나요?\n남자: 민간요법 대부분이 모든 환자에게 효과가 있지는 않고 효과가 있다 해도 일시적일 뿐이며 피부에 자극을 주어 아토피 피부염을 오히려 악화시키는 경우가 많습니다. 가장 중요한 것은 보습입니다. 적절한 목욕과 보습제 사용을 통해 피부 기능을 정상으로 만들어야 합니다. 피부에 직접 닿는 옷은 순면 재질을 입어야 하며 손발톱을 짧고 청결하게 관리하고 방안의 온도와 습도를 적절하게 유지해야 합니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Ngứa là triệu chứng khó chịu nhất trong các triệu chứng dị ứng da. Do đó mà quả nhiên có rất nhiều bài thuốc dân gian. Xin ông cho biết một số cách có hiệu quả trên thực tế mà chúng ta có thể làm khi bị ngứa nhiều lúc bình thường?\nNam: Hầu hết các bài thuốc dân gian đều không có tác dụng với tất cả các bệnh nhân, nếu có hiệu quả thì cũng chỉ là tạm thời, ngược lại nó có thể gây kích ứng da khiến bệnh dị ứng da trở nên trầm trọng hơn trong nhiều trường hợp. Điều quan trọng nhất là dưỡng ẩm. Phải làm cho chức năng của da trở nên bình thường thông qua việc tắm và sử dụng chất dưỡng ẩm thích hợp. Quần áo chạm trực tiếp vào da phải là chất liệu cotton, giữ móng tay ngắn và sạch sẽ, giữ nhiệt độ và độ ẩm trong phòng ở mức thích hợp.",
+        "en": "Woman: Among the symptoms of atopy, the most painful thing is, of course, itching. So, there are many folk remedies. What are some effective ways that we can do when we are actually very itchy?\nMan: Most folk remedies do not work for all patients, and even if they are effective, they are only temporary and often aggravate atopic dermatitis by irritating the skin. The most important thing is moisturizing. Skin function should be brought to normal through proper bathing and the use of moisturizers. Clothes that come in direct contact with the skin should be made of pure cotton, nails should be kept short and clean, and the temperature and humidity in the room should be maintained appropriately."
+      },
+      "g_audio": "/topiks/audios_text_to_speech_v2/8cc22b2d9f0464925205ee16f990ada8.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "아토피 증상이 있을 때 피부에 자극을 주는 것이 좋다.",
+          "아토피 증상에는 보습이 가장 중요하다.",
+          "아토피 증상에는 민간요법이 효과적이다.",
+          "아토피 증상 중 가장 괴로운 것은 가려움이다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "<div>1. Khi bị dị ứng da, tốt hơn nên gây kích ứng lên da.</div><div>2. Độ ẩm là quan trọng nhất đối với chứng dị ứng da.</div><div>3. Các bài thuốc dân gian có hiệu quả đối với chứng dị ứng da.</div><div>4. Ngứa là triệu chứng khó chịu nhất trong các triệu chứng dị ứng da.</div><div>--------------------</div><div>Nhân vật nam cho biết điều quan trọng nhất để khắc phục tình trạng ngứa là phải dưỡng ẩm, đó là suy nghĩ trọng tâm của nhân vật nam. Như vậy 2 là đáp án đúng.</div>",
+          "en": "<div>1. It is good to irritate your skin when you have atopic symptoms.</div><div>2. Moisturizing is the most important thing for atopic symptoms.</div><div>3. Folk remedies are effective for atopic symptoms.</div><div>4. The most painful atopic symptom is itching.</div><div>--------------------</div><div>The man said that the most important thing is moisturizing, which is the man's central thought. So the correct answer is 2.&nbsp;</div>"
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210005",
+    "count_question": 1,
+    "tag": "listen"
+  },
+  {
+    "title": "[27～28]다음을 듣고 물음에 답하십시오.(각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: 저는 지금이라도 가로수를 교체해야 한다고 봅니다. 아름답게 조성된 가로수 길에서 시민들이 행복해해야 하는데, 오히려 가을만 되면 은행 나무 열매 냄새 때문에 시민들이 불쾌해하지 않습니까? 은행을 밟을까 봐 피해서 다니느라고 통행에 불편을 겪는 시민들도 많고요. 해마다 반복되는 문제이니만큼 이번 기회에 바꾸는 게 좋다고 생각합니다. \n여자: 물론 그런 문제도 있지만, 지난번 여론 조사에서 은행나무가 아름답기도 하고 심리적인 안정을 준다고, 가로수 교체를 반대한다는 시민들이 많더라고요. 가로수 교체보다는 시민들의 불편을 줄일 수 있는 다른 방법을 마련해야 하지 않을까요?",
+      "g_text_audio_translate": {
+        "vi": "Nam: Tôi nghĩ rằng phải thay cây trên đường phố ngay từ lúc này. Người dân đáng ra phải hạnh phúc trên con đường có hàng cây được trồng đẹp đẽ, nhưng trái lại khi thu đến, không phải họ khó chịu vì mùi của hạt cây ngân hạnh sao? Cũng có rất nhiều người dân gặp bất tiện khi đi lại vì họ phải tránh đạp phải ngân hạnh mà đi. Vì nó là một vấn đề lặp đi lặp lại hàng năm, tôi nghĩ rằng nên thay đổi vào lần này.\nNữ: Tất nhiên là có vấn đề như vậy, nhưng trong đợt thăm dò ý kiến ​​vừa rồi, nhiều người dân cho rằng cây ngân hạnh đẹp và tạo ra sự ổn định trong tâm lý, họ phản đối việc thay thế cây xanh đường phố. Có nên nghĩ ra một cách khác để giảm bớt sự bất tiện cho người dân hơn là thay thế cây xanh trên đường phố hay không?",
+        "en": "Man: I think the street trees need to be replaced now. Citizens should be happy on the beautifully constructed streets, but in autumn, the smell of ginkgo nuts makes the citizens uncomfortable, don't they? There are many citizens who suffer from inconvenience in passing because they avoid stepping on ginkgo. Since this is a problem that repeats every year, I think it is good to change it this time.\nWoman: Of course, there is such a problem, but in the last poll, many citizens said that ginkgo trees are beautiful and give psychological stability, and that they oppose the replacement of street trees. Shouldn't we come up with another way to reduce inconvenience to citizens rather than replacing street trees?"
+      },
+      "g_audio": "/topiks/audios/d04d8510d02f985fd641b74e33c69a37_37_54_39_53.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "남자의 생각으로 맞는 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "아름다운 나무를 가로수로 심어야 한다.",
+          "가로수는 시민들의 심리 안정에 도움이 된다.",
+          "은행나무 가로수는 시민들에게 불편을 주고 있다.",
+          "통행이 많은 곳에는 가로수를 심지 않는 것이 좋다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn câu đúng với suy nghĩ của nhân vật nam.\n1. Cây đẹp nên trồng làm cây xanh đường phố.\n2. Cây xanh đường phố giúp ích cho sự ổn định tâm lý của người dân.\n3. Cây ngân hạnh trên đường phố đang gây bất tiện cho người dân.\n4. Không nên trồng cây xanh đường phố ở những nơi có nhiều người qua lại.\n--------------------\n불쾌하다: Khó chịu\n불편: Bất tiện\n\nNgười dân gặp bất tiện vì mùi của cây ngân hạnh và lo giẫm phải nó.",
+          "en": "Choose the one that matches the man's thoughts.\n1. Beautiful trees should be planted as street trees.\n2. Street trees are helpful for the psychological stability of citizens.\n3. Ginkgo trees are causing inconvenience to citizens.\n4. It is better not to plant street trees in places with a lot of traffic.\n--------------------\n<g>불쾌하다:</g> To be unpleasant\n<g>불편:</g> Inconvenience\n\nPeople were inconvenienced by the smell of ginkgo and worried about stepping on it."
+        }
+      },
+      {
+        "q_text": "여자의 생각이나 태도로 맞는 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "남자의 의견에 동조하고 있다.",
+          "남자의 말에 감정적으로 대응하고 있다.",
+          "강력하게 문제에 대한 책임을 묻고 있다.",
+          "조심스럽게 자신의 의견을 밝히고 있다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn câu đúng với suy nghĩ hay thái độ của nhân vật nữ.\n1. Đồng ý với ý kiến của nhân vật nam.\n2. Đối ứng một cách cảm tính với lời nói của nhân vật nam.\n3. Yêu cầu chịu trách nhiệm về vấn đề một cách mạnh mẽ.\n4. Thận trọng làm rõ ý kiến của bản thân.\n--------------------\n하지 않을까?: Cấu trúc dùng để bày tỏ ý kiến một cách khiêm tốn.\n\nNhân vật nữ đồng ý một phần ý kiến của nhân vật nam và dẫn ra căn cứ để phản bác. ",
+          "en": "Choose the one that fits the woman's thoughts and attitude.\n1. Agreeing with the man's opinion.\n2. Responding emotionally to the man's words.\n3. Strongly holding accountable for the problem.\n4. Cautiously expressing her opinion.\n--------------------\n<g>하지 않을까?:</g> Shouldn't we?\n\nThe woman partially agrees with the man's opinion and cites the basis for rebuttal."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210006",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[21～22]다음을 듣고 물음에 답하십시오.(각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "남자: ‘TV를 말하다’ 오늘은 최근 5주간 시청률 1위를 기록하고 있는 ‘아빠의 도전’의 인기 요인에 대해 들어보겠습니다. (잠시 쉬고) 전문가 입장에서 이 프로그램의 인기 비결이 뭐라고 생각하십니까?\n여자: 네. 아마도 다양한 사연을 가진 출연자들의 울고 웃는 모습이 그대로 방송돼 시청자의 마음을 움직인 것 같습니다. 그리고 출연자들이 실패 끝에 도전에 성공하는 것을 보면서 시청자는 출연자와 하나 가 된 느낌을 갖게 되고요. 무엇보다도 ‘아빠의 도전’은 우리 곁에 있는 아빠들이 출연한다는 점에서 시청자들에게 큰 공감을 불러일으키는 거죠.",
+      "g_text_audio_translate": {
+        "vi": "Nam: Trong \"Nói Về Tivi\" hôm nay, chúng ta sẽ tìm hiểu nguyên nhân nổi tiếng của chương trình \"Thử Thách Của Bố\", chương trình hiện đang ghi nhận tỷ suất xem đài số 1 trong suốt 5 tuần gần đây. (Nghỉ một chút) Trên góc nhìn của chuyên gia, cô nghĩ lý do thành công của chương trình này là gì?\nNữ: Vâng. Có lẽ những hình ảnh khóc, cười của những người tham gia với nhiều câu chuyện khác nhau được lên sóng nguyên vẹn nên chúng đã làm lay động tấm lòng của khán giả. Khi khán giả thấy người tham gia thành công trong thử thách sau những lần thất bại, họ có cảm giác hòa làm một với người tham gia. Hơn hết, trong chương trình \"Thử Thách Của Bố\", người tham gia là các ông bố ở cạnh chúng ta, thế nên họ khơi dậy sự đồng cảm rất lớn ở khán giả.",
+        "en": "Man: In 'Talking about TV' today, let's hear about the popular factors of 'Daddy's Challenge', which has ranked first in viewership ratings for the last 5 weeks. (Stops for a while) As an expert, what do you think is the secret to the popularity of this program?\nWoman: Yes. Perhaps the crying and smiling faces of the performers with various stories were broadcast and moved the hearts of the viewers. And watching the performers succeed in their challenges after failure, viewers feel as one with the cast. Above all, \"Daddy's Challenge\" is something that resonates with viewers in that it stars fathers who are around us."
+      },
+      "g_audio": "/topiks/audios/dfb08828054a1038feed3a4ec8eb6350_27_56_29_52.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "들은 내용으로 맞는 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "최근 일반인들이 출연할 수 있는 프로그램이 생겼다.",
+          "‘TV를 말하다’는 최근 5주 동안 시청률이 가장 높았다.",
+          "평범한 아빠들의 도전을 다룬 프로그램이 인기를 끈다.",
+          "인기 있는 프로그램에는 사연이 특별한 출연자들이 나온다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Hãy chọn câu đúng với nội dung đã nghe.\n1. Gần đây xuất hiện chương trình mà người bình thường có thể tham gia.\n2. \"Nói Về Tivi\" có tỉ suất xem đài cao nhất trong suốt 5 tuần gần đây.\n3. Chương trình nói về thử thách của những ông bố bình thường thu hút sự chú ý.\n4. Trong chương trình nổi tiếng, những người tham gia mang câu chuyện đặc biệt xuất hiện.\n--------------------\n인기를 끌다: Thu hút sự chú ý\n시청률: Tỉ suất xem đài\n\n최근 5주간 시청률 1위를 기록하고 있는 ‘아빠의 도전’: Chương trình \"Thử Thách Của Bố\", chương trình hiện đang ghi nhận tỷ suất xem đài số 1 trong suốt 5 tuần gần đây.\n\nChương trình có tỉ suất xem đài cao tức là đang thu hút sự chú ý.\n",
+          "en": "Choose the one that fits what you heard.\n1. Recently appeared a program that ordinary people can participate in.\n2. \"Talking About TV\" has the highest viewership ratings in the last 5 weeks.\n3. The show about the challenges of ordinary fathers attracts attention.\n4. In the popular program, participants with special stories appear.\n--------------------\n<g>인기를 끌다:</g> To attract attention\n<g>시청률:</g> Ratings\n\n<g>최근 5주간 시청률 1위를 기록하고 있는 ‘아빠의 도전’:</g> 'Daddy's Challenge', which has ranked first in viewership ratings for the last 5 weeks.\n\nA program with a high viewership rating means it is attracting attention.\n"
+        }
+      },
+      {
+        "q_text": "여자가 누구인지 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "일반인 도전 프로그램 출연자",
+          "시청률 1위 프로그램의 진행자",
+          "프로그램 게시판에 감상평을 쓴 시청자",
+          "프로그램의 인기 요인을 분석한 비평가"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Nhân vật nữ là ai?\n1. Người tham gia chương trình thử thách cho người bình thường\n2. Người dẫn chương trình có tỉ suất xem đài hạng 1\n3. Khán giả viết cảm nhận trên bảng tin của chương trình\n4. Nhà phê bình phân tích nguyên nhân chương trình nổi tiếng\n--------------------\n전문가: Chuyên gia\n비결: Bí quyết\n요인: Nguyên nhân\n비평가: Nhà phê bình\n\nNhân vật nam hỏi nhân vật nữ về bí quyết nổi tiếng của chương trình dưới góc nhìn chuyên gia. Vậy nhân vật nữ là nhà phê bình và đang nói về nguyên nhân chương trình nổi tiếng.",
+          "en": "Who is the woman?\n1. Participants in the challenge program for ordinary people\n2. Host of the program with the highest ratings\n3. Viewers who wrote reviews on the program bulletin board\n4. Critics who analyzed the program's popularity factors\n--------------------\n<g>전문가:</g> Expert\n<g>비결:</g> Secret\n<g>요인:</g> Main cause\n<g>비평가:</g> Critic\n\nThe man asks the woman about the secret of the show's popularity from an expert perspective. So the woman is a critic and is talking about why the show is popular."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210006",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[49～50] 다음은 강연입니다. 잘 듣고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 이것은 조선 후기 왕들의 일기인 ‘일성록’입니다. 하루의 반성문이란 뜻을 가진 이 책은 왕의 소소한 일상에서부터 국정 업무 전반을 왕의 시점으로 기록한 것인데요. 당시의 왕들은 ‘일성록’을 신하들이 볼 수 있게 하여 국정 업무에 참고하게 했습니다. 이 일기에는 백성들의 상소와 처리 과정은 물론 그에 대한 왕의 심경까지 기록되어 있고, 18세기부터 20세기에 걸친 세계정세 변화와 동서양의 사회 문화적 교류 양상까지도 상세히 적혀 있습니다. ‘일성록’은 단순한 일기를 넘어 한국뿐만 아니라 세계 역사에도 매우 중요한 사료로 인정받고 있습니다.",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Đây là \"Ilseongnok\", nhật ký của các vị vua thời hậu Joseon. Cuốn sách này có nghĩa là bản kiểm điểm của một ngày, nó ghi lại toàn bộ từ chuyện ngày thường nhỏ nhặt của vua đến công việc nhà nước theo góc nhìn của nhà vua. Vào thời đó,  các vị vua cho phép quần thần có thể xem \"Ilseongnok\" và tham khảo công việc nhà nước. Trong cuốn nhật ký này không chỉ ghi chép tấu sớ của dân chúng và quá trình xử lý mà còn ghi lại cả cảm nhận của nhà vua về việc đó, những biến động của tình hình thế giới từ thế kỷ 18 đến thế kỷ 20 và quá trình hình thành giao lưu văn hóa xã hội giữa phương Đông và phương Tây cũng được ghi lại một cách chi tiết. \"Ilseongnok\" không chỉ đơn thuần là một cuốn nhật ký, nó được công nhận là một tài liệu lịch sử vô cùng quan trọng không chỉ ở Hàn Quốc mà còn trong lịch sử thế giới.",
+        "en": "Woman: This is ‘Ilseongnok’, the diary of the kings of the late Joseon Dynasty. This book, which means a day's reflection, is a record of the king's daily life and overall state affairs from the king's point of view. The kings of that time made ‘Ilseongnok’ available for their servants to refer to for state affairs. In this diary, not only the appeals and handling of the people, but also the king's feelings about him are recorded, and the changes in the world situation from the 18th to the 20th century and the social and cultural exchanges between the East and the West are also recorded in detail. ‘Ilseongnok’ goes beyond a simple diary and is recognized as a very important historical document not only in Korea but also in the history of the world."
+      },
+      "g_audio": "/topiks/audios/5396b74172168dc77bc2cd571041675f_56_19___58_45.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "들은 내용과 일치하는 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "이 책은 왕의 업무 내용을 담고 있다",
+          "이 책은 신하들에게 공개되지 않았다.",
+          "이 책은 백성의 관점에서 작성되었다.",
+          "이 책은 조선 시대 이전에 기록되었다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Hãy chọn câu đúng với nội dung đã nghe.\n1. Cuốn sách này có chứa nội dung công việc của nhà vua.\n2. Cuốn sách này không được công khai cho quần thần.\n3. Cuốn sách này được viết từ quan điểm của nhân dân.\n4. Cuốn sách này được viết trước triều đại Joseon.\n--------------------\n업무: Công việc\n담다: Chứa đựng\n기록하다: Ghi chép \n\n하루의 반성문이란 뜻을 가진 이 책은 왕의 소소한 일상에서부터 국정 업무 전반을 왕의 시점으로 기록한 것인데요:  Cuốn sách này có nghĩa là bản kiểm điểm của một ngày, nó ghi lại toàn bộ từ chuyện ngày thường nhỏ nhặt của vua đến công việc nhà nước theo góc nhìn của nhà vua. ",
+          "en": "Choose the answer that fits what you heard.\n1. This book contains the contents of the king's work.\n2. This book was not opened to the ministers.\n3. This book is written from the people's point of view.\n4. This book was written before the Joseon Dynasty.\n--------------------\n<g>업무:</g> Business, work\n<g>담다:</g> To put something in something\n<g>기록하다:</g> To record\n\n<g>하루의 반성문이란 뜻을 가진 이 책은 왕의 소소한 일상에서부터 국정 업무 전반을 왕의 시점으로 기록한 것인데요:</g> This book, which means a day's reflection, is a record of the king's daily life and overall state affairs from the king's point of view."
+        }
+      },
+      {
+        "q_text": "여자의 태도로 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "기록물의 가치를 높이 평가하고 있다.",
+          "기록물의 활용 방안을 강구하고 있다.",
+          "기록물에 대한 맹신을 경계하고 있다.",
+          "기록물의 훼손 가능성을 우려하고 있다."
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Chọn câu đúng với thái độ của nhân vật nữ.\n1. Đánh giá cao giá trị của tài liệu.\n2. Cố gắng tìm ra cách sử dụng tài liệu.\n3. Cảnh báo về niềm tin mù quáng vào tài liệu.\n4. Lo ngại về khả năng tài liệu bị hư hỏng.\n--------------------\n가치: Giá trị\n사료: Tài liệu lịch sử\n중요하다: Quan trọng\nN-뿐만 아니라: Không chỉ... mà còn...\n\n‘일성록’은 단순한 일기를 넘어 한국뿐만 아니라 세계 역사에도 매우 중요한 사료로 인정받고 있습니다: \"Ilseongnok\" không chỉ đơn thuần là một cuốn nhật ký, nó được công nhận là một tài liệu lịch sử vô cùng quan trọng không chỉ ở Hàn Quốc mà còn trong lịch sử thế giới.",
+          "en": "Choose the answer that best suits the woman's attitude.\n1. Appreciating the value of the archives.\n2. Trying to figure out how to use the records.\n3. Be wary of blind faith in the archives.\n4. Be concerned about the possibility of damaging the archives.\n--------------------\n<g>가치:</g> Value, worth\n<g>사료:</g> Historical records\n<g>중요하다:</g> To be important\n\n<g>N + 뿐만 아니라:</g> Not only... but also...\n\n<g>‘일성록’은 단순한 일기를 넘어 한국뿐만 아니라 세계 역사에도 매우 중요한 사료로 인정받고 있습니다:</g> ‘Ilseongnok’ goes beyond a simple diary and is recognized as a very important historical document not only in Korea but also in the history of the world."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210007",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[37～38] 다음은 교양 프로그램입니다. 잘 듣고 물음에 답하십시오. (각 2점)",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "en": "",
+        "vi": ""
+      },
+      "g_text_audio": "남자: 부모 세대가 사용했던 필름 카메라가 디지털에 익숙한 젊은 세대들의 마음을 사로잡고 있습니다.\n여자: 네. 필름 사진만이 갖는 독특한 감성 때문입니다. 필름을 현상하기 위해 약품 처리를 하는 과정에서 묘한 색감과 분위기가 나는데 그것이 아주 매력적이죠. 또 필름 카메라는 필름을 구하기도 어렵고 필름마다 찍을 수 있는 사진 수가 제한적이에요. 인화 과정을 거쳐야만 사진을 받아볼 수 있고요 이런 번거로움이 오히려 젊은 세대들이 사진 한 장 한 장을 소중하고 특별하게 느끼는 이유가 됩니다.",
+      "g_text_audio_translate": {
+        "en": "Man: The film cameras that our parents used are capturing the hearts of the younger generation who are familiar with digital.\nWoman: Yes. This is because of the unique sensibility that only film photography has. During the process of chemical treatment to develop the film, a strange color and atmosphere is created, which is very attractive. Also, it is difficult to obtain film for a film camera, and the number of pictures that can be taken with each film is limited. You can only receive photos after going through a printing process, and this inconvenience is actually the reason why the younger generation feels that each photo is precious and special.",
+        "vi": "Nam: Những chiếc máy ảnh phim mà thế hệ cha mẹ sử dụng đang chiếm được cảm tình của thế hệ trẻ đã quen với kỹ thuật số.\nNữ: Vâng. Điều này là do cảm xúc độc đáo mà chỉ có ảnh phim mới có. Trong quá trình xử lý hóa chất để tráng một cuộn phim, màu sắc và không khí tuyệt diệu được tạo ra, điều đó rất hấp dẫn. Ngoài ra, rất khó để mua được cuộn phim cho máy ảnh phim và số lượng ảnh có thể chụp bằng mỗi cuộn phim cũng có hạn. Bạn chỉ có thể nhận ảnh sau khi trải qua quá trình rửa ảnh, và sự bất tiện này thực chất là lý do khiến thế hệ trẻ cảm thấy mỗi bức ảnh đều quý giá và đặc biệt."
+      },
+      "g_audio": "/topiks/audios/15fbff73f59e9e031cdacd2c90704464_11_69.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "여자의 중심 생각으로 가장 알맞은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "사진을 찍을 때는 정성을 들이는 게 중요하다.",
+          "필름 사진을 잘 찍으려면 많이 찍어 봐야 한다.",
+          "사진을 여러 장 인화하면 원본의 가치가 떨어진다.",
+          "필름 사진에는 감성을 자극하는 특별한 매력이 있다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "en": "Choose the sentence that best fits the woman's central idea.\n\n1. It is important to be sincere when taking photos.\n2. To take good film photos, you need to take a lot of them.\n3. If you print multiple photos, the value of the original decreases.\n4. Film photography has a special charm that stimulates emotions.\n--------------------\nThe woman explains that film photography brings unique emotions. 4 is the correct answer.",
+          "vi": "Chọn câu phù hợp nhất với suy nghĩ trọng tâm của nhân vật nữ.\n\n1. Điều quan trọng là phải chân thành khi chụp ảnh.\n2. Để chụp được ảnh phim đẹp thì cần phải chụp thật nhiều.\n3. Nếu rửa ảnh thành nhiều tấm, giá trị của bản gốc sẽ giảm.\n4. Ảnh phim có sức hấp dẫn đặc biệt, kích thích cảm xúc.\n--------------------\nNhân vật nữ giải thích về việc ảnh phim mang tới cảm xúc độc đáo. 4 là đáp án đúng."
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 2,
+        "q_answer": [
+          "필름 사진은 인화하기 전에 미리 볼 수 있다.",
+          "필름 사진을 얻을 때까지의 과정이 수월해졌다.",
+          "필름 사진의 색감은 약품 처리를 할 때 생긴다.",
+          "필름 카메라가 부모 세대들에게 재유행하고 있다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "en": "Choose the one that fits what you heard.\n\n1. Film photos can be previewed before printing.\n2. The process of obtaining film photos has become easier.\n3. The color of film photos is created when processed with chemicals.\n4. Film cameras are making a comeback among our parents' generation.\n--------------------\nDuring the process of chemical treatment to develop the film, a strange color and atmosphere is created, which is very attractive. 3 is the correct answer.",
+          "vi": "Hãy chọn câu giống với nội dung đã nghe.\n\n1. Có thể xem trước ảnh phim trước khi rửa ảnh.\n2. Quá trình lấy ảnh phim đã trở nên dễ dàng hơn.\n3. Màu sắc của ảnh phim xuất hiện khi xử lý hóa chất.\n4. Máy ảnh phim đang thịnh hành trở lại đối với thế hệ cha mẹ.\n--------------------\nTrong quá trình xử lý hóa chất để tráng một cuộn phim, màu sắc và không khí tuyệt diệu được tạo ra. 3 là đáp án đúng."
+        }
+      }
+    ],
+    "level": 2,
+    "kind": "210007",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[25～26] 다음을 듣고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 자, 여러분. 호텔에 도착했습니다. 많이 피곤하시죠? 먼저 방에 가 계시면 짐들을 가져다 드리겠습니다. 식사는 지하 1층 식당에서 하시면 됩니다. 호텔에 있는 수영장은 무료로 이용하실 수 있습니다. 그리고 필요한 것이 있으면 저에게 전화해 주십시오. 제 방은 301호입니다. 그럼 편히 쉬십시오. ",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Mọi người ơi. Chúng ta đã đến khách sạn rồi. Mọi người cảm thấy rất mệt đúng không? Các bạn cứ đi lên phòng trước đi rồi tôi sẽ mang hành lý lên sau. Các bạn có thể dùng bữa tại nhà hàng ở tầng hầm số 1. Hồ bơi ở khách sạn có thể được sử dụng miễn phí. Và nếu cần gì thì hãy cứ gọi cho tôi. Tôi ở phòng 301. Các bạn hãy nghỉ ngơi thật thoải mái nhé. ",
+        "en": "Woman: Everyone. We already arrived at the hotel. Are you tired? You guys just go up to your room first and I'll bring your luggage up later. You can eat in the restaurant on the first basement floor. You can use the swimming pool in the hotel for free. And if you need anything, just give me a call. My room is room 301. Please rest comfortably."
+      },
+      "g_audio": "/topiks/audios/a27f2d5e915e39e8248cd5c9687cef0a_29_39_31_14.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "어떤 이야기를 하고 있는지 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "부탁",
+          "질문",
+          "초대",
+          "안내"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Đoạn hội thoại đang nói về điều gì? \n1. Nhờ vả\n2. Thắc mắc\n3. Lời mời\n4. Hướng dẫn\n--------------------\nNgười phụ nữ đang hướng dẫn khách (cách dùng đồ, khi có chuyện cần giúp thì làm thế nào,...). ",
+          "en": "What is the conversation about?\n1. Request\n2. Question\n3. Invitation\n4. Guidance\n--------------------\nThe woman is guiding tourists (how to use things, what to do if they need help,...)."
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "사람들은 지금 호텔 방에 있습니다.",
+          "사람들은 짐을 직접 가지고 가야 합니다.",
+          "수영장을 이용하려면 돈을 내야 합니다.",
+          "도움이 필요하면 301호로 연락하면 됩니다."
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Bây giờ mọi người đang ở trong phòng khách sạn. \n2. Mọi người phải tự mang hành lý đi. \n3. Nếu muốn dùng hồ bơi thì phải trả tiền. \n4. Nếu cần giúp đỡ thì liên hệ phòng 301. \n--------------------\nNhân vật nữ nói rằng mình ở phòng 301 nên đáp án đúng là 4. ",
+          "en": "Choose the answer that matches what you heard.\n1. Now everyone is in the hotel room.\n2. Everyone must bring their own luggage.\n3. People have to pay to use the swimming pool.\n4. If anyone needs help, contact room 301.\n--------------------\nThe woman said that she was in room 301, so the correct answer is 4."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_1",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[25～26]다음을 듣고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 요즘 집안에 실내 정원을 만들고 싶어하는 분들 많으시죠? 하지만 꽃을 심고 정원을 가꾸는 게 보통 일은 아닙니다. 이럴 때 도움을 받을 수 있는 책이 한 권 있는데요. 이 책에는 꽃을 키우는 방법들이 사진과 함께 있어 배우기가 아주 쉽습니다. 또 봄, 여름, 가을, 겨울에 키울 수 있는 꽃의 종류도 알 수 있고요. ",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Dạo gần đây có rất nhiều người muốn xây một khu vườn trong nhà đúng không? Nhưng trồng hoa và chăm sóc vườn tược lại không phải là việc đơn giản. Những lúc thế này có một cuốn sách có thể giúp đỡ các bạn. Trong cuốn sách này có cách trồng hoa đi kèm với các bức ảnh nên rất dễ học. Ngoài ra, người đọc còn có thể biết được các loại hoa có thể trồng vào mùa xuân, hạ, thu, đông. ",
+        "en": "Woman: There are a lot of people who want to make an indoor garden in their house these days, right? But planting flowers and gardening are not common. At times like these there is a book that can help you. This book is very easy to learn because it has pictures of how to grow flowers. You can also know the kinds of flowers that can be grown in spring, summer, fall, and winter."
+      },
+      "g_audio": "/topiks/audios/1ccd82ee86c6abf4ab438822ef5d0d3b_30_10___31_52.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "어떤 이야기를 하고 있는지 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "감사",
+          "부탁",
+          "신청",
+          "소개"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Đoạn hội thoại đang nói về điều gì? \n1. Cảm ơn\n2. Nhờ vả\n3. Đăng ký\n4. Giới thiệu\n--------------------\nĐoạn băng đang giới thiệu về một cuốn sách hướng dẫn làm vườn. ",
+          "en": "What is the conversation about?\n1. Appreciation\n2. Request\n3. Application\n4. Introduction\n--------------------\nThe woman is introducing a gardening guidebook."
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "실내 정원은 가꾸기가 어렵지 않습니다.",
+          "이 책은 실내 정원을 만들 때 도움이 됩니다.",
+          "이 책을 보면 정원의 종류를 알 수 있습니다.",
+          "꽃을 키우는 방법은 책으로 배우기가 힘듭니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Làm vườn trong nhà không khó. \n2. Cuốn sách này sẽ có ích khi làm một khu vườn trong nhà. \n3. Cuốn sách này sẽ cho biết các loại vườn. \n4. Học cách trồng hoa từ sách rất khó. \n--------------------\n도움이 되다: Có ích, có lợi",
+          "en": "Choose the answer that matches what you heard.\n1. Indoor gardening is not difficult.\n2. This book will help you create an indoor garden.\n3. This book will tell you the types of gardens.\n4. Learning to grow flowers from books is very difficult.\n--------------------\n<g>도움이 되다:</g> Be a help to\n\n"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_1",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[27～28] 다음을 듣고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 부산에 소포를 보내려고 하는데 지금 보내면 언제 도착해요? \n남자: 지금 보내시면 모레 도착할 거예요. \n여자: 오늘 저녁까지 도착할 수는 없을까요? 제가 좀 급해서요. \n남자: 오전에 보내셨으면 오늘 안에 도착하는데 지금은 너무 늦었어요. 지금은 특급으로 보내도 내일 오전에 도착해요. \n여자: 아, 그래요? 내일 오전까지 들어갈 수 있으면 그걸로 해 주세요. ",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Tôi muốn gửi một bưu kiện tới Busan, nếu bây giờ tôi gửi thì khi nào hàng sẽ đến nơi? \nNam: Nếu bây giờ gửi thì ngày kia sẽ đến nơi. \nNữ: Bưu kiện không thể tới trong tối nay được sao? Vì tôi cần nó tới nơi hơi gấp một chút. \nNam: Nếu gửi vào buổi sáng thì bưu kiện sẽ tới trong ngày nhưng bây giờ thì muộn quá rồi. Bây giờ mà gửi chuyển phát nhanh thì cũng phải sáng mai mới tới nơi. \nNữ: À, vậy sao? Nếu có thể tới trong sáng mai thì anh gửi bằng đường đó giúp tôi. ",
+        "en": "Woman: I want to send a parcel to Busan, if I send it now, when will it arrive?\nMan: If you send it now, it will arrive the day after tomorrow.\nWoman: Can't the parcel arrive tonight? I'm in a bit of a hurry.\nMan: If you sent the parcel in the morning, it will arrive within today, but it's too late now. Even if you send it by express now, it will arrive tomorrow morning.\nWoman: Oh, really? If it can arrive tomorrow morning, please do that."
+      },
+      "g_audio": "/topiks/audios/b4e8b239a496c2d1ea0e29faa5823ef8_32_44_34_22.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "소포를 빨리 보내는 방법",
+          "소포를 싸게 보내는 방법",
+          "소포를 잘 포장하는 방법",
+          "소포를 쉽게 보내는 방법"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Hai người này đang nói về điều gì? \n1. Cách gửi bưu kiện nhanh chóng\n2. Cách gửi bưu kiện với giá rẻ\n3. Cách đóng gói bưu kiện cẩn thận\n4. Cách gửi bưu kiện dễ dàng\n--------------------\nNhân vật nữ hơi vội và muốn bưu kiện nhanh tới nơi nên chọn đáp án 1. ",
+          "en": "What are these two talking about?\n1. How to send the parcel quickly\n2. How to send the parcel cheaply\n3. How to pack the parcel carefully\n4. How to send the parcel easily\n--------------------\nThe female is in a bit of a hurry and wants the parcel to arrive quickly, so 1 is correct."
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "여자는 부산에서 소포를 보냅니다.",
+          "여자는 빨리 소포를 받고 싶어 합니다.",
+          "여자는 소포를 특급으로 보낼 겁니다.",
+          "여자는 내일 오전에 소포를 받을 겁니다."
+        ],
+        "q_correct": 3,
+        "explain": {
+          "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Người phụ nữ gửi bưu kiện từ Busan. \n2. Người phụ nữ muốn nhanh nhận được bưu kiện. \n3. Người phụ nữ sẽ gửi bưu kiện bằng đường chuyển phát nhanh. \n4. Sáng mai người phụ nữ sẽ nhận được bưu kiện. \n--------------------\n내일 오전까지 들어갈 수 있으면 그걸로 해 주세요. Người phụ nữ nói rằng nếu có thể tới trong sáng mai thì hãy gửi bằng đường đó, tức là đường chuyển phát nhanh.",
+          "en": "Choose the answer that matches what you heard.\n1. The woman sends the parcel in Busan.\n2. The woman wants to get the parcel quickly.\n3. The woman will send the parcel by express.\n4. The woman will receive the parcel tomorrow morning.\n--------------------\n<g>내일 오전까지 들어갈 수 있으면 그걸로 해 주세요.</g> The woman asked the man to send the parcel by express if it could arrive tomorrow morning."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_2",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[27～28]다음을 듣고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 선생님, 안녕하세요? 다음 주부터 방학이라 인사드리러 왔어요. \n남자: 어, 어서 와요. (조금 쉬고)이번 방학에는 뭐 할 거예요? \n여자: 방학을 좀 특별하게 보내고 싶어서 자전거 여행을 해 보려고요. \n남자: 음, 자전거 여행 좋죠. 힘들기는 하겠지만 좋은 경험이 될 거예요. \n여자: 네. 그리고 기타도 한번 배워 보려고 해요. \n남자: 새로운 걸 배워 보는 것도 좋겠네요. ",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Em chào thầy ạ. Từ tuần sau chúng em sẽ nghỉ hè nên em tới để chào thầy ạ. \nNam: Ồ, mau vào đi. (Nghỉ một lát) Em định làm gì trong kỳ nghỉ hè này? \nNữ: Em muốn trải qua một kỳ nghỉ thật đặc biệt nên định đi du lịch bằng xe đạp ạ. \nNam: Ừm, đi du lịch bằng xe đạp cũng vui đó. Sẽ vất vả nhưng đó sẽ là một trải nghiệm tuyệt vời. \nNữ: Vâng. Và em cũng muốn thử một lần học guitar. \nNam: Sẽ rất tuyệt khi học điều gì đó mới mẻ đó. ",
+        "en": "Woman: Teacher, how are you? From next week we will be on summer vacation, so I came to say goodbye.\nMan: Oh, come in quickly. (Stops talking for a moment) What are you going to do this summer vacation?\nWoman: I want to spend my vacation special, so I'm going to go on a bike trip.\nMan: Well, traveling by bike is also fun. It may be hard but it will be a great experience.\nWoman: Yes. And I also want to try to learn guitar.\nMan: It would be great to learn something new."
+      },
+      "g_audio": "/topiks/audios/c10282ca55fc18d2dde6612d8bd99491_32_53___34_50.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "방학 때 하고 싶은 일",
+          "방학 때 한 새로운 경험",
+          "방학 때 간 특별한 여행",
+          "방학 때 만나고 싶은 사람"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Hai người này đang nói về điều gì? \n1. Việc muốn làm trong kỳ nghỉ hè\n2. Trải nghiệm mới trong kỳ nghỉ hè\n3. Chuyến du lịch đặc biệt trong kỳ nghỉ hè\n4. Người mình muốn gặp trong kỳ nghỉ hè\n--------------------\nNhân vật nữ nói về những việc định làm trong kỳ nghỉ hè sắp tới nên đáp án đúng là 1. ",
+          "en": "What are these two talking about?\n1. What to do on vacation\n2. New experiences while on vacation\n3. A special trip during vacation\n4. People want to meet during vacation\n--------------------\nThe woman talks about what she plans to do during the upcoming summer vacation, so the correct answer is 1."
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "여자는 요즘 기타를 배우고 있습니다.",
+          "여자는 방학에 여행을 할 계획입니다.",
+          "여자는 자전거 여행이 힘들어서 싫습니다.",
+          "여자는 다음 주에 선생님을 찾아갈 겁니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Dạo này nhân vật nữ đang học guitar. \n2. Nhân vật nữ có kế hoạch đi du lịch trong kỳ nghỉ hè. \n3. Đi du lịch bằng xe đạp vất vả nên nhân vật nữ ghét điều đó. \n4. Nhân vật nữ sẽ đến gặp giáo viên vào tuần tới. ",
+          "en": "Choose the answer that matches what you heard.\n1. The woman is learning guitar these days.\n2. The woman plans to travel during the summer vacation.\n3. Traveling by bike is hard so the woman hates it.\n4. The woman will visit her teacher next week."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_2",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[29～30] 다음을 듣고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 민수 씨, 이번 주말에 ‘사랑나누기’ 모임이 있는데 같이 가실래요? \n남자: ‘사랑나누기’요? 그게 뭐예요? \n여자: 혼자 사시는 할머니들을 도와 드리는 모임이에요. \n남자: 아, 그래요? 근데 무슨 일을 도와 드려요? \n여자: 청소를 하거나 음식을 만들어 드려요. 이번 주말엔 김치를 담가서 드릴 거예요. \n남자: 좋은 일을 하시네요. 저도 이번 모임에 가 보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해 볼게요. ",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Anh Minsoo, cuối tuần này có một cuộc họp mặt tên là \"Chia sẻ tình yêu thương\", anh có muốn đi cùng không? \nNam: \"Chia sẻ tình yêu thương\" ư? Đó là gì vậy nhỉ? \nNữ: Đó là cuộc họp mặt để giúp đỡ những bà cụ neo đơn sống một mình. \nNam: Ồ, vậy sao? Nhưng chúng ta có thể giúp gì cho các cụ? \nNữ: Chúng ta giúp các cụ dọn dẹp hoặc làm đồ ăn. Cuối tuần này bọn tôi định sẽ làm kimchi. \nNam: Quả là một việc làm tốt đó. Tôi cùng muốn thử đi tới cuộc gặp này. Tôi chưa từng làm kim chi nhưng sẽ cố gắng. ",
+        "en": "Woman: Minsoo, there's a gathering called \"Sharing the Love\" this weekend, do you want to come with us?\nMan: \"Share the love\"? What is that?\nWoman: It's a gathering to help elderly women who live alone.\nMan: Oh, really? But what can we do to help?\nWoman: We clean up or make food. We're going to make kimchi this weekend.\nMan: You guys are doing good things. I want to go to this gathering, too. I've never made kimchi, but I'll try my best."
+      },
+      "g_audio": "/topiks/audios/ba405dba07816102bb7716ecac78d074_35_52_37_39.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "두 사람은 왜 김치를 만듭니까?",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "할머니들께 드리고 싶어서",
+          "할머니들과 같이 먹고 싶어서",
+          "김치를 한번 담가 보고 싶어서",
+          "김치를 혼자 담그기가 힘들어서"
+        ],
+        "q_correct": 1,
+        "explain": {
+          "vi": "Tại sao hai người này lại làm kim chi? \n1. Vì muốn giúp đỡ những bà cụ\n2. Vì muốn ăn cùng những bà cụ\n3. Vì muốn thử làm kim chi một lần\n4. Vì làm kimchi một mình thì vất vả\n--------------------\nBạn nữ tham gia nhóm giúp đỡ những bà cụ sống một mình. Tuần này họ sẽ làm kimchi giúp những bà cụ đó. ",
+          "en": "Why are these two making kimchi?\n1. Because they want to help grandmothers\n2. Because they want to eat kimchi with grandmothers\n3. Because they want to try making kimchi once\n4. Because it's hard to make kimchi yourself\n--------------------\nThe woman joins a group to help elderly women who live alone. This weekend they will make kimchi for those elderly women."
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "남자는 이 모임에 간 적이 있습니다.",
+          "남자는 이번 주말에 모임에 갈 겁니다.",
+          "이 모임에서는 할머니들이 음식을 만듭니다.",
+          "이 모임에서는 이번 주말에 청소를 할 겁니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Bạn nam đã từng tới cuộc họp mặt. \n2. Cuối tuần này bạn nam sẽ đi tới cuộc họp mặt. \n3. Những bà cụ sẽ làm thức ăn trong cuộc họp mặt này. \n4. Mọi người sẽ dọn dẹp trong cuộc họp mặt cuối tuần này. \n--------------------\n저도 이번 모임에 가 보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해 볼게요. Bạn nam nói muốn đi tới cuộc họp mặt và sẽ làm kimchi thật chăm chỉ dù chưa làm bao giờ. ",
+          "en": "Choose the answer that matches what you heard.\n1. The man went to the gathering.\n2. The man will go to the gathering this weekend.\n3. The elderly woman will make food in the gathering.\n4. Everyone will clean up at this weekend's gathering.\n--------------------\n<g>저도 이번 모임에 가 보고 싶어요. 김치를 담가 본 적은 없지만 열심히 해 볼게요. </g> The man said that he wanted to go to the gathering and would try his best to make kimchi even though he had never made it."
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_3",
+    "count_question": 2,
+    "tag": "listen"
+  },
+  {
+    "title": "[29～30]다음을 듣고 물음에 답하십시오. ",
+    "general": {
+      "g_text": "",
+      "g_text_translate": {
+        "vi": "",
+        "en": ""
+      },
+      "g_text_audio": "여자: 아이 통장을 하나 만들려고 하는데요. \n남자: 아, 어린이 통장요? 요즘 입학 때라 많이들 만드시네요. \n여자: 네. 우리 아이도 자기 통장을 갖고 싶어해서 선물하려고요. \n남자: 좋은 생각이세요. 자기 통장이 생기면 돈을 모으는 즐거움을 느낄 수 있을 거예요. 참, 아이 도장은 가져오셨죠? \n여자: 도장이 필요해요? 안 가져왔는데... 그냥 내일 다시 와야겠네요. \n남자: 그럼 내일 아이도 데리고 오세요. 은행에 와서 직접 통장을 만들면 더 좋아할 거예요. ",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Tôi muốn làm sổ ngân hàng cho con. \nNam: Ồ, sổ ngân hàng cho trẻ con ư? Dạo này là thời gian nhập học nên nhiều người làm nhỉ. \nNữ: Vâng. Con tôi cũng muốn có sổ ngân hàng của riêng mình nên tôi định tặng cho nó. \nNam: Ý tưởng hay đó. Nếu có sổ ngân hàng của riêng mình chúng có thể cảm nhận được niềm vui khi tiết kiệm được tiền. Để tôi xem nào, cô có mang theo con dấu riêng của con không? \nNữ: Cần con dấu sao? Tôi không mang theo... Chắc là tôi phải quay lại vào ngày mai rồi. \nNam: Vậy ngày mai cô hãy đưa cả cháu đến nữa. Nếu được trực tiếp tới mở sổ thì đứa bé sẽ càng thích nó hơn. ",
+        "en": "Woman: I want to make a bankbook for my child.\nMan: Oh, a children's bankbook? A lot of people make it these days because it's the admission season.\nWoman: Yes. My kid also wants his own bankbook so I plan to give it to him as a present.\nMan: That's a good idea. If they have their own bank book, they can feel the joy of saving money. By the way, did you bring your child's seal?\nWoman: We need a seal? I didn't bring it... I guess I'll have to come back tomorrow.\nMan: Then, bring your child with you tomorrow. He will like it more if he comes to the bank and makes his own bankbook."
+      },
+      "g_audio": "/topiks/audios/a8e6e086381c8464bead77dbd247e35e_36_18___38_28.mp3",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "여자는 왜 아이에게 통장을 만들어 줍니까?",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "아이가 돈을 모으고 싶어해서",
+          "아이가 돈을 많이 가지고 있어서",
+          "아이가 통장을 바꿀 때가 되어서",
+          "아이가 자기 통장을 갖고 싶어해서"
+        ],
+        "q_correct": 4,
+        "explain": {
+          "vi": "Tại sao người phụ nữ muốn làm sổ ngân hàng cho con? \n1. Vì đứa trẻ muốn tiết kiệm tiền\n2. Vì đứa trẻ có rất nhiều tiền\n3. Vì đã đến lúc đứa trẻ phải đổi sổ ngân hàng \n4. Vì đứa trẻ muốn có sổ ngân hàng của riêng mình \n--------------------\n통장: Sổ tài khoản, sổ ngân hàng\n갖다: Có, cầm, sở hữu",
+          "en": "Why does the woman want to make a bankbook for her child?\n1. Because the child wants to save money\n2. Because the child has a lot of money\n3. Because it's time for the child to change his bankbook\n4. Because the child wants to have his own bankbook\n--------------------\n<g>통장:</g> Bankbook\n<g>갖다:</g> To have, to hold"
+        }
+      },
+      {
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
+        "q_image": "",
+        "q_point": 4,
+        "q_answer": [
+          "여자는 지금 도장을 가지고 있습니다.",
+          "여자는 내일 은행에 다시 오려고 합니다.",
+          "여자는 아이에게 입학 선물을 주었습니다.",
+          "여자는 오늘 어린이 통장을 만들었습니다."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "Chọn nội dung đúng với hội thoại được nghe. \n1. Bây giờ người phụ nữ có mang theo con dấu. \n2. Người phụ nữ định ngày mai sẽ quay lại ngân hàng. \n3. Người phụ nữ đã tặng quà nhập học cho đứa trẻ. \n4. Người phụ nữ hôm nay đã làm sổ ngân hàng cho con. \n--------------------\n도장: Con dấu",
+          "en": "Choose the answer that matches what you heard.\n1. The woman is carrying the seal now.\n2. The woman intends to return to the bank tomorrow.\n3. The woman gave the child an admission gift.\n4. The woman made a bankbook for her child today.\n--------------------\n<g>도장:</g> Seal"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110008_3",
+    "count_question": 2,
+    "tag": "listen"
+  }
+]
