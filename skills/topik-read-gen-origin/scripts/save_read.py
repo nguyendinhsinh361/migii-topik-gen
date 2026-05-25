@@ -39,7 +39,9 @@ DEFAULT_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "read-origin")
 # Cột cố định (question-level)
 BASE_COLUMNS = [
     "id", "kind", "level", "tag", "title", "count_question",
+    "view_g_image", "g_image", "view_g_audio", "g_audio",
     "g_text", "g_text_vi", "g_text_en",
+    "g_text_audio", "g_text_audio_vi", "g_text_audio_en",
     "topic",
 ]
 
@@ -47,7 +49,7 @@ BASE_COLUMNS = [
 CONTENT_COLUMNS = [
     "q_text", "q_point", "q_answer", "q_correct",
     "explain_vi", "explain_en",
-    "q_image_desc",
+    "view_q_image", "q_image", "q_image_desc",
     "question_feature", "difficulty", "distractor_trap",
 ]
 
@@ -103,12 +105,22 @@ def flatten_question(question, timestamp=None, seq=0):
         "tag": question.get("tag", "read"),
         "title": question.get("title", ""),
         "count_question": question.get("count_question", 1),
+        "view_g_image": "",
+        "g_image": general.get("g_image", ""),
+        "view_g_audio": "",
+        "g_audio": general.get("g_audio", ""),
         "g_text": general.get("g_text", ""),
         "g_text_vi": g_text_translate.get("vi", ""),
         "g_text_en": g_text_translate.get("en", ""),
+        "g_text_audio": general.get("g_text_audio", ""),
+        "g_text_audio_vi": "",
+        "g_text_audio_en": "",
         "topic": question.get("topic", ""),
         "created_at": timestamp,
     }
+
+    # q_image_description nằm ở top-level, không phải trong content[]
+    top_img_desc = question.get("q_image_description", {})
 
     for idx, content in enumerate(content_list):
         n = idx + 1
@@ -116,7 +128,8 @@ def flatten_question(question, timestamp=None, seq=0):
         while len(answers) < 4:
             answers.append("")
         explain = content.get("explain", {})
-        img_desc = content.get("q_image_description", {})
+        # Ưu tiên top-level, fallback content-level
+        img_desc = top_img_desc if top_img_desc else content.get("q_image_description", {})
         d_traps = content.get("distractor_traps", {})
 
         # Image desc — 1 mô tả duy nhất per content item
@@ -127,6 +140,8 @@ def flatten_question(question, timestamp=None, seq=0):
 
         row[f"q_text_{n}"] = content.get("q_text", "")
         row[f"q_point_{n}"] = content.get("q_point", "")
+        row[f"view_q_image_{n}"] = ""
+        row[f"q_image_{n}"] = content.get("q_image", "")
         row[f"q_answer_{n}"] = "\n".join(answers)
         row[f"q_correct_{n}"] = content.get("q_correct", "")
         row[f"explain_vi_{n}"] = explain.get("vi", "")

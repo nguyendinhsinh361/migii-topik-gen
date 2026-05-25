@@ -1,13 +1,58 @@
 [
   {
-    "title": "[1~4] 다음을 듣고 <보기>와 같이 물음에 맞는 대답을 고르십시오.",
+    "title": "[1～4] 다음을 듣고 <보기>와 같이 물음에 맞는 대답을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 이번 주말에 약속이 있어요?\n남자: ______________________",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 주말에 보통 뭐 해요?\n남자: ______________________",
       "g_text_audio_translate": {
-        "vi": "Nữ: Cuối tuần này bạn có hẹn không?",
-        "en": "Woman: Do you have plans this weekend?"
+        "vi": "Nữ: Cuối tuần bạn thường làm gì?",
+        "en": "Woman: What do you usually do on weekends?"
+      },
+      "g_audio": "",
+      "g_image": ""
+    },
+    "content": [
+      {
+        "q_text": "",
+        "q_image": "",
+        "q_point": 3,
+        "q_answer": [
+          "주말이 아니에요.",
+          "친구하고 운동해요.",
+          "주말에 안 바빠요.",
+          "내일 만나요."
+        ],
+        "q_correct": 2,
+        "explain": {
+          "vi": "1. Không phải là cuối tuần. (trap_neg_없안)\n2. Tôi tập thể dục với bạn. (Đúng)\n3. Cuối tuần tôi không bận. (trap_shared_noun + trap_neg_없안)\n4. Ngày mai gặp nhé. (trap_same_ending)\n--------------------\nCâu hỏi về hoạt động thường làm vào cuối tuần. Đáp án 2 phù hợp nhất vì chỉ ra một hoạt động.",
+          "en": "1. It's not the weekend.\n2. I exercise with a friend.\n3. I'm not busy on the weekend.\n4. See you tomorrow.\n--------------------\nThe question asks about weekend activities. Option 2 is the correct answer."
+        },
+        "question_feature": "qf_direct_qa",
+        "difficulty": 2,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "",
+          "3": "trap_shared_noun",
+          "4": "trap_same_ending"
+        }
+      }
+    ],
+    "level": 1,
+    "kind": "110001",
+    "count_question": 1,
+    "tag": "listen",
+    "topic": "hobby_leisure"
+  },
+  {
+    "title": "[5～6] 다음을 듣고 <보기>와 같이 이어지는 말을 고르십시오.",
+    "general": {
+      "g_text": "",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 민수 씨, 생일 축하해요. 이거 받으세요.\n남자: ______________________",
+      "g_text_audio_translate": {
+        "vi": "Nữ: Minsu, chúc mừng sinh nhật. Hãy nhận lấy cái này nhé.",
+        "en": "Woman: Minsu, happy birthday. Please take this."
       },
       "g_audio": "",
       "g_image": ""
@@ -18,68 +63,41 @@
         "q_image": "",
         "q_point": 4,
         "q_answer": [
-          "네, 친구를 만나요.",
-          "네, 약속이 없어요.",
-          "아니요, 친구가 있어요.",
-          "아니요, 주말이 좋아요."
+          "선물이 아니에요.",
+          "네, 알겠습니다.",
+          "정말 고마워요.",
+          "내일 생일이에요."
         ],
-        "q_correct": 1,
+        "q_correct": 3,
         "explain": {
-          "vi": "1. Vâng, tôi gặp bạn.\n2. Vâng, tôi không có hẹn. (trap_neg_없안)\n3. Không, tôi có bạn. (trap_shared_noun)\n4. Không, tôi thích cuối tuần. (trap_shared_noun)\n--------------------\nĐáp án đúng là 1 vì nó trả lời logic cho câu hỏi.",
-          "en": "1. Yes, I'm meeting a friend.\n2. Yes, I don't have plans. (trap_neg_없안)\n3. No, I have a friend. (trap_shared_noun)\n4. No, I like weekends. (trap_shared_noun)\n--------------------\nThe correct answer is 1 because it's a logical response to the question."
-        }
-      }
-    ],
-    "level": 1,
-    "kind": "110001",
-    "count_question": 1,
-    "tag": "listen"
-  },
-  {
-    "title": "[5～6] 다음을 듣고 <보기>와 같이 이어지는 말을 고르십시오.",
-    "general": {
-      "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "남자: 수미 씨, 오늘 회의 준비는 다 끝났어요?\n여자: ______________________",
-      "g_text_audio_translate": {
-        "vi": "Nam: Su-mi, bạn chuẩn bị xong cho cuộc họp hôm nay chưa?",
-        "en": "Man: Su-mi, have you finished preparing for today's meeting?"
-      },
-      "g_audio": "",
-      "g_image": ""
-    },
-    "content": [
-      {
-        "q_text": "",
-        "q_image": "",
-        "q_point": 3,
-        "q_answer": [
-          "네, 지금 하고 있어요.",
-          "네, 거의 다 했어요.",
-          "아니요, 내일 회의가 있어요.",
-          "아니요, 준비를 못 해요."
-        ],
-        "q_correct": 2,
-        "explain": {
-          "vi": "1. Vâng, bây giờ tôi đang làm. (trap_same_ending)\n2. Vâng, tôi gần xong rồi.\n3. Không, ngày mai có cuộc họp. (trap_shared_noun)\n4. Không, tôi không thể chuẩn bị. (trap_neg_없안)\n--------------------\nĐáp án đúng là 2, phản hồi tự nhiên cho câu hỏi tiến độ.",
-          "en": "1. Yes, I am doing it now. (trap_same_ending)\n2. Yes, I'm almost done.\n3. No, there is a meeting tomorrow. (trap_shared_noun)\n4. No, I can't prepare. (trap_neg_없안)\n--------------------\nThe correct answer is 2."
+          "vi": "1. Không phải là quà. (trap_neg_없안)\n2. Vâng, tôi biết rồi. (trap_same_ending)\n3. Thật sự cảm ơn bạn. (Đúng)\n4. Ngày mai là sinh nhật. (trap_shared_noun)\n--------------------\nPhản hồi tự nhiên khi được tặng quà sinh nhật là lời cảm ơn.",
+          "en": "1. It's not a gift.\n2. Yes, I understand.\n3. Thank you so much.\n4. Tomorrow is my birthday.\n--------------------\nThe natural response to receiving a birthday gift is to say thank you."
+        },
+        "question_feature": "qf_next_utterance",
+        "difficulty": 3,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "trap_same_ending",
+          "3": "",
+          "4": "trap_shared_noun"
         }
       }
     ],
     "level": 1,
     "kind": "110002",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "family_relations"
   },
   {
-    "title": "[7~10] 여기는 어디입니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "title": "여기는 어디입니까? <보기>와 같이 알맞은 것을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 아저씨, 이 구두 수선하는 데 며칠 걸려요?\n남자: 삼 일 정도 걸려요. 수선 끝나면 연락드릴게요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 저기요, 부산으로 가는 기차표 두 장 주세요.\n여자: 네, 10시 출발입니다.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Chú ơi, sửa đôi giày này mất mấy ngày ạ?\nNam: Khoảng 3 ngày. Sửa xong tôi sẽ liên lạc lại.",
-        "en": "Woman: Sir, how many days will it take to repair these shoes?\nMan: About 3 days. I'll contact you when it's done."
+        "vi": "Nam: Xin lỗi, cho tôi hai vé tàu đi Busan.\nNữ: Vâng, sẽ khởi hành lúc 10 giờ.",
+        "en": "Man: Excuse me, two train tickets to Busan, please.\nWoman: Yes, it departs at 10 o'clock."
       },
       "g_audio": "",
       "g_image": ""
@@ -90,32 +108,41 @@
         "q_image": "",
         "q_point": 3,
         "q_answer": [
-          "세탁소",
-          "구두 가게",
-          "수선집",
-          "가방 가게"
+          "기차역",
+          "공항",
+          "터미널",
+          "정류장"
         ],
-        "q_correct": 3,
+        "q_correct": 1,
         "explain": {
-          "vi": "1. Tiệm giặt ủi\n2. Cửa hàng giày (trap_shared_noun)\n3. Tiệm sửa chữa\n4. Cửa hàng túi xách\n--------------------\nTừ khóa 구두 (giày) và 수선하다 (sửa chữa) chỉ ra đây là tiệm sửa chữa.",
-          "en": "1. Laundromat\n2. Shoe store (trap_shared_noun)\n3. Repair shop\n4. Bag store\n--------------------\nKeywords 'shoes' and 'repair' indicate a repair shop."
+          "vi": "1. Ga tàu (Đúng)\n2. Sân bay (trap_similar_word)\n3. Bến xe (trap_similar_word)\n4. Trạm xe buýt (trap_similar_word)\n--------------------\nTừ khóa '기차표' (vé tàu) cho biết địa điểm là ga tàu.",
+          "en": "1. Train station\n2. Airport\n3. Bus terminal\n4. Bus stop\n--------------------\nThe keyword 'train ticket' indicates the place is a train station."
+        },
+        "question_feature": "qf_guess_place",
+        "difficulty": 4,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_similar_word",
+          "3": "trap_similar_word",
+          "4": "trap_similar_word"
         }
       }
     ],
     "level": 1,
     "kind": "110003",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "transport"
   },
   {
-    "title": "[11~14] 다음은 무엇에 대해 말하고 있습니까? <보기>와 같이 알맞은 것을 고르십시오.",
+    "title": "[11～14] 다음은 무엇에 대해 말하고 있습니까? <보기>와 같이 알맞은 것을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "남자: 내일 오후에 비가 온대요.\n여자: 아, 그래요? 그럼 우산을 가져와야겠네요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 와, 눈이 많이 오네요.\n남자: 네. 날씨가 많이 추워졌어요. 감기 조심하세요.",
       "g_text_audio_translate": {
-        "vi": "Nam: Chiều mai nghe nói trời mưa.\nNữ: À, vậy sao? Vậy thì phải mang ô theo rồi.",
-        "en": "Man: They say it will rain tomorrow afternoon.\nWoman: Oh, really? Then I should bring an umbrella."
+        "vi": "Nữ: Oa, tuyết rơi nhiều quá.\nNam: Vâng. Thời tiết cũng trở nên lạnh hơn. Hãy cẩn thận bị cảm nhé.",
+        "en": "Woman: Wow, it's snowing a lot.\nMan: Yes. The weather has gotten much colder. Be careful not to catch a cold."
       },
       "g_audio": "",
       "g_image": ""
@@ -126,41 +153,50 @@
         "q_image": "",
         "q_point": 3,
         "q_answer": [
+          "계절",
           "날씨",
-          "시간",
-          "우산",
-          "약속"
+          "감기",
+          "건강"
         ],
-        "q_correct": 1,
+        "q_correct": 2,
         "explain": {
-          "vi": "1. Thời tiết\n2. Thời gian\n3. Ô (trap_shared_noun)\n4. Cuộc hẹn\n--------------------\nHọ đang nói về mưa vào ngày mai, tức là thời tiết.",
-          "en": "1. Weather\n2. Time\n3. Umbrella (trap_shared_noun)\n4. Appointment\n--------------------\nThey are talking about rain tomorrow, which is the weather."
+          "vi": "1. Mùa (trap_similar_word)\n2. Thời tiết (Đúng)\n3. Cảm cúm (trap_shared_noun)\n4. Sức khỏe (trap_partial_topic)\n--------------------\nHai người đang nói về tuyết rơi và trời lạnh, nên chủ đề chính là thời tiết.",
+          "en": "1. Season\n2. Weather\n3. Cold\n4. Health\n--------------------\nThey are talking about snow and cold weather, so the main topic is weather."
+        },
+        "question_feature": "qf_guess_topic",
+        "difficulty": 4,
+        "distractor_traps": {
+          "1": "trap_similar_word",
+          "2": "",
+          "3": "trap_shared_noun",
+          "4": "trap_partial_topic"
         }
       }
     ],
     "level": 1,
     "kind": "110004",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "weather_season"
   },
   {
-    "title": "[15~16] 다음 대화를 듣고 알맞은 그림을 고르십시오.",
+    "title": "[15～16] 다음 대화를 듣고 알맞은 그림을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "남자: 손님, 찾으시는 책 있으세요?\n여자: 네, 한국어 요리 책을 찾고 있는데요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 영미 씨, 이 우산 쓰세요. 밖에 비가 와요.\n여자: 아, 정말 고마워요. 우산을 안 가져왔어요.",
       "g_text_audio_translate": {
-        "vi": "Nam: Quý khách, có tìm sách gì không ạ?\nNữ: Vâng, tôi đang tìm sách nấu ăn Hàn Quốc.",
-        "en": "Man: Customer, are you looking for a book?\nWoman: Yes, I'm looking for a Korean cooking book."
+        "vi": "Nam: Yeong-mi, hãy dùng ô này đi. Bên ngoài đang mưa.\nNữ: À, thực sự cảm ơn anh. Tôi đã không mang ô theo.",
+        "en": "Man: Yeong-mi, use this umbrella. It's raining outside.\nWoman: Ah, thank you so much. I didn't bring an umbrella."
       },
       "g_audio": "",
       "g_image": ""
     },
     "q_image_description": {
-      "1": "여자가 서점에서 남자 직원에게 요리 책에 대해 묻고 있다.",
-      "2": "남자가 도서관에서 여자에게 책을 빌려주고 있다.",
-      "3": "여자가 서점에서 남자 직원에게 지갑을 보여주고 있다.",
-      "4": "여자와 남자가 식당에서 요리를 주문하고 있다."
+      "1": "건물 입구에서 남자가 여자에게 우산을 건네주고 있다. 밖에는 비가 내리고 있다.",
+      "2": "남자와 여자가 우산을 같이 쓰고 비 속을 걸어가고 있다.",
+      "3": "여자가 남자에게 우산을 건네주고 있다. 밖에는 비가 내린다.",
+      "4": "건물 입구에서 남자가 여자에게 가방을 건네주고 있다. 비는 오지 않는다."
     },
     "content": [
       {
@@ -175,25 +211,34 @@
         ],
         "q_correct": 1,
         "explain": {
-          "vi": "1. Nữ đang hỏi nam nhân viên về sách nấu ăn ở hiệu sách.\n2. Nam cho nữ mượn sách ở thư viện. (trap_context_swap)\n3. Nữ đang cho nhân viên xem ví ở hiệu sách. (trap_action_swap)\n4. Nam và nữ đang gọi món ở nhà hàng. (trap_detail_distort)\n--------------------\nĐoạn hội thoại ở hiệu sách khi nữ đang tìm sách.",
-          "en": "1. Woman is asking about a book in a bookstore.\n2. Man is lending a book in a library.\n3. Woman is showing a wallet in a bookstore.\n4. Ordering food in a restaurant.\n--------------------\nCorrect is 1."
+          "vi": "1. Nam đưa ô cho nữ khi trời đang mưa. (Đúng)\n2. Nam và nữ cùng che ô đi dưới mưa. (trap_context_swap)\n3. Nữ đưa ô cho nam. (trap_action_swap)\n4. Nam đưa túi cho nữ và trời không mưa. (trap_detail_distort)\n--------------------\nNam đang đưa ô cho nữ vì ngoài trời đang mưa.",
+          "en": "1. The man is handing an umbrella to the woman while it's raining.\n2. The man and woman are walking together under an umbrella in the rain.\n3. The woman is handing an umbrella to the man.\n4. The man is handing a bag to the woman and it's not raining.\n--------------------\nThe man is offering his umbrella to the woman because it's raining."
+        },
+        "question_feature": "qf_match_image",
+        "difficulty": 5,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_context_swap",
+          "3": "trap_action_swap",
+          "4": "trap_detail_distort"
         }
       }
     ],
     "level": 1,
     "kind": "110005",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "weather_season"
   },
   {
-    "title": "[17~21] 다음을 듣고 <보기>와 같이 대화 내용과 같은 것을 고르십시오.",
+    "title": "다음을 듣고 <보기>와 같이 대화 내용과 같은 것을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 민수 씨, 내일 같이 영화 볼래요?\n남자: 내일은 친구하고 약속이 있어요. 모레는 어때요?\n여자: 모레는 제가 바빠요. 그럼 다음에 봐요.\n남자: 네, 아쉽네요. 다음에 꼭 같이 봐요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 수미 씨, 주말에 이사 잘 했어요?\n여자: 네, 친구들이 도와줘서 금방 끝났어요.\n남자: 다행이네요. 새 집은 어때요?\n여자: 회사에서 가까워서 정말 좋아요.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Min-su, ngày mai cùng đi xem phim không?\nNam: Ngày mai tôi có hẹn với bạn. Ngày mốt thì sao?\nNữ: Ngày mốt tôi bận rồi. Vậy hẹn dịp khác nhé.\nNam: Vâng, tiếc quá. Dịp khác nhất định cùng xem nhé.",
-        "en": "Woman: Min-su, do you want to watch a movie tomorrow?\nMan: I have an appointment with a friend tomorrow. How about the day after tomorrow?\nWoman: I'm busy the day after tomorrow. Let's watch it next time.\nMan: Yes, that's a shame. Let's watch it next time."
+        "vi": "Nam: Su-mi, cuối tuần chuyển nhà tốt chứ?\nNữ: Vâng, nhờ bạn bè giúp đỡ nên đã hoàn thành nhanh chóng.\nNam: May quá. Nhà mới thế nào?\nNữ: Gần công ty nên thực sự rất tốt.",
+        "en": "Man: Su-mi, did you move well over the weekend?\nWoman: Yes, thanks to my friends helping, it finished quickly.\nMan: That's a relief. How is the new house?\nWoman: It's really nice because it's close to the company."
       },
       "g_audio": "",
       "g_image": ""
@@ -204,32 +249,41 @@
         "q_image": "",
         "q_point": 3,
         "q_answer": [
-          "남자는 내일 영화를 봅니다.",
-          "여자는 모레 친구를 만납니다.",
-          "두 사람은 다음에 영화를 볼 것입니다.",
-          "여자는 내일 약속이 없습니다."
+          "남자는 주말에 이사를 했습니다.",
+          "여자는 이사를 혼자서 했습니다.",
+          "여자의 새 집은 회사에서 멉니다.",
+          "여자는 친구들의 도움을 받았습니다."
         ],
-        "q_correct": 3,
+        "q_correct": 4,
         "explain": {
-          "vi": "1. Nam xem phim vào ngày mai. (trap_shared_noun)\n2. Nữ gặp bạn vào ngày mốt. (trap_subject_swap)\n3. Hai người sẽ xem phim lần sau.\n4. Nữ không có hẹn vào ngày mai. (trap_neg_없안)\n--------------------\nDo ngày mai nam bận, ngày mốt nữ bận nên hai người hẹn lần sau xem.",
-          "en": "1. Man watches a movie tomorrow.\n2. Woman meets a friend the day after tomorrow.\n3. The two will watch a movie next time.\n4. Woman has no appointment tomorrow.\n--------------------\nCorrect is 3."
+          "vi": "1. Người nam đã chuyển nhà vào cuối tuần. (trap_subject_swap + trap_same_ending)\n2. Người nữ đã chuyển nhà một mình. (trap_neg_없안 + trap_same_ending)\n3. Nhà mới của người nữ xa công ty. (trap_shared_noun + trap_neg_없안)\n4. Người nữ đã nhận được sự giúp đỡ của bạn bè. (Đúng)\n--------------------\nNgười nữ đã chuyển nhà với sự giúp đỡ của bạn bè (친구들이 도와줘서).",
+          "en": "1. The man moved over the weekend.\n2. The woman moved by herself.\n3. The woman's new house is far from the company.\n4. The woman received help from her friends.\n--------------------\nThe woman moved with the help of her friends."
+        },
+        "question_feature": "qf_match_content",
+        "difficulty": 6,
+        "distractor_traps": {
+          "1": "trap_subject_swap",
+          "2": "trap_neg_없안",
+          "3": "trap_shared_noun",
+          "4": ""
         }
       }
     ],
     "level": 1,
     "kind": "110006",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "home_housing"
   },
   {
-    "title": "[22~24] 다음을 듣고 여자의 중심 생각을 고르십시오.",
+    "title": "다음을 듣고 여자의 중심 생각을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "남자: 이번 주말에 산에 가는 거 어때요? 날씨도 좋다고 하던데요.\n여자: 산에 가는 것도 좋지만, 저는 요즘 피곤해서 집에서 푹 쉬고 싶어요.\n남자: 그래도 운동을 하면 피로가 풀릴 거예요.\n여자: 주말에는 그냥 집에서 낮잠을 자면서 쉬는 게 제일 좋은 것 같아요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 영화가 생각보다 너무 길어서 지루했어요.\n여자: 그래요? 저는 내용이 흥미로워서 시간 가는 줄 몰랐어요.\n남자: 액션 장면은 멋있었지만, 대사가 너무 많았어요.\n여자: 그래도 배우들의 연기가 좋아서 한 번 더 보고 싶어요.",
       "g_text_audio_translate": {
-        "vi": "Nam: Cuối tuần này đi leo núi không? Nghe nói thời tiết đẹp lắm.\nNữ: Đi leo núi cũng tốt nhưng dạo này tôi mệt nên muốn nghỉ ngơi ở nhà.\nNam: Dù vậy nhưng nếu tập thể dục thì sẽ hết mệt mỏi đấy.\nNữ: Cuối tuần thì tôi nghĩ cứ ngủ trưa nghỉ ngơi ở nhà là tốt nhất.",
-        "en": "Man: How about going to the mountain this weekend? They say the weather is good.\nWoman: Going to the mountain is good, but I'm tired lately, so I want to rest at home.\nMan: Even so, if you exercise, your fatigue will go away.\nWoman: I think taking a nap and resting at home on weekends is the best."
+        "vi": "Nam: Bộ phim dài hơn tôi nghĩ nên thật nhàm chán.\nNữ: Vậy sao? Tôi thấy nội dung thú vị nên không biết thời gian trôi qua.\nNam: Cảnh hành động thì tuyệt vời nhưng lời thoại quá nhiều.\nNữ: Dù vậy diễn xuất của các diễn viên rất tốt nên tôi muốn xem thêm một lần nữa.",
+        "en": "Man: The movie was longer than I thought, so it was boring.\nWoman: Really? I found the content interesting so I didn't realize the time passing.\nMan: The action scenes were cool, but there was too much dialogue.\nWoman: Still, the actors' acting was good, so I want to watch it one more time."
       },
       "g_audio": "",
       "g_image": ""
@@ -240,32 +294,41 @@
         "q_image": "",
         "q_point": 3,
         "q_answer": [
-          "주말에 산에 가면 좋겠습니다.",
-          "주말에는 집에서 쉬고 싶습니다.",
-          "피곤할 때는 운동을 해야 합니다.",
-          "날씨가 좋을 때 등산을 하고 싶습니다."
+          "영화가 너무 길어서 지루합니다.",
+          "영화의 대사가 너무 많습니다.",
+          "영화를 다시 한번 보고 싶습니다.",
+          "액션 장면이 가장 멋있습니다."
         ],
-        "q_correct": 2,
+        "q_correct": 3,
         "explain": {
-          "vi": "1. Cuối tuần đi leo núi thì tốt. (trap_opinion_swap)\n2. Cuối tuần muốn nghỉ ngơi ở nhà.\n3. Khi mệt thì phải tập thể dục. (trap_opinion_swap)\n4. Khi thời tiết đẹp muốn đi leo núi. (trap_shared_noun)\n--------------------\nNữ muốn ở nhà nghỉ ngơi thay vì đi leo núi.",
-          "en": "1. It's good to go to the mountain on weekends.\n2. I want to rest at home on weekends.\n3. When tired, one should exercise.\n4. I want to hike when the weather is good.\n--------------------\nCorrect is 2."
+          "vi": "1. Bộ phim quá dài nên nhàm chán. (trap_opinion_swap + trap_same_ending)\n2. Lời thoại của phim quá nhiều. (trap_opinion_swap + trap_shared_noun)\n3. Tôi muốn xem lại phim này một lần nữa. (Đúng)\n4. Cảnh hành động là tuyệt vời nhất. (trap_opinion_swap + trap_shared_noun)\n--------------------\nNgười nữ bày tỏ muốn xem lại bộ phim lần nữa vì diễn xuất của diễn viên tốt.",
+          "en": "1. The movie is too long and boring.\n2. The movie has too much dialogue.\n3. I want to watch the movie again.\n4. The action scenes are the coolest.\n--------------------\nThe woman expresses her desire to watch the movie again because of the good acting."
+        },
+        "question_feature": "qf_main_opinion",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_opinion_swap",
+          "2": "trap_opinion_swap",
+          "3": "",
+          "4": "trap_opinion_swap"
         }
       }
     ],
     "level": 1,
     "kind": "110007",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "hobby_leisure"
   },
   {
-    "title": "[25~26] 다음을 듣고 물음에 답하십시오.",
+    "title": "[25～26] 다음을 듣고 물음에 답하십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 안내 말씀 드리겠습니다. 지금부터 1층 로비에서 신제품 스마트폰 체험 행사를 진행합니다. 행사에 참여하시는 분들께는 작은 선물도 드립니다. 관심 있는 분들의 많은 참여 바랍니다.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 여러분, 안녕하십니까. 오늘 우리 박물관을 방문해 주셔서 감사합니다. 관람을 시작하기 전에 몇 가지 안내 말씀을 드리겠습니다. 먼저 박물관 안에서는 사진을 찍으실 수 없습니다. 그리고 전시되어 있는 물건을 손으로 만지시면 안 됩니다. 마지막으로 다른 사람들에게 방해가 되지 않게 조용히 관람해 주시기 바랍니다. 그럼 즐거운 시간 보내시길 바랍니다.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Xin thông báo. Từ bây giờ tại sảnh tầng 1 sẽ diễn ra sự kiện trải nghiệm điện thoại thông minh mẫu mới. Những vị khách tham gia sự kiện sẽ nhận được phần quà nhỏ. Mong quý vị có quan tâm đến tham gia nhiều.",
-        "en": "Woman: May I have your attention please. From now on, a new smartphone experience event will be held in the lobby on the first floor. A small gift will be given to those who participate in the event. We hope many interested people will participate."
+        "vi": "Nữ: Xin chào mọi người. Cảm ơn các bạn đã ghé thăm bảo tàng của chúng tôi hôm nay. Trước khi bắt đầu tham quan, tôi xin thông báo vài điều. Trước tiên, các bạn không được chụp ảnh trong bảo tàng. Và cũng không được chạm tay vào các đồ vật đang trưng bày. Cuối cùng, mong các bạn hãy tham quan trong trật tự để không làm phiền người khác. Chúc các bạn có khoảng thời gian vui vẻ.",
+        "en": "Woman: Hello everyone. Thank you for visiting our museum today. Before you start viewing, I would like to make a few announcements. First, you cannot take pictures inside the museum. And you must not touch the items on display. Finally, please view quietly so as not to disturb others. Have a great time."
       },
       "g_audio": "",
       "g_image": ""
@@ -276,15 +339,23 @@
         "q_image": "",
         "q_point": 3,
         "q_answer": [
-          "스마트폰을 판매하기 위해",
-          "체험 행사를 안내하기 위해",
-          "선물을 나누어 주기 위해",
-          "신제품을 설명하기 위해"
+          "박물관의 위치를 설명하기 위해",
+          "관람 시 주의할 점을 알려주기 위해",
+          "전시된 물건을 소개하기 위해",
+          "사진 찍는 방법을 설명하기 위해"
         ],
         "q_correct": 2,
         "explain": {
-          "vi": "1. Để bán điện thoại (trap_detail_distort)\n2. Để hướng dẫn sự kiện trải nghiệm\n3. Để phát quà (trap_partial_truth)\n4. Để giải thích sản phẩm mới (trap_wrong_inference)\n--------------------\nNgười nữ nói để thông báo sự kiện trải nghiệm.",
-          "en": "1. To sell smartphones\n2. To guide the experience event\n3. To give out gifts\n4. To explain new products\n--------------------\nCorrect is 2."
+          "vi": "1. Để giải thích vị trí của bảo tàng. (trap_detail_distort)\n2. Để cho biết những điểm cần lưu ý khi tham quan. (Đúng)\n3. Để giới thiệu về các đồ vật trưng bày. (trap_detail_distort)\n4. Để hướng dẫn cách chụp ảnh. (trap_shared_noun + trap_neg_없안)\n--------------------\nNgười nữ đang thông báo về những quy định (cấm chụp ảnh, cấm sờ) khi tham quan bảo tàng.",
+          "en": "1. To explain the location of the museum.\n2. To inform about the precautions when viewing.\n3. To introduce the displayed items.\n4. To explain how to take pictures.\n--------------------\nThe woman is announcing the rules (no photography, no touching) when visiting the museum."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_detail_distort",
+          "2": "",
+          "3": "trap_detail_distort",
+          "4": "trap_shared_noun"
         }
       },
       {
@@ -292,32 +363,41 @@
         "q_image": "",
         "q_point": 4,
         "q_answer": [
-          "행사는 2층에서 열린다.",
-          "이 행사는 지금 끝났다.",
-          "행사에 가면 선물을 받을 수 있다.",
-          "행사에 참여하려면 돈을 내야 한다."
+          "박물관 안에서 사진을 찍을 수 있습니다.",
+          "전시된 물건을 손으로 만져도 됩니다.",
+          "관람을 하면서 조용히 해야 합니다.",
+          "박물관 관람은 이미 끝났습니다."
         ],
         "q_correct": 3,
         "explain": {
-          "vi": "1. Sự kiện tổ chức ở tầng 2. (trap_detail_distort)\n2. Sự kiện này bây giờ đã kết thúc. (trap_detail_distort)\n3. Tham gia sự kiện có thể nhận quà.\n4. Phải trả tiền để tham gia. (trap_neg_없안)\n--------------------\nSự kiện ở tầng 1, đang diễn ra và có tặng quà.",
-          "en": "1. The event is held on the 2nd floor.\n2. This event is over now.\n3. You can get a gift if you go to the event.\n4. You have to pay to participate.\n--------------------\nCorrect is 3."
+          "vi": "1. Có thể chụp ảnh trong bảo tàng. (trap_neg_없안)\n2. Có thể chạm tay vào đồ trưng bày. (trap_neg_없안)\n3. Phải giữ im lặng khi tham quan. (Đúng)\n4. Việc tham quan bảo tàng đã kết thúc. (trap_temporal_distort)\n--------------------\nTheo đoạn thông báo, khách tham quan phải giữ trật tự để không làm phiền người khác.",
+          "en": "1. You can take pictures inside the museum.\n2. You can touch the displayed items.\n3. You must keep quiet while viewing.\n4. The museum viewing has already ended.\n--------------------\nAccording to the announcement, visitors must view quietly so as not to disturb others."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "trap_neg_없안",
+          "3": "",
+          "4": "trap_temporal_distort"
         }
       }
     ],
     "level": 1,
     "kind": "110008_1",
     "count_question": 2,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "culture_event"
   },
   {
-    "title": "[27~28] 다음을 듣고 물음에 답하십시오.",
+    "title": "[27～28] 다음을 듣고 물음에 답하십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 지훈 씨, 새로 이사한 집은 어때요?\n남자: 회사에서 가까워서 좋긴 한데, 주변이 좀 시끄러워요.\n여자: 밤에도 많이 시끄러워요?\n남자: 네, 주변에 식당이 많아서 밤늦게까지 사람들이 많더라고요.\n여자: 그럼 밤에 잠자기 불편하겠네요.\n남자: 맞아요. 그래서 귀마개를 사고 자야 할 것 같아요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 민수 씨, 요즘도 수영을 배우고 있어요?\n남자: 아니요. 수영장 수리 때문에 한 달 동안 쉬어야 해요.\n여자: 그래요? 그럼 그 동안 다른 운동을 하는 건 어때요?\n남자: 네. 그래서 다음 주부터 테니스를 배우려고 해요.\n여자: 테니스요? 저도 배우고 싶은데 같이 배워도 될까요?\n남자: 좋아요. 그럼 제가 내일 테니스장에 같이 가 줄게요.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Ji-hoon, nhà mới chuyển đến thế nào?\nNam: Gần công ty thì thích nhưng xung quanh hơi ồn ào.\nNữ: Cả ban đêm cũng ồn nhiều à?\nNam: Vâng, xung quanh nhiều quán ăn nên đêm khuya vẫn đông người.\nNữ: Vậy thì buổi đêm ngủ sẽ khó chịu nhỉ.\nNam: Đúng vậy. Chắc phải mua cái nút bịt tai rồi ngủ thôi.",
-        "en": "Woman: Ji-hoon, how is your new house?\nMan: It's good that it's close to the company, but it's a bit noisy around.\nWoman: Is it very noisy even at night?\nMan: Yes, there are many restaurants around, so there are many people until late at night.\nWoman: Then it must be uncomfortable to sleep at night.\nMan: That's right. So I think I have to buy earplugs to sleep."
+        "vi": "Nữ: Minsu, dạo này anh vẫn đang học bơi chứ?\nNam: Không. Vì hồ bơi sửa chữa nên tôi phải nghỉ một tháng.\nNữ: Vậy sao? Vậy trong thời gian đó anh tập môn thể thao khác thì sao?\nNam: Vâng. Vì thế từ tuần sau tôi định học tennis.\nNữ: Tennis sao? Tôi cũng muốn học, chúng ta học cùng nhau được không?\nNam: Tốt thôi. Vậy ngày mai tôi sẽ đi cùng cô đến sân tennis.",
+        "en": "Woman: Minsu, are you still learning swimming these days?\nMan: No. I have to take a break for a month because the swimming pool is under repair.\nWoman: Really? Then how about doing another exercise during that time?\nMan: Yes. So I'm planning to learn tennis from next week.\nWoman: Tennis? I want to learn too, can we learn together?\nMan: Good. Then I will go to the tennis court with you tomorrow."
       },
       "g_audio": "",
       "g_image": ""
@@ -328,15 +408,23 @@
         "q_image": "",
         "q_point": 3,
         "q_answer": [
-          "새로 이사한 집",
-          "회사 주변 식당",
-          "귀마개를 파는 곳",
-          "밤에 잠을 자는 방법"
+          "수영장 수리 기간",
+          "새로 배울 운동",
+          "테니스장의 위치",
+          "주말의 운동 계획"
         ],
-        "q_correct": 1,
+        "q_correct": 2,
         "explain": {
-          "vi": "1. Ngôi nhà mới chuyển đến\n2. Quán ăn quanh công ty (trap_detail_distort)\n3. Nơi bán bịt tai (trap_detail_distort)\n4. Cách để ngủ vào ban đêm (trap_partial_truth)\n--------------------\nChủ đề chính là về ngôi nhà nam mới chuyển đến.",
-          "en": "1. Newly moved house\n2. Restaurants around the company\n3. Place selling earplugs\n4. How to sleep at night\n--------------------\nCorrect is 1."
+          "vi": "1. Thời gian sửa chữa hồ bơi (trap_detail_distort)\n2. Môn thể thao mới sẽ học (Đúng)\n3. Vị trí của sân tennis (trap_wrong_inference)\n4. Kế hoạch tập thể dục cuối tuần (trap_partial_truth)\n--------------------\nHai người đang thảo luận về việc nam sẽ học tennis và nữ cũng muốn học cùng.",
+          "en": "1. Swimming pool repair period\n2. New exercise to learn\n3. Location of the tennis court\n4. Weekend exercise plan\n--------------------\nThey are discussing the new sport (tennis) the man is going to learn and the woman joining him."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_detail_distort",
+          "2": "",
+          "3": "trap_wrong_inference",
+          "4": "trap_partial_truth"
         }
       },
       {
@@ -344,51 +432,68 @@
         "q_image": "",
         "q_point": 4,
         "q_answer": [
-          "남자의 집은 회사에서 멀다.",
-          "남자의 집 주변은 조용한 편이다.",
-          "남자는 밤에 시끄러워서 불편해한다.",
-          "여자는 새로 이사한 집에 대해 불만이 있다."
+          "남자는 요즘 수영을 배우고 있습니다.",
+          "여자는 테니스를 배운 적이 있습니다.",
+          "남자는 내일 여자와 테니스장에 갈 것입니다.",
+          "두 사람은 다음 달부터 테니스를 배웁니다."
         ],
         "q_correct": 3,
         "explain": {
-          "vi": "1. Nhà nam xa công ty. (trap_neg_없안)\n2. Quanh nhà nam khá yên tĩnh. (trap_neg_없안)\n3. Nam thấy khó chịu vì ban đêm ồn ào.\n4. Nữ phàn nàn về ngôi nhà mới chuyển đến. (trap_subject_swap)\n--------------------\nNhà nam ồn ào khiến nam khó ngủ.",
-          "en": "1. Man's house is far from the company.\n2. Man's neighborhood is quiet.\n3. Man is uncomfortable because it is noisy at night.\n4. Woman is dissatisfied with the newly moved house.\n--------------------\nCorrect is 3."
+          "vi": "1. Nam dạo này đang học bơi. (trap_neg_없안)\n2. Nữ đã từng học tennis. (trap_wrong_inference)\n3. Nam sẽ đi đến sân tennis cùng nữ vào ngày mai. (Đúng)\n4. Hai người sẽ học tennis từ tháng sau. (trap_temporal_distort)\n--------------------\nỞ câu cuối, nam nói sẽ đi cùng nữ đến sân tennis vào ngày mai.",
+          "en": "1. The man is learning swimming these days.\n2. The woman has learned tennis before.\n3. The man will go to the tennis court with the woman tomorrow.\n4. The two will learn tennis from next month.\n--------------------\nIn the last sentence, the man says he will go to the tennis court with the woman tomorrow."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "trap_wrong_inference",
+          "3": "",
+          "4": "trap_temporal_distort"
         }
       }
     ],
     "level": 1,
     "kind": "110008_2",
     "count_question": 2,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "hobby_leisure"
   },
   {
-    "title": "[29~30] 다음을 듣고 물음에 답하십시오.",
+    "title": "[29～30] 다음을 듣고 물음에 답하십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 감독님, 이번에 만드신 영화가 100만 관객을 넘었습니다. 기분이 어떠신가요?\n남자: 정말 기쁩니다. 사실 이렇게 많은 분들이 보실 줄은 몰랐습니다.\n여자: 이번 영화의 성공 이유는 무엇이라고 생각하시나요?\n남자: 아무래도 가족의 사랑을 다루고 있어서 많은 분들이 공감해 주신 것 같습니다.\n여자: 앞으로 어떤 영화를 만들고 싶으신가요?\n남자: 앞으로도 사람들의 마음에 따뜻한 위로를 주는 영화를 계속 만들고 싶습니다.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 감독님, 이번에 만드신 영화가 벌써 관객 300만 명을 넘었습니다. 기분이 어떠신가요?\n남자: 이렇게 많은 분들이 제 영화를 사랑해 주셔서 정말 감사합니다.\n여자: 이 영화를 만들 때 가장 신경 쓰신 부분은 무엇인가요?\n남자: 가족의 따뜻한 사랑을 보여주고 싶었습니다. 그래서 가족들이 함께 밥을 먹는 장면을 많이 넣었지요.\n여자: 그렇군요. 다음 작품은 언제쯤 볼 수 있을까요?\n남자: 다음 작품은 내년 봄쯤 극장에서 보실 수 있을 겁니다.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Đạo diễn, bộ phim vừa làm lần này đã vượt 1 triệu lượt xem. Tâm trạng anh thế nào?\nNam: Tôi thực sự rất vui. Thực ra tôi không biết là sẽ có nhiều người xem thế này.\nNữ: Anh nghĩ lý do thành công của phim là gì?\nNam: Chắc là do nói về tình yêu gia đình nên được nhiều người đồng cảm.\nNữ: Sau này anh muốn làm phim thế nào?\nNam: Sau này tôi vẫn muốn tiếp tục làm phim mang lại sự an ủi ấm áp cho trái tim mọi người.",
-        "en": "Woman: Director, the movie you made this time exceeded 1 million viewers. How do you feel?\nMan: I'm really happy. I didn't expect so many people to watch it.\nWoman: What do you think is the reason for the success of this movie?\nMan: Because it deals with family love, I think many people empathized with it.\nWoman: What kind of movie do you want to make in the future?\nMan: I want to continue to make movies that give warm comfort to people's hearts."
+        "vi": "Nữ: Thưa đạo diễn, bộ phim ông làm lần này đã vượt quá 3 triệu khán giả. Cảm giác của ông thế nào?\nNam: Tôi thực sự cảm ơn vì có nhiều người yêu mến bộ phim của tôi như vậy.\nNữ: Khi làm bộ phim này, phần ông chú trọng nhất là gì?\nNam: Tôi muốn cho thấy tình yêu thương ấm áp của gia đình. Vì vậy tôi đã đưa vào nhiều cảnh gia đình cùng nhau ăn cơm.\nNữ: Ra là vậy. Tác phẩm tiếp theo khoảng khi nào có thể xem được?\nNam: Tác phẩm tiếp theo có lẽ các bạn sẽ xem được ở rạp vào khoảng mùa xuân năm sau.",
+        "en": "Woman: Director, the movie you made this time has already surpassed 3 million viewers. How do you feel?\nMan: I am really thankful that so many people love my movie.\nWoman: What did you pay attention to the most when making this movie?\nMan: I wanted to show the warm love of a family. So I included many scenes of families eating together.\nWoman: I see. When can we see your next work?\nMan: You will be able to see the next work at the theater around next spring."
       },
       "g_audio": "",
       "g_image": ""
     },
     "content": [
       {
-        "q_text": "남자가 이런 영화를 계속 만들고 싶어 하는 이유를 고르십시오.",
+        "q_text": "남자가 영화에 밥 먹는 장면을 많이 넣은 이유를 고르십시오.",
         "q_image": "",
         "q_point": 3,
         "q_answer": [
-          "100만 관객을 넘어서",
-          "사람들에게 따뜻한 위로를 주고 싶어서",
-          "많은 사람들이 영화를 좋아해서",
-          "가족의 사랑을 배우고 싶어서"
+          "관객들이 밥 먹는 장면을 좋아해서",
+          "가족의 따뜻한 사랑을 보여주고 싶어서",
+          "가족들이 함께 식사하는 것을 좋아해서",
+          "다음 작품을 빨리 만들고 싶어서"
         ],
         "q_correct": 2,
         "explain": {
-          "vi": "1. Do phim vượt 1 triệu lượt xem (trap_cause_effect_swap)\n2. Muốn mang lại sự an ủi ấm áp cho mọi người\n3. Do nhiều người thích phim (trap_wrong_inference)\n4. Muốn học về tình yêu gia đình (trap_detail_distort)\n--------------------\nNam muốn làm tiếp loại phim này vì muốn mang lại sự an ủi.",
-          "en": "1. Exceeded 1 million viewers\n2. Want to give warm comfort to people\n3. Many people like movies\n4. Want to learn about family love\n--------------------\nCorrect is 2."
+          "vi": "1. Vì khán giả thích cảnh ăn cơm. (trap_wrong_inference)\n2. Vì muốn cho thấy tình yêu thương ấm áp của gia đình. (Đúng)\n3. Vì gia đình thích việc dùng bữa cùng nhau. (trap_detail_distort)\n4. Vì muốn nhanh chóng làm tác phẩm tiếp theo. (trap_cause_effect_swap)\n--------------------\nNam đạo diễn nói rằng ông đưa vào nhiều cảnh ăn cơm vì muốn cho thấy tình yêu ấm áp của gia đình.",
+          "en": "1. Because the audience likes eating scenes.\n2. Because he wanted to show the warm love of a family.\n3. Because families like eating together.\n4. Because he wants to make the next work quickly.\n--------------------\nThe director said he included many eating scenes to show the warm love of a family."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_wrong_inference",
+          "2": "",
+          "3": "trap_detail_distort",
+          "4": "trap_cause_effect_swap"
         }
       },
       {
@@ -396,41 +501,50 @@
         "q_image": "",
         "q_point": 4,
         "q_answer": [
-          "남자는 영화가 성공할 것을 미리 알고 있었다.",
-          "이 영화는 가족의 사랑에 대한 내용이다.",
-          "여자는 앞으로 따뜻한 영화를 만들 것이다.",
-          "남자의 영화는 관객들에게 공감을 얻지 못했다."
+          "여자는 이 영화를 아주 재미있게 봤습니다.",
+          "이 영화는 관객들에게 별로 인기가 없습니다.",
+          "남자는 내년 봄에 새 영화를 발표할 것입니다.",
+          "남자는 다음 영화도 가족에 대한 이야기로 만듭니다."
         ],
-        "q_correct": 2,
+        "q_correct": 3,
         "explain": {
-          "vi": "1. Nam đã biết trước phim thành công. (trap_neg_없안)\n2. Phim này có nội dung về tình yêu gia đình.\n3. Nữ sau này sẽ làm phim ấm áp. (trap_subject_swap)\n4. Phim của nam không được khán giả đồng cảm. (trap_neg_없안)\n--------------------\nPhim của nam nói về tình cảm gia đình.",
-          "en": "1. Man knew beforehand the movie would succeed.\n2. This movie is about family love.\n3. Woman will make warm movies in the future.\n4. Man's movie did not get sympathy from audience.\n--------------------\nCorrect is 2."
+          "vi": "1. Nữ đã xem bộ phim này một cách rất thú vị. (trap_wrong_inference)\n2. Bộ phim này không mấy nổi tiếng với khán giả. (trap_neg_없안)\n3. Nam sẽ công bố bộ phim mới vào mùa xuân năm sau. (Đúng)\n4. Nam cũng sẽ làm bộ phim tiếp theo về câu chuyện gia đình. (trap_wrong_inference)\n--------------------\nNam nói tác phẩm tiếp theo có thể xem ở rạp vào mùa xuân năm sau.",
+          "en": "1. The woman enjoyed watching this movie very much.\n2. This movie is not very popular with the audience.\n3. The man will release a new movie next spring.\n4. The man will make the next movie about a family story too.\n--------------------\nThe man said the next work will be available in theaters next spring."
+        },
+        "question_feature": "qf_multi_comprehension",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_wrong_inference",
+          "2": "trap_neg_없안",
+          "3": "",
+          "4": "trap_wrong_inference"
         }
       }
     ],
     "level": 1,
     "kind": "110008_3",
     "count_question": 2,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "culture_event"
   },
   {
-    "title": "[1~3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+    "title": "[1～3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "남자: 저기요, 방금 산 이 우산이 불량인 것 같아요. 펴지지가 않네요.\n여자: 아, 죄송합니다. 영수증 가지고 오셨어요? 확인해 보고 다른 걸로 교환해 드릴게요.\n남자: 네, 여기 영수증이요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 손님, 이 컴퓨터는 어떠세요? 최근에 나와서 인기가 아주 많습니다.\n여자: 디자인은 마음에 드는데, 조금 무거운 것 같아요.\n남자: 그럼 이쪽으로 와 보세요. 가볍고 좋은 제품이 더 있습니다.",
       "g_text_audio_translate": {
-        "vi": "Nam: Chị ơi, cái ô vừa mua này hình như bị lỗi rồi. Không mở ra được.\nNữ: À, xin lỗi anh. Anh mang theo hóa đơn không ạ? Để tôi kiểm tra và đổi cái khác cho anh.\nNam: Vâng, hóa đơn đây ạ.",
-        "en": "Man: Excuse me, I think this umbrella I just bought is defective. It won't open.\nWoman: Oh, I'm sorry. Did you bring the receipt? I'll check it and exchange it for another one.\nMan: Yes, here is the receipt."
+        "vi": "Nam: Thưa quý khách, cái máy tính này thì sao ạ? Mới ra gần đây nên rất được yêu thích.\nNữ: Thiết kế thì ưng ý nhưng hình như hơi nặng một chút.\nNam: Vậy mời quý khách qua bên này. Còn có nhiều sản phẩm nhẹ và tốt hơn.",
+        "en": "Man: Customer, how about this computer? It came out recently and is very popular.\nWoman: I like the design, but it seems a bit heavy.\nMan: Then please come this way. There are more light and good products."
       },
       "g_audio": "",
       "g_image": ""
     },
     "q_image_description": {
-      "1": "남자가 우산 가게에서 여자 직원에게 우산과 영수증을 보여주고 있다.",
-      "2": "남자가 비 오는 날 길에서 우산을 펴고 있다.",
-      "3": "여자가 남자에게 새 우산을 포장해서 주고 있다.",
-      "4": "남자가 가방 가게에서 환불을 요구하고 있다."
+      "1": "전자제품 매장에서 남자가 여자에게 노트북 컴퓨터를 보여주며 설명하고 있다.",
+      "2": "여자가 집에서 컴퓨터로 게임을 하고 있다.",
+      "3": "남자가 서비스 센터에서 여자의 컴퓨터를 수리하고 있다.",
+      "4": "전자제품 매장에서 여자가 남자에게 스마트폰을 보여주며 질문하고 있다."
     },
     "content": [
       {
@@ -445,34 +559,43 @@
         ],
         "q_correct": 1,
         "explain": {
-          "vi": "1. Nam ở cửa hàng ô cho nữ nhân viên xem ô và hóa đơn.\n2. Nam đang mở ô ngoài đường trời mưa. (trap_context_swap)\n3. Nữ đưa cho nam chiếc ô mới bọc lại. (trap_action_swap)\n4. Nam yêu cầu trả tiền lại ở cửa hàng túi xách. (trap_detail_distort)\n--------------------\nNam đang ở cửa hàng trình bày ô lỗi và đưa hóa đơn.",
-          "en": "1. Man showing umbrella and receipt to woman at store.\n2. Man opening umbrella on rainy street.\n3. Woman giving new wrapped umbrella to man.\n4. Man asking for refund at bag store.\n--------------------\nCorrect is 1."
+          "vi": "1. Nam nhân viên cửa hàng điện máy đang giải thích và cho nữ xem máy tính. (Đúng)\n2. Nữ đang chơi game trên máy tính ở nhà. (trap_context_swap)\n3. Nam đang sửa máy tính cho nữ ở trung tâm bảo hành. (trap_action_swap)\n4. Nữ hỏi nam về điện thoại ở cửa hàng. (trap_detail_distort)\n--------------------\nHội thoại diễn ra tại cửa hàng bán máy tính, nơi nhân viên đang giới thiệu sản phẩm cho khách.",
+          "en": "1. An electronics store clerk is showing and explaining a computer to the woman.\n2. The woman is playing games on a computer at home.\n3. The man is repairing the woman's computer at a service center.\n4. The woman is asking the man about a smartphone at a store.\n--------------------\nThe dialogue takes place in a computer store where a clerk is introducing products to a customer."
+        },
+        "question_feature": "qf_match_image",
+        "difficulty": 6,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_context_swap",
+          "3": "trap_action_swap",
+          "4": "trap_detail_distort"
         }
       }
     ],
     "level": 2,
     "kind": "210001_1",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "shopping_price"
   },
   {
-    "title": "[1~3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+    "title": "[1～3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "남자: 최근 20대와 30대 직장인을 대상으로 가장 선호하는 재테크 방법에 대해 조사한 결과, 주식이 45%로 1위를 차지했습니다. 다음으로는 은행 예금이 30%, 부동산 투자가 20%로 그 뒤를 이었습니다.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 직장인들의 점심시간 활용 방법에 대해 조사한 결과, 식사 후 휴식을 취한다는 응답이 가장 많았습니다. 다음으로는 동료와의 대화가 뒤를 이었고, 가벼운 운동을 한다는 응답도 있었습니다.",
       "g_text_audio_translate": {
-        "vi": "Nam: Gần đây, kết quả khảo sát nhân viên văn phòng ở độ tuổi 20 và 30 về phương pháp đầu tư tài chính được ưa chuộng nhất cho thấy, cổ phiếu chiếm vị trí số 1 với 45%. Tiếp theo là tiền gửi ngân hàng với 30% và đầu tư bất động sản 20%.",
-        "en": "Man: Recently, a survey on the most preferred financial investment methods targeting office workers in their 20s and 30s showed that stocks took first place with 45%. Next came bank deposits with 30%, followed by real estate investment with 20%."
+        "vi": "Nữ: Theo kết quả khảo sát về cách sử dụng thời gian nghỉ trưa của nhân viên văn phòng, câu trả lời nghỉ ngơi sau khi ăn là nhiều nhất. Tiếp theo là trò chuyện với đồng nghiệp, và cũng có câu trả lời là tập thể dục nhẹ nhàng.",
+        "en": "Woman: According to a survey on how office workers use their lunch break, the most common answer was resting after eating. Following that was talking with colleagues, and there were also answers of doing light exercise."
       },
       "g_audio": "",
       "g_image": ""
     },
     "q_image_description": {
-      "1": "막대 그래프. 1위 주식(45%), 2위 은행 예금(30%), 3위 부동산 투자(20%).",
-      "2": "원형 그래프. 주식 30%, 은행 예금 45%, 부동산 투자 20%.",
-      "3": "막대 그래프. 1위 부동산 투자, 2위 주식, 3위 은행 예금.",
-      "4": "원형 그래프. 은행 예금 50%, 주식 20%, 부동산 30%."
+      "1": "막대 그래프. X축: 휴식, 대화, 운동. Y축: 비율. 휴식이 가장 높고, 대화가 두 번째, 운동이 세 번째.",
+      "2": "막대 그래프. X축: 대화, 휴식, 운동. Y축: 비율. 대화가 가장 높고, 휴식이 두 번째.",
+      "3": "원형 그래프. 운동 50%, 대화 30%, 휴식 20%.",
+      "4": "꺾은선 그래프. 직장인의 점심시간이 줄어들고 있음."
     },
     "content": [
       {
@@ -487,25 +610,34 @@
         ],
         "q_correct": 1,
         "explain": {
-          "vi": "1. Biểu đồ thanh 1. Cổ phiếu, 2. Gửi tiết kiệm, 3. Bất động sản.\n2. Biểu đồ tròn. Cổ phiếu 30%, Gửi tiết kiệm 45%. (trap_number_shift)\n3. Biểu đồ thanh 1. Bất động sản, 2. Cổ phiếu... (trap_comparison_flip)\n4. Biểu đồ tròn sai số liệu.\n--------------------\nThứ tự đúng là Cổ phiếu 45%, Gửi tiết kiệm 30%, Bất động sản 20%.",
-          "en": "1. Bar graph. 1st Stocks, 2nd Bank Deposit, 3rd Real Estate.\n2. Circle graph. Stocks 30%, Bank Deposit 45%. (trap_number_shift)\n3. Bar graph. 1st Real Estate, 2nd Stocks... (trap_comparison_flip)\n4. Circle graph with wrong data.\n--------------------\nCorrect order is Stocks 45%, Bank Deposit 30%, Real estate 20%."
+          "vi": "1. Biểu đồ thanh. Nghỉ ngơi cao nhất, sau đó là trò chuyện, tập thể dục thấp nhất. (Đúng)\n2. Biểu đồ thanh. Trò chuyện cao nhất. (trap_comparison_flip)\n3. Biểu đồ tròn. Tập thể dục chiếm 50%. (trap_number_shift)\n4. Biểu đồ đường về thời gian nghỉ trưa giảm. (trap_detail_distort)\n--------------------\nTheo bản tin, nghỉ ngơi (휴식) là nhiều nhất, tiếp theo là trò chuyện (대화), sau đó là tập thể dục (운동).",
+          "en": "1. Bar graph. Resting is highest, followed by talking, then exercise.\n2. Bar graph. Talking is highest.\n3. Pie chart. Exercise is 50%.\n4. Line graph showing lunch break time decreasing.\n--------------------\nAccording to the news, resting is the most common, followed by talking, then exercise."
+        },
+        "question_feature": "qf_match_graph",
+        "difficulty": 7,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_comparison_flip",
+          "3": "trap_number_shift",
+          "4": "trap_detail_distort"
         }
       }
     ],
     "level": 2,
     "kind": "210001_2",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "workplace"
   },
   {
-    "title": "[4~8] 다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오. (각 2점)",
+    "title": "[4～8] 다음을 듣고 <보기>와 같이 이어지는 말을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 팀장님, 이번 프로젝트 마감일을 조금 연기할 수 있을까요? 자료 조사가 생각보다 오래 걸려서요.\n남자: 마감일 연기는 어려울 것 같은데. 다른 팀원들에게 도움을 요청해 보는 건 어때요?\n여자: ______________________",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 팀장님, 부탁하신 회의 자료 준비가 끝났습니다. 어디에 둘까요?\n여자: ______________________",
       "g_text_audio_translate": {
-        "vi": "Nữ: Trưởng nhóm, chúng ta có thể hoãn hạn chót của dự án này một chút không? Việc điều tra tài liệu lâu hơn dự tính.\nNam: Chắc là khó hoãn hạn chót. Thử yêu cầu sự giúp đỡ từ các thành viên khác trong nhóm xem sao?\nNữ: ______________________",
-        "en": "Woman: Team leader, can we delay the deadline of this project a bit? The data research is taking longer than expected.\nMan: Delaying the deadline would be difficult. How about asking other team members for help?\nWoman: ______________________"
+        "vi": "Nam: Trưởng nhóm, tài liệu cuộc họp mà chị nhờ đã chuẩn bị xong. Tôi nên để ở đâu?\nNữ: ______________________",
+        "en": "Man: Team leader, the meeting materials you asked for are ready. Where should I put them?\nWoman: ______________________"
       },
       "g_audio": "",
       "g_image": ""
@@ -516,32 +648,41 @@
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "마감일이 연기되어서 다행이네요.",
-          "다른 팀원들도 지금 각자 맡은 일이 많아서요.",
-          "제가 다른 팀원들을 도와주겠습니다.",
-          "자료 조사는 이미 다 끝났습니다."
+          "회의실에 두세요.",
+          "자료 준비가 끝났습니다.",
+          "지금 회의를 시작하겠습니다.",
+          "팀장님께 부탁해 보세요."
         ],
-        "q_correct": 2,
+        "q_correct": 1,
         "explain": {
-          "vi": "1. May quá vì hạn chót được hoãn. (trap_shared_noun)\n2. Các thành viên khác bây giờ cũng đang ôm nhiều việc riêng.\n3. Tôi sẽ giúp các thành viên khác. (trap_shared_noun)\n4. Đã điều tra xong hết tài liệu. (trap_neg_않못)\n--------------------\nKhi trưởng nhóm bảo nhờ thành viên khác, câu trả lời tự nhiên nhất là trình bày tình hình các thành viên khác cũng bận.",
-          "en": "1. Glad deadline is delayed.\n2. Other members also have a lot of work right now.\n3. I will help other members.\n4. Research is already done.\n--------------------\nCorrect is 2."
+          "vi": "1. Hãy để trong phòng họp. (Đúng)\n2. Đã chuẩn bị xong tài liệu. (trap_shared_noun)\n3. Chúng ta sẽ bắt đầu cuộc họp bây giờ. (trap_same_ending)\n4. Hãy thử nhờ trưởng nhóm xem. (trap_shared_noun)\n--------------------\nTrả lời cho câu hỏi '어디에 둘까요?' (Nên để ở đâu) là chỉ nơi chốn.",
+          "en": "1. Please leave it in the meeting room.\n2. The material preparation is finished.\n3. We will start the meeting now.\n4. Try asking the team leader.\n--------------------\nThe answer to 'Where should I put them?' is indicating a place."
+        },
+        "question_feature": "qf_next_utterance",
+        "difficulty": 6,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_shared_noun",
+          "3": "trap_same_ending",
+          "4": "trap_shared_noun"
         }
       }
     ],
     "level": 2,
     "kind": "210002",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "workplace"
   },
   {
-    "title": "[9~12] 다음 대화를 잘 듣고 여자가 이어서 할 행동으로 알맞은 것을 고르십시오. (각 2점)",
+    "title": "[9～12] 다음을 듣고 여자가 이어서 할 행동으로 알맞은 것을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "남자: 김 대리, 내일 워크숍 장소 예약은 다 확인됐어요?\n여자: 네, 식당과 회의실 모두 예약 확인했습니다. 그런데 오후에 비가 온다고 해서 야외 활동 프로그램이 걱정이에요.\n남자: 그래요? 그럼 야외 활동 대신 실내에서 할 수 있는 프로그램을 찾아봐야겠네요.\n여자: 네, 알겠습니다. 제가 빨리 찾아보고 다시 보고드릴게요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 과장님, 복사기가 고장 난 것 같아요. 종이가 자꾸 걸리네요.\n남자: 그래요? 제가 한 번 볼게요. 음, 부품을 교체해야 할 것 같은데요.\n여자: 그럼 수리 센터에 바로 전화해야겠네요.\n남자: 네. 전화하는 동안 저는 다른 부서에 가서 복사를 좀 해 올게요.",
       "g_text_audio_translate": {
-        "vi": "Nam: Trợ lý Kim, địa điểm cho buổi hội thảo ngày mai đã đặt xong cả chưa?\nNữ: Vâng, đã xác nhận đặt xong cả nhà hàng và phòng họp rồi. Tuy nhiên nghe nói chiều mai trời mưa nên tôi lo cho chương trình hoạt động ngoài trời.\nNam: Vậy sao? Thế thì phải tìm chương trình có thể làm trong nhà thay cho hoạt động ngoài trời rồi.\nNữ: Vâng, tôi biết rồi. Để tôi nhanh chóng tìm hiểu rồi báo cáo lại.",
-        "en": "Man: Assistant Manager Kim, have all the workshop venue reservations been confirmed for tomorrow?\nWoman: Yes, both the restaurant and meeting room are confirmed. But it's supposed to rain in the afternoon, so I'm worried about the outdoor activity program.\nMan: Really? Then we should look for indoor programs instead of outdoor activities.\nWoman: Yes, I understand. I will quickly look for them and report back."
+        "vi": "Nữ: Trưởng phòng, hình như máy photocopy bị hỏng rồi. Giấy cứ bị kẹt mãi.\nNam: Vậy sao? Để tôi xem thử. Ừm, có vẻ phải thay linh kiện rồi.\nNữ: Vậy tôi phải gọi cho trung tâm sửa chữa ngay.\nNam: Ừ. Trong lúc cô gọi điện, tôi sẽ sang phòng ban khác photocopy một chút.",
+        "en": "Woman: Manager, I think the copier is broken. The paper keeps getting jammed.\nMan: Really? Let me take a look. Hmm, it seems we need to replace a part.\nWoman: Then I should call the repair center right away.\nMan: Yes. While you call, I'll go to another department to make some copies."
       },
       "g_audio": "",
       "g_image": ""
@@ -552,32 +693,41 @@
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "야외 활동 프로그램을 취소한다.",
-          "실내에서 할 수 있는 프로그램을 찾아본다.",
-          "워크숍 장소 예약을 다시 확인한다.",
-          "식당과 회의실 예약을 취소한다."
+          "수리 센터에 전화한다.",
+          "복사기 부품을 교체한다.",
+          "다른 부서에서 복사를 한다.",
+          "복사기에 걸린 종이를 뺀다."
         ],
-        "q_correct": 2,
+        "q_correct": 1,
         "explain": {
-          "vi": "1. Hủy chương trình ngoài trời. (trap_shared_noun)\n2. Tìm chương trình có thể hoạt động trong nhà.\n3. Xác nhận lại đặt phòng hội thảo. (trap_shared_noun)\n4. Hủy phòng họp và nhà hàng. (trap_shared_noun)\n--------------------\nNữ nói sẽ nhanh chóng đi tìm rồi báo cáo lại.",
-          "en": "1. Cancel outdoor activity program.\n2. Look for programs that can be done indoors.\n3. Reconfirm workshop venue reservation.\n4. Cancel restaurant and meeting room reservations.\n--------------------\nCorrect is 2."
+          "vi": "1. Gọi cho trung tâm sửa chữa. (Đúng)\n2. Thay linh kiện máy photocopy. (trap_detail_distort)\n3. Photocopy ở phòng ban khác. (trap_subject_swap)\n4. Lấy giấy bị kẹt trong máy photocopy ra. (trap_detail_distort)\n--------------------\nNữ nói '그럼 수리 센터에 바로 전화해야겠네요' (Vậy tôi phải gọi cho trung tâm sửa chữa ngay).",
+          "en": "1. Call the repair center.\n2. Replace the copier part.\n3. Make copies in another department.\n4. Take out the jammed paper in the copier.\n--------------------\nThe woman says she will call the repair center right away."
+        },
+        "question_feature": "qf_predict_action",
+        "difficulty": 7,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_detail_distort",
+          "3": "trap_subject_swap",
+          "4": "trap_detail_distort"
         }
       }
     ],
     "level": 2,
     "kind": "210003",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "workplace"
   },
   {
-    "title": "[13~16] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
+    "title": "[13～16] 다음을 듣고 들은 내용과 같은 것을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 이 박물관은 매달 마지막 주 수요일에 무료로 개방한다면서요?\n남자: 네, 맞아요. '문화가 있는 날'이라서 입장료가 무료예요. 게다가 저녁 9시까지 연장 운영을 해서 퇴근 후에도 관람할 수 있어요.\n여자: 잘됐네요. 특별 전시회도 무료로 볼 수 있나요?\n남자: 상설 전시는 무료인데, 특별 전시회는 따로 관람권을 구매해야 해요.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 시청자 여러분, 안녕하십니까. 오늘부터 일회용 컵 사용 규제가 본격적으로 시작되었습니다. 카페나 식당에서 음료를 마시고 갈 경우 머그잔이나 유리컵을 사용해야 하며, 이를 어길 시 최대 200만 원의 과태료가 부과됩니다. 하지만 포장해 가는 고객은 여전히 일회용 컵을 사용할 수 있습니다. 시민들은 환경 보호를 위해 필요한 조치라며 환영하는 분위기입니다.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Nghe nói bảo tàng này mở cửa miễn phí vào thứ Tư tuần cuối cùng mỗi tháng phải không?\nNam: Vâng đúng vậy. Là 'ngày có văn hóa' nên miễn phí vào cửa. Thêm nữa còn gia hạn giờ mở cửa tới 9h tối nên tan làm xong cũng có thể đi xem.\nNữ: Thật tốt quá. Triển lãm đặc biệt cũng miễn phí phải không?\nNam: Triển lãm thường trực thì miễn phí, nhưng triển lãm đặc biệt phải mua vé tham quan riêng.",
-        "en": "Woman: I heard this museum opens for free on the last Wednesday of every month?\nMan: Yes, that's right. Because it's 'Culture Day', admission is free. Also, they extend the hours until 9 PM, so you can visit after work.\nWoman: That's great. Can we see the special exhibition for free too?\nMan: The permanent exhibition is free, but you have to buy a separate ticket for the special exhibition."
+        "vi": "Nam: Xin chào quý vị khán giả. Bắt đầu từ hôm nay, quy định sử dụng cốc dùng một lần đã chính thức bắt đầu. Trong trường hợp uống đồ uống tại quán cà phê hoặc nhà hàng, phải sử dụng cốc sứ hoặc cốc thủy tinh, và nếu vi phạm sẽ bị phạt tối đa 2 triệu won. Tuy nhiên, khách hàng mua mang đi vẫn có thể sử dụng cốc dùng một lần. Người dân đang tỏ ra hoan nghênh vì đây là biện pháp cần thiết để bảo vệ môi trường.",
+        "en": "Man: Hello, viewers. Starting today, regulations on the use of disposable cups have officially begun. In case of drinking beverages at cafes or restaurants, mugs or glass cups must be used, and if violated, a fine of up to 2 million won will be imposed. However, customers taking out can still use disposable cups. Citizens are welcoming it, saying it is a necessary measure to protect the environment."
       },
       "g_audio": "",
       "g_image": ""
@@ -588,32 +738,41 @@
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "이 박물관은 항상 밤 9시까지 문을 연다.",
-          "마지막 주 수요일에는 특별 전시회도 무료이다.",
-          "이 박물관의 상설 전시는 문화가 있는 날에 무료이다.",
-          "문화가 있는 날에는 박물관이 일찍 문을 닫는다."
+          "포장 고객도 일회용 컵을 사용할 수 없다.",
+          "음료를 마시고 갈 때 머그잔을 사용해야 한다.",
+          "규제를 어기면 200만 원을 무조건 내야 한다.",
+          "시민들은 일회용 컵 사용 규제를 반대하고 있다."
         ],
-        "q_correct": 3,
+        "q_correct": 2,
         "explain": {
-          "vi": "1. Bảo tàng luôn mở đến 9h tối. (trap_shared_noun)\n2. Thứ Tư cuối tháng triển lãm đặc biệt cũng miễn phí. (trap_neg_없안)\n3. Triển lãm thường trực miễn phí vào ngày văn hóa.\n4. Vào ngày văn hóa bảo tàng đóng cửa sớm. (trap_neg_없안)\n--------------------\nTriển lãm thường trực thì miễn phí vào 'ngày có văn hóa'.",
-          "en": "1. Museum is always open until 9 PM.\n2. Special exhibition is also free on last Wednesday.\n3. Permanent exhibition is free on Culture Day.\n4. Museum closes early on Culture Day.\n--------------------\nCorrect is 3."
+          "vi": "1. Khách mua mang đi cũng không được dùng cốc một lần. (trap_neg_없안)\n2. Khi uống tại quán phải dùng cốc sứ. (Đúng)\n3. Nếu vi phạm quy định thì vô điều kiện phải nộp 2 triệu won. (trap_scope_change)\n4. Người dân đang phản đối quy định sử dụng cốc một lần. (trap_opinion_swap)\n--------------------\nTheo đoạn tin tức, khi uống tại quán phải dùng cốc sứ (머그잔) hoặc cốc thủy tinh.",
+          "en": "1. Take-out customers cannot use disposable cups either.\n2. When drinking in, mugs must be used.\n3. If you violate the regulations, you must unconditionally pay 2 million won.\n4. Citizens are opposing the regulation on disposable cup use.\n--------------------\nAccording to the news, when drinking in, mugs or glass cups must be used."
+        },
+        "question_feature": "qf_match_content",
+        "difficulty": 7,
+        "distractor_traps": {
+          "1": "trap_neg_없안",
+          "2": "",
+          "3": "trap_scope_change",
+          "4": "trap_opinion_swap"
         }
       }
     ],
     "level": 2,
     "kind": "210004",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "environment_society"
   },
   {
-    "title": "[17~20] 다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
+    "title": "[17～20] 다음을 듣고 남자의 중심 생각을 고르십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 요즘 회사에서 재택근무를 도입하자는 의견이 많던데, 부장님은 어떻게 생각하세요?\n남자: 재택근무를 하면 출퇴근 시간을 아낄 수 있어서 직원들에게 좋을 수 있죠. 하지만 업무 효율성 면에서는 우려되는 부분도 있습니다.\n여자: 오히려 집에서 조용히 일하면 집중이 더 잘 될 수도 있지 않을까요?\n남자: 개인 작업은 그럴 수 있겠지만, 부서 간의 원활한 소통과 협업을 위해서는 사무실에 출근해서 대면하는 것이 훨씬 낫다고 봅니다.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 지훈 씨, 이번 주말에 또 산에 간다고요? 매주 등산 가는 거 힘들지 않아요?\n남자: 하나도 안 힘들어요. 오히려 맑은 공기를 마시면서 땀을 흘리면 스트레스가 다 풀리거든요.\n여자: 그렇군요. 저는 등산하면 다음 날 다리가 아파서 잘 안 가게 되더라고요.\n남자: 처음엔 그럴 수 있죠. 하지만 규칙적으로 등산을 하면 체력도 좋아지고 마음도 편안해져서 건강에 최고예요.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Dạo này có nhiều ý kiến đề xuất đưa vào chế độ làm việc tại nhà, trưởng phòng nghĩ sao ạ?\nNam: Nếu làm tại nhà thì có thể tiết kiệm thời gian đi lại nên có thể tốt cho nhân viên. Nhưng về mặt hiệu suất công việc cũng có những phần đáng lo ngại.\nNữ: Trái lại, nếu làm việc lặng lẽ ở nhà thì chẳng phải sẽ tập trung tốt hơn sao?\nNam: Công việc cá nhân thì có thể là vậy, nhưng vì sự giao tiếp suôn sẻ và hiệp lực giữa các bộ phận, tôi thấy đến văn phòng gặp mặt nhau thì tốt hơn nhiều.",
-        "en": "Woman: Recently, there are many opinions to introduce telecommuting in the company. What do you think, Manager?\nMan: Telecommuting can save commuting time, which could be good for employees. But there are concerns regarding work efficiency.\nWoman: Wouldn't it be better to concentrate if you work quietly at home?\nMan: That might be the case for individual work, but for smooth communication and collaboration between departments, I think it's much better to go to the office and meet face-to-face."
+        "vi": "Nữ: Ji-hoon, cuối tuần này anh lại đi leo núi sao? Mỗi tuần đều đi leo núi không mệt à?\nNam: Chẳng mệt chút nào. Trái lại, vừa hít thở không khí trong lành vừa đổ mồ hôi thì mọi căng thẳng đều tan biến.\nNữ: Ra vậy. Tôi hễ đi leo núi thì hôm sau sẽ bị đau chân nên ít khi đi.\nNam: Ban đầu có thể như thế. Nhưng nếu leo núi đều đặn thì thể lực sẽ tốt lên và tâm trí cũng thoải mái hơn nên rất tuyệt cho sức khỏe.",
+        "en": "Woman: Ji-hoon, you are going to the mountain again this weekend? Isn't it hard going hiking every week?\nMan: It's not hard at all. On the contrary, if I breathe fresh air and sweat, all my stress is relieved.\nWoman: I see. When I hike, my legs hurt the next day, so I don't go often.\nMan: It can be like that at first. But if you hike regularly, your stamina improves and your mind becomes relaxed, so it's the best for health."
       },
       "g_audio": "",
       "g_image": ""
@@ -624,125 +783,168 @@
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "재택근무는 출퇴근 시간을 아낄 수 있어서 효과적이다.",
-          "부서 간의 소통을 위해서는 사무실 출근이 더 낫다.",
-          "재택근무를 도입하면 업무 효율성이 높아진다.",
-          "개인 작업을 할 때는 사무실에서 일하는 것이 좋다."
+          "등산을 하면 다리가 아파서 힘들다.",
+          "규칙적인 등산은 건강과 스트레스 해소에 좋다.",
+          "등산보다는 다른 운동을 하는 것이 낫다.",
+          "매주 주말마다 맑은 공기를 마시고 싶다."
         ],
         "q_correct": 2,
         "explain": {
-          "vi": "1. Làm việc tại nhà có hiệu quả vì tiết kiệm thời gian. (trap_shared_noun)\n2. Để giao tiếp giữa các phòng ban, đến văn phòng là tốt hơn.\n3. Nếu đưa vào làm việc tại nhà, hiệu suất công việc tăng. (trap_neg_않못)\n4. Khi làm việc cá nhân thì làm ở văn phòng tốt hơn. (trap_neg_않못)\n--------------------\nNam cho rằng để giao tiếp và hợp tác tốt thì nên đến văn phòng.",
-          "en": "1. Telecommuting is effective because it saves commute time.\n2. For communication between departments, going to the office is better.\n3. Telecommuting increases work efficiency.\n4. It is better to work in the office when doing individual work.\n--------------------\nCorrect is 2."
+          "vi": "1. Leo núi thì bị đau chân nên rất mệt. (trap_opinion_swap)\n2. Leo núi đều đặn tốt cho sức khỏe và giải tỏa căng thẳng. (Đúng)\n3. So với leo núi thì tập môn thể thao khác tốt hơn. (trap_wrong_inference)\n4. Muốn hít thở không khí trong lành vào mỗi cuối tuần. (trap_partial_truth)\n--------------------\nNam nhấn mạnh việc leo núi đều đặn giúp tăng cường thể lực, thư giãn tâm trí và xả stress.",
+          "en": "1. Hiking makes my legs hurt so it's hard.\n2. Regular hiking is good for health and stress relief.\n3. It's better to do another exercise rather than hiking.\n4. I want to breathe fresh air every weekend.\n--------------------\nThe man emphasizes that regular hiking improves stamina, relaxes the mind, and relieves stress."
+        },
+        "question_feature": "qf_main_opinion",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_opinion_swap",
+          "2": "",
+          "3": "trap_wrong_inference",
+          "4": "trap_partial_truth"
         }
       }
     ],
     "level": 2,
     "kind": "210005",
     "count_question": 1,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "hobby_leisure"
   },
   {
-    "title": "[21~22] 다음을 듣고 물음에 답하십시오. (각 2점)",
+    "title": "[21～22] 다음을 듣고 물음에 답하십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 오늘 발표하신 '친환경 도시 건설' 프로젝트에 대해 좀 더 자세히 듣고 싶습니다. 기존의 도시 개발 방식과 어떤 점이 다른가요?\n남자: 기존의 방식이 경제성과 효율성에 초점을 맞췄다면, 이번 프로젝트는 자연 환경의 보존과 시민들의 삶의 질 향상을 최우선으로 합니다.\n여자: 구체적으로 어떤 노력들이 포함되나요?\n남자: 도심 곳곳에 녹지 공간을 대폭 늘리고, 태양광이나 풍력 같은 신재생 에너지의 사용 비율을 50% 이상으로 끌어올릴 계획입니다.\n여자: 하지만 그런 방식은 초기 건설 비용이 너무 많이 들지 않을까요? 경제적인 부담을 우려하는 목소리도 높습니다.\n남자: 물론 초기 비용은 기존 방식보다 30% 정도 더 들 수 있습니다. 하지만 장기적인 관점에서 보면 에너지 비용 절감과 환경 보호로 인한 경제적 이익이 훨씬 큽니다.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "남자: 요즘 1인 가구가 늘어나면서 혼자 밥을 먹는 사람들을 겨냥한 식당이 많아지고 있습니다. 이런 식당들은 혼자서도 부담 없이 식사할 수 있도록 1인용 좌석을 많이 배치하고 메뉴도 1인분에 맞춰서 제공합니다.\n여자: 네, 맞습니다. 저도 가끔 혼자 밥을 먹을 때 이런 식당을 이용하는데요. 다른 사람의 시선을 신경 쓰지 않고 혼자만의 시간을 가질 수 있어서 참 편합니다. 앞으로 이런 식당들이 더 많이 생겼으면 좋겠습니다.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Tôi muốn nghe chi tiết hơn về dự án 'Xây dựng thành phố thân thiện với môi trường' anh trình bày hôm nay. Khác với cách phát triển đô thị hiện có ở điểm nào?\nNam: Cách hiện có tập trung vào tính kinh tế và hiệu quả, còn dự án lần này ưu tiên bảo tồn môi trường tự nhiên và nâng cao chất lượng sống của cư dân.\nNữ: Cụ thể bao gồm những nỗ lực nào?\nNam: Tăng cường diện tích không gian xanh và nâng tỷ lệ sử dụng năng lượng tái tạo lên trên 50%.\nNữ: Nhưng cách đó chẳng phải chi phí xây dựng ban đầu sẽ rất nhiều sao?\nNam: Tất nhiên chi phí ban đầu có thể cao hơn 30%. Nhưng về dài hạn, lợi ích kinh tế do giảm chi phí năng lượng và bảo vệ môi trường lớn hơn nhiều.",
-        "en": "Woman: I'd like to hear more details about the 'Eco-friendly City Construction' project you presented today. How is it different from existing urban development methods?\nMan: While existing methods focused on economics and efficiency, this project prioritizes preservation of natural environment and improving citizens' quality of life.\nWoman: What specific efforts are included?\nMan: We plan to greatly expand green spaces throughout the city and increase the usage rate of renewable energy such as solar and wind power to over 50%.\nWoman: But wouldn't that method incur too much initial construction cost?\nMan: Of course, initial costs could be about 30% higher. However, from a long-term perspective, the economic benefits from energy cost savings and environmental protection are much greater."
+        "vi": "Nam: Dạo này khi số lượng hộ gia đình 1 người tăng lên, ngày càng có nhiều nhà hàng nhắm đến những người ăn cơm một mình. Những nhà hàng này bố trí nhiều chỗ ngồi cho 1 người và cung cấp thực đơn theo suất 1 người để có thể ăn uống thoải mái dù chỉ có một mình.\nNữ: Vâng, đúng vậy. Tôi cũng thỉnh thoảng sử dụng những nhà hàng này khi ăn cơm một mình. Rất thoải mái vì có thể có thời gian cho riêng mình mà không cần bận tâm ánh nhìn của người khác. Mong rằng trong tương lai sẽ có nhiều nhà hàng thế này hơn.",
+        "en": "Man: These days, as the number of single-person households increases, there are more and more restaurants targeting people who eat alone. These restaurants arrange many single seats and provide menus tailored for one person so that people can eat comfortably even alone.\nWoman: Yes, that's right. I also sometimes use these restaurants when eating alone. It is very comfortable because I can have my own time without caring about other people's gazes. I hope more restaurants like this will appear in the future."
       },
       "g_audio": "",
       "g_image": ""
     },
     "content": [
       {
-        "q_text": "남자의 중심 생각으로 맞는 것을 고르십시오.",
+        "q_text": "남자의 중심 생각으로 알맞은 것을 고르십시오.",
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "친환경 도시 건설은 초기 비용이 많이 들어서 경제적으로 불리하다.",
-          "경제성과 효율성에 초점을 맞춘 도시 개발 방식이 더 중요하다.",
-          "신재생 에너지의 사용 비율을 50% 이상으로 높이는 것은 어렵다.",
-          "장기적으로 보면 친환경 도시 건설이 경제적인 이익을 가져온다."
+          "혼자 밥을 먹는 것은 건강에 좋지 않다.",
+          "식당은 여러 명이 함께 이용하는 곳이어야 한다.",
+          "1인 가구를 위한 맞춤형 식당이 증가하고 있다.",
+          "혼자 밥을 먹는 사람들의 시선을 신경 써야 한다."
         ],
-        "q_correct": 4,
+        "q_correct": 3,
         "explain": {
-          "vi": "1. Xây dựng TP thân thiện với môi trường bất lợi về kinh tế. (trap_neg_않못)\n2. Cách phát triển chú trọng kinh tế hiệu quả quan trọng hơn. (trap_shared_noun)\n3. Nâng tỷ lệ dùng năng lượng tái tạo lên trên 50% là rất khó. (trap_shared_noun)\n4. Về dài hạn, xây dựng TP thân thiện mang lại lợi ích kinh tế.\n--------------------\nNam nhấn mạnh xây dựng thân thiện môi trường đem lại lợi ích lâu dài.",
-          "en": "1. Eco-friendly city construction is economically disadvantageous.\n2. Urban development method focusing on economics is more important.\n3. It's difficult to raise renewable energy usage to over 50%.\n4. In the long run, eco-friendly city construction brings economic benefits.\n--------------------\nCorrect is 4."
+          "vi": "1. Việc ăn cơm một mình không tốt cho sức khỏe. (trap_wrong_inference)\n2. Nhà hàng phải là nơi nhiều người cùng sử dụng. (trap_neg_없안)\n3. Các nhà hàng thiết kế riêng cho hộ gia đình 1 người đang gia tăng. (Đúng)\n4. Phải để ý đến ánh nhìn của những người ăn một mình. (trap_detail_distort)\n--------------------\nNam tập trung nói về xu hướng gia tăng của các nhà hàng dành cho 1 người.",
+          "en": "1. Eating alone is not good for health.\n2. A restaurant should be a place where many people use it together.\n3. Customized restaurants for single-person households are increasing.\n4. You have to care about the gaze of people eating alone.\n--------------------\nThe man focuses on the increasing trend of restaurants for single people."
+        },
+        "question_feature": "qf_main_opinion",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_wrong_inference",
+          "2": "trap_neg_없안",
+          "3": "",
+          "4": "trap_detail_distort"
         }
       },
       {
-        "q_text": "들은 내용으로 맞는 것을 고르십시오.",
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "이번 프로젝트는 자연 환경 보존을 최우선으로 한다.",
-          "기존의 도시 개발 방식은 시민들의 삶의 질 향상에 초점을 맞췄다.",
-          "친환경 도시 건설은 기존 방식보다 초기 비용이 적게 든다.",
-          "여자는 도심의 녹지 공간을 대폭 늘려야 한다고 주장한다."
+          "요즘 1인 가구의 수가 줄어들고 있다.",
+          "여자는 혼자 식당에 가는 것을 불편해한다.",
+          "이런 식당에는 1인용 좌석과 메뉴가 준비되어 있다.",
+          "여자는 앞으로 이런 식당이 없어지기를 바란다."
         ],
-        "q_correct": 1,
+        "q_correct": 3,
         "explain": {
-          "vi": "1. Dự án này ưu tiên bảo tồn tự nhiên.\n2. Cách phát triển hiện có chú trọng nâng cao chất lượng sống. (trap_shared_noun)\n3. Cách xây dựng thân thiện ít tốn chi phí ban đầu hơn. (trap_neg_않못)\n4. Nữ chủ trương tăng cường không gian xanh. (trap_subject_swap)\n--------------------\nDự án lần này ưu tiên bảo tồn tự nhiên và chất lượng sống.",
-          "en": "1. This project prioritizes preservation of natural environment.\n2. Existing urban development method focused on improving quality of life.\n3. Eco-friendly city construction costs less initially.\n4. Woman argues that green spaces should be greatly expanded.\n--------------------\nCorrect is 1."
+          "vi": "1. Dạo này số lượng hộ gia đình 1 người đang giảm. (trap_comparison_flip)\n2. Nữ cảm thấy bất tiện khi đi nhà hàng một mình. (trap_neg_없안)\n3. Ở những nhà hàng này có chuẩn bị chỗ ngồi và thực đơn cho 1 người. (Đúng)\n4. Nữ mong rằng những nhà hàng thế này sẽ biến mất. (trap_neg_없안)\n--------------------\nNam có nhắc đến việc những nhà hàng này bố trí ghế và thực đơn cho 1 người.",
+          "en": "1. These days, the number of single-person households is decreasing.\n2. The woman feels uncomfortable going to a restaurant alone.\n3. These restaurants have seats and menus for one person.\n4. The woman hopes these restaurants will disappear in the future.\n--------------------\nThe man mentioned that these restaurants arrange seats and menus for one person."
+        },
+        "question_feature": "qf_match_content",
+        "difficulty": 8,
+        "distractor_traps": {
+          "1": "trap_comparison_flip",
+          "2": "trap_neg_없안",
+          "3": "",
+          "4": "trap_neg_없안"
         }
       }
     ],
     "level": 2,
     "kind": "210006",
     "count_question": 2,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "food_restaurant"
   },
   {
-    "title": "다음은 대담입니다. 잘 듣고 물음에 답하십시오.",
+    "title": "[23～24] 다음을 듣고 물음에 답하십시오.",
     "general": {
       "g_text": "",
-      "g_text_translate": {"vi": "", "en": ""},
-      "g_text_audio": "여자: 교수님, 최근 인공지능 기술이 의료 분야에 적극적으로 도입되고 있는데요. 이런 변화가 의료진의 역할을 대체할 것이라는 우려의 목소리도 있습니다. 어떻게 보시는지요?\n남자: 인공지능이 방대한 의료 데이터를 빠르게 분석하고 진단의 정확도를 높이는 데 크게 기여하고 있는 것은 사실입니다. 하지만 의료는 단순히 질병을 찾아내는 것 이상의 복합적인 과정입니다. 환자의 정서적인 상태를 살피고, 다양한 윤리적 판단을 내리는 일은 기계가 대신할 수 없는 인간 고유의 영역입니다. 따라서 인공지능은 의료진을 돕는 강력한 도구일 뿐, 대체재가 될 수는 없다고 봅니다.\n여자: 그렇다면 앞으로 의료진들은 인공지능 시대를 맞아 어떤 준비를 해야 할까요?\n남자: 인공지능이 제공하는 데이터를 정확하게 해석하고 활용할 수 있는 분석 능력을 기르는 동시에, 환자와 깊이 교감하고 소통하는 인문학적 소양을 더욱 강화해야 할 것입니다.",
+      "g_text_translate": { "vi": "", "en": "" },
+      "g_text_audio": "여자: 박사님, 최근 어린이들의 독서량이 크게 줄어들고 있다는 기사를 보았습니다. 이 문제의 원인이 무엇이라고 생각하십니까?\n남자: 네, 여러 가지 원인이 있겠지만 가장 큰 이유는 스마트 기기의 보급입니다. 스마트폰이나 태블릿 PC로 즐길 수 있는 영상 매체와 게임이 많아지면서, 상대적으로 긴 시간 동안 집중해야 하는 독서에 대한 흥미를 잃게 되는 것이죠. 영상 매체는 시각적으로 화려하고 즉각적인 재미를 주기 때문에 책보다 더 쉽게 빠져들게 됩니다.\n여자: 그렇다면 어린이들이 책과 다시 가까워지게 하려면 어떤 노력이 필요할까요?\n남자: 무조건 스마트 기기 사용을 금지하기보다는, 부모님이 먼저 책 읽는 모습을 보여주고 아이와 함께 도서관에 가는 등 독서를 즐거운 활동으로 인식할 수 있는 환경을 만들어 주는 것이 중요합니다.",
       "g_text_audio_translate": {
-        "vi": "Nữ: Giáo sư, gần đây AI đang được áp dụng tích cực vào lĩnh vực y tế. Có ý kiến lo ngại AI sẽ thay thế vai trò đội ngũ y tế. Ông thấy thế nào?\nNam: AI phân tích dữ liệu nhanh và góp phần nâng cao độ chính xác trong chẩn đoán. Nhưng y tế không chỉ là tìm bệnh, mà là quá trình phức tạp. Chăm sóc trạng thái cảm xúc, đưa ra phán đoán luân lý là 영역 con người. AI là công cụ, không thể thay thế.\nNữ: Đội ngũ y tế cần chuẩn bị gì?\nNam: Cần bồi dưỡng năng lực phân tích dữ liệu từ AI và củng cố tố chất nhân văn để giao tiếp với bệnh nhân.",
-        "en": "Woman: Professor, AI technology is being actively introduced in the medical field. There are concerns it will replace medical staff. What do you think?\nMan: AI contributes greatly to analyzing medical data quickly and improving diagnostic accuracy. But medicine is a complex process beyond just finding diseases. Caring for patients' emotional states and making ethical judgments are human domains. AI is a tool, not a replacement.\nWoman: Then what preparations should medical staff make?\nMan: Develop analytical skills to interpret data provided by AI, while strengthening humanities skills to communicate with patients."
+        "vi": "Nữ: Thưa tiến sĩ, gần đây tôi thấy bài báo nói lượng đọc sách của trẻ em đang giảm mạnh. Tiến sĩ nghĩ nguyên nhân của vấn đề này là gì?\nNam: Vâng, có nhiều nguyên nhân nhưng lý do lớn nhất là sự phổ cập của thiết bị thông minh. Khi các phương tiện truyền thông hình ảnh và trò chơi có thể giải trí bằng smartphone hay tablet PC tăng lên, các em mất đi hứng thú với việc đọc sách, vốn cần tập trung trong thời gian dài. Phương tiện hình ảnh hào nhoáng và mang lại niềm vui tức thì nên dễ bị cuốn hút hơn sách.\nNữ: Nếu vậy, để trẻ em gần gũi lại với sách thì cần sự nỗ lực nào?\nNam: Thay vì cấm sử dụng thiết bị thông minh một cách vô điều kiện, điều quan trọng là cha mẹ hãy cho thấy hình ảnh mình đọc sách trước và đi thư viện cùng con, tạo môi trường để con có thể nhận thức đọc sách là một hoạt động vui vẻ.",
+        "en": "Woman: Doctor, I recently saw an article saying that children's reading volume is decreasing significantly. What do you think is the cause of this problem?\nMan: Yes, there could be various causes, but the biggest reason is the spread of smart devices. As visual media and games that can be enjoyed with smartphones or tablet PCs increase, they lose interest in reading, which requires concentration for a relatively long time. Visual media is visually flashy and gives immediate fun, so it's easier to fall for than books.\nWoman: If so, what efforts are needed to make children close to books again?\nMan: Rather than unconditionally prohibiting the use of smart devices, it is important for parents to show themselves reading first and create an environment where children can recognize reading as a fun activity, such as going to the library with them."
       },
       "g_audio": "",
       "g_image": ""
     },
     "content": [
       {
-        "q_text": "남자의 중심 생각으로 맞는 것을 고르십시오.",
+        "q_text": "남자가 무엇을 하고 있는지 고르십시오.",
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "인공지능은 멀지 않은 미래에 의료진의 역할을 완전히 대체할 것이다.",
-          "의료진은 인공지능을 대체재가 아닌 보조 도구로 인식하고 활용해야 한다.",
-          "인공지능이 진단의 정확도를 높이기 때문에 윤리적 판단은 중요하지 않다.",
-          "환자의 정서적인 상태를 살피는 일은 인공지능이 인간보다 뛰어나다."
+          "어린이 독서 프로그램의 종류를 소개하고 있다.",
+          "스마트 기기의 부작용에 대해 경고하고 있다.",
+          "독서량이 감소하는 이유와 해결책을 제시하고 있다.",
+          "올바른 스마트폰 사용 방법에 대해 설명하고 있다."
         ],
-        "q_correct": 2,
+        "q_correct": 3,
         "explain": {
-          "vi": "1. AI sẽ hoàn toàn thay thế y bác sĩ trong tương lai. (trap_neg_않못)\n2. Y bác sĩ cần nhận thức AI là công cụ hỗ trợ, không phải để thay thế.\n3. AI tăng độ chính xác chẩn đoán nên phán đoán luân lý không quan trọng. (trap_neg_않못)\n4. AI giỏi hơn con người trong chăm sóc cảm xúc bệnh nhân. (trap_neg_않못)\n--------------------\nNam cho rằng AI là công cụ hỗ trợ mạnh mẽ, không phải để thay thế.",
-          "en": "1. AI will completely replace medical staff in the near future.\n2. Medical staff should use AI as an auxiliary tool, not a replacement.\n3. Ethical judgment is not important because AI increases diagnostic accuracy.\n4. AI is better than humans at looking at patients' emotional states.\n--------------------\nCorrect is 2."
+          "vi": "1. Đang giới thiệu các loại chương trình đọc sách cho trẻ em. (trap_detail_distort)\n2. Đang cảnh báo về tác dụng phụ của thiết bị thông minh. (trap_partial_truth)\n3. Đang đưa ra nguyên nhân giảm lượng đọc sách và giải pháp. (Đúng)\n4. Đang giải thích về phương pháp sử dụng điện thoại thông minh đúng đắn. (trap_wrong_inference)\n--------------------\nNam chuyên gia phân tích nguyên nhân trẻ em ít đọc sách (do thiết bị thông minh) và đưa ra giải pháp (tạo môi trường đọc sách từ cha mẹ).",
+          "en": "1. Introducing the types of children's reading programs.\n2. Warning about the side effects of smart devices.\n3. Presenting the reasons for the decrease in reading and solutions.\n4. Explaining how to properly use smartphones.\n--------------------\nThe male expert analyzes the reason children read less (smart devices) and offers a solution (parents creating a reading environment)."
+        },
+        "question_feature": "qf_intention",
+        "difficulty": 9,
+        "distractor_traps": {
+          "1": "trap_detail_distort",
+          "2": "trap_partial_truth",
+          "3": "",
+          "4": "trap_wrong_inference"
         }
       },
       {
-        "q_text": "들은 내용과 일치하는 것을 고르십시오.",
+        "q_text": "들은 내용과 같은 것을 고르십시오.",
         "q_image": "",
         "q_point": 2,
         "q_answer": [
-          "인공지능은 환자와 깊이 교감하고 소통하는 데 유용하게 쓰인다.",
-          "인공지능의 도입으로 인해 의료진은 인문학적 소양을 기를 필요가 없어졌다.",
-          "남자는 인공지능이 질병 진단 과정에서 인간을 능가할 수 없다고 주장했다.",
-          "앞으로 의료진은 인공지능이 제공하는 데이터를 해석하는 능력을 갖춰야 한다."
+          "어린이들은 책보다 영상 매체를 더 좋아한다.",
+          "스마트 기기의 사용을 무조건 금지해야 한다.",
+          "요즘 어린이들의 독서량이 예전보다 크게 늘었다.",
+          "부모님이 책을 읽어 주는 것은 효과가 없다."
         ],
-        "q_correct": 4,
+        "q_correct": 1,
         "explain": {
-          "vi": "1. AI được sử dụng hữu ích để giao tiếp sâu sắc với bệnh nhân. (trap_shared_noun)\n2. Đội ngũ y tế không cần trau dồi tố chất nhân văn nữa. (trap_neg_않못)\n3. Nam cho rằng AI không thể vượt con người trong chẩn đoán. (trap_shared_noun)\n4. Đội ngũ y tế cần có năng lực phân tích dữ liệu do AI cung cấp.\n--------------------\nY bác sĩ cần chuẩn bị năng lực phân tích dữ liệu do AI cung cấp.",
-          "en": "1. AI is useful for deeply communicating with patients.\n2. Medical staff no longer need to develop humanities skills.\n3. Man argued AI cannot surpass humans in disease diagnosis.\n4. Medical staff must have ability to interpret data provided by AI.\n--------------------\nCorrect is 4."
+          "vi": "1. Trẻ em thích phương tiện hình ảnh hơn sách. (Đúng)\n2. Phải cấm sử dụng thiết bị thông minh một cách vô điều kiện. (trap_neg_없안)\n3. Lượng đọc sách của trẻ em dạo này tăng mạnh so với trước kia. (trap_comparison_flip)\n4. Việc cha mẹ đọc sách cho nghe là không có hiệu quả. (trap_neg_없안)\n--------------------\nNam nói rằng phương tiện hình ảnh mang lại niềm vui tức thì nên dễ bị cuốn hút hơn sách.",
+          "en": "1. Children prefer visual media to books.\n2. The use of smart devices must be unconditionally prohibited.\n3. These days, children's reading volume has increased significantly compared to the past.\n4. Parents reading books is ineffective.\n--------------------\nThe man said that visual media gives immediate fun so it's easier to fall for than books."
+        },
+        "question_feature": "qf_match_content",
+        "difficulty": 9,
+        "distractor_traps": {
+          "1": "",
+          "2": "trap_neg_없안",
+          "3": "trap_comparison_flip",
+          "4": "trap_neg_없안"
         }
       }
     ],
     "level": 2,
     "kind": "210007",
     "count_question": 2,
-    "tag": "listen"
+    "tag": "listen",
+    "topic": "school_education"
   }
 ]
