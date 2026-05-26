@@ -58,7 +58,13 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
   "level": 2,
   "kind": "230001_1",
   "count_question": 1,
-  "tag": "write"
+  "tag": "write",
+  "topic": "<mã chủ đề từ bảng topic>",
+  "example_1": "<bài viết mẫu — chỉ kind 230002 và 230003>",
+  "example_2": "<bài viết mẫu>",
+  "example_3": "<bài viết mẫu>",
+  "example_4": "<bài viết mẫu>",
+  "example_5": "<bài viết mẫu>"
 }
 ```
 
@@ -97,9 +103,9 @@ Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json kh
 
 ### Đặc điểm riêng của Write
 
-- **230001_1, 230001_2**: Câu hỏi dạng trắc nghiệm — chọn cặp (ㄱ)-(ㄴ) đúng để điền vào đoạn văn
-- **230002**: Có `g_image` (biểu đồ/đồ thị) + `g_text` (đề bài). `count_question=3` (3 câu hỏi phụ về biểu đồ)
-- **230003**: Có `g_text` (đề bài dài). `count_question=10` (10 câu hỏi phụ: điền từ, chọn ngữ pháp, nội dung)
+- **230001_1, 230001_2**: Trắc nghiệm — chọn cặp (ㄱ)-(ㄴ) đúng điền vào đoạn văn. Đáp án là **tổ hợp 2×2** (xem chi tiết trong kind file)
+- **230002**: Có `g_image` (**2 biểu đồ** + triển vọng/nguyên nhân) + `g_text` (đề bài). `count_question=3` (Q1-Q2: chọn mô tả ĐÚNG, Q3: chọn mô tả SAI). **Kèm 5 bài viết mẫu** (`example_1` đến `example_5`, 200~300 chữ)
+- **230003**: Có `g_text` (đề bài 3 phần: dẫn nhập → chủ đề → 3 câu hỏi gợi ý). `count_question=10` (câu 1-4: điền từ, 5-8: chọn câu phù hợp, 9-10: sắp xếp ý). **Kèm 5 bài viết mẫu** (`example_1` đến `example_5`, 600~700 chữ)
 
 ### Format BẮT BUỘC cho kind có ảnh
 
@@ -241,5 +247,10 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - [ ] Kind 230001 → có `q_image_description` (ảnh đoạn văn có chỗ trống)
 - [ ] Kind 230002 → có `g_image` + `q_image_description` (ảnh biểu đồ)
 - [ ] Kind 230002 → số liệu biểu đồ nhất quán giữa `q_image_description` và đáp án
-- [ ] Kind 230003 → `g_text` đề bài đủ dài, rõ ràng
+- [ ] Kind 230003 → `g_text` đề bài 3 phần (dẫn nhập → chủ đề → 3 câu hỏi gợi ý), đủ dài, rõ ràng
+- [ ] Kind 230003 → 10 câu phụ đúng phân loại (1-4: điền từ, 5-8: chọn câu, 9-10: sắp xếp ý)
+- [ ] Kind 230002, 230003 → có đủ 5 bài viết mẫu (`example_1` đến `example_5`)
+- [ ] Kind 230002 → bài viết mẫu 200~300 chữ, nhất quán với biểu đồ
+- [ ] Kind 230003 → bài viết mẫu 600~700 chữ, trả lời 3 câu hỏi gợi ý
+- [ ] Kind 230001 → đáp án theo tổ hợp 2×2 (A/B cho ㄱ, C/D cho ㄴ)
 - [ ] Chủ đề không trùng lặp trong cùng batch

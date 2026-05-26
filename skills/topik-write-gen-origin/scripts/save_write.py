@@ -43,6 +43,11 @@ BASE_COLUMNS = [
     "topic",
 ]
 
+# Cột bài viết mẫu (example) — chỉ kind 230002, 230003
+EXAMPLE_COLUMNS = [
+    "example_1", "example_2", "example_3", "example_4", "example_5",
+]
+
 # Cột lặp theo content (sẽ thêm hậu tố _1, _2, ...)
 CONTENT_COLUMNS = [
     "q_text", "q_point", "q_answer", "q_correct",
@@ -58,6 +63,7 @@ def get_csv_columns(max_cq):
     for n in range(1, max_cq + 1):
         for col in CONTENT_COLUMNS:
             cols.append(f"{col}_{n}")
+    cols.extend(EXAMPLE_COLUMNS)
     cols.append("created_at")
     return cols
 
@@ -168,6 +174,10 @@ def flatten_question(question, timestamp=None, seq=0):
         row[f"question_feature_{n}"] = content.get("question_feature", "")
         row[f"difficulty_{n}"] = content.get("difficulty", "")
         row[f"distractor_trap_{n}"] = "\n".join(trap_parts)
+
+    # Bài viết mẫu (example_1 đến example_5) — ở top-level
+    for i in range(1, 6):
+        row[f"example_{i}"] = question.get(f"example_{i}", "")
 
     return row
 

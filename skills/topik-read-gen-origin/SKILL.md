@@ -25,7 +25,9 @@ skills/topik-read-gen-origin/
 │   ├── 120003_2.md       Chọn đáp án sai [42] (TOPIK I) [ảnh]
 │   ├── 120004_1.md       Nội dung khớp (TOPIK I)
 │   ├── 120004_2.md       Ý chính / trung tâm (TOPIK I)
-│   ├── 120005.md         Đọc đoạn + 2 câu hỏi dễ (TOPIK I)
+│   ├── 120005.md         Đọc đoạn + 2 câu hỏi dễ (TOPIK I) — tổng quan
+│   ├── 120005_(1).md      Đọc đoạn + 2 câu hỏi — Điền ngữ pháp + Nội dung khớp (TOPIK I)
+│   ├── 120005_(2).md      Đọc đoạn + 2 câu hỏi — Điền liên từ + Xác định chủ đề (TOPIK I)
 │   ├── 120006.md         Sắp xếp câu theo thứ tự (TOPIK I)
 │   ├── 120007_1.md       Đoạn văn ngắn khó [59~60] (TOPIK I)
 │   ├── 120007_2.md       Đoạn văn ngắn khó [61~68] (TOPIK I)
@@ -42,16 +44,52 @@ skills/topik-read-gen-origin/
 │   ├── 220003_a_2.md     Chủ đề đoạn văn [7~8] (TOPIK II) [ảnh]
 │   ├── 220003_b.md       Chủ đề đoạn văn dài [35~38] (TOPIK II)
 │   ├── 220004.md         Sắp xếp câu nâng cao (TOPIK II)
-│   ├── 220005_1.md       Đoạn văn dễ [19~22] (TOPIK II)
+│   ├── 220005_1.md       Đoạn văn dễ [19~22] (TOPIK II) — tổng quan
+│   ├── 220005_1_(1).md     Đoạn văn dễ — Liên từ/trạng từ + Chủ đề [19~20] (TOPIK II)
+│   ├── 220005_1_(2).md     Đoạn văn dễ — Thành ngữ + Nội dung khớp [21~22] (TOPIK II)
 │   ├── 220005_2.md       Đoạn văn dễ [23~24] (TOPIK II)
 │   ├── 220006.md         Tiêu đề báo chí (TOPIK II)
 │   ├── 220007.md         Chèn câu vào đúng vị trí (TOPIK II)
-│   ├── 220008_1.md       Đoạn văn khó [42~47] (TOPIK II)
+│   ├── 220008_1.md       Đoạn văn khó [42~47] (TOPIK II) — tổng quan
+│   ├── 220008_1_(1).md     Đoạn văn khó — Tiểu thuyết văn học + Cảm xúc nhân vật [42~43] (TOPIK II)
+│   ├── 220008_1_(2).md     Đoạn văn khó — Học thuật + Điền từ + Chủ đề [44~45] (TOPIK II)
+│   ├── 220008_1_(3).md     Đoạn văn khó — Học thuật + Thái độ tác giả + Nội dung khớp [46~47] (TOPIK II)
 │   └── 220008_2.md       Đoạn văn khó [48~50] (TOPIK II)
 └── samples.json          ← Mẫu câu hỏi tham khảo
 ```
 
 Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKILL.md này.
+
+---
+
+## Quy tắc routing sub-kind
+
+Một số kind được tách thành nhiều **sub-kind** (đánh dấu "tổng quan" trong cây thư mục). Mỗi sub-kind có kiểu đoạn văn, dạng câu hỏi phụ, hoặc format đáp án riêng biệt.
+
+### Kind có sub-kind
+
+| Parent kind | Sub-kinds | Tiêu chí tách |
+|-------------|-----------|---------------|
+| 120005 | 120005_(1), _(2) | Dạng câu hỏi: điền ngữ pháp + nội dung khớp / điền liên từ + chủ đề |
+| 220005_1 | 220005_1_(1), _(2) | Dạng câu hỏi: liên từ + chủ đề [19~20] / thành ngữ + nội dung khớp [21~22] |
+| 220008_1 | 220008_1_(1), _(2), _(3) | Thể loại văn bản: tiểu thuyết [42~43] / học thuật điền từ [44~45] / học thuật thái độ [46~47] |
+
+### Quy tắc gen
+
+1. **File "tổng quan"** (vd: `220008_1.md`) chỉ là overview — **KHÔNG dùng trực tiếp để gen**. Luôn đọc file sub-kind cụ thể.
+
+2. **User chỉ định parent kind** (vd: "gen 220008_1"):
+   - Đọc file tổng quan để biết danh sách sub-kind
+   - **Phân bổ đều** câu hỏi qua các sub-kind để đảm bảo đa dạng
+   - Ví dụ: gen 6 câu 220008_1 → 2 câu 220008_1_(1) + 2 câu 220008_1_(2) + 2 câu 220008_1_(3)
+   - Mỗi câu đọc đúng file sub-kind tương ứng để lấy quy tắc riêng
+
+3. **User chỉ định sub-kind** (vd: "gen 220008_1_(1)"):
+   - Đọc file sub-kind trực tiếp, gen tất cả câu theo sub-kind đó
+
+4. **Trường `kind` trong JSON output**: Ghi **sub-kind** cụ thể (vd: `"220008_1_(1)"`), không ghi parent kind.
+
+> **Lưu ý**: Các bảng topic, difficulty, trap bên dưới tham chiếu parent kind (vd: `220008_1~2`). Sub-kind kế thừa tất cả thuộc tính của parent trừ khi file sub-kind ghi đè riêng.
 
 ---
 
@@ -254,12 +292,12 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 | `ans_sentence_polite` | Đáp án dùng ~ㅂ니다/습니다 | 120003_1~2 |
 | `ans_grammar_form` | Đáp án là cấu trúc ngữ pháp | 220001_a, 220002_a |
 | `ans_grammar_phrase` | Đáp án là cụm từ cùng gốc từ vựng, khác ngữ pháp | 120005 (Dạng 1 — content[0]) |
-| `ans_conjunction` | Đáp án là liên từ (그리고, 그래서, 그렇지만...) | 120005 (Dạng 2 — content[0]) |
+| `ans_conjunction` | Đáp án là liên từ (그리고, 그래서, 그렇지만...) | 120005_(2) (content[0]) |
 | `ans_word_phrase` | Đáp án là từ hoặc cụm từ ngắn (cụm động từ, cụm tính từ, cụm bổ nghĩa) | 120007_2 (content[0]) |
 | `ans_sentence_long` | Đáp án là câu dài (20+ ký tự) | 220001_b, 220001_c, 220006, 220008_1~2 |
 | `ans_order_combo` | Đáp án là tổ hợp thứ tự (가)-(나)-(다)-(라) | 120006, 220004 |
 | `ans_verb_polite` | Đáp án dùng ~어요/아요 (động từ) | 120002_1~4 |
-| `ans_grammar_conjugation` | Đáp án là dạng chia ngữ pháp | 120005_1 |
+| `ans_grammar_conjugation` | Đáp án là dạng chia ngữ pháp | 120005_(1) |
 | `ans_sentence_purpose` | Đáp án mô tả mục đích ~(으)려고 | 120007_3 |
 | `ans_single_noun` | Đáp án là danh từ đơn (~2 âm tiết) | 220003_a_1 |
 | `ans_position_mark` | Đáp án là vị trí ㉠/㉡/㉢/㉣ | 220007 |
@@ -329,7 +367,9 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 
 ## Workflow
 
-1. User chỉ định kind → đọc file `kinds/{kind}.md`
+1. User chỉ định kind → kiểm tra có sub-kind không (xem bảng **Quy tắc routing sub-kind**)
+   - Có sub-kind → đọc file tổng quan, phân bổ đều qua sub-kinds, đọc từng file sub-kind
+   - Không có sub-kind → đọc file `kinds/{kind}.md` trực tiếp
 2. Hỏi số lượng (mặc định 5)
 3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
 4. Lưu JSON tạm → chạy `scripts/save_read.py` để tách CSV theo kind
