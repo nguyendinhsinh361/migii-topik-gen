@@ -413,19 +413,42 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - Phải hợp lý nhưng SAI về nội dung
 - Tái sử dụng từ vựng audio khi kind yêu cầu `shared_word`
 
-### 3. Giải thích (explain)
-- **vi**: Dịch cả 4 đáp án → dấu `--------------------` → giải thích đáp án đúng
-- **en**: Tương tự bằng tiếng Anh
+### 3. Bản dịch audio (`g_text_audio_translate`)
+- **vi**: Nhãn người nói BẮT BUỘC dùng `Người nam:` / `Người nữ:` — KHÔNG BAO GIỜ dùng `Nam:`, `Nữ:`, `남자:`, `여자:`
+- **en**: Nhãn người nói dùng `Man:` / `Woman:`
+- **Dòng trống**: Nếu g_text_audio có `남자: ______________________` → vi: `Người nam: ______________________`, en: `Man: ______________________` (giữ nguyên gạch dưới)
+- Số dòng bản dịch PHẢI bằng số dòng g_text_audio
+
+### 4. Giải thích (explain)
+
+**Format explain.vi và explain.en PHẢI GIỐNG NHAU về cấu trúc** — chỉ khác ngôn ngữ. Cụ thể:
+
+```
+[Dịch câu hỏi phụ nếu có]          ← chỉ với kind có q_text
+1. [Dịch đáp án 1]
+2. [Dịch đáp án 2]
+3. [Dịch đáp án 3]
+4. [Dịch đáp án 4]
+--------------------
+[Dịch/tóm tắt nội dung audio/bài đọc liên quan]
+
+[Giải thích tại sao đáp án đúng là đúng + tại sao các đáp án sai là sai]
+```
+
+- **vi** và **en** phải có **cùng số phần** (dịch đáp án, separator, dịch nội dung, giải thích) và **cùng mức chi tiết**
+- Nếu vi có dịch nội dung bài → en cũng PHẢI có dịch nội dung bài
+- Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
+- **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
 - Highlight từ vựng/ngữ pháp quan trọng
 - **KHÔNG thêm annotation trap** trong ngoặc sau mỗi đáp án (vd: KHÔNG viết "② Nữ đang chơi game (trap_context_swap)"). Thông tin trap đã nằm trong trường `distractor_traps` riêng
-- **Dùng "người nam" thay cho "남"** và **"người nữ" thay cho "nữ"** trong explain tiếng Việt (vd: "Người nam đang giải thích..." thay vì "Nam đang giải thích...")
+- **BẮT BUỘC dùng "người nam"** thay cho "nam", "anh ấy" và **"người nữ"** thay cho "nữ", "cô ấy" trong explain tiếng Việt
 - Với kind có **câu hỏi phụ** (110008_1/2/3, 210006, 210007): explain PHẢI **dịch cả câu hỏi phụ** (q_text) trước khi dịch đáp án
 
-### 4. Số lượng
+### 5. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định
 - Tối đa: 20 câu mỗi lần
 
-### 5. Kiểm tra sau khi gen (Validation Checklist)
+### 6. Kiểm tra sau khi gen (Validation Checklist)
 - [ ] `q_correct` nằm trong 1-4
 - [ ] 4 đáp án không trùng nhau
 - [ ] Audio là tiếng Hàn tự nhiên
@@ -442,8 +465,87 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
    - Không có sub-kind → đọc file `kinds/{kind}.md` trực tiếp
 2. Hỏi số lượng (mặc định 5)
 3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
-4. Lưu JSON tạm → chạy `scripts/save_listen.py` để tách CSV theo kind
-5. Validate theo checklist
+4. **⚠️ QC (Quality Control)** — Đọc lại TOÀN BỘ JSON vừa gen, kiểm tra từng câu theo checklist QC bên dưới. Nếu phát hiện lỗi → **sửa ngay trong JSON** trước khi lưu. KHÔNG ĐƯỢC bỏ qua bước này.
+5. Lưu JSON đã QC → chạy `scripts/save_listen.py` để tách CSV theo kind
+6. Validate theo checklist cấu trúc
+
+### Bước 4: QC — Kiểm tra & sửa lỗi TRƯỚC KHI LƯU
+
+> **QUAN TRỌNG**: Bước này chạy SAU khi gen xong JSON, TRƯỚC khi lưu file. Agent PHẢI đọc lại từng câu hỏi đã gen và đối chiếu với quy tắc kind. Nếu sai → sửa ngay trong JSON. Nếu không sửa được → gen lại câu đó.
+
+#### QC-1: Cấu trúc audio (`g_text_audio`) khớp quy tắc kind
+
+Mỗi kind có cấu trúc audio riêng được mô tả trong `kinds/{kind}.md`. Agent PHẢI kiểm tra:
+
+- **Kind 110001, 110002**: g_text_audio PHẢI có format `여자: ...\n남자: ______________________` hoặc `남자: ...\n여자: ______________________` (có nhãn người nói + dòng trống cuối). Nếu audio chỉ có 1 câu đơn mà thiếu nhãn và dòng trống → **LỖI, phải sửa lại**.
+- **Kind 210002**: g_text_audio PHẢI có **3 dòng**: 2 lượt nói + 1 dòng trống `______________________` ở cuối. Nếu thiếu dòng trống → **LỖI**.
+- **Tất cả kind hội thoại** (110003-110008, 210001-210007): g_text_audio phải có nhãn `남자:`/`여자:` trước mỗi lượt nói.
+
+#### QC-2: Bản dịch tiếng Việt (`g_text_audio_vi`)
+
+- **PHẢI dùng** `Người nam:` và `Người nữ:` — **KHÔNG BAO GIỜ** dùng `Nam:`, `Nữ:`, `남자:`, `여자:`, `Anh:`, `Chị:`
+- **Dòng trống**: Nếu g_text_audio có `남자: ______________________` thì g_text_audio_vi PHẢI có `Người nam: ______________________` (giữ nguyên gạch dưới, dịch nhãn)
+- **Số dòng**: g_text_audio_vi phải có SỐ DÒNG BẰNG g_text_audio (mỗi lượt nói trong Hàn → 1 lượt nói trong Việt)
+- **Nội dung**: Dịch đầy đủ, không bỏ sót câu nào
+
+#### QC-3: Bản dịch tiếng Anh (`g_text_audio_en`)
+
+- Dùng `Man:` và `Woman:` — KHÔNG dùng `Male:`, `Female:`, `M:`, `F:`
+- Dòng trống: `Man: ______________________` hoặc `Woman: ______________________`
+- Số dòng bằng g_text_audio
+
+#### QC-4: Giải thích (`explain.vi` và `explain.en`) — format đồng bộ
+
+- **vi và en PHẢI có cùng cấu trúc**: cùng số phần (dịch đáp án, separator `----`, dịch nội dung, giải thích), cùng mức chi tiết
+- Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
+- **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
+- Dùng **"người nam"** — KHÔNG dùng "nam", "anh ấy", "người đàn ông" khi chỉ người nói nam
+- Dùng **"người nữ"** — KHÔNG dùng "nữ", "cô ấy", "người phụ nữ" khi chỉ người nói nữ
+- Ví dụ: ✅ "Người nam đang hỏi về..." — ❌ "Nam đang hỏi về..." / "Anh ấy hỏi về..."
+
+#### QC-5: Không có dữ liệu placeholder/test
+
+- g_text_audio KHÔNG chứa nội dung test mẫu
+- Mỗi câu hỏi phải có nội dung audio **khác biệt**, không trùng lặp giữa các câu
+
+#### QC-6: Độ dài audio (`g_text_audio`) theo kind
+
+Đếm số ký tự tiếng Hàn trong `g_text_audio` (không tính nhãn `남자:`, `여자:` và dòng trống `______`). Nếu chưa đạt → **bổ sung thêm nội dung** cho đủ, KHÔNG được bỏ qua.
+
+| Kind | Yêu cầu độ dài | Ghi chú |
+|------|----------------|---------|
+| 210001_2 | **~180 ký tự** | Monologue tin tức/báo cáo, cần đủ chi tiết số liệu để phân biệt 4 biểu đồ |
+| 110008_2 | **250~300 ký tự** | Hội thoại 6 lượt, mỗi lượt 40-50 ký tự |
+| 110008_3 | **~350 ký tự** | Hội thoại phỏng vấn 6 lượt, mỗi lượt dài hơn |
+| 110006 (3 lượt) | **~100 ký tự** | Hội thoại 3 lượt thoại |
+| 110006 (4 lượt) | **~150 ký tự** | Hội thoại 4 lượt thoại |
+
+**Cách đếm**: Chỉ đếm nội dung Hàn Quốc, bỏ qua nhãn `남자: ` / `여자: ` (mỗi nhãn 4 ký tự + dấu cách) và dòng trống `______________________`.
+
+**Nếu thiếu**: Bổ sung thêm câu/chi tiết vào hội thoại cho đủ. Ví dụ: thêm 1 lượt thoại, thêm chi tiết mô tả, thêm phản hồi tự nhiên.
+
+#### QC-7: Tính nhất quán dữ liệu
+
+- `q_correct` nằm trong 1-4 và đáp án tương ứng thực sự đúng
+- `count_question` khớp số phần tử trong `content`
+- `kind` trong JSON khớp với kind được yêu cầu gen
+- 4 đáp án `q_answer` không được trùng nhau
+- `distractor_traps` ghi đúng: đáp án đúng để rỗng `""`, đáp án sai có trap code hợp lệ
+
+#### Cách thực hiện QC
+
+```
+SAU khi gen JSON, TRƯỚC khi lưu:
+1. Duyệt từng câu hỏi trong JSON
+2. Với mỗi câu, kiểm tra QC-1 → QC-7
+3. Nếu phát hiện lỗi:
+   a. Sửa TRỰC TIẾP trong JSON (không cần hỏi user)
+   b. Ghi nhận lỗi đã sửa
+4. Sau khi sửa hết → mới chuyển sang bước 5 (lưu file)
+5. Báo cáo cho user: "QC passed ✓" hoặc "QC: đã sửa N lỗi (chi tiết: ...)"
+```
+
+> **Nếu agent bỏ qua bước QC hoặc lưu file mà chưa QC → dữ liệu sẽ bị lỗi. Bước này là BẮT BUỘC.**
 
 ### Lưu kết quả bằng script
 

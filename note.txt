@@ -2,3 +2,6 @@ gemini --approval-mode=yolo
 gemini --approval-mode=yolo  --model gemini-3.1-pro-preview
 
 /permissions
+
+Listen: agy --conversation=341a3f1f-2655-4931-aad9-4f823d730878
+Read: agy --conversation=3c2dacd4-51fc-47b7-8cc4-493d851cfa53

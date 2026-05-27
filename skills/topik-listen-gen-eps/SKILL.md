@@ -298,9 +298,26 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 - Tái sử dụng từ vựng audio khi kind yêu cầu `shared_word`
 
 ### 3. Giải thích (explain)
-- **vi**: Dịch cả 4 đáp án -> dấu `--------------------` -> giải thích đáp án đúng, ghi chú trap type cho từng đáp án sai
-- **en**: Tương tự bằng tiếng Anh
+
+**Format explain.vi và explain.en PHẢI GIỐNG NHAU về cấu trúc** — chỉ khác ngôn ngữ. Cụ thể:
+
+```
+[Dịch câu hỏi phụ nếu có]
+1. [Dịch đáp án 1]
+2. [Dịch đáp án 2]
+3. [Dịch đáp án 3]
+4. [Dịch đáp án 4]
+--------------------
+[Dịch/tóm tắt nội dung audio liên quan]
+
+[Giải thích tại sao đáp án đúng là đúng + tại sao các đáp án sai là sai]
+```
+
+- **vi** và **en** phải có **cùng số phần** và **cùng mức chi tiết**
+- Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
+- **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
 - Highlight từ vựng/ngữ pháp quan trọng
+- **BẮT BUỘC dùng "người nam"** / **"người nữ"** trong explain tiếng Việt (không dùng "nam", "nữ", "anh ấy", "cô ấy")
 
 ### 4. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

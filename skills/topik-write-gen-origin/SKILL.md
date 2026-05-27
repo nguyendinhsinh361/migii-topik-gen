@@ -232,6 +232,28 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 6. **Ngữ pháp chính xác** — đáp án đúng phải đúng ngữ pháp tiếng Hàn chuẩn
 7. **Biểu đồ mô tả rõ** — kind 230002 cần `q_image_description` chi tiết
 
+### Giải thích (explain)
+
+**Format explain.vi và explain.en PHẢI GIỐNG NHAU về cấu trúc** — chỉ khác ngôn ngữ. Cụ thể:
+
+```
+[Dịch câu hỏi / mô tả yêu cầu]
+1. [Dịch đáp án 1]
+2. [Dịch đáp án 2]
+3. [Dịch đáp án 3]
+4. [Dịch đáp án 4]
+----------------------------
+[Dịch/tóm tắt nội dung bài viết / đoạn văn liên quan]
+
+[Giải thích chi tiết tại sao đáp án đúng là đúng]
+[Giải thích tại sao từng đáp án sai là sai + ghi trap type]
+```
+
+- **vi** và **en** phải có **cùng số phần** và **cùng mức chi tiết**
+- Nếu vi có dịch bài viết + giải thích trap → en cũng PHẢI có dịch bài viết + giải thích trap
+- **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài dòng
+- Cả vi lẫn en đều phải giải thích **từng đáp án sai** vì sao sai
+
 ### Kiểm tra sau khi gen (Validation Checklist)
 
 - [ ] `q_correct` nằm trong 1-4
