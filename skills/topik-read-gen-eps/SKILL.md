@@ -285,17 +285,33 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 4. Lưu JSON tạm → chạy `scripts/save_read.py` để tách CSV theo kind
 5. Validate theo checklist
 
+### Quy tắc đường dẫn file
+
+> **⚠️ QUAN TRỌNG: Folder `skills/` là READ-ONLY khi gen. KHÔNG ĐƯỢC tạo, sửa, hay xóa bất kỳ file nào trong `skills/` trong quá trình gen câu hỏi.**
+
+| Loại file | Đường dẫn | Ghi chú |
+|-----------|-----------|---------|
+| JSON tạm (gen) | `output/read-eps/gen_temp_{kind}.json` | Lưu trong output/, KHÔNG ở root |
+| CSV theo kind | `output/read-eps/level_3/{kind}.csv` | Output chính |
+| CSV tổng hợp | `output/read-eps/all_questions.csv` | Merge từ tất cả kind |
+
 ### Lưu kết quả bằng script
 
 ```bash
 # Lưu CSV theo kind + JSON + merge tổng
-python skills/topik-read-gen-eps/scripts/save_read.py gen_temp.json -o output/read-eps --json --merge
+python skills/topik-read-gen-eps/scripts/save_read.py output/read-eps/gen_temp_{kind}.json -o output/read-eps --json --merge
 
 # Chỉ validate
-python skills/topik-read-gen-eps/scripts/save_read.py gen_temp.json --validate-only
+python skills/topik-read-gen-eps/scripts/save_read.py output/read-eps/gen_temp_{kind}.json --validate-only
 
 # Append thêm batch mới
-python skills/topik-read-gen-eps/scripts/save_read.py new_batch.json --append
+python skills/topik-read-gen-eps/scripts/save_read.py output/read-eps/new_batch.json --append
 ```
 
-Output: `output/read-eps/level_3/{kind}.csv`
+### Dọn dẹp sau khi gen (BẮT BUỘC)
+
+```bash
+rm -f output/read-eps/gen_temp_*.json
+```
+
+**KHÔNG ĐƯỢC** để file `gen_temp_*.json` tồn tại sau khi gen xong.

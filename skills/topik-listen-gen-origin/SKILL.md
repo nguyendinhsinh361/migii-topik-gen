@@ -547,17 +547,36 @@ SAU khi gen JSON, TRƯỚC khi lưu:
 
 > **Nếu agent bỏ qua bước QC hoặc lưu file mà chưa QC → dữ liệu sẽ bị lỗi. Bước này là BẮT BUỘC.**
 
+### Quy tắc đường dẫn file
+
+> **⚠️ QUAN TRỌNG: Folder `skills/` là READ-ONLY khi gen. KHÔNG ĐƯỢC tạo, sửa, hay xóa bất kỳ file nào trong `skills/` trong quá trình gen câu hỏi.**
+
+| Loại file | Đường dẫn | Ghi chú |
+|-----------|-----------|---------|
+| JSON tạm (gen) | `output/listen-origin/gen_temp_{kind}.json` | Lưu trong output/, KHÔNG ở root |
+| CSV theo kind | `output/listen-origin/level_{1,2}/{kind}.csv` | Output chính |
+| CSV tổng hợp | `output/listen-origin/all_questions.csv` | Merge từ tất cả kind |
+
 ### Lưu kết quả bằng script
 
 ```bash
 # Lưu CSV theo kind + JSON + merge tổng
-python skills/topik-listen-gen-origin/scripts/save_listen.py gen_temp.json -o output/listen-origin --json --merge
+python skills/topik-listen-gen-origin/scripts/save_listen.py output/listen-origin/gen_temp_{kind}.json -o output/listen-origin --json --merge
 
 # Chỉ validate
-python skills/topik-listen-gen-origin/scripts/save_listen.py gen_temp.json --validate-only
+python skills/topik-listen-gen-origin/scripts/save_listen.py output/listen-origin/gen_temp_{kind}.json --validate-only
 
 # Append thêm batch mới
-python skills/topik-listen-gen-origin/scripts/save_listen.py new_batch.json --append
+python skills/topik-listen-gen-origin/scripts/save_listen.py output/listen-origin/new_batch.json --append
 ```
 
-Output: `output/listen-origin/level_{1,2}/{kind}.csv`
+### Dọn dẹp sau khi gen (BẮT BUỘC)
+
+Sau khi lưu CSV xong và xác nhận dữ liệu đúng, **BẮT BUỘC xóa** tất cả file JSON tạm:
+
+```bash
+# Xóa tất cả file gen_temp trong output/listen-origin/
+rm -f output/listen-origin/gen_temp_*.json
+```
+
+**KHÔNG ĐƯỢC** để file `gen_temp_*.json` tồn tại ở bất kỳ đâu sau khi gen xong — kể cả root folder hay output folder.

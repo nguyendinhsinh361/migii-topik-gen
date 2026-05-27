@@ -39,3 +39,7 @@ deploy/ssl
 input/
 input_clean/
 output/
+
+# Gen temp files (should never be committed)
+gen_temp*.json
+**/gen_temp*.json
