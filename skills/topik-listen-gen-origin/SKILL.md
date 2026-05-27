@@ -30,31 +30,27 @@ skills/topik-listen-gen-origin/
 │   ├── 210001_2.md       Chọn biểu đồ phù hợp (TOPIK II) [ảnh]
 │   ├── 210002.md         Câu nối tiếp nâng cao (TOPIK II)
 │   ├── 210003.md         Dự đoán hành động (TOPIK II)
-│   ├── 210004.md         Khớp nội dung nâng cao (TOPIK II) — tổng quan
-│   ├── 210004_(1).md       Khớp nội dung — Hội thoại thường ngày [13~16]
-│   ├── 210004_(2).md       Khớp nội dung — Thông báo (안내) [13~16]
-│   ├── 210004_(3).md       Khớp nội dung — Tin tức (뉴스) [13~16]
-│   ├── 210004_(4).md       Khớp nội dung — Phỏng vấn [13~16]
-│   ├── 210005.md         Ý chính của nam (TOPIK II) — tổng quan
-│   ├── 210005_(1).md       Ý chính nam — Tranh luận informal [17~20]
-│   ├── 210005_(2).md       Ý chính nam — Phỏng vấn/talkshow [17~20]
-│   ├── 210006.md         2 câu hỏi / hội thoại (TOPIK II) — tổng quan
-│   ├── 210006_(1).md       2 câu hỏi — Dialog informal [21~22]
-│   ├── 210006_(2).md       2 câu hỏi — Dialog công sở [23~24]
-│   ├── 210006_(3).md       2 câu hỏi — Phỏng vấn formal [25~26]
-│   ├── 210006_(4).md       2 câu hỏi — Tranh luận [27~28]
-│   ├── 210006_(5).md       2 câu hỏi — Talkshow nghề nghiệp [29~30]
-│   ├── 210006_(6).md       2 câu hỏi — Tranh luận chính sách [31~32]
-│   ├── 210006_(7).md       2 câu hỏi — 여 monologue bài giảng [33~34]
-│   ├── 210006_(8).md       2 câu hỏi — 남 monologue diễn văn [35~36]
-│   ├── 210007.md         Chương trình giáo dục (TOPIK II) — tổng quan
-│   ├── 210007_(1).md       Tọa đàm — 남 hỏi, 여 trả lời [37~38]
-│   ├── 210007_(2).md       Tọa đàm — 여 hỏi, 남 trả lời [39~40]
-│   ├── 210007_(3).md       Tọa đàm — 여 monologue bài giảng [41~42]
-│   ├── 210007_(4).md       Tọa đàm — 남 monologue tường thuật [43~44]
-│   ├── 210007_(5).md       Tọa đàm — 여 bài giảng chức năng [45~46]
-│   ├── 210007_(6).md       Tọa đàm — Phỏng vấn chính sách [47~48]
-│   └── 210007_(7).md       Tọa đàm — 남 bài giảng triết học [49~50]
+│   ├── 210004_(1).md     Khớp nội dung — Hội thoại thường ngày [13~16]
+│   ├── 210004_(2).md     Khớp nội dung — Thông báo (안내) [13~16]
+│   ├── 210004_(3).md     Khớp nội dung — Tin tức (뉴스) [13~16]
+│   ├── 210004_(4).md     Khớp nội dung — Phỏng vấn [13~16]
+│   ├── 210005_(1).md     Ý chính nam — Tranh luận informal [17~20]
+│   ├── 210005_(2).md     Ý chính nam — Phỏng vấn/talkshow [17~20]
+│   ├── 210006_(1).md     2 câu hỏi — Dialog informal [21~22]
+│   ├── 210006_(2).md     2 câu hỏi — Dialog công sở [23~24]
+│   ├── 210006_(3).md     2 câu hỏi — Phỏng vấn formal [25~26]
+│   ├── 210006_(4).md     2 câu hỏi — Tranh luận [27~28]
+│   ├── 210006_(5).md     2 câu hỏi — Talkshow nghề nghiệp [29~30]
+│   ├── 210006_(6).md     2 câu hỏi — Tranh luận chính sách [31~32]
+│   ├── 210006_(7).md     2 câu hỏi — 여 monologue bài giảng [33~34]
+│   ├── 210006_(8).md     2 câu hỏi — 남 monologue diễn văn [35~36]
+│   ├── 210007_(1).md     Tọa đàm — 남 hỏi, 여 trả lời [37~38]
+│   ├── 210007_(2).md     Tọa đàm — 여 hỏi, 남 trả lời [39~40]
+│   ├── 210007_(3).md     Tọa đàm — 여 monologue bài giảng [41~42]
+│   ├── 210007_(4).md     Tọa đàm — 남 monologue tường thuật [43~44]
+│   ├── 210007_(5).md     Tọa đàm — 여 bài giảng chức năng [45~46]
+│   ├── 210007_(6).md     Tọa đàm — Phỏng vấn chính sách [47~48]
+│   └── 210007_(7).md     Tọa đàm — 남 bài giảng triết học [49~50]
 └── samples.json          ← Mẫu câu hỏi tham khảo
 ```
 
@@ -64,31 +60,31 @@ Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKIL
 
 ## Quy tắc routing sub-kind
 
-Một số kind được tách thành nhiều **sub-kind** (đánh dấu "tổng quan" trong cây thư mục). Mỗi sub-kind có kiểu audio, cấu trúc hội thoại, hoặc dạng câu hỏi phụ riêng biệt.
+Một số kind được tách thành nhiều **sub-kind**. Mỗi sub-kind có kiểu audio, cấu trúc hội thoại, hoặc dạng câu hỏi phụ riêng biệt.
+
+> **⚠️ KHÔNG có file "tổng quan"** — KHÔNG tồn tại file `210004.md`, `210005.md`, `210006.md`, `210007.md`. Chỉ có các file sub-kind cụ thể (vd: `210004_(1).md`).
 
 ### Kind có sub-kind
 
-| Parent kind | Sub-kinds | Tiêu chí tách |
-|-------------|-----------|---------------|
-| 210004 | 210004_(1), _(2), _(3), _(4) | Kiểu audio: hội thoại / 안내 / 뉴스 / phỏng vấn |
-| 210005 | 210005_(1), _(2) | Kiểu audio: tranh luận / talkshow |
-| 210006 | 210006_(1) ~ _(8) | Kiểu audio + pattern câu hỏi phụ |
-| 210007 | 210007_(1) ~ _(7) | Kiểu chương trình: tọa đàm / bài giảng / tường thuật |
+| Parent kind | Sub-kind files (trong `kinds/`) | Tiêu chí tách |
+|-------------|-------------------------------|---------------|
+| 210004 | `210004_(1).md`, `_(2).md`, `_(3).md`, `_(4).md` | Kiểu audio: hội thoại / 안내 / 뉴스 / phỏng vấn |
+| 210005 | `210005_(1).md`, `_(2).md` | Kiểu audio: tranh luận / talkshow |
+| 210006 | `210006_(1).md` ~ `_(8).md` | Kiểu audio + pattern câu hỏi phụ |
+| 210007 | `210007_(1).md` ~ `_(7).md` | Kiểu chương trình: tọa đàm / bài giảng / tường thuật |
 
 ### Quy tắc gen
 
-1. **File "tổng quan"** (vd: `210004.md`) chỉ là overview — **KHÔNG dùng trực tiếp để gen**. Luôn đọc file sub-kind cụ thể.
-
-2. **User chỉ định parent kind** (vd: "gen 210004"):
-   - Đọc file tổng quan để biết danh sách sub-kind
+1. **User chỉ định parent kind** (vd: "gen 210004"):
+   - Tra bảng trên để biết danh sách sub-kind
    - **Phân bổ đều** câu hỏi qua các sub-kind để đảm bảo đa dạng
    - Ví dụ: gen 5 câu 210004 → 1 câu 210004_(1) + 1 câu 210004_(2) + 1 câu 210004_(3) + 1 câu 210004_(4) + 1 câu random
-   - Mỗi câu đọc đúng file sub-kind tương ứng để lấy quy tắc riêng
+   - Mỗi câu đọc đúng file sub-kind tương ứng: `kinds/210004_(N).md`
 
-3. **User chỉ định sub-kind** (vd: "gen 210004_(3)"):
-   - Đọc file sub-kind trực tiếp, gen tất cả câu theo sub-kind đó
+2. **User chỉ định sub-kind** (vd: "gen 210004_(3)"):
+   - Đọc file `kinds/210004_(3).md` trực tiếp, gen tất cả câu theo sub-kind đó
 
-4. **Trường `kind` trong JSON output**: Ghi **sub-kind** cụ thể (vd: `"210004_(3)"`), không ghi parent kind.
+3. **Trường `kind` trong JSON output**: Ghi **sub-kind** cụ thể (vd: `"210004_(3)"`), không ghi parent kind.
 
 > **Lưu ý**: Các bảng topic, difficulty, trap bên dưới tham chiếu parent kind (vd: `210004`). Sub-kind kế thừa tất cả thuộc tính của parent trừ khi file sub-kind ghi đè riêng.
 

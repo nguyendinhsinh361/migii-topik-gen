@@ -17,18 +17,21 @@ skills/topik-read-gen-origin/
 │   └── save_read.py      ← Script lưu CSV/JSON theo kind
 ├── kinds/                ← Quy tắc chi tiết từng dạng
 │   ├── 120001.md         Đoán chủ đề đoạn văn ngắn (TOPIK I)
+│   ├── 120002.md         Điền chỗ trống (TOPIK I) — tổng quan
 │   ├── 120002_1.md       Điền chỗ trống [34] (TOPIK I)
 │   ├── 120002_2.md       Điền chỗ trống [35~37] (TOPIK I)
 │   ├── 120002_3.md       Điền chỗ trống [38] (TOPIK I)
 │   ├── 120002_4.md       Điền chỗ trống [39] (TOPIK I)
+│   ├── 120003.md         Chọn đáp án sai (TOPIK I) — tổng quan
 │   ├── 120003_1.md       Chọn đáp án sai [40~41] (TOPIK I) [ảnh]
 │   ├── 120003_2.md       Chọn đáp án sai [42] (TOPIK I) [ảnh]
 │   ├── 120004_1.md       Nội dung khớp (TOPIK I)
 │   ├── 120004_2.md       Ý chính / trung tâm (TOPIK I)
 │   ├── 120005.md         Đọc đoạn + 2 câu hỏi dễ (TOPIK I) — tổng quan
-│   ├── 120005_(1).md      Đọc đoạn + 2 câu hỏi — Điền ngữ pháp + Nội dung khớp (TOPIK I)
-│   ├── 120005_(2).md      Đọc đoạn + 2 câu hỏi — Điền liên từ + Xác định chủ đề (TOPIK I)
+│   ├── 120005_(1).md     Đọc đoạn + 2 câu hỏi — Điền ngữ pháp + Nội dung khớp (TOPIK I)
+│   ├── 120005_(2).md     Đọc đoạn + 2 câu hỏi — Điền liên từ + Xác định chủ đề (TOPIK I)
 │   ├── 120006.md         Sắp xếp câu theo thứ tự (TOPIK I)
+│   ├── 120007.md         Đoạn văn ngắn khó (TOPIK I) — tổng quan
 │   ├── 120007_1.md       Đoạn văn ngắn khó [59~60] (TOPIK I)
 │   ├── 120007_2.md       Đoạn văn ngắn khó [61~68] (TOPIK I)
 │   ├── 120007_3.md       Đoạn văn ngắn khó [69~70] (TOPIK I)
@@ -36,24 +39,24 @@ skills/topik-read-gen-origin/
 │   ├── 220001_b.md       Điền nội dung đoạn [16~18] (TOPIK II)
 │   ├── 220001_c.md       Điền nội dung đoạn [28~31] (TOPIK II)
 │   ├── 220002_a.md       Ý nghĩa tương tự — 밑줄 [3~4] (TOPIK II)
+│   ├── 220002_b.md       Nội dung tương tự (TOPIK II) — tổng quan
 │   ├── 220002_b_1.md     Nội dung tương tự [9] (TOPIK II) [ảnh]
 │   ├── 220002_b_2.md     Nội dung tương tự [10] (TOPIK II) [ảnh]
 │   ├── 220002_b_3.md     Nội dung tương tự [11~12] (TOPIK II) [ảnh]
 │   ├── 220002_c.md       Nội dung khớp văn bản [32~34] (TOPIK II)
+│   ├── 220003_a.md       Chủ đề đoạn văn (TOPIK II) — tổng quan
 │   ├── 220003_a_1.md     Chủ đề đoạn văn [5~6] (TOPIK II) [ảnh]
 │   ├── 220003_a_2.md     Chủ đề đoạn văn [7~8] (TOPIK II) [ảnh]
 │   ├── 220003_b.md       Chủ đề đoạn văn dài [35~38] (TOPIK II)
 │   ├── 220004.md         Sắp xếp câu nâng cao (TOPIK II)
-│   ├── 220005_1.md       Đoạn văn dễ [19~22] (TOPIK II) — tổng quan
-│   ├── 220005_1_(1).md     Đoạn văn dễ — Liên từ/trạng từ + Chủ đề [19~20] (TOPIK II)
-│   ├── 220005_1_(2).md     Đoạn văn dễ — Thành ngữ + Nội dung khớp [21~22] (TOPIK II)
+│   ├── 220005_1_(1).md   Đoạn văn dễ — Liên từ/trạng từ + Chủ đề [19~20] (TOPIK II)
+│   ├── 220005_1_(2).md   Đoạn văn dễ — Thành ngữ + Nội dung khớp [21~22] (TOPIK II)
 │   ├── 220005_2.md       Đoạn văn dễ [23~24] (TOPIK II)
 │   ├── 220006.md         Tiêu đề báo chí (TOPIK II)
 │   ├── 220007.md         Chèn câu vào đúng vị trí (TOPIK II)
-│   ├── 220008_1.md       Đoạn văn khó [42~47] (TOPIK II) — tổng quan
-│   ├── 220008_1_(1).md     Đoạn văn khó — Tiểu thuyết văn học + Cảm xúc nhân vật [42~43] (TOPIK II)
-│   ├── 220008_1_(2).md     Đoạn văn khó — Học thuật + Điền từ + Chủ đề [44~45] (TOPIK II)
-│   ├── 220008_1_(3).md     Đoạn văn khó — Học thuật + Thái độ tác giả + Nội dung khớp [46~47] (TOPIK II)
+│   ├── 220008_1_(1).md   Đoạn văn khó — Tiểu thuyết văn học + Cảm xúc nhân vật [42~43] (TOPIK II)
+│   ├── 220008_1_(2).md   Đoạn văn khó — Học thuật + Điền từ + Chủ đề [44~45] (TOPIK II)
+│   ├── 220008_1_(3).md   Đoạn văn khó — Học thuật + Thái độ tác giả + Nội dung khớp [46~47] (TOPIK II)
 │   └── 220008_2.md       Đoạn văn khó [48~50] (TOPIK II)
 └── samples.json          ← Mẫu câu hỏi tham khảo
 ```
@@ -68,18 +71,25 @@ Một số kind được tách thành nhiều **sub-kind** (đánh dấu "tổng
 
 ### Kind có sub-kind
 
-| Parent kind | Sub-kinds | Tiêu chí tách |
-|-------------|-----------|---------------|
-| 120005 | 120005_(1), _(2) | Dạng câu hỏi: điền ngữ pháp + nội dung khớp / điền liên từ + chủ đề |
-| 220005_1 | 220005_1_(1), _(2) | Dạng câu hỏi: liên từ + chủ đề [19~20] / thành ngữ + nội dung khớp [21~22] |
-| 220008_1 | 220008_1_(1), _(2), _(3) | Thể loại văn bản: tiểu thuyết [42~43] / học thuật điền từ [44~45] / học thuật thái độ [46~47] |
+| Parent kind | Sub-kinds | Có file tổng quan? | Tiêu chí tách |
+|-------------|-----------|---------------------|---------------|
+| 120002 | 120002_1, _2, _3, _4 | ✅ `120002.md` | Dạng câu hỏi theo cấu trúc đoạn văn |
+| 120003 | 120003_1, _2 | ✅ `120003.md` | Dạng câu hỏi [ảnh] |
+| 120005 | 120005_(1), _(2) | ✅ `120005.md` | Dạng câu hỏi: điền ngữ pháp + nội dung khớp / điền liên từ + chủ đề |
+| 120007 | 120007_1, _2, _3 | ✅ `120007.md` | Dạng đoạn văn ngắn khó |
+| 220002_b | 220002_b_1, _2, _3 | ✅ `220002_b.md` | Nội dung tương tự [ảnh] |
+| 220003_a | 220003_a_1, _2 | ✅ `220003_a.md` | Chủ đề đoạn văn [ảnh] |
+| 220005_1 | 220005_1_(1), _(2) | ⚠️ KHÔNG có file tổng quan | Dạng câu hỏi: liên từ + chủ đề [19~20] / thành ngữ + nội dung khớp [21~22] |
+| 220008_1 | 220008_1_(1), _(2), _(3) | ⚠️ KHÔNG có file tổng quan | Thể loại văn bản: tiểu thuyết [42~43] / học thuật điền từ [44~45] / học thuật thái độ [46~47] |
 
 ### Quy tắc gen
 
-1. **File "tổng quan"** (vd: `220008_1.md`) chỉ là overview — **KHÔNG dùng trực tiếp để gen**. Luôn đọc file sub-kind cụ thể.
+1. **File "tổng quan"** (vd: `120005.md`) chỉ là overview — **KHÔNG dùng trực tiếp để gen**. Luôn đọc file sub-kind cụ thể.
+   - ⚠️ `220005_1` và `220008_1` **KHÔNG có file tổng quan**. Dùng bảng trên để biết danh sách sub-kind.
 
 2. **User chỉ định parent kind** (vd: "gen 220008_1"):
-   - Đọc file tổng quan để biết danh sách sub-kind
+   - Nếu có file tổng quan → đọc file đó để biết danh sách sub-kind
+   - Nếu KHÔNG có file tổng quan (220005_1, 220008_1) → tra bảng trên để xác định sub-kind
    - **Phân bổ đều** câu hỏi qua các sub-kind để đảm bảo đa dạng
    - Ví dụ: gen 6 câu 220008_1 → 2 câu 220008_1_(1) + 2 câu 220008_1_(2) + 2 câu 220008_1_(3)
    - Mỗi câu đọc đúng file sub-kind tương ứng để lấy quy tắc riêng

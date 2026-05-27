@@ -227,7 +227,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 1. **tag = "write"** — luôn luôn
 2. **level = 2** — Write chỉ có trong TOPIK II
 3. **q_correct phân bố đều 1-4** — tránh thiên lệch
-4. **explain ghi rõ trap type** cho từng đáp án sai
+4. **explain giải thích dễ hiểu** cho từng đáp án sai (KHÔNG ghi mã trap nội bộ như `trap_grammar_ending`, `trap_grammar_connector`… vì explain dành cho người học)
 5. **Chủ đề đa dạng** — không lặp lại chủ đề trong cùng batch
 6. **Ngữ pháp chính xác** — đáp án đúng phải đúng ngữ pháp tiếng Hàn chuẩn
 7. **Biểu đồ mô tả rõ** — kind 230002 cần `q_image_description` chi tiết
@@ -246,11 +246,11 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 [Dịch/tóm tắt nội dung bài viết / đoạn văn liên quan]
 
 [Giải thích chi tiết tại sao đáp án đúng là đúng]
-[Giải thích tại sao từng đáp án sai là sai + ghi trap type]
+[Giải thích tại sao từng đáp án sai là sai — dùng ngôn ngữ dễ hiểu cho người học, KHÔNG ghi mã trap]
 ```
 
 - **vi** và **en** phải có **cùng số phần** và **cùng mức chi tiết**
-- Nếu vi có dịch bài viết + giải thích trap → en cũng PHẢI có dịch bài viết + giải thích trap
+- Nếu vi có dịch bài viết + giải thích đáp án sai → en cũng PHẢI có dịch bài viết + giải thích đáp án sai
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài dòng
 - Cả vi lẫn en đều phải giải thích **từng đáp án sai** vì sao sai
 
@@ -261,7 +261,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - [ ] Đáp án đúng phải đúng ngữ pháp tiếng Hàn chuẩn
 - [ ] Bẫy đúng phân bố của kind (grammar traps cho 230001, content traps cho 230002/230003)
 - [ ] Bản dịch (vi/en) chính xác
-- [ ] `explain` chứa dịch + lý do đáp án đúng + ghi chú trap type cho từng đáp án sai
+- [ ] `explain` chứa dịch + lý do đáp án đúng + giải thích từng đáp án sai bằng ngôn ngữ dễ hiểu (KHÔNG chứa mã trap nội bộ)
 - [ ] `count_question` khớp số phần tử trong `content` (230001: 1, 230002: 3, 230003: 10)
 - [ ] `tag` = `"write"` (KHÔNG phải `"listen"` hay `"read"`)
 - [ ] `level` = 2 (Write chỉ có trong TOPIK II)
