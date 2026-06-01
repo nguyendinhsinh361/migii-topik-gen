@@ -31,7 +31,7 @@ merge_all() {
   echo ">>> Merging..."
   python3 -c "
 import pandas as pd, glob
-dfs = [pd.read_csv(f) for f in sorted(glob.glob('$OUTPUT/level_*/*.csv')) if pd.read_csv(f).shape[0] > 0]
+dfs = [pd.read_csv(f, dtype=str) for f in sorted(glob.glob('$OUTPUT/level_*/*.csv')) if pd.read_csv(f, dtype=str).shape[0] > 0]
 if dfs:
     pd.concat(dfs, ignore_index=True).to_csv('$OUTPUT/all_questions.csv', index=False)
     print(f'Merged {len(dfs)} files')
