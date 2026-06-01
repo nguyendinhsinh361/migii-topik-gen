@@ -63,7 +63,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
   ],
   "level": 3,
   "kind": "320001",
-  "count_question": 1,
+  "count_question": 1,   // ⚠️ PHẢI >= 1, KHÔNG BAO GIỜ = 0
   "tag": "read"
 }
 ```
@@ -247,14 +247,22 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 
 ```
 [Dịch bài đọc/đoạn văn]
+
 1. [Dịch đáp án 1]
 2. [Dịch đáp án 2]
 3. [Dịch đáp án 3]
 4. [Dịch đáp án 4]
 --------------------
-[Giải thích tại sao đáp án đúng là đúng + tại sao các đáp án sai là sai]
+[Dịch/tóm tắt nội dung bài đọc liên quan]
+
+Đáp án [N] là đáp án đúng vì [lý do].
+Đáp án [X] sai vì [lý do].
+Đáp án [Y] sai vì [lý do].
+Đáp án [Z] sai vì [lý do].
 ```
 
+- **Format explain PHẢI xuống dòng rõ ràng** — mỗi phần (dịch bài, dịch đáp án, separator, dịch nội dung, giải thích từng đáp án) PHẢI xuống dòng (`\n`). KHÔNG viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Explain phải dễ đọc, có cấu trúc rõ ràng.
+- **`q_correct` PHẢI phân bố đều 1-4** trong cùng batch (cùng kind). KHÔNG được thiên lệch — ví dụ: nếu gen 4 câu cùng kind thì phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). KHÔNG fix cứng q_correct = 1.
 - **vi** và **en** phải có **cùng số phần** và **cùng mức chi tiết**
 - Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
@@ -273,7 +281,7 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 - [ ] Bẫy đúng phân bố của kind
 - [ ] Bản dịch (vi/en) chính xác
 - [ ] `explain` chứa dịch + lý do đáp án đúng + giải thích từng đáp án sai (KHÔNG chứa mã trap)
-- [ ] `count_question` khớp số phần tử trong `content` (hoặc null)
+- [ ] `count_question` khớp số phần tử trong `content` (hoặc null) — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
 - [ ] `tag` = `"read"` (KHÔNG phải `"listen"`)
 - [ ] `level` = 3
 - [ ] `q_point` = null (EPS không tính điểm)

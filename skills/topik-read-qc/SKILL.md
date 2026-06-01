@@ -48,7 +48,7 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 | MC-8 | `question_feature` hợp lệ | Thuộc danh sách qf_* trong bảng tham chiếu, phù hợp kind. Xem bảng nhãn hệ thống trong kind file | ✅ |
 | MC-9 | `difficulty` hợp lệ | Theo bảng Thang độ khó trong bảng tham chiếu | ✅ |
 | MC-10 | `distractor_trap` hợp lệ | Mã trap phải thuộc danh sách trong bảng tham chiếu, phù hợp kind (xem bảng chiến lược bẫy trong kind file) | ❌ cần LLM |
-| MC-11 | `q_correct` phân bố đều | Trong cùng batch (cùng kind), q_correct nên phân bố 1-4 | ❌ check & báo cáo |
+| MC-11 | **q_correct phân bố đều 1-4 (TẤT CẢ levels)** | Trong cùng batch (cùng kind), q_correct PHẢI phân bố đều qua 1-4 cho TẤT CẢ levels (TOPIK I, TOPIK II). KHÔNG fix cứng q_correct = 1 cho bất kỳ level nào. Nếu gen 4 câu cùng kind → phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). Nếu lệch → shuffle lại q_correct và swap đáp án tương ứng | ✅ shuffle & swap |
 
 ### Nhóm 2: Bài đọc (g_text / q_text)
 
@@ -95,6 +95,7 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 | EX-10 | **120007_1/2/3: explain chi tiết** | explain phải giải thích đầy đủ logic, không đơn giản | ❌ cần LLM |
 | EX-11 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
 | EX-12 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
+| EX-13 | **Explain xuống dòng rõ ràng** | Explain PHẢI có line breaks (`\n`) rõ ràng giữa các phần: dịch bài đọc, dịch đáp án (1. 2. 3. 4.), separator (----), giải thích từng đáp án. KHÔNG được viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Check: đếm số `\n` trong explain — nếu < 6 thì khả năng cao bị viết liền | ❌ cần LLM |
 
 ### Nhóm 6: Hình ảnh
 
@@ -110,7 +111,8 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 ## Quy tắc sửa lỗi
 
 ### Lỗi sửa tự động:
-MC-1, MC-2, MC-4, MC-5, MC-7, MC-8, MC-9, SK-2, SK-3, SK-5, SK-6, SK-7, EX-1, EX-5, EX-6, EX-7, EX-8, EX-11
+MC-1, MC-2, MC-4, MC-5, MC-7, MC-8, MC-9, MC-11, SK-2, SK-3, SK-5, SK-6, SK-7, EX-1, EX-5, EX-6, EX-7, EX-8, EX-11
+> **Lưu ý**: MC-11 áp dụng cho TẤT CẢ levels (TOPIK I + TOPIK II), KHÔNG chỉ TOPIK II.
 
 ### Lỗi cần LLM:
 Tất cả lỗi còn lại. Khi viết lại:

@@ -56,6 +56,6 @@ Sau khi gen + QC xong từng dạng:
 ## Lưu ý quan trọng
 1. Explain KHÔNG chứa mã trap — giải thích bằng ngôn ngữ dễ hiểu cho người học
 2. g_text_audio_vi dùng "Người nam:"/"Người nữ:", g_text_audio_en dùng "Man:"/"Woman:"
-3. TOPIK I (110xxx) q_correct luôn = 1
+3. q_correct PHẢI phân bố đều 1-4 cho TẤT CẢ levels (TOPIK I, II). KHÔNG fix cứng q_correct = 1 cho bất kỳ level nào.
 4. Sau khi gen xong PHẢI chạy QC (Bước 4 trong SKILL.md) trước khi lưu
 5. Lưu JSON tạm vào output/listen-origin/, KHÔNG lưu trong skills/

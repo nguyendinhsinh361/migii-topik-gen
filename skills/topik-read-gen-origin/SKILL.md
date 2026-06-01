@@ -133,7 +133,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
   ],
   "level": 1,
   "kind": "120001",
-  "count_question": 1,
+  "count_question": 1,   // ⚠️ PHẢI >= 1, KHÔNG BAO GIỜ = 0
   "tag": "read"
 }
 ```
@@ -360,12 +360,18 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 ```
 [Dịch bài đọc/đoạn văn]
 [Nếu có ảnh: dịch text hiển thị trên ảnh, mỗi ý xuống dòng]
+
 1. [Dịch đáp án 1]
 2. [Dịch đáp án 2]
 3. [Dịch đáp án 3]
 4. [Dịch đáp án 4]
 --------------------
-[Giải thích tại sao đáp án đúng là đúng + tại sao các đáp án sai là sai — dùng ngôn ngữ dễ hiểu, KHÔNG ghi mã trap]
+[Giải thích — dùng ngôn ngữ dễ hiểu, KHÔNG ghi mã trap]
+
+Đáp án [N] là đáp án đúng vì [lý do].
+Đáp án [X] sai vì [lý do].
+Đáp án [Y] sai vì [lý do].
+Đáp án [Z] sai vì [lý do].
 ```
 
 **Câu ghép (count_question ≥ 2):**
@@ -375,14 +381,22 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 [Dịch câu hỏi phụ 1]: ...
 1. [Dịch đáp án 1]  2. [Dịch đáp án 2]  3. [Dịch đáp án 3]  4. [Dịch đáp án 4]
 --------------------
-[Giải thích đáp án đúng + sai cho câu hỏi phụ 1]
+Đáp án [N] là đáp án đúng vì [lý do].
+Đáp án [X] sai vì [lý do].
+Đáp án [Y] sai vì [lý do].
+Đáp án [Z] sai vì [lý do].
 
 [Dịch câu hỏi phụ 2]: ...
 1. [Dịch đáp án 1]  2. [Dịch đáp án 2]  3. [Dịch đáp án 3]  4. [Dịch đáp án 4]
 --------------------
-[Giải thích đáp án đúng + sai cho câu hỏi phụ 2]
+Đáp án [N] là đáp án đúng vì [lý do].
+Đáp án [X] sai vì [lý do].
+Đáp án [Y] sai vì [lý do].
+Đáp án [Z] sai vì [lý do].
 ```
 
+- **Format explain PHẢI xuống dòng rõ ràng** — mỗi phần (dịch bài, dịch đáp án, separator, giải thích từng đáp án) PHẢI xuống dòng (`\n`). KHÔNG viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Explain phải dễ đọc, có cấu trúc rõ ràng.
+- **TẤT CẢ levels** (TOPIK I, TOPIK II): `q_correct` PHẢI **phân bố đều 1-4** cho TẤT CẢ levels. KHÔNG fix cứng q_correct = 1 cho bất kỳ level nào. Ví dụ: nếu gen 4 câu cùng kind thì phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). KHÔNG được thiên lệch.
 - **vi** và **en** phải có **cùng số phần** và **cùng mức chi tiết**: dịch bài, dịch đáp án, separator, giải thích
 - Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài — explain_en PHẢI chi tiết bằng explain_vi
@@ -404,7 +418,7 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 - [ ] Bẫy đúng phân bố của kind
 - [ ] Bản dịch (vi/en) chính xác
 - [ ] `explain` chứa dịch + lý do đáp án đúng
-- [ ] `count_question` khớp số phần tử trong `content`
+- [ ] `count_question` khớp số phần tử trong `content` — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
 - [ ] `tag` = `"read"` (KHÔNG phải `"listen"`)
 - [ ] Kind có ảnh → có `q_image_description`
 

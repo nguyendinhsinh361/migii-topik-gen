@@ -137,7 +137,7 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 | MC-3 | `kind` hợp lệ | Tồn tại file `kinds/{kind}.md` | ❌ báo cáo |
 | MC-4 | `count_question` khớp | Đếm số q_text_N có dữ liệu | ✅ |
 | MC-5 | `q_correct` trong 1-4 | Với mỗi q_correct_N | ✅ clamp |
-| MC-6 | **TOPIK I q_correct = 1** | Nếu kind 110xxx → q_correct phải = 1. Nếu sai → đổi q_correct = 1 và swap đáp án đúng lên vị trí 1 | ✅ |
+| MC-6 | **q_correct phân bố đều 1-4 (TẤT CẢ levels)** | Trong cùng batch (cùng kind), q_correct PHẢI phân bố đều qua 1-4 cho TẤT CẢ levels (TOPIK I, TOPIK II). KHÔNG fix cứng q_correct = 1 cho bất kỳ level nào. Nếu gen 4 câu cùng kind → phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). Nếu lệch → shuffle lại q_correct và swap đáp án tương ứng | ✅ shuffle & swap |
 | MC-7 | 4 đáp án không trùng | Parse q_answer_N, check unique | ❌ cần LLM |
 | MC-8 | `topic` hợp lệ | Thuộc danh sách topic trong bảng tham chiếu | ✅ |
 | MC-9 | `question_feature` hợp lệ | Thuộc danh sách qf_* trong bảng tham chiếu, phù hợp với kind | ✅ |
@@ -200,6 +200,7 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 | EX-11 | **110003: explain chính xác ngôn ngữ học** | Không claim phát âm tương tự khi thực tế không giống, không claim từ vựng giống khi chỉ giống ở bản dịch tiếng Việt | ❌ cần LLM |
 | EX-12 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
 | EX-13 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
+| EX-14 | **Explain xuống dòng rõ ràng** | Explain PHẢI có line breaks (`\n`) rõ ràng giữa các phần: dịch câu hỏi phụ, dịch đáp án (1. 2. 3. 4.), separator (----), dịch nội dung, giải thích từng đáp án. KHÔNG được viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Check: đếm số `\n` trong explain — nếu < 6 thì khả năng cao bị viết liền | ❌ cần LLM |
 
 ### Nhóm 7: Hình ảnh (kind có ảnh)
 
@@ -214,6 +215,7 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 
 ### Lỗi sửa tự động (regex/string):
 MC-1, MC-2, MC-4, MC-5, MC-6, MC-8, MC-9, MC-10, TR-1, TR-2, TR-3, TR-4, QT-2, EX-1, EX-3, EX-6, EX-7, EX-12
+> **Lưu ý**: MC-6 áp dụng cho TẤT CẢ levels (TOPIK I + TOPIK II), KHÔNG chỉ TOPIK II.
 
 ### Lỗi cần LLM viết lại:
 Tất cả lỗi còn lại. Khi viết lại:

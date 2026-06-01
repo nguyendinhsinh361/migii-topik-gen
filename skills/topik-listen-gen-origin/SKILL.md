@@ -123,7 +123,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
   ],
   "level": <1|2>,
   "kind": "<mã kind>",
-  "count_question": <số câu hỏi con trong content>,
+  "count_question": <số câu hỏi con trong content — PHẢI >= 1, KHÔNG BAO GIỜ = 0>,
   "tag": "listen"
 }
 ```
@@ -421,6 +421,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 
 ```
 [Dịch câu hỏi phụ nếu có]          ← chỉ với kind có q_text
+
 1. [Dịch đáp án 1]
 2. [Dịch đáp án 2]
 3. [Dịch đáp án 3]
@@ -428,9 +429,13 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 --------------------
 [Dịch/tóm tắt nội dung audio/bài đọc liên quan]
 
-[Giải thích tại sao đáp án đúng là đúng + tại sao các đáp án sai là sai]
+Đáp án [N] là đáp án đúng vì [lý do].
+Đáp án [X] sai vì [lý do].
+Đáp án [Y] sai vì [lý do].
+Đáp án [Z] sai vì [lý do].
 ```
 
+- **Format explain PHẢI xuống dòng rõ ràng** — mỗi phần (dịch câu hỏi phụ, dịch đáp án, separator, dịch nội dung, giải thích từng đáp án) PHẢI xuống dòng (`\n`). KHÔNG viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Explain phải dễ đọc, có cấu trúc rõ ràng.
 - **vi** và **en** phải có **cùng số phần** (dịch đáp án, separator, dịch nội dung, giải thích) và **cùng mức chi tiết**
 - Nếu vi có dịch nội dung bài → en cũng PHẢI có dịch nội dung bài
 - Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
@@ -442,7 +447,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - Với kind có **câu hỏi phụ** (110008_1/2/3, 210006, 210007): explain PHẢI **dịch cả câu hỏi phụ** (q_text) — nhưng **KHÔNG** thêm prefix "Câu hỏi:" / "Question:" trước bản dịch, chỉ dịch trực tiếp nội dung
 - **Kind 210006**: explain **KHÔNG** cần dòng "[Dịch câu hỏi phụ 1]" / "[Translate Q1]" — chỉ cần dịch đáp án + giải thích
 - **Kind 210007**: explain PHẢI dịch câu hỏi phụ sang tiếng Việt/Anh — **KHÔNG** để nguyên tiếng Hàn
-- **TOPIK I** (Level 1 — kind 110xxx): `q_correct` luôn = **1** cho tất cả câu hỏi
+- **TẤT CẢ levels** (TOPIK I, TOPIK II): `q_correct` PHẢI **phân bố đều 1-4** cho TẤT CẢ levels. KHÔNG fix cứng q_correct = 1 cho bất kỳ level nào. Ví dụ: nếu gen 4 câu cùng kind thì phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). KHÔNG được thiên lệch.
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
 
@@ -458,7 +463,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - [ ] Bẫy đúng phân bố của kind
 - [ ] Bản dịch (vi/en) chính xác
 - [ ] `explain` chứa dịch 4 đáp án + lý do đáp án đúng
-- [ ] `count_question` khớp số phần tử trong `content`
+- [ ] `count_question` khớp số phần tử trong `content` — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
 
 ## Workflow
 
@@ -529,7 +534,7 @@ Mỗi kind có cấu trúc audio riêng được mô tả trong `kinds/{kind}.md
 #### QC-7: Tính nhất quán dữ liệu
 
 - `q_correct` nằm trong 1-4 và đáp án tương ứng thực sự đúng
-- `count_question` khớp số phần tử trong `content`
+- `count_question` khớp số phần tử trong `content` — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
 - `kind` trong JSON khớp với kind được yêu cầu gen
 - 4 đáp án `q_answer` không được trùng nhau
 - `distractor_traps` ghi đúng: đáp án đúng để rỗng `""`, đáp án sai có trap code hợp lệ

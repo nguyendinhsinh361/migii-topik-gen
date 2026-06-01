@@ -57,7 +57,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
   ],
   "level": 2,
   "kind": "230001_1",
-  "count_question": 1,
+  "count_question": 1,   // ⚠️ PHẢI >= 1, KHÔNG BAO GIỜ = 0
   "tag": "write",
   "topic": "<mã chủ đề từ bảng topic>",
   "example_1": "<bài viết mẫu — chỉ kind 230002 và 230003>",
@@ -226,7 +226,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 
 1. **tag = "write"** — luôn luôn
 2. **level = 2** — Write chỉ có trong TOPIK II
-3. **q_correct phân bố đều 1-4** — tránh thiên lệch
+3. **q_correct PHẢI phân bố đều 1-4** — KHÔNG được thiên lệch. Nếu gen 4 câu cùng kind → phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). KHÔNG fix cứng q_correct = 1.
 4. **explain giải thích dễ hiểu** cho từng đáp án sai (KHÔNG ghi mã trap nội bộ như `trap_grammar_ending`, `trap_grammar_connector`… vì explain dành cho người học)
 5. **Chủ đề đa dạng** — không lặp lại chủ đề trong cùng batch
 6. **Ngữ pháp chính xác** — đáp án đúng phải đúng ngữ pháp tiếng Hàn chuẩn
@@ -238,6 +238,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 
 ```
 [Dịch câu hỏi / mô tả yêu cầu]
+
 1. [Dịch đáp án 1]
 2. [Dịch đáp án 2]
 3. [Dịch đáp án 3]
@@ -245,10 +246,14 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 ----------------------------
 [Dịch/tóm tắt nội dung bài viết / đoạn văn liên quan]
 
-[Giải thích chi tiết tại sao đáp án đúng là đúng]
-[Giải thích tại sao từng đáp án sai là sai — dùng ngôn ngữ dễ hiểu cho người học, KHÔNG ghi mã trap]
+Đáp án [N] là đáp án đúng vì [lý do].
+Đáp án [X] sai vì [lý do].
+Đáp án [Y] sai vì [lý do].
+Đáp án [Z] sai vì [lý do].
 ```
 
+- **Format explain PHẢI xuống dòng rõ ràng** — mỗi phần (dịch câu hỏi, dịch đáp án, separator, dịch nội dung, giải thích từng đáp án) PHẢI xuống dòng (`\n`). KHÔNG viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Explain phải dễ đọc, có cấu trúc rõ ràng.
+- **`q_correct` PHẢI phân bố đều 1-4** trong cùng batch (cùng kind). KHÔNG được thiên lệch — ví dụ: nếu gen 4 câu cùng kind thì phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). KHÔNG fix cứng q_correct = 1.
 - **vi** và **en** phải có **cùng số phần** và **cùng mức chi tiết**
 - Nếu vi có dịch bài viết + giải thích đáp án sai → en cũng PHẢI có dịch bài viết + giải thích đáp án sai
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài dòng
@@ -264,7 +269,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - [ ] Bẫy đúng phân bố của kind (grammar traps cho 230001, content traps cho 230002/230003)
 - [ ] Bản dịch (vi/en) chính xác
 - [ ] `explain` chứa dịch + lý do đáp án đúng + giải thích từng đáp án sai bằng ngôn ngữ dễ hiểu (KHÔNG chứa mã trap nội bộ)
-- [ ] `count_question` khớp số phần tử trong `content` (230001: 1, 230002: 3, 230003: 10)
+- [ ] `count_question` khớp số phần tử trong `content` (230001: 1, 230002: 3, 230003: 10) — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
 - [ ] `tag` = `"write"` (KHÔNG phải `"listen"` hay `"read"`)
 - [ ] `level` = 2 (Write chỉ có trong TOPIK II)
 - [ ] `q_correct` phân bố đều 1-4 trong cùng batch

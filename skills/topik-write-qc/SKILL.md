@@ -44,7 +44,7 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 | MC-4 | `count_question` khớp | 230001: 1, 230002: 3, 230003: 10 | ✅ |
 | MC-5 | `q_correct` trong 1-4 | Với mỗi q_correct_N | ✅ clamp |
 | MC-6 | 4 đáp án không trùng | Parse q_answer_N, check unique | ❌ cần LLM |
-| MC-7 | `q_correct` phân bố đều 1-4 | Trong cùng batch (cùng kind) | ❌ check & báo cáo |
+| MC-7 | **`q_correct` phân bố đều 1-4** | Trong cùng batch (cùng kind), q_correct PHẢI phân bố đều qua 1-4. KHÔNG được thiên lệch (vd: tất cả = 1). Nếu gen 4 câu cùng kind → phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). Nếu lệch → shuffle lại q_correct và swap đáp án tương ứng | ✅ shuffle & swap |
 | MC-8 | `topic` hợp lệ | Phù hợp loại kind | ✅ |
 | MC-9 | `question_feature` hợp lệ | Theo bảng tham chiếu. 230003: câu 1-4 `qf_fill_word`, câu 5-10 `qf_content_match` | ✅ |
 | MC-10 | `difficulty` hợp lệ | Theo bảng tham chiếu | ✅ |
@@ -89,6 +89,7 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 | EX-4 | **Giải thích dễ hiểu** | Ngôn ngữ cho người học, giải thích tại sao đúng/sai bằng ngôn ngữ tự nhiên | ❌ cần LLM |
 | EX-5 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
 | EX-6 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
+| EX-7 | **Explain xuống dòng rõ ràng** | Explain PHẢI có line breaks (`\n`) rõ ràng giữa các phần: dịch câu hỏi, dịch đáp án (1. 2. 3. 4.), separator (----), dịch nội dung, giải thích từng đáp án. KHÔNG được viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Check: đếm số `\n` trong explain — nếu < 6 thì khả năng cao bị viết liền | ❌ cần LLM |
 
 ### Nhóm 6: Bài viết mẫu (examples)
 
@@ -221,6 +222,7 @@ Format explain.vi va explain.en PHAI GIONG NHAU ve cau truc — chi khac ngon ng
 
 ```
 [Dich cau hoi / mo ta yeu cau]
+
 1. [Dich dap an 1]
 2. [Dich dap an 2]
 3. [Dich dap an 3]
@@ -228,10 +230,13 @@ Format explain.vi va explain.en PHAI GIONG NHAU ve cau truc — chi khac ngon ng
 ----------------------------
 [Dich/tom tat noi dung bai viet / doan van lien quan]
 
-[Giai thich chi tiet tai sao dap an dung la dung]
-[Giai thich tai sao tung dap an sai la sai — dung ngon ngu de hieu cho nguoi hoc, KHONG ghi ma trap]
+Dap an [N] la dap an dung vi [ly do].
+Dap an [X] sai vi [ly do].
+Dap an [Y] sai vi [ly do].
+Dap an [Z] sai vi [ly do].
 ```
 
+- **Format explain PHAI xuong dong ro rang** — moi phan (dich cau hoi, dich dap an, separator, dich noi dung, giai thich tung dap an) PHAI xuong dong (`\n`). KHONG viet thanh 1 doan dai lien mach. Moi dap an giai thich tren 1 dong rieng.
 - **vi** va **en** phai co **cung so phan** va **cung muc chi tiet**
 - KHONG de en ngan gon kieu "=> Answer 1" ma vi thi giai thich dai dong
 - Ca vi lan en deu phai giai thich **tung dap an sai** vi sao sai
