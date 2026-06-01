@@ -8,8 +8,4 @@ Read:
 Write:
 
 
-Đọc skills/topik-listen-gen-origin/SKILL.md để hiểu format, danh sách kind, và cách gen câu hỏi. Sau đó đọc kind file + samples.json rồi gen theo hướng dẫn trong SKILL.md. Mặc định gen 1 câu/kind. Chú ý: Ở những dạng có audio và phải có g_text_audio, có ảnh phải có q_image_desc_. Gen tự động theo các bước trong skill giúp tôi
 
-Đọc skills/topik-read-gen-origin/SKILL.md để hiểu format, danh sách kind, và cách gen câu hỏi. Sau đó đọc kind file + samples.json rồi gen theo hướng dẫn trong SKILL.md. Mặc định gen 1 câu/kind. Chú ý: Ở những dạng có audio và phải có g_text_audio, có ảnh phải có q_image_desc_. Gen tự động theo các bước trong skill giúp tôi
-
-Đọc skills/topik-write-gen-origin/SKILL.md để hiểu format, danh sách kind, và cách gen câu hỏi. Sau đó đọc kind file + samples.json rồi gen theo hướng dẫn trong SKILL.md. Mặc định gen 1 câu/kind. Chú ý: Ở những dạng có audio và phải có g_text_audio, có ảnh phải có q_image_desc_. Gen tự động theo các bước trong skill giúp tôi
