@@ -141,7 +141,7 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 | MC-2 | `level` hợp lệ | 110xxx → 1, 210xxx → 2 | ✅ |
 | MC-3 | `kind` hợp lệ | Tồn tại file `kinds/{kind}.md` | ❌ báo cáo |
 | MC-4 | `count_question` khớp | Đếm số q_text_N có dữ liệu | ✅ |
-| MC-5 | `q_correct` trong 1-4 | Với mỗi q_correct_N | ✅ clamp |
+| MC-5 | `q_correct` là integer trong 1-4 (KHÔNG float 1.0, 2.0) | Với mỗi q_correct_N: phải là integer, nếu float → convert int() | ✅ clamp + int() |
 | MC-6 | **q_correct phân bố đều 1-4 (TẤT CẢ levels)** | Trong cùng batch (cùng kind), q_correct PHẢI phân bố đều qua 1-4 cho TẤT CẢ levels (TOPIK I, TOPIK II). KHÔNG fix cứng q_correct = 1 cho bất kỳ level nào. Nếu gen 4 câu cùng kind → phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). Nếu lệch → shuffle lại q_correct và swap đáp án tương ứng | ✅ shuffle & swap |
 | MC-7 | 4 đáp án không trùng | Parse q_answer_N, check unique | ❌ cần LLM |
 | MC-8 | `topic` hợp lệ | Thuộc danh sách topic trong bảng tham chiếu | ✅ |

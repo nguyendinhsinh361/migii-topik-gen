@@ -114,15 +114,9 @@ Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json kh
 
 ### Format BẮT BUỘC cho kind có ảnh
 
-Kind có ảnh (230001_1, 230001_2, 230002) **PHẢI** có trường `q_image_description` ở **cấp top-level** (cùng cấp `title`, `general`):
-
-```json
-{
-  "q_image_description": {
-    "image": "<mô tả chi tiết nội dung hình ảnh (đoạn văn, biểu đồ)>"
-  }
-}
-```
+- **230001_1**: Ảnh đề bài lưu trong `q_image`. Mô tả ảnh lưu trong `q_image_desc`.
+- **230002**: Ảnh biểu đồ lưu trong `g_image` (1 ảnh duy nhất dùng chung cho 3 câu hỏi phụ). Mô tả ảnh lưu trong `g_image_desc`. **KHÔNG** dùng `q_image_1/2/3` — phải rỗng.
+- **230001_2**: KHÔNG cần ảnh.
 
 Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng.
 
@@ -231,11 +225,11 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 
 1. **tag = "write"** — luôn luôn
 2. **level = 2** — Write chỉ có trong TOPIK II
-3. **q_correct PHẢI phân bố đều 1-4** — KHÔNG được thiên lệch. Nếu gen 4 câu cùng kind → phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). KHÔNG fix cứng q_correct = 1.
+3. **q_correct PHẢI là integer (1, 2, 3, hoặc 4)** — KHÔNG BAO GIỜ là số thập phân (1.0, 2.0...). PHẢI phân bố đều 1-4, KHÔNG fix cứng q_correct = 1.
 4. **explain giải thích dễ hiểu** cho từng đáp án sai (KHÔNG ghi mã trap nội bộ như `trap_grammar_ending`, `trap_grammar_connector`… vì explain dành cho người học)
 5. **Chủ đề đa dạng** — không lặp lại chủ đề trong cùng batch
 6. **Ngữ pháp chính xác** — đáp án đúng phải đúng ngữ pháp tiếng Hàn chuẩn
-7. **Biểu đồ mô tả rõ** — kind 230002 cần `q_image_description` chi tiết
+7. **Biểu đồ mô tả rõ** — kind 230002 cần `g_image_desc` chi tiết
 
 ### Giải thích (explain)
 
@@ -278,9 +272,9 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - [ ] `tag` = `"write"` (KHÔNG phải `"listen"` hay `"read"`)
 - [ ] `level` = 2 (Write chỉ có trong TOPIK II)
 - [ ] `q_correct` phân bố đều 1-4 trong cùng batch
-- [ ] Kind 230001 → có `q_image_description` (ảnh đoạn văn có chỗ trống)
-- [ ] Kind 230002 → có `g_image` + `q_image_description` (ảnh biểu đồ)
-- [ ] Kind 230002 → số liệu biểu đồ nhất quán giữa `q_image_description` và đáp án
+- [ ] Kind 230001_1 → có `q_image` + `q_image_desc` (ảnh đoạn văn có chỗ trống)
+- [ ] Kind 230002 → có `g_image` + `g_image_desc` (1 ảnh biểu đồ dùng chung), `q_image_1/2/3` rỗng
+- [ ] Kind 230002 → số liệu biểu đồ nhất quán giữa `g_image_desc` và đáp án
 - [ ] Kind 230003 → `g_text` đề bài 3 phần (dẫn nhập → chủ đề → 3 câu hỏi gợi ý), đủ dài, rõ ràng
 - [ ] Kind 230003 → 10 câu phụ đúng phân loại (1-4: điền từ, 5-8: chọn câu, 9-10: sắp xếp ý)
 - [ ] Kind 230002, 230003 → có đủ 5 bài viết mẫu (`example_1` đến `example_5`)

@@ -47,7 +47,7 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 | MC-2 | `level` hợp lệ | 120xxx → 1, 220xxx → 2 | ✅ |
 | MC-3 | `kind` hợp lệ | Tồn tại file `kinds/{kind}.md` | ❌ báo cáo |
 | MC-4 | `count_question` khớp | Đếm số q_text_N có dữ liệu. Phải khớp giá trị trong kind file | ✅ |
-| MC-5 | `q_correct` trong 1-4 | Với mỗi q_correct_N | ✅ clamp |
+| MC-5 | `q_correct` là integer trong 1-4 (KHÔNG float 1.0, 2.0) | Với mỗi q_correct_N: phải là integer, nếu float → convert int() | ✅ clamp + int() |
 | MC-6 | 4 đáp án không trùng | Parse q_answer_N, check unique | ❌ cần LLM |
 | MC-7 | `topic` hợp lệ | Thuộc danh sách topic trong bảng tham chiếu bên dưới | ✅ |
 | MC-8 | `question_feature` hợp lệ | Thuộc danh sách qf_* trong bảng tham chiếu, phù hợp kind. Xem bảng nhãn hệ thống trong kind file | ✅ |

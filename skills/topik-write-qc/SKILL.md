@@ -47,7 +47,7 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 | MC-2 | `level` = 2 | Write chỉ có TOPIK II | ✅ |
 | MC-3 | `kind` hợp lệ | Phải là 230001_1, 230001_2, 230002, hoặc 230003 | ❌ báo cáo |
 | MC-4 | `count_question` khớp | 230001: 1, 230002: 3, 230003: 10 | ✅ |
-| MC-5 | `q_correct` trong 1-4 | Với mỗi q_correct_N | ✅ clamp |
+| MC-5 | `q_correct` là integer trong 1-4 (KHÔNG float 1.0, 2.0) | Với mỗi q_correct_N: phải là integer, nếu float → convert int() | ✅ clamp + int() |
 | MC-6 | 4 đáp án không trùng | Parse q_answer_N, check unique | ❌ cần LLM |
 | MC-7 | **`q_correct` phân bố đều 1-4** | Trong cùng batch (cùng kind), q_correct PHẢI phân bố đều qua 1-4. KHÔNG được thiên lệch (vd: tất cả = 1). Nếu gen 4 câu cùng kind → phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). Nếu lệch → shuffle lại q_correct và swap đáp án tương ứng | ✅ shuffle & swap |
 | MC-8 | `topic` hợp lệ | Phù hợp loại kind | ✅ |
@@ -72,7 +72,7 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 | IM-3 | **230002: chỉ 1 ảnh chung** | Ảnh ở g_image. q_image_1, q_image_2, q_image_3 phải rỗng | ✅ xóa |
 | IM-4 | **230002: biểu đồ đơn giản** | Ít số liệu, chỉ số quan trọng. Triển vọng/nguyên nhân 1-2 ý. KHÔNG có 주요 트렌드. Dùng ký hiệu ⮕⬆⬇ | ❌ cần LLM |
 | IM-5 | **230001_1: phong cách ảnh** | Đọc kind file → phong cách hình ảnh (khung email, grayscale...) | ❌ cần LLM |
-| IM-6 | **230002: q_image_desc template** | Phải theo format template BẮT BUỘC trong kind file (loại biểu đồ, tiêu đề, nguồn, trục, dữ liệu...) | ❌ cần LLM |
+| IM-6 | **230002: g_image_desc template** | Mô tả ảnh lưu trong `g_image_desc` (KHÔNG phải q_image_desc). Phải theo format template BẮT BUỘC trong kind file (loại biểu đồ, tiêu đề, nguồn, trục, dữ liệu...) | ❌ cần LLM |
 
 ### Nhóm 4: Đáp án (q_answer)
 
