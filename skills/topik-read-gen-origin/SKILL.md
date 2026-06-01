@@ -126,7 +126,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
       "q_correct": 1,
       "explain": {
-        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
+        "vi": "<giải thích tiếng Việt — dễ hiểu cho người học>",
         "en": "<giải thích tiếng Anh>"
       }
     }
@@ -356,24 +356,40 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 
 **Format explain.vi và explain.en PHẢI GIỐNG NHAU về cấu trúc** — chỉ khác ngôn ngữ. Cụ thể:
 
+**Câu đơn (count_question = 1):**
 ```
 [Dịch bài đọc/đoạn văn]
+[Nếu có ảnh: dịch text hiển thị trên ảnh, mỗi ý xuống dòng]
 1. [Dịch đáp án 1]
 2. [Dịch đáp án 2]
 3. [Dịch đáp án 3]
 4. [Dịch đáp án 4]
 --------------------
-[Giải thích tại sao đáp án đúng là đúng + tại sao các đáp án sai là sai]
-[Ghi trap type cho từng đáp án sai]
+[Giải thích tại sao đáp án đúng là đúng + tại sao các đáp án sai là sai — dùng ngôn ngữ dễ hiểu, KHÔNG ghi mã trap]
+```
+
+**Câu ghép (count_question ≥ 2):**
+```
+[Dịch bài đọc/đoạn văn]
+
+[Dịch câu hỏi phụ 1]: ...
+1. [Dịch đáp án 1]  2. [Dịch đáp án 2]  3. [Dịch đáp án 3]  4. [Dịch đáp án 4]
+--------------------
+[Giải thích đáp án đúng + sai cho câu hỏi phụ 1]
+
+[Dịch câu hỏi phụ 2]: ...
+1. [Dịch đáp án 1]  2. [Dịch đáp án 2]  3. [Dịch đáp án 3]  4. [Dịch đáp án 4]
+--------------------
+[Giải thích đáp án đúng + sai cho câu hỏi phụ 2]
 ```
 
 - **vi** và **en** phải có **cùng số phần** và **cùng mức chi tiết**: dịch bài, dịch đáp án, separator, giải thích
 - Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
-- **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
-- Format trap annotation: `"① trap_detail_distort (수영→등산), ② đúng, ③ trap_neg_없안 (좋아한다→싫어한다), ④ trap_shared_noun"`
+- **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài — explain_en PHẢI chi tiết bằng explain_vi
+- **KHÔNG** ghi mã trap nội bộ (trap_detail_distort, trap_partial_truth…) vào explain — explain dành cho người học
+- **Câu ghép (count_question ≥ 2)**: PHẢI dịch cả câu hỏi phụ (q_text) vào explain trước phần dịch đáp án
+- **Câu có ảnh**: Phần dịch text ảnh trong explain chỉ dịch **text hiển thị trên ảnh** (tiêu đề, số liệu, nhãn…), KHÔNG dịch nguyên văn q_image_description (vì q_image_desc chứa cả mô tả bố cục/màu sắc)
 - Highlight từ vựng/ngữ pháp quan trọng
-
-> **Lưu ý**: Samples.json chứa explain dạng cũ (chỉ dịch, không có trap annotation). Khi gen câu mới, BẮT BUỘC thêm trap annotation.
 
 ### 4. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

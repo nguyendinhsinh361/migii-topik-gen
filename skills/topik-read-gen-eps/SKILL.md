@@ -56,7 +56,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
       "q_correct": 1,
       "explain": {
-        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
+        "vi": "<giải thích tiếng Việt — dễ hiểu cho người học, KHÔNG ghi mã trap>",
         "en": "<giải thích tiếng Anh>"
       }
     }
@@ -270,7 +270,7 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 - [ ] Văn bản là tiếng Hàn tự nhiên, đúng level EPS
 - [ ] Bẫy đúng phân bố của kind
 - [ ] Bản dịch (vi/en) chính xác
-- [ ] `explain` chứa dịch + lý do đáp án đúng + ghi chú trap type cho từng đáp án sai
+- [ ] `explain` chứa dịch + lý do đáp án đúng + giải thích từng đáp án sai (KHÔNG chứa mã trap)
 - [ ] `count_question` khớp số phần tử trong `content` (hoặc null)
 - [ ] `tag` = `"read"` (KHÔNG phải `"listen"`)
 - [ ] `level` = 3

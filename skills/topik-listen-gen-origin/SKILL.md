@@ -116,7 +116,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
       "q_correct": <số thứ tự đáp án đúng 1-4>,
       "explain": {
-        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
+        "vi": "<giải thích tiếng Việt — dễ hiểu cho người học, KHÔNG ghi mã trap>",
         "en": "<giải thích tiếng Anh>"
       }
     }
@@ -437,8 +437,12 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
 - Highlight từ vựng/ngữ pháp quan trọng
 - **KHÔNG thêm annotation trap** trong ngoặc sau mỗi đáp án (vd: KHÔNG viết "② Nữ đang chơi game (trap_context_swap)"). Thông tin trap đã nằm trong trường `distractor_traps` riêng
+- **KHÔNG giải thích đáp án sai** theo kiểu "Đáp án X dùng từ '...' từ audio nhưng..." — việc đáp án chứa từ trùng audio là bình thường, không cần lặp lại pattern này
 - **BẮT BUỘC dùng "người nam"** thay cho "nam", "anh ấy" và **"người nữ"** thay cho "nữ", "cô ấy" trong explain tiếng Việt
-- Với kind có **câu hỏi phụ** (110008_1/2/3, 210006, 210007): explain PHẢI **dịch cả câu hỏi phụ** (q_text) trước khi dịch đáp án
+- Với kind có **câu hỏi phụ** (110008_1/2/3, 210006, 210007): explain PHẢI **dịch cả câu hỏi phụ** (q_text) — nhưng **KHÔNG** thêm prefix "Câu hỏi:" / "Question:" trước bản dịch, chỉ dịch trực tiếp nội dung
+- **Kind 210006**: explain **KHÔNG** cần dòng "[Dịch câu hỏi phụ 1]" / "[Translate Q1]" — chỉ cần dịch đáp án + giải thích
+- **Kind 210007**: explain PHẢI dịch câu hỏi phụ sang tiếng Việt/Anh — **KHÔNG** để nguyên tiếng Hàn
+- **TOPIK I** (Level 1 — kind 110xxx): `q_correct` luôn = **1** cho tất cả câu hỏi
 
 ### 5. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

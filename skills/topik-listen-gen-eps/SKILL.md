@@ -57,7 +57,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<dap an 1>", "<dap an 2>", "<dap an 3>", "<dap an 4>"],
       "q_correct": <số thứ tự đáp án đúng 1-4>,
       "explain": {
-        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
+        "vi": "<giải thích tiếng Việt — dễ hiểu cho người học, KHÔNG ghi mã trap>",
         "en": "<giải thích tiếng Anh>"
       }
     }
@@ -330,7 +330,7 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 - [ ] Ngữ pháp đúng Level 3
 - [ ] Bẫy đúng phân bố của kind
 - [ ] Bản dịch (vi/en) chính xác
-- [ ] `explain` chứa dịch 4 đáp án + lý do đáp án đúng + trap type cho đáp án sai
+- [ ] `explain` chứa dịch 4 đáp án + lý do đáp án đúng + giải thích từng đáp án sai (KHÔNG chứa mã trap)
 - [ ] `count_question` khớp số phần tử trong `content`
 - [ ] `level` luôn = 3
 

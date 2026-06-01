@@ -50,7 +50,7 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
       "q_answer": ["<đáp án 1>", "<đáp án 2>", "<đáp án 3>", "<đáp án 4>"],
       "q_correct": 1,
       "explain": {
-        "vi": "<giải thích tiếng Việt — GHI RÕ trap type cho từng đáp án sai>",
+        "vi": "<giải thích tiếng Việt — dễ hiểu cho người học, KHÔNG ghi mã trap>",
         "en": "<giải thích tiếng Anh>"
       }
     }
