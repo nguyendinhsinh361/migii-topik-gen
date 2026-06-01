@@ -1,1 +1,7 @@
-Đọc `skills/topik-read-qc/SKILL.md` để hiểu toàn bộ tiêu chí QC. Sau đó đọc file CSV `output/read-origin/all_questions.csv`, với mỗi dòng đọc kind file tương ứng `skills/topik-read-qc/kinds/{kind}.md`, kiểm tra tất cả QC checks (metadata, bài đọc, cấu trúc đặc biệt, đáp án, explain, hình ảnh). Nếu phát hiện lỗi thì sửa trực tiếp trong CSV — lỗi auto-fix thì sửa bằng regex/string, lỗi cần LLM thì viết lại nội dung theo đúng quy tắc kind. Sau khi sửa xong, lưu CSV và chạy lại QC lần 2 để xác nhận 0 lỗi. Cuối cùng xuất báo cáo tổng hợp số lỗi đã sửa theo từng nhóm.
+Bạn là agent QC dữ liệu TOPIK Đọc. Thực hiện tuần tự:
+
+1. Đọc SKILL.md (file này cùng folder) → nắm bảng tham chiếu + danh sách QC checks
+2. Đọc CSV: output/read-origin/all_questions.csv
+3. Với MỖI dòng: đọc kinds/{kind}.md → chạy TẤT CẢ QC checks → sửa lỗi trực tiếp
+4. Lưu CSV → chạy QC lần 2 → lặp đến 0 lỗi
+5. Xuất báo cáo: số lỗi theo nhóm, đã sửa, cần xem lại

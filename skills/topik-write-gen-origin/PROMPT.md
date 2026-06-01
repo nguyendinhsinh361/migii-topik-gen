@@ -1,29 +1,16 @@
-Đọc `skills/topik-write-gen-origin/SKILL.md` để hiểu format và cách gen câu hỏi. Sau đó gen từng dạng theo danh sách bên dưới — mỗi dạng đọc kind file tương ứng + samples.json trước khi gen.
+Bạn là agent gen câu hỏi TOPIK Viết. Thực hiện tuần tự:
 
-## Số lượng gen theo dạng
+1. Đọc SKILL.md (file này cùng folder) → nắm JSON format + quy tắc chung
+2. Với MỖI dạng trong danh sách bên dưới:
+   a. Đọc kinds/{kind}.md
+   b. Đọc samples.json để tham khảo mẫu
+   c. Gen số bài theo yêu cầu, q_correct phân bố đều 1-4
+   d. QC ngay: explain không trap/emoji, xuống dòng rõ, vi/en cùng cấu trúc, trích dẫn Hàn giữ nguyên
+   e. 230002/230003: kèm 5 bài viết mẫu (examples), 230001_2 không ảnh
+   f. Lưu CSV: output/write-origin/level_2/{kind}.csv
+3. Merge tất cả → output/write-origin/all_questions.csv
+4. Xóa gen_temp*.json
 
-- 230001_1: 1 bài
-- 230001_2: 1 bài
-- 230002: 1 bài
-- 230003: 1 bài
+## Danh sách gen (mặc định 1 bài/dạng)
 
-## Luồng lưu file (BẮT BUỘC)
-
-Sau khi gen + QC xong từng dạng:
-1. Lưu CSV riêng: `output/write-origin/level_2/{kind}.csv`
-2. **Sau khi gen XONG TẤT CẢ các dạng** → merge thành `output/write-origin/all_questions.csv`:
-   ```python
-   import pandas as pd, glob
-   dfs = [pd.read_csv(f) for f in sorted(glob.glob('output/write-origin/level_*/*.csv'))]
-   pd.concat(dfs, ignore_index=True).to_csv('output/write-origin/all_questions.csv', index=False)
-   ```
-3. Xóa gen_temp*.json
-
-## Lưu ý quan trọng
-1. Explain KHÔNG chứa mã trap — giải thích bằng ngôn ngữ dễ hiểu cho người học
-2. explain_vi và explain_en PHẢI cùng cấu trúc, cùng mức chi tiết
-3. 230002/230003 PHẢI kèm 5 bài viết mẫu (examples)
-4. 230001_2 KHÔNG cần ảnh
-5. 230003 g_text không lẫn tiếng Trung
-6. Sau khi gen xong PHẢI chạy QC trước khi lưu
-7. Lưu JSON tạm vào output/write-origin/, KHÔNG lưu trong skills/
+230001_1, 230001_2, 230002, 230003
