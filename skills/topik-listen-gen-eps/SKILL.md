@@ -1,3 +1,8 @@
+---
+name: topik-listen-gen-eps
+description: Gen câu hỏi EPS-TOPIK Nghe (듣기) Level 3. 8 dạng từ 310001 đến 3410005.
+---
+
 # EPS-TOPIK Listening Question Generator (Level 3)
 
 Skill tạo câu hỏi phần Nghe (듣기) cho kỳ thi EPS-TOPIK (Level 3 — dành cho người lao động nước ngoài tại Hàn Quốc) theo đúng format JSON của hệ thống Migii.
@@ -347,7 +352,7 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 1. User chỉ định kind -> đọc file `kinds/{kind}.md`
 2. Hỏi số lượng (mặc định 5)
 3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
-4. Lưu JSON tạm -> chạy `scripts/save_listen.py` để tách CSV theo kind
+4. Lưu trực tiếp CSV theo kind vào `output/listen-eps/level_3/{kind}.csv` bằng `scripts/save_listen.py`
 5. Validate theo checklist
 
 ### Quy tắc đường dẫn file
@@ -356,27 +361,18 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 
 | Loại file | Đường dẫn | Ghi chú |
 |-----------|-----------|---------|
-| JSON tạm (gen) | `output/listen-eps/gen_temp_{kind}.json` | Lưu trong output/, KHÔNG ở root |
 | CSV theo kind | `output/listen-eps/level_3/{kind}.csv` | Output chính |
 | CSV tổng hợp | `output/listen-eps/all_questions.csv` | Merge từ tất cả kind |
 
 ### Lưu kết quả bằng script
 
 ```bash
-# Lưu CSV theo kind + JSON + merge tổng
-python skills/topik-listen-gen-eps/scripts/save_listen.py output/listen-eps/gen_temp_{kind}.json -o output/listen-eps --json --merge
+# Lưu trực tiếp CSV theo kind + merge tổng
+python skills/topik-listen-gen-eps/scripts/save_listen.py --data '<JSON_STRING>' -o output/listen-eps --merge
 
 # Chỉ validate
-python skills/topik-listen-gen-eps/scripts/save_listen.py output/listen-eps/gen_temp_{kind}.json --validate-only
+python skills/topik-listen-gen-eps/scripts/save_listen.py --data '<JSON_STRING>' --validate-only
 
 # Append thêm batch mới
-python skills/topik-listen-gen-eps/scripts/save_listen.py output/listen-eps/new_batch.json --append
+python skills/topik-listen-gen-eps/scripts/save_listen.py --data '<JSON_STRING>' --append
 ```
-
-### Dọn dẹp sau khi gen (BẮT BUỘC)
-
-```bash
-rm -f output/listen-eps/gen_temp_*.json
-```
-
-**KHÔNG ĐƯỢC** để file `gen_temp_*.json` tồn tại sau khi gen xong.

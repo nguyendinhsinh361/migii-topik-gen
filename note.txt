@@ -1,14 +1,34 @@
 gemini --approval-mode=yolo
 gemini --approval-mode=yolo  --model gemini-3.1-pro-preview
 
-/permissions
+bash scripts/gen_listen_origin.sh
 
-Listen GEN: 
-Listen QC: 
-Read GEN: 
-Read QC: 
-Write GEN: 
+# Gen tất cả (1 bài/dạng)
+bash scripts/gen_listen_origin.sh
 
+# Gen 1 dạng cụ thể, 3 bài
+bash scripts/gen_listen_origin.sh 110001 3
 
+# Gen 1 dạng cụ thể, 1 bài (mặc định)
+bash scripts/gen_listen_origin.sh 210006_(3)
 
+# Tương tự cho Read, Write, EPS
+bash scripts/gen_read_origin.sh 220005_2 5
+bash scripts/gen_write_origin.sh 230002 2
+bash scripts/gen_listen_eps.sh 310001 3
+bash scripts/gen_read_eps.sh 320001 2
+
+====================================
+
+bash scripts/gen_listen_origin.sh
+
+# Song song 3 sessions cùng lúc
+bash scripts/gen_listen_origin.sh --parallel 3
+
+# Gen 1 dạng, 5 bài, song song 2
+bash scripts/gen_listen_origin.sh --parallel 2 110001 5
+
+# Tương tự cho các script khác
+bash scripts/gen_read_origin.sh --parallel 3
+bash scripts/gen_write_origin.sh --parallel 2 230002 3
 

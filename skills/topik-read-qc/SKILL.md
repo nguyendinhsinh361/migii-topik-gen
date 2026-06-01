@@ -1,3 +1,8 @@
+---
+name: topik-read-qc
+description: QC dữ liệu TOPIK Đọc. Đọc CSV, kiểm tra toàn bộ tiêu chí, tự động sửa lỗi, lặp đến 0 lỗi.
+---
+
 # TOPIK Read QC — Kiểm tra & sửa lỗi dữ liệu đọc
 
 Skill QC hoàn toàn tách biệt với skill gen. Đọc CSV đã gen, kiểm tra **toàn bộ tiêu chí** dựa trên file kind trong folder `kinds/` của skill này + bảng tham chiếu bên dưới, tự động sửa lỗi, lặp đến khi đạt.

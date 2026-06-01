@@ -1,3 +1,8 @@
+---
+name: topik-listen-gen-origin
+description: Gen câu hỏi TOPIK Nghe (듣기) Level 1-2. Đọc kind file + samples.json, gen JSON theo format, QC, lưu CSV. 35 dạng từ 110001 đến 210007.
+---
+
 # TOPIK Listening Question Generator (TOPIK I & II)
 
 Skill tạo câu hỏi phần Nghe (듣기) cho kỳ thi TOPIK I & II theo đúng format JSON của hệ thống Migii.
@@ -473,7 +478,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 2. Hỏi số lượng (mặc định 5)
 3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
 4. **⚠️ QC (Quality Control)** — Đọc lại TOÀN BỘ JSON vừa gen, kiểm tra từng câu theo checklist QC bên dưới. Nếu phát hiện lỗi → **sửa ngay trong JSON** trước khi lưu. KHÔNG ĐƯỢC bỏ qua bước này.
-5. Lưu JSON đã QC → chạy `scripts/save_listen.py` để tách CSV theo kind
+5. Lưu trực tiếp CSV theo kind vào `output/listen-origin/level_{1,2}/{kind}.csv` bằng `scripts/save_listen.py`
 6. Validate theo checklist cấu trúc
 
 ### Bước 4: QC — Kiểm tra & sửa lỗi TRƯỚC KHI LƯU
@@ -560,30 +565,18 @@ SAU khi gen JSON, TRƯỚC khi lưu:
 
 | Loại file | Đường dẫn | Ghi chú |
 |-----------|-----------|---------|
-| JSON tạm (gen) | `output/listen-origin/gen_temp_{kind}.json` | Lưu trong output/, KHÔNG ở root |
 | CSV theo kind | `output/listen-origin/level_{1,2}/{kind}.csv` | Output chính |
 | CSV tổng hợp | `output/listen-origin/all_questions.csv` | Merge từ tất cả kind |
 
 ### Lưu kết quả bằng script
 
 ```bash
-# Lưu CSV theo kind + JSON + merge tổng
-python skills/topik-listen-gen-origin/scripts/save_listen.py output/listen-origin/gen_temp_{kind}.json -o output/listen-origin --json --merge
+# Lưu trực tiếp CSV theo kind + merge tổng
+python skills/topik-listen-gen-origin/scripts/save_listen.py --data '<JSON_STRING>' -o output/listen-origin --merge
 
 # Chỉ validate
-python skills/topik-listen-gen-origin/scripts/save_listen.py output/listen-origin/gen_temp_{kind}.json --validate-only
+python skills/topik-listen-gen-origin/scripts/save_listen.py --data '<JSON_STRING>' --validate-only
 
 # Append thêm batch mới
-python skills/topik-listen-gen-origin/scripts/save_listen.py output/listen-origin/new_batch.json --append
+python skills/topik-listen-gen-origin/scripts/save_listen.py --data '<JSON_STRING>' --append
 ```
-
-### Dọn dẹp sau khi gen (BẮT BUỘC)
-
-Sau khi lưu CSV xong và xác nhận dữ liệu đúng, **BẮT BUỘC xóa** tất cả file JSON tạm:
-
-```bash
-# Xóa tất cả file gen_temp trong output/listen-origin/
-rm -f output/listen-origin/gen_temp_*.json
-```
-
-**KHÔNG ĐƯỢC** để file `gen_temp_*.json` tồn tại ở bất kỳ đâu sau khi gen xong — kể cả root folder hay output folder.

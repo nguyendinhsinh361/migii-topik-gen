@@ -1,3 +1,8 @@
+---
+name: topik-listen-qc
+description: QC dữ liệu TOPIK Nghe. Đọc CSV, kiểm tra toàn bộ tiêu chí, tự động sửa lỗi, lặp đến 0 lỗi.
+---
+
 # TOPIK Listen QC — Kiểm tra & sửa lỗi dữ liệu nghe
 
 Skill QC hoàn toàn độc lập. Đọc CSV đã gen, kiểm tra **toàn bộ tiêu chí** theo các bảng tham chiếu bên dưới + từng file `kinds/{kind}.md` trong folder của skill này, tự động sửa lỗi, lặp đến khi đạt.

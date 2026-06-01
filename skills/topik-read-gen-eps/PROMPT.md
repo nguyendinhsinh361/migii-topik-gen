@@ -1,1 +1,1 @@
-Đọc skills/topik-read-gen-eps/SKILL.md, gen 1 bài/dạng cho tất cả: 320001, 320002, 320003, 320004, 320005, 3420002, 3420003, 3420006, 3420007, 3420008. Lưu CSV từng kind vào output/read-eps/level_3/{kind}.csv, merge thành output/read-eps/all_questions.csv, xóa gen_temp*.json.
+Đọc skills/topik-read-gen-eps/SKILL.md, gen 1 bài/dạng cho tất cả: 320001, 320002, 320003, 320004, 320005, 3420002, 3420003, 3420006, 3420007, 3420008. Lưu CSV từng kind vào output/read-eps/level_3/{kind}.csv, merge thành output/read-eps/all_questions.csv.

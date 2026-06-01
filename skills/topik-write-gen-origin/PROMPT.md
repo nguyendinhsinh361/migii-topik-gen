@@ -1,1 +1,1 @@
-Đọc skills/topik-write-gen-origin/SKILL.md, gen 1 bài/dạng cho tất cả: 230001_1, 230001_2, 230002, 230003. Lưu CSV từng kind vào output/write-origin/level_2/{kind}.csv, merge thành output/write-origin/all_questions.csv, xóa gen_temp*.json.
+Đọc skills/topik-write-gen-origin/SKILL.md, gen 1 bài/dạng cho tất cả: 230001_1, 230001_2, 230002, 230003. Lưu CSV từng kind vào output/write-origin/level_2/{kind}.csv, merge thành output/write-origin/all_questions.csv.

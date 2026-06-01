@@ -1,3 +1,8 @@
+---
+name: topik-write-qc
+description: QC dữ liệu TOPIK Viết. Đọc CSV, kiểm tra toàn bộ tiêu chí, tự động sửa lỗi, lặp đến 0 lỗi.
+---
+
 # TOPIK Write QC — Kiểm tra & sửa lỗi dữ liệu viết
 
 Skill QC tách biệt hoàn toàn với skill gen. Đọc CSV đã gen, kiểm tra **toàn bộ tiêu chí** (từ file kind tương ứng trong folder `kinds/` + bảng tham chiếu bên dưới), tự động sửa lỗi, lặp đến khi đạt.

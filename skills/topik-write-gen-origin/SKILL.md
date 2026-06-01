@@ -1,3 +1,8 @@
+---
+name: topik-write-gen-origin
+description: "Gen câu hỏi TOPIK Viết (쓰기) Level 2. 4 dạng: 230001_1, 230001_2, 230002, 230003."
+---
+
 # TOPIK Writing Question Generator (TOPIK II)
 
 Skill tạo câu hỏi phần Viết (쓰기) cho kỳ thi TOPIK II theo đúng format JSON của hệ thống Migii.
@@ -289,7 +294,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 1. User chỉ định kind → đọc file `kinds/{kind}.md` + SKILL.md
 2. Hỏi số lượng (mặc định 5)
 3. Gen câu hỏi theo JSON format + quy tắc kind
-4. Lưu JSON tạm → chạy `scripts/save_write.py` để tách CSV theo kind
+4. Lưu trực tiếp CSV theo kind vào `output/write-origin/level_2/{kind}.csv` bằng `scripts/save_write.py`
 5. Validate theo checklist
 
 ### Quy tắc đường dẫn file
@@ -298,24 +303,15 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 
 | Loại file | Đường dẫn | Ghi chú |
 |-----------|-----------|---------|
-| JSON tạm (gen) | `output/write-origin/gen_temp_{kind}.json` | Lưu trong output/, KHÔNG ở root |
 | CSV theo kind | `output/write-origin/level_2/{kind}.csv` | Output chính |
 | CSV tổng hợp | `output/write-origin/all_questions.csv` | Merge từ tất cả kind |
 
 ### Lưu kết quả bằng script
 
 ```bash
-# Lưu CSV theo kind + JSON + merge tổng
-python skills/topik-write-gen-origin/scripts/save_write.py output/write-origin/gen_temp_{kind}.json -o output/write-origin --json --merge
+# Lưu trực tiếp CSV theo kind + merge tổng
+python skills/topik-write-gen-origin/scripts/save_write.py --data '<JSON_STRING>' -o output/write-origin --merge
 
 # Chỉ validate
-python skills/topik-write-gen-origin/scripts/save_write.py output/write-origin/gen_temp_{kind}.json --validate-only
+python skills/topik-write-gen-origin/scripts/save_write.py --data '<JSON_STRING>' --validate-only
 ```
-
-### Dọn dẹp sau khi gen (BẮT BUỘC)
-
-```bash
-rm -f output/write-origin/gen_temp_*.json
-```
-
-**KHÔNG ĐƯỢC** để file `gen_temp_*.json` tồn tại sau khi gen xong.

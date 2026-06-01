@@ -1,3 +1,8 @@
+---
+name: topik-read-gen-origin
+description: Gen câu hỏi TOPIK Đọc (읽기) Level 1-2. 36 dạng từ 120001 đến 220008_2.
+---
+
 # TOPIK Reading Question Generator (TOPIK I & II)
 
 Skill tạo câu hỏi phần Đọc (읽기) cho kỳ thi TOPIK I & II theo đúng format JSON của hệ thống Migii.
@@ -429,7 +434,7 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
    - Không có sub-kind → đọc file `kinds/{kind}.md` trực tiếp
 2. Hỏi số lượng (mặc định 5)
 3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
-4. Lưu JSON tạm → chạy `scripts/save_read.py` để tách CSV theo kind
+4. Lưu trực tiếp CSV theo kind vào `output/read-origin/level_{1,2}/{kind}.csv` bằng `scripts/save_read.py`
 5. Validate theo checklist
 
 ### Quy tắc đường dẫn file
@@ -438,27 +443,18 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 
 | Loại file | Đường dẫn | Ghi chú |
 |-----------|-----------|---------|
-| JSON tạm (gen) | `output/read-origin/gen_temp_{kind}.json` | Lưu trong output/, KHÔNG ở root |
 | CSV theo kind | `output/read-origin/level_{1,2}/{kind}.csv` | Output chính |
 | CSV tổng hợp | `output/read-origin/all_questions.csv` | Merge từ tất cả kind |
 
 ### Lưu kết quả bằng script
 
 ```bash
-# Lưu CSV theo kind + JSON + merge tổng
-python skills/topik-read-gen-origin/scripts/save_read.py output/read-origin/gen_temp_{kind}.json -o output/read-origin --json --merge
+# Lưu trực tiếp CSV theo kind + merge tổng
+python skills/topik-read-gen-origin/scripts/save_read.py --data '<JSON_STRING>' -o output/read-origin --merge
 
 # Chỉ validate
-python skills/topik-read-gen-origin/scripts/save_read.py output/read-origin/gen_temp_{kind}.json --validate-only
+python skills/topik-read-gen-origin/scripts/save_read.py --data '<JSON_STRING>' --validate-only
 
 # Append thêm batch mới
-python skills/topik-read-gen-origin/scripts/save_read.py output/read-origin/new_batch.json --append
+python skills/topik-read-gen-origin/scripts/save_read.py --data '<JSON_STRING>' --append
 ```
-
-### Dọn dẹp sau khi gen (BẮT BUỘC)
-
-```bash
-rm -f output/read-origin/gen_temp_*.json
-```
-
-**KHÔNG ĐƯỢC** để file `gen_temp_*.json` tồn tại sau khi gen xong.

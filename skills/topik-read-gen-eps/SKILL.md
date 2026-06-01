@@ -1,3 +1,8 @@
+---
+name: topik-read-gen-eps
+description: Gen câu hỏi EPS-TOPIK Đọc (읽기) Level 3. 10 dạng từ 320001 đến 3420008.
+---
+
 # EPS-TOPIK Reading Question Generator (Level 3)
 
 Skill tạo câu hỏi phần Đọc (읽기) cho kỳ thi EPS-TOPIK (Level 3 — lao động nước ngoài) theo đúng format JSON của hệ thống Migii.
@@ -292,7 +297,7 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 1. User chỉ định kind → đọc file `kinds/{kind}.md`
 2. Hỏi số lượng (mặc định 5)
 3. Gen câu hỏi theo JSON format + quy tắc kind + chiến lược bẫy
-4. Lưu JSON tạm → chạy `scripts/save_read.py` để tách CSV theo kind
+4. Lưu trực tiếp CSV theo kind vào `output/read-eps/level_3/{kind}.csv` bằng `scripts/save_read.py`
 5. Validate theo checklist
 
 ### Quy tắc đường dẫn file
@@ -301,27 +306,18 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 
 | Loại file | Đường dẫn | Ghi chú |
 |-----------|-----------|---------|
-| JSON tạm (gen) | `output/read-eps/gen_temp_{kind}.json` | Lưu trong output/, KHÔNG ở root |
 | CSV theo kind | `output/read-eps/level_3/{kind}.csv` | Output chính |
 | CSV tổng hợp | `output/read-eps/all_questions.csv` | Merge từ tất cả kind |
 
 ### Lưu kết quả bằng script
 
 ```bash
-# Lưu CSV theo kind + JSON + merge tổng
-python skills/topik-read-gen-eps/scripts/save_read.py output/read-eps/gen_temp_{kind}.json -o output/read-eps --json --merge
+# Lưu trực tiếp CSV theo kind + merge tổng
+python skills/topik-read-gen-eps/scripts/save_read.py --data '<JSON_STRING>' -o output/read-eps --merge
 
 # Chỉ validate
-python skills/topik-read-gen-eps/scripts/save_read.py output/read-eps/gen_temp_{kind}.json --validate-only
+python skills/topik-read-gen-eps/scripts/save_read.py --data '<JSON_STRING>' --validate-only
 
 # Append thêm batch mới
-python skills/topik-read-gen-eps/scripts/save_read.py output/read-eps/new_batch.json --append
+python skills/topik-read-gen-eps/scripts/save_read.py --data '<JSON_STRING>' --append
 ```
-
-### Dọn dẹp sau khi gen (BẮT BUỘC)
-
-```bash
-rm -f output/read-eps/gen_temp_*.json
-```
-
-**KHÔNG ĐƯỢC** để file `gen_temp_*.json` tồn tại sau khi gen xong.
