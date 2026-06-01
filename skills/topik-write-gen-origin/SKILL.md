@@ -253,6 +253,8 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - Nếu vi có dịch bài viết + giải thích đáp án sai → en cũng PHẢI có dịch bài viết + giải thích đáp án sai
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài dòng
 - Cả vi lẫn en đều phải giải thích **từng đáp án sai** vì sao sai
+- **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
+- **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ bài viết/đoạn văn, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam phân tích hiện tượng '양적인 관계 증가에도 질적 발전 부족'" — giữ nguyên phần Hàn
 
 ### Kiểm tra sau khi gen (Validation Checklist)
 

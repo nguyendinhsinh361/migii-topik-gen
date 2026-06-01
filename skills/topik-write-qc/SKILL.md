@@ -87,6 +87,8 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 | EX-2 | **EN chi tiết bằng VI** | len(explain_en) >= 50% len(explain_vi) | ❌ cần LLM |
 | EX-3 | **VI và EN cùng cấu trúc** | Cả 2: dịch câu hỏi → dịch đáp án → separator ---- → giải thích. KHÔNG để EN ngắn gọn kiểu "=> Answer 1" | ❌ cần LLM |
 | EX-4 | **Giải thích dễ hiểu** | Ngôn ngữ cho người học, giải thích tại sao đúng/sai bằng ngôn ngữ tự nhiên | ❌ cần LLM |
+| EX-5 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
+| EX-6 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
 
 ### Nhóm 6: Bài viết mẫu (examples)
 
@@ -110,7 +112,7 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 ## Quy tắc sửa lỗi
 
 ### Lỗi sửa tự động:
-MC-1, MC-2, MC-4, MC-5, MC-8, MC-9, MC-10, GT-3, IM-1, IM-3, EX-1
+MC-1, MC-2, MC-4, MC-5, MC-8, MC-9, MC-10, GT-3, IM-1, IM-3, EX-1, EX-5
 
 ### Lỗi cần LLM:
 Tất cả lỗi còn lại. Khi viết lại:

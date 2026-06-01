@@ -3,9 +3,12 @@ gemini --approval-mode=yolo  --model gemini-3.1-pro-preview
 
 /permissions
 
-Listen: 
-Read: 
-Write:
+Listen GEN: 
+Listen QC: 
+Read GEN: 
+Read QC: 
+Write GEN: 
+
 
 
 

@@ -198,6 +198,8 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 | EX-9 | **210001_1/210001_2: explain không dịch audio, không mô tả ảnh** | Chỉ cần phần giải thích đáp án | ❌ cần LLM |
 | EX-10 | **110005: explain ngắn gọn** | Chỉ 1 câu giải thích đáp án đúng, không diễn giải từng đáp án | ❌ cần LLM |
 | EX-11 | **110003: explain chính xác ngôn ngữ học** | Không claim phát âm tương tự khi thực tế không giống, không claim từ vựng giống khi chỉ giống ở bản dịch tiếng Việt | ❌ cần LLM |
+| EX-12 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
+| EX-13 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
 
 ### Nhóm 7: Hình ảnh (kind có ảnh)
 
@@ -211,7 +213,7 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 ## Quy tắc sửa lỗi
 
 ### Lỗi sửa tự động (regex/string):
-MC-1, MC-2, MC-4, MC-5, MC-6, MC-8, MC-9, MC-10, TR-1, TR-2, TR-3, TR-4, QT-2, EX-1, EX-3, EX-6, EX-7
+MC-1, MC-2, MC-4, MC-5, MC-6, MC-8, MC-9, MC-10, TR-1, TR-2, TR-3, TR-4, QT-2, EX-1, EX-3, EX-6, EX-7, EX-12
 
 ### Lỗi cần LLM viết lại:
 Tất cả lỗi còn lại. Khi viết lại:

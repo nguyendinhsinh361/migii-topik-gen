@@ -390,6 +390,8 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 - **Câu ghép (count_question ≥ 2)**: PHẢI dịch cả câu hỏi phụ (q_text) vào explain trước phần dịch đáp án
 - **Câu có ảnh**: Phần dịch text ảnh trong explain chỉ dịch **text hiển thị trên ảnh** (tiêu đề, số liệu, nhãn…), KHÔNG dịch nguyên văn q_image_description (vì q_image_desc chứa cả mô tả bố cục/màu sắc)
 - Highlight từ vựng/ngữ pháp quan trọng
+- **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
+- **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ bài đọc, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Đoạn văn đề cập '환경 보호의 중요성'" — giữ nguyên phần Hàn
 
 ### 4. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

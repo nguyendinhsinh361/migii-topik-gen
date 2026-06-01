@@ -259,6 +259,8 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 - Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
 - Highlight từ vựng/ngữ pháp quan trọng
+- **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
+- **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ bài đọc, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Đoạn văn đề cập '안전 규칙을 지켜야 합니다'" — giữ nguyên phần Hàn
 
 ### 4. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

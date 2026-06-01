@@ -318,6 +318,8 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
 - Highlight từ vựng/ngữ pháp quan trọng
 - **BẮT BUỘC dùng "người nam"** / **"người nữ"** trong explain tiếng Việt (không dùng "nam", "nữ", "anh ấy", "cô ấy")
+- **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
+- **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
 
 ### 4. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

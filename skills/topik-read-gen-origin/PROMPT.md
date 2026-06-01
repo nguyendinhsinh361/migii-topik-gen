@@ -42,10 +42,21 @@
 - 220008_1_(3): 1 bài
 - 220008_2: 1 bài
 
+## Luồng lưu file (BẮT BUỘC)
+
+Sau khi gen + QC xong từng dạng:
+1. Lưu CSV riêng: `output/read-origin/level_{1|2}/{kind}.csv`
+2. **Sau khi gen XONG TẤT CẢ các dạng** → merge thành `output/read-origin/all_questions.csv`:
+   ```python
+   import pandas as pd, glob
+   dfs = [pd.read_csv(f) for f in sorted(glob.glob('output/read-origin/level_*/*.csv'))]
+   pd.concat(dfs, ignore_index=True).to_csv('output/read-origin/all_questions.csv', index=False)
+   ```
+3. Xóa gen_temp*.json
+
 ## Lưu ý quan trọng
 1. Explain KHÔNG chứa mã trap — giải thích bằng ngôn ngữ dễ hiểu cho người học
 2. Câu ghép (count_question >= 2): explain phải dịch câu hỏi phụ, KHÔNG để tiếng Hàn
 3. Câu có ảnh: explain chỉ dịch text hiển thị trên ảnh, KHÔNG dịch nguyên văn q_image_desc
 4. Sau khi gen xong PHẢI chạy QC trước khi lưu
 5. Lưu JSON tạm vào output/read-origin/, KHÔNG lưu trong skills/
-6. Sau khi lưu CSV xong, xóa gen_temp*.json

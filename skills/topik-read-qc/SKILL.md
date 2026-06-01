@@ -93,6 +93,8 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 | EX-8 | **120007_1: KHÔNG liệt kê ㉠ trong explain** | Bỏ dòng "1. ( ㉠ ) 2. ( ㉡ )..." | ✅ xóa |
 | EX-9 | **VI và EN cùng cấu trúc** | Cả 2: dịch đáp án → separator → giải thích. Cùng mức chi tiết | ❌ cần LLM |
 | EX-10 | **120007_1/2/3: explain chi tiết** | explain phải giải thích đầy đủ logic, không đơn giản | ❌ cần LLM |
+| EX-11 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
+| EX-12 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
 
 ### Nhóm 6: Hình ảnh
 
@@ -108,7 +110,7 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 ## Quy tắc sửa lỗi
 
 ### Lỗi sửa tự động:
-MC-1, MC-2, MC-4, MC-5, MC-7, MC-8, MC-9, SK-2, SK-3, SK-5, SK-6, SK-7, EX-1, EX-5, EX-6, EX-7, EX-8
+MC-1, MC-2, MC-4, MC-5, MC-7, MC-8, MC-9, SK-2, SK-3, SK-5, SK-6, SK-7, EX-1, EX-5, EX-6, EX-7, EX-8, EX-11
 
 ### Lỗi cần LLM:
 Tất cả lỗi còn lại. Khi viết lại:

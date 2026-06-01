@@ -443,6 +443,8 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **Kind 210006**: explain **KHÔNG** cần dòng "[Dịch câu hỏi phụ 1]" / "[Translate Q1]" — chỉ cần dịch đáp án + giải thích
 - **Kind 210007**: explain PHẢI dịch câu hỏi phụ sang tiếng Việt/Anh — **KHÔNG** để nguyên tiếng Hàn
 - **TOPIK I** (Level 1 — kind 110xxx): `q_correct` luôn = **1** cho tất cả câu hỏi
+- **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
+- **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
 
 ### 5. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định
