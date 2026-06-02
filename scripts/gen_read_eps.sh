@@ -34,7 +34,7 @@ dfs = [pd.read_csv(f, dtype=str) for f in sorted(glob.glob('$OUTPUT/level_*/*.cs
 if dfs:
     merged = pd.concat(dfs, ignore_index=True)
     # Reorder: example_ and created_at at end
-    end_cols = [c for c in merged.columns if c.startswith("example_") or c == "created_at"]
+    end_cols = [c for c in merged.columns if c.startswith('example_') or c == 'created_at']
     other_cols = [c for c in merged.columns if c not in end_cols]
     merged = merged[other_cols + end_cols]
     merged.to_csv('$OUTPUT/all_questions.csv', index=False)
