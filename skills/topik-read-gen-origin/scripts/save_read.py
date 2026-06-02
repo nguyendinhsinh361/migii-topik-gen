@@ -234,7 +234,10 @@ def save_questions(questions, output_dir=None, append=False):
     by_kind = defaultdict(list)
     kind_seq = defaultdict(int)
     for q in questions:
-        kind = str(q.get("kind", "unknown"))
+        kind = str(q.get("kind", "")).strip()
+        if not kind or kind == "unknown":
+            print(f"⚠️ Skipping question with empty/unknown kind: {q.get('title', 'N/A')}")
+            continue
         seq = kind_seq[kind]
         kind_seq[kind] += 1
         row = flatten_question(q, timestamp=timestamp, seq=seq)

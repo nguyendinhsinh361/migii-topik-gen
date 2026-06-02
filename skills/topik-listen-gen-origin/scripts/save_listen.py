@@ -235,7 +235,10 @@ def save_questions(questions, output_dir=None, append=False):
     by_kind = defaultdict(list)
     kind_seq = defaultdict(int)
     for q in questions:
-        kind = str(q.get("kind", "unknown"))
+        kind = str(q.get("kind", "")).strip()
+        if not kind or kind == "unknown":
+            print(f"⚠️ Skipping question with empty/unknown kind")
+            continue
         seq = kind_seq[kind]
         kind_seq[kind] += 1
         row = flatten_question(q, timestamp=timestamp, seq=seq)
@@ -299,7 +302,10 @@ def save_as_json(questions, output_dir=None):
 
     by_kind = defaultdict(list)
     for q in questions:
-        kind = str(q.get("kind", "unknown"))
+        kind = str(q.get("kind", "")).strip()
+        if not kind or kind == "unknown":
+            print(f"⚠️ Skipping question with empty/unknown kind")
+            continue
         by_kind[kind].append(q)
 
     created_files = {}

@@ -33,7 +33,12 @@ merge_all() {
 import pandas as pd, glob
 dfs = [pd.read_csv(f, dtype=str) for f in sorted(glob.glob('$OUTPUT/level_*/*.csv')) if pd.read_csv(f, dtype=str).shape[0] > 0]
 if dfs:
-    pd.concat(dfs, ignore_index=True).to_csv('$OUTPUT/all_questions.csv', index=False)
+    merged = pd.concat(dfs, ignore_index=True)
+    # Reorder: example_ and created_at at end
+    end_cols = [c for c in merged.columns if c.startswith("example_") or c == "created_at"]
+    other_cols = [c for c in merged.columns if c not in end_cols]
+    merged = merged[other_cols + end_cols]
+    merged.to_csv('$OUTPUT/all_questions.csv', index=False)
     print(f'Merged {len(dfs)} files')
 "
 }
