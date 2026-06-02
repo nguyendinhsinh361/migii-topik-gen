@@ -47,13 +47,17 @@ if [ -n "$1" ] && [[ "$1" != "--"* ]]; then
   KIND="$1"
   COUNT="${2:-1}"
   if [ "$PARALLEL" -gt 1 ] && [ "$COUNT" -gt 1 ]; then
-    # Song song: chia count ra cho N workers
-    for i in $(seq 1 $COUNT); do
-      gen_kind "$KIND" 1 "level_3" &
-      # Giới hạn số job song song
-      if (( $(jobs -r | wc -l) >= PARALLEL )); then wait -n; fi
+    # Chạy theo batch, mỗi batch tối đa PARALLEL sessions, đợi hết mới chạy tiếp
+    for ((i=0; i<COUNT; i+=PARALLEL)); do
+      batch_end=$((i+PARALLEL < COUNT ? i+PARALLEL : COUNT))
+      batch_size=$((batch_end - i))
+      echo "[$(date +%H:%M:%S)] >>> Batch $((i/PARALLEL+1)) ($batch_size sessions)..."
+      for ((j=0; j<batch_size; j++)); do
+        gen_kind "$KIND" 1 "level_3" &
+      done
+      wait
+      echo "[$(date +%H:%M:%S)] <<< Batch done"
     done
-    wait
   else
     gen_kind "$KIND" "$COUNT" "level_3"
   fi
@@ -67,12 +71,18 @@ KINDS="320001 320002 320003 320004 320005 3420002 3420003 3420006 3420007 342000
 mkdir -p "$OUTPUT/level_3"
 
 if [ "$PARALLEL" -gt 1 ]; then
-  echo ">>> Running $PARALLEL sessions in parallel..."
-  for kind in $KINDS; do
-    gen_kind "$kind" 1 "level_3" &
-    if (( $(jobs -r | wc -l) >= PARALLEL )); then wait -n; fi
+  echo ">>> Running in batches of $PARALLEL sessions (đợi hết batch mới chạy tiếp)..."
+  kinds_arr=($KINDS)
+  total=${#kinds_arr[@]}
+  for ((i=0; i<total; i+=PARALLEL)); do
+    batch=("${kinds_arr[@]:i:PARALLEL}")
+    echo "[$(date +%H:%M:%S)] >>> Batch: ${batch[*]}"
+    for kind in "${batch[@]}"; do
+      gen_kind "$kind" 1 "level_3" &
+    done
+    wait
+    echo "[$(date +%H:%M:%S)] <<< Batch done"
   done
-  wait
 else
   for kind in $KINDS; do gen_kind "$kind" 1 "level_3"; done
 fi

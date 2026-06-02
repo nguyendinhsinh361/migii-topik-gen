@@ -49,13 +49,17 @@ if [ -n "$1" ] && [[ "$1" != "--"* ]]; then
   COUNT="${2:-1}"
   if [[ "$KIND" == 12* ]]; then LEVEL="level_1"; else LEVEL="level_2"; fi
   if [ "$PARALLEL" -gt 1 ] && [ "$COUNT" -gt 1 ]; then
-    # Song song: chia count ra cho N workers
-    for i in $(seq 1 $COUNT); do
-      gen_kind "$KIND" 1 "$LEVEL" &
-      # Giới hạn số job song song
-      if (( $(jobs -r | wc -l) >= PARALLEL )); then wait -n; fi
+    # Chạy theo batch, mỗi batch tối đa PARALLEL sessions, đợi hết mới chạy tiếp
+    for ((i=0; i<COUNT; i+=PARALLEL)); do
+      batch_end=$((i+PARALLEL < COUNT ? i+PARALLEL : COUNT))
+      batch_size=$((batch_end - i))
+      echo "[$(date +%H:%M:%S)] >>> Batch $((i/PARALLEL+1)) ($batch_size sessions)..."
+      for ((j=0; j<batch_size; j++)); do
+        gen_kind "$KIND" 1 "$LEVEL" &
+      done
+      wait
+      echo "[$(date +%H:%M:%S)] <<< Batch done"
     done
-    wait
   else
     gen_kind "$KIND" "$COUNT" "$LEVEL"
   fi
@@ -70,16 +74,31 @@ KINDS_L2="220001_a 220001_b 220001_c 220002_a 220002_b_1 220002_b_2 220002_b_3 2
 mkdir -p "$OUTPUT/level_1" "$OUTPUT/level_2"
 
 if [ "$PARALLEL" -gt 1 ]; then
-  echo ">>> Running $PARALLEL sessions in parallel..."
-  for kind in $KINDS_L1; do
-    gen_kind "$kind" 1 "level_1" &
-    if (( $(jobs -r | wc -l) >= PARALLEL )); then wait -n; fi
+  echo ">>> Running in batches of $PARALLEL sessions (đợi hết batch mới chạy tiếp)..."
+  # Level 1
+  kinds_arr=($KINDS_L1)
+  total=${#kinds_arr[@]}
+  for ((i=0; i<total; i+=PARALLEL)); do
+    batch=("${kinds_arr[@]:i:PARALLEL}")
+    echo "[$(date +%H:%M:%S)] >>> Batch L1: ${batch[*]}"
+    for kind in "${batch[@]}"; do
+      gen_kind "$kind" 1 "level_1" &
+    done
+    wait
+    echo "[$(date +%H:%M:%S)] <<< Batch done"
   done
-  for kind in $KINDS_L2; do
-    gen_kind "$kind" 1 "level_2" &
-    if (( $(jobs -r | wc -l) >= PARALLEL )); then wait -n; fi
+  # Level 2
+  kinds_arr=($KINDS_L2)
+  total=${#kinds_arr[@]}
+  for ((i=0; i<total; i+=PARALLEL)); do
+    batch=("${kinds_arr[@]:i:PARALLEL}")
+    echo "[$(date +%H:%M:%S)] >>> Batch L2: ${batch[*]}"
+    for kind in "${batch[@]}"; do
+      gen_kind "$kind" 1 "level_2" &
+    done
+    wait
+    echo "[$(date +%H:%M:%S)] <<< Batch done"
   done
-  wait
 else
   for kind in $KINDS_L1; do gen_kind "$kind" 1 "level_1"; done
   for kind in $KINDS_L2; do gen_kind "$kind" 1 "level_2"; done

@@ -29,6 +29,6 @@ bash scripts/gen_listen_origin.sh --parallel 3
 bash scripts/gen_listen_origin.sh --parallel 2 110001 5
 
 # Tương tự cho các script khác
-bash scripts/gen_read_origin.sh --parallel 2
-bash scripts/gen_write_origin.sh --parallel 2 230002 3
+bash scripts/gen_read_origin.sh --parallel 3
+bash scripts/gen_write_origin.sh --parallel 3 230002 3
 
