@@ -101,8 +101,21 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 | EX-11 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
 | EX-12 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
 | EX-13 | **Explain xuống dòng rõ ràng** | Explain PHẢI có line breaks (`\n`) rõ ràng giữa các phần: dịch bài đọc, dịch đáp án (1. 2. 3. 4.), separator (----), giải thích từng đáp án. KHÔNG được viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Check: đếm số `\n` trong explain — nếu < 6 thì khả năng cao bị viết liền | ❌ cần LLM |
+| EX-14 | **Danh sách đáp án THUẦN ngôn ngữ đích** | explain_vi chỉ tiếng Việt, explain_en chỉ tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án (❌ `1. 약속 (cuộc hẹn)` / ✅ `1. Cuộc hẹn`) | ❌ cần LLM |
+| EX-15 | **Trích dẫn dùng nháy kép** | Tất cả trích dẫn trong explain dùng `"..."`. KHÔNG dùng nháy đơn `'...'`, ngoặc đơn `(...)`, hay để trần | ✅ replace |
+| EX-16 | **Trích dẫn Hàn đồng nhất vi/en** | Nếu explain_vi trích dẫn tiếng Hàn thì explain_en cũng PHẢI trích dẫn cùng cụm Hàn đó, KHÔNG dịch sang tiếng Anh | ❌ cần LLM |
+| EX-17 | **Separator 20 dashes** | Separator trong explain phải dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes) | ✅ replace |
+| EX-18 | **Xưng hô tiếng Việt thống nhất** | KHÔNG trộn "em"+"tôi" hay "anh"+"bạn". Ưu tiên "bạn" (ngôi 2) + "tôi" (ngôi 1) | ❌ cần LLM |
+| EX-19 | **Từ tiếng Anh trong explain_vi phải dịch** | Từ tiếng Anh trong explain_vi phải được dịch sang tiếng Việt (ví dụ: "digital literacy" → "năng lực số") | ❌ cần LLM |
+| EX-20 | **explain không chứa trap labels** | explain KHÔNG chứa nhãn bẫy đáp án (trap labels). Regex: `trap_[a-z_]+` | ✅ xóa |
 
-### Nhóm 6: Hình ảnh
+### Nhóm 7: Đáp án duy nhất
+
+| ID | Kiểm tra | Cách check | Auto-fix? |
+|----|----------|-----------|:---------:|
+| UA-1 | **CHỈ ĐÚNG 1 ĐÁP ÁN** | TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất. 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào. Đáp án sai phải tự mâu thuẫn nội tại hoặc trả lời sai loại thông tin | ❌ cần LLM |
+
+### Nhóm 8: Hình ảnh
 
 | ID | Kiểm tra | Cách check | Auto-fix? |
 |----|----------|-----------|:---------:|
@@ -116,7 +129,7 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 ## Quy tắc sửa lỗi
 
 ### Lỗi sửa tự động:
-MC-1, MC-2, MC-4, MC-5, MC-7, MC-8, MC-9, MC-11, SK-2, SK-3, SK-5, SK-6, SK-7, EX-1, EX-5, EX-6, EX-7, EX-8, EX-11
+MC-1, MC-2, MC-4, MC-5, MC-7, MC-8, MC-9, MC-11, SK-2, SK-3, SK-5, SK-6, SK-7, EX-1, EX-5, EX-6, EX-7, EX-8, EX-11, EX-15, EX-17, EX-20
 > **Lưu ý**: MC-11 áp dụng cho TẤT CẢ levels (TOPIK I + TOPIK II), KHÔNG chỉ TOPIK II.
 
 ### Lỗi cần LLM:

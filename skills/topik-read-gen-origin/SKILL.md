@@ -252,6 +252,12 @@ Phân tích từ câu hỏi đọc thực tế TOPIK I & II.
 | `trap_partial_topic` | Partial Topic | Cụm danh từ chỉ đề cập một phần nội dung, không phải nội dung chính |
 | `trap_detail_as_main` | Detail As Main | Lấy chi tiết phụ làm nội dung chính |
 
+### ⚠️ CHỈ ĐÚNG 1 ĐÁP ÁN (CRITICAL)
+
+- **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
+- Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**.
+- Trước khi hoàn thành, **kiểm tra lại 3 đáp án sai**: nếu bất kỳ đáp án sai nào có thể trả lời câu hỏi một cách hợp lệ → PHẢI sửa lại.
+
 ---
 
 ## Đặc điểm câu hỏi (question_feature)
@@ -404,6 +410,15 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 - Highlight từ vựng/ngữ pháp quan trọng
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ bài đọc, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Đoạn văn đề cập '환경 보호의 중요성'" — giữ nguyên phần Hàn
+- **Danh sách đáp án trong explain phải THUẦN ngôn ngữ đích** — explain_vi chỉ có tiếng Việt, explain_en chỉ có tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án:
+  - ❌ `1. 약속 (cuộc hẹn)` hoặc `1. Cuộc hẹn (약속)` hoặc `1. 음식` (chỉ Hàn)
+  - ✅ explain_vi: `1. Cuộc hẹn` / explain_en: `1. Appointment`
+- **Trích dẫn PHẢI dùng nháy kép ""** — tất cả trích dẫn trong explain (cả vi lẫn en) đều dùng `"..."`. KHÔNG dùng nháy đơn '...', ngoặc đơn (...), hay để trần không nháy.
+- **Trích dẫn tiếng Hàn PHẢI đồng nhất giữa vi và en** — nếu explain_vi trích dẫn tiếng Hàn (ví dụ: "환경 보호") thì explain_en cũng PHẢI trích dẫn cùng cụm tiếng Hàn đó, KHÔNG được dịch sang tiếng Anh. Trích dẫn gốc tiếng Hàn giữ nguyên ở CẢ HAI ngôn ngữ.
+- **Từ tiếng Anh trong explain_vi phải được dịch sang tiếng Việt** (ví dụ: "digital literacy" → "năng lực số")
+- **Separator trong explain**: dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes)
+- **explain KHÔNG chứa nhãn bẫy đáp án** (trap labels) — thông tin trap đã nằm trong trường `distractor_traps`
+- **Xưng hô tiếng Việt PHẢI thống nhất** — không trộn "em"+"tôi" hay "anh"+"bạn". Ưu tiên dùng **"bạn"** (ngôi 2) + **"tôi"** (ngôi 1), hoặc lược bỏ đại từ khi có thể.
 
 ### 4. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

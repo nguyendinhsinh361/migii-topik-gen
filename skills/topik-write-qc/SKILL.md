@@ -95,8 +95,21 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 | EX-5 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
 | EX-6 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
 | EX-7 | **Explain xuống dòng rõ ràng** | Explain PHẢI có line breaks (`\n`) rõ ràng giữa các phần: dịch câu hỏi, dịch đáp án (1. 2. 3. 4.), separator (----), dịch nội dung, giải thích từng đáp án. KHÔNG được viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Check: đếm số `\n` trong explain — nếu < 6 thì khả năng cao bị viết liền | ❌ cần LLM |
+| EX-8 | **Danh sách đáp án THUẦN ngôn ngữ đích** | explain_vi chỉ tiếng Việt, explain_en chỉ tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án (❌ `1. 약속 (cuộc hẹn)` / ✅ `1. Cuộc hẹn`) | ❌ cần LLM |
+| EX-9 | **Trích dẫn dùng nháy kép** | Tất cả trích dẫn trong explain dùng `"..."`. KHÔNG dùng nháy đơn `'...'`, ngoặc đơn `(...)`, hay để trần | ✅ replace |
+| EX-10 | **Trích dẫn Hàn đồng nhất vi/en** | Nếu explain_vi trích dẫn tiếng Hàn thì explain_en cũng PHẢI trích dẫn cùng cụm Hàn đó, KHÔNG dịch sang tiếng Anh | ❌ cần LLM |
+| EX-11 | **Separator 20 dashes** | Separator trong explain phải dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes) | ✅ replace |
+| EX-12 | **Xưng hô tiếng Việt thống nhất** | KHÔNG trộn "em"+"tôi" hay "anh"+"bạn". Ưu tiên "bạn" (ngôi 2) + "tôi" (ngôi 1) | ❌ cần LLM |
+| EX-13 | **Từ tiếng Anh trong explain_vi phải dịch** | Từ tiếng Anh trong explain_vi phải được dịch sang tiếng Việt (ví dụ: "digital literacy" → "năng lực số") | ❌ cần LLM |
+| EX-14 | **explain không chứa trap labels** | explain KHÔNG chứa nhãn bẫy đáp án (trap labels). Regex: `trap_[a-z_]+` | ✅ xóa |
 
-### Nhóm 6: Bài viết mẫu (examples)
+### Nhóm 6: Đáp án duy nhất
+
+| ID | Kiểm tra | Cách check | Auto-fix? |
+|----|----------|-----------|:---------:|
+| UA-1 | **CHỈ ĐÚNG 1 ĐÁP ÁN** | TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất. 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào. Đáp án sai phải tự mâu thuẫn nội tại hoặc trả lời sai loại thông tin | ❌ cần LLM |
+
+### Nhóm 8: Bài viết mẫu (examples)
 
 | ID | Kiểm tra | Cách check | Auto-fix? |
 |----|----------|-----------|:---------:|
@@ -106,7 +119,7 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 | XP-4 | **5 bài khác nhau** | 5 bài có cách diễn đạt/góc nhìn/lập luận khác nhau | ❌ cần LLM |
 | XP-5 | **Cấu trúc bài viết** | 230002: giới thiệu → so sánh → xu hướng → kết luận. 230003: mở bài → thân bài → kết bài | ❌ cần LLM |
 
-### Nhóm 7: Quy tắc riêng từ kind file (catch-all)
+### Nhóm 9: Quy tắc riêng từ kind file (catch-all)
 
 | ID | Kiểm tra | Cách check | Auto-fix? |
 |----|----------|-----------|:---------:|
@@ -118,7 +131,7 @@ Mọi tiêu chí ghi trong kind file và bảng tham chiếu đều là tiêu ch
 ## Quy tắc sửa lỗi
 
 ### Lỗi sửa tự động:
-MC-1, MC-2, MC-4, MC-5, MC-8, MC-9, MC-10, GT-3, IM-1, IM-3, EX-1, EX-5
+MC-1, MC-2, MC-4, MC-5, MC-8, MC-9, MC-10, GT-3, IM-1, IM-3, EX-1, EX-5, EX-9, EX-11, EX-14
 
 ### Lỗi cần LLM:
 Tất cả lỗi còn lại. Khi viết lại:
