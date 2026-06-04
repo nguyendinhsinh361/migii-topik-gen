@@ -408,6 +408,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - Hội thoại tự nhiên, đa dạng chủ đề đời sống
 - KHÔNG lặp lại từ vựng/ngữ cảnh giữa các câu trong cùng batch
 - Level 2: pha trộn 2-3 topic categories mỗi câu
+- **Câu mở đầu g_text_audio phải khách quan, đi thẳng vào vấn đề**. KHÔNG dùng các cụm từ mang tính chào hỏi/giới thiệu: 안녕하십니까, 말씀드리겠습니다, 발표하겠습니다, 이야기해 보겠습니다, 설명드리겠습니다, 여러분. Ví dụ: ❌ "최근 여행 선호도 조사 결과를 발표하겠습니다." → ✅ "최근 여행 선호도 조사 결과, 해외여행을 선호하는 비율이 65%로..."
 
 ### 2. Xây dựng đáp án sai (distractor)
 - Tuân theo tỷ lệ bẫy của từng kind (xem file kind tương ứng)
@@ -456,6 +457,15 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **`q_correct` PHẢI là integer** (1, 2, 3, hoặc 4) — **KHÔNG BAO GIỜ** là số thập phân (1.0, 2.0, 3.0, 4.0).
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
+- **explain_vi PHẢI dịch đầy đủ 4 đáp án sang tiếng Việt** — KHÔNG được bỏ sót đáp án nào
+- **explain_vi cho câu ghép (count_question >= 2) PHẢI dịch câu hỏi phụ (q_text) sang tiếng Việt** — KHÔNG để nguyên tiếng Hàn
+- **explain KHÔNG dịch lại nội dung g_text_audio** — nội dung audio đã có bản dịch ở g_text_audio_vi/en, explain chỉ cần dịch đáp án + giải thích
+- **explain_vi phải là câu tiếng Việt hoàn chỉnh**. Có thể trích dẫn cụm tiếng Hàn, nhưng KHÔNG được nửa Việt nửa Hàn. Ví dụ: ❌ "Cô ấy cũng nói 갓생은 SNS에서 시작됐고, 부정적인 영향도 존재한다고 언급했다" → ✅ "Cô ấy cũng nói 갓생은 SNS에서 시작됐고, 부정적인 영향도 존재한다"
+- **Từ tiếng Anh trong explain_vi phải được dịch sang tiếng Việt** (ví dụ: "digital literacy" → "năng lực số")
+- **Từ tiếng Hàn đặc biệt phải được dịch, không để nguyên** (ví dụ: 천일염 → muối biển)
+- **Separator trong explain**: dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes)
+- **explain KHÔNG chứa nhãn bẫy đáp án** (trap labels) — thông tin trap đã nằm trong trường `distractor_traps`
+- **Xưng hô trong explain_vi PHẢI khớp với g_text_audio_vi** — nếu g_text_audio_vi dùng "Người nam"/"Người nữ" thì explain_vi cũng PHẢI dùng "Người nam"/"Người nữ"
 
 ### 5. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

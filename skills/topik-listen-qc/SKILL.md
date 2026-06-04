@@ -161,6 +161,10 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 | AU-6 | **Blank line** trong audio | Nếu kind 110001/110002 → audio format "남자: ___\n여자: ___" phải có blank line `______` đúng vị trí. Xem kind file | ❌ cần LLM |
 | AU-7 | **Audio không phải câu hỏi** (110002) | g_text_audio KHÔNG kết thúc bằng ? cho kind 110002 | ❌ cần LLM |
 | AU-8 | **Nội dung audio match kind** | Chủ đề audio phải phù hợp kind (210004 = phỏng vấn công việc, 210006_(3) = phỏng vấn TV...). Đọc kind file | ❌ cần LLM |
+| AU-9 | **Câu mở đầu khách quan** | Câu mở đầu g_text_audio phải khách quan, đi thẳng vào vấn đề. KHÔNG dùng: 안녕하십니까, 말씀드리겠습니다, 발표하겠습니다, 이야기해 보겠습니다, 설명드리겠습니다, 여러분. Regex check: `^(남자|여자): .*(안녕하십니까|말씀드리겠습니다|발표하겠습니다|이야기해 보겠습니다|설명드리겠습니다|여러분)` | ❌ cần LLM |
+| AU-10 | **해라체 cho 210007, 210006_(7), 210006_(8)** | Kind 210007_(1~7), 210006_(7), 210006_(8): g_text_audio toàn bộ các câu phải dùng đuôi câu (ㄴ/는)다 (해라체). KHÔNG dùng -습니다/-ㅂ니다 (합쇼체). Ví dụ: ❌ "생산됩니다" → ✅ "생산된다" | ❌ cần LLM |
+| AU-11 | **110008_3: tối đa 6 lượt thoại** | Kind 110008_3: g_text_audio chỉ cần 6 lượt thoại (~350 ký tự). KHÔNG vượt quá 6 lượt hoặc ~500 ký tự | ❌ cần LLM |
+| AU-12 | **210003: đúng 4 lượt thoại** | Kind 210003: g_text_audio cần đúng 4 lượt thoại, KHÔNG phải 5 | ❌ cần LLM |
 
 ### Nhóm 3: Bản dịch audio
 
@@ -206,6 +210,15 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 | EX-12 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
 | EX-13 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
 | EX-14 | **Explain xuống dòng rõ ràng** | Explain PHẢI có line breaks (`\n`) rõ ràng giữa các phần: dịch câu hỏi phụ, dịch đáp án (1. 2. 3. 4.), separator (----), dịch nội dung, giải thích từng đáp án. KHÔNG được viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Check: đếm số `\n` trong explain — nếu < 6 thì khả năng cao bị viết liền | ❌ cần LLM |
+| EX-15 | **explain_vi dịch đầy đủ 4 đáp án** | explain_vi PHẢI dịch đầy đủ 4 đáp án sang tiếng Việt, KHÔNG bỏ sót | ❌ cần LLM |
+| EX-16 | **explain_vi câu ghép dịch q_text** | Với câu ghép (count_question >= 2), explain_vi PHẢI dịch câu hỏi phụ (q_text) sang tiếng Việt | ❌ cần LLM |
+| EX-17 | **explain KHÔNG dịch lại g_text_audio** | explain KHÔNG dịch lại nội dung g_text_audio (đã có ở g_text_audio_vi/en) | ❌ cần LLM |
+| EX-18 | **explain_vi là câu Việt hoàn chỉnh** | explain_vi phải là câu tiếng Việt hoàn chỉnh. Có thể trích dẫn cụm tiếng Hàn nhưng KHÔNG nửa Việt nửa Hàn | ❌ cần LLM |
+| EX-19 | **Từ tiếng Anh trong explain_vi phải dịch** | Từ tiếng Anh trong explain_vi phải được dịch sang tiếng Việt (ví dụ: "digital literacy" → "năng lực số") | ❌ cần LLM |
+| EX-20 | **Từ Hàn đặc biệt phải dịch** | Từ tiếng Hàn đặc biệt phải được dịch, không để nguyên (ví dụ: 천일염 → muối biển) | ❌ cần LLM |
+| EX-21 | **Separator explain đúng format** | Separator trong explain phải dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes). Regex: check separator length | ✅ |
+| EX-22 | **explain không chứa trap labels** | explain KHÔNG chứa nhãn bẫy đáp án (trap labels). Regex: `trap_[a-z_]+` | ✅ xóa |
+| EX-23 | **Xưng hô explain_vi khớp g_text_audio_vi** | Xưng hô trong explain_vi PHẢI khớp với g_text_audio_vi (Người nam/Người nữ) | ❌ cần LLM |
 
 ### Nhóm 7: Hình ảnh (kind có ảnh)
 
