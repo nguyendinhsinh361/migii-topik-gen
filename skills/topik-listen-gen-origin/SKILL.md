@@ -461,6 +461,8 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **explain_vi cho câu ghép (count_question >= 2) PHẢI dịch câu hỏi phụ (q_text) sang tiếng Việt** — KHÔNG để nguyên tiếng Hàn
 - **explain KHÔNG dịch lại nội dung g_text_audio** — nội dung audio đã có bản dịch ở g_text_audio_vi/en, explain chỉ cần dịch đáp án + giải thích
 - **explain_vi phải là câu tiếng Việt hoàn chỉnh**. Có thể trích dẫn cụm tiếng Hàn, nhưng KHÔNG được nửa Việt nửa Hàn. Ví dụ: ❌ "Cô ấy cũng nói 갓생은 SNS에서 시작됐고, 부정적인 영향도 존재한다고 언급했다" → ✅ "Cô ấy cũng nói 갓생은 SNS에서 시작됐고, 부정적인 영향도 존재한다"
+- **Trích dẫn PHẢI dùng nháy kép ""** — tất cả trích dẫn trong explain (cả vi lẫn en) đều dùng `"..."`. KHÔNG dùng nháy đơn '...', ngoặc đơn (...), hay để trần không nháy.
+- **Trích dẫn tiếng Hàn PHẢI đồng nhất giữa vi và en** — nếu explain_vi trích dẫn tiếng Hàn (ví dụ: "안 늦었어요") thì explain_en cũng PHẢI trích dẫn cùng cụm tiếng Hàn đó (ví dụ: "안 늦었어요"), KHÔNG được dịch sang tiếng Anh (❌ "it's not late"). Trích dẫn gốc tiếng Hàn giữ nguyên ở CẢ HAI ngôn ngữ.
 - **Từ tiếng Anh trong explain_vi phải được dịch sang tiếng Việt** (ví dụ: "digital literacy" → "năng lực số")
 - **Từ tiếng Hàn đặc biệt phải được dịch, không để nguyên** (ví dụ: 천일염 → muối biển)
 - **Separator trong explain**: dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes)
