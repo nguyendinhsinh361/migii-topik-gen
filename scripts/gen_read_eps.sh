@@ -22,7 +22,7 @@ gen_kind() {
   local target="$OUTPUT/$level/${kind}${suffix}.csv"
   for i in $(seq 1 $count); do
     echo "[$(date +%H:%M:%S)] >>> Gen $kind ($i/$count)${suffix:+ [session$suffix]}..."
-    opencode run --dangerously-skip-permissions "Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Lưu CSV vào $target (append nếu đã tồn tại). QUAN TRỌNG: CHỈ đọc/ghi file $target, KHÔNG đọc/ghi/xóa bất kỳ file CSV nào khác."
+    opencode run --dangerously-skip-permissions "Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Tuân thủ MỌI quy tắc trong kind file (đặc biệt: Format explain BẮT BUỘC, Cấu trúc q_image_description BẮT BUỘC nếu có ảnh, CHỈ 1 đáp án đúng). Lưu CSV vào $target (append nếu đã tồn tại). CHỈ đọc/ghi file $target."
     echo "[$(date +%H:%M:%S)] <<< Done $kind ($i/$count)${suffix:+ [session$suffix]}"
   done
 }
