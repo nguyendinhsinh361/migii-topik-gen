@@ -467,6 +467,9 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
 - **explain_vi PHẢI dịch đầy đủ 4 đáp án sang tiếng Việt** — KHÔNG được bỏ sót đáp án nào
+- **Danh sách đáp án trong explain phải THUẦN ngôn ngữ đích** — explain_vi chỉ có tiếng Việt, explain_en chỉ có tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án:
+  - ❌ `1. 약속 (cuộc hẹn)` hoặc `1. Cuộc hẹn (약속)` hoặc `1. 음식` (chỉ Hàn)
+  - ✅ explain_vi: `1. Cuộc hẹn` / explain_en: `1. Appointment`
 - **explain_vi cho câu ghép (count_question >= 2) PHẢI dịch câu hỏi phụ (q_text) sang tiếng Việt** — KHÔNG để nguyên tiếng Hàn
 - **explain KHÔNG dịch lại nội dung g_text_audio** — nội dung audio đã có bản dịch ở g_text_audio_vi/en, explain chỉ cần dịch đáp án + giải thích
 - **explain_vi phải là câu tiếng Việt hoàn chỉnh**. Có thể trích dẫn cụm tiếng Hàn, nhưng KHÔNG được nửa Việt nửa Hàn. Ví dụ: ❌ "Cô ấy cũng nói 갓생은 SNS에서 시작됐고, 부정적인 영향도 존재한다고 언급했다" → ✅ "Cô ấy cũng nói 갓생은 SNS에서 시작됐고, 부정적인 영향도 존재한다"
