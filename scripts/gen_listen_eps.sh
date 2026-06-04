@@ -17,13 +17,43 @@ if [[ "$1" == "--parallel" ]]; then
 fi
 
 gen_kind() {
-  local kind="$1" count="$2" level="$3"
+  local kind="$1" count="$2" level="$3" suffix="${4:-}"
   mkdir -p "$OUTPUT/$level"
+  local target="$OUTPUT/$level/${kind}${suffix}.csv"
   for i in $(seq 1 $count); do
-    echo "[$(date +%H:%M:%S)] >>> Gen $kind ($i/$count)..."
-    opencode run --dangerously-skip-permissions "Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Lưu trực tiếp CSV vào $OUTPUT/$level/${kind}.csv (append nếu đã tồn tại)"
-    echo "[$(date +%H:%M:%S)] <<< Done $kind ($i/$count)"
+    echo "[$(date +%H:%M:%S)] >>> Gen $kind ($i/$count)${suffix:+ [session$suffix]}..."
+    opencode run --dangerously-skip-permissions "Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Lưu CSV vào $target (append nếu đã tồn tại). QUAN TRỌNG: CHỈ đọc/ghi file $target, KHÔNG đọc/ghi/xóa bất kỳ file CSV nào khác."
+    echo "[$(date +%H:%M:%S)] <<< Done $kind ($i/$count)${suffix:+ [session$suffix]}"
   done
+}
+
+# Merge các file tạm _p*.csv vào file chính {kind}.csv
+merge_parallel_files() {
+  local kind="$1" level="$2"
+  local main="$OUTPUT/$level/${kind}.csv"
+  local temps=($OUTPUT/$level/${kind}_p*.csv)
+  if [ ${#temps[@]} -eq 0 ] || [ ! -f "${temps[0]}" ]; then return; fi
+
+  python3 -c "
+import pandas as pd, glob
+files = sorted(glob.glob('$OUTPUT/$level/${kind}_p*.csv'))
+if not files: exit()
+dfs = []
+# Giữ lại file chính nếu có
+main = '$main'
+import os
+if os.path.exists(main):
+    dfs.append(pd.read_csv(main, dtype=str))
+for f in files:
+    try: dfs.append(pd.read_csv(f, dtype=str))
+    except: pass
+if dfs:
+    merged = pd.concat(dfs, ignore_index=True)
+    merged.to_csv(main, index=False)
+    print(f'Merged {len(files)} temp files into ${kind}.csv ({len(merged)} rows)')
+# Xóa file tạm
+for f in files: os.remove(f)
+"
 }
 
 merge_all() {
@@ -47,17 +77,21 @@ if [ -n "$1" ] && [[ "$1" != "--"* ]]; then
   KIND="$1"
   COUNT="${2:-1}"
   if [ "$PARALLEL" -gt 1 ] && [ "$COUNT" -gt 1 ]; then
-    # Chạy theo batch, mỗi batch tối đa PARALLEL sessions, đợi hết mới chạy tiếp
+    # Chạy theo batch, mỗi session ghi file riêng tránh race condition
+    local_idx=0
     for ((i=0; i<COUNT; i+=PARALLEL)); do
       batch_end=$((i+PARALLEL < COUNT ? i+PARALLEL : COUNT))
       batch_size=$((batch_end - i))
       echo "[$(date +%H:%M:%S)] >>> Batch $((i/PARALLEL+1)) ($batch_size sessions)..."
       for ((j=0; j<batch_size; j++)); do
-        gen_kind "$KIND" 1 "level_3" &
+        local_idx=$((local_idx + 1))
+        gen_kind "$KIND" 1 "level_3" "_p${local_idx}" &
       done
       wait
       echo "[$(date +%H:%M:%S)] <<< Batch done"
     done
+    # Merge file tạm vào file chính
+    merge_parallel_files "$KIND" "level_3"
   else
     gen_kind "$KIND" "$COUNT" "level_3"
   fi
