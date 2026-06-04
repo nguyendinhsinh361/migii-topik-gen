@@ -466,6 +466,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **Separator trong explain**: dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes)
 - **explain KHÔNG chứa nhãn bẫy đáp án** (trap labels) — thông tin trap đã nằm trong trường `distractor_traps`
 - **Xưng hô trong explain_vi PHẢI khớp với g_text_audio_vi** — nếu g_text_audio_vi dùng "Người nam"/"Người nữ" thì explain_vi cũng PHẢI dùng "Người nam"/"Người nữ"
+- **Xưng hô tiếng Việt PHẢI thống nhất** trong g_text_audio_vi, explain_vi, và đáp án dịch. KHÔNG trộn "em" với "tôi", hoặc "anh" với "bạn". Ưu tiên dùng **"bạn"** (ngôi 2) + **"tôi"** (ngôi 1), hoặc lược bỏ đại từ khi có thể (tự nhiên nhất trong tiếng Việt).
 
 ### 5. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định
