@@ -22,8 +22,11 @@ gen_kind() {
   mkdir -p "$OUTPUT/$level"
   local target="$OUTPUT/$level/${kind}${suffix}.csv"
   for i in $(seq 1 $count); do
-    echo "[$(date +%H:%M:%S)] >>> Gen $kind ($i/$count)${suffix:+ [session$suffix]}..."
-    opencode run --dangerously-skip-permissions "Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Tuân thủ MỌI quy tắc trong kind file — ĐẶC BIỆT đọc kĩ phần ĐỌC TRƯỚC KHI GEN ở đầu file kind (format q_image_desc, format explain, CHỈ 1 đáp án đúng). Lưu CSV vào $target (append nếu đã tồn tại). CHỈ đọc/ghi file $target."
+    # Random q_correct 1-4 cho mỗi câu (tránh model mặc định = 1)
+    local rc1=$(( (RANDOM % 4) + 1 ))
+    local rc2=$(( (RANDOM % 4) + 1 ))
+    echo "[$(date +%H:%M:%S)] >>> Gen $kind ($i/$count)${suffix:+ [session$suffix]} [q_correct=$rc1/$rc2]..."
+    opencode run --dangerously-skip-permissions "Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Tuân thủ MỌI quy tắc trong kind file — ĐẶC BIỆT đọc kĩ phần ĐỌC TRƯỚC KHI GEN ở đầu file kind (format q_image_desc, format explain, CHỈ 1 đáp án đúng). BẮT BUỘC: q_correct = $rc1 (đặt đáp án đúng ở vị trí $rc1). Nếu dạng có 2 câu hỏi con: content[0].q_correct=$rc1, content[1].q_correct=$rc2. XÂY DỰNG đáp án sao cho đáp án đúng NẰM Ở VỊ TRÍ $rc1. Lưu CSV vào $target (append nếu đã tồn tại). CHỈ đọc/ghi file $target."
     echo "[$(date +%H:%M:%S)] <<< Done $kind ($i/$count)${suffix:+ [session$suffix]}"
   done
 }
