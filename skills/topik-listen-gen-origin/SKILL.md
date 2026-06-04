@@ -248,6 +248,15 @@ Phân tích từ 5.701 câu hỏi nghe thực tế. Ngưỡng gán nhãn: ≥2 t
 - Gán nhãn dựa trên ĐÁP ÁN SAI, không phải đáp án đúng
 - Chỉ gán khi có bằng chứng rõ ràng, không suy đoán
 
+### ⚠️ CHỈ ĐÚNG 1 ĐÁP ÁN (CRITICAL)
+
+- **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
+- Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**:
+  - Yes/No: `네` + phủ định = mâu thuẫn ✅ | `아니요` + khẳng định = mâu thuẫn ✅
+  - ❌ SAI: "더워요?" → "아니요, 추워요" (hợp lệ!) → Phải đổi thành "아니요, 더워요" (mâu thuẫn)
+  - WH (어디/뭐/언제): đáp án sai phải trả lời sai loại (hỏi 어디 → trả lời thời gian)
+- Trước khi hoàn thành, **kiểm tra lại 3 đáp án sai**: nếu bất kỳ đáp án sai nào có thể trả lời câu hỏi một cách hợp lệ → PHẢI sửa lại.
+
 ---
 
 ## Đặc điểm câu hỏi (question_feature)
