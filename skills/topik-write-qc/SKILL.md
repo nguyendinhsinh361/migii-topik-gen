@@ -139,6 +139,7 @@ Tất cả lỗi còn lại. Khi viết lại:
 - Đối chiếu bảng tham chiếu bên dưới để lấy quy tắc chung
 - Giữ nguyên các trường khác, chỉ sửa trường lỗi
 
+> **🔗 ĐỒNG BỘ q_image_desc ↔ explain** (dạng có ảnh): Nội dung mô tả từng ảnh trong q_image_desc PHẢI khớp chính xác với nội dung explain tương ứng. TUYỆT ĐỐI KHÔNG được ảnh mô tả một kiểu, explain giải thích kiểu khác. → Gen q_image_desc TRƯỚC, rồi viết explain DỰA TRÊN nội dung q_image_desc đã gen.
 ## Output
 - CSV đã sửa (ghi đè file gốc)
 - Báo cáo: số lỗi theo nhóm, số đã sửa, số cần xem lại

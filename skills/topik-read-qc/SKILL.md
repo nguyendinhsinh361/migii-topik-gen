@@ -138,6 +138,7 @@ Tất cả lỗi còn lại. Khi viết lại:
 - Đọc **bảng tham chiếu** bên dưới để lấy bảng topic, trap, question_feature, difficulty, answer_grammar
 - Giữ nguyên các trường khác, chỉ sửa trường lỗi
 
+> **🔗 ĐỒNG BỘ q_image_desc ↔ explain** (dạng có ảnh): Nội dung mô tả từng ảnh trong q_image_desc PHẢI khớp chính xác với nội dung explain tương ứng. TUYỆT ĐỐI KHÔNG được ảnh mô tả một kiểu, explain giải thích kiểu khác. → Gen q_image_desc TRƯỚC, rồi viết explain DỰA TRÊN nội dung q_image_desc đã gen.
 ## Output
 - CSV đã sửa (ghi đè file gốc)
 - Báo cáo: số lỗi theo nhóm, số đã sửa, số cần xem lại

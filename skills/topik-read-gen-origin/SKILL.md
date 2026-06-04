@@ -64,6 +64,7 @@ Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKIL
 
 ---
 
+> **🔗 ĐỒNG BỘ q_image_desc ↔ explain** (dạng có ảnh): Nội dung mô tả từng ảnh trong q_image_desc PHẢI khớp chính xác với nội dung explain tương ứng. TUYỆT ĐỐI KHÔNG được ảnh mô tả một kiểu, explain giải thích kiểu khác. → Gen q_image_desc TRƯỚC, rồi viết explain DỰA TRÊN nội dung q_image_desc đã gen.
 ## Quy tắc routing sub-kind
 
 Một số kind được tách thành nhiều **sub-kind** (đánh dấu "tổng quan" trong cây thư mục). Mỗi sub-kind có kiểu đoạn văn, dạng câu hỏi phụ, hoặc format đáp án riêng biệt.

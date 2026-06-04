@@ -119,8 +119,8 @@ def flatten_question(question, timestamp=None, seq=0):
         "created_at": timestamp,
     }
 
-    # q_image_description nằm ở top-level, không phải trong content[]
-    top_img_desc = question.get("q_image_description", {})
+    # q_image_desc nằm ở top-level hoặc content-level
+    top_img_desc = question.get("q_image_desc", question.get("q_image_description", {}))
 
     for idx, content in enumerate(content_list):
         n = idx + 1
@@ -129,11 +129,35 @@ def flatten_question(question, timestamp=None, seq=0):
             answers.append("")
         explain = content.get("explain", {})
         # Ưu tiên top-level, fallback content-level
-        img_desc = top_img_desc if top_img_desc else content.get("q_image_description", {})
+        img_desc = top_img_desc if top_img_desc else content.get("q_image_desc", content.get("q_image_description", {}))
         d_traps = content.get("distractor_traps", {})
 
-        # Image desc — 1 mô tả duy nhất per content item
-        img_text = img_desc.get("image", "") if isinstance(img_desc, dict) else ""
+        # Image desc — hỗ trợ string (format mới) và dict (format cũ)
+        # Nếu string chứa JSON → parse thành dict trước
+        if isinstance(img_desc, str) and img_desc.strip().startswith("{"):
+            try:
+                import json as _json
+                img_desc = _json.loads(img_desc)
+            except (ValueError, TypeError):
+                pass  # Không phải JSON hợp lệ → giữ nguyên string
+        if isinstance(img_desc, str):
+            img_text = img_desc
+        elif isinstance(img_desc, dict):
+            img_parts = []
+            for ctx_key in ("style", "audio_summary", "content_context"):
+                ctx_val = img_desc.get(ctx_key, "")
+                if ctx_val:
+                    img_parts.append(f"{ctx_key}: {ctx_val}")
+            v_img = img_desc.get("image", "")
+            if v_img:
+                img_parts.append(v_img)
+            for k in ("1", "2", "3", "4"):
+                v = img_desc.get(k, "")
+                if v:
+                    img_parts.append(f"({k}) {v}")
+            img_text = "\n".join(img_parts)
+        else:
+            img_text = str(img_desc) if img_desc else ""
 
         # Gộp distractor traps (keys "1"-"4")
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
