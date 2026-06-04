@@ -161,10 +161,10 @@ Kind có ảnh (110005, 210001_1, 210001_2) **PHẢI** có trường `q_image_de
 ```json
 {
   "q_image_description": {
-    "1": "<mô tả nội dung hình ①>",
-    "2": "<mô tả nội dung hình ②>",
-    "3": "<mô tả nội dung hình ③>",
-    "4": "<mô tả nội dung hình ④>"
+    "1": "<mô tả nội dung hình 1.>",
+    "2": "<mô tả nội dung hình 2.>",
+    "3": "<mô tả nội dung hình 3.>",
+    "4": "<mô tả nội dung hình 4.>"
   }
 }
 ```
@@ -447,7 +447,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - Nếu vi giải thích từng đáp án sai → en cũng PHẢI giải thích từng đáp án sai
 - **KHÔNG** để en ngắn gọn kiểu "=> Answer 1" mà vi thì giải thích dài
 - Highlight từ vựng/ngữ pháp quan trọng
-- **KHÔNG thêm annotation trap** trong ngoặc sau mỗi đáp án (vd: KHÔNG viết "② Nữ đang chơi game (trap_context_swap)"). Thông tin trap đã nằm trong trường `distractor_traps` riêng
+- **KHÔNG thêm annotation trap** trong ngoặc sau mỗi đáp án (vd: KHÔNG viết "2. Nữ đang chơi game (trap_context_swap)"). Thông tin trap đã nằm trong trường `distractor_traps` riêng
 - **KHÔNG giải thích đáp án sai** theo kiểu "Đáp án X dùng từ '...' từ audio nhưng..." — việc đáp án chứa từ trùng audio là bình thường, không cần lặp lại pattern này
 - **BẮT BUỘC dùng "người nam"** thay cho "nam", "anh ấy" và **"người nữ"** thay cho "nữ", "cô ấy" trong explain tiếng Việt
 - Với kind có **câu hỏi phụ** (110008_1/2/3, 210006, 210007): explain PHẢI **dịch cả câu hỏi phụ** (q_text) — nhưng **KHÔNG** thêm prefix "Câu hỏi:" / "Question:" trước bản dịch, chỉ dịch trực tiếp nội dung

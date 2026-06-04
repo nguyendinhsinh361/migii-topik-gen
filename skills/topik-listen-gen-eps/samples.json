@@ -177,10 +177,10 @@
         "q_image": "/topiks/images/8664b50d168109f5cfe9770e3edd683a.jpg",
         "q_point": 4,
         "q_answer": [
-          "①",
-          "②",
-          "③",
-          "④"
+          "1.",
+          "2.",
+          "3.",
+          "4."
         ],
         "q_correct": 1,
         "explain": {
@@ -216,10 +216,10 @@
         "q_image": "/topiks/images/634b2447fc96c590c317337d3415572f.jpg",
         "q_point": 4,
         "q_answer": [
-          "①",
-          "②",
-          "③",
-          "④"
+          "1.",
+          "2.",
+          "3.",
+          "4."
         ],
         "q_correct": 2,
         "explain": {
