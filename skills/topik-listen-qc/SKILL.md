@@ -155,7 +155,7 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 |----|----------|-----------|:---------:|
 | AU-1 | Audio không rỗng | g_text_audio != "" | ❌ cần LLM |
 | AU-2 | **Format speaker theo kind** | Đọc kind file, check format. Ví dụ: 210006_(7) chỉ "여자:", 210004_(4) "남자:...\n여자:..." 2 lượt | ❌ cần LLM |
-| AU-3 | **Số lượt thoại** theo kind | Kind file quy định bao nhiêu lượt. Ví dụ: 110001 = 1 câu, 110006 = 3-4 lượt | ❌ cần LLM |
+| AU-3 | **Số lượt thoại** theo kind | Kind file quy định bao nhiêu lượt. **2 lượt: 110001, 110003, 110004, 110005, 210001_1, 210004_(4), 210006_(3), 210007_(1)/(2)/(6)**. 3-4 lượt: 110006, 110007, 210003, 210004_(1), 210005_(1), 210006_(1)/(2)/(4)/(5)/(6). 6 lượt: 110008_2, 110008_3. Nếu kind 2-lượt mà g_text_audio có >2 dòng speaker → FAIL | ❌ cần LLM |
 | AU-4 | **Độ dài audio** theo kind | 210001_2: ~180, 110008_2: ~250, 110008_3: ~350 ký tự (±20%) | ❌ cần LLM |
 | AU-5 | **Cấp độ ngữ pháp** | Level 1: informal_polite (~어요/세요). Level 2: pha trộn. Xem bảng speech_level | ❌ cần LLM |
 | AU-6 | **Blank line** trong audio | Nếu kind 110001/110002 → audio format "남자: ___\n여자: ___" phải có blank line `______` đúng vị trí. Xem kind file | ❌ cần LLM |
@@ -242,6 +242,7 @@ Tất cả lỗi còn lại. Khi viết lại:
 - Giữ nguyên các trường khác, chỉ sửa trường lỗi
 
 > **🔗 ĐỒNG BỘ q_image_desc ↔ explain** (dạng có ảnh): Nội dung mô tả từng ảnh trong q_image_desc PHẢI khớp chính xác với nội dung explain tương ứng. TUYỆT ĐỐI KHÔNG được ảnh mô tả một kiểu, explain giải thích kiểu khác. → Gen q_image_desc TRƯỚC, rồi viết explain DỰA TRÊN nội dung q_image_desc đã gen.
+> **📌 EXPLAIN DỰA TRÊN BẰNG CHỨNG TỪ AUDIO**: Lý do loại đáp án sai PHẢI dựa trên thông tin có trong audio. Nếu audio KHÔNG nêu rõ yếu tố X (địa điểm, thời gian...) → KHÔNG dùng X làm lý do loại. Giải thích dựa trên hành động/hành vi suy luận được từ audio.
 ## Output
 - CSV đã sửa (ghi đè file gốc)
 - Báo cáo tổng hợp: số lỗi theo nhóm, số đã sửa, số cần xem lại
