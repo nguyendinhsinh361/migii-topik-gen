@@ -26,7 +26,7 @@ bash scripts/gen_listen_origin.sh
 bash scripts/gen_listen_origin.sh --parallel 3
 
 # Gen 1 dạng, 5 bài, song song 2
-bash scripts/gen_listen_origin.sh --parallel 2 110001 5
+bash scripts/gen_listen_origin.sh --parallel 3 110001 3
 
 # Tương tự cho các script khác
 bash scripts/gen_read_origin.sh --parallel 2
