@@ -251,6 +251,7 @@ Phân tích từ 5.701 câu hỏi nghe thực tế. Ngưỡng gán nhãn: ≥2 t
 - Chỉ gán khi có bằng chứng rõ ràng, không suy đoán
 
 ### ⚠️ CHỈ ĐÚNG 1 ĐÁP ÁN (CRITICAL)
+> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN**: Mỗi đáp án trong q_answer PHẢI kết thúc bằng dấu "." (trừ dạng ảnh ①②③④). Mỗi dòng dịch đáp án trong explain (trước separator) cũng PHẢI kết thúc bằng ".".
 
 - **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
 - Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**:
@@ -481,6 +482,10 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **Từ tiếng Hàn đặc biệt phải được dịch, không để nguyên** (ví dụ: 천일염 → muối biển)
 - **Separator trong explain**: dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes)
 - **explain KHÔNG chứa nhãn bẫy đáp án** (trap labels) — thông tin trap đã nằm trong trường `distractor_traps`
+- **explain KHÔNG bịa phân tích ngữ âm/phát âm** — KHÔNG viết "A có phát âm gần B" trừ khi thực sự đúng. Đáp án sai chỉ cần: "không liên quan đến nội dung hội thoại"
+- **explain KHÔNG bịa quan hệ giữa 2 người nói** — nếu 남자 chỉ khuyên 여자 → KHÔNG viết "hai người quyết định cùng nhau". Phân biệt rõ: ai làm gì, ai nói gì, ai quyết định gì
+- **4 đáp án cân bằng độ dài** — chênh lệch tối đa ~30%. KHÔNG để 1 đáp án dài gấp 2-3 lần đáp án khác
+- **Dịch đáp án trong explain PHẢI CHÍNH XÁC nghĩa gốc tiếng Hàn** — KHÔNG dịch thoáng, KHÔNG thay đổi sắc thái. Chú ý: ~면 좋겠습니다 = "mong/ước" (KHÔNG phải "nên"), ~고 싶습니다 = "muốn", ~아야 합니다 = "phải"
 - **Xưng hô trong explain_vi PHẢI khớp với g_text_audio_vi** — nếu g_text_audio_vi dùng "Người nam"/"Người nữ" thì explain_vi cũng PHẢI dùng "Người nam"/"Người nữ"
 - **Xưng hô tiếng Việt PHẢI thống nhất** trong g_text_audio_vi, explain_vi, và đáp án dịch. KHÔNG trộn "em" với "tôi", hoặc "anh" với "bạn". Ưu tiên dùng **"bạn"** (ngôi 2) + **"tôi"** (ngôi 1), hoặc lược bỏ đại từ khi có thể (tự nhiên nhất trong tiếng Việt).
 

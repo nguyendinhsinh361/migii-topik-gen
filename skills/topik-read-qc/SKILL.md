@@ -114,6 +114,7 @@ Mọi tiêu chí ghi trong file kind + bảng tham chiếu đều là tiêu chí
 | ID | Kiểm tra | Cách check | Auto-fix? |
 |----|----------|-----------|:---------:|
 | UA-1 | **CHỈ ĐÚNG 1 ĐÁP ÁN** | TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất. 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào. Đáp án sai phải tự mâu thuẫn nội tại hoặc trả lời sai loại thông tin | ❌ cần LLM |
+> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN**: Mỗi đáp án trong q_answer PHẢI kết thúc bằng dấu "." (trừ dạng ảnh ①②③④). Mỗi dòng dịch đáp án trong explain (trước separator) cũng PHẢI kết thúc bằng ".".
 
 ### Nhóm 8: Hình ảnh
 

@@ -208,6 +208,7 @@ Xem chi tiết trong từng file `kinds/{kind}.md`.
 | EX-10 | **110005: explain ngắn gọn** | Chỉ 1 câu giải thích đáp án đúng, không diễn giải từng đáp án | ❌ cần LLM |
 | EX-11 | **110003: explain chính xác ngôn ngữ học** | Không claim phát âm tương tự khi thực tế không giống, không claim từ vựng giống khi chỉ giống ở bản dịch tiếng Việt | ❌ cần LLM |
 | EX-12 | **Không icon/emoji** | Regex `[✅❌✓✗☑☐⬜⬛🔴🟢]` trong explain | ✅ xóa |
+| EX-15 | **Dấu chấm cuối đáp án** | Mỗi đáp án q_answer PHẢI kết thúc bằng "." (trừ ①②③④). Mỗi dòng dịch đáp án trong explain (trước ----) cũng PHẢI kết thúc bằng "." | ✅ auto-fix |
 | EX-13 | **Trích dẫn Hàn giữ nguyên** | Explain phải giữ nguyên từ/cụm tiếng Hàn trong ngoặc, KHÔNG dịch | ❌ cần LLM |
 | EX-14 | **Explain xuống dòng rõ ràng** | Explain PHẢI có line breaks (`\n`) rõ ràng giữa các phần: dịch câu hỏi phụ, dịch đáp án (1. 2. 3. 4.), separator (----), dịch nội dung, giải thích từng đáp án. KHÔNG được viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Check: đếm số `\n` trong explain — nếu < 6 thì khả năng cao bị viết liền | ❌ cần LLM |
 | EX-15 | **explain_vi dịch đầy đủ 4 đáp án** | explain_vi PHẢI dịch đầy đủ 4 đáp án sang tiếng Việt, KHÔNG bỏ sót | ❌ cần LLM |

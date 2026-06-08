@@ -90,6 +90,27 @@ def flatten_question(question, timestamp=None, seq=0):
     Chuyển 1 question JSON thành 1 row dict duy nhất.
     Content items được đánh số _1, _2, ... nằm ngang trong cùng 1 dòng.
     """
+    import re as _re
+
+    def _fix_explain_periods(text):
+        """Thêm dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
+        if not text:
+            return text
+        lines = text.split("\n")
+        separator_found = False
+        result = []
+        for line in lines:
+            stripped = line.rstrip()
+            if stripped.startswith("----"):
+                separator_found = True
+                result.append(line)
+                continue
+            if not separator_found and stripped:
+                if _re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                    if not stripped.endswith((".", "?", "!", "…", "~")):
+                        line = stripped + "."
+            result.append(line)
+        return "\n".join(result)
     if timestamp is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -162,14 +183,21 @@ def flatten_question(question, timestamp=None, seq=0):
         # Gộp distractor traps (keys "1"-"4")
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
 
+        # Auto-fix: thêm dấu "." cuối mỗi đáp án nếu thiếu
+        answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④", "1. ", "2. ", "3. ", "4. ") else a for a in answers]
+
+        # Auto-fix: thêm dấu "." cuối mỗi dòng dịch đáp án trong explain
+        explain_vi = _fix_explain_periods(explain.get("vi", ""))
+        explain_en = _fix_explain_periods(explain.get("en", ""))
+
         row[f"q_text_{n}"] = content.get("q_text", "")
         row[f"q_point_{n}"] = content.get("q_point", "")
         row[f"view_q_image_{n}"] = ""
         row[f"q_image_{n}"] = content.get("q_image", "")
         row[f"q_answer_{n}"] = "\n".join(answers)
         row[f"q_correct_{n}"] = content.get("q_correct", "")
-        row[f"explain_vi_{n}"] = explain.get("vi", "")
-        row[f"explain_en_{n}"] = explain.get("en", "")
+        row[f"explain_vi_{n}"] = explain_vi
+        row[f"explain_en_{n}"] = explain_en
         row[f"q_image_desc_{n}"] = img_text
         row[f"question_feature_{n}"] = content.get("question_feature", "")
         row[f"difficulty_{n}"] = content.get("difficulty", "")

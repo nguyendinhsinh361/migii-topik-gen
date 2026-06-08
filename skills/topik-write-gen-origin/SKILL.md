@@ -163,6 +163,7 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 | `trap_synonym_swap` | Synonym Swap | Thay từ đồng nghĩa/gần nghĩa nhưng sai sắc thái | 230003 |
 
 ### ⚠️ CHỈ ĐÚNG 1 ĐÁP ÁN (CRITICAL)
+> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN**: Mỗi đáp án trong q_answer PHẢI kết thúc bằng dấu "." (trừ dạng ảnh ①②③④). Mỗi dòng dịch đáp án trong explain (trước separator) cũng PHẢI kết thúc bằng ".".
 
 - **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
 - Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**.
@@ -273,6 +274,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - **Trích dẫn tiếng Hàn PHẢI đồng nhất giữa vi và en** — nếu explain_vi trích dẫn tiếng Hàn thì explain_en cũng PHẢI trích dẫn cùng cụm tiếng Hàn đó, KHÔNG được dịch sang tiếng Anh. Trích dẫn gốc tiếng Hàn giữ nguyên ở CẢ HAI ngôn ngữ.
 - **Từ tiếng Anh trong explain_vi phải được dịch sang tiếng Việt** (ví dụ: "digital literacy" → "năng lực số")
 - **Separator trong explain**: dùng `--------------------` (20 dashes), KHÔNG dùng `----` (4 dashes)
+- **explain KHÔNG bịa phân tích ngữ âm/phát âm** — KHÔNG viết "A có phát âm gần B" trừ khi thực sự đúng. Đáp án sai chỉ cần: "không liên quan đến nội dung hội thoại"
 - **explain KHÔNG chứa nhãn bẫy đáp án** (trap labels) — thông tin trap đã nằm trong trường `distractor_traps`
 - **Xưng hô tiếng Việt PHẢI thống nhất** — không trộn "em"+"tôi" hay "anh"+"bạn". Ưu tiên dùng **"bạn"** (ngôi 2) + **"tôi"** (ngôi 1), hoặc lược bỏ đại từ khi có thể.
 
