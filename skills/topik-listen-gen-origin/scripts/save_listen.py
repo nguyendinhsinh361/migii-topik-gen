@@ -190,9 +190,9 @@ def flatten_question(question, timestamp=None, seq=0):
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
 
         # Auto-fix: thêm dấu "." cuối mỗi đáp án — CHỈ cho các kind có dấu chấm
-        # CÓ dấu chấm: 110001, 110002, 110006
-        # KHÔNG dấu chấm: 110003, 110004, 110005, 110007, 110008_*, 210*, 310*
-        _KINDS_WITH_PERIOD = {"110001", "110002", "110006"}
+        # CÓ dấu chấm: 110001, 110002, 110006, ...
+        # KHÔNG dấu chấm: 110003, 110005, 110008_*, ...
+        _KINDS_WITH_PERIOD = {"110001", "110002", "110004", "110006", "110007", "210002", "210003", "210004_(1)", "210004_(2)", "210004_(3)", "210004_(4)", "210005_(1)", "210005_(2)", "210006_(1)", "210006_(2)", "210006_(3)", "210006_(6)", "210006_(8)", "210007_(1)", "210007_(2)", "210007_(3)", "210007_(5)", "210007_(6)", "210007_(7)"}
         if kind in _KINDS_WITH_PERIOD:
             answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④") else a for a in answers]
         else:

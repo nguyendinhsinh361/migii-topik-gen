@@ -485,9 +485,16 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **explain KHÔNG bịa phân tích ngữ âm/phát âm** — KHÔNG viết "A có phát âm gần B" trừ khi thực sự đúng. Đáp án sai chỉ cần: "không liên quan đến nội dung hội thoại"
 - **explain KHÔNG bịa quan hệ giữa 2 người nói** — nếu 남자 chỉ khuyên 여자 → KHÔNG viết "hai người quyết định cùng nhau". Phân biệt rõ: ai làm gì, ai nói gì, ai quyết định gì
 - **4 đáp án cân bằng độ dài** — chênh lệch tối đa ~30%. KHÔNG để 1 đáp án dài gấp 2-3 lần đáp án khác
+- **⛔ CẤM KOREAN TRONG g_text_audio_vi**: g_text_audio_vi PHẢI dịch 100% sang tiếng Việt. KHÔNG được giữ nguyên bất kỳ từ Hàn nào (팀장님, 부장님, 선생님, 사장님...). Tất cả chức danh, tên riêng phải được dịch hoặc chuyển ngữ.
 - **Dịch đáp án trong explain PHẢI CHÍNH XÁC nghĩa gốc tiếng Hàn** — KHÔNG dịch thoáng, KHÔNG thay đổi sắc thái. Chú ý: ~면 좋겠습니다 = "mong/ước" (KHÔNG phải "nên"), ~고 싶습니다 = "muốn", ~아야 합니다 = "phải"
+- **Dịch đáp án trong explain PHẢI TỰ NHIÊN** — câu dịch phải đọc lên như câu người thật nói. KHÔNG dịch word-by-word từ tiếng Hàn. Nếu cấu trúc Hàn phức tạp → diễn đạt lại cho tự nhiên trong ngôn ngữ đích.
 - **Xưng hô trong explain_vi PHẢI khớp với g_text_audio_vi** — nếu g_text_audio_vi dùng "Người nam"/"Người nữ" thì explain_vi cũng PHẢI dùng "Người nam"/"Người nữ"
 - **Xưng hô tiếng Việt PHẢI thống nhất** trong g_text_audio_vi, explain_vi, và đáp án dịch. KHÔNG trộn "em" với "tôi", hoặc "anh" với "bạn". Ưu tiên dùng **"bạn"** (ngôi 2) + **"tôi"** (ngôi 1), hoặc lược bỏ đại từ khi có thể (tự nhiên nhất trong tiếng Việt).
+- **⛔ XƯNG HÔ PHẢI KHỚP GIỚI TÍNH**: KHÔNG dùng đại từ sai giới tính người nghe. 남자 nói với 여자 → KHÔNG gọi "anh" (đại từ nam). 여자 nói với 남자 → KHÔNG gọi "chị" (đại từ nữ). Luôn dùng **"bạn"** cho ngôi 2 để tránh lỗi giới tính.
+  - ❌ SAI: 남자→여자: "Vậy **anh** biết chỗ nào tốt không?" ("anh" = nam, nhưng đang nói với nữ)
+  - ✅ ĐÚNG: 남자→여자: "Vậy **bạn** biết chỗ nào tốt không?"
+  - ❌ SAI: 여자→남자: "**Chị** có thể giúp tôi được không?" ("chị" = nữ, nhưng đang nói với nam)
+  - ✅ ĐÚNG: 여자→남자: "**Bạn** có thể giúp tôi được không?"
 - **🏷️ CHỨC DANH DÙNG LÀM ĐẠI TỪ (BẮT BUỘC)**: Trong tiếng Hàn, chức danh (부장님, 과장님, 선생님, 사장님, 기사님, 의사 선생님...) thường được dùng làm đại từ ngôi 2 khi nói TRỰC TIẾP với người mang chức danh đó. Khi dịch, PHẢI xác định chức danh đó chỉ AI:
   - **Chỉ người ĐANG trong hội thoại** → dịch thành ngôi 2 ("bạn"/"you"), KHÔNG dịch thành chức danh ngôi 3
   - **Chỉ người THỨ BA không có mặt** → giữ nguyên chức danh ("giám đốc"/"the boss")
