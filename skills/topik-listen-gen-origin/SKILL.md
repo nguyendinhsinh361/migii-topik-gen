@@ -488,6 +488,13 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **Dịch đáp án trong explain PHẢI CHÍNH XÁC nghĩa gốc tiếng Hàn** — KHÔNG dịch thoáng, KHÔNG thay đổi sắc thái. Chú ý: ~면 좋겠습니다 = "mong/ước" (KHÔNG phải "nên"), ~고 싶습니다 = "muốn", ~아야 합니다 = "phải"
 - **Xưng hô trong explain_vi PHẢI khớp với g_text_audio_vi** — nếu g_text_audio_vi dùng "Người nam"/"Người nữ" thì explain_vi cũng PHẢI dùng "Người nam"/"Người nữ"
 - **Xưng hô tiếng Việt PHẢI thống nhất** trong g_text_audio_vi, explain_vi, và đáp án dịch. KHÔNG trộn "em" với "tôi", hoặc "anh" với "bạn". Ưu tiên dùng **"bạn"** (ngôi 2) + **"tôi"** (ngôi 1), hoặc lược bỏ đại từ khi có thể (tự nhiên nhất trong tiếng Việt).
+- **🏷️ CHỨC DANH DÙNG LÀM ĐẠI TỪ (BẮT BUỘC)**: Trong tiếng Hàn, chức danh (부장님, 과장님, 선생님, 사장님, 기사님, 의사 선생님...) thường được dùng làm đại từ ngôi 2 khi nói TRỰC TIẾP với người mang chức danh đó. Khi dịch, PHẢI xác định chức danh đó chỉ AI:
+  - **Chỉ người ĐANG trong hội thoại** → dịch thành ngôi 2 ("bạn"/"you"), KHÔNG dịch thành chức danh ngôi 3
+  - **Chỉ người THỨ BA không có mặt** → giữ nguyên chức danh ("giám đốc"/"the boss")
+  - ❌ SAI: 남자 nói với 여자 (chính là 부장님): "부장님도 괜찮으실지..." → "Không biết giám đốc có ổn không nhỉ?" (dịch ngôi 3)
+  - ✅ ĐÚNG: → "Không biết bạn có ổn không ạ?" (dịch ngôi 2, dùng "ạ" vì nói với cấp trên)
+  - ❌ SAI (EN): "I wonder if the boss will be okay" → ✅ ĐÚNG: "I wonder if you'll be okay with it"
+  - **Hậu tố kính ngữ tiếng Việt**: Khi người nói ở vị trí THẤP hơn (nhân viên nói với sếp, học sinh nói với thầy/cô) → dùng "ạ" (KHÔNG dùng "nhỉ", "nhé"). Khi ngang hàng hoặc cao hơn → dùng "nhỉ", "nhé" bình thường.
 
 ### 5. Số lượng
 - Mặc định: 5 câu mỗi kind nếu user không chỉ định

@@ -189,12 +189,23 @@ def flatten_question(question, timestamp=None, seq=0):
         # Gộp distractor traps (keys "1"-"4")
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
 
-        # Auto-fix: thêm dấu "." cuối mỗi đáp án nếu thiếu
-        answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④", "1. ", "2. ", "3. ", "4. ") else a for a in answers]
+        # Auto-fix: thêm dấu "." cuối mỗi đáp án — CHỈ cho các kind có dấu chấm
+        # CÓ dấu chấm: 110001, 110002, 110006
+        # KHÔNG dấu chấm: 110003, 110004, 110005, 110007, 110008_*, 210*, 310*
+        _KINDS_WITH_PERIOD = {"110001", "110002", "110006"}
+        if kind in _KINDS_WITH_PERIOD:
+            answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④") else a for a in answers]
+        else:
+            # Bỏ dấu chấm cuối nếu model tự thêm (trừ image answers)
+            answers = [a.rstrip().rstrip(".") if a.strip() and a.strip() not in ("①", "②", "③", "④") and a.rstrip().endswith(".") and not a.rstrip().endswith(("?", "!", "…", "~")) else a for a in answers]
 
-        # Auto-fix: thêm dấu "." cuối mỗi dòng dịch đáp án trong explain (dòng bắt đầu bằng số hoặc ①)
-        explain_vi = _fix_explain_periods(explain.get("vi", ""))
-        explain_en = _fix_explain_periods(explain.get("en", ""))
+        # Auto-fix: thêm dấu "." cuối mỗi dòng dịch đáp án trong explain — CHỈ cho kind có dấu chấm
+        if kind in _KINDS_WITH_PERIOD:
+            explain_vi = _fix_explain_periods(explain.get("vi", ""))
+            explain_en = _fix_explain_periods(explain.get("en", ""))
+        else:
+            explain_vi = explain.get("vi", "")
+            explain_en = explain.get("en", "")
 
         row[f"q_text_{n}"] = content.get("q_text", "")
         row[f"q_point_{n}"] = content.get("q_point", "")
