@@ -113,6 +113,28 @@ def flatten_question(question, timestamp=None, seq=0):
                         line = stripped + "."
             result.append(line)
         return "\n".join(result)
+
+    def _strip_explain_periods(text):
+        """Bỏ dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----) cho kind KHÔNG có dấu chấm."""
+        if not text:
+            return text
+        lines = text.split("\n")
+        separator_found = False
+        result = []
+        for line in lines:
+            stripped = line.rstrip()
+            if stripped.startswith("----"):
+                separator_found = True
+                result.append(line)
+                continue
+            # Chỉ strip dòng trước separator (danh sách dịch đáp án)
+            if not separator_found and stripped:
+                if _re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                    if stripped.endswith(".") and not stripped.endswith(("?", "!", "…", "~")):
+                        line = stripped.rstrip(".")
+            result.append(line)
+        return "\n".join(result)
+
     if timestamp is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -204,8 +226,9 @@ def flatten_question(question, timestamp=None, seq=0):
             explain_vi = _fix_explain_periods(explain.get("vi", ""))
             explain_en = _fix_explain_periods(explain.get("en", ""))
         else:
-            explain_vi = explain.get("vi", "")
-            explain_en = explain.get("en", "")
+            # Kind KHÔNG có dấu chấm → strip "." khỏi dòng dịch đáp án trong explain
+            explain_vi = _strip_explain_periods(explain.get("vi", ""))
+            explain_en = _strip_explain_periods(explain.get("en", ""))
 
         row[f"q_text_{n}"] = content.get("q_text", "")
         row[f"q_point_{n}"] = content.get("q_point", "")
