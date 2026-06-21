@@ -25,6 +25,7 @@ Cấu trúc output:
 import csv
 import json
 import os
+import re
 import sys
 from datetime import datetime
 from collections import defaultdict
@@ -51,6 +52,60 @@ CONTENT_COLUMNS = [
     "view_q_image", "q_image", "q_image_desc",
     "question_feature", "difficulty", "distractor_trap",
 ]
+
+# ─── Dấu chấm cuối đáp án ─────────────────────────────────────────────────────
+# Kind CÓ dấu chấm cuối mỗi đáp án (câu hoàn chỉnh)
+# Kind KHÔNG có trong set → KHÔNG dấu chấm (cụm danh từ, 기 때문에, ...)
+_KINDS_WITH_PERIOD = {
+    "110001", "110002", "110004", "110006", "110007",
+    "210002", "210003",
+    "210004_(1)", "210004_(2)", "210004_(3)", "210004_(4)",
+    "210005_(1)", "210005_(2)",
+    "210006_(1)", "210006_(2)", "210006_(3)", "210006_(6)", "210006_(8)",
+    "210007_(1)", "210007_(2)", "210007_(3)", "210007_(5)", "210007_(6)", "210007_(7)",
+}
+
+
+def _fix_explain_periods(text):
+    """Thêm dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
+    if not text:
+        return text
+    lines = text.split("\n")
+    separator_found = False
+    result = []
+    for line in lines:
+        stripped = line.rstrip()
+        if stripped.startswith("----"):
+            separator_found = True
+            result.append(line)
+            continue
+        if not separator_found and stripped:
+            if re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                if not stripped.endswith((".", "?", "!", "…", "~")):
+                    line = stripped + "."
+        result.append(line)
+    return "\n".join(result)
+
+
+def _strip_explain_periods(text):
+    """Bỏ dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----) cho kind KHÔNG có dấu chấm."""
+    if not text:
+        return text
+    lines = text.split("\n")
+    separator_found = False
+    result = []
+    for line in lines:
+        stripped = line.rstrip()
+        if stripped.startswith("----"):
+            separator_found = True
+            result.append(line)
+            continue
+        if not separator_found and stripped:
+            if re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                if stripped.endswith(".") and not stripped.endswith(("?", "!", "…", "~")):
+                    line = stripped.rstrip(".")
+        result.append(line)
+    return "\n".join(result)
 
 
 def get_csv_columns(max_cq):
@@ -89,51 +144,7 @@ def flatten_question(question, timestamp=None, seq=0):
     Chuyển 1 question JSON thành 1 row dict duy nhất.
     Content items được đánh số _1, _2, ... nằm ngang trong cùng 1 dòng.
     """
-    import re as _re
-
-    def _fix_explain_periods(text):
-        """Thêm dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
-        if not text:
-            return text
-        lines = text.split("\n")
-        separator_found = False
-        result = []
-        for line in lines:
-            stripped = line.rstrip()
-            # Dòng separator
-            if stripped.startswith("----"):
-                separator_found = True
-                result.append(line)
-                continue
-            # Chỉ fix dòng trước separator (danh sách dịch đáp án)
-            if not separator_found and stripped:
-                # Dòng bắt đầu bằng số (1. 2. 3. 4.) hoặc ①②③④
-                if _re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
-                    if not stripped.endswith((".", "?", "!", "…", "~")):
-                        line = stripped + "."
-            result.append(line)
-        return "\n".join(result)
-
-    def _strip_explain_periods(text):
-        """Bỏ dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----) cho kind KHÔNG có dấu chấm."""
-        if not text:
-            return text
-        lines = text.split("\n")
-        separator_found = False
-        result = []
-        for line in lines:
-            stripped = line.rstrip()
-            if stripped.startswith("----"):
-                separator_found = True
-                result.append(line)
-                continue
-            # Chỉ strip dòng trước separator (danh sách dịch đáp án)
-            if not separator_found and stripped:
-                if _re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
-                    if stripped.endswith(".") and not stripped.endswith(("?", "!", "…", "~")):
-                        line = stripped.rstrip(".")
-            result.append(line)
-        return "\n".join(result)
+    # Dùng module-level _fix_explain_periods / _strip_explain_periods
 
     if timestamp is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -211,10 +222,7 @@ def flatten_question(question, timestamp=None, seq=0):
         # Gộp distractor traps (keys "1"-"4")
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
 
-        # Auto-fix: thêm dấu "." cuối mỗi đáp án — CHỈ cho các kind có dấu chấm
-        # CÓ dấu chấm: 110001, 110002, 110006, ...
-        # KHÔNG dấu chấm: 110003, 110005, 110008_*, ...
-        _KINDS_WITH_PERIOD = {"110001", "110002", "110004", "110006", "110007", "210002", "210003", "210004_(1)", "210004_(2)", "210004_(3)", "210004_(4)", "210005_(1)", "210005_(2)", "210006_(1)", "210006_(2)", "210006_(3)", "210006_(6)", "210006_(8)", "210007_(1)", "210007_(2)", "210007_(3)", "210007_(5)", "210007_(6)", "210007_(7)"}
+        # Auto-fix: thêm/bỏ dấu "." cuối mỗi đáp án — dùng module-level _KINDS_WITH_PERIOD
         if kind in _KINDS_WITH_PERIOD:
             answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④") else a for a in answers]
         else:
@@ -518,6 +526,101 @@ def merge_csvs(output_dir=None):
     return out_path
 
 
+# ─── Post-process: fix dấu chấm trên CSV đã gen ────────────────────────────────
+
+def fix_csv_periods(output_dir=None):
+    """
+    Quét TẤT CẢ CSV trong output_dir, sửa dấu chấm cuối đáp án + explain
+    theo _KINDS_WITH_PERIOD. Dùng khi AI gen CSV trực tiếp mà không qua
+    flatten_question (ví dụ: opencode run trong gen_listen_origin.sh).
+    """
+    import glob as _glob
+
+    if output_dir is None:
+        output_dir = DEFAULT_OUTPUT_DIR
+
+    total_fixed = 0
+
+    for csvfile in sorted(_glob.glob(os.path.join(output_dir, "level_*", "*.csv"))):
+        basename = os.path.splitext(os.path.basename(csvfile))[0]
+        # Bỏ qua file tạm _p* (parallel)
+        if "_p" in basename and basename.split("_p")[-1].isdigit():
+            continue
+        if basename == "all_questions":
+            continue
+
+        # Xác định kind từ tên file HOẶC từ cột kind trong CSV
+        kind_from_name = basename
+
+        try:
+            with open(csvfile, "r", encoding="utf-8-sig") as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+        except Exception as e:
+            print(f"  ⚠️ Skip {basename}: {e}")
+            continue
+
+        if not rows or not fieldnames:
+            continue
+
+        # Dùng kind từ row đầu tiên nếu có, fallback tên file
+        kind = rows[0].get("kind", "").strip() or kind_from_name
+        has_period = kind in _KINDS_WITH_PERIOD
+
+        changed = 0
+        for row in rows:
+            row_kind = row.get("kind", "").strip() or kind
+            row_has_period = row_kind in _KINDS_WITH_PERIOD
+
+            # Tìm tất cả cột q_answer_N
+            for key in list(row.keys()):
+                if key.startswith("q_answer_") and row[key]:
+                    lines = row[key].split("\n")
+                    new_lines = []
+                    for l in lines:
+                        s = l.rstrip()
+                        if not s or s in ("①", "②", "③", "④"):
+                            new_lines.append(l)
+                            continue
+                        if row_has_period:
+                            # Thêm dấu chấm
+                            if not s.endswith((".", "?", "!", "…", "~")):
+                                s = s + "."
+                                changed += 1
+                        else:
+                            # Bỏ dấu chấm
+                            if s.endswith(".") and not s.endswith(("?", "!", "…", "~")):
+                                s = s.rstrip(".")
+                                changed += 1
+                        new_lines.append(s)
+                    row[key] = "\n".join(new_lines)
+
+                # Fix explain
+                if key.startswith("explain_") and row[key]:
+                    # Chỉ fix cột explain_vi_N, explain_en_N
+                    if row_has_period:
+                        fixed = _fix_explain_periods(row[key])
+                    else:
+                        fixed = _strip_explain_periods(row[key])
+                    if fixed != row[key]:
+                        changed += 1
+                        row[key] = fixed
+
+        if changed > 0:
+            with open(csvfile, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+                writer.writeheader()
+                writer.writerows(rows)
+            total_fixed += changed
+            print(f"  ✅ {basename}: fixed {changed} items ({len(rows)} rows)")
+        else:
+            print(f"  ── {basename}: OK ({len(rows)} rows)")
+
+    print(f"\n  Tổng: fixed {total_fixed} items")
+    return total_fixed
+
+
 def stats(questions):
     """In thống kê nhanh danh sách câu hỏi."""
     by_kind = defaultdict(int)
@@ -550,14 +653,29 @@ def main():
     parser = argparse.ArgumentParser(
         description="Luu cau hoi nghe TOPIK I & II tu JSON ra CSV theo kind"
     )
-    parser.add_argument("input", help="File JSON chua cau hoi da gen")
+    # --fix-periods mode: chỉ cần output-dir, không cần input JSON
+    parser.add_argument("input", nargs="?", default=None,
+                        help="File JSON chua cau hoi da gen (bỏ qua khi dùng --fix-periods)")
     parser.add_argument("--output-dir", "-o", default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--append", "-a", action="store_true")
     parser.add_argument("--validate-only", "-v", action="store_true")
     parser.add_argument("--json", "-j", action="store_true")
     parser.add_argument("--merge", action="store_true")
+    parser.add_argument("--fix-periods", action="store_true",
+                        help="Post-process: fix dau cham cuoi dap an + explain trong tat ca CSV")
 
     args = parser.parse_args()
+
+    # Mode fix-periods: không cần input JSON
+    if args.fix_periods:
+        print(f"\n>>> Fix periods cho tat ca CSV trong {args.output_dir}")
+        fix_csv_periods(output_dir=args.output_dir)
+        print("\nHoan thanh!")
+        return
+
+    # Mode bình thường: cần input JSON
+    if not args.input:
+        parser.error("input is required (hoặc dùng --fix-periods)")
 
     print(f"\nDoc: {args.input}")
     questions = load_json(args.input)

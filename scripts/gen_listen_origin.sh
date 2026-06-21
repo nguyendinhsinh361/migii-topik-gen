@@ -59,6 +59,11 @@ for f in files: os.remove(f)
 "
 }
 
+fix_periods() {
+  echo ">>> Fixing periods (dấu chấm cuối đáp án + explain)..."
+  python3 "$SKILL/scripts/save_listen.py" --fix-periods -o "$OUTPUT"
+}
+
 merge_all() {
   echo ">>> Merging..."
   python3 -c "
@@ -99,6 +104,7 @@ if [ -n "$1" ] && [[ "$1" != "--"* ]]; then
   else
     gen_kind "$KIND" "$COUNT" "$LEVEL"
   fi
+  fix_periods
   merge_all
   exit 0
 fi
@@ -140,5 +146,6 @@ else
   for kind in $KINDS_L2; do gen_kind "$kind" 1 "level_2"; done
 fi
 
+fix_periods
 merge_all
 echo ">>> DONE!"

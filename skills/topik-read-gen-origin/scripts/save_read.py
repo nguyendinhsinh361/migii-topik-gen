@@ -25,6 +25,7 @@ Cấu trúc output:
 import csv
 import json
 import os
+import re
 import sys
 from datetime import datetime
 from collections import defaultdict
@@ -52,6 +53,30 @@ CONTENT_COLUMNS = [
     "view_q_image", "q_image", "q_image_desc",
     "question_feature", "difficulty", "distractor_trap",
 ]
+
+# ─── Auto-fix dấu chấm ────────────────────────────────────────────────────────
+# Phần Đọc: TẤT CẢ đáp án đều cần dấu chấm (câu hoàn chỉnh)
+
+
+def _fix_explain_periods(text):
+    """Thêm dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
+    if not text:
+        return text
+    lines = text.split("\n")
+    separator_found = False
+    result = []
+    for line in lines:
+        stripped = line.rstrip()
+        if stripped.startswith("----"):
+            separator_found = True
+            result.append(line)
+            continue
+        if not separator_found and stripped:
+            if re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                if not stripped.endswith((".", "?", "!", "…", "~")):
+                    line = stripped + "."
+        result.append(line)
+    return "\n".join(result)
 
 
 def get_csv_columns(max_cq):
@@ -90,27 +115,8 @@ def flatten_question(question, timestamp=None, seq=0):
     Chuyển 1 question JSON thành 1 row dict duy nhất.
     Content items được đánh số _1, _2, ... nằm ngang trong cùng 1 dòng.
     """
-    import re as _re
+    # Dùng module-level _fix_explain_periods
 
-    def _fix_explain_periods(text):
-        """Thêm dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
-        if not text:
-            return text
-        lines = text.split("\n")
-        separator_found = False
-        result = []
-        for line in lines:
-            stripped = line.rstrip()
-            if stripped.startswith("----"):
-                separator_found = True
-                result.append(line)
-                continue
-            if not separator_found and stripped:
-                if _re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
-                    if not stripped.endswith((".", "?", "!", "…", "~")):
-                        line = stripped + "."
-            result.append(line)
-        return "\n".join(result)
     if timestamp is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -486,6 +492,80 @@ def merge_csvs(output_dir=None):
     return out_path
 
 
+# ─── Post-process: fix dấu chấm trên CSV đã gen ────────────────────────────────
+
+def fix_csv_periods(output_dir=None):
+    """
+    Quét TẤT CẢ CSV trong output_dir, thêm dấu chấm cuối đáp án + explain.
+    Phần Đọc: tất cả đáp án đều cần dấu chấm (không phân biệt kind).
+    Dùng khi AI gen CSV trực tiếp mà không qua flatten_question.
+    """
+    import glob as _glob
+
+    if output_dir is None:
+        output_dir = DEFAULT_OUTPUT_DIR
+
+    total_fixed = 0
+
+    for csvfile in sorted(_glob.glob(os.path.join(output_dir, "level_*", "*.csv"))):
+        basename = os.path.splitext(os.path.basename(csvfile))[0]
+        # Bỏ qua file tạm _p* (parallel) và all_questions
+        if "_p" in basename and basename.split("_p")[-1].isdigit():
+            continue
+        if basename == "all_questions":
+            continue
+
+        try:
+            with open(csvfile, "r", encoding="utf-8-sig") as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+        except Exception as e:
+            print(f"  ⚠️ Skip {basename}: {e}")
+            continue
+
+        if not rows or not fieldnames:
+            continue
+
+        changed = 0
+        for row in rows:
+            # Fix q_answer_N: thêm dấu chấm
+            for key in list(row.keys()):
+                if key.startswith("q_answer_") and row[key]:
+                    lines = row[key].split("\n")
+                    new_lines = []
+                    for l in lines:
+                        s = l.rstrip()
+                        if not s or s in ("①", "②", "③", "④"):
+                            new_lines.append(l)
+                            continue
+                        if not s.endswith((".", "?", "!", "…", "~")):
+                            s = s + "."
+                            changed += 1
+                        new_lines.append(s)
+                    row[key] = "\n".join(new_lines)
+
+                # Fix explain: thêm dấu chấm dòng đáp án
+                if key.startswith("explain_") and row[key]:
+                    fixed = _fix_explain_periods(row[key])
+                    if fixed != row[key]:
+                        changed += 1
+                        row[key] = fixed
+
+        if changed > 0:
+            with open(csvfile, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+                writer.writeheader()
+                writer.writerows(rows)
+            total_fixed += changed
+            print(f"  ✅ {basename}: fixed {changed} items ({len(rows)} rows)")
+        else:
+            print(f"  ── {basename}: OK ({len(rows)} rows)")
+
+    print(f"\n  Tổng: fixed {total_fixed} items")
+    return total_fixed
+
+
 def stats(questions):
     """In thống kê nhanh danh sách câu hỏi."""
     by_kind = defaultdict(int)
@@ -518,14 +598,28 @@ def main():
     parser = argparse.ArgumentParser(
         description="Luu cau hoi doc TOPIK I & II tu JSON ra CSV theo kind"
     )
-    parser.add_argument("input", help="File JSON chua cau hoi da gen")
+    parser.add_argument("input", nargs="?", default=None,
+                        help="File JSON chua cau hoi da gen (bỏ qua khi dùng --fix-periods)")
     parser.add_argument("--output-dir", "-o", default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--append", "-a", action="store_true")
     parser.add_argument("--validate-only", "-v", action="store_true")
     parser.add_argument("--json", "-j", action="store_true")
     parser.add_argument("--merge", action="store_true")
+    parser.add_argument("--fix-periods", action="store_true",
+                        help="Post-process: fix dau cham cuoi dap an + explain trong tat ca CSV")
 
     args = parser.parse_args()
+
+    # Mode fix-periods: không cần input JSON
+    if args.fix_periods:
+        print(f"\n>>> Fix periods cho tat ca CSV trong {args.output_dir}")
+        fix_csv_periods(output_dir=args.output_dir)
+        print("\nHoan thanh!")
+        return
+
+    # Mode bình thường: cần input JSON
+    if not args.input:
+        parser.error("input is required (hoặc dùng --fix-periods)")
 
     print(f"\nDoc: {args.input}")
     questions = load_json(args.input)
