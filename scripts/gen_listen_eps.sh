@@ -5,16 +5,22 @@
 #   bash scripts/gen_listen_eps.sh 310001 3               # Gen 3 bài dạng 310001
 #   bash scripts/gen_listen_eps.sh --parallel 3           # Song song 3 sessions
 #   bash scripts/gen_listen_eps.sh --parallel 3 310001 5  # Song song 3, dạng 310001, 5 bài
+#   --model <id>                                 # Đổi model (mặc định opencode-go/deepseek-v4-flash [gói Go] | Zen: opencode/deepseek-v4-flash | free: opencode/deepseek-v4-flash-free)
 
 SKILL="skills/topik-listen-gen-eps"
 OUTPUT="output/listen-eps"
 PARALLEL=1
+MODEL="opencode-go/deepseek-v4-flash"   # Mặc định: DeepSeek V4 Flash qua gói OpenCode Go. Đổi qua --model (Zen trả phí: opencode/deepseek-v4-flash | free: opencode/deepseek-v4-flash-free)
 
-# Parse --parallel flag
-if [[ "$1" == "--parallel" ]]; then
-  PARALLEL="$2"
-  shift 2
-fi
+# Parse cờ --parallel / --model (đặt TRƯỚC tham số kind, theo thứ tự bất kỳ)
+while [[ "$1" == "--"* ]]; do
+  case "$1" in
+    --parallel) PARALLEL="$2"; shift 2 ;;
+    --model)    MODEL="$2";    shift 2 ;;
+    *) echo "Cờ không hợp lệ: $1"; exit 1 ;;
+  esac
+done
+echo ">>> Model: $MODEL"
 
 gen_kind() {
   local kind="$1" count="$2" level="$3" suffix="${4:-}"
@@ -25,7 +31,16 @@ gen_kind() {
     local rc1=$(( (RANDOM % 4) + 1 ))
     local rc2=$(( (RANDOM % 4) + 1 ))
     echo "[$(date +%H:%M:%S)] >>> Gen $kind ($i/$count)${suffix:+ [session$suffix]} [q_correct=$rc1/$rc2]..."
-    opencode run --dangerously-skip-permissions "Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Tuân thủ MỌI quy tắc trong kind file — ĐẶC BIỆT đọc kĩ phần ĐỌC TRƯỚC KHI GEN ở đầu file kind (format q_image_desc, format explain, CHỈ 1 đáp án đúng). BẮT BUỘC: q_correct = $rc1 (đặt đáp án đúng ở vị trí $rc1). Nếu dạng có 2 câu hỏi con: content[0].q_correct=$rc1, content[1].q_correct=$rc2. XÂY DỰNG đáp án sao cho đáp án đúng NẰM Ở VỊ TRÍ $rc1. Lưu CSV vào $target (append nếu đã tồn tại). CHỈ đọc/ghi file $target."
+    local _prompt="Đọc $SKILL/SKILL.md và $SKILL/kinds/${kind}.md. Gen 1 câu hỏi dạng $kind. Tuân thủ MỌI quy tắc trong kind file — ĐẶC BIỆT đọc kĩ phần ĐỌC TRƯỚC KHI GEN ở đầu file kind (format q_image_desc, format explain, CHỈ 1 đáp án đúng). BẮT BUỘC: q_correct = $rc1 (đặt đáp án đúng ở vị trí $rc1). Nếu dạng có 2 câu hỏi con: content[0].q_correct=$rc1, content[1].q_correct=$rc2. XÂY DỰNG đáp án sao cho đáp án đúng NẰM Ở VỊ TRÍ $rc1. Lưu CSV vào $target (append nếu đã tồn tại). CHỈ đọc/ghi file $target."
+    local _attempt=1
+    while true; do
+      _out=$(opencode run --model "$MODEL" --dangerously-skip-permissions "$_prompt" 2>&1)
+      printf '%s\n' "$_out"
+      if printf '%s' "$_out" | grep -qi "database is locked" && [ "$_attempt" -lt 4 ]; then
+        echo "   [retry $_attempt] DB locked → thử lại sau $((_attempt*2))s..."; sleep $((_attempt*2)); _attempt=$((_attempt+1)); continue
+      fi
+      break
+    done
     echo "[$(date +%H:%M:%S)] <<< Done $kind ($i/$count)${suffix:+ [session$suffix]}"
   done
 }

@@ -31,7 +31,7 @@ for seq, q in enumerate(questions):
     kind = str(q.get("kind", ""))
 
     row = {
-        "id": f"{kind}_{timestamp}_q{seq}",
+        "id": f"{kind}+{uuid.uuid4().hex}",
         "kind": kind,
         "level": q.get("level", ""),
         "tag": q.get("tag", "listen"),

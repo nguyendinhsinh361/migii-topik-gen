@@ -23,6 +23,7 @@ Cấu trúc output:
 import csv
 import json
 import os
+import uuid
 import re
 import sys
 from datetime import datetime
@@ -229,7 +230,7 @@ def flatten_question(question, timestamp=None, seq=0):
         g_img_desc = general.get("g_text_image", "")
 
     row = {
-        "id": f"{kind}_{timestamp}_q{seq}",
+        "id": f"{kind}+{uuid.uuid4().hex}",
         "kind": kind,
         "level": question.get("level", ""),
         "tag": question.get("tag", "write"),
