@@ -101,6 +101,63 @@ Một số kind được tách thành nhiều **sub-kind** (đánh dấu "tổng
 
 ---
 
+## Quy tắc biên tập theo kind (độ dài / dấu câu)
+
+> **Nguồn**: Biên tập viên bổ sung — *"MIGII TOPIK - Read Rule - Gen Question AI New.xlsx"*. Quy tắc BẮT BUỘC, ưu tiên cao nhất. Khi gen mỗi kind PHẢI áp dụng đúng: **độ dài đoạn đọc**, **độ dài text câu hỏi**, **dấu chấm sau đáp án**.
+
+**Cách đọc bảng:**
+
+- **G_text (ký tự)**: độ dài đoạn văn đọc dùng chung ở `g_text`. `—` = kind không có đoạn `g_text` riêng. *Text trong ảnh* = nội dung chữ nằm TRONG ảnh (`q_image`), không phải `g_text`.
+- **Text câu hỏi (ký tự)**: độ dài đoạn/câu đọc gắn theo câu hỏi (`text_question_1` / `q_text`). `—` = không quy định.
+- **Đ.án Q1 / Q2 / Q3**: dấu "." cuối đáp án cho từng câu hỏi con. `True` = có ".", `False` = không. `—` = không có câu hỏi con đó.
+- Chỉ đếm ký tự nội dung tiếng Hàn (bỏ khoảng trắng và ký hiệu chỗ trống ㉠/㉡/`___`).
+
+| Kind | G_text (ký tự) | Text câu hỏi (ký tự) | Đ.án Q1 | Đ.án Q2 | Đ.án Q3 |
+|------|----------------|----------------------|:-------:|:-------:|:-------:|
+| 120001 | — | 20~35 | False | — | — |
+| 120002_1 | — | 20~35 | False | — | — |
+| 120002_2 | — | 20~35 | False | — | — |
+| 120002_3 | — | 20~35 | False | — | — |
+| 120002_4 | — | 20~35 | False | — | — |
+| 120003_1 | — | — | True | — | — |
+| 120003_2 | — | — | True | — | — |
+| 120004_1 | — | 50~80 | True | — | — |
+| 120004_2 | — | 50~80 | True | — | — |
+| 120005_(1) | 130~180 | — | False | True | — |
+| 120005_(2) | 130~180 | — | False | False | — |
+| 120006 | — | 120~150 | False | — | — |
+| 120007_1 | 140~190 | — | False | True | — |
+| 120007_2 | 150~200 | — | False | True | — |
+| 120007_3 | Text trong ảnh: 250~300 | — | False | True | — |
+| 220001_a | — | 25~30 | False | — | — |
+| 220001_b | — | 150~200 | False | — | — |
+| 220001_c | — | 170~250 | False | — | — |
+| 220002_a | — | 30~40 | False | — | — |
+| 220002_b_1 | Text trong ảnh: 180~220 | — | True | — | — |
+| 220002_b_2 | — | — | True | — | — |
+| 220002_b_3 | — | 180~210 | True | — | — |
+| 220002_c | — | 190~250 | True | — | — |
+| 220003_a_1 | Text trong ảnh: 20~30 | — | False | — | — |
+| 220003_a_2 | Text trong ảnh: 30~60 | — | False | — | — |
+| 220003_b | — | 200~240 | True | — | — |
+| 220004 | — | 140~170 | False | — | — |
+| 220005_1_(1) | 180~240 | — | False | True | — |
+| 220005_1_(2) | 200~240 | — | False | True | — |
+| 220005_2 | 420~500 | — | False | True | — |
+| 220006 | — | 20~40 | True | — | — |
+| 220007 | — | 250~320 | False | — | — |
+| 220008_1_(1) | 550~600 | — | False | True | — |
+| 220008_1_(2) | 380~400 | — | False | True | — |
+| 220008_1_(3) | 400~440 | — | True | True | — |
+| 220008_2 | 460~510 | — | False | False | True |
+
+> **Lưu ý quan trọng:**
+> - Phần ĐỌC khác phần NGHE: **mặc định đáp án KHÔNG có dấu chấm** (False), chỉ một số kind cụ thể mới có (True). Đừng tự thêm dấu chấm.
+> - Với "Text trong ảnh": độ dài áp cho nội dung chữ vẽ trong `q_image`, mô tả trong `q_image_desc` — KHÔNG nằm ở `g_text`.
+> - `save_read.py` tự động thêm/bỏ dấu "." theo bảng này (map `_ANSWER_PERIOD`) và **cảnh báo** khi `g_text`/`text_question` lệch khoảng (map `_GTEXT_LENGTH`, `_QTEXT_LENGTH`). Vẫn PHẢI gen đúng từ đầu.
+
+---
+
 ## Output Format (JSON)
 
 Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
@@ -254,7 +311,10 @@ Phân tích từ câu hỏi đọc thực tế TOPIK I & II.
 | `trap_detail_as_main` | Detail As Main | Lấy chi tiết phụ làm nội dung chính |
 
 ### ⚠️ CHỈ ĐÚNG 1 ĐÁP ÁN (CRITICAL)
-> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN**: Mỗi đáp án trong q_answer PHẢI kết thúc bằng dấu "." (trừ dạng ảnh ①②③④). Mỗi dòng dịch đáp án trong explain (trước separator) cũng PHẢI kết thúc bằng ".".
+> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN — THEO TỪNG KIND & TỪNG CÂU HỎI CON**: Phần ĐỌC **đa số kind KHÔNG có dấu "."** (đáp án là từ/cụm danh từ/cụm ngữ pháp). Tra bảng **[Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--dấu-câu)** (cột `Đ.án Q1/Q2/Q3`):
+> - **True** = mỗi đáp án (và mỗi dòng dịch đáp án trong explain, trước separator) PHẢI kết thúc bằng ".". **False** = KHÔNG có ".".
+> - Kind nhiều câu hỏi (120005_*, 120007_*, 220005_*, 220008_*) thường khác nhau giữa các câu hỏi con → áp dụng đúng cho từng câu hỏi.
+> - Đáp án dạng ảnh ①②③④ KHÔNG BAO GIỜ có ".".
 
 - **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
 - Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**.
@@ -437,6 +497,8 @@ Thay thế `audio_format` của Listen — xác định dạng bài đọc:
 - [ ] `count_question` khớp số phần tử trong `content` — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
 - [ ] `tag` = `"read"` (KHÔNG phải `"listen"`)
 - [ ] Kind có ảnh → có `q_image_description`
+- [ ] **Độ dài** `g_text` / `text_question` đúng khoảng trong bảng [Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--dấu-câu) (`save_read.py` sẽ cảnh báo nếu lệch)
+- [ ] **Dấu "." sau đáp án** đúng theo từng câu hỏi con (cột `Đ.án Q1/Q2/Q3`) — phần Đọc đa số KHÔNG dấu chấm; explain theo cùng quy tắc
 
 ## Workflow
 

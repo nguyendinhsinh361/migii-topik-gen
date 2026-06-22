@@ -32,6 +32,30 @@ Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKIL
 
 ---
 
+## Quy tắc biên tập theo kind (độ dài / dấu câu)
+
+> **Nguồn**: Biên tập viên bổ sung — *"MIGII TOPIK - Write Rule - Gen Question AI New.xlsx"*. Quy tắc BẮT BUỘC, ưu tiên cao nhất.
+
+**Cách đọc bảng:**
+
+- **G_text (ký tự)**: độ dài đoạn đề bài/chủ đề ở `g_text`. `—` = không có. *Text trong ảnh* = chữ nằm TRONG ảnh đề bài (`g_image`/`q_image`), không phải `g_text`.
+- **Text câu hỏi (ký tự)**: độ dài `text_question_1` / `q_text`. `—` = không quy định.
+- **Đ.án theo câu hỏi**: dấu "." cuối đáp án cho từng câu hỏi con. Chỉ đếm ký tự nội dung tiếng Hàn (bỏ khoảng trắng, ㉠/㉡, `(ㄱ)/(ㄴ)`, `___`).
+
+| Kind | count_question | G_text (ký tự) | Text câu hỏi (ký tự) | Dấu "." sau đáp án (theo câu hỏi) |
+|------|:---:|----------------|----------------------|-----------------------------------|
+| 230001_1 | 1 | Text trong ảnh: 200~250 | — | Q1: False |
+| 230001_2 | 1 | — | 160~210 | Q1: False |
+| 230002 | 3 | — | — | Q1: True · Q2: True · Q3: True |
+| 230003 | 10 | 200~260 | — | Q1–Q4: False · Q5–Q8: True · Q9–Q10: False |
+
+> **Lưu ý quan trọng:**
+> - Phần VIẾT mặc định đáp án/đáp án mẫu **KHÔNG có dấu chấm**, chỉ một số câu hỏi cụ thể mới có (230002 toàn bộ; 230003 chỉ Q5–Q8).
+> - "Text trong ảnh" (230001_1): độ dài áp cho chữ trong ảnh đề bài, mô tả ở `q_image_desc` / `g_image_desc`.
+> - `save_write.py` tự động thêm/bỏ dấu "." theo bảng này (map `_ANSWER_PERIOD`), **cảnh báo** khi `g_text`/`text_question` lệch khoảng, và hỗ trợ `--fix-periods` để chuẩn hóa CSV đã gen.
+
+---
+
 > **🔗 ĐỒNG BỘ q_image_desc ↔ explain** (dạng có ảnh): Nội dung mô tả từng ảnh trong q_image_desc PHẢI khớp chính xác với nội dung explain tương ứng. TUYỆT ĐỐI KHÔNG được ảnh mô tả một kiểu, explain giải thích kiểu khác. → Gen q_image_desc TRƯỚC, rồi viết explain DỰA TRÊN nội dung q_image_desc đã gen.
 ## Output Format (JSON)
 
@@ -163,7 +187,10 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 | `trap_synonym_swap` | Synonym Swap | Thay từ đồng nghĩa/gần nghĩa nhưng sai sắc thái | 230003 |
 
 ### ⚠️ CHỈ ĐÚNG 1 ĐÁP ÁN (CRITICAL)
-> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN**: Mỗi đáp án trong q_answer PHẢI kết thúc bằng dấu "." (trừ dạng ảnh ①②③④). Mỗi dòng dịch đáp án trong explain (trước separator) cũng PHẢI kết thúc bằng ".".
+> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN — THEO TỪNG KIND & TỪNG CÂU HỎI CON**: Phần VIẾT **đa số câu hỏi KHÔNG có dấu "."**. Tra bảng **[Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--dấu-câu)** (cột `Đ.án Q…`):
+> - **True** = đáp án (và mỗi dòng dịch đáp án trong explain, trước separator) PHẢI kết thúc bằng ".". **False** = KHÔNG có ".".
+> - 230002 (3 câu) đều True. 230003 (10 câu): chỉ Q5–Q8 True, còn lại False. 230001_1/_2: False.
+> - Đáp án dạng ảnh ①②③④ KHÔNG BAO GIỜ có ".".
 
 - **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
 - Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**.
@@ -287,6 +314,8 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - [ ] Bản dịch (vi/en) chính xác
 - [ ] `explain` chứa dịch + lý do đáp án đúng + giải thích từng đáp án sai bằng ngôn ngữ dễ hiểu (KHÔNG chứa mã trap nội bộ)
 - [ ] `count_question` khớp số phần tử trong `content` (230001: 1, 230002: 3, 230003: 10) — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
+- [ ] **Độ dài** `g_text` / `text_question` đúng khoảng trong bảng [Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--dấu-câu) (`save_write.py` sẽ cảnh báo nếu lệch)
+- [ ] **Dấu "." sau đáp án** đúng theo từng câu hỏi con (230002 toàn True; 230003 chỉ Q5–Q8 True; 230001 False) — phần Viết đa số KHÔNG dấu chấm; explain theo cùng quy tắc
 - [ ] `tag` = `"write"` (KHÔNG phải `"listen"` hay `"read"`)
 - [ ] `level` = 2 (Write chỉ có trong TOPIK II)
 - [ ] `q_correct` phân bố đều 1-4 trong cùng batch

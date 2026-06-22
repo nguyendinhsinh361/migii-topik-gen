@@ -53,17 +53,146 @@ CONTENT_COLUMNS = [
     "question_feature", "difficulty", "distractor_trap",
 ]
 
-# ─── Dấu chấm cuối đáp án ─────────────────────────────────────────────────────
-# Kind CÓ dấu chấm cuối mỗi đáp án (câu hoàn chỉnh)
-# Kind KHÔNG có trong set → KHÔNG dấu chấm (cụm danh từ, 기 때문에, ...)
-_KINDS_WITH_PERIOD = {
-    "110001", "110002", "110004", "110006", "110007",
-    "210002", "210003",
-    "210004_(1)", "210004_(2)", "210004_(3)", "210004_(4)",
-    "210005_(1)", "210005_(2)",
-    "210006_(1)", "210006_(2)", "210006_(3)", "210006_(6)", "210006_(8)",
-    "210007_(1)", "210007_(2)", "210007_(3)", "210007_(5)", "210007_(6)", "210007_(7)",
+# ─── Quy tắc biên tập theo kind (dấu chấm / độ dài / format) ───────────────────
+# Nguồn: "MIGII TOPIK - Listen Rule - Gen Question AI New.xlsx" (biên tập viên bổ sung).
+#
+# _ANSWER_PERIOD: dấu "." cuối mỗi đáp án — THEO TỪNG CÂU HỎI con.
+#   value = tuple (period_q1, period_q2, ...) cho từng câu hỏi con (1-based).
+#     True  = đáp án PHẢI kết thúc bằng "." (câu hoàn chỉnh)
+#     False = KHÔNG có "." (cụm danh từ / cụm ngắn / đáp án ảnh ①②③④)
+#   ⚠️ Kind 2 câu hỏi (110008_*, 210006_*, 210007_*) thường KHÁC nhau giữa Q1 và Q2
+#      (vd: Q1 là cụm danh từ -> False, Q2 là câu nội dung -> True).
+_ANSWER_PERIOD = {
+    "110001": (True,),
+    "110002": (True,),
+    "110003": (False,),
+    "110004": (False,),
+    "110005": (False,),
+    "110006": (True,),
+    "110007": (True,),
+    "110008_1": (False, True),
+    "110008_2": (False, True),
+    "110008_3": (False, True),
+    "210001_1": (False,),
+    "210001_2": (False,),
+    "210002": (True,),
+    "210003": (True,),
+    "210004_(1)": (True,),
+    "210004_(2)": (True,),
+    "210004_(3)": (True,),
+    "210004_(4)": (True,),
+    "210005_(1)": (True,),
+    "210005_(2)": (True,),
+    "210006_(1)": (True, True),
+    "210006_(2)": (True, True),
+    "210006_(3)": (True, True),
+    "210006_(4)": (False, True),
+    "210006_(5)": (False, True),
+    "210006_(6)": (True, True),
+    "210006_(7)": (False, True),
+    "210006_(8)": (True, True),
+    "210007_(1)": (True, True),
+    "210007_(2)": (True, True),
+    "210007_(3)": (True, True),
+    "210007_(4)": (False, True),
+    "210007_(5)": (True, True),
+    "210007_(6)": (True, True),
+    "210007_(7)": (True, True),
 }
+
+# _AUDIO_LENGTH: độ dài g_text_audio (số ký tự Hàn, KHÔNG tính nhãn 남자:/여자: và dòng trống).
+#   value = list các khoảng (min, max). Nhiều khoảng = kind có nhiều cấu trúc lượt thoại
+#   (đạt nếu nằm trong BẤT KỲ khoảng nào).
+_AUDIO_LENGTH = {
+    "110001": [(35, 45)],
+    "110002": [(35, 45)],
+    "110003": [(35, 45)],
+    "110004": [(35, 45)],
+    "110005": [(45, 55)],
+    "110006": [(85, 95), (140, 160)],   # 3 lượt thoại / 4 lượt thoại
+    "110007": [(120, 140)],
+    "110008_1": [(160, 180)],
+    "110008_2": [(240, 260)],
+    "110008_3": [(330, 350)],
+    "210001_1": [(65, 85)],
+    "210001_2": [(140, 160)],
+    "210002": [(80, 100)],
+    "210003": [(120, 170)],
+    "210004_(1)": [(120, 150)],
+    "210004_(2)": [(150, 180)],
+    "210004_(3)": [(140, 170)],
+    "210004_(4)": [(170, 200)],
+    "210005_(1)": [(100, 130), (140, 170)],  # 3 lượt thoại / 4 lượt thoại
+    "210005_(2)": [(170, 200)],
+    "210006_(1)": [(240, 290)],
+    "210006_(2)": [(210, 260)],
+    "210006_(3)": [(240, 290)],
+    "210006_(4)": [(260, 310)],
+    "210006_(5)": [(260, 310)],
+    "210006_(6)": [(260, 310)],
+    "210006_(7)": [(260, 310)],
+    "210006_(8)": [(260, 310)],
+    "210007_(1)": [(320, 340)],
+    "210007_(2)": [(280, 340)],
+    "210007_(3)": [(280, 340)],
+    "210007_(4)": [(320, 340)],
+    "210007_(5)": [(300, 340)],
+    "210007_(6)": [(300, 340)],
+    "210007_(7)": [(350, 380)],
+}
+
+# _FIXED_ORDER: thứ tự giới tính người nói trong g_text_audio.
+#   True  = FIX CỨNG đúng thứ tự nam-nữ như format (format KHÔNG có "hoặc ngược lại").
+#   False = được phép đảo nam↔nữ (format CÓ "hoặc ngược lại").
+_FIXED_ORDER = {
+    "110001": False, "110002": False, "110003": False, "110004": False,
+    "110005": False, "110006": False, "110007": False,
+    "110008_1": True, "110008_2": False, "110008_3": False,
+    "210001_1": False, "210001_2": True,
+    "210002": False, "210003": False,
+    "210004_(1)": False, "210004_(2)": True, "210004_(3)": True, "210004_(4)": True,
+    "210005_(1)": True, "210005_(2)": True,
+    "210006_(1)": True, "210006_(2)": True, "210006_(3)": True, "210006_(4)": True,
+    "210006_(5)": True, "210006_(6)": False, "210006_(7)": True, "210006_(8)": True,
+    "210007_(1)": True, "210007_(2)": True, "210007_(3)": True, "210007_(4)": True,
+    "210007_(5)": True, "210007_(6)": True, "210007_(7)": True,
+}
+
+
+def _period_for(kind, qidx):
+    """True/False: đáp án của câu hỏi con thứ qidx (1-based) có dấu '.' cuối không.
+    Mặc định True nếu kind chưa khai báo (an toàn cho câu hoàn chỉnh)."""
+    rule = _ANSWER_PERIOD.get(str(kind).strip())
+    if not rule:
+        return True
+    return rule[qidx - 1] if 0 <= qidx - 1 < len(rule) else rule[-1]
+
+
+def _count_korean_audio_chars(audio):
+    """Đếm ký tự nội dung trong g_text_audio: bỏ nhãn 남자:/여자:, dòng trống, whitespace."""
+    if not audio:
+        return 0
+    text = re.sub(r'(?m)^\s*(남자|여자|남|여)\s*:\s*', '', audio)  # bỏ nhãn người nói
+    text = text.replace('_', '')                                  # bỏ dòng trống ____
+    text = re.sub(r'\s+', '', text)                               # bỏ whitespace
+    return len(text)
+
+
+def check_audio_length(question):
+    """Trả về list cảnh báo nếu độ dài g_text_audio lệch khoảng quy định (không chặn lưu)."""
+    kind = str(question.get("kind", "")).strip()
+    spec = _AUDIO_LENGTH.get(kind)
+    if not spec:
+        return []
+    n = _count_korean_audio_chars(question.get("general", {}).get("g_text_audio", ""))
+    if any(lo <= n <= hi for lo, hi in spec):
+        return []
+    ranges = " hoặc ".join(f"{lo}~{hi}" for lo, hi in spec)
+    return [f"g_text_audio dài {n} ký tự, ngoài khoảng quy định {ranges}"]
+
+
+# Backward-compat: tập kind có dấu chấm ở câu hỏi đầu (Q1). Giữ cho tham chiếu cũ.
+_KINDS_WITH_PERIOD = {k for k, v in _ANSWER_PERIOD.items() if v and v[0]}
 
 
 def _fix_explain_periods(text):
@@ -222,19 +351,20 @@ def flatten_question(question, timestamp=None, seq=0):
         # Gộp distractor traps (keys "1"-"4")
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
 
-        # Auto-fix: thêm/bỏ dấu "." cuối mỗi đáp án — dùng module-level _KINDS_WITH_PERIOD
-        if kind in _KINDS_WITH_PERIOD:
+        # Auto-fix: thêm/bỏ dấu "." cuối mỗi đáp án — THEO TỪNG CÂU HỎI con (qidx = n)
+        has_period = _period_for(kind, n)
+        if has_period:
             answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④") else a for a in answers]
         else:
             # Bỏ dấu chấm cuối nếu model tự thêm (trừ image answers)
             answers = [a.rstrip().rstrip(".") if a.strip() and a.strip() not in ("①", "②", "③", "④") and a.rstrip().endswith(".") and not a.rstrip().endswith(("?", "!", "…", "~")) else a for a in answers]
 
-        # Auto-fix: thêm dấu "." cuối mỗi dòng dịch đáp án trong explain — CHỈ cho kind có dấu chấm
-        if kind in _KINDS_WITH_PERIOD:
+        # Auto-fix: dấu "." cuối mỗi dòng dịch đáp án trong explain — theo cùng quy tắc câu hỏi con
+        if has_period:
             explain_vi = _fix_explain_periods(explain.get("vi", ""))
             explain_en = _fix_explain_periods(explain.get("en", ""))
         else:
-            # Kind KHÔNG có dấu chấm → strip "." khỏi dòng dịch đáp án trong explain
+            # Câu hỏi con KHÔNG có dấu chấm → strip "." khỏi dòng dịch đáp án trong explain
             explain_vi = _strip_explain_periods(explain.get("vi", ""))
             explain_en = _strip_explain_periods(explain.get("en", ""))
 
@@ -370,6 +500,7 @@ def validate_and_report(questions):
     total = len(questions)
     passed = 0
     failed = 0
+    warned = 0
 
     for i, q in enumerate(questions):
         kind = q.get("kind", "?")
@@ -382,8 +513,13 @@ def validate_and_report(questions):
         else:
             passed += 1
 
+        # Cảnh báo độ dài g_text_audio (không tính là lỗi, không chặn lưu)
+        for w in check_audio_length(q):
+            warned += 1
+            print(f"  ! Cau {i+1} (kind={kind}): {w}")
+
     print(f"\n{'='*50}")
-    print(f"  Tong: {total} | Passed: {passed} | Failed: {failed}")
+    print(f"  Tong: {total} | Passed: {passed} | Failed: {failed} | Canh bao do dai: {warned}")
     print(f"{'='*50}")
     return failed == 0
 
@@ -566,15 +702,18 @@ def fix_csv_periods(output_dir=None):
 
         # Dùng kind từ row đầu tiên nếu có, fallback tên file
         kind = rows[0].get("kind", "").strip() or kind_from_name
-        has_period = kind in _KINDS_WITH_PERIOD
 
         changed = 0
         for row in rows:
             row_kind = row.get("kind", "").strip() or kind
-            row_has_period = row_kind in _KINDS_WITH_PERIOD
 
-            # Tìm tất cả cột q_answer_N
+            # Tìm tất cả cột q_answer_N / explain_*_N
             for key in list(row.keys()):
+                # Chỉ số câu hỏi con lấy từ hậu tố _N của tên cột (mặc định 1)
+                _m = re.search(r"_(\d+)$", key)
+                qidx = int(_m.group(1)) if _m else 1
+                row_has_period = _period_for(row_kind, qidx)
+
                 if key.startswith("q_answer_") and row[key]:
                     lines = row[key].split("\n")
                     new_lines = []

@@ -54,8 +54,146 @@ CONTENT_COLUMNS = [
     "question_feature", "difficulty", "distractor_trap",
 ]
 
-# ─── Auto-fix dấu chấm ────────────────────────────────────────────────────────
-# Phần Đọc: TẤT CẢ đáp án đều cần dấu chấm (câu hoàn chỉnh)
+# ─── Quy tắc biên tập theo kind (dấu chấm / độ dài) ────────────────────────────
+# Nguồn: "MIGII TOPIK - Read Rule - Gen Question AI New.xlsx" (biên tập viên bổ sung).
+#
+# _ANSWER_PERIOD: dấu "." cuối mỗi đáp án — THEO TỪNG CÂU HỎI con.
+#   value = tuple (period_q1, period_q2, ...) cho từng câu hỏi con (1-based).
+#     True  = đáp án PHẢI kết thúc bằng "." (câu hoàn chỉnh)
+#     False = KHÔNG có "." (cụm danh từ / từ / cụm ngữ pháp / cụm ngắn)
+#   ⚠️ Phần ĐỌC: PHẦN LỚN kind KHÔNG có dấu chấm. Kind nhiều câu hỏi (120005_*, 120007_*,
+#      220005_*, 220008_*) thường khác nhau giữa các câu hỏi con.
+_ANSWER_PERIOD = {
+    "120001": (False,),
+    "120002_1": (False,),
+    "120002_2": (False,),
+    "120002_3": (False,),
+    "120002_4": (False,),
+    "120003_1": (True,),
+    "120003_2": (True,),
+    "120004_1": (True,),
+    "120004_2": (True,),
+    "120005_(1)": (False, True),
+    "120005_(2)": (False, False),
+    "120006": (False,),
+    "120007_1": (False, True),
+    "120007_2": (False, True),
+    "120007_3": (False, True),
+    "220001_a": (False,),
+    "220001_b": (False,),
+    "220001_c": (False,),
+    "220002_a": (False,),
+    "220002_b_1": (True,),
+    "220002_b_2": (True,),
+    "220002_b_3": (True,),
+    "220002_c": (True,),
+    "220003_a_1": (False,),
+    "220003_a_2": (False,),
+    "220003_b": (True,),
+    "220004": (False,),
+    "220005_1_(1)": (False, True),
+    "220005_1_(2)": (False, True),
+    "220005_2": (False, True),
+    "220006": (True,),
+    "220007": (False,),
+    "220008_1_(1)": (False, True),
+    "220008_1_(2)": (False, True),
+    "220008_1_(3)": (True, True),
+    "220008_2": (False, False, True),
+}
+
+# _GTEXT_LENGTH: độ dài đoạn đọc G_text (ký tự). Chỉ các kind có đoạn văn riêng ở g_text.
+_GTEXT_LENGTH = {
+    "120005_(1)": [(130, 180)],
+    "120005_(2)": [(130, 180)],
+    "120007_1": [(140, 190)],
+    "120007_2": [(150, 200)],
+    "220005_1_(1)": [(180, 240)],
+    "220005_1_(2)": [(200, 240)],
+    "220005_2": [(420, 500)],
+    "220008_1_(1)": [(550, 600)],
+    "220008_1_(2)": [(380, 400)],
+    "220008_1_(3)": [(400, 440)],
+    "220008_2": [(460, 510)],
+}
+
+# _IMGTEXT_LENGTH: độ dài "Text trong ảnh" (nội dung chữ nằm trong q_image). Chỉ để tham chiếu/doc,
+#   KHÔNG validate tự động vì text nằm trong ảnh chứ không ở g_text.
+_IMGTEXT_LENGTH = {
+    "120007_3": [(250, 300)],
+    "220002_b_1": [(180, 220)],
+    "220003_a_1": [(20, 30)],
+    "220003_a_2": [(30, 60)],
+}
+
+# _QTEXT_LENGTH: độ dài text_question_1 (đoạn đọc/câu đọc gắn theo từng câu hỏi). Ký tự.
+_QTEXT_LENGTH = {
+    "120001": [(20, 35)],
+    "120002_1": [(20, 35)],
+    "120002_2": [(20, 35)],
+    "120002_3": [(20, 35)],
+    "120002_4": [(20, 35)],
+    "120004_1": [(50, 80)],
+    "120004_2": [(50, 80)],
+    "120006": [(120, 150)],
+    "220001_a": [(25, 30)],
+    "220001_b": [(150, 200)],
+    "220001_c": [(170, 250)],
+    "220002_a": [(30, 40)],
+    "220002_b_3": [(180, 210)],
+    "220002_c": [(190, 250)],
+    "220003_b": [(200, 240)],
+    "220004": [(140, 170)],
+    "220006": [(20, 40)],
+    "220007": [(250, 320)],
+}
+
+
+def _period_for(kind, qidx):
+    """True/False: đáp án của câu hỏi con thứ qidx (1-based) có dấu '.' cuối không.
+    Mặc định False nếu kind chưa khai báo (phần Đọc đa số KHÔNG dấu chấm)."""
+    rule = _ANSWER_PERIOD.get(str(kind).strip())
+    if not rule:
+        return False
+    return rule[qidx - 1] if 0 <= qidx - 1 < len(rule) else rule[-1]
+
+
+def _count_chars(text):
+    """Đếm ký tự nội dung: bỏ whitespace và ký hiệu chỗ trống ㉠/㉡/____."""
+    if not text:
+        return 0
+    t = re.sub(r"[㉠㉡㉢㉣_]", "", text)
+    t = re.sub(r"\s+", "", t)
+    return len(t)
+
+
+def check_text_lengths(question):
+    """Trả về list cảnh báo nếu g_text / q_text lệch khoảng quy định (không chặn lưu)."""
+    warnings = []
+    kind = str(question.get("kind", "")).strip()
+    general = question.get("general", {})
+
+    spec_g = _GTEXT_LENGTH.get(kind)
+    if spec_g:
+        n = _count_chars(general.get("g_text", ""))
+        if n and not any(lo <= n <= hi for lo, hi in spec_g):
+            rng = " hoặc ".join(f"{lo}~{hi}" for lo, hi in spec_g)
+            warnings.append(f"g_text dài {n} ký tự, ngoài khoảng quy định {rng}")
+
+    spec_q = _QTEXT_LENGTH.get(kind)
+    if spec_q:
+        content = question.get("content", [])
+        qt = content[0].get("q_text", "") if content else ""
+        n = _count_chars(qt)
+        if n and not any(lo <= n <= hi for lo, hi in spec_q):
+            rng = " hoặc ".join(f"{lo}~{hi}" for lo, hi in spec_q)
+            warnings.append(f"text_question_1 dài {n} ký tự, ngoài khoảng quy định {rng}")
+
+    return warnings
+
+
+# Backward-compat: tập kind có dấu chấm ở câu hỏi đầu (Q1).
+_KINDS_WITH_PERIOD = {k for k, v in _ANSWER_PERIOD.items() if v and v[0]}
 
 
 def _fix_explain_periods(text):
@@ -75,6 +213,27 @@ def _fix_explain_periods(text):
             if re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
                 if not stripped.endswith((".", "?", "!", "…", "~")):
                     line = stripped + "."
+        result.append(line)
+    return "\n".join(result)
+
+
+def _strip_explain_periods(text):
+    """Bỏ dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
+    if not text:
+        return text
+    lines = text.split("\n")
+    separator_found = False
+    result = []
+    for line in lines:
+        stripped = line.rstrip()
+        if stripped.startswith("----"):
+            separator_found = True
+            result.append(line)
+            continue
+        if not separator_found and stripped:
+            if re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                if stripped.endswith(".") and not stripped.endswith(("?", "!", "…", "~")):
+                    line = stripped.rstrip(".")
         result.append(line)
     return "\n".join(result)
 
@@ -189,12 +348,20 @@ def flatten_question(question, timestamp=None, seq=0):
         # Gộp distractor traps (keys "1"-"4")
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
 
-        # Auto-fix: thêm dấu "." cuối mỗi đáp án nếu thiếu
-        answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④", "1. ", "2. ", "3. ", "4. ") else a for a in answers]
+        # Auto-fix: thêm/bỏ dấu "." cuối mỗi đáp án — THEO TỪNG CÂU HỎI con (qidx = n)
+        has_period = _period_for(kind, n)
+        if has_period:
+            answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④", "1. ", "2. ", "3. ", "4. ") else a for a in answers]
+        else:
+            answers = [a.rstrip().rstrip(".") if a.strip() and a.strip() not in ("①", "②", "③", "④") and a.rstrip().endswith(".") and not a.rstrip().endswith(("?", "!", "…", "~")) else a for a in answers]
 
-        # Auto-fix: thêm dấu "." cuối mỗi dòng dịch đáp án trong explain
-        explain_vi = _fix_explain_periods(explain.get("vi", ""))
-        explain_en = _fix_explain_periods(explain.get("en", ""))
+        # Auto-fix: dấu "." cuối mỗi dòng dịch đáp án trong explain — theo cùng quy tắc câu hỏi con
+        if has_period:
+            explain_vi = _fix_explain_periods(explain.get("vi", ""))
+            explain_en = _fix_explain_periods(explain.get("en", ""))
+        else:
+            explain_vi = _strip_explain_periods(explain.get("vi", ""))
+            explain_en = _strip_explain_periods(explain.get("en", ""))
 
         row[f"q_text_{n}"] = content.get("q_text", "")
         row[f"q_point_{n}"] = content.get("q_point", "")
@@ -334,6 +501,7 @@ def validate_and_report(questions):
     total = len(questions)
     passed = 0
     failed = 0
+    warned = 0
 
     for i, q in enumerate(questions):
         kind = q.get("kind", "?")
@@ -346,8 +514,13 @@ def validate_and_report(questions):
         else:
             passed += 1
 
+        # Cảnh báo độ dài g_text / text_question (không tính là lỗi, không chặn lưu)
+        for w in check_text_lengths(q):
+            warned += 1
+            print(f"  ! Cau {i+1} (kind={kind}): {w}")
+
     print(f"\n{'='*50}")
-    print(f"  Tong: {total} | Passed: {passed} | Failed: {failed}")
+    print(f"  Tong: {total} | Passed: {passed} | Failed: {failed} | Canh bao do dai: {warned}")
     print(f"{'='*50}")
     return failed == 0
 
@@ -496,8 +669,8 @@ def merge_csvs(output_dir=None):
 
 def fix_csv_periods(output_dir=None):
     """
-    Quét TẤT CẢ CSV trong output_dir, thêm dấu chấm cuối đáp án + explain.
-    Phần Đọc: tất cả đáp án đều cần dấu chấm (không phân biệt kind).
+    Quét TẤT CẢ CSV trong output_dir, thêm/bỏ dấu chấm cuối đáp án + explain
+    THEO TỪNG CÂU HỎI con (map _ANSWER_PERIOD). Phần Đọc đa số KHÔNG dấu chấm.
     Dùng khi AI gen CSV trực tiếp mà không qua flatten_question.
     """
     import glob as _glob
@@ -529,8 +702,13 @@ def fix_csv_periods(output_dir=None):
 
         changed = 0
         for row in rows:
-            # Fix q_answer_N: thêm dấu chấm
+            row_kind = row.get("kind", "").strip() or basename
+            # Fix q_answer_N / explain_*_N: thêm hoặc bỏ dấu chấm theo từng câu hỏi con
             for key in list(row.keys()):
+                _m = re.search(r"_(\d+)$", key)
+                qidx = int(_m.group(1)) if _m else 1
+                row_has_period = _period_for(row_kind, qidx)
+
                 if key.startswith("q_answer_") and row[key]:
                     lines = row[key].split("\n")
                     new_lines = []
@@ -539,15 +717,20 @@ def fix_csv_periods(output_dir=None):
                         if not s or s in ("①", "②", "③", "④"):
                             new_lines.append(l)
                             continue
-                        if not s.endswith((".", "?", "!", "…", "~")):
-                            s = s + "."
-                            changed += 1
+                        if row_has_period:
+                            if not s.endswith((".", "?", "!", "…", "~")):
+                                s = s + "."
+                                changed += 1
+                        else:
+                            if s.endswith(".") and not s.endswith(("?", "!", "…", "~")):
+                                s = s.rstrip(".")
+                                changed += 1
                         new_lines.append(s)
                     row[key] = "\n".join(new_lines)
 
-                # Fix explain: thêm dấu chấm dòng đáp án
+                # Fix explain: thêm/bỏ dấu chấm dòng đáp án
                 if key.startswith("explain_") and row[key]:
-                    fixed = _fix_explain_periods(row[key])
+                    fixed = _fix_explain_periods(row[key]) if row_has_period else _strip_explain_periods(row[key])
                     if fixed != row[key]:
                         changed += 1
                         row[key] = fixed

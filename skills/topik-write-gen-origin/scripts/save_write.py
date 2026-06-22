@@ -23,6 +23,7 @@ Cấu trúc output:
 import csv
 import json
 import os
+import re
 import sys
 from datetime import datetime
 from collections import defaultdict
@@ -55,6 +56,121 @@ CONTENT_COLUMNS = [
     "view_q_image", "q_image", "q_image_desc",
     "question_feature", "difficulty", "distractor_trap",
 ]
+
+# ─── Quy tắc biên tập theo kind (dấu chấm / độ dài) ────────────────────────────
+# Nguồn: "MIGII TOPIK - Write Rule - Gen Question AI New.xlsx" (biên tập viên bổ sung).
+#
+# _ANSWER_PERIOD: dấu "." cuối mỗi đáp án/đáp án mẫu — THEO TỪNG CÂU HỎI con.
+#   value = tuple (period_q1, period_q2, ...) cho từng câu hỏi con (1-based).
+#     True  = đáp án PHẢI kết thúc bằng "." (câu hoàn chỉnh)
+#     False = KHÔNG có "." (cụm/câu điền chỗ trống không chấm)
+_ANSWER_PERIOD = {
+    "230001_1": (False,),
+    "230001_2": (False,),
+    "230002": (True, True, True),
+    "230003": (False, False, False, False, True, True, True, True, False, False),
+}
+
+# _GTEXT_LENGTH: độ dài đoạn đề bài/chủ đề ở g_text (ký tự).
+_GTEXT_LENGTH = {
+    "230003": [(200, 260)],
+}
+
+# _IMGTEXT_LENGTH: "Text trong ảnh" (chữ nằm trong ảnh đề bài). Chỉ tham chiếu/doc, KHÔNG validate.
+_IMGTEXT_LENGTH = {
+    "230001_1": [(200, 250)],
+}
+
+# _QTEXT_LENGTH: độ dài text_question_1 (đoạn đọc gắn câu hỏi). Ký tự.
+_QTEXT_LENGTH = {
+    "230001_2": [(160, 210)],
+}
+
+
+def _period_for(kind, qidx):
+    """True/False: đáp án câu hỏi con thứ qidx (1-based) có dấu '.' cuối không.
+    Mặc định False nếu kind chưa khai báo (phần Viết đa số KHÔNG dấu chấm)."""
+    rule = _ANSWER_PERIOD.get(str(kind).strip())
+    if not rule:
+        return False
+    return rule[qidx - 1] if 0 <= qidx - 1 < len(rule) else rule[-1]
+
+
+def _count_chars(text):
+    """Đếm ký tự nội dung: bỏ whitespace và ký hiệu chỗ trống ㉠/㉡/____/(ㄱ)/(ㄴ)."""
+    if not text:
+        return 0
+    t = re.sub(r"[㉠㉡㉢㉣_]", "", text)
+    t = re.sub(r"\([ㄱ-ㅎ]\)", "", t)
+    t = re.sub(r"\s+", "", t)
+    return len(t)
+
+
+def check_text_lengths(question):
+    """Trả về list cảnh báo nếu g_text / q_text lệch khoảng quy định (không chặn lưu)."""
+    warnings = []
+    kind = str(question.get("kind", "")).strip()
+    general = question.get("general", {})
+
+    spec_g = _GTEXT_LENGTH.get(kind)
+    if spec_g:
+        n = _count_chars(general.get("g_text", ""))
+        if n and not any(lo <= n <= hi for lo, hi in spec_g):
+            rng = " hoặc ".join(f"{lo}~{hi}" for lo, hi in spec_g)
+            warnings.append(f"g_text dài {n} ký tự, ngoài khoảng quy định {rng}")
+
+    spec_q = _QTEXT_LENGTH.get(kind)
+    if spec_q:
+        content = question.get("content", [])
+        qt = content[0].get("q_text", "") if content else ""
+        n = _count_chars(qt)
+        if n and not any(lo <= n <= hi for lo, hi in spec_q):
+            rng = " hoặc ".join(f"{lo}~{hi}" for lo, hi in spec_q)
+            warnings.append(f"text_question_1 dài {n} ký tự, ngoài khoảng quy định {rng}")
+
+    return warnings
+
+
+def _fix_explain_periods(text):
+    """Thêm dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
+    if not text:
+        return text
+    lines = text.split("\n")
+    separator_found = False
+    result = []
+    for line in lines:
+        stripped = line.rstrip()
+        if stripped.startswith("----"):
+            separator_found = True
+            result.append(line)
+            continue
+        if not separator_found and stripped:
+            if re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                if not stripped.endswith((".", "?", "!", "…", "~")):
+                    line = stripped + "."
+        result.append(line)
+    return "\n".join(result)
+
+
+def _strip_explain_periods(text):
+    """Bỏ dấu . cuối mỗi dòng dịch đáp án trong explain (trước separator ----)."""
+    if not text:
+        return text
+    lines = text.split("\n")
+    separator_found = False
+    result = []
+    for line in lines:
+        stripped = line.rstrip()
+        if stripped.startswith("----"):
+            separator_found = True
+            result.append(line)
+            continue
+        if not separator_found and stripped:
+            if re.match(r'^[①②③④\d]+[\.\)]?\s', stripped):
+                if stripped.endswith(".") and not stripped.endswith(("?", "!", "…", "~")):
+                    line = stripped.rstrip(".")
+        result.append(line)
+    return "\n".join(result)
 
 
 def get_csv_columns(max_cq):
@@ -162,14 +278,25 @@ def flatten_question(question, timestamp=None, seq=0):
         # Gộp distractor traps (keys "1"-"4")
         trap_parts = [d_traps.get(k, "") for k in ("1", "2", "3", "4")]
 
+        # Auto-fix: thêm/bỏ dấu "." cuối mỗi đáp án — THEO TỪNG CÂU HỎI con (qidx = n)
+        has_period = _period_for(kind, n)
+        if has_period:
+            answers = [a.rstrip() + "." if a.strip() and not a.rstrip().endswith((".", "?", "!", "…", "~")) and a.strip() not in ("①", "②", "③", "④") else a for a in answers]
+            explain_vi = _fix_explain_periods(explain.get("vi", ""))
+            explain_en = _fix_explain_periods(explain.get("en", ""))
+        else:
+            answers = [a.rstrip().rstrip(".") if a.strip() and a.strip() not in ("①", "②", "③", "④") and a.rstrip().endswith(".") and not a.rstrip().endswith(("?", "!", "…", "~")) else a for a in answers]
+            explain_vi = _strip_explain_periods(explain.get("vi", ""))
+            explain_en = _strip_explain_periods(explain.get("en", ""))
+
         row[f"q_text_{n}"] = content.get("q_text", "")
         row[f"q_point_{n}"] = content.get("q_point", "")
         row[f"view_q_image_{n}"] = ""
         row[f"q_image_{n}"] = content.get("q_image", "")
         row[f"q_answer_{n}"] = "\n".join(answers)
         row[f"q_correct_{n}"] = content.get("q_correct", "")
-        row[f"explain_vi_{n}"] = explain.get("vi", "")
-        row[f"explain_en_{n}"] = explain.get("en", "")
+        row[f"explain_vi_{n}"] = explain_vi
+        row[f"explain_en_{n}"] = explain_en
         row[f"q_image_desc_{n}"] = img_text
         row[f"question_feature_{n}"] = content.get("question_feature", "")
         row[f"difficulty_{n}"] = content.get("difficulty", "")
@@ -314,6 +441,7 @@ def validate_and_report(questions):
     total = len(questions)
     passed = 0
     failed = 0
+    warned = 0
 
     for i, q in enumerate(questions):
         kind = q.get("kind", "?")
@@ -326,10 +454,94 @@ def validate_and_report(questions):
         else:
             passed += 1
 
+        # Cảnh báo độ dài g_text / text_question (không tính là lỗi, không chặn lưu)
+        for w in check_text_lengths(q):
+            warned += 1
+            print(f"  ! Cau {i+1} (kind={kind}): {w}")
+
     print(f"\n{'='*50}")
-    print(f"  Tong: {total} | Passed: {passed} | Failed: {failed}")
+    print(f"  Tong: {total} | Passed: {passed} | Failed: {failed} | Canh bao do dai: {warned}")
     print(f"{'='*50}")
     return failed == 0
+
+
+def fix_csv_periods(output_dir=None):
+    """
+    Quét TẤT CẢ CSV trong output_dir, thêm/bỏ dấu chấm cuối đáp án + explain
+    THEO TỪNG CÂU HỎI con (map _ANSWER_PERIOD). Phần Viết đa số KHÔNG dấu chấm.
+    Dùng khi AI gen CSV trực tiếp mà không qua flatten_question.
+    """
+    import glob as _glob
+
+    if output_dir is None:
+        output_dir = DEFAULT_OUTPUT_DIR
+
+    total_fixed = 0
+
+    for csvfile in sorted(_glob.glob(os.path.join(output_dir, "level_*", "*.csv"))):
+        basename = os.path.splitext(os.path.basename(csvfile))[0]
+        if "_p" in basename and basename.split("_p")[-1].isdigit():
+            continue
+        if basename == "all_questions":
+            continue
+
+        try:
+            with open(csvfile, "r", encoding="utf-8-sig") as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+        except Exception as e:
+            print(f"  ⚠️ Skip {basename}: {e}")
+            continue
+
+        if not rows or not fieldnames:
+            continue
+
+        changed = 0
+        for row in rows:
+            row_kind = row.get("kind", "").strip() or basename
+            for key in list(row.keys()):
+                _m = re.search(r"_(\d+)$", key)
+                qidx = int(_m.group(1)) if _m else 1
+                row_has_period = _period_for(row_kind, qidx)
+
+                if key.startswith("q_answer_") and row[key]:
+                    lines = row[key].split("\n")
+                    new_lines = []
+                    for l in lines:
+                        s = l.rstrip()
+                        if not s or s in ("①", "②", "③", "④"):
+                            new_lines.append(l)
+                            continue
+                        if row_has_period:
+                            if not s.endswith((".", "?", "!", "…", "~")):
+                                s = s + "."
+                                changed += 1
+                        else:
+                            if s.endswith(".") and not s.endswith(("?", "!", "…", "~")):
+                                s = s.rstrip(".")
+                                changed += 1
+                        new_lines.append(s)
+                    row[key] = "\n".join(new_lines)
+
+                if key.startswith("explain_") and row[key]:
+                    fixed = _fix_explain_periods(row[key]) if row_has_period else _strip_explain_periods(row[key])
+                    if fixed != row[key]:
+                        changed += 1
+                        row[key] = fixed
+
+        if changed > 0:
+            with open(csvfile, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+                writer.writeheader()
+                writer.writerows(rows)
+            total_fixed += changed
+            print(f"  ✅ {basename}: fixed {changed} items ({len(rows)} rows)")
+        else:
+            print(f"  ── {basename}: OK ({len(rows)} rows)")
+
+    print(f"\n  Tổng: fixed {total_fixed} items")
+    return total_fixed
 
 
 def save_as_json(questions, output_dir=None):
@@ -499,14 +711,26 @@ def main():
     parser = argparse.ArgumentParser(
         description="Luu cau hoi viet TOPIK II tu JSON ra CSV theo kind"
     )
-    parser.add_argument("input", help="File JSON chua cau hoi da gen")
+    parser.add_argument("input", nargs="?", default=None,
+                        help="File JSON chua cau hoi da gen (bỏ qua khi dùng --fix-periods)")
     parser.add_argument("--output-dir", "-o", default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--append", "-a", action="store_true")
     parser.add_argument("--validate-only", "-v", action="store_true")
     parser.add_argument("--json", "-j", action="store_true")
     parser.add_argument("--merge", action="store_true")
+    parser.add_argument("--fix-periods", action="store_true",
+                        help="Post-process: fix dau cham cuoi dap an + explain trong tat ca CSV")
 
     args = parser.parse_args()
+
+    if args.fix_periods:
+        print(f"\n>>> Fix periods cho tat ca CSV trong {args.output_dir}")
+        fix_csv_periods(output_dir=args.output_dir)
+        print("\nHoan thanh!")
+        return
+
+    if not args.input:
+        parser.error("input is required (hoặc dùng --fix-periods)")
 
     print(f"\nDoc: {args.input}")
     questions = load_json(args.input)

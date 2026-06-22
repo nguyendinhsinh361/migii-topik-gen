@@ -97,6 +97,62 @@ Một số kind được tách thành nhiều **sub-kind**. Mỗi sub-kind có k
 
 ---
 
+## Quy tắc biên tập theo kind (độ dài / format / dấu câu)
+
+> **Nguồn**: Biên tập viên bổ sung — *"MIGII TOPIK - Listen Rule - Gen Question AI New.xlsx"*. Đây là quy tắc BẮT BUỘC, ưu tiên cao nhất. Khi gen mỗi kind PHẢI áp dụng đúng 3 cột: **độ dài audio**, **format hội thoại**, **dấu chấm sau đáp án**.
+
+**Cách đọc bảng:**
+
+- **Độ dài (ký tự)**: số ký tự nội dung tiếng Hàn của `g_text_audio`, **KHÔNG tính** nhãn `남자:`/`여자:` và dòng trống `____`. Có 2 khoảng (vd `85~95 / 140~160`) = kind có 2 cấu trúc lượt thoại; chọn 1 và đạt đúng khoảng tương ứng.
+- **Thứ tự người nói**: `Đảo được` = format có ghi *"hoặc ngược lại"* → được hoán đổi nam↔nữ. `FIX` = thứ tự nam-nữ phải GIỮ ĐÚNG như cột Format, KHÔNG được đảo.
+- **Format**: cấu trúc lượt thoại mẫu. `___` = dòng trống (đáp án nối tiếp). Monologue = 1 người nói liên tục.
+- **Đ.án Q1 / Đ.án Q2**: dấu "." cuối đáp án cho câu hỏi con thứ 1 / thứ 2. `True` = có ".", `False` = không có ".". Dấu `—` = kind chỉ có 1 câu hỏi con.
+
+| Kind | Độ dài (ký tự) | Thứ tự | Format hội thoại | Đ.án Q1 | Đ.án Q2 |
+|------|----------------|--------|------------------|:-------:|:-------:|
+| 110001 | 35~45 | Đảo được | 여: ... / 남: `___` | True | — |
+| 110002 | 35~45 | Đảo được | 여: ... / 남: `___` | True | — |
+| 110003 | 35~45 | Đảo được | 여: ... / 남: `___` | False | — |
+| 110004 | 35~45 | Đảo được | 여: ... / 남: ... | False | — |
+| 110005 | 45~55 | Đảo được | 여: ... / 남: ... (đáp án ảnh ①②③④) | False | — |
+| 110006 | 85~95 (3 lượt) / 140~160 (4 lượt) | Đảo được | 여 / 남 / 여 (/ 남) | True | — |
+| 110007 | 120~140 | Đảo được | 여 / 남 / 여 / 남 | True | — |
+| 110008_1 | 160~180 | **FIX** | Monologue 1 người (안내/공지) | False | True |
+| 110008_2 | 240~260 | Đảo được | 6 lượt 남↔여 | False | True |
+| 110008_3 | 330~350 | Đảo được | 6 lượt 남↔여 (phỏng vấn) | False | True |
+| 210001_1 | 65~85 | Đảo được | 여 / 남 / 여 (đáp án ảnh) | False | — |
+| 210001_2 | 140~160 | **FIX** | Monologue 남 (tin tức/báo cáo, đáp án biểu đồ) | False | — |
+| 210002 | 80~100 | Đảo được | 여 / 남 / 여: `___` | True | — |
+| 210003 | 120~170 | Đảo được | 남 / 여 / 남 / 여 | True | — |
+| 210004_(1) | 120~150 | Đảo được | 남 / 여 / 남 / 여 (hội thoại) | True | — |
+| 210004_(2) | 150~180 | **FIX** | Monologue 여 (안내) | True | — |
+| 210004_(3) | 140~170 | **FIX** | Monologue 남 (뉴스) | True | — |
+| 210004_(4) | 170~200 | **FIX** | 남 / 여 (phỏng vấn) | True | — |
+| 210005_(1) | 100~130 (3 lượt) / 140~170 (4 lượt) | **FIX** | 남/여/남 (hoặc 여/남/여/남) | True | — |
+| 210005_(2) | 170~200 | **FIX** | 여 / 남 (phỏng vấn/talkshow) | True | — |
+| 210006_(1) | 240~290 | **FIX** | 여 / 남 / 여 / 남 | True | True |
+| 210006_(2) | 210~260 | **FIX** | 남 / 여 / 남 / 여 | True | True |
+| 210006_(3) | 240~290 | **FIX** | 여 / 남 | True | True |
+| 210006_(4) | 260~310 | **FIX** | 남 / 여 / 남 / 여 / 남 | False | True |
+| 210006_(5) | 260~310 | **FIX** | 여 / 남 / 여 / 남 | False | True |
+| 210006_(6) | 260~310 | Đảo được | 남 / 여 / 남 / 여 | True | True |
+| 210006_(7) | 260~310 | **FIX** | Monologue 여 (bài giảng) | False | True |
+| 210006_(8) | 260~310 | **FIX** | Monologue 남 (diễn văn) | True | True |
+| 210007_(1) | 320~340 | **FIX** | 남 / 여 | True | True |
+| 210007_(2) | 280~340 | **FIX** | 여 / 남 | True | True |
+| 210007_(3) | 280~340 | **FIX** | Monologue 여 (bài giảng) | True | True |
+| 210007_(4) | 320~340 | **FIX** | Monologue 남 (tường thuật) | False | True |
+| 210007_(5) | 300~340 | **FIX** | Monologue 여 (bài giảng chức năng) | True | True |
+| 210007_(6) | 300~340 | **FIX** | 여 / 남 (phỏng vấn chính sách) | True | True |
+| 210007_(7) | 350~380 | **FIX** | Monologue 남 (bài giảng triết học) | True | True |
+
+> **Lưu ý quan trọng:**
+> - Với kind **FIX** thứ tự: KHÔNG được đảo nam↔nữ. Giữ đúng người nói mở đầu như cột Format (vd 210004_(3) PHẢI là 남 đọc tin tức, KHÔNG đổi sang 여).
+> - Với kind **Đảo được**: có thể chọn nam hoặc nữ mở đầu, miễn nhất quán trong 1 câu. Khi gen nhiều câu nên xen kẽ để đa dạng.
+> - `save_listen.py` tự động thêm/bỏ dấu "." theo bảng này (map `_ANSWER_PERIOD`, `_AUDIO_LENGTH`, `_FIXED_ORDER`) và **cảnh báo** khi độ dài audio lệch khoảng. Vẫn PHẢI gen đúng độ dài ngay từ đầu, KHÔNG ỷ lại script.
+
+---
+
 ## Output Format (JSON)
 
 Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
@@ -251,7 +307,10 @@ Phân tích từ 5.701 câu hỏi nghe thực tế. Ngưỡng gán nhãn: ≥2 t
 - Chỉ gán khi có bằng chứng rõ ràng, không suy đoán
 
 ### ⚠️ CHỈ ĐÚNG 1 ĐÁP ÁN (CRITICAL)
-> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN**: Mỗi đáp án trong q_answer PHẢI kết thúc bằng dấu "." (trừ dạng ảnh ①②③④). Mỗi dòng dịch đáp án trong explain (trước separator) cũng PHẢI kết thúc bằng ".".
+> **⏺ DẤU CHẤM CUỐI ĐÁP ÁN — THEO TỪNG KIND & TỪNG CÂU HỎI CON**: KHÔNG phải mọi kind đều thêm dấu ".". Tra bảng **[Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--format--dấu-câu)** (cột "Dấu . sau đáp án"):
+> - Cột `Đ.án Q1` / `Đ.án Q2` = quy tắc cho câu hỏi con thứ 1 / thứ 2. **True** = mỗi đáp án (và mỗi dòng dịch đáp án trong explain, trước separator) PHẢI kết thúc bằng ".". **False** = KHÔNG có "." (đáp án là cụm danh từ, cụm ngắn, hoặc ảnh ①②③④).
+> - Kind 2 câu hỏi (110008_*, 210006_*, 210007_*) thường KHÁC nhau: Q1 = cụm danh từ (False), Q2 = câu nội dung (True). Áp dụng đúng cho từng câu hỏi con.
+> - Đáp án dạng ảnh ①②③④ KHÔNG BAO GIỜ có dấu ".".
 
 - **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
 - Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**:
@@ -569,21 +628,25 @@ Mỗi kind có cấu trúc audio riêng được mô tả trong `kinds/{kind}.md
 
 #### QC-6: Độ dài audio (`g_text_audio`) theo kind
 
-Đếm số ký tự tiếng Hàn trong `g_text_audio` (không tính nhãn `남자:`, `여자:` và dòng trống `______`). Nếu chưa đạt → **bổ sung thêm nội dung** cho đủ, KHÔNG được bỏ qua.
+Đếm số ký tự tiếng Hàn trong `g_text_audio` (không tính nhãn `남자:`, `여자:` và dòng trống `______`). Đối chiếu **cột "Độ dài (ký tự)"** trong bảng [Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--format--dấu-câu) — đây là nguồn chuẩn cho TẤT CẢ 35 kind. Nếu chưa đạt khoảng → **bổ sung/cắt bớt nội dung** cho đúng, KHÔNG được bỏ qua.
 
-| Kind | Yêu cầu độ dài | Ghi chú |
-|------|----------------|---------|
-| 210001_2 | **~180 ký tự** | Monologue tin tức/báo cáo, cần đủ chi tiết số liệu để phân biệt 4 biểu đồ |
-| 110008_2 | **250~300 ký tự** | Hội thoại 6 lượt, mỗi lượt 40-50 ký tự |
-| 110008_3 | **~350 ký tự** | Hội thoại phỏng vấn 6 lượt, mỗi lượt dài hơn |
-| 110006 (3 lượt) | **~100 ký tự** | Hội thoại 3 lượt thoại |
-| 110006 (4 lượt) | **~150 ký tự** | Hội thoại 4 lượt thoại |
+**Cách đếm**: Chỉ đếm nội dung tiếng Hàn, bỏ qua nhãn `남자: ` / `여자: ` và dòng trống `______________________`. Kind có 2 khoảng (110006, 210005_(1)) = 2 cấu trúc lượt thoại; đạt đúng khoảng tương ứng với số lượt đã chọn.
 
-**Cách đếm**: Chỉ đếm nội dung Hàn Quốc, bỏ qua nhãn `남자: ` / `여자: ` (mỗi nhãn 4 ký tự + dấu cách) và dòng trống `______________________`.
+**Nếu thiếu**: thêm lượt thoại / chi tiết / phản hồi tự nhiên. **Nếu thừa**: rút gọn. `save_listen.py` sẽ **cảnh báo** (dòng `! Cau N ...`) nếu lệch khoảng — nhưng PHẢI gen đúng từ đầu.
 
-**Nếu thiếu**: Bổ sung thêm câu/chi tiết vào hội thoại cho đủ. Ví dụ: thêm 1 lượt thoại, thêm chi tiết mô tả, thêm phản hồi tự nhiên.
+#### QC-7: Thứ tự người nói (FIX vs Đảo được) + Dấu chấm sau đáp án
 
-#### QC-7: Tính nhất quán dữ liệu
+Đối chiếu bảng [Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--format--dấu-câu):
+
+- **Thứ tự người nói**: Kind đánh dấu **FIX** → người nói mở đầu PHẢI đúng giới tính như cột Format (vd 210004_(3) = 남 đọc 뉴스, 210006_(7) = 여 monologue). KHÔNG được đảo. Kind **Đảo được** → tự do chọn nhưng nhất quán trong 1 câu.
+- **Dấu "." sau đáp án** — THEO TỪNG CÂU HỎI CON:
+  - Cột `Đ.án Q1` = True → mọi đáp án câu hỏi 1 kết thúc bằng ".". = False → KHÔNG có ".".
+  - Cột `Đ.án Q2` (kind 2 câu hỏi) áp dụng riêng cho câu hỏi 2.
+  - Mỗi dòng dịch đáp án trong `explain` (trước separator) theo CÙNG quy tắc với đáp án tương ứng.
+  - Đáp án ảnh ①②③④ KHÔNG BAO GIỜ có ".".
+  - `save_listen.py` tự động chuẩn hóa dấu "." theo `_ANSWER_PERIOD` — nhưng explain nên viết đúng từ đầu để đồng bộ vi/en.
+
+#### QC-8: Tính nhất quán dữ liệu
 
 - `q_correct` nằm trong 1-4 và đáp án tương ứng thực sự đúng
 - `count_question` khớp số phần tử trong `content` — **PHẢI >= 1, KHÔNG BAO GIỜ = 0**
@@ -596,7 +659,7 @@ Mỗi kind có cấu trúc audio riêng được mô tả trong `kinds/{kind}.md
 ```
 SAU khi gen JSON, TRƯỚC khi lưu:
 1. Duyệt từng câu hỏi trong JSON
-2. Với mỗi câu, kiểm tra QC-1 → QC-7
+2. Với mỗi câu, kiểm tra QC-1 → QC-8
 3. Nếu phát hiện lỗi:
    a. Sửa TRỰC TIẾP trong JSON (không cần hỏi user)
    b. Ghi nhận lỗi đã sửa
