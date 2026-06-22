@@ -230,7 +230,7 @@ def flatten_question(question, timestamp=None, seq=0):
         g_img_desc = general.get("g_text_image", "")
 
     row = {
-        "id": f"{kind}+{uuid.uuid4().hex}",
+        "id": f"{kind}_{uuid.uuid4().hex}",
         "kind": kind,
         "level": question.get("level", ""),
         "tag": question.get("tag", "write"),
