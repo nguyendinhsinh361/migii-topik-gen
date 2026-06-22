@@ -169,13 +169,12 @@ def _period_for(kind, qidx):
 
 
 def _count_korean_audio_chars(audio):
-    """Đếm ký tự nội dung trong g_text_audio: bỏ nhãn 남자:/여자:, dòng trống, whitespace."""
+    """Đếm ĐỘ DÀI g_text_audio theo cách của BIÊN TẬP VIÊN = đếm gần như Google Dịch:
+    TÍNH CẢ nhãn 남자:/여자:, dấu cách, dấu câu, xuống dòng — NHƯNG **KHÔNG tính** ký tự
+    gạch dưới `_` của dòng trống (___)."""
     if not audio:
         return 0
-    text = re.sub(r'(?m)^\s*(남자|여자|남|여)\s*:\s*', '', audio)  # bỏ nhãn người nói
-    text = text.replace('_', '')                                  # bỏ dòng trống ____
-    text = re.sub(r'\s+', '', text)                               # bỏ whitespace
-    return len(text)
+    return len(audio.replace('_', '').strip())
 
 
 def check_audio_length(question):

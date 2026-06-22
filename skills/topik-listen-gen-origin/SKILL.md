@@ -103,7 +103,7 @@ Một số kind được tách thành nhiều **sub-kind**. Mỗi sub-kind có k
 
 **Cách đọc bảng:**
 
-- **Độ dài (ký tự)**: số ký tự nội dung tiếng Hàn của `g_text_audio`, **KHÔNG tính** nhãn `남자:`/`여자:` và dòng trống `____`. Có 2 khoảng (vd `85~95 / 140~160`) = kind có 2 cấu trúc lượt thoại; chọn 1 và đạt đúng khoảng tương ứng.
+- **Độ dài (ký tự)**: tổng số ký tự của `g_text_audio` đếm như **Google Dịch** — **TÍNH CẢ** nhãn `남자:`/`여자:`, dấu cách, dấu câu và xuống dòng; **KHÔNG tính** dòng trống `____`. Có 2 khoảng (vd `85~95 / 140~160`) = kind có 2 cấu trúc lượt thoại; chọn 1 và đạt đúng khoảng tương ứng.
 - **Thứ tự người nói**: `Đảo được` = format có ghi *"hoặc ngược lại"* → được hoán đổi nam↔nữ. `FIX` = thứ tự nam-nữ phải GIỮ ĐÚNG như cột Format, KHÔNG được đảo.
 - **Format**: cấu trúc lượt thoại mẫu. `___` = dòng trống (đáp án nối tiếp). Monologue = 1 người nói liên tục.
 - **Đ.án Q1 / Đ.án Q2**: dấu "." cuối đáp án cho câu hỏi con thứ 1 / thứ 2. `True` = có ".", `False` = không có ".". Dấu `—` = kind chỉ có 1 câu hỏi con.
@@ -630,7 +630,7 @@ Mỗi kind có cấu trúc audio riêng được mô tả trong `kinds/{kind}.md
 
 Đếm số ký tự tiếng Hàn trong `g_text_audio` (không tính nhãn `남자:`, `여자:` và dòng trống `______`). Đối chiếu **cột "Độ dài (ký tự)"** trong bảng [Quy tắc biên tập theo kind](#quy-tắc-biên-tập-theo-kind-độ-dài--format--dấu-câu) — đây là nguồn chuẩn cho TẤT CẢ 35 kind. Nếu chưa đạt khoảng → **bổ sung/cắt bớt nội dung** cho đúng, KHÔNG được bỏ qua.
 
-**Cách đếm**: Chỉ đếm nội dung tiếng Hàn, bỏ qua nhãn `남자: ` / `여자: ` và dòng trống `______________________`. Kind có 2 khoảng (110006, 210005_(1)) = 2 cấu trúc lượt thoại; đạt đúng khoảng tương ứng với số lượt đã chọn.
+**Cách đếm**: Đếm như Google Dịch — TÍNH CẢ nhãn `남자: `/`여자: `, dấu cách, dấu câu, xuống dòng; **KHÔNG tính** dòng trống `___`. Kind có 2 khoảng (110006, 210005_(1)) = 2 cấu trúc lượt thoại; đạt đúng khoảng tương ứng với số lượt đã chọn.
 
 **Nếu thiếu**: thêm lượt thoại / chi tiết / phản hồi tự nhiên. **Nếu thừa**: rút gọn. `save_listen.py` sẽ **cảnh báo** (dòng `! Cau N ...`) nếu lệch khoảng — nhưng PHẢI gen đúng từ đầu.
 

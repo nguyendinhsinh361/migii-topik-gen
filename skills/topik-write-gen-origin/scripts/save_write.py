@@ -97,13 +97,12 @@ def _period_for(kind, qidx):
 
 
 def _count_chars(text):
-    """Đếm ký tự nội dung: bỏ whitespace và ký hiệu chỗ trống ㉠/㉡/____/(ㄱ)/(ㄴ)."""
+    """Đếm độ dài theo cách của BIÊN TẬP VIÊN = đếm gần như Google Dịch:
+    TÍNH CẢ dấu cách, dấu câu, ㉠/㉡, (ㄱ)/(ㄴ), xuống dòng — NHƯNG **KHÔNG tính**
+    ký tự gạch dưới `_` của dòng trống (___)."""
     if not text:
         return 0
-    t = re.sub(r"[㉠㉡㉢㉣_]", "", text)
-    t = re.sub(r"\([ㄱ-ㅎ]\)", "", t)
-    t = re.sub(r"\s+", "", t)
-    return len(t)
+    return len(text.replace('_', '').strip())
 
 
 def check_text_lengths(question):

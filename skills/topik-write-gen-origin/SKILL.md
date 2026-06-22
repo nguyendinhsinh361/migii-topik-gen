@@ -40,7 +40,7 @@ Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKIL
 
 - **G_text (ký tự)**: độ dài đoạn đề bài/chủ đề ở `g_text`. `—` = không có. *Text trong ảnh* = chữ nằm TRONG ảnh đề bài (`g_image`/`q_image`), không phải `g_text`.
 - **Text câu hỏi (ký tự)**: độ dài `text_question_1` / `q_text`. `—` = không quy định.
-- **Đ.án theo câu hỏi**: dấu "." cuối đáp án cho từng câu hỏi con. Chỉ đếm ký tự nội dung tiếng Hàn (bỏ khoảng trắng, ㉠/㉡, `(ㄱ)/(ㄴ)`, `___`).
+- **Đ.án theo câu hỏi**: dấu "." cuối đáp án cho từng câu hỏi con. **Đếm như Google Dịch**: TÍNH CẢ dấu cách, dấu câu, ㉠/㉡, `(ㄱ)/(ㄴ)`, xuống dòng; **KHÔNG tính** dòng trống `___`.
 
 | Kind | count_question | G_text (ký tự) | Text câu hỏi (ký tự) | Dấu "." sau đáp án (theo câu hỏi) |
 |------|:---:|----------------|----------------------|-----------------------------------|

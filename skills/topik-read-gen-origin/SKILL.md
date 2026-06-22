@@ -110,7 +110,7 @@ Một số kind được tách thành nhiều **sub-kind** (đánh dấu "tổng
 - **G_text (ký tự)**: độ dài đoạn văn đọc dùng chung ở `g_text`. `—` = kind không có đoạn `g_text` riêng. *Text trong ảnh* = nội dung chữ nằm TRONG ảnh (`q_image`), không phải `g_text`.
 - **Text câu hỏi (ký tự)**: độ dài đoạn/câu đọc gắn theo câu hỏi (`text_question_1` / `q_text`). `—` = không quy định.
 - **Đ.án Q1 / Q2 / Q3**: dấu "." cuối đáp án cho từng câu hỏi con. `True` = có ".", `False` = không. `—` = không có câu hỏi con đó.
-- Chỉ đếm ký tự nội dung tiếng Hàn (bỏ khoảng trắng và ký hiệu chỗ trống ㉠/㉡/`___`).
+- **Đếm như Google Dịch**: TÍNH CẢ dấu cách, dấu câu, ký hiệu ㉠/㉡, xuống dòng; **KHÔNG tính** dòng trống `___`.
 
 | Kind | G_text (ký tự) | Text câu hỏi (ký tự) | Đ.án Q1 | Đ.án Q2 | Đ.án Q3 |
 |------|----------------|----------------------|:-------:|:-------:|:-------:|
