@@ -33,3 +33,4 @@ bash scripts/gen_read_origin.sh --parallel 2
 bash scripts/gen_write_origin.sh --parallel 3 230002 3
 
 bash scripts/gen_listen_origin.sh --model opencode-go/deepseek-v4-flash --parallel 3 "210006_(4)" 3
+bash scripts/gen_read_origin.sh --model opencode-go/deepseek-v4-flash --parallel 3 "120001" 3
