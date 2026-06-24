@@ -67,6 +67,7 @@ for f in files:
     except: pass
 if dfs:
     merged = pd.concat(dfs, ignore_index=True)
+    if "id" in merged.columns: merged = merged.drop_duplicates(subset="id", keep="first")
     merged.to_csv(main, index=False)
     print(f'Merged {len(files)} temp files into ${kind}.csv ({len(merged)} rows)')
 # Xóa file tạm
@@ -81,6 +82,7 @@ import pandas as pd, glob
 dfs = [pd.read_csv(f, dtype=str) for f in sorted(glob.glob('$OUTPUT/level_*/*.csv')) if pd.read_csv(f, dtype=str).shape[0] > 0]
 if dfs:
     merged = pd.concat(dfs, ignore_index=True)
+    if "id" in merged.columns: merged = merged.drop_duplicates(subset="id", keep="first")
     # Reorder: example_ and created_at at end
     end_cols = [c for c in merged.columns if c.startswith('example_') or c == 'created_at']
     other_cols = [c for c in merged.columns if c not in end_cols]

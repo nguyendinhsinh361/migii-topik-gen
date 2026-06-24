@@ -249,6 +249,8 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 - KHÔNG lặp lại từ vựng/ngữ cảnh giữa các câu trong cùng batch
 
 ### 2. Xây dựng đáp án sai (distractor)
+
+> **⛔ 4 ĐÁP ÁN CÂN BẰNG ĐỘ DÀI (ÁP DỤNG MỌI DẠNG)**: 4 đáp án PHẢI có độ dài tương đương nhau. **ĐẶC BIỆT KHÔNG để đáp án ĐÚNG dài đột biến** so với 3 đáp án còn lại — đáp án đúng dài hơn hẳn là dấu hiệu LỘ ĐÁP ÁN (thí sinh đoán câu dài nhất là đúng). Chênh lệch độ dài tối đa ~30%. Nếu đáp án đúng đang dài hơn → RÚT GỌN đáp án đúng, hoặc bổ sung chi tiết cho các đáp án sai để 4 câu cân nhau.
 - Tuân theo tỷ lệ bẫy của từng kind (xem file kind tương ứng)
 - Phải hợp lý nhưng SAI về nội dung
 - Tái sử dụng từ vựng bài đọc khi kind yêu cầu `trap_shared_noun`
@@ -283,6 +285,7 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 - Highlight từ vựng/ngữ pháp quan trọng
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ bài đọc, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Đoạn văn đề cập '안전 규칙을 지켜야 합니다'" — giữ nguyên phần Hàn
+- **🔤 BỌC TIẾNG HÀN BẰNG THẺ `<g></g>`**: Trong explain (CẢ explain_vi LẪN explain_en), MỌI cụm/từ/câu tiếng Hàn PHẢI được bọc trong thẻ HTML `<g>...</g>`. Nháy kép (nếu có) nằm NGOÀI thẻ. Ví dụ: ✅ Người nữ nói "<g>내일 회의가 취소됐어요</g>". — ❌ Người nữ nói "내일 회의가 취소됐어요". Áp dụng cho MỌI tiếng Hàn trong explain (trích dẫn, từ vựng, tên riêng, thuật ngữ...).
 - **Danh sách đáp án trong explain phải THUẦN ngôn ngữ đích** — explain_vi chỉ có tiếng Việt, explain_en chỉ có tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án:
   - ❌ `1. 약속 (cuộc hẹn)` hoặc `1. Cuộc hẹn (약속)` hoặc `1. 음식` (chỉ Hàn)
   - ✅ explain_vi: `1. Cuộc hẹn` / explain_en: `1. Appointment`
@@ -299,6 +302,7 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 - Tối đa: 20 câu mỗi lần
 
 ### 5. Kiểm tra sau khi gen (Validation Checklist)
+- [ ] **4 đáp án cân bằng độ dài** — đáp án ĐÚNG KHÔNG dài đột biến so với 3 đáp án còn lại (chênh lệch ~30%); nếu lệch → rút gọn đáp án đúng / thêm chi tiết cho đáp án sai
 - [ ] `q_correct` nằm trong 1-4
 - [ ] 4 đáp án không trùng nhau
 - [ ] Văn bản là tiếng Hàn tự nhiên, đúng level EPS

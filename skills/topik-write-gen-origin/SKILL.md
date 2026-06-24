@@ -195,6 +195,7 @@ Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng
 - **TUYỆT ĐỐI chỉ có 1 đáp án đúng duy nhất.** 3 đáp án sai PHẢI rõ ràng sai, không được hợp lệ từ bất kỳ góc nhìn nào.
 - Đáp án sai phải **tự mâu thuẫn nội tại** hoặc **trả lời sai loại thông tin**.
 - Trước khi hoàn thành, **kiểm tra lại 3 đáp án sai**: nếu bất kỳ đáp án sai nào có thể trả lời câu hỏi một cách hợp lệ → PHẢI sửa lại.
+- **⛔ 4 ĐÁP ÁN CÂN BẰNG ĐỘ DÀI**: 4 đáp án PHẢI có độ dài tương đương. **ĐẶC BIỆT KHÔNG để đáp án ĐÚNG dài đột biến** so với 3 đáp án còn lại — đáp án đúng dài hơn hẳn là dấu hiệu LỘ ĐÁP ÁN. Chênh lệch tối đa ~30%; nếu đáp án đúng đang dài hơn → rút gọn đáp án đúng hoặc thêm chi tiết cho các đáp án sai cho cân.
 
 ---
 
@@ -294,6 +295,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - Cả vi lẫn en đều phải giải thích **từng đáp án sai** vì sao sai
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ bài viết/đoạn văn, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam phân tích hiện tượng '양적인 관계 증가에도 질적 발전 부족'" — giữ nguyên phần Hàn
+- **🔤 BỌC TIẾNG HÀN BẰNG THẺ `<g></g>`**: Trong explain (CẢ explain_vi LẪN explain_en), MỌI cụm/từ/câu tiếng Hàn PHẢI được bọc trong thẻ HTML `<g>...</g>`. Nháy kép (nếu có) nằm NGOÀI thẻ. Ví dụ: ✅ Người nữ nói "<g>내일 회의가 취소됐어요</g>". — ❌ Người nữ nói "내일 회의가 취소됐어요". Áp dụng cho MỌI tiếng Hàn trong explain (trích dẫn, từ vựng, tên riêng, thuật ngữ...).
 - **Danh sách đáp án trong explain phải THUẦN ngôn ngữ đích** — explain_vi chỉ có tiếng Việt, explain_en chỉ có tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án:
   - ❌ `1. 약속 (cuộc hẹn)` hoặc `1. Cuộc hẹn (약속)` hoặc `1. 음식` (chỉ Hàn)
   - ✅ explain_vi: `1. Cuộc hẹn` / explain_en: `1. Appointment`
@@ -306,6 +308,7 @@ Write chỉ có trong TOPIK II (Level 2) — sử dụng ngữ pháp trung-cao c
 - **Xưng hô tiếng Việt PHẢI thống nhất** — không trộn "em"+"tôi" hay "anh"+"bạn". Ưu tiên dùng **"bạn"** (ngôi 2) + **"tôi"** (ngôi 1), hoặc lược bỏ đại từ khi có thể.
 
 ### Kiểm tra sau khi gen (Validation Checklist)
+- [ ] **4 đáp án cân bằng độ dài** — đáp án ĐÚNG KHÔNG dài đột biến so với 3 đáp án còn lại (chênh lệch ~30%); nếu lệch → rút gọn đáp án đúng / thêm chi tiết cho đáp án sai
 
 - [ ] `q_correct` nằm trong 1-4
 - [ ] 4 đáp án không trùng nhau
