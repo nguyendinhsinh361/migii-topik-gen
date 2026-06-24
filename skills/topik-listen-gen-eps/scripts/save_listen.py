@@ -23,6 +23,7 @@ Cau truc output:
 import csv
 import json
 import os
+import re
 import uuid
 import sys
 from datetime import datetime
@@ -95,7 +96,7 @@ def flatten_question(question, timestamp=None, seq=0):
 
     general = question.get("general", {})
     content_list = question.get("content", [])
-    kind = str(question.get("kind", ""))
+    kind = re.sub(r"_p\d+$", "", str(question.get("kind", "")))   # bỏ hậu tố _p<n> của file tạm parallel (id/kind sạch)
     audio_translate = general.get("g_text_audio_translate", {})
 
     row = {
@@ -281,6 +282,33 @@ def save_questions(questions, output_dir=None, append=False):
     return created_files
 
 
+def check_answer_balance(question):
+    """Cảnh báo nếu đáp án ĐÚNG dài hơn đáng kể so với các đáp án sai (dễ lộ đáp án)."""
+    warnings = []
+    for idx, c in enumerate(question.get("content", []) or []):
+        ans = [str(a).strip() for a in (c.get("q_answer", []) or [])
+               if str(a).strip() and str(a).strip() not in ("①", "②", "③", "④")]
+        if len(ans) < 4:
+            continue
+        try:
+            qc = int(c.get("q_correct"))
+        except (TypeError, ValueError):
+            continue
+        if not (1 <= qc <= len(ans)):
+            continue
+        clen = len(ans[qc - 1])
+        others = [len(a) for j, a in enumerate(ans) if j != qc - 1]
+        if not others:
+            continue
+        avg = sum(others) / len(others)
+        if clen > max(others) and clen > 1.3 * avg:
+            warnings.append(
+                f"cau hoi {idx+1}: dap an DUNG (#{qc}) dai {clen} ky tu, "
+                f"dai hon dang ke so voi 3 dap an sai (TB {round(avg)}) -> de lo dap an, nen can bang do dai"
+            )
+    return warnings
+
+
 def validate_and_report(questions):
     """Validate tat ca cau hoi, in bao cao."""
     total = len(questions)
@@ -297,6 +325,9 @@ def validate_and_report(questions):
                 print(f"    - {e}")
         else:
             passed += 1
+
+        for w in check_answer_balance(q):
+            print(f"  ! Cau {i+1} (kind={kind}): [balance] {w}")
 
     print(f"\n{'='*50}")
     print(f"  Tong: {total} | Passed: {passed} | Failed: {failed}")
