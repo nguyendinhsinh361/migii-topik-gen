@@ -736,6 +736,13 @@ def fix_csv_periods(output_dir=None):
         changed = 0
         for row in rows:
             row_kind = row.get("kind", "").strip() or kind
+            row_kind = re.sub(r"_p\d+$", "", row_kind)
+            # Chuẩn hoá id: {kind}_{uuid 32 hex}. Nếu uuid bị cắt ngắn/thiếu/dính _p -> tạo lại id đầy đủ
+            if fieldnames and "id" in fieldnames and row.get("id") is not None:
+                _rid = str(row.get("id", ""))
+                if not re.fullmatch(re.escape(row_kind) + r"_[0-9a-f]{32}", _rid):
+                    row["id"] = f"{row_kind}_{uuid.uuid4().hex}"
+                    changed += 1
 
             # Tìm tất cả cột q_answer_N / explain_*_N
             for key in list(row.keys()):
