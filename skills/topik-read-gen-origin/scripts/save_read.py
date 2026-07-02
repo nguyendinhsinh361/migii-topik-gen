@@ -735,6 +735,10 @@ def fix_csv_periods(output_dir=None):
         for row in rows:
             row_kind = row.get("kind", "").strip() or basename
             row_kind = re.sub(r"_p\d+$", "", row_kind)
+            # Ghi lại cột kind đã chuẩn hoá (bỏ hậu tố _p<n> của file tạm parallel)
+            if "kind" in fieldnames and row.get("kind", "").strip() != row_kind:
+                row["kind"] = row_kind
+                changed += 1
             # Chuẩn hoá id: {kind}_{uuid 32 hex}. Nếu uuid bị cắt ngắn/thiếu/dính _p -> tạo lại id đầy đủ
             if fieldnames and "id" in fieldnames and row.get("id") is not None:
                 _rid = str(row.get("id", ""))
