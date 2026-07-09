@@ -41,7 +41,7 @@ DEFAULT_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output", "read-origin")
 # Cột cố định (question-level)
 BASE_COLUMNS = [
     "id", "kind", "level", "tag", "title", "count_question",
-    "view_g_image", "g_image", "view_g_audio", "g_audio",
+    "view_g_image", "g_image", "g_image_desc", "view_g_audio", "g_audio",
     "g_text", "g_text_vi", "g_text_en",
     "g_text_audio", "g_text_audio_vi", "g_text_audio_en",
     "topic",
@@ -294,6 +294,7 @@ def flatten_question(question, timestamp=None, seq=0):
         "count_question": question.get("count_question", 1),
         "view_g_image": "",
         "g_image": general.get("g_image", ""),
+        "g_image_desc": general.get("g_image_desc", general.get("g_image_description", "")),
         "view_g_audio": "",
         "g_audio": general.get("g_audio", ""),
         "g_text": general.get("g_text", ""),
