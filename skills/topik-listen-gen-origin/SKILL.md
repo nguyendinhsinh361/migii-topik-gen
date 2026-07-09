@@ -15,7 +15,7 @@ Skill tạo câu hỏi phần Nghe (듣기) cho kỳ thi TOPIK I & II theo đún
 
 ## Cấu trúc thư mục
 
-```
+`
 skills/topik-listen-gen-origin/
 ├── SKILL.md              ← File này (overview + quy tắc chung)
 ├── scripts/
@@ -57,7 +57,7 @@ skills/topik-listen-gen-origin/
 │   ├── 210007_(6).md     Tọa đàm — Phỏng vấn chính sách [47~48]
 │   └── 210007_(7).md     Tọa đàm — 남 bài giảng triết học [49~50]
 └── samples.json          ← Mẫu câu hỏi tham khảo
-```
+`
 
 Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKILL.md này.
 
@@ -157,7 +157,7 @@ Một số kind được tách thành nhiều **sub-kind**. Mỗi sub-kind có k
 
 Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 
-```json
+`json
 {
   "title": "<tiêu đề dạng câu hỏi bằng tiếng Hàn>",
   "general": {
@@ -189,13 +189,13 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
   "count_question": <số câu hỏi con trong content — PHẢI >= 1, KHÔNG BAO GIỜ = 0>,
   "tag": "listen"
 }
-```
+`
 
 ### Trường metadata BẮT BUỘC
 
 Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json không chứa các trường này (vì lấy từ dữ liệu cũ), nhưng khi gen mới **BẮT BUỘC** phải thêm:
 
-```json
+`json
 // Trong content[] — thêm vào MỖI câu hỏi con:
 "question_feature": "<mã từ bảng question_feature>",
 "difficulty": 3,
@@ -205,7 +205,7 @@ Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json kh
 
 // Ở cấp top-level — thêm vào MỖI câu hỏi:
 "topic": "daily_routine"
-```
+`
 
 - `topic`: chọn từ bảng **Danh mục chủ đề** bên dưới
 - `question_feature`: chọn từ bảng **Đặc điểm câu hỏi** bên dưới, theo kind
@@ -216,7 +216,7 @@ Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json kh
 
 Kind có ảnh (110005, 210001_1, 210001_2) **PHẢI** có trường `q_image_description` ở **cấp top-level** (cùng cấp `title`, `general`), mô tả nội dung ảnh bằng text để AI tạo ảnh sau:
 
-```json
+`json
 {
   "q_image_description": {
     "1": "<mô tả nội dung hình 1.>",
@@ -225,7 +225,7 @@ Kind có ảnh (110005, 210001_1, 210001_2) **PHẢI** có trường `q_image_de
     "4": "<mô tả nội dung hình 4.>"
   }
 }
-```
+`
 
 Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng.
 
@@ -498,7 +498,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 
 **Format explain.vi và explain.en PHẢI GIỐNG NHAU về cấu trúc** — chỉ khác ngôn ngữ. Cụ thể:
 
-```
+`
 [Dịch câu hỏi phụ nếu có]          ← chỉ với kind có q_text
 
 1. [Dịch đáp án 1]
@@ -512,7 +512,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 Đáp án [X] sai vì [lý do].
 Đáp án [Y] sai vì [lý do].
 Đáp án [Z] sai vì [lý do].
-```
+`
 
 - **Format explain PHẢI xuống dòng rõ ràng** — mỗi phần (dịch câu hỏi phụ, dịch đáp án, separator, dịch nội dung, giải thích từng đáp án) PHẢI xuống dòng (`\n`). KHÔNG viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Explain phải dễ đọc, có cấu trúc rõ ràng.
 - **vi** và **en** phải có **cùng số phần** (dịch đáp án, separator, dịch nội dung, giải thích) và **cùng mức chi tiết**
@@ -530,7 +530,7 @@ Xác định mức trang trọng khi tạo audio. Chi tiết ngữ pháp cụ th
 - **`q_correct` PHẢI là integer** (1, 2, 3, hoặc 4) — **KHÔNG BAO GIỜ** là số thập phân (1.0, 2.0, 3.0, 4.0).
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
-- **🔤 BỌC TIẾNG HÀN BẰNG THẺ `<g></g>`**: Trong explain (CẢ explain_vi LẪN explain_en), MỌI cụm/từ/câu tiếng Hàn PHẢI được bọc trong thẻ HTML `<g>...</g>`. Nháy kép (nếu có) nằm NGOÀI thẻ. Ví dụ: ✅ Người nữ nói "<g>내일 회의가 취소됐어요</g>". — ❌ Người nữ nói "내일 회의가 취소됐어요". Áp dụng cho MỌI tiếng Hàn trong explain (trích dẫn, từ vựng, tên riêng, thuật ngữ...).
+- **🔤 KHÔNG DÙNG THẺ `<g></g>` TRONG EXPLAIN (cập nhật)**: Các cột giải thích (explain_vi, explain_en và _2/_3…) KHÔNG cần và KHÔNG được bọc thẻ `<g></g>`. Nếu cần nêu/trích tiếng Hàn thì viết trực tiếp, KHÔNG kèm thẻ.
 - **explain_vi PHẢI dịch đầy đủ 4 đáp án sang tiếng Việt** — KHÔNG được bỏ sót đáp án nào
 - **Danh sách đáp án trong explain phải THUẦN ngôn ngữ đích** — explain_vi chỉ có tiếng Việt, explain_en chỉ có tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án:
   - ❌ `1. 약속 (cuộc hẹn)` hoặc `1. Cuộc hẹn (약속)` hoặc `1. 음식` (chỉ Hàn)
@@ -660,7 +660,7 @@ Mỗi kind có cấu trúc audio riêng được mô tả trong `kinds/{kind}.md
 
 #### Cách thực hiện QC
 
-```
+`
 SAU khi gen JSON, TRƯỚC khi lưu:
 1. Duyệt từng câu hỏi trong JSON
 2. Với mỗi câu, kiểm tra QC-1 → QC-8
@@ -669,7 +669,7 @@ SAU khi gen JSON, TRƯỚC khi lưu:
    b. Ghi nhận lỗi đã sửa
 4. Sau khi sửa hết → mới chuyển sang bước 5 (lưu file)
 5. Báo cáo cho user: "QC passed ✓" hoặc "QC: đã sửa N lỗi (chi tiết: ...)"
-```
+`
 
 > **Nếu agent bỏ qua bước QC hoặc lưu file mà chưa QC → dữ liệu sẽ bị lỗi. Bước này là BẮT BUỘC.**
 
@@ -684,7 +684,7 @@ SAU khi gen JSON, TRƯỚC khi lưu:
 
 ### Lưu kết quả bằng script
 
-```bash
+`bash
 # Lưu trực tiếp CSV theo kind + merge tổng
 python skills/topik-listen-gen-origin/scripts/save_listen.py --data '<JSON_STRING>' -o output/listen-origin --merge
 
@@ -693,4 +693,4 @@ python skills/topik-listen-gen-origin/scripts/save_listen.py --data '<JSON_STRIN
 
 # Append thêm batch mới
 python skills/topik-listen-gen-origin/scripts/save_listen.py --data '<JSON_STRING>' --append
-```
+`

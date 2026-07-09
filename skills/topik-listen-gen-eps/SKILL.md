@@ -15,7 +15,7 @@ Skill tạo câu hỏi phần Nghe (듣기) cho kỳ thi EPS-TOPIK (Level 3 — 
 
 ## Cấu trúc thư mục
 
-```
+`
 skills/topik-listen-gen-eps/
 ├── SKILL.md              ← File này (overview + quy tắc chung)
 ├── scripts/
@@ -30,7 +30,7 @@ skills/topik-listen-gen-eps/
 │   ├── 3410002.md        Nhận diện giờ (EPS) [ảnh]
 │   └── 3410005.md        Chọn câu nối tiếp EPS (pragmatic_response)
 └── samples.json          ← Mẫu câu hỏi tham khảo
-```
+`
 
 Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKILL.md này.
 
@@ -42,7 +42,7 @@ Khi gen kind cụ thể, đọc file `kinds/{kind}.md` tương ứng + file SKIL
 
 Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
 
-```json
+`json
 {
   "title": "<tiêu đề dạng câu hỏi bằng tiếng Hàn>",
   "general": {
@@ -74,13 +74,13 @@ Mỗi câu hỏi PHẢI tuân theo cấu trúc JSON sau:
   "count_question": <số câu hỏi con trong content — PHẢI >= 1, KHÔNG BAO GIỜ = 0>,
   "tag": "listen"
 }
-```
+`
 
 ### Trường metadata BẮT BUỘC
 
 Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json không chứa các trường này (vì lấy từ dữ liệu cũ), nhưng khi gen mới **BẮT BUỘC** phải thêm:
 
-```json
+`json
 // Trong content[] — thêm vào MỖI câu hỏi con:
 "question_feature": "<mã từ bảng question_feature>",
 "difficulty": 3,
@@ -90,7 +90,7 @@ Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json kh
 
 // Ở cấp top-level — thêm vào MỖI câu hỏi:
 "topic": "daily_routine"
-```
+`
 
 - `topic`: chọn từ bảng **Danh mục chủ đề** bên dưới
 - `question_feature`: chọn từ bảng **Đặc điểm câu hỏi** bên dưới, theo kind
@@ -101,7 +101,7 @@ Các trường sau **PHẢI có** trong mỗi câu hỏi gen ra. Samples.json kh
 
 Kind có ảnh (310002, 310003, 3410002) **PHẢI** có trường `q_image_description` ở **cấp top-level** (cùng cấp `title`, `general`):
 
-```json
+`json
 // Kind 310003, 3410002 (4 hình đáp án):
 {
   "q_image_description": {
@@ -118,7 +118,7 @@ Kind có ảnh (310002, 310003, 3410002) **PHẢI** có trường `q_image_descr
     "image": "<mô tả bức tranh duy nhất>"
   }
 }
-```
+`
 
 Cách viết mô tả: xem chi tiết trong file `kinds/{kind}.md` tương ứng.
 
@@ -319,7 +319,7 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 
 **Format explain.vi và explain.en PHẢI GIỐNG NHAU về cấu trúc** — chỉ khác ngôn ngữ. Cụ thể:
 
-```
+`
 [Dịch câu hỏi phụ nếu có]
 
 1. [Dịch đáp án 1]
@@ -333,7 +333,7 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 Đáp án [X] sai vì [lý do].
 Đáp án [Y] sai vì [lý do].
 Đáp án [Z] sai vì [lý do].
-```
+`
 
 - **Format explain PHẢI xuống dòng rõ ràng** — mỗi phần (dịch câu hỏi phụ, dịch đáp án, separator, dịch nội dung, giải thích từng đáp án) PHẢI xuống dòng (`\n`). KHÔNG viết thành 1 đoạn dài liền mạch. Mỗi đáp án giải thích trên 1 dòng riêng. Explain phải dễ đọc, có cấu trúc rõ ràng.
 - **`q_correct` PHẢI phân bố đều 1-4** trong cùng batch (cùng kind). KHÔNG được thiên lệch — ví dụ: nếu gen 4 câu cùng kind thì phải có q_correct = 1, 2, 3, 4 (mỗi giá trị 1 lần). KHÔNG fix cứng q_correct = 1.
@@ -345,7 +345,7 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 - **BẮT BUỘC dùng "người nam"** / **"người nữ"** trong explain tiếng Việt (không dùng "nam", "nữ", "anh ấy", "cô ấy")
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
-- **🔤 BỌC TIẾNG HÀN BẰNG THẺ `<g></g>`**: Trong explain (CẢ explain_vi LẪN explain_en), MỌI cụm/từ/câu tiếng Hàn PHẢI được bọc trong thẻ HTML `<g>...</g>`. Nháy kép (nếu có) nằm NGOÀI thẻ. Ví dụ: ✅ Người nữ nói "<g>내일 회의가 취소됐어요</g>". — ❌ Người nữ nói "내일 회의가 취소됐어요". Áp dụng cho MỌI tiếng Hàn trong explain (trích dẫn, từ vựng, tên riêng, thuật ngữ...).
+- **🔤 KHÔNG DÙNG THẺ `<g></g>` TRONG EXPLAIN (cập nhật)**: Các cột giải thích (explain_vi, explain_en và _2/_3…) KHÔNG cần và KHÔNG được bọc thẻ `<g></g>`. Nếu cần nêu/trích tiếng Hàn thì viết trực tiếp, KHÔNG kèm thẻ.
 - **Danh sách đáp án trong explain phải THUẦN ngôn ngữ đích** — explain_vi chỉ có tiếng Việt, explain_en chỉ có tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án:
   - ❌ `1. 약속 (cuộc hẹn)` hoặc `1. Cuộc hẹn (약속)` hoặc `1. 음식` (chỉ Hàn)
   - ✅ explain_vi: `1. Cuộc hẹn` / explain_en: `1. Appointment`
@@ -392,7 +392,7 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 
 ### Lưu kết quả bằng script
 
-```bash
+`bash
 # Lưu trực tiếp CSV theo kind + merge tổng
 python skills/topik-listen-gen-eps/scripts/save_listen.py --data '<JSON_STRING>' -o output/listen-eps --merge
 
@@ -401,4 +401,4 @@ python skills/topik-listen-gen-eps/scripts/save_listen.py --data '<JSON_STRING>'
 
 # Append thêm batch mới
 python skills/topik-listen-gen-eps/scripts/save_listen.py --data '<JSON_STRING>' --append
-```
+`
