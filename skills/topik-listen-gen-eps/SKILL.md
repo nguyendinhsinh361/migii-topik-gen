@@ -345,7 +345,7 @@ gram_honorific_시(21%), gram_request_세요(19%), gram_honorific_습니다(18%)
 - **BẮT BUỘC dùng "người nam"** / **"người nữ"** trong explain tiếng Việt (không dùng "nam", "nữ", "anh ấy", "cô ấy")
 - **KHÔNG dùng icon/emoji** (✅, ❌, ✓, ✗...) trong explain. Explain là text thuần, không có icon
 - **Trích dẫn tiếng Hàn giữ nguyên** — khi explain dẫn từ/cụm từ/câu tiếng Hàn từ audio, PHẢI giữ nguyên tiếng Hàn trong ngoặc đơn, KHÔNG dịch sang tiếng Việt hay tiếng Anh. Ví dụ: "Người nam nói '내일 회의가 취소됐어요'" — giữ nguyên phần Hàn
-- **🔤 KHÔNG DÙNG THẺ `<g></g>` TRONG EXPLAIN (cập nhật)**: Các cột giải thích (explain_vi, explain_en và _2/_3…) KHÔNG cần và KHÔNG được bọc thẻ `<g></g>`. Nếu cần nêu/trích tiếng Hàn thì viết trực tiếp, KHÔNG kèm thẻ.
+- **🔤 THẺ `<g></g>` TRONG EXPLAIN (cập nhật)**: Cột TIẾNG VIỆT (explain_vi, explain_vi_2/3…) KHÔNG dùng thẻ `<g></g>` — viết tiếng Hàn trực tiếp. Cột TIẾNG ANH (explain_en, explain_en_2/3…) PHẢI bọc `<g></g>` quanh MỌI cụm tiếng Hàn (từ/cụm/câu trích dẫn tiếng Hàn).
 - **Danh sách đáp án trong explain phải THUẦN ngôn ngữ đích** — explain_vi chỉ có tiếng Việt, explain_en chỉ có tiếng Anh. KHÔNG trộn tiếng Hàn vào danh sách đáp án:
   - ❌ `1. 약속 (cuộc hẹn)` hoặc `1. Cuộc hẹn (약속)` hoặc `1. 음식` (chỉ Hàn)
   - ✅ explain_vi: `1. Cuộc hẹn` / explain_en: `1. Appointment`
